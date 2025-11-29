@@ -23,7 +23,7 @@
 		"innerColor": [255,0,0],
 		"favoredReligion": "Shinto",
 		"uniqueName": "Hamsters of the Jade Hall",
-        "uniques": ["[+2 Production] from [Forest,Jungle] tiles [in all cities]", "[+2 Production] from every [Great Improvement]","[+1 Food, +4 Production] from [Mountain] tiles [in all cities]","Cities are razed [2] times as fast"],
+        "uniques": ["[+2 Food] from [Forest] tiles [in all cities]", "[+2 Food] from [Jungle] tiles [in all cities]","[+1 Food, +4 Production] from [Mountain] tiles [in all cities]","Cities are razed [2] times as fast"],
 		"cities": ["Seoul","Busan","Jeonju","Daegu","Pyongyang","Kaesong","Suwon","Gwangju","Gangneung","Hamhung","Wonju","Ulsan",
 			"Changwon","Andong","Gongju","Haeju","Cheongju","Mokpo","Dongducheon","Geoje","Suncheon","Jinju","Sangju",
 			"Rason","Gyeongju","Chungju","Sacheon","Gimje","Anju"],
