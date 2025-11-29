@@ -3,7 +3,7 @@
 		"name": "Hamsters",
 		"leaderName": "Hamsky",
 		"adjective": ["hamster"],
-		"startBias": ["Coast"],
+		"startBias": ["Coast","Avoid [Tundra]","Avoid [Snow]"],
 		"preferredVictoryType": "Domination",
 		"personality": "Sejong",
 
