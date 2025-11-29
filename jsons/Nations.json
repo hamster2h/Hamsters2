@@ -23,7 +23,7 @@
 		"innerColor": [255,0,0],
 		"favoredReligion": "Shinto",
 		"uniqueName": "Hamsters of the Jade Hall",
-        "uniques": ["[+1 Food, +5 Production] from [Mountain] tiles [in all cities]"],
+        "uniques": ["[+1 Food, +6 Production] from [Mountain] tiles [in all cities]"],
 		"cities": ["Seoul","Busan","Jeonju","Daegu","Pyongyang","Kaesong","Suwon","Gwangju","Gangneung","Hamhung","Wonju","Ulsan",
 			"Changwon","Andong","Gongju","Haeju","Cheongju","Mokpo","Dongducheon","Geoje","Suncheon","Jinju","Sangju",
 			"Rason","Gyeongju","Chungju","Sacheon","Gimje","Anju"],
