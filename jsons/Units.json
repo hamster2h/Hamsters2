@@ -13,8 +13,11 @@
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Electronics",
 		"uniques": [
-			"Never appears as a Barbarian unit",
-			"May heal outside of friendly territory"
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Indirect Fire",
+			"Supply"
 		],
 		"upgradesTo": "Battleship",
 		"hurryCostModifier": 20,
@@ -35,11 +38,11 @@
 		"upgradesTo": "Missile Cruiser",
 		"obsoleteTech": "Robotics",
 		"uniques": [
-			"Never appears as a Barbarian unit",
-			"May heal outside of friendly territory"
+			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
-			"Indirect Fire"
+			"Indirect Fire",
+			"Supply"
 		],
 		"attackSound": "shipguns"
 	},
@@ -62,11 +65,11 @@
 			"Can see invisible [Submarine] units",
 			"Can carry [4] [Missile] units",
 			"[+100]% Strength <vs [Submarine] units>",
-			"Never appears as a Barbarian unit",
-			"May heal outside of friendly territory"
+			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
-			"Indirect Fire"
+			"Indirect Fire",
+			"Supply"
 		],
 		"attackSound": "shipguns"
 	},
