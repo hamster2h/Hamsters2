@@ -7,6 +7,8 @@
     "unciv-mod-expansion"
 ],
 "uniques": [
+    "Allow raze capital",
+    "Allow raze holy city",
     "Cannot be used as permanent audiovisual mod",
     "Suppress warning [Artillery is supposed to automatically upgrade at tech Nanotechnology, and therefore Rocketry for its upgrade Rocket Artillery may not yet be researched!]"
 ]
