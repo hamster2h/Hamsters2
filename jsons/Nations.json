@@ -23,7 +23,7 @@
 		"innerColor": [255,0,0],
 		"favoredReligion": "Shinto",
 		"uniqueName": "Hamsters of the Jade Hall",
-        "uniques": ["[+2 Production] from every specialist [in all cities]", "[+2 Production] from every [Great Improvement]","Cities are razed [2] times as fast","Starts with [Merchant Navy] adopted"],
+        "uniques": ["[+2 Production] from every specialist [in all cities]", "[+2 Production] from every [Great Improvement]","Cities are razed [2] times as fast","[+1 Gold, +4 Production] from [Mountain] tiles [in all cities]"],
 		"cities": ["Seoul","Busan","Jeonju","Daegu","Pyongyang","Kaesong","Suwon","Gwangju","Gangneung","Hamhung","Wonju","Ulsan",
 			"Changwon","Andong","Gongju","Haeju","Cheongju","Mokpo","Dongducheon","Geoje","Suncheon","Jinju","Sangju",
 			"Rason","Gyeongju","Chungju","Sacheon","Gimje","Anju"],
