@@ -6,7 +6,7 @@
 		"cost": 125,
 		"culture": 1,
 		"isNationalWonder": false,
-		"uniques": ["New [Military] units start with [15] XP [in this city]","All newly-trained [non-[Air]] units [in this city] receive the [Morale] promotion",
+		"uniques": ["New [Military] units start with [15] XP [in this city]","All newly-trained [Ranged Water] units [in this city] receive the [Extended Range] promotion",
 			"Cost increases by [30] per owned city"],
 		"requiredTech": "Iron Working"
 	},
