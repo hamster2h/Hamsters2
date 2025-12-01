@@ -727,7 +727,6 @@
 		"range": 12,
 		"cost": 1500,
 		"requiredTech": "Advanced Ballistics",
-		"upgradesTo": "Orbital Strike",
 		"uniques": [
 			"Nuclear weapon of Strength [2]",
 			"Only available <if [Nuclear Testing Site] is constructed>",
@@ -1214,8 +1213,8 @@
 		"requiredTech": "Spaceflight",
 		"uniques": [
 			"[-100]% maintenance costs",
-			"Nuclear weapon of Strength [2]",
-			"Blast radius [1]"
+			"Nuclear weapon of Strength [3]",
+			"Blast radius [0]"
 		],
 		"attackSound": "nuke"
 	},
