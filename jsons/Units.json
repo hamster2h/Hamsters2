@@ -7,8 +7,8 @@
 		"movement": 6,
 		"strength": 25,
 		"rangedStrength": 28,
-		"range":3,
-		"cost": 185,
+		"range": 3,
+		"cost": 200,
 		"requiredResource": "Iron",
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Electronics",
@@ -31,7 +31,7 @@
 		"strength": 55,
 		"rangedStrength": 55,
 		"range": 5,
-		"cost": 375,
+		"cost": 400,
 		"requiredResource": "Oil",
 		"requiredTech": "Electronics",
 		"upgradesTo": "Missile Cruiser",
@@ -53,7 +53,7 @@
 		"movement": 10,
 		"strength": 80,
 		"rangedStrength": 100,
-		"range": 6,
+		"range": 5,
 		"interceptRange": 2,
 		"cost": 425,
 		"requiredTech": "Robotics",
@@ -62,7 +62,7 @@
 			"Consumes [1] [Aluminum]",
 			"[100]% chance to intercept air attacks",
 			"Can see invisible [Submarine] units",
-			"Can carry [4] [Missile] units",
+			"Can carry [6] [Missile] units",
 			"[+100]% Strength <vs [Submarine] units>",
 			"Never appears as a Barbarian unit"
 		],
@@ -561,15 +561,13 @@
 	{
 		"name": "Carrier",
 		"unitType": "Aircraft Carrier",
-		"movement": 5,
-		"strength": 60,
-		"cost": 375,
+		"movement": 6,
+		"strength": 40,
+		"cost": 500,
 		"requiredTech": "Electronics",
-		"obsoleteTech": "Clean Energy",
 		"uniques": [
 			"Cyber",
-			"[+33]% Strength <vs [Ranged] units>",
-			"Can carry [3] [Aircraft] units",
+			"Can carry [4] [Aircraft] units",
 			"Never appears as a Barbarian unit"
 		]
 	},
@@ -659,15 +657,15 @@
 		"name": "Guided Missile",
 		"unitType": "Missile",
 		"movement": 1,
-		"strength": 60,
-		"rangedStrength": 60,
-		"range": 7,
-		"cost": 150,
+		"strength": 80,
+		"rangedStrength": 80,
+		"range": 8,
+		"cost": 100,
 		"requiredTech": "Advanced Ballistics",
 		"uniques": [
 			"[-100]% maintenance costs",
-			"[+33]% Strength <after discovering [Lasers]>",
-			"[+3] Range <after discovering [Satellites]>"
+			"[+50]% Strength <after discovering [Lasers]>",
+			"[+4] Range <after discovering [Satellites]>"
 		],
 		"attackSound": "missile"
 	},
@@ -735,7 +733,7 @@
 			"Nuclear weapon of Strength [2]",
 			"Only available <if [Nuclear Testing Site] is constructed>",
 			"Blast radius [2]",
-			"Consumes [2] [Uranium]"
+			"Consumes [1] [Uranium]"
 		],
 		"attackSound": "nuke"
 	},
@@ -751,7 +749,7 @@
 		"requiredTech": "Computers",
 		"uniques": [
 			"Intel",
-			"Comment [+1 Range to adjacent Siege Units]",
+			"Comment [+2 Range to adjacent Siege Units]",
 			"[+33]% Strength bonus for [Siege] units within [1] tiles",
 			"[+1] Sight",
 			"No defensive terrain bonus",
@@ -775,7 +773,7 @@
 			"Consumes [1] [Aluminum]",
 			"[100]% chance to intercept air attacks",
 			"Can see invisible [Submarine] units",
-			"Can carry [3] [Missile] units",
+			"Can carry [4] [Missile] units",
 			"[+100]% Strength <vs [Submarine] units>",
 			"Never appears as a Barbarian unit"
 		],
@@ -873,7 +871,6 @@
 		"movement": 2,
 		"strength": 90,
 		"cost": 560,
-		"requiredResource": "Aluminum",
 		"uniques": [
 			"Cyber",
 			"Hacker",
@@ -1141,35 +1138,6 @@
 		"attackSound": "energyshot"
 	},
 	{
-		"name": "Orbital Carrier",
-		"unitType": "Land Carrier",
-		"movement": 3,
-		"range": 2,
-		"interceptRange": 2,
-		"strength": 125,
-		"rangedStrength": 125,
-		"cost": 750,
-		"requiredResource": "Composites",
-		"uniques": [
-			"Cyber",
-			"Space",
-			"Only available <if [GP-Energy Weapons] is constructed>",
-			"No defensive terrain bonus",
-			"Can move after attacking",
-			"All tiles cost 1 movement",
-			"Ignores Zone of Control",
-			"Can carry [2] [Aircraft] units",
-			"[100]% chance to intercept air attacks",
-			"[+25]% Strength <vs [Air] units>",
-			"Never appears as a Barbarian unit"
-		],
-		"promotions": [
-			"In Orbit",
-			"Amphibious"
-		],
-		"attackSound": "energyshot"
-	},
-	{
 		"name": "Orbital Jet",
 		"unitType": "Fighter",
 		"movement": 2,
@@ -1235,27 +1203,6 @@
 			"Gravity Generator"
 		],
 		"attackSound": "gdrAttack"
-	},
-	{
-		"name": "Future Submarine",
-		"unitType": "Submarine",
-		"movement": 6,
-		"strength": 65,
-		"range": 3,
-		"rangedStrength": 100,
-		"cost": 530,
-		"requiredResource": "Composites",
-		"uniques": [
-			"Cyber",
-			"Only available <if [EP-Cyber Engineering] is constructed>",
-			"[+75]% Strength <when attacking>",
-			"Can move after attacking",
-			"[+1] Sight",
-			"Can carry [2] [Missile] units",
-			"Ignores Zone of Control",
-			"Never appears as a Barbarian unit"
-		],
-		"attackSound": "torpedo"
 	},
 	{
 		"name": "Orbital Strike",
