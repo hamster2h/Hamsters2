@@ -711,10 +711,7 @@
 		"cost": 2600,
 		"requiredTech": "Particle Physics",
 		"uniques": [
-			"[Energy Infantry] units gain the [Teleportation] promotion",
-			"[Future Soldier] units gain the [Teleportation] promotion",
-			"[Giant Death Robot] units gain the [Teleportation] promotion",
-			"[Stealth Hacker] units gain the [Teleportation] promotion"
+			"[Giant Death Robot] units gain the [Teleportation] promotion"
 		],
 		"quote": "'If I could teleport, I'd probably still be late.' - Anonymous"
 	},
