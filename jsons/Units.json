@@ -1265,10 +1265,9 @@
 		"rangedStrength": 500,
 		"range": 18,
 		"cost": 2000,
-		"requiredTech": "Particle Physics",
+		"requiredTech": "Spaceflight",
 		"uniques": [
 			"Nuclear weapon of Strength [2]",
-			"Only available <if [Nuclear Testing Site] is constructed>",
 			"Blast radius [3]"
 		],
 		"attackSound": "nuke"
