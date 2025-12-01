@@ -657,7 +657,7 @@
 		"strength": 80,
 		"rangedStrength": 80,
 		"range": 8,
-		"cost": 100,
+		"cost": 200,
 		"requiredTech": "Advanced Ballistics",
 		"uniques": [
 			"[-100]% maintenance costs",
