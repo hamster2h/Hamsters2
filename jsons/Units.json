@@ -1208,7 +1208,7 @@
 		"movement": 1,
 		"strength": 500,
 		"rangedStrength": 500,
-		"range": 18,
+		"range": 14,
 		"cost": 2000,
 		"requiredTech": "Spaceflight",
 		"uniques": [
