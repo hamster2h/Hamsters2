@@ -1206,7 +1206,7 @@
 		"strength": 500,
 		"rangedStrength": 500,
 		"range": 12,
-		"cost": 10000,
+		"cost": 12000,
 		"requiredTech": "Spaceflight",
 		"uniques": [
 			"[-100]% maintenance costs",
