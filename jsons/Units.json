@@ -705,7 +705,6 @@
 		"rangedStrength": 100,
 		"cost": 425,
 		"requiredTech": "Telecommunications",
-		"upgradesTo": "Future Submarine",
 		"uniques": [
 			"Cyber",
 			"Consumes [1] [Uranium]",
