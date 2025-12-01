@@ -661,7 +661,7 @@
 		"requiredTech": "Advanced Ballistics",
 		"uniques": [
 			"[-100]% maintenance costs",
-			"[+125]% Strength <after discovering [Lasers]>",
+			"[+150]% Strength <after discovering [Lasers]>",
 			"[+4] Range <after discovering [Satellites]>"
 		],
 		"attackSound": "missile"
