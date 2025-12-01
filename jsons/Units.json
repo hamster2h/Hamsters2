@@ -887,7 +887,7 @@
 		"movement": 2,
 		"strength": 90,
 		"rangedStrength": 90,
-		"range": 20,
+		"range": 16,
 		"cost": 425,
 		"requiredTech": "Stealth",
 		"requiredResource": "Aluminum",
@@ -903,7 +903,7 @@
 		"movement": 2,
 		"strength": 90,
 		"rangedStrength": 90,
-		"range": 20,
+		"range": 16,
 		"cost": 560,
 		"requiredResource": "Oil",
 		"uniques": [
@@ -1068,21 +1068,18 @@
 		"name": "Synthethic Plant",
 		"unitType": "Gunpowder",
 		"movement": 4,
-		"interceptRange": 6,
+		"interceptRange": 1,
 		"strength": 100,
 		"cost": 530,
 		"requiredTech": "Metagenetics",
 		"uniques": [
 			"Bio",
-			"[100]% chance to intercept air attacks",
-			"[+150]% Strength <vs [Air] units>",
-			"[+50]% Strength <vs [Bomber] units>",
+			"[50]% chance to intercept air attacks",
 			"Can move after attacking",
 			"Heals [25] damage if it kills a unit",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
-			"Sortie",
 			"Implants"
 		],
 		"attackSound": "bite"
@@ -1117,7 +1114,6 @@
 			"Cyber",
 			"Only available <if [GP-Energy Weapons] is constructed>",
 			"[+100]% Strength <vs [Armored] units>",
-			"[+75]% Strength <vs [Fighter] units>",
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"All tiles cost 1 movement",
@@ -1138,8 +1134,8 @@
 		"movement": 2,
 		"strength": 75,
 		"rangedStrength": 75,
-		"range": 20,
-		"interceptRange": 20,
+		"range": 14,
+		"interceptRange": 14,
 		"cost": 700,
 		"requiredResource": "Composites",
 		"uniques": [
@@ -1162,7 +1158,7 @@
 		"movement": 2,
 		"strength": 90,
 		"rangedStrength": 90,
-		"range": 28,
+		"range": 20,
 		"cost": 700,
 		"requiredResource": "Composites",
 		"uniques": [
