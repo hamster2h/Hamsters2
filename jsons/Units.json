@@ -654,14 +654,14 @@
 		"name": "Guided Missile",
 		"unitType": "Missile",
 		"movement": 1,
-		"strength": 100,
-		"rangedStrength": 100,
+		"strength": 80,
+		"rangedStrength": 80,
 		"range": 8,
 		"cost": 100,
 		"requiredTech": "Advanced Ballistics",
 		"uniques": [
 			"[-100]% maintenance costs",
-			"[+50]% Strength <after discovering [Lasers]>",
+			"[+125]% Strength <after discovering [Lasers]>",
 			"[+4] Range <after discovering [Satellites]>"
 		],
 		"attackSound": "missile"
