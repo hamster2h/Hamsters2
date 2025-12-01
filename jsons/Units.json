@@ -887,7 +887,7 @@
 		"movement": 2,
 		"strength": 90,
 		"rangedStrength": 90,
-		"range": 16,
+		"range": 14,
 		"cost": 425,
 		"requiredTech": "Stealth",
 		"requiredResource": "Aluminum",
@@ -903,7 +903,7 @@
 		"movement": 2,
 		"strength": 90,
 		"rangedStrength": 90,
-		"range": 16,
+		"range": 14,
 		"cost": 560,
 		"requiredResource": "Oil",
 		"uniques": [
@@ -970,7 +970,7 @@
 		"cost": 500,
 		"requiredTech": "Lasers",
 		"uniques": [
-			"May Paradrop to [Land] tiles up to [40] tiles away <in [{Friendly} {Land}] tiles>",
+			"May Paradrop to [Land] tiles up to [16] tiles away <in [{Friendly} {Land}] tiles>",
 			"No movement cost to pillage",
 			"Never appears as a Barbarian unit"
 		],
@@ -1134,8 +1134,8 @@
 		"movement": 2,
 		"strength": 75,
 		"rangedStrength": 75,
-		"range": 14,
-		"interceptRange": 14,
+		"range": 12,
+		"interceptRange": 12,
 		"cost": 700,
 		"requiredResource": "Composites",
 		"uniques": [
@@ -1158,7 +1158,7 @@
 		"movement": 2,
 		"strength": 90,
 		"rangedStrength": 90,
-		"range": 20,
+		"range": 18,
 		"cost": 700,
 		"requiredResource": "Composites",
 		"uniques": [
@@ -1182,10 +1182,9 @@
 		"requiredTech": "Nuclear Fusion",
 		"requiredResource": "Composites",
 		"uniques": [
-			"Consumes [2] [Uranium]",
+			"Consumes [1] [Uranium]",
 			"Cyber",
 			"Can move after attacking",
-			"Can carry [1] [Missile] units",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
