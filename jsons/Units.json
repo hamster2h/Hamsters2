@@ -62,7 +62,7 @@
 			"Consumes [1] [Aluminum]",
 			"[100]% chance to intercept air attacks",
 			"Can see invisible [Submarine] units",
-			"Can carry [6] [Missile] units",
+			"Can carry [8] [Missile] units",
 			"[+100]% Strength <vs [Submarine] units>",
 			"Never appears as a Barbarian unit"
 		],
@@ -657,7 +657,7 @@
 		"strength": 80,
 		"rangedStrength": 80,
 		"range": 8,
-		"cost": 200,
+		"cost": 150,
 		"requiredTech": "Advanced Ballistics",
 		"uniques": [
 			"[-100]% maintenance costs",
@@ -768,7 +768,7 @@
 			"Consumes [1] [Aluminum]",
 			"[100]% chance to intercept air attacks",
 			"Can see invisible [Submarine] units",
-			"Can carry [4] [Missile] units",
+			"Can carry [6] [Missile] units",
 			"[+100]% Strength <vs [Submarine] units>",
 			"Never appears as a Barbarian unit"
 		],
