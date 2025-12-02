@@ -3,12 +3,12 @@
 		"name": "Hamster Epic",
 		"replaces": "Heroic Epic",
 		"uniqueTo": "Hamsters",
-		"cost": 350,
-		"culture": 1,
+		"cost": 500,
 		"isNationalWonder": false,
 		"uniques": [
 			"[+1 Science] per [2] population [in this city]",
-			"[+1 Production] per [2] population [in this city]"
+			"[+1 Production] per [2] population [in this city]",
+			"[+1 Gold] per [2] population [in this city]"
 		],
 		"requiredTech": "Iron Working"
 	},
