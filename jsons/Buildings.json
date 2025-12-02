@@ -29,7 +29,7 @@
 			"Provides [1] [Corporation Slot(Total)] <in cities without a [No Corporation]> <after discovering [Corporations]>",
 			"Provides [1] [Corporation Slot] <in cities without a [No Corporation]> <after discovering [Corporations]>",
 			"[+25]% Production when constructing [All] wonders [in this city]",
-			"[-100]% Production when constructing [Space] units [in this city]"
+			"[-100]% Production when constructing [Military] units [in this city]"
 		]
 	},
 	{
