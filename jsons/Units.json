@@ -1207,7 +1207,7 @@
 		"uniques": [
 			"[-100]% maintenance costs",
 			"Nuclear weapon of Strength [3]",
-			"Blast radius [0]"
+			"Blast radius [1]"
 		],
 		"attackSound": "nuke"
 	},
