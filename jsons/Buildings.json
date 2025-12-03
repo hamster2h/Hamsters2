@@ -22,6 +22,7 @@
 		"name": "Hamster Epic",
 		"replaces": "Heroic Epic",
 		"uniqueTo": "Hamsters",
+		"culture": 2,
 		"cost": 500,
 		"isNationalWonder": false,
 		"uniques": [
