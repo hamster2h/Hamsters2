@@ -30,7 +30,7 @@
 			"[+1 Production] per [2] population [in this city]",
 			"[+1 Gold] per [2] population [in this city]"
 		],
-		"requiredTech": "Iron Working"
+		"requiredTech": "Writing"
 	},
 	{
 		"name": "Palace",
