@@ -68,7 +68,8 @@
 		],
 		"promotions": [
 			"Indirect Fire",
-			"Supply"
+			"Supply",
+			"Stealth"
 		],
 		"attackSound": "shipguns"
 	},
