@@ -6,9 +6,7 @@
 		"cost": 500,
 		"isNationalWonder": false,
 		"uniques": [
-			"[+1 Science] per [2] population [in this city]",
-			"[+1 Production] per [2] population [in this city]",
-			"[+1 Gold] per [2] population [in this city]"
+			"[+1 Science,+1 Production,+1 Gold] per [2] population [in this city]"
 		],
 		"requiredTech": "Iron Working"
 	},
