@@ -14,7 +14,6 @@
 			"Indicates the capital city",
 			"Provides [1] [Corporation Slot(Total)] <in cities without a [No Corporation]> <after discovering [Corporations]>",
 			"Provides [1] [Corporation Slot] <in cities without a [No Corporation]> <after discovering [Corporations]>",
-			"[+10]% Production when constructing [All] wonders [in this city]",
 			"[-90]% Production when constructing [Military] units [in this city]"
 		]
 	},
@@ -23,7 +22,7 @@
 		"replaces": "Heroic Epic",
 		"uniqueTo": "Hamsters",
 		"culture": 2,
-		"cost": 500,
+		"cost": 625,
 		"isNationalWonder": false,
 		"uniques": [
 			"[+1 Science] per [2] population [in this city]",
