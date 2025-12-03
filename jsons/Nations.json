@@ -5,7 +5,7 @@
 		"adjective": ["hamster"],
 		"startBias": ["Coast","Avoid [Tundra]","Avoid [Snow]"],
 		"preferredVictoryType": "Domination",
-		"personality": "Genghis Khan",
+		"personality": "Hamsky",
 
         "startIntroPart1": "...",
         "startIntroPart2": "...",
