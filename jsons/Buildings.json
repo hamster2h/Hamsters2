@@ -22,7 +22,7 @@
 		"replaces": "Heroic Epic",
 		"uniqueTo": "Hamsters",
 		"culture": 2,
-		"cost": 625,
+		"cost": 750,
 		"isNationalWonder": false,
 		"uniques": [
 			"[+1 Science] per [2] population [in this city]",
