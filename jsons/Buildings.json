@@ -1,18 +1,5 @@
 [
 	{
-		"name": "Hamster Epic",
-		"replaces": "Heroic Epic",
-		"uniqueTo": "Hamsters",
-		"cost": 500,
-		"isNationalWonder": false,
-		"uniques": [
-			"[+1 Science] per [2] population [in this city]",
-			"[+1 Production] per [2] population [in this city]",
-			"[+1 Gold] per [2] population [in this city]"
-		],
-		"requiredTech": "Iron Working"
-	},
-	{
 		"name": "Hamster Palace",
 		"replaces": "Palace",
 		"uniqueTo": "Hamsters",
@@ -30,6 +17,19 @@
 			"[+10]% Production when constructing [All] wonders [in this city]",
 			"[-90]% Production when constructing [Military] units [in this city]"
 		]
+	},
+	{
+		"name": "Hamster Epic",
+		"replaces": "Heroic Epic",
+		"uniqueTo": "Hamsters",
+		"cost": 500,
+		"isNationalWonder": false,
+		"uniques": [
+			"[+1 Science] per [2] population [in this city]",
+			"[+1 Production] per [2] population [in this city]",
+			"[+1 Gold] per [2] population [in this city]"
+		],
+		"requiredTech": "Iron Working"
 	},
 	{
 		"name": "Palace",
@@ -297,9 +297,6 @@
 		"uniques": [
 			"Consumes [2] [Power]",
 			"Unsellable",
-			"Only available <in cities without a [Entrepeneur Venue]>",
-			"Only available <in cities without a [Private Grid]>",
-			"Only available <in cities without a [Virtual Space]>",
 			"Destroyed when the city is captured"
 		]
 	},
@@ -329,9 +326,6 @@
 		"uniques": [
 			"Consumes [2] [Power]",
 			"Unsellable",
-			"Only available <in cities without a [Private Grid]>",
-			"Only available <in cities without a [Foreign Center]>",
-			"Only available <in cities without a [Virtual Space]>",
 			"Destroyed when the city is captured"
 		]
 	},
@@ -361,10 +355,7 @@
 		"uniques": [
 			"Consumes [2] [Power]",
 			"[+1 Happiness] per [4] population [in this city]",
-			"Unsellable",
-			"Only available <in cities without a [Entrepeneur Venue]>",
-			"Only available <in cities without a [Private Grid]>",
-			"Only available <in cities without a [Foreign Center]>"
+			"Unsellable"
 		]
 	},
 	{
@@ -380,10 +371,7 @@
 		"maintenance": 5,
 		"uniques": [
 			"Consumes [2] [Power]",
-			"Unsellable",
-			"Only available <in cities without a [Virtual Space]>",
-			"Only available <in cities without a [Entrepeneur Venue]>",
-			"Only available <in cities without a [Foreign Center]>"
+			"Unsellable"
 		]
 	},
 	{
@@ -411,9 +399,7 @@
 			"Only available <if [EP-Genetic Engineering] is constructed>",
 			"Provides [1] [Composites]",
 			"[15]% Food is carried over after population increases [in this city]",
-			"Destroyed when the city is captured",
-			"Only available <in cities without a [Nano-Factory]>",
-			"Only available <in cities without a [Composite Factory]>"
+			"Destroyed when the city is captured"
 		]
 	},
 	{
@@ -429,9 +415,7 @@
 		"uniques": [
 			"Consumes [3] [Power]",
 			"Provides [1] [Composites]",
-			"Destroyed when the city is captured",
-			"Only available <in cities without a [Composite Factory]>",
-			"Only available <in cities without a [Bio Facility]>"
+			"Destroyed when the city is captured"
 		]
 	},
 	{
@@ -476,9 +460,7 @@
 			"Provides [4] [Composites]",
 			"[+50]% Production when constructing [Cyber] units [in this city]",
 			"Destroyed when the city is captured",
-			"Only available <if [EP-Cyber Engineering] is constructed>",
-			"Only available <in cities without a [Nano-Factory]>",
-			"Only available <in cities without a [Bio Facility]>"
+			"Only available <if [EP-Cyber Engineering] is constructed>"
 		]
 	},
 	{
@@ -493,8 +475,7 @@
 			"Consumes [3] [Power]",
 			"[+50]% Production when constructing [Bio] units [in this city]",
 			"[+15]% growth [in this city]",
-			"Destroyed when the city is captured",
-			"Only available <in cities without a [Energy Barrier]>"
+			"Destroyed when the city is captured"
 		]
 	},
 	{
@@ -509,7 +490,6 @@
 			"Only available <if [SP-Future Power] is constructed>",
 			"Population loss from nuclear attacks [-25]% [in this city]",
 			"All newly-trained [Military] units [in this city] receive the [Energy Shield] promotion",
-			"Only available <in cities without a [Adaptive Base]>",
 			"Destroyed when the city is captured"
 		]
 	},
