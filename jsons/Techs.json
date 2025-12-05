@@ -93,7 +93,8 @@
 				"row": 6,
 				"prerequisites": [
 					"Ballistics",
-					"Electronics"
+					"Electronics",
+					"Combustion"
 				],
 				"quote": "'Vision is the art of seeing things invisible.' - Jonathan Swift"
 			},
