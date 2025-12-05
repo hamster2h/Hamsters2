@@ -14,20 +14,21 @@
 			"Indicates the capital city",
 			"Provides [1] [Corporation Slot(Total)] <in cities without a [No Corporation]> <after discovering [Corporations]>",
 			"Provides [1] [Corporation Slot] <in cities without a [No Corporation]> <after discovering [Corporations]>",
-			"[-90]% Production when constructing [Military] units [in this city]"
+			"[+10]% Production when constructing [All] wonders [in this citiy]"
 		]
 	},
 	{
 		"name": "Hamster Epic",
 		"replaces": "Heroic Epic",
 		"uniqueTo": "Hamsters",
-		"culture": 2,
+		"culture": 1,
 		"cost": 625,
 		"isNationalWonder": false,
 		"uniques": [
 			"[+1 Science] per [2] population [in this city]",
 			"[+1 Production] per [2] population [in this city]",
-			"[+1 Gold] per [2] population [in this city]"
+			"New [Military] units start with [15] XP [in this city]",
+			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Writing"
 	},
