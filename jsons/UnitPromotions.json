@@ -17,8 +17,7 @@
 			"Melee Water",
 			"Ranged Water",
 			"Submarine",
-			"Support",
-			"Land Carrier"
+			"Support"
 		]
 	},
 	{
@@ -127,8 +126,7 @@
 			"[+25]% Strength <when defending>"
 		],
 		"unitTypes": [
-			"Aircraft Carrier",
-			"Land Carrier"
+			"Aircraft Carrier"
 		]
 	},
 	{
@@ -140,8 +138,7 @@
 			"[+25]% Strength <when defending>"
 		],
 		"unitTypes": [
-			"Aircraft Carrier",
-			"Land Carrier"
+			"Aircraft Carrier"
 		]
 	},
 	{
@@ -153,8 +150,7 @@
 			"[+25]% Strength <when defending>"
 		],
 		"unitTypes": [
-			"Aircraft Carrier",
-			"Land Carrier"
+			"Aircraft Carrier"
 		]
 	},
 	{
@@ -163,8 +159,7 @@
 			"Can carry [1] extra [Aircraft] units"
 		],
 		"unitTypes": [
-			"Aircraft Carrier",
-			"Land Carrier"
+			"Aircraft Carrier"
 		]
 	},
 	{
@@ -176,8 +171,7 @@
 			"Can carry [1] extra [Aircraft] units"
 		],
 		"unitTypes": [
-			"Aircraft Carrier",
-			"Land Carrier"
+			"Aircraft Carrier"
 		]
 	},
 	{
@@ -189,9 +183,8 @@
 			"Can carry [1] extra [Aircraft] units"
 		],
 		"unitTypes": [
-			"Aircraft Carrier",
-			"Land Carrier"
+			"Aircraft Carrier"
 		]
 	}
-
 ]
+
