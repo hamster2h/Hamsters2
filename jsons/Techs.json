@@ -385,22 +385,6 @@
 				"quote": "'A real friend is one who walks in when the rest of the world walks out.' - Walter Winchell"
 			},
 			{
-				"name": "Future Tech",
-				"row": 5,
-				"prerequisites": [
-					"Metagenetics",
-					"Terraforming",
-					"Clean Energy",
-					"Spaceflight",
-					"Nuclear Fusion"
-				],
-				"uniques": [
-					"Comment [Go beyond the Future]",
-					"Can be continually researched"
-				],
-				"quote": "'But to understand the future. We have to go back in time' - Pitbull"
-			},
-			{
 				"name": "Particle Physics",
 				"row": 8,
 				"prerequisites": [
@@ -408,6 +392,20 @@
 					"Nuclear Fusion"
 				],
 				"quote": "'Every particle of matter is attracted by or gravitates to every other particle of matter with a force inversely proportional to the squares of their distances.' - Isaac Newton"
+			},
+			{
+				"name": "Future Tech",
+				"row": 5,
+				"prerequisites": [
+					"World Alliance",
+					"Clean Energy",
+					"Particle Physics"
+				],
+				"uniques": [
+					"Comment [Go beyond the Future]",
+					"Can be continually researched"
+				],
+				"quote": "'But to understand the future. We have to go back in time' - Pitbull"
 			}
 		]
 	}
