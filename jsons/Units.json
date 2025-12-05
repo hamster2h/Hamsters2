@@ -74,6 +74,20 @@
 		"attackSound": "shipguns"
 	},
 	{
+		"name": "Quinquereme",
+		"unitType": "Melee Water",
+		"uniqueTo": "Carthage",
+		"replaces": "Trireme",
+		"movement": 5,
+		"strength": 14,
+		"cost": 25,
+		"requiredTech": "Sailing",
+		"uniques": ["Cannot enter ocean tiles"],
+		"upgradesTo": "Caravel",
+		"obsoleteTech": "Astronomy",
+		"attackSound": "nonmetalhit"
+	},
+	{
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
