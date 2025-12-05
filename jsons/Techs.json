@@ -392,7 +392,15 @@
 					"Nuclear Fusion"
 				],
 				"quote": "'Every particle of matter is attracted by or gravitates to every other particle of matter with a force inversely proportional to the squares of their distances.' - Isaac Newton"
-			},
+			}
+		],
+		{
+		"columnNumber": 20,
+		"era": "Beyond the Future",
+		"techCost": 20000,
+		"buildingCost": 2000,
+		"wonderCost": 3120,
+		"techs": [
 			{
 				"name": "Future Tech",
 				"row": 5,
