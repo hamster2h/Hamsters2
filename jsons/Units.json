@@ -146,7 +146,7 @@
 		"name": "Medic",
 		"unitType": "Support",
 		"movement": 2,
-		"strength": 35,
+		"strength": 10,
 		"cost": 375,
 		"requiredTech": "Biology",
 		"upgradesTo": "Tactical Supplier",
@@ -239,7 +239,7 @@
 		"name": "Observation Balloon",
 		"unitType": "Support",
 		"movement": 3,
-		"strength": 35,
+		"strength": 10,
 		"cost": 375,
 		"requiredTech": "Dynamite",
 		"obsoleteTech": "Computers",
@@ -737,7 +737,7 @@
 		"name": "Drone",
 		"unitType": "Support",
 		"movement": 3,
-		"strength": 90,
+		"strength": 20,
 		"cost": 560,
 		"promotions": [
 			"Support Unit"
@@ -782,7 +782,7 @@
 		"name": "Hacker",
 		"unitType": "Support",
 		"movement": 2,
-		"strength": 60,
+		"strength": 10,
 		"cost": 450,
 		"requiredTech": "The Internet",
 		"promotions": [
@@ -849,7 +849,7 @@
 		"unitType": "Support",
 		"requiredTech": "Pharmaceuticals",
 		"movement": 4,
-		"strength": 90,
+		"strength": 20,
 		"cost": 560,
 		"promotions": [
 			"Support Unit"
@@ -865,7 +865,7 @@
 		"name": "Stealth Hacker",
 		"unitType": "Support",
 		"movement": 2,
-		"strength": 90,
+		"strength": 20,
 		"cost": 560,
 		"uniques": [
 			"Cyber",
