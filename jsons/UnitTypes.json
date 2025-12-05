@@ -160,15 +160,5 @@
     {
         "name": "Support",
         "movementType": "Land"
-    },
-    {
-        "name": "Land Carrier",
-        "movementType": "Land",
-        "uniques": [
-            "[+33]% Strength <vs [Air] units> <when adjacent to a [Anti-Air] unit>",
-            "[+33]% Strength <vs [Cyber] units> <when adjacent to a [Hacker] unit>",
-            "May capture killed [Cyber] units <with [25]% chance> <when adjacent to a [Hacker] unit>",
-            "Can pass through impassable tiles"
-        ]
     }
 ]
