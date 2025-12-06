@@ -141,9 +141,9 @@
 	{
 		"name": "Recon",
 		"unitType": "Scout",
-		"movement": 2,
-		"strength": 22,
-		"cost": 100,
+		"movement": 3,
+		"strength": 18,
+		"cost": 200,
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Satellites",
 		"upgradesTo": "Paratrooper",
