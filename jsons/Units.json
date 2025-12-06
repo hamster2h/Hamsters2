@@ -78,7 +78,7 @@
 		"unitType": "Sword",
 		"uniqueTo": "Rome",
 		"replaces": "Swordsman",
-		"movement": 2,
+		"movement": 3,
 		"strength": 17,
 		"cost": 50,
 		"requiredTech": "Iron Working",
@@ -998,7 +998,7 @@
 	{
 		"name": "Hovertank",
 		"unitType": "Armored",
-		"movement": 5,
+		"movement": 6,
 		"strength": 100,
 		"cost": 530,
 		"requiredResource": "Composites",
