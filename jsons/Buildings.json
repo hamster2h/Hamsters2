@@ -21,13 +21,14 @@
 		"name": "Hamster Epic",
 		"replaces": "Heroic Epic",
 		"uniqueTo": "Hamsters",
-		"culture": 1,
-		"cost": 500,
+		"culture": 2,
+		"cost": 625,
 		"isNationalWonder": false,
 		"uniques": [
 			"[+1 Science] per [2] population [in this city]",
 			"[+1 Production] per [2] population [in this city]",
-			"New [Military] units start with [15] XP [in this city]",
+			"[+1 Gold] per [2] population [in this city]",
+			/*"New [Military] units start with [15] XP [in this city]",*/
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Writing"
