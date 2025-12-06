@@ -371,7 +371,7 @@
 	{
 		"name": "Landship",
 		"unitType": "Armored",
-		"movement": 4,
+		"movement": 3,
 		"strength": 60,
 		"cost": 350,
 		"requiredResource": "Oil",
@@ -511,7 +511,7 @@
 	{
 		"name": "Marine",
 		"unitType": "Gunpowder",
-		"movement": 2,
+		"movement": 3,
 		"strength": 65,
 		"cost": 375,
 		"requiredTech": "Pharmaceuticals",
@@ -813,7 +813,7 @@
 	{
 		"name": "Mechanized Infantry",
 		"unitType": "Gunpowder",
-		"movement": 3,
+		"movement": 5,
 		"strength": 90,
 		"cost": 375,
 		"requiredTech": "Mobile Tactics",
