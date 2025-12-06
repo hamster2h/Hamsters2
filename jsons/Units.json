@@ -999,8 +999,8 @@
 	{
 		"name": "Hovertank",
 		"unitType": "Armored",
-		"movement": 6,
-		"strength": 100,
+		"movement": 5,
+		"strength": 110,
 		"cost": 530,
 		"requiredResource": "Composites",
 		"uniques": [
