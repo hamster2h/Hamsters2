@@ -181,13 +181,14 @@
 			"Flight Deck II"
 		],
 		"uniques": [
-			"Can carry [1] extra [Aircraft] units"
+			"Can carry [2] extra [Aircraft] units"
 		],
 		"unitTypes": [
 			"Aircraft Carrier"
 		]
 	}
 ]
+
 
 
 
