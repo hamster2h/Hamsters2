@@ -734,23 +734,20 @@
 		"rangedStrength": 70,
 		"cost": 425,
 		"requiredTech": "Computers",
+		"promotions": [
+			"Hovering"
+		],
 		"uniques": [
 			"Cyber",
-			"Consumes [2] [Aluminum]",
+			"Consumes [1] [Aluminum]",
 			"[+100]% Strength <vs [Armored] units>",
 			"No defensive terrain bonus",
 			"Can move after attacking",
-			"All tiles cost 1 movement",
 			"Ignores Zone of Control",
 			"Unable to capture cities",
 			"Never appears as a Barbarian unit"
 		],
-		"attackSound": "machinegun",
-		"civilopediaText": [
-			{
-				"text": "In Future Expansion, Helicopters are powerful Anti-Tank units capable of performing Ranged attacks and then retreating."
-			}
-		]
+		"attackSound": "machinegun"
 	},
 	{
 		"name": "Nuclear Submarine",
@@ -1010,8 +1007,6 @@
 			"Never appears as a Barbarian unit",
 			"[+33]% Strength <vs [Land] units>",
 			"Ignores Zone of Control",
-			"Can move after attacking",
-			"No defensive terrain bonus",
 			"Only available <if [GP-Hovercombat] is constructed>",
 			"Never appears as a Barbarian unit"
 		],
