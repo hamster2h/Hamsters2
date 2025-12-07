@@ -10,8 +10,7 @@
         "[+1 Gold] per every [200] [Gold] <starting from the [Modern era]>",
         "[+1 Gold] per every [200] [Gold] <starting from the [Atomic era]>",
         "[+1 Gold] per every [200] [Gold] <during a Golden Age> <starting from the [Industrial era]>",
-        "[+1 Gold] per every [200] [Gold] <during a Golden Age> <starting from the [Atomic era]>",
-        "Can convert gold to science with sliders"
+        "[+1 Gold] per every [200] [Gold] <during a Golden Age> <starting from the [Atomic era]>"
     ],
     "constants": {
         "minimalCityDistance": 2,
