@@ -734,9 +734,6 @@
 		"rangedStrength": 70,
 		"cost": 425,
 		"requiredTech": "Computers",
-		"promotions": [
-			"Hovering"
-		],
 		"uniques": [
 			"Cyber",
 			"Consumes [1] [Aluminum]",
@@ -746,6 +743,9 @@
 			"Ignores Zone of Control",
 			"Unable to capture cities",
 			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Hovering"
 		],
 		"attackSound": "machinegun"
 	},
@@ -1011,7 +1011,6 @@
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
-			"Amphibious",
 			"Hovering"
 		],
 		"attackSound": "tankshot"
@@ -1077,9 +1076,8 @@
 		],
 		"promotions": [
 			"Support Unit",
-			"Heat Sensor",
-			"Amphibious",
-			"Hovering"
+			"Hovering",
+			"Heat Sensor"
 		],
 		"attackSound": "missile"
 	},
@@ -1170,15 +1168,13 @@
 			"[+100]% Strength <vs [Armored] units>",
 			"No defensive terrain bonus",
 			"Can move after attacking",
-			"All tiles cost 1 movement",
 			"Ignores Zone of Control",
 			"Unable to capture cities",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
-			"Energy Weapons",
 			"Hovering",
-			"Amphibious"
+			"Energy Weapons"
 		],
 		"attackSound": "energyshot"
 	},
