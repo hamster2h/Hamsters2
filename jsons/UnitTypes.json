@@ -26,8 +26,7 @@
         "movementType": "Land",
         "uniques": [
             "[+33]% Strength <vs [Air] units> <when adjacent to a [Anti-Air] unit>",
-            "[+33]% Strength <vs [Cyber] units> <when adjacent to a [Hacker] unit>",
-            "May capture killed [Cyber] units <with [25]% chance> <when adjacent to a [Hacker] unit>"
+            "[+33]% Strength <vs [Cyber] units> <when adjacent to a [Hacker] unit>"
         ]
     },
     {
@@ -35,8 +34,7 @@
         "movementType": "Land",
         "uniques": [
             "[+33]% Strength <vs [Air] units> <when adjacent to a [Anti-Air] unit>",
-            "[+33]% Strength <vs [Cyber] units> <when adjacent to a [Hacker] unit>",
-            "May capture killed [Cyber] units <with [25]% chance> <when adjacent to a [Hacker] unit>"
+            "[+33]% Strength <vs [Cyber] units> <when adjacent to a [Hacker] unit>"
         ]
     },
     {
@@ -71,9 +69,7 @@
         "movementType": "Land",
         "uniques": [
             "[+33]% Strength <vs [Air] units> <when adjacent to a [Anti-Air] unit>",
-            "[+1] Range <when adjacent to a [Intel] unit>",
-            "[+33]% Strength <vs [Cyber] units> <when adjacent to a [Hacker] unit>",
-            "May capture killed [Cyber] units <with [25]% chance> <when adjacent to a [Hacker] unit>"
+            "[+2] Range <when adjacent to a [Intel] unit>"
         ]
     },
     {
@@ -83,37 +79,26 @@
     {
         "name": "Melee Water",
         "movementType": "Water",
-        "uniques": [
-            "[+33]% Strength <vs [Cyber] units> <when adjacent to a [Hacker] unit>",
-            "May capture killed [Cyber] units <with [25]% chance> <when adjacent to a [Hacker] unit>"
-        ]
+        "uniques": [ ]
     },
     {
         "name": "Ranged Water",
         "movementType": "Water",
-        "uniques": [
-            "[+33]% Strength <vs [Cyber] units> <when adjacent to a [Hacker] unit>",
-            "May capture killed [Cyber] units <with [25]% chance> <when adjacent to a [Hacker] unit>"
-        ]
+        "uniques": [ ]
     },
     {
         "name": "Submarine",
         "movementType": "Water",
         "uniques": [
-            "[+33]% Strength <vs [Cyber] units> <when adjacent to a [Hacker] unit>",
             "Can enter ice tiles",
             "Invisible to non-adjacent units",
-            "Can see invisible [Submarine] units",
-            "May capture killed [Cyber] units <with [25]% chance> <when adjacent to a [Hacker] unit>"
+            "Can see invisible [Submarine] units"
         ]
     },
     {
         "name": "Aircraft Carrier",
         "movementType": "Water",
-        "uniques": [
-            "[+33]% Strength <vs [Cyber] units> <when adjacent to a [Hacker] unit>",
-            "May capture killed [Cyber] units <with [25]% chance> <when adjacent to a [Hacker] unit>"
-        ]
+        "uniques": [ ]
     },
     {
         "name": "Fighter",
@@ -152,8 +137,6 @@
         "movementType": "Land",
         "uniques": [
             "[+33]% Strength <vs [Air] units> <when adjacent to a [Anti-Air] unit>",
-            "[+33]% Strength <vs [Cyber] units> <when adjacent to a [Hacker] unit>",
-            "May capture killed [Cyber] units <with [25]% chance> <when adjacent to a [Hacker] unit>",
             "Can pass through impassable tiles"
         ]
     },
