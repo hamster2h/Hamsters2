@@ -688,7 +688,7 @@
 		"movement": 2,
 		"strength": 42,
 		"rangedStrength": 56,
-		"range": 2,
+		"range": 3,
 		"cost": 425,
 		"requiredTech": "Rocketry",
 		"requiredResource": "Iron",
