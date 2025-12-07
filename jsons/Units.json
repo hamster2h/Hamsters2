@@ -1070,7 +1070,6 @@
 		],
 		"promotions": [
 			"Indirect Fire",
-			"Amphibious",
 			"Hovering"
 		],
 		"attackSound": "artillery"
@@ -1256,7 +1255,6 @@
 		],
 		"promotions": [
 			"Scan Visor",
-			"Amphibious",
 			"Gravity Generator"
 		],
 		"attackSound": "gdrAttack"
