@@ -865,8 +865,8 @@
 		"uniques": [
 			"Cyber",
 			"Hacker",
-			"Comment [+33% Strength for adjacent Non-Air Units vs Cyber Units]",
-			"Comment [25% chance for adjacent units to capture killed Cyber Units]",
+			"Comment [+33% Strength for some adjacent Units vs Cyber Units]",
+			"Comment [25% chance for some adjacent units to capture killed Cyber Units]",
 			"Never appears as a Barbarian unit"
 		]
 	},
@@ -944,8 +944,8 @@
 		"uniques": [
 			"Cyber",
 			"Hacker",
-			"Comment [+33% Strength for adjacent Non-Air Units vs Cyber Units]",
-			"Comment [25% chance for adjacent units to capture killed Cyber Units]",
+			"Comment [+33% Strength for some adjacent Units vs Cyber Units]",
+			"Comment [25% chance for some adjacent units to capture killed Cyber Units]",
 			"Withdraws before melee combat <with [50]% chance>",
 			"Can see invisible [Military] units",
 			"Only available <if [GP-Stealth Operatives] is constructed>",
@@ -998,7 +998,7 @@
 	{
 		"name": "Bio-Infantry",
 		"unitType": "Gunpowder",
-		"movement": 2,
+		"movement": 3,
 		"strength": 90,
 		"cost": 375,
 		"requiredTech": "Enhancing",
@@ -1156,10 +1156,9 @@
 	{
 		"name": "Energy Infantry",
 		"unitType": "Gunpowder",
-		"movement": 2,
+		"movement": 3,
 		"strength": 100,
 		"cost": 600,
-		"requiredResource": "Composites",
 		"uniques": [
 			"Only available <if [GP-Energy Weapons] is constructed>",
 			"Never appears as a Barbarian unit"
