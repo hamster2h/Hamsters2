@@ -301,19 +301,17 @@
 		"cost": 375,
 		"requiredTech": "Dynamite",
 		"obsoleteTech": "Computers",
-		"promotions": [
-			"Support Unit"
-		],
 		"upgradesTo": "Drone",
 		"uniques": [
-			"Intel",
-			"Comment [+1 Range to adjacent Siege Units]",
-			"[+33]% Strength bonus for [Siege] units within [1] tiles",
+			"[+20]% Strength bonus for [Siege] units within [1] tiles",
 			"[+1] Sight",
 			"No defensive terrain bonus",
-			"All tiles cost 1 movement",
 			"Ignores Zone of Control",
 			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Support Unit",
+			"Hovering"
 		]
 	},
 	{
@@ -728,7 +726,7 @@
 	{
 		"name": "Helicopter Gunship",
 		"unitType": "Helicopter",
-		"movement": 5,
+		"movement": 7,
 		"range": 2,
 		"strength": 70,
 		"rangedStrength": 70,
@@ -794,19 +792,19 @@
 		"movement": 3,
 		"strength": 20,
 		"cost": 560,
-		"promotions": [
-			"Support Unit"
-		],
 		"requiredTech": "Computers",
 		"uniques": [
 			"Intel",
-			"Comment [+1 Range to adjacent Siege Units]",
+			"Comment [+2 Range to adjacent Siege Units]",
 			"[+33]% Strength bonus for [Siege] units within [1] tiles",
 			"[+1] Sight",
 			"No defensive terrain bonus",
-			"All tiles cost 1 movement",
 			"Ignores Zone of Control",
 			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Support Unit",
+			"Hovering"
 		]
 	},
 	{
@@ -1156,15 +1154,14 @@
 	{
 		"name": "Future Copter",
 		"unitType": "Helicopter",
-		"movement": 5,
+		"movement": 8,
 		"range": 2,
-		"strength": 70,
-		"rangedStrength": 70,
+		"strength": 90,
+		"rangedStrength": 90,
 		"cost": 580,
 		"requiredResource": "Composites",
 		"uniques": [
 			"Cyber",
-			"Only available <if [GP-Energy Weapons] is constructed>",
 			"[+100]% Strength <vs [Armored] units>",
 			"No defensive terrain bonus",
 			"Can move after attacking",
@@ -1173,8 +1170,7 @@
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
-			"Hovering",
-			"Energy Weapons"
+			"Hovering"
 		],
 		"attackSound": "energyshot"
 	},
