@@ -58,7 +58,7 @@
 		"uniques": [
 			"[+15]% Production when constructing [Space] units [in this city]",
 			"[+15]% Production when constructing [Land] units [in this city]",
-			"[+1 Production] from [Iron] tiles [in this city]"
+			"[+2 Production] from [Iron] tiles [in this city]"
 		]
 	},
 	{
@@ -90,7 +90,7 @@
 	},
 	{
 		"name": "Public School",
-		"science": 3,
+		"science": 4,
 		"specialistSlots": {
 			"Scientist": 1
 		},
@@ -108,7 +108,7 @@
 		"cost": 360,
 		"production": 4,
 		"percentStatBonus": {
-			"production": 5
+			"production": 10
 		},
 		"specialistSlots": {
 			"Engineer": 2
@@ -262,10 +262,7 @@
 		"cost": 600,
 		"uniques": [
 			"Consumes [1] [Power]",
-			"Provides [2] [Aluminum]",
-			"Provides [1] [Oil]",
-			"[+1 Production] per [3] population [in this city]",
-			"Limited to [5] per Civilization"
+			"[+1 Production] per [3] population [in this city]"
 		]
 	},
 	{
