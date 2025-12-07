@@ -39,7 +39,8 @@
             "May travel on Water tiles without embarking",
 			"Eliminates combat penalty for attacking across a coast",
 			"Eliminates combat penalty for attacking over a river",
-			"Ignores terrain cost"
+			"Ignores terrain cost",
+			"All tiles cost 1 movement"
 		]
 	},
 	{
@@ -187,6 +188,7 @@
 		]
 	}
 ]
+
 
 
 
