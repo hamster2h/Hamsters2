@@ -1156,7 +1156,7 @@
 		"name": "Future Copter",
 		"unitType": "Helicopter",
 		"movement": 8,
-		"range": 2,
+		"range": 3,
 		"strength": 90,
 		"rangedStrength": 90,
 		"cost": 580,
