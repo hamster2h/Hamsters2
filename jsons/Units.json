@@ -800,7 +800,7 @@
 		"requiredTech": "Computers",
 		"uniques": [
 			"Intel",
-			"Comment [+2 Range to adjacent Siege Units]",
+			"Comment [+1 Range to adjacent Siege Units]",
 			"[+33]% Strength bonus for [Siege] units within [1] tiles",
 			"[+1] Sight",
 			"No defensive terrain bonus",
