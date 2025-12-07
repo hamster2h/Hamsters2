@@ -262,7 +262,10 @@
 		"cost": 600,
 		"uniques": [
 			"Consumes [1] [Power]",
-			"[+1 Production] per [3] population [in this city]"
+			"Provides [2] [Aluminum]",
+			"Provides [1] [Oil]",
+			"[+1 Production] per [3] population [in this city]",
+			"Limited to [5] per Civilization"
 		]
 	},
 	{
@@ -329,15 +332,16 @@
 	},
 	{
 		"name": "Spaceship Factory",
-		"production": 3,
+		"production": 4,
+		"gold": 20,
 		"specialistSlots": {
 			"Spacefarer": 1
 		},
-		"cost": 750,
+		"cost": 1000,
 		"requiredTech": "Robotics",
 		"requiredBuilding": "Factory",
 		"uniques": [
-			"Consumes [2] [Power]",
+			"Consumes [4] [Power]",
 			"Space",
 			"[+33]% Production when constructing [Space] units [in this city]",
 			"[+33]% Production when constructing [Space] buildings [in this city]",
@@ -430,24 +434,6 @@
 		]
 	},
 	{
-		"name": "Space Station",
-		"percentStatBonus": {
-			"culture": 15,
-			"science": 15,
-			"gold": 15
-		},
-		"specialistSlots": {
-			"Spacefarer": 2
-		},
-		"requiredTech": "Lasers",
-		"uniques": [
-			"Consumes [3] [Power]",
-			"Space",
-			"[-15]% growth [in this city]",
-			"Destroyed when the city is captured"
-		]
-	},
-	{
 		"name": "Composite Factory",
 		"production": 2,
 		"maintenance": 6,
@@ -492,6 +478,24 @@
 		]
 	},
 	{
+		"name": "Space Station",
+		"percentStatBonus": {
+			"culture": 15,
+			"science": 15,
+			"gold": 15
+		},
+		"specialistSlots": {
+			"Spacefarer": 2
+		},
+		"requiredTech": "Lasers",
+		"uniques": [
+			"Consumes [3] [Power]",
+			"Space",
+			"[-15]% growth [in this city]",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
 		"name": "Space Colony",
 		"percentStatBonus": {
 			"culture": 25,
@@ -525,7 +529,7 @@
 		"name": "Nuclear Testing Site",
 		"isNationalWonder": true,
 		"requiredTech": "Atomic Theory",
-		"cost": 1000,
+		"cost": 2000,
 		"uniques": [
 			"Comment [Enables nuclear weapon]",
 			"Triggers a global alert upon completion"
