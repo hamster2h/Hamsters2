@@ -1160,7 +1160,7 @@
 		"strength": 90,
 		"rangedStrength": 90,
 		"cost": 580,
-		"requiredTech": "Computers",
+		"requiredTech": "Clean Energy",
 		"requiredResource": "Composites",
 		"uniques": [
 			"Cyber",
