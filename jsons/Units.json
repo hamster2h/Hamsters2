@@ -551,6 +551,27 @@
 		"attackSound": "tankshot"
 	},
 	{
+		"name": "Panzer",
+		"unitType": "Armored",
+		"uniqueTo": "Germany",
+		"replaces": "Tank",
+		"movement": 5,
+		"strength": 80,
+		"cost": 375,
+		"requiredTech": "Combined Arms",
+		"requiredResource": "Oil",
+		"upgradesTo": "Modern Armor",
+		"uniques": [
+			"Consumes [1] [Oil]",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Never appears as a Barbarian unit",
+			"Ignores Zone of Control",
+			"[+33]% Strength <vs [Land] units>"
+		],
+		"attackSound": "tankshot"
+	},
+	{
 		"name": "Marine",
 		"unitType": "Gunpowder",
 		"movement": 3,
