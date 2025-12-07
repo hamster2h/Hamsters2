@@ -420,12 +420,12 @@
 		"upgradesTo": "Tank",
 		"obsoleteTech": "Combined Arms",
 		"uniques": [
-			"[+33]% Strength <vs [Land] units>",
-			"Ignores Zone of Control",
+			"Only available <if [EP-Early Vehicles] is constructed>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"Never appears as a Barbarian unit",
-			"Only available <if [EP-Early Vehicles] is constructed>"
+			"Ignores Zone of Control",
+			"[+33]% Strength <vs [Land] units>"
 		],
 		"attackSound": "tankshot"
 	},
@@ -541,12 +541,12 @@
 		"requiredResource": "Iron",
 		"upgradesTo": "Modern Armor",
 		"uniques": [
-			"[+33]% Strength <vs [Land] units>",
-			"Ignores Zone of Control",
+			"Consumes [1] [Oil]",
 			"Can move after attacking",
 			"No defensive terrain bonus",
-			"Consumes [1] [Oil]",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+			"Ignores Zone of Control",
+			"[+33]% Strength <vs [Land] units>"
 		],
 		"attackSound": "tankshot"
 	},
@@ -869,12 +869,12 @@
 		"requiredResource": "Aluminum",
 		"uniques": [
 			"Cyber",
-			"[+33]% Strength <vs [Land] units>",
-			"Ignores Zone of Control",
+			"Consumes [1] [Oil]",
 			"Can move after attacking",
 			"No defensive terrain bonus",
-			"Consumes [1] [Oil]",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+			"Ignores Zone of Control",
+			"[+33]% Strength <vs [Land] units>"
 		],
 		"attackSound": "tankshot"
 	},
@@ -1001,13 +1001,12 @@
 		"requiredResource": "Composites",
 		"uniques": [
 			"Cyber",
+			"Only available <if [GP-Hovercombat] is constructed>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"Never appears as a Barbarian unit",
-			"[+33]% Strength <vs [Land] units>",
 			"Ignores Zone of Control",
-			"Only available <if [GP-Hovercombat] is constructed>",
-			"Never appears as a Barbarian unit"
+			"[+33]% Strength <vs [Land] units>"
 		],
 		"promotions": [
 			"Hovering"
