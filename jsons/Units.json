@@ -745,6 +745,7 @@
 		"promotions": [
 			"Hovering"
 		],
+		"upgradesTo": "Future Copter",
 		"attackSound": "machinegun"
 	},
 	{
@@ -1159,6 +1160,7 @@
 		"strength": 90,
 		"rangedStrength": 90,
 		"cost": 580,
+		"requiredTech": "Computers",
 		"requiredResource": "Composites",
 		"uniques": [
 			"Cyber",
