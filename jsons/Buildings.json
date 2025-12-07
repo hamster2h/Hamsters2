@@ -529,7 +529,7 @@
 		"name": "Nuclear Testing Site",
 		"isNationalWonder": true,
 		"requiredTech": "Atomic Theory",
-		"cost": 2000,
+		"cost": 1000,
 		"uniques": [
 			"Comment [Enables nuclear weapon]",
 			"Triggers a global alert upon completion"
@@ -835,7 +835,7 @@
 		"uniques": [
 			"Comment [Industrial Perk]",
 			"[+2 Science] from [Mine] tiles [in all cities] <during the [Industrial era]>",
-			"[+2 Science] from all [Production] buildings <during the [Industrial era]>",
+			"[+2 Science] from all [Production] buildings",
 			"Only available <during the [Industrial era]>",
 			"Only available <with [Scientist Perk]>",
 			"Consumes [1] [Scientist Perk]",
