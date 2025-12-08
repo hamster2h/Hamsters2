@@ -46,7 +46,7 @@
 		"attackSound": "shipguns"
 	},
 	{
-		"name": "Missile Cruiser H",
+		"name": "Stealth Cruiser",
 		"unitType": "Ranged Water",
 		"uniqueTo": "Hamsters",
 		"replaces": "Missile Cruiser",
