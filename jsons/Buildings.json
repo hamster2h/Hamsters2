@@ -12,7 +12,7 @@
 			"[+1 Gold] per [2] population [in this city]",
 			"Destroyed when the city is captured"
 		],
-		"requiredTech": "Writing"
+		"requiredTech": "Drama and Poetry"
 	},
 	{
 		"name": "Palace",
