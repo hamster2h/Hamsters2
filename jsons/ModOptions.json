@@ -3,7 +3,7 @@
         "Allow raze capital",
         "Allow raze holy city",
         "Cannot be used as permanent audiovisual mod",
-        "Can convert gold to science with sliders",
+        //"Can convert gold to science with sliders",
         "Suppress warning [Artillery is supposed to automatically upgrade at tech Nanotechnology, and therefore Rocketry for its upgrade Rocket Artillery may not yet be researched!]"
     ],
     "constants": {
