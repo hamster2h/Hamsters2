@@ -198,8 +198,7 @@
 		"maintenance": 3,
 		"requiredTech": "Plastics",
 		"uniques": [
-			"Consumes [1] [Power]",
-			"[+2]% [Science]"
+			"Consumes [1] [Power]"
 		]
 	},
 	{
