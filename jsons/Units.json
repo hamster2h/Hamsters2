@@ -16,8 +16,7 @@
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
-			"Stealth",
-			"Supply"
+			"Stealth"
 		],
 		"upgradesTo": "Battleship",
 		"hurryCostModifier": 20,
@@ -42,8 +41,7 @@
 		],
 		"promotions": [
 			"Indirect Fire",
-			"Stealth",
-			"Supply"
+			"Stealth"
 		],
 		"attackSound": "shipguns"
 	},
@@ -70,8 +68,7 @@
 		],
 		"promotions": [
 			"Indirect Fire",
-			"Stealth",
-			"Supply"
+			"Stealth"
 		],
 		"attackSound": "shipguns"
 	},
