@@ -1,51 +1,5 @@
 [
 	{
-		"name": "Stealth Frigate",
-		"unitType": "Ranged Water",
-		"uniqueTo": "Hamsters",
-		"replaces": "Frigate",
-		"movement": 5,
-		"strength": 25,
-		"rangedStrength": 28,
-		"range": 2,
-		"cost": 230,
-		"requiredResource": "Iron",
-		"requiredTech": "Navigation",
-		"obsoleteTech": "Electronics",
-		"uniques": [
-			"Never appears as a Barbarian unit"
-		],
-		"promotions": [
-			"Stealth"
-		],
-		"upgradesTo": "Battleship",
-		"hurryCostModifier": 20,
-		"attackSound": "shipCannonVolley"
-	},
-	{
-		"name": "Stealth Battleship",
-		"unitType": "Ranged Water",
-		"uniqueTo": "Hamsters",
-		"replaces": "Battleship",
-		"movement": 5,
-		"strength": 55,
-		"rangedStrength": 55,
-		"range": 3,
-		"cost": 470,
-		"requiredResource": "Oil",
-		"requiredTech": "Electronics",
-		"upgradesTo": "Missile Cruiser",
-		"obsoleteTech": "Robotics",
-		"uniques": [
-			"Never appears as a Barbarian unit"
-		],
-		"promotions": [
-			"Indirect Fire",
-			"Stealth"
-		],
-		"attackSound": "shipguns"
-	},
-	{
 		"name": "Stealth Cruiser",
 		"unitType": "Ranged Water",
 		"uniqueTo": "Hamsters",
