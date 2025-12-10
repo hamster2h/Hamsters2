@@ -1,32 +1,5 @@
 [
 	{
-		"name": "Stealth Cruiser",
-		"unitType": "Ranged Water",
-		"uniqueTo": "Hamsters",
-		"replaces": "Missile Cruiser",
-		"movement": 7,
-		"strength": 80,
-		"rangedStrength": 100,
-		"range": 3,
-		"interceptRange": 2,
-		"cost": 530,
-		"requiredTech": "Robotics",
-		"uniques": [
-			"Cyber",
-			"Consumes [1] [Aluminum]",
-			"[100]% chance to intercept air attacks",
-			"Can see invisible [Submarine] units",
-			"Can carry [6] [Missile] units",
-			"[+100]% Strength <vs [Submarine] units>",
-			"Never appears as a Barbarian unit"
-		],
-		"promotions": [
-			"Indirect Fire",
-			"Stealth"
-		],
-		"attackSound": "shipguns"
-	},
-	{
 		"name": "Legion",
 		"unitType": "Sword",
 		"uniqueTo": "Rome",
