@@ -4,7 +4,7 @@
 		"replaces": "Heroic Epic",
 		"uniqueTo": "Hamsters",
 		"culture": 2,
-		"cost": 625,
+		"cost": 475,
 		"isNationalWonder": false,
 		"uniques": [
 			"[+1 Science] per [2] population [in this city]",
@@ -13,6 +13,24 @@
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Drama and Poetry"
+	},
+	{
+		"name": "Hamster College",
+		"replaces": "National College",
+		"uniqueTo": "Hamsters",
+		"cost": 475,
+		"science": 2,
+		"isNationalWonder": false,
+		"percentStatBonus": {
+			"science": 10
+		},
+		"uniques": [
+			"All newly-trained [Sword] units [in this city] receive the [Stealth] promotion",
+			"All newly-trained [Gunpowder] units [in this city] receive the [Stealth] promotion",
+			"All newly-trained [Armored] units [in this city] receive the [Stealth] promotion",
+			"All newly-trained [{Water} {Military}] units [in this city] receive the [Stealth] promotion"
+		],
+		"requiredTech": "Philosophy"
 	},
 	{
 		"name": "Palace",
