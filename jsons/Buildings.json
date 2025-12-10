@@ -9,7 +9,7 @@
 		"uniques": [
 			"[+1 Science] per [2] population [in this city]",
 			"[+1 Production] per [2] population [in this city]",
-			"All newly-trained [Military] units [in this city] receive the [Supply] promotion",
+			"All newly-trained [{Water} {Military}] units [in this city] receive the [Supply] promotion",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Drama and Poetry"
