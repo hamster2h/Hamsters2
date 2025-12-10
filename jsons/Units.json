@@ -157,13 +157,12 @@
 	{
 		"name": "Scout",
 		"unitType": "Scout",
-		"movement": 2,
+		"movement": 3,
 		"strength": 5,
 		"cost": 25,
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Recon",
 		"uniques": [
-			"May upgrade to [Archer] through ruins-like effects",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
