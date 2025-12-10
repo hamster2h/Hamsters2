@@ -27,9 +27,7 @@
 		"uniques": [
 			"All newly-trained [Sword] units [in this city] receive the [Stealth] promotion",
 			"All newly-trained [Gunpowder] units [in this city] receive the [Stealth] promotion",
-			"All newly-trained [Armored] units [in this city] receive the [Stealth] promotion",
-			"All newly-trained [Helicopter] units [in this city] receive the [Stealth] promotion",
-			"All newly-trained [{Water} {Military}] units [in this city] receive the [Stealth] promotion"
+			"All newly-trained [Ranged Water] units [in this city] receive the [Stealth] promotion"
 		],
 		"requiredTech": "Philosophy"
 	},
