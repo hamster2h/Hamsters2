@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Frigate H",
+		"name": "Stealth Frigate",
 		"unitType": "Ranged Water",
 		"uniqueTo": "Hamsters",
 		"replaces": "Frigate",
@@ -16,6 +16,7 @@
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
+			"Stealth",
 			"Supply"
 		],
 		"upgradesTo": "Battleship",
@@ -23,7 +24,7 @@
 		"attackSound": "shipCannonVolley"
 	},
 	{
-		"name": "Battleship H",
+		"name": "Stealth Battleship",
 		"unitType": "Ranged Water",
 		"uniqueTo": "Hamsters",
 		"replaces": "Battleship",
@@ -41,6 +42,7 @@
 		],
 		"promotions": [
 			"Indirect Fire",
+			"Stealth",
 			"Supply"
 		],
 		"attackSound": "shipguns"
@@ -68,8 +70,8 @@
 		],
 		"promotions": [
 			"Indirect Fire",
-			"Supply",
-			"Stealth"
+			"Stealth",
+			"Supply"
 		],
 		"attackSound": "shipguns"
 	},
