@@ -10,7 +10,7 @@
 				"Neutral": 50,
 				"Cultural": 75,
 				"Diplomatic": 80,
-				"Domination": 0,
+				"Domination": 20,
 				"Scientific": 40
 			},
 			"policies": [
@@ -173,15 +173,13 @@
 			"name": "Futurism",
 			"era": "Future era",
 			"uniques": [
-				"Provides a [Corporate Slot] in your first [1] cities for free",
-				"Only available <before adopting [Technocracy]>",
-				"Only available <before adopting [Transhumanism]>"
+				"Provides a [Corporate Slot] in your first [1] cities for free"
 			],
 			"priorities": {
 				"Neutral": 70,
 				"Cultural": 50,
 				"Diplomatic": 70,
-				"Domination": 0,
+				"Domination": 10,
 				"Scientific": 30
 			},
 			"policies": [
@@ -264,17 +262,13 @@
 			"era": "Future era",
 			"uniques": [
 				"[+25]% Strength <for [Cyber] units>",
-				"[-25]% Strength <for [Bio] units>",
-				"[+20]% [Production] [in all cities]",
-				"[-15]% growth [in all cities]",
-				"Only available <before adopting [Futurism]>",
-				"Only available <before adopting [Transhumanism]>"
+				"[+20]% [Production] [in all cities]"
 			],
 			"priorities": {
 				"Neutral": 40,
 				"Cultural": 90,
 				"Diplomatic": 20,
-				"Domination": 0,
+				"Domination": 10,
 				"Scientific": 40
 			},
 			"policies": [
@@ -353,16 +347,13 @@
 			"era": "Future era",
 			"uniques": [
 				"[+17]% growth [in capital]",
-				"[+25]% Strength <for [Bio] units>",
-				"[-25]% Strength <for [Cyber] units>",
-				"Only available <before adopting [Futurism]>",
-				"Only available <before adopting [Technocracy]>"
+				"[+25]% Strength <for [Bio] units>"
 			],
 			"priorities": {
 				"Neutral": 20,
 				"Cultural": 40,
 				"Diplomatic": 40,
-				"Domination": 0,
+				"Domination": 10,
 				"Scientific": 90
 			},
 			"policies": [
