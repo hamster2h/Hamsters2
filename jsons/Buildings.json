@@ -19,7 +19,6 @@
 		"replaces": "National College",
 		"uniqueTo": "Hamsters",
 		"cost": 475,
-		"science": 2,
 		"isNationalWonder": false,
 		"percentStatBonus": {
 			"science": 10
@@ -27,7 +26,8 @@
 		"uniques": [
 			"All newly-trained [Sword] units [in this city] receive the [Stealth] promotion",
 			"All newly-trained [Gunpowder] units [in this city] receive the [Stealth] promotion",
-			"All newly-trained [Ranged Water] units [in this city] receive the [Stealth] promotion"
+			"All newly-trained [Ranged Water] units [in this city] receive the [Stealth] promotion",
+			"All newly-trained [Aircraft Carrier] units [in this city] receive the [Stealth] promotion"
 		],
 		"requiredTech": "Philosophy"
 	},
