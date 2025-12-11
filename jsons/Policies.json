@@ -4,8 +4,7 @@
 			"era": "Atomic era",
 			"uniques": [
 				"[+33]% Production when constructing [Civilian] units [in all cities]",
-				"[-25]% Gold cost of upgrading <for [Worker] units>",
-				"Only available <before adopting [Coalition]>"
+				"[-25]% Gold cost of upgrading <for [Worker] units>"
 			],
 			"priorities": {
 				"Neutral": 50,
@@ -89,8 +88,7 @@
 			"uniques": [
 				"[+10]% [Production] from every [Military Academy]",
 				"[+10]% [Production] from every [Electrical Grid]",
-				"[+10]% [Production] from every [Research Lab]",
-				"Only available <before adopting [Digitalization]>"
+				"[+10]% [Production] from every [Research Lab]"
 			],
 			"priorities": {
 				"Neutral": 40,
