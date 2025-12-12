@@ -20,19 +20,22 @@
 		"name": "Hamster College",
 		"replaces": "National College",
 		"uniqueTo": "Hamsters",
-		"cost": 475,
+		"cost": 625,
+		"culture": 2,
+		"science": 4,
 		"isNationalWonder": false,
 		"percentStatBonus": {
-			"science": 10
+			"science": 20
 		},
 		"uniques": [
 			"All newly-trained [Sword] units [in this city] receive the [Stealth] promotion",
 			"All newly-trained [Gunpowder] units [in this city] receive the [Stealth] promotion",
 			"All newly-trained [Ranged Water] units [in this city] receive the [Stealth] promotion",
 			"All newly-trained [Aircraft Carrier] units [in this city] receive the [Stealth] promotion",
-			"Only available <if [Library] is constructed in all [non-[Puppeted]] cities>"
+			"Only available <if [University] is constructed in all [non-[Puppeted]] cities>",
+			"Destroyed when the city is captured"
 		],
-		"requiredTech": "Philosophy"
+		"requiredTech": "Education"
 	},
 	{
 		"name": "Palace",
