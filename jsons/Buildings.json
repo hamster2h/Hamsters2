@@ -10,6 +10,8 @@
 			"[+1 Science] per [2] population [in this city]",
 			"[+1 Production] per [2] population [in this city]",
 			"All newly-trained [{Water} {Military}] units [in this city] receive the [Supply] promotion",
+			"All newly-trained [non-[Air]] units [in this city] receive the [Morale] promotion",
+			"Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Drama and Poetry"
@@ -27,7 +29,8 @@
 			"All newly-trained [Sword] units [in this city] receive the [Stealth] promotion",
 			"All newly-trained [Gunpowder] units [in this city] receive the [Stealth] promotion",
 			"All newly-trained [Ranged Water] units [in this city] receive the [Stealth] promotion",
-			"All newly-trained [Aircraft Carrier] units [in this city] receive the [Stealth] promotion"
+			"All newly-trained [Aircraft Carrier] units [in this city] receive the [Stealth] promotion",
+			"Only available <if [Library] is constructed in all [non-[Puppeted]] cities>"
 		],
 		"requiredTech": "Philosophy"
 	},
