@@ -28,12 +28,10 @@
 			"science": 20
 		},
 		"uniques": [
-			"All newly-trained [Sword] units [in this city] receive the [Stealth] promotion",
 			"All newly-trained [Gunpowder] units [in this city] receive the [Stealth] promotion",
 			"All newly-trained [Ranged Water] units [in this city] receive the [Stealth] promotion",
 			"All newly-trained [Aircraft Carrier] units [in this city] receive the [Stealth] promotion",
-			"Only available <if [University] is constructed in all [non-[Puppeted]] cities>",
-			"Destroyed when the city is captured"
+			"Only available <if [University] is constructed in all [non-[Puppeted]] cities>"
 		],
 		"requiredTech": "Education"
 	},
