@@ -1076,7 +1076,7 @@
 		"unitType": "Scout",
 		"movement": 4,
 		"strength": 80,
-		"cost": 350,
+		"cost": 450,
 		"uniques": [
 			"Bio",
 			"Only available <if [EP-Genetic Engineering] is constructed>",
