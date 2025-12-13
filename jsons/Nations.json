@@ -24,10 +24,9 @@
 		"favoredReligion": "Shinto",
 		"uniqueName": "High Underground",
         "uniques": [
-			"[+1 Food, +3 Production] from [Mountain] tiles [in all cities]",
-			"\"Borrows\" city names from other civilizations in the game"
+			"[+1 Food, +3 Production] from [Mountain] tiles [in all cities]"
 		],
-		"cities": ["Bubbles"],
+		"cities": ["Samus","Mythra"],
         "spyNames": ["Hamster"]
     },
 	{
