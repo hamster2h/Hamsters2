@@ -19,7 +19,7 @@
 		"neutralHello": "...",
 		"hateHello": "...",
 		"tradeRequest": "...",
-		"outerColor": [27,33,96],
+		"outerColor": [127,133,196],
 		"innerColor": [255,0,0],
 		"favoredReligion": "Shinto",
 		"uniqueName": "High Underground",
