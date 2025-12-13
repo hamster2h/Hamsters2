@@ -26,7 +26,10 @@
         "uniques": [
 			"[+1 Food, +3 Production] from [Mountain] tiles [in all cities]"
 		],
-		"cities": ["Samus","Mythra","Diva","Ahri","Rias","Navia"],
+		"cities": [
+			"Samus","Mythra","Diva","Ahri","Rias","Navia","Luna",
+			"Aqua","A2"
+		],
         "spyNames": ["Hamster"]
     },
 	{
