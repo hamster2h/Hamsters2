@@ -27,11 +27,11 @@
 			"[+1 Food, +3 Production] from [Mountain] tiles [in all cities]"
 		],
 		"cities": [
-			"Samus","Mythra","Diva","Ahri","Rias","Navia","Luna",
-			"Aqua","A2","Nami","Serena","Albedo","Lara","Alexis",
-			"Raven","Flare"
+			"Seoul","Busan","Jeonju","Daegu","Pyongyang","Kaesong","Suwon","Gwangju","Gangneung","Hamhung","Wonju","Ulsan",
+			"Changwon","Andong","Gongju","Haeju","Cheongju","Mokpo","Dongducheon","Geoje","Suncheon","Jinju","Sangju",
+			"Rason","Gyeongju","Chungju","Sacheon","Gimje","Anju"
 		],
-        "spyNames": ["Hamster", "Hamster", "Hamster", "Hamster", "Hamster", "Hamster", "Hamster", "Hamster", "Hamster", "Hamster"]
+        "spyNames": ["Kim", "Park", "Han", "Na", "Kong", "Yu", "Ahn", "Da", "Eun"]
     },
 	{
 		"name": "Germany",
