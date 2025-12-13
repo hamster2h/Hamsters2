@@ -701,31 +701,6 @@
 		"attackSound": "missile"
 	},
 	{
-		"name": "Helicopter Gunship",
-		"unitType": "Helicopter",
-		"movement": 7,
-		"range": 2,
-		"strength": 70,
-		"rangedStrength": 70,
-		"cost": 425,
-		"requiredTech": "Computers",
-		"uniques": [
-			"Cyber",
-			"Consumes [1] [Aluminum]",
-			"[+100]% Strength <vs [Armored] units>",
-			"No defensive terrain bonus",
-			"Can move after attacking",
-			"Ignores Zone of Control",
-			"Unable to capture cities",
-			"Never appears as a Barbarian unit"
-		],
-		"promotions": [
-			"Hovering"
-		],
-		"upgradesTo": "Future Copter",
-		"attackSound": "machinegun"
-	},
-	{
 		"name": "Nuclear Submarine",
 		"unitType": "Submarine",
 		"movement": 6,
@@ -1129,13 +1104,38 @@
 		"attackSound": "energyshot"
 	},
 	{
+		"name": "Helicopter Gunship",
+		"unitType": "Helicopter",
+		"movement": 7,
+		"range": 2,
+		"strength": 70,
+		"rangedStrength": 70,
+		"cost": 550,
+		"requiredTech": "Computers",
+		"uniques": [
+			"Cyber",
+			"Consumes [1] [Aluminum]",
+			"[+100]% Strength <vs [Armored] units>",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"Ignores Zone of Control",
+			"Unable to capture cities",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Hovering"
+		],
+		"upgradesTo": "Future Copter",
+		"attackSound": "machinegun"
+	},
+	{
 		"name": "Future Copter",
 		"unitType": "Helicopter",
 		"movement": 8,
 		"range": 3,
 		"strength": 90,
 		"rangedStrength": 90,
-		"cost": 580,
+		"cost": 700,
 		"requiredTech": "Clean Energy",
 		"requiredResource": "Composites",
 		"uniques": [
