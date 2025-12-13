@@ -361,7 +361,7 @@
 		"strength": 55,
 		"rangedStrength": 55,
 		"range": 3,
-		"cost": 375,
+		"cost": 500,
 		"requiredResource": "Oil",
 		"requiredTech": "Electronics",
 		"upgradesTo": "Missile Cruiser",
@@ -500,7 +500,7 @@
 		"unitType": "Gunpowder",
 		"movement": 3,
 		"strength": 65,
-		"cost": 375,
+		"cost": 325,
 		"requiredTech": "Pharmaceuticals",
 		"obsoleteTech": "Lasers",
 		"upgradesTo": "Future Soldier",
@@ -537,12 +537,12 @@
 		"requiredTech": "Radar",
 		"obsoleteTech": "Lasers",
 		"upgradesTo": "Future Soldier",
-		"promotions": [
-			"Skirmish"
-		],
 		"uniques": [
 			"May Paradrop to [Land] tiles up to [9] tiles away <in [{Friendly} {Land}] tiles>",
 			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Skirmish"
 		],
 		"attackSound": "shot"
 	},
@@ -565,7 +565,7 @@
 		"unitType": "Aircraft Carrier",
 		"movement": 6,
 		"strength": 40,
-		"cost": 500,
+		"cost": 600,
 		"requiredTech": "Electronics",
 		"uniques": [
 			"Cyber",
@@ -737,7 +737,7 @@
 		"unitType": "Support",
 		"movement": 3,
 		"strength": 20,
-		"cost": 560,
+		"cost": 300,
 		"requiredTech": "Computers",
 		"uniques": [
 			"Intel",
@@ -757,11 +757,11 @@
 		"name": "Missile Cruiser",
 		"unitType": "Ranged Water",
 		"movement": 7,
-		"strength": 80,
-		"rangedStrength": 100,
+		"strength": 100,
+		"rangedStrength": 120,
 		"range": 3,
 		"interceptRange": 2,
-		"cost": 425,
+		"cost": 600,
 		"requiredTech": "Robotics",
 		"uniques": [
 			"Cyber",
@@ -809,7 +809,7 @@
 		"unitType": "Armored",
 		"movement": 5,
 		"strength": 100,
-		"cost": 425,
+		"cost": 450,
 		"requiredTech": "Mobile Tactics",
 		"requiredResource": "Aluminum",
 		"uniques": [
@@ -925,7 +925,7 @@
 		"unitType": "Gunpowder",
 		"movement": 3,
 		"strength": 90,
-		"cost": 375,
+		"cost": 300,
 		"requiredTech": "Enhancing",
 		"uniques": [
 			"Bio",
@@ -1029,12 +1029,12 @@
 		"range": 1,
 		"movement": 2,
 		"strength": 80,
-		"rangedStrength": 80,
-		"cost": 375,
+		"rangedStrength": 100,
+		"cost": 400,
 		"requiredTech": "Automation",
 		"uniques": [
 			"Cyber",
-			"[+15]% Strength <when defending>",
+			"[+50]% Strength <when defending>",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "machinegun"
@@ -1042,19 +1042,21 @@
 	{
 		"name": "Seeker",
 		"unitType": "Scout",
-		"movement": 3,
+		"movement": 4,
 		"strength": 80,
-		"cost": 375,
+		"cost": 350,
 		"uniques": [
 			"Bio",
 			"Only available <if [EP-Genetic Engineering] is constructed>",
 			"Can see invisible [Wounded] units",
 			"Can move after attacking",
 			"Heals [25] damage if it kills a unit",
+			"Ignore terrain cost",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
-			"Amphibious"
+			"Amphibious",
+			"Stealth"
 		],
 		"attackSound": "bite"
 	},
@@ -1083,7 +1085,7 @@
 		"unitType": "Gunpowder",
 		"movement": 3,
 		"strength": 100,
-		"cost": 600,
+		"cost": 500,
 		"uniques": [
 			"Only available <if [GP-Energy Weapons] is constructed>",
 			"Never appears as a Barbarian unit"
