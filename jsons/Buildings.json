@@ -20,14 +20,15 @@
 		"name": "Hamster College",
 		"replaces": "National College",
 		"uniqueTo": "Hamsters",
-		"cost": 625,
+		"cost": 475,
 		"culture": 2,
 		"science": 4,
 		"isNationalWonder": false,
 		"percentStatBonus": {
-			"science": 20
+			"science": 25
 		},
 		"uniques": [
+			"[+1 Gold] per [2] population [in this city]",
 			"All newly-trained [Gunpowder] units [in this city] receive the [Stealth] promotion",
 			"All newly-trained [Ranged Water] units [in this city] receive the [Stealth] promotion",
 			"All newly-trained [Aircraft Carrier] units [in this city] receive the [Stealth] promotion",
