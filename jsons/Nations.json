@@ -28,9 +28,9 @@
 		],
 		"cities": [
 			"Samus","Mythra","Diva","Ahri","Rias","Navia","Luna",
-			"Aqua","A2","Nami","Serena"
+			"Aqua","A2","Nami","Serena","Albedo","Lara",""
 		],
-        "spyNames": ["Hamster"]
+        "spyNames": ["Hamster", "Hamster", "Hamster", "Hamster", "Hamster", "Hamster", "Hamster", "Hamster", "Hamster", "Hamster"]
     },
 	{
 		"name": "Germany",
