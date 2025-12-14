@@ -186,10 +186,30 @@
 		"unitTypes": [
 			"Aircraft Carrier"
 		]
+	},
+	{
+		"name": "Extended Range",
+		"prerequisites": [
+			"Accuracy III",
+			"Barrage III",
+			"Targeting II",
+			"Bombardment II", 
+			"Wolfpack II",
+			"Shock II",
+			"Drill II"
+		],
+		"uniques": [
+			"[+1] Range"
+		],
+		"unitTypes": [
+			"Archery",
+			"Ranged Gunpowder",
+			"Armored",
+			"Siege",
+			"Ranged Water",
+			"Submarine"
+		],
+        "column": 3,
+        "row": 3
 	}
 ]
-
-
-
-
-
