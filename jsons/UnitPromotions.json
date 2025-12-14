@@ -190,8 +190,8 @@
 	{
 		"name": "Extended Range",
 		"prerequisites": [
-			"Accuracy III",
-			"Barrage III",
+			"Accuracy II",
+			"Barrage II",
 			"Targeting II",
 			"Bombardment II", 
 			"Wolfpack II",
@@ -213,3 +213,4 @@
         "row": 3
 	}
 ]
+
