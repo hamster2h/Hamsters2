@@ -30,6 +30,7 @@
 		"uniques": [
 			"[+1 Gold] per [2] population [in this city]",
 			"All newly-trained [Gunpowder] units [in this city] receive the [Stealth] promotion",
+			"All newly-trained [Armored] units [in this city] receive the [Stealth] promotion",
 			"All newly-trained [Ranged Water] units [in this city] receive the [Stealth] promotion",
 			"All newly-trained [Aircraft Carrier] units [in this city] receive the [Stealth] promotion",
 			"Only available <if [University] is constructed in all [non-[Puppeted]] cities>"
@@ -1380,8 +1381,8 @@
 		"uniques": [
 			"Comment [Future Perk]",
 			"Comment [Enables construction of [Adaptive Base]]",
-			"[+2 Food, -1 Gold] from every [Coast]",
-			"[+2 Food, -1 Gold] from every [Ocean]",
+			"[+3 Food, +1 Gold] from every [Coast]",
+			"[+3 Food, +1 Gold] from every [Ocean]",
 			"Only available  <during the [Future era]>",
 			"Only available <with [Merchant Perk]>",
 			"Consumes [1] [Merchant Perk]",
