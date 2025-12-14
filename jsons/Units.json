@@ -292,13 +292,10 @@
 		"range": 4,
 		"cost": 425,
 		"requiredTech": "Rocketry",
-		"requiredResource": "Iron",
 		"uniques": [
 			"Cyber",
-			"Consumes [1] [Aluminum]",
 			"[+200]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
-			"[-1] Sight",
 			"[+1] Range <after discovering [Advanced Ballistics]>",
 			"Never appears as a Barbarian unit"
 		],
@@ -320,7 +317,6 @@
 			"Cyber",
 			"[+200]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
-			"[-1] Sight",
 			"Only available <if [GP-Hovercombat] is constructed>",
 			"Never appears as a Barbarian unit"
 		],
@@ -403,25 +399,6 @@
 		"attackSound": "machinegun"
 	},
 	{
-		"name": "Landship",
-		"unitType": "Armored",
-		"movement": 3,
-		"strength": 60,
-		"cost": 350,
-		"requiredResource": "Oil",
-		"upgradesTo": "Tank",
-		"obsoleteTech": "Combined Arms",
-		"uniques": [
-			"Only available <if [EP-Early Vehicles] is constructed>",
-			"Can move after attacking",
-			"No defensive terrain bonus",
-			"Never appears as a Barbarian unit",
-			"Ignores Zone of Control",
-			"[+33]% Strength <vs [Land] units>"
-		],
-		"attackSound": "tankshot"
-	},
-	{
 		"name": "Frigate",
 		"unitType": "Ranged Water",
 		"movement": 5,
@@ -445,7 +422,9 @@
 		"rangedStrength": 35,
 		"cost": 280,
 		"requiredResource": "Iron",
-		"uniques": ["[+1] Sight"],
+		"uniques": [
+			"[+1] Sight"
+		],
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Electronics",
 		"upgradesTo": "Battleship",
@@ -465,6 +444,30 @@
 		"upgradesTo": "Missile Cruiser",
 		"obsoleteTech": "Robotics",
 		"uniques": [
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Indirect Fire"
+		],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Missile Cruiser",
+		"unitType": "Ranged Water",
+		"movement": 7,
+		"strength": 100,
+		"rangedStrength": 120,
+		"range": 3,
+		"interceptRange": 2,
+		"cost": 600,
+		"requiredTech": "Robotics",
+		"uniques": [
+			"Cyber",
+			"Consumes [1] [Aluminum]",
+			"[100]% chance to intercept air attacks",
+			"Can see invisible [Submarine] units",
+			"Can carry [6] [Missile] units",
+			"[+100]% Strength <vs [Submarine] units>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
@@ -554,45 +557,6 @@
 			"[+100]% Strength <vs [Air] units>",
 			"Never appears as a Barbarian unit"
 		]
-	},
-	{
-		"name": "Tank",
-		"unitType": "Armored",
-		"movement": 4,
-		"strength": 70,
-		"cost": 375,
-		"requiredTech": "Combustion",
-		"requiredResource": "Iron",
-		"upgradesTo": "Modern Armor",
-		"uniques": [
-			"Consumes [1] [Oil]",
-			"Can move after attacking",
-			"No defensive terrain bonus",
-			"Never appears as a Barbarian unit",
-			"Ignores Zone of Control",
-			"[+33]% Strength <vs [Land] units>"
-		],
-		"attackSound": "tankshot"
-	},
-	{
-		"name": "Panzer",
-		"unitType": "Armored",
-		"uniqueTo": "Germany",
-		"replaces": "Tank",
-		"movement": 5,
-		"strength": 80,
-		"cost": 300,
-		"requiredTech": "Combustion",
-		"requiredResource": "Iron",
-		"upgradesTo": "Modern Armor",
-		"uniques": [
-			"Can move after attacking",
-			"No defensive terrain bonus",
-			"Never appears as a Barbarian unit",
-			"Ignores Zone of Control",
-			"[+33]% Strength <vs [Land] units>"
-		],
-		"attackSound": "tankshot"
 	},
 	{
 		"name": "Marine",
@@ -804,30 +768,6 @@
 		]
 	},
 	{
-		"name": "Missile Cruiser",
-		"unitType": "Ranged Water",
-		"movement": 7,
-		"strength": 100,
-		"rangedStrength": 120,
-		"range": 3,
-		"interceptRange": 2,
-		"cost": 600,
-		"requiredTech": "Robotics",
-		"uniques": [
-			"Cyber",
-			"Consumes [1] [Aluminum]",
-			"[100]% chance to intercept air attacks",
-			"Can see invisible [Submarine] units",
-			"Can carry [6] [Missile] units",
-			"[+100]% Strength <vs [Submarine] units>",
-			"Never appears as a Barbarian unit"
-		],
-		"promotions": [
-			"Indirect Fire"
-		],
-		"attackSound": "shipguns"
-	},
-	{
 		"name": "Hacker",
 		"unitType": "Support",
 		"movement": 2,
@@ -850,10 +790,72 @@
 		"unitType": "Gunpowder",
 		"movement": 5,
 		"strength": 90,
-		//"rangedStrength": 90,
-		//"range": 1,
 		"cost": 375,
 		"requiredTech": "Mobile Tactics",
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Landship",
+		"unitType": "Armored",
+		"movement": 3,
+		"strength": 60,
+		"rangedStrength": 60,
+		"range": 1,
+		"cost": 350,
+		"requiredResource": "Oil",
+		"upgradesTo": "Tank",
+		"obsoleteTech": "Combined Arms",
+		"uniques": [
+			"Only available <if [EP-Early Vehicles] is constructed>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Never appears as a Barbarian unit",
+			"Ignores Zone of Control",
+			"[+33]% Strength <vs [Land] units>"
+		],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Tank",
+		"unitType": "Armored",
+		"movement": 4,
+		"strength": 70,
+		"rangedStrength": 70,
+		"range": 2,
+		"cost": 375,
+		"requiredTech": "Combustion",
+		"requiredResource": "Iron",
+		"upgradesTo": "Modern Armor",
+		"uniques": [
+			"Consumes [1] [Oil]",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Never appears as a Barbarian unit",
+			"Ignores Zone of Control",
+			"[+33]% Strength <vs [Land] units>"
+		],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Panzer",
+		"unitType": "Armored",
+		"uniqueTo": "Germany",
+		"replaces": "Tank",
+		"movement": 5,
+		"strength": 80,
+		"rangedStrength": 80,
+		"range": 2,
+		"cost": 300,
+		"requiredTech": "Combustion",
+		"requiredResource": "Iron",
+		"upgradesTo": "Modern Armor",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Never appears as a Barbarian unit",
+			"Ignores Zone of Control",
+			"[+33]% Strength <vs [Land] units>"
+		],
 		"attackSound": "tankshot"
 	},
 	{
@@ -861,9 +863,11 @@
 		"unitType": "Armored",
 		"movement": 5,
 		"strength": 100,
+		"rangedStrength": 100,
+		"range": 2,
 		"cost": 450,
 		"requiredTech": "Mobile Tactics",
-		"requiredResource": "Aluminum",
+		"requiredResource": "Iron",
 		"uniques": [
 			"Cyber",
 			"Consumes [1] [Oil]",
@@ -872,6 +876,29 @@
 			"Never appears as a Barbarian unit",
 			"Ignores Zone of Control",
 			"[+33]% Strength <vs [Land] units>"
+		],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Hovertank",
+		"unitType": "Armored",
+		"movement": 5,
+		"strength": 110,
+		"rangedStrength": 110,
+		"range": 2,
+		"cost": 530,
+		"requiredResource": "Composites",
+		"uniques": [
+			"Cyber",
+			"Only available <if [GP-Hovercombat] is constructed>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Never appears as a Barbarian unit",
+			"Ignores Zone of Control",
+			"[+33]% Strength <vs [Land] units>"
+		],
+		"promotions": [
+			"Hovering"
 		],
 		"attackSound": "tankshot"
 	},
@@ -988,27 +1015,6 @@
 			"Implants"
 		],
 		"attackSound": "shot"
-	},
-	{
-		"name": "Hovertank",
-		"unitType": "Armored",
-		"movement": 5,
-		"strength": 110,
-		"cost": 530,
-		"requiredResource": "Composites",
-		"uniques": [
-			"Cyber",
-			"Only available <if [GP-Hovercombat] is constructed>",
-			"Can move after attacking",
-			"No defensive terrain bonus",
-			"Never appears as a Barbarian unit",
-			"Ignores Zone of Control",
-			"[+33]% Strength <vs [Land] units>"
-		],
-		"promotions": [
-			"Hovering"
-		],
-		"attackSound": "tankshot"
 	},
 	{
 		"name": "Future Soldier",
