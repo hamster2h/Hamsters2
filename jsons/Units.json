@@ -850,8 +850,8 @@
 		"unitType": "Gunpowder",
 		"movement": 5,
 		"strength": 90,
-		"rangedStrength": 90,
-		"range": 1,
+		//"rangedStrength": 90,
+		//"range": 1,
 		"cost": 375,
 		"requiredTech": "Mobile Tactics",
 		"attackSound": "tankshot"
