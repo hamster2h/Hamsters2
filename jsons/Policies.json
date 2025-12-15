@@ -198,8 +198,7 @@
 				{
 					"name": "Determination",
 					"uniques": [
-						"[+10]% Strength <for [Wounded] units> <vs [Gunpowder] units>",
-						"[+10]% Strength <for [Wounded] units> <vs [Cyber] units>"
+						"[+10]% Strength <for [Wounded] units>"
 					],
 					"requires": [
 						"Futurism"
