@@ -832,6 +832,26 @@
 		"attackSound": "tankshot"
 	},
 	{
+		"name": "Biplane",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 25,
+		"rangedStrength": 25,
+		"range": 4,
+		"interceptRange": 4,
+		"cost": 325,
+		"requiredTech": "Flight",
+		"requiredResource": "Oil",
+		"upgradesTo": "Fighter",
+		"obsoleteTech": "Radar",
+		"uniques": [
+			"[50]% chance to intercept air attacks",
+			"[+100]% Strength <vs [Observation Balloon] units>",
+			"[+50]% Strength <vs [Bomber] units>"
+		],
+		"attackSound": "machinegun"
+	},
+	{
 		"name": "Triplane",
 		"unitType": "Fighter",
 		"movement": 1,
@@ -853,22 +873,21 @@
 		"attackSound": "machinegun"
 	},
 	{
-		"name": "Biplane",
+		"name": "Fighter",
 		"unitType": "Fighter",
 		"movement": 1,
-		"strength": 25,
-		"rangedStrength": 25,
-		"range": 4,
-		"interceptRange": 4,
-		"cost": 325,
-		"requiredTech": "Flight",
+		"strength": 45,
+		"rangedStrength": 45,
+		"range": 8,
+		"interceptRange": 8,
+		"cost": 375,
+		"requiredTech": "Radar",
 		"requiredResource": "Oil",
-		"upgradesTo": "Fighter",
-		"obsoleteTech": "Radar",
+		"upgradesTo": "Jet Fighter",
 		"uniques": [
-			"[25]% chance to intercept air attacks",
-			"[+100]% Strength <vs [Observation Balloon] units>",
-			"[+50]% Strength <vs [Bomber] units>"
+			"[100]% chance to intercept air attacks",
+			"[+150]% Strength <vs [Bomber] units>",
+			"[+150]% Strength <vs [Helicopter] units>"
 		],
 		"attackSound": "machinegun"
 	},
