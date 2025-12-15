@@ -112,6 +112,7 @@
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
+			"Skirmish",
 			"Ignore terrain cost"
 		],
 		"attackSound": "nonmetalhit"
@@ -142,14 +143,14 @@
 		"cost": 450,
 		"requiredTech": "Metagenetics",
 		"uniques": [
-			"Skirmish",
 			"Can see invisible [Wounded] units",
 			"Can move after attacking",
 			"Heals [25] damage if it kills a unit",
-			"Ignore terrain cost",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
+			"Skirmish",
+			"Ignore terrain cost",
 			"Amphibious",
 			"Stealth"
 		],
@@ -1469,7 +1470,7 @@
 		"name": "Body Snatcher",
 		"unitType": "Gunpowder",
 		"uniqueTo": "Barbarians",
-		"replaces": "Bio-Infantry",
+		"replaces": "Energy Infantry",
 		"movement": 3,
 		"strength": 140,
 		"cost": 390,
