@@ -127,7 +127,7 @@
 			{
 				"name": "Collectivization",
 				"uniques": [
-					"[+25]% Strength <for [Support] units> <when defending>",
+					"[+10]% Strength <for [Support] units> <when defending>",
 					"Comment [Doubles the Healing bonus from Medics and Tactical Supplier units]"
 				],
 				"requires": [
@@ -151,7 +151,6 @@
 			{
 				"name": "Dual Strike",
 				"uniques": [
-					"[-35]% Strength <for units with [Logistics]> <when attacking>",
 					"All newly-trained [relevant] units [in all cities] receive the [Logistics] promotion"
 				],
 				"requires": [
