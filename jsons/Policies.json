@@ -256,7 +256,6 @@
 			"name": "Technocracy",
 			"era": "Future era",
 			"uniques": [
-				"[+25]% Strength <for [Cyber] units>",
 				"[+20]% [Production] [in all cities]"
 			],
 			"priorities": {
@@ -270,7 +269,7 @@
 				{
 					"name": "Battlefield Experiments",
 					"uniques": [
-						"[+33]% City Strength from defensive buildings",
+						"[+20]% City Strength from defensive buildings",
 						"Earn [100]% of killed [Military] unit's [Strength] as [Science]"
 					],
 					"requires": [
@@ -282,7 +281,6 @@
 				{
 					"name": "Predictive Algorithms",
 					"uniques": [
-						"[+33]% Strength <for [Cyber] units> <vs [Cyber] units>",
 						"[+50]% XP gained from combat <for [Military] units>"
 					],
 					"requires": [
@@ -331,8 +329,7 @@
 				{
 					"name": "Technocracy Complete",
 					"uniques": [
-						"[+1 Production, +1 Culture, +1 Gold] from all [Science] buildings",
-						"[+15]% Strength <for [Military] units> <when adjacent to a [Cyber] unit>"
+						"[+1 Production, +1 Culture, +1 Gold] from all [Science] buildings"
 					]
 				}
 			]
