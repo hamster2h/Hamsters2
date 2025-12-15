@@ -58,6 +58,30 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
+		"name": "Keshik",
+		"unitType": "Archery",
+		"replaces": "Knight",
+		"uniqueTo": "Mongolia",
+		"range": 2,
+		"movement": 5,
+		"strength": 15,
+		"rangedStrength": 17,
+		"cost": 40,
+		"requiredTech": "Chivalry",
+		"requiredResource": "Horses",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus"
+		],
+		"promotions": [
+			"Great Generals I",
+			"Quick Study"
+		],
+		"attackSound": "arrow"
+	},
+	{
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
