@@ -476,7 +476,7 @@
 		"uniques": [
 			"Only available <if [MP-Desalination] is constructed>",
 			"Consumes [4] [Power]",
-			"[+25]% Production when constructing [Bio] units [in this city]",
+			"[+25]% Production when constructing [Gunpowder] units [in this city]",
 			"[+15]% growth [in this city]",
 			"Destroyed when the city is captured"
 		]
@@ -686,8 +686,8 @@
 		"cost": 2600,
 		"requiredTech": "Metagenetics",
 		"uniques": [
-			"[+25]% Strength <for [Bio] units>",
-			"[+10]% Production when constructing [Bio] units [in all cities]",
+			"[+25]% Strength <for [Gunpowder] units>",
+			"[+10]% Production when constructing [Gunpowder] units [in all cities]",
 			"[+10]% [Food] from every [Adaptive Base]"
 		],
 		"quote": "'It's alive! It's alive!' - Víctor Frankenstein"
@@ -1247,9 +1247,9 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Future Perk]",
-			"Comment [Enables construction of [Bio Facility] and [Seeker]]",
-			"[+5]% [Food] [in all cities]",
-			"[+25]% Strength <for [Bio-Infantry] units>",
+			"Comment [Enables construction of [Bio Facility]]",
+			"[+10]% [Food] [in all cities]",
+			"[+10]% Strength <for [Gunpowder] units>",
 			"Only available <during the [Future era]>",
 			"Only available <with [Engineer Perk]>",
 			"Consumes [1] [Engineer Perk]",
