@@ -145,6 +145,23 @@
 		]
 	},
 	{
+		"name": "Tactical Supplier",
+		"unitType": "Support",
+		"requiredTech": "Pharmaceuticals",
+		"movement": 4,
+		"strength": 20,
+		"cost": 560,
+		"promotions": [
+			"Support Unit"
+		],
+		"uniques": [
+			"All adjacent units heal [+15] HP when healing <before adopting [Collectivization]>",
+			"All adjacent units heal [+30] HP when healing <after adopting [Collectivization]>",
+			"Uncapturable",
+			"Never appears as a Barbarian unit"
+		]
+	},
+	{
 		"name": "Rifleman",
 		"unitType": "Gunpowder",
 		"movement": 2,
@@ -229,6 +246,27 @@
 		"upgradesTo": "Drone",
 		"uniques": [
 			"[+20]% Strength bonus for [Siege] units within [1] tiles",
+			"[+1] Sight",
+			"No defensive terrain bonus",
+			"Ignores Zone of Control",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Support Unit",
+			"Hovering"
+		]
+	},
+	{
+		"name": "Drone",
+		"unitType": "Support",
+		"movement": 3,
+		"strength": 20,
+		"cost": 300,
+		"requiredTech": "Computers",
+		"uniques": [
+			"Intel",
+			"Comment [+2 Range to adjacent Siege Units]",
+			"[+33]% Strength bonus for [Siege] units within [1] tiles",
 			"[+1] Sight",
 			"No defensive terrain bonus",
 			"Ignores Zone of Control",
@@ -676,27 +714,6 @@
 		"attackSound": "nuke"
 	},
 	{
-		"name": "Drone",
-		"unitType": "Support",
-		"movement": 3,
-		"strength": 20,
-		"cost": 300,
-		"requiredTech": "Computers",
-		"uniques": [
-			"Intel",
-			"Comment [+2 Range to adjacent Siege Units]",
-			"[+33]% Strength bonus for [Siege] units within [1] tiles",
-			"[+1] Sight",
-			"No defensive terrain bonus",
-			"Ignores Zone of Control",
-			"Never appears as a Barbarian unit"
-		],
-		"promotions": [
-			"Support Unit",
-			"Hovering"
-		]
-	},
-	{
 		"name": "Hacker",
 		"unitType": "Support",
 		"movement": 2,
@@ -884,6 +901,7 @@
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
 		"upgradesTo": "Jet Fighter",
+		"obsoleteTech": "Computers",
 		"uniques": [
 			"[100]% chance to intercept air attacks",
 			"[+150]% Strength <vs [Bomber] units>",
@@ -902,6 +920,8 @@
 		"cost": 425,
 		"requiredTech": "Computers",
 		"requiredResource": "Aluminum",
+		"upgradesTo": "Orbital Jet",
+		"obsoleteTech": "Spaceflight",
 		"uniques": [
 			"Cyber",
 			"Consumes [1] [Oil]",
@@ -936,23 +956,6 @@
 		"attackSound": "jetgun"
 	},
 	{
-		"name": "Tactical Supplier",
-		"unitType": "Support",
-		"requiredTech": "Pharmaceuticals",
-		"movement": 4,
-		"strength": 20,
-		"cost": 560,
-		"promotions": [
-			"Support Unit"
-		],
-		"uniques": [
-			"All adjacent units heal [+15] HP when healing <before adopting [Collectivization]>",
-			"All adjacent units heal [+30] HP when healing <after adopting [Collectivization]>",
-			"Uncapturable",
-			"Never appears as a Barbarian unit"
-		]
-	},
-	{
 		"name": "Great War Bomber",
 		"unitType": "Bomber",
 		"movement": 1,
@@ -980,6 +983,7 @@
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
 		"upgradesTo": "Jet Bomber",
+		"obsoleteTech": "Computers",
 		"attackSound": "bombing"
 	},
 	{
@@ -994,11 +998,12 @@
 		"cost": 375,
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
+		"upgradesTo": "Jet Bomber",
+		"obsoleteTech": "Computers",
 		"promotions": [
 			"Evasion",
 			"Siege I"
 		],
-		"upgradesTo": "Jet Bomber",
 		"attackSound": "bombing"
 	},
 	{
@@ -1009,9 +1014,10 @@
 		"rangedStrength": 90,
 		"range": 14,
 		"cost": 425,
-		"requiredTech": "Rocketry",
+		"requiredTech": "Computers",
 		"requiredResource": "Aluminum",
 		"upgradesTo": "Stealth Bomber",
+		"obsoleteTech": "Stealth",
 		"uniques": [
 			"Cyber",
 			"Consumes [1] [Oil]"
@@ -1029,11 +1035,11 @@
 		"requiredTech": "Stealth",
 		"requiredResource": "Oil",
 		"upgradesTo": "Orbital Bomber",
+		"obsoleteTech": "Spaceflight",
 		"uniques": [
 			"Cyber",
 			"Damage taken from interception reduced by [50]%",
 			"Cannot be carried by [Carrier] units",
-			"[+4] Sight",
 			"Consumes [2] [Aluminum]",
 			"Can see over obstacles"
 		],
