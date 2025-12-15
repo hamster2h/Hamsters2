@@ -456,6 +456,26 @@
 		"attackSound": "shipguns"
 	},
 	{
+		"name": "Destroyer",
+		"unitType": "Melee Water",
+		"movement": 6,
+		"strength": 60,
+		"interceptRange": 2,
+		"cost": 375,
+		"requiredTech": "Combustion",
+		"requiredResource": "Iron",
+		"upgradesTo": "Missile Cruiser",
+		"obsoleteTech": "Robotics",
+		"uniques": [
+			"Can see invisible [Submarine] units",
+			"[50]% chance to intercept air attacks <after discovering [Ballistics]>",
+			"Withdraws before melee combat <with [60]% chance>",
+			"[+50]% Strength <vs [Submarine] units>",
+			"[+50]% Strength <vs [Ranged] units>"
+		],
+		"attackSound": "shipguns"
+	},
+	{
 		"name": "Musician",
 		"unitType": "Civilian",
 		"requiredTech": "Radio",
@@ -497,25 +517,6 @@
 				"text": "Construct Supply Routes on Strategic Resources your empire no longer uses."
 			}
 		]
-	},
-	{
-		"name": "Destroyer",
-		"unitType": "Melee Water",
-		"movement": 6,
-		"strength": 60,
-		"interceptRange": 2,
-		"cost": 375,
-		"requiredTech": "Combustion",
-		"requiredResource": "Iron",
-		"upgradesTo": "Missile Cruiser",
-		"uniques": [
-			"Can see invisible [Submarine] units",
-			"[50]% chance to intercept air attacks <after discovering [Ballistics]>",
-			"Withdraws before melee combat <with [60]% chance>",
-			"[+50]% Strength <vs [Submarine] units>",
-			"[+50]% Strength <vs [Ranged] units>"
-		],
-		"attackSound": "shipguns"
 	},
 	{
 		"name": "Anti-Aircraft Gun",
@@ -1231,6 +1232,8 @@
 		"rangedStrength": 70,
 		"cost": 550,
 		"requiredTech": "Computers",
+		"upgradesTo": "Future Copter",
+		"obsoleteTech": "Clean Energy",
 		"uniques": [
 			"Cyber",
 			"Consumes [1] [Aluminum]",
@@ -1244,7 +1247,6 @@
 		"promotions": [
 			"Hovering"
 		],
-		"upgradesTo": "Future Copter",
 		"attackSound": "machinegun"
 	},
 	{
