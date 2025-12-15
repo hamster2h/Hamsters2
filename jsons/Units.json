@@ -878,7 +878,7 @@
 		"requiredTech": "Mobile Tactics",
 		"requiredResource": "Iron",
 		"upgradesTo": "Hovertank",
-		"obsoleteTech": "Mobile Tactics",
+		"obsoleteTech": "Terraforming",
 		"uniques": [
 			"Cyber",
 			"Consumes [1] [Oil]",
