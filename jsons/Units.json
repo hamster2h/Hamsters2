@@ -808,10 +808,11 @@
 		"rangedStrength": 60,
 		"range": 1,
 		"cost": 350,
-		"requiredResource": "Oil",
+		"requiredResource": "Iron",
 		"upgradesTo": "Tank",
-		"obsoleteTech": "Combined Arms",
+		"obsoleteTech": "Combustion",
 		"uniques": [
+			"Consumes [1] [Oil]",
 			"Only available <if [EP-Early Vehicles] is constructed>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
@@ -832,6 +833,7 @@
 		"requiredTech": "Combustion",
 		"requiredResource": "Iron",
 		"upgradesTo": "Modern Armor",
+		"obsoleteTech": "Mobile Tactics",
 		"uniques": [
 			"Consumes [1] [Oil]",
 			"Can move after attacking",
@@ -855,6 +857,7 @@
 		"requiredTech": "Combustion",
 		"requiredResource": "Iron",
 		"upgradesTo": "Modern Armor",
+		"obsoleteTech": "Mobile Tactics",
 		"uniques": [
 			"Can move after attacking",
 			"No defensive terrain bonus",
@@ -874,6 +877,8 @@
 		"cost": 450,
 		"requiredTech": "Mobile Tactics",
 		"requiredResource": "Iron",
+		"upgradesTo": "Hovertank",
+		"obsoleteTech": "Mobile Tactics",
 		"uniques": [
 			"Cyber",
 			"Consumes [1] [Oil]",
@@ -893,10 +898,11 @@
 		"rangedStrength": 110,
 		"range": 2,
 		"cost": 530,
-		"requiredTech": "Rocketry",
+		"requiredTech": "Terraforming",
 		"requiredResource": "Composites",
 		"uniques": [
 			"Cyber",
+			"Consumes [1] [Oil]",
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"Never appears as a Barbarian unit",
