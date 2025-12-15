@@ -1223,10 +1223,10 @@
 	{
 		"name": "Energy Infantry",
 		"unitType": "Gunpowder",
-		"movement": 3,
+		"movement": 4,
 		"strength": 100,
 		"cost": 500,
-		"requiredTech": "Automation",
+		"requiredTech": "Nuclear Fusion",
 		"uniques": [
 			"Never appears as a Barbarian unit"
 		],
