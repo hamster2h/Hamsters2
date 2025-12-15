@@ -664,7 +664,7 @@
 		"interceptRange": 2,
 		"strength": 65,
 		"cost": 425,
-		"requiredTech": "Satellites",
+		"requiredTech": "Rocketry",
 		"obsoleteTech": "Nanotechnology",
 		"promotions": [
 			"Support Unit"
@@ -1524,7 +1524,7 @@
 			"Hacker",
 			"Comment [+33% Strength for adjacent Non-Air Units vs Cyber Units]",
 			"Comment [25% chance for adjacent units to capture killed Cyber Units]",
-			"Can see invisible [Stealth Support] units",
+			"Can see invisible [All] units",
 			"Invisible to non-adjacent units",
 			"[50]% chance to intercept air attacks",
 			"May capture killed [Land] units <with [30]% chance>",
