@@ -43,7 +43,7 @@
 		"uniqueTo": "Iroquois",
 		"cost": 40,
 		"maintenance": 2,
-		"production": 2,
+		"production": 4,
 		"specialistSlots": {
 			"Engineer": 1
 		},
