@@ -1162,8 +1162,8 @@
 		"uniques": [
 			"Comment [Modern Perk]",
 			"Comment [Enables construction of Triplanes and Landships]",
-			"[+5]% Strength <for [Armored] units> <during the [Modern era]>",
-			"[+5]% Strength <for [Air] units> <during the [Modern era]>",
+			"[+10]% Strength <for [Armored] units> <during the [Modern era]>",
+			"[+10]% Strength <for [Air] units> <during the [Modern era]>",
 			"Only available <during the [Modern era]>",
 			"Only available <with [Engineer Perk]>",
 			"Consumes [1] [Engineer Perk]",
