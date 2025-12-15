@@ -88,12 +88,6 @@
 		]
 	},
 	{
-		"name": "In Orbit",
-		"uniques": [
-			"[+25]% Strength <vs [Land] units>"
-		]
-	},
-	{
 		"name": "Energy Shield",
 		"uniques": [
 			"[+20]% Strength <when defending>",
@@ -213,4 +207,5 @@
         "row": 3
 	}
 ]
+
 
