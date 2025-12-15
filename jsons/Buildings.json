@@ -42,8 +42,8 @@
 		"replaces": "Workshop",
 		"uniqueTo": "Iroquois",
 		"cost": 40,
-		"maintenance": 0,
-		"production": 4,
+		"maintenance": 2,
+		"production": 2,
 		"specialistSlots": {
 			"Engineer": 1
 		},
