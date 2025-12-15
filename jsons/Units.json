@@ -664,7 +664,7 @@
 		"interceptRange": 2,
 		"strength": 65,
 		"cost": 425,
-		"requiredTech": "Rocketry",
+		"requiredTech": "Satellites",
 		"obsoleteTech": "Nanotechnology",
 		"promotions": [
 			"Support Unit"
