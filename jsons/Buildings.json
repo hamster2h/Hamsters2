@@ -1100,20 +1100,6 @@
 		]
 	},
 	{
-		"name": "AP-Space Combat",
-		"isNationalWonder": true,
-		"cost": 1,
-		"uniques": [
-			"Comment [Information Perk]",
-			"Comment [Enables construction of Orbital Jets and Orbital Bombers]",
-			"[+1 Culture] from every specialist [in all cities]",
-			"Only available <during the [Future era]>",
-			"Only available <with [Artist Perk]>",
-			"Consumes [1] [Artist Perk]",
-			"[-2 Culture] [in this city] <after adopting [Constitution]>"
-		]
-	},
-	{
 		"name": "EP-First Pioneers",
 		"isNationalWonder": true,
 		"cost": 1,
@@ -1636,20 +1622,6 @@
 			"[+25]% Production when constructing [Support] units [in all cities]",
 			"[Gold] cost of purchasing [Support] units [-10]%",
 			"[+33]% Strength <for [Support] units>",
-			"Only available <during the [Information era]>",
-			"Only available <with [General Perk]>",
-			"Consumes [1] [General Perk]",
-			"[-2 Culture] [in this city] <after adopting [Constitution]>"
-		]
-	},
-	{
-		"name": "GP-Stealth Operatives",
-		"isNationalWonder": true,
-		"cost": 1,
-		"uniques": [
-			"Comment [Information Perk]",
-			"Comment [Enables construction of Stealth Bombers and Stealth Hackers]",
-			"Provides [4] [Aluminum]",
 			"Only available <during the [Information era]>",
 			"Only available <with [General Perk]>",
 			"Consumes [1] [General Perk]",
