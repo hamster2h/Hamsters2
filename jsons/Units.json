@@ -67,11 +67,26 @@
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
+		"upgradesTo": "Architect",
+		"obsoleteTech": "Infrastructure",
 		"uniques": [
 			"Can build [Land] improvements on tiles"
 		],
-		"upgradesTo": "Architect",
 		"cost": 70
+	},
+	{
+		"name": "Architect",
+		"unitType": "Civilian",
+		"movement": 2,
+		"requiredTech": "Infrastructure",
+		"uniques": [
+			"Can build [Land] improvements on tiles",
+			"Can instantly construct a [Power Plant] improvement <by consuming this unit>",
+			"Can instantly construct a [Water Tower] improvement <by consuming this unit>",
+			"Can instantly construct a [Industrial Complex] improvement <by consuming this unit>",
+			"Can instantly construct a [Residential] improvement <by consuming this unit>"
+		],
+		"cost": 540
 	},
 	{
 		"name": "Work Boats",
@@ -92,8 +107,8 @@
 		"movement": 3,
 		"strength": 5,
 		"cost": 25,
-		"obsoleteTech": "Rifling",
 		"upgradesTo": "Recon",
+		"obsoleteTech": "Rifling",
 		"uniques": [
 			"Never appears as a Barbarian unit"
 		],
@@ -604,20 +619,6 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Architect",
-		"unitType": "Civilian",
-		"movement": 2,
-		"uniques": [
-			"Can build [Land] improvements on tiles",
-			"Can instantly construct a [Power Plant] improvement <by consuming this unit>",
-			"Can instantly construct a [Water Tower] improvement <by consuming this unit>",
-			"Can instantly construct a [Industrial Complex] improvement <by consuming this unit>",
-			"Can instantly construct a [Residential] improvement <by consuming this unit>"
-		],
-		"requiredTech": "Infrastructure",
-		"cost": 540
-	},
-	{
 		"name": "Carrier",
 		"unitType": "Aircraft Carrier",
 		"movement": 6,
@@ -629,20 +630,6 @@
 			"Can carry [4] [Aircraft] units",
 			"Never appears as a Barbarian unit"
 		]
-	},
-	{
-		"name": "Anti-Tank Gun",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 50,
-		"cost": 300,
-		"requiredTech": "Combined Arms",
-		"upgradesTo": "Helicopter Gunship",
-		"uniques": [
-			"[+200]% Strength <vs [Armored] units>",
-			"Never appears as a Barbarian unit"
-		],
-		"attackSound": "machinegun"
 	},
 	{
 		"name": "Atomic Bomb",
@@ -684,6 +671,30 @@
 			"[+150]% Strength <vs [Air] units>",
 			"Never appears as a Barbarian unit"
 		]
+	},
+	{
+		"name": "Hover-SAM",
+		"unitType": "Support",
+		"movement": 3,
+		"interceptRange": 4,
+		"strength": 65,
+		"cost": 540,
+		"requiredResource": "Composites",
+		"uniques": [
+			"Cyber",
+			"Anti-Air",
+			"Comment [+33% Strength to adjacent Land Units vs Air Units]",
+			"[100]% chance to intercept air attacks",
+			"[+150]% Strength <vs [Air] units>",
+			"Only available <if [GP-Hovercombat] is constructed>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Support Unit",
+			"Hovering",
+			"Heat Sensor"
+		],
+		"attackSound": "missile"
 	},
 	{
 		"name": "Guided Missile",
@@ -1128,30 +1139,6 @@
 		"attackSound": "energyshot"
 	},
 	{
-		"name": "Hover-SAM",
-		"unitType": "Support",
-		"movement": 3,
-		"interceptRange": 4,
-		"strength": 65,
-		"cost": 540,
-		"requiredResource": "Composites",
-		"uniques": [
-			"Cyber",
-			"Anti-Air",
-			"Comment [+33% Strength to adjacent Land Units vs Air Units]",
-			"[100]% chance to intercept air attacks",
-			"[+150]% Strength <vs [Air] units>",
-			"Only available <if [GP-Hovercombat] is constructed>",
-			"Never appears as a Barbarian unit"
-		],
-		"promotions": [
-			"Support Unit",
-			"Hovering",
-			"Heat Sensor"
-		],
-		"attackSound": "missile"
-	},
-	{
 		"name": "Gatling Gun",
 		"unitType": "Ranged Gunpowder",
 		"range": 2,
@@ -1174,6 +1161,7 @@
 		"cost": 350,
 		"requiredTech": "Ballistics",
 		"upgradesTo": "Combat Robot",
+		"obsoleteTech": "Automation",
 		"attackSound": "machinegun"
 	},
 	{
@@ -1248,6 +1236,21 @@
 			"Amphibious"
 		],
 		"attackSound": "energyshot"
+	},
+	{
+		"name": "Anti-Tank Gun",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 50,
+		"cost": 300,
+		"requiredTech": "Combined Arms",
+		"upgradesTo": "Helicopter Gunship",
+		"obsoleteTech": "Computers",
+		"uniques": [
+			"[+200]% Strength <vs [Armored] units>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "machinegun"
 	},
 	{
 		"name": "Helicopter Gunship",
