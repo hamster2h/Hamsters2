@@ -1226,7 +1226,7 @@
 		"movement": 3,
 		"strength": 100,
 		"cost": 500,
-		"requiredTech": "Rocketry",
+		"requiredTech": "Automation",
 		"uniques": [
 			"Never appears as a Barbarian unit"
 		],
