@@ -24,26 +24,6 @@
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Ballista",
-		"unitType": "Siege",
-		"replaces": "Catapult",
-		"uniqueTo": "Rome",
-		"movement": 2,
-		"strength": 8,
-		"rangedStrength": 10,
-		"cost": 75,
-		"requiredTech": "Mathematics",
-		"obsoleteTech": "Physics",
-		"upgradesTo": "Trebuchet",
-		"uniques": [
-			"[+200]% Strength <vs cities> <when attacking>",
-			"No defensive terrain bonus",
-			"[-1] Sight"
-		],
-		"hurryCostModifier": 20,
-		"attackSound": "crossbow"
-	},
-	{
 		"name": "Quinquereme",
 		"unitType": "Melee Water",
 		"uniqueTo": "Carthage",
@@ -52,7 +32,9 @@
 		"strength": 14,
 		"cost": 25,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles"],
+		"uniques": [
+			"Cannot enter ocean tiles"
+		],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
@@ -302,6 +284,26 @@
 		]
 	},
 	{
+		"name": "Ballista",
+		"unitType": "Siege",
+		"replaces": "Catapult",
+		"uniqueTo": "Rome",
+		"movement": 2,
+		"strength": 8,
+		"rangedStrength": 10,
+		"cost": 75,
+		"requiredTech": "Mathematics",
+		"upgradesTo": "Trebuchet",
+		"obsoleteTech": "Physics",
+		"uniques": [
+			"[+200]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"[-1] Sight"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "crossbow"
+	},
+	{
 		"name": "Cannon",
 		"unitType": "Siege",
 		"movement": 2,
@@ -332,7 +334,7 @@
 		"requiredTech": "Dynamite",
 		"requiredResource": "Iron",
 		"upgradesTo": "Rocket Artillery",
-		"obsoleteTech": "Nanotechnology",
+		"obsoleteTech": "Rocketry",
 		"uniques": [
 			"[+200]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
