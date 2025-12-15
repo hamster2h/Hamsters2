@@ -139,7 +139,7 @@
 		"name": "Seeker",
 		"unitType": "Scout",
 		"movement": 4,
-		"strength": 80,
+		"strength": 60,
 		"cost": 450,
 		"requiredTech": "Metagenetics",
 		"uniques": [
@@ -583,44 +583,6 @@
 		]
 	},
 	{
-		"name": "Marine",
-		"unitType": "Gunpowder",
-		"movement": 3,
-		"strength": 65,
-		"cost": 325,
-		"requiredTech": "Pharmaceuticals",
-		"obsoleteTech": "Lasers",
-		"upgradesTo": "Future Soldier",
-		"uniques": [
-			"[1] Movement point cost to disembark",
-			"[1] Movement point cost to embark",
-			"[+1] Sight <when [Embarked]>",
-			"[+100]% Strength <when defending> <when [Embarked]>"
-		],
-		"promotions": [
-			"Amphibious"
-		],
-		"attackSound": "shot"
-	},
-	{
-		"name": "Paratrooper",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 65,
-		"cost": 375,
-		"requiredTech": "Radar",
-		"obsoleteTech": "Lasers",
-		"upgradesTo": "Future Soldier",
-		"uniques": [
-			"May Paradrop to [Land] tiles up to [9] tiles away <in [{Friendly} {Land}] tiles>",
-			"Never appears as a Barbarian unit"
-		],
-		"promotions": [
-			"Skirmish"
-		],
-		"attackSound": "shot"
-	},
-	{
 		"name": "Carrier",
 		"unitType": "Aircraft Carrier",
 		"movement": 6,
@@ -792,15 +754,6 @@
 			"Comment [25% chance for some adjacent units to capture killed Cyber Units]",
 			"Never appears as a Barbarian unit"
 		]
-	},
-	{
-		"name": "Mechanized Infantry",
-		"unitType": "Gunpowder",
-		"movement": 5,
-		"strength": 90,
-		"cost": 375,
-		"requiredTech": "Mobile Tactics",
-		"attackSound": "tankshot"
 	},
 	{
 		"name": "Landship",
@@ -1134,20 +1087,100 @@
 		"attackSound": "bombing"
 	},
 	{
-		"name": "Future Soldier",
+		"name": "Mechanized Infantry",
+		"unitType": "Gunpowder",
+		"movement": 5,
+		"strength": 90,
+		"cost": 375,
+		"requiredTech": "Mobile Tactics",
+		"upgradesTo": "Energy Infantry",
+		"obsoleteTech": "Nuclear Fusion",
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Marine",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 65,
+		"cost": 325,
+		"requiredTech": "Pharmaceuticals",
+		"upgradesTo": "Future Soldier",
+		"obsoleteTech": "Lasers",
+		"uniques": [
+			"[1] Movement point cost to disembark",
+			"[1] Movement point cost to embark",
+			"[+1] Sight <when [Embarked]>",
+			"[+100]% Strength <when defending> <when [Embarked]>"
+		],
+		"promotions": [
+			"Amphibious"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Paratrooper",
 		"unitType": "Gunpowder",
 		"movement": 2,
+		"strength": 65,
+		"cost": 375,
+		"requiredTech": "Radar",
+		"upgradesTo": "Future Soldier",
+		"obsoleteTech": "Lasers",
+		"uniques": [
+			"May Paradrop to [Land] tiles up to [9] tiles away <in [{Friendly} {Land}] tiles>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Skirmish"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Future Soldier",
+		"unitType": "Gunpowder",
+		"movement": 3,
 		"strength": 85,
 		"cost": 500,
 		"requiredTech": "Lasers",
+		"upgradesTo": "Energy Infantry",
+		"obsoleteTech": "Nuclear Fusion",
 		"uniques": [
+			"[1] Movement point cost to disembark",
+			"[1] Movement point cost to embark",
+			"[+1] Sight <when [Embarked]>",
+			"[+100]% Strength <when defending> <when [Embarked]>",
 			"May Paradrop to [Land] tiles up to [16] tiles away <in [{Friendly} {Land}] tiles>",
 			"No movement cost to pillage",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
+			"Amphibious",
 			"Skirmish",
 			"Rocket Launcher"
+		],
+		"attackSound": "energyshot"
+	},
+	{
+		"name": "Energy Infantry",
+		"unitType": "Gunpowder",
+		"movement": 4,
+		"strength": 120,
+		"cost": 600,
+		"requiredTech": "Nuclear Fusion",
+		"uniques": [
+			"[1] Movement point cost to disembark",
+			"[1] Movement point cost to embark",
+			"[+1] Sight <when [Embarked]>",
+			"[+100]% Strength <when defending> <when [Embarked]>",
+			"May Paradrop to [Land] tiles up to [16] tiles away <in [{Friendly} {Land}] tiles>",
+			"No movement cost to pillage",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Amphibious",
+			"Skirmish",
+			"Rocket Launcher",
+			"Energy Weapons"
 		],
 		"attackSound": "energyshot"
 	},
@@ -1192,22 +1225,6 @@
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "machinegun"
-	},
-	{
-		"name": "Energy Infantry",
-		"unitType": "Gunpowder",
-		"movement": 3,
-		"strength": 120,
-		"cost": 500,
-		"requiredTech": "Nuclear Fusion",
-		"uniques": [
-			"Never appears as a Barbarian unit"
-		],
-		"promotions": [
-			"Energy Weapons",
-			"Amphibious"
-		],
-		"attackSound": "energyshot"
 	},
 	{
 		"name": "Anti-Tank Gun",
