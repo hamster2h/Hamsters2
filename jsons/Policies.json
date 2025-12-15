@@ -38,137 +38,137 @@
 				"row": 1,
 				"column": 5
 			},
-				{
-					"name": "Talent Agencies",
-					"uniques": [
-						"Comment [Doubles the adjacency bonuses of Concert Venue tiles]",
-						"Free [Musician] appears"
-					],
-					"requires": [
-						"Cryptography"
-					],
-					"row": 2,
-					"column": 1
-				},
-				{
-					"name": "E-Commerce",
-					"uniques": [
-						"[100]% of excess happiness converted to [Gold]",
-						"[+2 Production] from all [Food] buildings"
-					],
-					"requires": [
-						"Startups"
-					],
-					"row": 2,
-					"column": 3
-				},
-				{
-					"name": "Safety Checks",
-					"uniques": [
-						"Comment [Doubles the adjacency bonuses of Infrastructure tiles]"
-					],
-					"requires": [
-						"Talent Agencies",
-						"E-Commerce"
-					],
-					"row": 3,
-					"column": 1
-				},
-				{
-					"name": "Digitalization Complete",
-					"uniques": [
-						"[-20]% maintenance costs"
-					]
-				}
-			]
-		},
-		{
-			"name": "Coalition",
-			"era": "Atomic era",
-			"uniques": [
-				"[+10]% [Production] from every [Military Academy]",
-				"[+10]% [Production] from every [Electrical Grid]",
-				"[+10]% [Production] from every [Research Lab]"
-			],
-			"priorities": {
-				"Neutral": 40,
-				"Cultural": 25,
-				"Diplomatic": 0,
-				"Domination": 80,
-				"Scientific": 30
+			{
+				"name": "Talent Agencies",
+				"uniques": [
+					"Comment [Doubles the adjacency bonuses of Concert Venue tiles]",
+					"Free [Musician] appears"
+				],
+				"requires": [
+					"Cryptography"
+				],
+				"row": 2,
+				"column": 1
 			},
-			"policies": [
-				{
-					"name": "Propaganda",
-					"uniques": [
-						"Comment [Doubles the combat bonus of Great General units]",
-						"Free [Great General] appears"
-					],
-					"requires": [
-						"Coalition"
-					],
-					"row": 1,
-					"column": 1
-				},
-				{
-					"name": "Military Tax",
-					"uniques": [
-						"[+10]% [Gold] from every [Walls]",
-						"[+10]% [Gold] from every [Castle]",
-						"[+10]% [Gold] from every [Arsenal]",
-						"[+10]% [Gold] from every [Military Base]"
-					],
-					"requires": [
-						"Coalition"
-					],
-					"row": 1,
-					"column": 3
-				},
-				{
-					"name": "Collectivization",
-					"uniques": [
-						"[+25]% Strength <for [Support] units> <when defending>",
-						"Comment [Doubles the Healing bonus from Medics and Tactical Supplier units]"
-					],
-					"requires": [
-						"Propaganda"
-					],
-					"row": 2,
-					"column": 3
-				},
-				{
-					"name": "Censor",
-					"uniques": [
-						"[-25]% [Culture] [in all cities]",
-						"[+50]% [Science] [in all cities]"
-					],
-					"requires": [
-						"Military Tax"
-					],
-					"row": 2,
-					"column": 5
-				},
-				{
-					"name": "Dual Strike",
-					"uniques": [
-						"[-35]% Strength <for units with [Logistics]> <when attacking>",
-						"All newly-trained [relevant] units [in all cities] receive the [Logistics] promotion"
-					],
-					"requires": [
-						"Censor",
-						"Collectivization"
-					],
-					"row": 3,
-					"column": 3
-				},
-				{
-					"name": "Coalition Complete",
-					"uniques": [
-						"Comment [Citadels provide adjacency bonuses as if they were Infrastructure Improvements]"
-					]
-				}
-			]
+			{
+				"name": "E-Commerce",
+				"uniques": [
+					"[100]% of excess happiness converted to [Gold]",
+					"[+2 Production] from all [Food] buildings"
+				],
+				"requires": [
+					"Startups"
+				],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Safety Checks",
+				"uniques": [
+					"Comment [Doubles the adjacency bonuses of Infrastructure tiles]"
+				],
+				"requires": [
+					"Talent Agencies",
+					"E-Commerce"
+				],
+				"row": 3,
+				"column": 1
+			},
+			{
+				"name": "Digitalization Complete",
+				"uniques": [
+					"[-20]% maintenance costs"
+				]
+			}
+		]
+	},
+	{
+		"name": "Coalition",
+		"era": "Atomic era",
+		"uniques": [
+			"[+10]% [Production] from every [Military Academy]",
+			"[+10]% [Production] from every [Electrical Grid]",
+			"[+10]% [Production] from every [Research Lab]"
+		],
+		"priorities": {
+			"Neutral": 40,
+			"Cultural": 25,
+			"Diplomatic": 0,
+			"Domination": 80,
+			"Scientific": 30
 		},
+		"policies": [
+			{
+				"name": "Propaganda",
+				"uniques": [
+					"Comment [Doubles the combat bonus of Great General units]",
+					"Free [Great General] appears"
+				],
+				"requires": [
+					"Coalition"
+				],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Military Tax",
+				"uniques": [
+					"[+10]% [Gold] from every [Walls]",
+					"[+10]% [Gold] from every [Castle]",
+					"[+10]% [Gold] from every [Arsenal]",
+					"[+10]% [Gold] from every [Military Base]"
+				],
+				"requires": [
+					"Coalition"
+				],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Collectivization",
+				"uniques": [
+					"[+25]% Strength <for [Support] units> <when defending>",
+					"Comment [Doubles the Healing bonus from Medics and Tactical Supplier units]"
+				],
+				"requires": [
+					"Propaganda"
+				],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Censor",
+				"uniques": [
+					"[-25]% [Culture] [in all cities]",
+					"[+50]% [Science] [in all cities]"
+				],
+				"requires": [
+					"Military Tax"
+				],
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "Dual Strike",
+				"uniques": [
+					"[-35]% Strength <for units with [Logistics]> <when attacking>",
+					"All newly-trained [relevant] units [in all cities] receive the [Logistics] promotion"
+				],
+				"requires": [
+					"Censor",
+					"Collectivization"
+				],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Coalition Complete",
+				"uniques": [
+					"Comment [Citadels provide adjacency bonuses as if they were Infrastructure Improvements]"
+				]
+			}
+		]
+	},
 		{
 			"name": "Futurism",
 			"era": "Future era",
