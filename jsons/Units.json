@@ -47,10 +47,9 @@
 		"range": 2,
 		"movement": 5,
 		"strength": 15,
-		"rangedStrength": 17,
+		"rangedStrength": 16,
 		"cost": 40,
 		"requiredTech": "Chivalry",
-		"requiredResource": "Horses",
 		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Military Science",
 		"uniques": [
