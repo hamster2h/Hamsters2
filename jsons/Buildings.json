@@ -1116,6 +1116,19 @@
 		]
 	},
 	{
+		"name": "AP-Space Combat",
+		"isNationalWonder": true,
+		"cost": 1,
+		"uniques": [
+			"Comment [Information Perk]",
+			"[+1 Culture] from every specialist [in all cities]",
+			"Only available <during the [Future era]>",
+			"Only available <with [Artist Perk]>",
+			"Consumes [1] [Artist Perk]",
+			"[-2 Culture] [in this city] <after adopting [Constitution]>"
+		]
+	},
+	{
 		"name": "EP-First Pioneers",
 		"isNationalWonder": true,
 		"cost": 1,
@@ -1645,12 +1658,24 @@
 		]
 	},
 	{
+		"name": "GP-Stealth Operatives",
+		"isNationalWonder": true,
+		"cost": 1,
+		"uniques": [
+			"Comment [Information Perk]",
+			"Provides [4] [Aluminum]",
+			"Only available <during the [Information era]>",
+			"Only available <with [General Perk]>",
+			"Consumes [1] [General Perk]",
+			"[-2 Culture] [in this city] <after adopting [Constitution]>"
+		]
+	},
+	{
 		"name": "GP-Hovercombat",
 		"isNationalWonder": true,
 		"cost": 1,
 		"uniques": [
 			"Comment [Future Perk]",
-			"Comment [Enables construction of Hovertank, Hovertillery, and Hover-SAM]",
 			"Provides [4] [Composites]",
 			"Only available <during the [Future era]>",
 			"Only available <with [General Perk]>",
@@ -1664,7 +1689,6 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Future Perk]",
-			"Comment [Enables construction of Energy Infantry]",
 			"Provides [2] [Composites]",
 			"Only available <during the [Future era]>",
 			"Only available <with [General Perk]>",
