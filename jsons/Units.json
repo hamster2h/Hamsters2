@@ -341,64 +341,6 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Triplane",
-		"unitType": "Fighter",
-		"movement": 1,
-		"strength": 35,
-		"rangedStrength": 35,
-		"range": 5,
-		"interceptRange": 5,
-		"cost": 325,
-		"requiredResource": "Oil",
-		"upgradesTo": "Fighter",
-		"obsoleteTech": "Radar",
-		"uniques": [
-			"[50]% chance to intercept air attacks",
-			"[+150]% Strength <vs [Bomber] units>",
-			"[+150]% Strength <vs [Helicopter] units>",
-			"Only available <if [EP-Early Vehicles] is constructed>",
-			"Only available <after discovering [Flight]>"
-		],
-		"attackSound": "machinegun"
-	},
-	{
-		"name": "Great War Bomber",
-		"unitType": "Bomber",
-		"movement": 1,
-		"strength": 50,
-		"rangedStrength": 50,
-		"range": 6,
-		"cost": 325,
-		"requiredResource": "Oil",
-		"upgradesTo": "Bomber",
-		"obsoleteTech": "Radar",
-		"uniques": [
-			"Only available <if [GP-Great War] is constructed>",
-			"Only available <after discovering [Flight]>"
-		],
-		"attackSound": "bombing"
-	},
-	{
-		"name": "Biplane",
-		"unitType": "Fighter",
-		"movement": 1,
-		"strength": 25,
-		"rangedStrength": 25,
-		"range": 4,
-		"interceptRange": 4,
-		"cost": 325,
-		"requiredTech": "Flight",
-		"requiredResource": "Oil",
-		"upgradesTo": "Fighter",
-		"obsoleteTech": "Radar",
-		"uniques": [
-			"[25]% chance to intercept air attacks",
-			"[+100]% Strength <vs [Observation Balloon] units>",
-			"[+50]% Strength <vs [Bomber] units>"
-		],
-		"attackSound": "machinegun"
-	},
-	{
 		"name": "Frigate",
 		"unitType": "Ranged Water",
 		"movement": 5,
@@ -890,6 +832,47 @@
 		"attackSound": "tankshot"
 	},
 	{
+		"name": "Triplane",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 35,
+		"rangedStrength": 35,
+		"range": 5,
+		"interceptRange": 5,
+		"cost": 325,
+		"requiredResource": "Oil",
+		"upgradesTo": "Fighter",
+		"obsoleteTech": "Radar",
+		"uniques": [
+			"[50]% chance to intercept air attacks",
+			"[+150]% Strength <vs [Bomber] units>",
+			"[+150]% Strength <vs [Helicopter] units>",
+			"Only available <if [EP-Early Vehicles] is constructed>",
+			"Only available <after discovering [Flight]>"
+		],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Biplane",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 25,
+		"rangedStrength": 25,
+		"range": 4,
+		"interceptRange": 4,
+		"cost": 325,
+		"requiredTech": "Flight",
+		"requiredResource": "Oil",
+		"upgradesTo": "Fighter",
+		"obsoleteTech": "Radar",
+		"uniques": [
+			"[25]% chance to intercept air attacks",
+			"[+100]% Strength <vs [Observation Balloon] units>",
+			"[+50]% Strength <vs [Bomber] units>"
+		],
+		"attackSound": "machinegun"
+	},
+	{
 		"name": "Jet Fighter",
 		"unitType": "Fighter",
 		"movement": 1,
@@ -898,7 +881,7 @@
 		"range": 10,
 		"interceptRange": 10,
 		"cost": 425,
-		"requiredTech": "Mobile Tactics",
+		"requiredTech": "Computers",
 		"requiredResource": "Aluminum",
 		"uniques": [
 			"Cyber",
@@ -906,6 +889,30 @@
 			"[100]% chance to intercept air attacks",
 			"[+150]% Strength <vs [Bomber] units>",
 			"[+50]% Strength <vs [Helicopter] units>"
+		],
+		"attackSound": "jetgun"
+	},
+	{
+		"name": "Orbital Jet",
+		"unitType": "Fighter",
+		"movement": 2,
+		"strength": 75,
+		"rangedStrength": 75,
+		"range": 12,
+		"interceptRange": 12,
+		"cost": 700,
+		"requiredTech": "Spaceflight",
+		"requiredResource": "Composites",
+		"uniques": [
+			"Cyber",
+			"Space",
+			"Consumes [1] [Oil]",
+			"[100]% chance to intercept air attacks",
+			"[+150]% Strength <vs [Bomber] units>",
+			"[+50]% Strength <vs [Helicopter] units>"
+		],
+		"promotions": [
+			"Heat Sensor"
 		],
 		"attackSound": "jetgun"
 	},
@@ -925,6 +932,23 @@
 			"Uncapturable",
 			"Never appears as a Barbarian unit"
 		]
+	},
+	{
+		"name": "Great War Bomber",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 50,
+		"rangedStrength": 50,
+		"range": 6,
+		"cost": 325,
+		"requiredResource": "Oil",
+		"upgradesTo": "Bomber",
+		"obsoleteTech": "Radar",
+		"uniques": [
+			"Only available <if [GP-Great War] is constructed>",
+			"Only available <after discovering [Flight]>"
+		],
+		"attackSound": "bombing"
 	},
 	{
 		"name": "Bomber",
@@ -1012,11 +1036,7 @@
 		"uniques": [
 			"Cyber",
 			"Space",
-			"[+4] Sight",
-			"Can see over obstacles"
-		],
-		"promotions": [
-			"In Orbit"
+			"Consumes [1] [Oil]"
 		],
 		"attackSound": "bombing"
 	},
@@ -1225,30 +1245,6 @@
 			"Hovering"
 		],
 		"attackSound": "energyshot"
-	},
-	{
-		"name": "Orbital Jet",
-		"unitType": "Fighter",
-		"movement": 2,
-		"strength": 75,
-		"rangedStrength": 75,
-		"range": 12,
-		"interceptRange": 12,
-		"cost": 700,
-		"requiredTech": "Spaceflight",
-		"requiredResource": "Composites",
-		"uniques": [
-			"Cyber",
-			"Space",
-			"[100]% chance to intercept air attacks",
-			"[+150]% Strength <vs [Bomber] units>",
-			"[+50]% Strength <vs [Helicopter] units>"
-		],
-		"promotions": [
-			"Heat Sensor",
-			"In Orbit"
-		],
-		"attackSound": "jetgun"
 	},
 	{
 		"name": "Giant Death Robot",
