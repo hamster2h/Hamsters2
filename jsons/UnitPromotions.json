@@ -77,8 +77,7 @@
 	{
 		"name": "Energy Weapons",
 		"uniques": [
-			"[+40]% Strength <vs [Gunpowder] units>",
-			"[+40]% Strength <vs [Cyber] units>"
+			"[+40]% Strength"
 		]
 	},
 	{
@@ -207,6 +206,7 @@
         "row": 3
 	}
 ]
+
 
 
 
