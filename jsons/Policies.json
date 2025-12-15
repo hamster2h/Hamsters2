@@ -200,7 +200,7 @@
 					"name": "Determination",
 					"uniques": [
 						"[Future Soldier] units gain the [Energy Weapons] promotion",
-						"[+25]% Strength <for [Wounded] units> <vs [Bio] units>",
+						"[+25]% Strength <for [Wounded] units> <vs [Gunpowder] units>",
 						"[+25]% Strength <for [Wounded] units> <vs [Cyber] units>"
 					],
 					"requires": [
@@ -344,7 +344,7 @@
 			"era": "Future era",
 			"uniques": [
 				"[+17]% growth [in capital]",
-				"[+25]% Strength <for [Bio] units>"
+				"[+25]% Strength <for [Gunpowder] units>"
 			],
 			"priorities": {
 				"Neutral": 20,
@@ -369,7 +369,7 @@
 					"name": "Bio-Specialism",
 					"uniques": [
 						"[+1 Food] from all [Food] buildings",
-						"[+100]% XP gained from combat <for [Bio] units>"
+						"[+100]% XP gained from combat <for [Gunpowder] units>"
 					],
 					"requires": [
 						"Transhumanism"
@@ -391,8 +391,8 @@
 				{
 					"name": "Techno-Organic Virus",
 					"uniques": [
-						"[+1] Sight <for [Bio] units>",
-						"[+50]% Strength <for [Bio] units> <vs [Cyber] units>"
+						"[+1] Sight <for [Gunpowder] units>",
+						"[+50]% Strength <for [Gunpowder] units> <vs [Cyber] units>"
 					],
 					"requires": [
 						"Bio-Specialism"
@@ -403,7 +403,7 @@
 				{
 					"name": "Lifeform Upgrade",
 					"uniques": [
-						"[+1] Movement <for [Bio] units>",
+						"[+1] Movement <for [Gunpowder] units>",
 						"[+3 Food] from every [Research Lab]"
 					],
 					"requires": [
