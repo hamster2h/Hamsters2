@@ -1,43 +1,43 @@
-	[
-		{
-			"name": "Digitalization",
-			"era": "Atomic era",
-			"uniques": [
-				"[+33]% Production when constructing [Civilian] units [in all cities]",
-				"[-25]% Gold cost of upgrading <for [Worker] units>"
-			],
-			"priorities": {
-				"Neutral": 50,
-				"Cultural": 75,
-				"Diplomatic": 80,
-				"Domination": 20,
-				"Scientific": 40
+[
+	{
+		"name": "Digitalization",
+		"era": "Atomic era",
+		"uniques": [
+			"[+33]% Production when constructing [Civilian] units [in all cities]",
+			"[-25]% Gold cost of upgrading <for [Worker] units>"
+		],
+		"priorities": {
+			"Neutral": 50,
+			"Cultural": 75,
+			"Diplomatic": 80,
+			"Domination": 20,
+			"Scientific": 40
+		},
+		"policies": [
+			{
+				"name": "Cryptography",
+				"uniques": [
+					"[Great Scientist] is earned [100]% faster",
+					"[+2 Gold] from all [Science] buildings"
+				],
+				"requires": [
+					"Digitalization"
+				],
+				"row": 1,
+				"column": 3
 			},
-			"policies": [
-				{
-					"name": "Cryptography",
-					"uniques": [
-						"[Great Scientist] is earned [100]% faster",
-						"[+2 Gold] from all [Science] buildings"
-					],
-					"requires": [
-						"Digitalization"
-					],
-					"row": 1,
-					"column": 3
-				},
-				{
-					"name": "Startups",
-					"uniques": [
-						"Comment [Doubles the adjacency bonuses of Industry tiles]",
-						"Free [Corporate] appears"
-					],
-					"requires": [
-						"Digitalization"
-					],
-					"row": 1,
-					"column": 5
-				},
+			{
+				"name": "Startups",
+				"uniques": [
+					"Comment [Doubles the adjacency bonuses of Industry tiles]",
+					"Free [Corporate] appears"
+				],
+				"requires": [
+					"Digitalization"
+				],
+				"row": 1,
+				"column": 5
+			},
 				{
 					"name": "Talent Agencies",
 					"uniques": [
@@ -224,10 +224,7 @@
 				{
 					"name": "Discovery",
 					"uniques": [
-						"[+1 Happiness] from every [Industrial Perk]",
-						"[+4 Science] from every [Modern Perk]",
-						"[+4 Culture] from every [Atomic Perk]",
-						"[+8 Gold] from every [Information Perk]"
+						"[+1 Happiness, +2 Gold, +2 Science, +2 Culture] from all [Science] buildings"
 					],
 					"requires": [
 						"Joint Projects"
