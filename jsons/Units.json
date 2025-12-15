@@ -142,7 +142,6 @@
 		"cost": 450,
 		"requiredTech": "Metagenetics",
 		"uniques": [
-			"Bio",
 			"Skirmish",
 			"Can see invisible [Wounded] units",
 			"Can move after attacking",
@@ -1470,7 +1469,6 @@
 		"cost": 390,
 		"requiredTech": "Enhancing",
 		"uniques": [
-			"Bio",
 			"Heals [25] damage if it kills a unit",
 			"May capture killed [Military] units <with [99]% chance>",
 			"Will not be displayed in Civilopedia"
@@ -1488,7 +1486,6 @@
 		"cost": 720,
 		"requiredTech": "Enhancing",
 		"uniques": [
-			"Bio",
 			"Heals [25] damage if it kills a unit",
 			"May capture killed [Land] units <with [44]% chance>",
 			"Will not be displayed in Civilopedia",
