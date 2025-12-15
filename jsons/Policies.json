@@ -198,9 +198,8 @@
 				{
 					"name": "Determination",
 					"uniques": [
-						"[Future Soldier] units gain the [Energy Weapons] promotion",
-						"[+25]% Strength <for [Wounded] units> <vs [Gunpowder] units>",
-						"[+25]% Strength <for [Wounded] units> <vs [Cyber] units>"
+						"[+10]% Strength <for [Wounded] units> <vs [Gunpowder] units>",
+						"[+10]% Strength <for [Wounded] units> <vs [Cyber] units>"
 					],
 					"requires": [
 						"Futurism"
