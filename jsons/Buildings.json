@@ -1115,19 +1115,19 @@
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
 	},
-	{
-		"name": "AP-Space Combat",
-		"isNationalWonder": true,
-		"cost": 1,
-		"uniques": [
-			"Comment [Information Perk]",
-			"[+1 Culture] from every specialist [in all cities]",
-			"Only available <during the [Future era]>",
-			"Only available <with [Artist Perk]>",
-			"Consumes [1] [Artist Perk]",
-			"[-2 Culture] [in this city] <after adopting [Constitution]>"
-		]
-	},
+	//{
+		//"name": "AP-Space Combat",
+		//"isNationalWonder": true,
+		//"cost": 1,
+		//"uniques": [
+			//"Comment [Information Perk]",
+			//"[+1 Culture] from every specialist [in all cities]",
+			//"Only available <during the [Future era]>",
+			//"Only available <with [Artist Perk]>",
+			//"Consumes [1] [Artist Perk]",
+			//"[-2 Culture] [in this city] <after adopting [Constitution]>"
+		//]
+	//},
 	{
 		"name": "EP-First Pioneers",
 		"isNationalWonder": true,
@@ -1664,32 +1664,40 @@
 		"uniques": [
 			"Comment [Information Perk]",
 			"Provides [4] [Aluminum]",
+			"All newly-trained [Gunpowder] units [in all cities] receive the [Stealth] promotion",
+			"All newly-trained [Armored] units [in all cities] receive the [Stealth] promotion",
+			"All newly-trained [Helicopter] units [in all cities] receive the [Stealth] promotion",
+			"All newly-trained [Missile Cruiser] units [in all cities] receive the [Stealth] promotion",
 			"Only available <during the [Information era]>",
 			"Only available <with [General Perk]>",
 			"Consumes [1] [General Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
 	},
-	{
-		"name": "GP-Hovercombat",
-		"isNationalWonder": true,
-		"cost": 1,
-		"uniques": [
-			"Comment [Future Perk]",
-			"Provides [4] [Composites]",
-			"Only available <during the [Future era]>",
-			"Only available <with [General Perk]>",
-			"Consumes [1] [General Perk]",
-			"[-2 Culture] [in this city] <after adopting [Constitution]>"
-		]
-	},
+	//{
+		//"name": "GP-Hovercombat",
+		//"isNationalWonder": true,
+		//"cost": 1,
+		//"uniques": [
+			//"Comment [Future Perk]",
+			//"Only available <during the [Future era]>",
+			//"Only available <with [General Perk]>",
+			//"Consumes [1] [General Perk]",
+			//"[-2 Culture] [in this city] <after adopting [Constitution]>"
+		//]
+	//},
 	{
 		"name": "GP-Energy Weapons",
 		"isNationalWonder": true,
 		"cost": 1,
 		"uniques": [
 			"Comment [Future Perk]",
-			"Provides [2] [Composites]",
+			"All newly-trained [Seeker] units [in all cities] receive the [Energy Weapons] promotion",
+			"All newly-trained [Future Soldier] units [in all cities] receive the [Energy Weapons] promotion",
+			"All newly-trained [Combat Robot] units [in all cities] receive the [Energy Weapons] promotion",
+			"All newly-trained [Hovertank] units [in all cities] receive the [Energy Weapons] promotion",
+			"All newly-trained [Future Copter] units [in all cities] receive the [Energy Weapons] promotion",
+			"All newly-trained [Missile Cruiser] units [in all cities] receive the [Energy Weapons] promotion",
 			"Only available <during the [Future era]>",
 			"Only available <with [General Perk]>",
 			"Consumes [1] [General Perk]",
