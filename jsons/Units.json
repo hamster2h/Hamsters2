@@ -117,6 +117,46 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
+		"name": "Recon",
+		"unitType": "Scout",
+		"movement": 3,
+		"strength": 18,
+		"cost": 200,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Metagenetics",
+		"upgradesTo": "Seeker",
+		"uniques": [
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Skirmish",
+			"Ignore terrain cost"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Seeker",
+		"unitType": "Scout",
+		"movement": 4,
+		"strength": 80,
+		"cost": 450,
+		"requiredTech": "Metagenetics",
+		"uniques": [
+			"Bio",
+			"Skirmish",
+			"Can see invisible [Wounded] units",
+			"Can move after attacking",
+			"Heals [25] damage if it kills a unit",
+			"Ignore terrain cost",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Amphibious",
+			"Stealth"
+		],
+		"attackSound": "bite"
+	},
+	{
 		"name": "Archaeologist",
 		"unitType": "Civilian",
 		"cost": 375,
@@ -126,24 +166,6 @@
 			"Can instantly construct a [Excavation Site] improvement <by consuming this unit>",
 			"Uncapturable"
 		]
-	},
-	{
-		"name": "Recon",
-		"unitType": "Scout",
-		"movement": 3,
-		"strength": 18,
-		"cost": 200,
-		"requiredTech": "Rifling",
-		"obsoleteTech": "Satellites",
-		"upgradesTo": "Paratrooper",
-		"uniques": [
-			"Never appears as a Barbarian unit"
-		],
-		"promotions": [
-			"Skirmish",
-			"Ignore terrain cost"
-		],
-		"attackSound": "shot"
 	},
 	{
 		"name": "Medic",
@@ -370,6 +392,8 @@
 		"range": 4,
 		"cost": 425,
 		"requiredTech": "Rocketry",
+		"upgradesTo": "Hovertillery",
+		"obsoleteTech": "Terraforming",
 		"uniques": [
 			"Cyber",
 			"[+200]% Strength <vs cities> <when attacking>",
@@ -390,7 +414,7 @@
 		"rangedStrength": 56,
 		"range": 4,
 		"cost": 540,
-		"requiredTech": "Rocketry",
+		"requiredTech": "Terraforming",
 		"requiredResource": "Composites",
 		"uniques": [
 			"Cyber",
@@ -1180,51 +1204,10 @@
 		"attackSound": "machinegun"
 	},
 	{
-		"name": "Seeker",
-		"unitType": "Scout",
-		"movement": 4,
-		"strength": 80,
-		"cost": 450,
-		"uniques": [
-			"Bio",
-			"Only available <if [EP-Genetic Engineering] is constructed>",
-			"Can see invisible [Wounded] units",
-			"Can move after attacking",
-			"Heals [25] damage if it kills a unit",
-			"All tiles cost 1 movement",
-			"Never appears as a Barbarian unit"
-		],
-		"promotions": [
-			"Amphibious",
-			"Stealth"
-		],
-		"attackSound": "bite"
-	},
-	{
-		"name": "Synthethic Plant",
-		"unitType": "Gunpowder",
-		"movement": 4,
-		"interceptRange": 1,
-		"strength": 100,
-		"cost": 530,
-		"requiredTech": "Metagenetics",
-		"uniques": [
-			"Bio",
-			"[50]% chance to intercept air attacks",
-			"Can move after attacking",
-			"Heals [25] damage if it kills a unit",
-			"Never appears as a Barbarian unit"
-		],
-		"promotions": [
-			"Implants"
-		],
-		"attackSound": "bite"
-	},
-	{
 		"name": "Energy Infantry",
 		"unitType": "Gunpowder",
-		"movement": 4,
-		"strength": 100,
+		"movement": 3,
+		"strength": 120,
 		"cost": 500,
 		"requiredTech": "Nuclear Fusion",
 		"uniques": [
