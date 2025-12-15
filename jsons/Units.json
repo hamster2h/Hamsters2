@@ -390,12 +390,12 @@
 		"rangedStrength": 56,
 		"range": 4,
 		"cost": 540,
+		"requiredTech": "Rocketry",
 		"requiredResource": "Composites",
 		"uniques": [
 			"Cyber",
 			"[+200]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
-			"Only available <if [GP-Hovercombat] is constructed>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
@@ -678,6 +678,7 @@
 		"interceptRange": 4,
 		"strength": 65,
 		"cost": 540,
+		"requiredTech": "Rocketry",
 		"requiredResource": "Composites",
 		"uniques": [
 			"Cyber",
@@ -685,7 +686,6 @@
 			"Comment [+33% Strength to adjacent Land Units vs Air Units]",
 			"[100]% chance to intercept air attacks",
 			"[+150]% Strength <vs [Air] units>",
-			"Only available <if [GP-Hovercombat] is constructed>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
@@ -870,10 +870,10 @@
 		"rangedStrength": 110,
 		"range": 2,
 		"cost": 530,
+		"requiredTech": "Rocketry",
 		"requiredResource": "Composites",
 		"uniques": [
 			"Cyber",
-			"Only available <if [GP-Hovercombat] is constructed>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"Never appears as a Barbarian unit",
@@ -1226,8 +1226,8 @@
 		"movement": 3,
 		"strength": 100,
 		"cost": 500,
+		"requiredTech": "Rocketry",
 		"uniques": [
-			"Only available <if [GP-Energy Weapons] is constructed>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
