@@ -927,27 +927,6 @@
 		]
 	},
 	{
-		"name": "Stealth Hacker",
-		"unitType": "Support",
-		"movement": 2,
-		"strength": 20,
-		"cost": 560,
-		"uniques": [
-			"Cyber",
-			"Hacker",
-			"Comment [+33% Strength for some adjacent Units vs Cyber Units]",
-			"Comment [25% chance for some adjacent units to capture killed Cyber Units]",
-			"Withdraws before melee combat <with [50]% chance>",
-			"Can see invisible [Military] units",
-			"Only available <if [GP-Stealth Operatives] is constructed>",
-			"Never appears as a Barbarian unit"
-		],
-		"promotions": [
-			"Stealth",
-			"Support Unit"
-		]
-	},
-	{
 		"name": "Bomber",
 		"unitType": "Bomber",
 		"movement": 1,
@@ -957,6 +936,25 @@
 		"cost": 375,
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
+		"upgradesTo": "Jet Bomber",
+		"attackSound": "bombing"
+	},
+	{
+		"name": "B17",
+		"unitType": "Bomber",
+		"replaces": "Bomber",
+		"uniqueTo": "America",
+		"movement": 1,
+		"strength": 70,
+		"rangedStrength": 70,
+		"range": 10,
+		"cost": 375,
+		"requiredTech": "Radar",
+		"requiredResource": "Oil",
+		"promotions": [
+			"Evasion",
+			"Siege I"
+		],
 		"upgradesTo": "Jet Bomber",
 		"attackSound": "bombing"
 	},
@@ -1009,6 +1007,7 @@
 		"rangedStrength": 120,
 		"range": 18,
 		"cost": 700,
+		"requiredTech": "Spaceflight",
 		"requiredResource": "Composites",
 		"uniques": [
 			"Cyber",
@@ -1236,9 +1235,9 @@
 		"range": 12,
 		"interceptRange": 12,
 		"cost": 700,
+		"requiredTech": "Spaceflight",
 		"requiredResource": "Composites",
 		"uniques": [
-			"Only available <if [AP-Space Combat] is constructed>",
 			"Cyber",
 			"Space",
 			"[100]% chance to intercept air attacks",
@@ -1641,25 +1640,6 @@
 			"Home Sweet Home"
 		],
 		"attackSound": "shot"
-	},
-	{
-		"name": "B17",
-		"unitType": "Bomber",
-		"replaces": "Bomber",
-		"uniqueTo": "America",
-		"movement": 1,
-		"strength": 70,
-		"rangedStrength": 70,
-		"range": 10,
-		"cost": 375,
-		"requiredTech": "Radar",
-		"requiredResource": "Oil",
-		"promotions": [
-			"Evasion",
-			"Siege I"
-		],
-		"upgradesTo": "Jet Bomber",
-		"attackSound": "bombing"
 	},
 	{
 		"name": "SS Booster",
