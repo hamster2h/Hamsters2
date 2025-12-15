@@ -1127,23 +1127,6 @@
 		"attackSound": "bombing"
 	},
 	{
-		"name": "Bio-Infantry",
-		"unitType": "Gunpowder",
-		"movement": 3,
-		"strength": 90,
-		"cost": 300,
-		"requiredTech": "Enhancing",
-		"uniques": [
-			"Bio",
-			"Heals [25] damage if it kills a unit",
-			"Never appears as a Barbarian unit"
-		],
-		"promotions": [
-			"Implants"
-		],
-		"attackSound": "shot"
-	},
-	{
 		"name": "Future Soldier",
 		"unitType": "Gunpowder",
 		"movement": 2,
