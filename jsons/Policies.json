@@ -53,7 +53,7 @@
 			{
 				"name": "E-Commerce",
 				"uniques": [
-					"[100]% of excess happiness converted to [Gold]",
+					"[25]% of excess happiness converted to [Gold]",
 					"[+2 Production] from all [Food] buildings"
 				],
 				"requires": [
