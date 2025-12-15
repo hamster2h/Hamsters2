@@ -48,10 +48,10 @@
 			"Engineer": 1
 		},
 		"hurryCostModifier": 25,
+		"requiredTech": "Iron Working"
 		"uniques": [
 			"[+2 Production] from [Forest] tiles [in all cities]"
-		],
-		"requiredTech": "Metal Casting"
+		]
 	},
 	{
 		"name": "Palace",
