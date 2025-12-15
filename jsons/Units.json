@@ -1487,7 +1487,7 @@
 		"name": "Brainiac",
 		"unitType": "Support",
 		"uniqueTo": "Barbarians",
-		"replaces": "Stealth Hacker",
+		"replaces": "Hacker",
 		"movement": 2,
 		"interceptRange": 5,
 		"strength": 140,
