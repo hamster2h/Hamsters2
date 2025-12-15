@@ -386,7 +386,7 @@
 	{
 		"name": "Rocket Artillery",
 		"unitType": "Siege",
-		"movement": 2,
+		"movement": 4,
 		"strength": 42,
 		"rangedStrength": 56,
 		"range": 4,
@@ -409,10 +409,10 @@
 	{
 		"name": "Hovertillery",
 		"unitType": "Siege",
-		"movement": 2,
+		"movement": 5,
 		"strength": 42,
 		"rangedStrength": 56,
-		"range": 4,
+		"range": 5,
 		"cost": 540,
 		"requiredTech": "Terraforming",
 		"requiredResource": "Composites",
@@ -583,27 +583,6 @@
 		]
 	},
 	{
-		"name": "Anti-Aircraft Gun",
-		"unitType": "Support",
-		"movement": 2,
-		"interceptRange": 2,
-		"strength": 50,
-		"cost": 375,
-		"requiredTech": "Ballistics",
-		"upgradesTo": "Mobile SAM",
-		"obsoleteTech": "Rocketry",
-		"promotions": [
-			"Support Unit"
-		],
-		"uniques": [
-			"Anti-Air",
-			"Comment [+33% Strength to adjacent Land Units vs Air Units]",
-			"[100]% chance to intercept air attacks",
-			"[+100]% Strength <vs [Air] units>",
-			"Never appears as a Barbarian unit"
-		]
-	},
-	{
 		"name": "Marine",
 		"unitType": "Gunpowder",
 		"movement": 3,
@@ -675,17 +654,36 @@
 		"attackSound": "nuke"
 	},
 	{
+		"name": "Anti-Aircraft Gun",
+		"unitType": "Support",
+		"movement": 2,
+		"interceptRange": 2,
+		"strength": 50,
+		"cost": 375,
+		"requiredTech": "Ballistics",
+		"upgradesTo": "Mobile SAM",
+		"obsoleteTech": "Rocketry",
+		"uniques": [
+			"Anti-Air",
+			"Comment [+33% Strength to adjacent Land Units vs Air Units]",
+			"[100]% chance to intercept air attacks",
+			"[+100]% Strength <vs [Air] units>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Support Unit"
+		]
+	},
+	{
 		"name": "Mobile SAM",
 		"unitType": "Support",
 		"movement": 3,
-		"interceptRange": 2,
+		"interceptRange": 3,
 		"strength": 65,
 		"cost": 425,
 		"requiredTech": "Rocketry",
-		"obsoleteTech": "Nanotechnology",
-		"promotions": [
-			"Support Unit"
-		],
+		"upgradesTo": "Hover-SAM",
+		"obsoleteTech": "Terraforming",
 		"uniques": [
 			"Cyber",
 			"Anti-Air",
@@ -693,6 +691,9 @@
 			"[100]% chance to intercept air attacks",
 			"[+150]% Strength <vs [Air] units>",
 			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Support Unit"
 		]
 	},
 	{
@@ -700,9 +701,9 @@
 		"unitType": "Support",
 		"movement": 3,
 		"interceptRange": 4,
-		"strength": 65,
+		"strength": 80,
 		"cost": 540,
-		"requiredTech": "Rocketry",
+		"requiredTech": "Terraforming",
 		"requiredResource": "Composites",
 		"uniques": [
 			"Cyber",
