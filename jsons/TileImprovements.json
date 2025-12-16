@@ -240,6 +240,10 @@
 	},
 	{
 		"name": "Offshore Wind Farm",
+		"terrainsCanBeBuiltOn": [
+			"Coast",
+			"Ocean"
+		],
 		"food": 3,
 		"production": 2,
 		"techRequired": "Terraforming",
