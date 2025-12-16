@@ -445,9 +445,9 @@
 		"maintenance": 6,
 		"uniques": [
 			"Only available <if [SP-Future Power] is constructed>",
-			"Provides [10] [Power]",
+			"Provides [15] [Power]",
 			"Provides [3] [Power] <after discovering [Clean Energy]>",
-			"Provides [10] [Power] <if [Electrical Corporation] is constructed>",
+			"Provides [15] [Power] <if [Electrical Corporation] is constructed>",
 			"Only available <in cities without a [Coal Plant]>",
 			"Only available <in cities without a [Nuclear Plant]>"
 		]
