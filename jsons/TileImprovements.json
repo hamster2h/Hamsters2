@@ -192,7 +192,7 @@
 		"techRequired": "Genetics",
 		"uniques": [
 			"Provides [1] [Power]",
-			"Provides [1] [Power] <if [SP-Green Energy] is constructed>",
+			"Provides [2] [Power] <if [SP-Green Energy] is constructed>",
 			"[+1 Food] <within [1] tiles of a [Water Tower]>",
 			"[+1 Food] <within [1] tiles of a [Water Tower]> <after adopting [Safety Checks]>",
 			"[+1 Food] <within [1] tiles of a [Water Tower]> <if [Engineering Corporation] is constructed>",
@@ -222,7 +222,7 @@
 		"techRequired": "Urbanization",
 		"uniques": [
 			"Provides [1] [Power]",
-			"Provides [1] [Power] <if [SP-Green Energy] is constructed>",
+			"Provides [2] [Power] <if [SP-Green Energy] is constructed>",
 			"[+1 Food] <within [1] tiles of a [Water Tower]>",
 			"[+1 Food] <within [1] tiles of a [Water Tower]> <after adopting [Safety Checks]>",
 			"[+1 Food] <within [1] tiles of a [Water Tower]> <if [Engineering Corporation] is constructed>",
@@ -240,15 +240,13 @@
 	},
 	{
 		"name": "Offshore Wind Farm",
-		"terrainsCanBeBuiltOn": [
-			"Coast"
-		],
 		"food": 3,
 		"production": 2,
 		"techRequired": "Terraforming",
 		"uniques": [
 			"Provides [1] [Power]",
-			"Provides [1] [Power] <if [SP-Green Energy] is constructed>",
+			"Provides [2] [Power] <if [SP-Green Energy] is constructed>",
+			"Can only be built on [Water] tiles",
 			"[+1 Food, +1 Production] <within [1] tiles of a [Fishing Boats]>",
 			"[+1 Food, +1 Production] <within [1] tiles of a [Fishing Boats]> <after adopting [Safety Checks]>",
 			"[+1 Food, +1 Production] <within [1] tiles of a [Offshore Platform]>",
