@@ -500,7 +500,7 @@
 		"unitType": "Ranged Water",
 		"movement": 7,
 		"strength": 100,
-		"rangedStrength": 120,
+		"rangedStrength": 100,
 		"range": 3,
 		"interceptRange": 2,
 		"cost": 600,
