@@ -376,7 +376,7 @@
 		"requiredTech": "Urbanization",
 		"cost": 750,
 		"uniques": [
-			"Consumes [4] [Power]",
+			"Consumes [2] [Power]",
 			"Unsellable",
 			"Destroyed when the city is captured"
 		]
@@ -448,7 +448,7 @@
 		"cost": 1000,
 		"hurryCostModifier": 15,
 		"uniques": [
-			"Consumes [3] [Power]",
+			"Consumes [1] [Power]",
 			"Only available <if [EP-Genetic Engineering] is constructed>",
 			"Provides [1] [Composites]",
 			"[10]% Food is carried over after population increases [in this city]",
