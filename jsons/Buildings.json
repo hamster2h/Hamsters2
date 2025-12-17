@@ -762,7 +762,7 @@
 		"cost": 4000,
 		"requiredTech": "Particle Physics",
 		"uniques": [
-			"[Giant Death Robot] units gain the [Teleportation] promotion"
+			"All newly-trained [Giant Death Robot] units [in all cities] receive the [Teleportation] promotion"
 		],
 		"quote": "'If I could teleport, I'd probably still be late.' - Anonymous"
 	},
