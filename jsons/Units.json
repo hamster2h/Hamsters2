@@ -512,6 +512,7 @@
 			"Can see invisible [Submarine] units",
 			"Can carry [6] [Missile] units",
 			"[+100]% Strength <vs [Submarine] units>",
+			"[+100]% Strength <after discovering [Lasers]>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
@@ -596,26 +597,6 @@
 		]
 	},
 	{
-		"name": "Atomic Bomb",
-		"unitType": "Atomic Bomber",
-		"movement": 1,
-		"strength": 150,
-		"rangedStrength": 150,
-		"range": 10,
-		"cost": 3600,
-		"obsoleteTech": "Advanced Ballistics",
-		"requiredTech": "Nuclear Fission",
-		"upgradesTo": "Nuclear Missile",
-		"uniques": [
-			"Consumes [1] [Uranium]",
-			"Nuclear weapon of Strength [1]",
-			"Only available <if [Nuclear Testing Site] is constructed>",
-			"Self-destructs when attacking",
-			"Blast radius [1]"
-		],
-		"attackSound": "nuke"
-	},
-	{
 		"name": "Anti-Aircraft Gun",
 		"unitType": "Support",
 		"movement": 2,
@@ -683,6 +664,59 @@
 		"attackSound": "missile"
 	},
 	{
+		"name": "Atomic Bomb",
+		"unitType": "Atomic Bomber",
+		"movement": 1,
+		"strength": 150,
+		"rangedStrength": 150,
+		"range": 10,
+		"cost": 3600,
+		"obsoleteTech": "Advanced Ballistics",
+		"requiredTech": "Nuclear Fission",
+		"upgradesTo": "Nuclear Missile",
+		"uniques": [
+			"Consumes [1] [Uranium]",
+			"Nuclear weapon of Strength [1]",
+			"Only available <if [Nuclear Testing Site] is constructed>",
+			"Self-destructs when attacking",
+			"Blast radius [1]"
+		],
+		"attackSound": "nuke"
+	},
+	{
+		"name": "Nuclear Missile",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 250,
+		"rangedStrength": 250,
+		"range": 12,
+		"cost": 6000,
+		"requiredTech": "Advanced Ballistics",
+		"uniques": [
+			"Nuclear weapon of Strength [2]",
+			"Only available <if [Nuclear Testing Site] is constructed>",
+			"Blast radius [2]",
+			"Consumes [1] [Uranium]"
+		],
+		"attackSound": "nuke"
+	},
+	{
+		"name": "Orbital Strike",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 500,
+		"rangedStrength": 500,
+		"range": 12,
+		"cost": 12000,
+		"requiredTech": "Spaceflight",
+		"uniques": [
+			"[-100]% maintenance costs",
+			"Nuclear weapon of Strength [3]",
+			"Blast radius [1]"
+		],
+		"attackSound": "nuke"
+	},
+	{
 		"name": "Guided Missile",
 		"unitType": "Missile",
 		"movement": 1,
@@ -719,23 +753,6 @@
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "torpedo"
-	},
-	{
-		"name": "Nuclear Missile",
-		"unitType": "Missile",
-		"movement": 1,
-		"strength": 250,
-		"rangedStrength": 250,
-		"range": 12,
-		"cost": 6000,
-		"requiredTech": "Advanced Ballistics",
-		"uniques": [
-			"Nuclear weapon of Strength [2]",
-			"Only available <if [Nuclear Testing Site] is constructed>",
-			"Blast radius [2]",
-			"Consumes [1] [Uranium]"
-		],
-		"attackSound": "nuke"
 	},
 	{
 		"name": "Hacker",
@@ -1312,22 +1329,6 @@
 			"Gravity Generator"
 		],
 		"attackSound": "gdrAttack"
-	},
-	{
-		"name": "Orbital Strike",
-		"unitType": "Missile",
-		"movement": 1,
-		"strength": 500,
-		"rangedStrength": 500,
-		"range": 12,
-		"cost": 12000,
-		"requiredTech": "Spaceflight",
-		"uniques": [
-			"[-100]% maintenance costs",
-			"Nuclear weapon of Strength [3]",
-			"Blast radius [1]"
-		],
-		"attackSound": "nuke"
 	},
 	{
 		"name": "Great Spacefarer",
