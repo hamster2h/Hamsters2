@@ -181,7 +181,7 @@
                 "name": "Military Tradition",
                 "uniques": [
                     "[+50]% XP gained from combat <for [Military] units>",
-					"Free [Great General] appears"
+					"[-10]% Unhappiness from [Population] [in all cities]"
                 ],
                 "requires": ["Warrior Code"],
                 "row": 2,
@@ -204,7 +204,8 @@
                     "[+1 Happiness] from every [Walls]",
                     "[+1 Happiness] from every [Castle]",
                     "[+1 Happiness] from every [Arsenal]",
-                    "[+1 Happiness] from every [Military Base]"
+                    "[+1 Happiness] from every [Military Base]",
+					"Free [Great General] appears"
                 ],
                 "requires": ["Military Caste"],
                 "row": 3,
