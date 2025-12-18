@@ -392,7 +392,11 @@
             },
             {
                 "name": "Merchant Navy",
-                "uniques": ["[+3 Production] [in all coastal cities]"],
+                "uniques": [
+					"[+4 Gold] [in all coastal cities]",
+					"[+1 Production] from [Coast] tiles [in all coastal cities]",
+					"[+1 Production, +1 Food] from [Ocean] tiles [in all coastal cities]"
+				],
                 "requires": ["Naval Tradition"],
                 "row": 2,
                 "column": 2
