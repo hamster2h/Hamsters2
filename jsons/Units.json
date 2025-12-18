@@ -1190,7 +1190,7 @@
 			"[1] Movement point cost to embark",
 			"[+1] Sight <when [Embarked]>",
 			"[+100]% Strength <when defending> <when [Embarked]>",
-			"May Paradrop to [Land] tiles up to [24] tiles away",
+			"May Paradrop to [Land] tiles up to [20] tiles away",
 			"No movement cost to pillage",
 			"Never appears as a Barbarian unit"
 		],
