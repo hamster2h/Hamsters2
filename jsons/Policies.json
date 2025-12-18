@@ -523,8 +523,7 @@
         },
         "uniques": [
             "[+25]% Great Person generation [in all cities]",
-            "Only available <before adopting [Autocracy]>",
-            "Only available <before adopting [Order]>"
+            "Only available <before adopting [Autocracy]>"
         ],
         "policies": [
             {
@@ -656,8 +655,7 @@
         },
         "uniques": [
             "[+1 Happiness] [in all cities]",
-            "Only available <before adopting [Autocracy]>",
-            "Only available <before adopting [Freedom]>"
+            "Only available <before adopting [Autocracy]>"
         ],
         "policies": [
             {
