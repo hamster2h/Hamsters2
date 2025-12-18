@@ -1190,7 +1190,7 @@
 			"[1] Movement point cost to embark",
 			"[+1] Sight <when [Embarked]>",
 			"[+100]% Strength <when defending> <when [Embarked]>",
-			"May Paradrop to [Land] tiles up to [16] tiles away <in [{Friendly} {Land}] tiles>",
+			"May Paradrop to [Land] tiles up to [24] tiles away <in [{Friendly} {Land}] tiles>",
 			"No movement cost to pillage",
 			"Never appears as a Barbarian unit"
 		],
@@ -1198,7 +1198,8 @@
 			"Amphibious",
 			"Skirmish",
 			"Rocket Launcher",
-			"Energy Weapons"
+			"Energy Weapons",
+			"Blitz"
 		],
 		"attackSound": "energyshot"
 	},
