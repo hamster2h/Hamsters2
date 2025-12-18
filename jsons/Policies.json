@@ -216,7 +216,7 @@
                 "name": "Honor Complete",
                 "uniques": [
                     "Earn [20]% of killed [Military] unit's [Cost] as [Gold]",
-					"Free [Great General] appears",
+					"May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500])",
                     "Get the leader title of [[leaderName] the Great]"
                 ]
             }
@@ -367,7 +367,9 @@
             "Domination": 5,
             "Scientific": 5
         },
-        "uniques": ["[+25]% [Gold] [in capital]"],
+        "uniques": [
+			"[+25]% [Gold] [in capital]"
+		],
         "policies": [
             {
                 "name": "Naval Tradition",
@@ -627,7 +629,7 @@
                 "name": "Autocracy Complete",
                 "uniques": [
                     "[+25]% Strength <when attacking> <for [Military] units> <for [50] turns>",
-                    "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+					"Free [Great General] appears",
                     "Get the leader title of [[leaderName] the Terrible]"
                 ]
             }
