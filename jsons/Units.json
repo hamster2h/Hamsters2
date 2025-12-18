@@ -284,6 +284,7 @@
 		"strength": 10,
 		"cost": 375,
 		"requiredTech": "Dynamite",
+		"requiredResource": "Coal",
 		"obsoleteTech": "Computers",
 		"upgradesTo": "Drone",
 		"uniques": [
