@@ -116,7 +116,8 @@
             {
                 "name": "Representation",
                 "uniques": [
-                    "Each city founded increases culture cost of policies [33]% less than normal",
+					"Each city founded increases culture cost of policies [33]% less than normal",
+					"[-5]% Unhappiness from [Population] [in all non-occupied cities]",
                     "Empire enters golden age"
                 ],
                 "requires": ["Citizenship"],
@@ -181,7 +182,7 @@
                 "name": "Military Tradition",
                 "uniques": [
                     "[+50]% XP gained from combat <for [Military] units>",
-					"[-10]% Unhappiness from [Population] [in all cities]"
+					"[-5]% Unhappiness from [Population] [in all cities]"
                 ],
                 "requires": ["Warrior Code"],
                 "row": 2,
