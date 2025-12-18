@@ -718,5 +718,10 @@
 		],
 		"techRequired": "Guilds",
 		"shortcutKey": "F"
-	}
+	},
+	{
+		"name": "City ruins",
+		"terrainsCanBeBuiltOn": ["Land"],
+        "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
+	},
 ]
