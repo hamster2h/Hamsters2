@@ -204,10 +204,69 @@
 		],
         "column": 3,
         "row": 3
+	},
+	{
+		"name": "Ambush I",
+		"uniques": [
+			"[+33]% Strength <vs [Armored] units>",
+			"[-100]% weight to this choice for AI decisions"
+		],
+		"unitTypes": [
+			"Sword",
+			"Gunpowder"
+		],
+        "column": 25,
+        "row": 1
+	},
+	{
+		"name": "Ambush II",
+		"prerequisites": ["Ambush I"],
+		"uniques": [
+			"[+33]% Strength <vs [Armored] units>"
+		],
+		"unitTypes": [
+			"Sword",
+			"Gunpowder"
+		],
+        "column": 25,
+        "row": 2
+	},
+	{
+		"name": "Scouting I",
+		"uniques": [
+			"[+1] Sight"
+		],
+		"unitTypes": [
+			"Scout",
+			"Helicopter"
+		],
+        "column": 8,
+        "row": 1
+	},
+	{
+		"name": "Scouting II",
+		"prerequisites": ["Scouting I"],
+		"uniques": [
+			"[+1] Sight"
+		],
+		"unitTypes": [
+			"Scout",
+			"Helicopter"
+		],
+        "column": 8,
+        "row": 2
+	},
+	{
+		"name": "Scouting III",
+		"prerequisites": ["Scouting II"],
+		"uniques": [
+			"[+1] Movement"
+		],
+		"unitTypes": [
+			"Scout",
+			"Helicopter"
+		],
+        "column": 8,
+        "row": 3
 	}
 ]
-
-
-
-
-
