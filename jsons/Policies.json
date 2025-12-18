@@ -547,7 +547,7 @@
             {
                 "name": "Civil Society",
                 "uniques": [
-                    "[-50]% Food consumption by specialists [in all cities]"
+                    "[-25]% Food consumption by specialists [in all cities]"
                 ],
                 "row": 1,
                 "column": 5
@@ -555,7 +555,7 @@
             {
                 "name": "Free Speech",
                 "uniques": [
-					"[8] units cost no maintenance"
+					"[+20]% [Gold] [in all cities]"
 				],
                 "requires": ["Constitution"],
                 "row": 2,
@@ -564,7 +564,7 @@
             {
                 "name": "Democracy",
                 "uniques": [
-                    "[-50]% Unhappiness from [Specialists] [in all cities]"
+                    "[-25]% Unhappiness from [Specialists] [in all cities]"
                 ],
                 "requires": ["Civil Society"],
                 "row": 2,
