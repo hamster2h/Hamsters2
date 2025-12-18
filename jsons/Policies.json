@@ -128,7 +128,7 @@
                 "uniques": [
                     "[+1 Happiness] [in all cities connected to capital]",
                     "[-5]% Unhappiness from [Population] [in all non-occupied cities]",
-					"[+15]% [Gold] from Trade Routes [in all cities]"
+					"[+15]% [Gold] from Trade Routes"
                 ],
                 "requires": ["Citizenship"],
                 "row": 2,
