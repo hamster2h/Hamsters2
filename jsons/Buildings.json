@@ -7,8 +7,8 @@
 		"cost": 475,
 		"isNationalWonder": false,
 		"uniques": [
-			"[+1 Science] per [2] population [in this city]",
-			"[+1 Production] per [2] population [in this city]",
+			"[+1 Science] per [4] population [in this city]",
+			"[+1 Production] per [4] population [in this city]",
 			"All newly-trained [{Water} {Military}] units [in this city] receive the [Supply] promotion",
 			"All newly-trained [non-[Air]] units [in this city] receive the [Morale] promotion",
 			"Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>",
@@ -28,9 +28,10 @@
 			"science": 25
 		},
 		"uniques": [
-			"[+1 Gold] per [2] population [in this city]",
+			"[+1 Gold] per [4] population [in this city]",
 			"All newly-trained [Gunpowder] units [in this city] receive the [Stealth] promotion",
 			"All newly-trained [Armored] units [in this city] receive the [Stealth] promotion",
+			"All newly-trained [Helicopter] units [in this city] receive the [Stealth] promotion",
 			"All newly-trained [Ranged Water] units [in this city] receive the [Stealth] promotion",
 			"All newly-trained [Aircraft Carrier] units [in this city] receive the [Stealth] promotion",
 			"Only available <if [University] is constructed in all [non-[Puppeted]] cities>"
@@ -41,8 +42,8 @@
 		"name": "Longhouse",
 		"replaces": "Workshop",
 		"uniqueTo": "Iroquois",
-		"cost": 240,
-		"maintenance": 2,
+		"cost": 320,
+		"maintenance": 4,
 		"production": 2,
 		"specialistSlots": {
 			"Engineer": 1
@@ -142,6 +143,61 @@
 		]
 	},
 	{
+		"name": "Library",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+			"[+1 Science] per [4] population [in this city]"
+		],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "Paper Maker",
+		"replaces": "Library",
+		"uniqueTo": "China",
+		"hurryCostModifier": 25,
+		"gold": 2,
+		"uniques": [
+			"[+1 Science] per [4] population [in this city]"
+		],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "University",
+		"maintenance": 3,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {
+			"science": 25
+		},
+		"specialistSlots": {
+			"Scientist": 2
+		},
+		"requiredBuilding": "Library",
+		"uniques": [
+			"[+2 Science] from [Jungle] tiles [in this city]"
+		],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Wat",
+		"replaces": "University",
+		"uniqueTo": "Siam",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {
+			"science": 25
+		},
+		"specialistSlots": {
+			"Scientist": 2
+		},
+		"culture": 4,
+		"requiredBuilding": "Library",
+		"uniques": [
+			"[+2 Science] from [Jungle] tiles [in this city]"
+		],
+		"requiredTech": "Education"
+	},
+	{
 		"name": "Public School",
 		"science": 2,
 		"specialistSlots": {
@@ -152,7 +208,7 @@
 		"hurryCostModifier": 0,
 		"requiredTech": "Scientific Theory",
 		"uniques": [
-			"[+1 Science] per [2] population [in this city]"
+			"[+1 Science] per [4] population [in this city]"
 		]
 	},
 	{
@@ -237,7 +293,7 @@
 		"maintenance": 2,
 		"uniques": [
 			"Consumes [1] [Power]",
-			"[+1 Happiness] per [5] population [in this city]"
+			"[+1 Happiness] per [6] population [in this city]"
 		]
 	},
 	{
@@ -312,7 +368,7 @@
 		"maintenance": 4,
 		"cost": 600,
 		"uniques": [
-			"Consumes [1] [Power]",
+			"Consumes [2] [Power]",
 			"Provides [2] [Aluminum]",
 			"Provides [1] [Oil]",
 			"[+1 Production] per [4] population [in this city]",
@@ -339,7 +395,7 @@
 			"Artist": 1
 		},
 		"percentStatBonus": {
-			"culture": 50
+			"culture": 25
 		},
 		"requiredBuilding": "Broadcast Tower",
 		"maintenance": 4,
@@ -366,7 +422,7 @@
 		"name": "Entrepeneur Venue",
 		"gold": 4,
 		"percentStatBonus": {
-			"gold": 25
+			"gold": 10
 		},
 		"specialistSlots": {
 			"Merchant": 1
@@ -376,7 +432,7 @@
 		"requiredTech": "Urbanization",
 		"cost": 750,
 		"uniques": [
-			"Consumes [2] [Power]",
+			"Consumes [1] [Power]",
 			"Unsellable",
 			"Destroyed when the city is captured"
 		]
@@ -406,8 +462,8 @@
 		"requiredTech": "Artificial Intelligence",
 		"cost": 850,
 		"uniques": [
-			"Consumes [2] [Power]",
-			"[+1 Happiness] per [4] population [in this city]",
+			"Consumes [4] [Power]",
+			"[+1 Happiness] per [6] population [in this city]",
 			"Unsellable"
 		]
 	},
@@ -415,7 +471,7 @@
 		"name": "Private Grid",
 		"requiredTech": "The Internet",
 		"percentStatBonus": {
-			"science": 25
+			"science": 10
 		},
 		"specialistSlots": {
 			"Scientist": 1
