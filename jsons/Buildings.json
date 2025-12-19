@@ -198,6 +198,19 @@
 		"requiredTech": "Education"
 	},
 	{
+		"name": "Observatory",
+		"maintenance": 0,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {
+			"science": 25
+		},
+		"requiredBuilding": "Library",
+		"uniques": [
+			"Must be next to [Mountain]"
+		],
+		"requiredTech": "Astronomy"
+	},
+	{
 		"name": "Public School",
 		"science": 2,
 		"specialistSlots": {
@@ -209,6 +222,22 @@
 		"requiredTech": "Scientific Theory",
 		"uniques": [
 			"[+1 Science] per [4] population [in this city]"
+		]
+	},
+	{
+		"name": "Research Lab",
+		"science": 4,
+		"percentStatBonus": {
+			"science": 25
+		},
+		"specialistSlots": {
+			"Scientist": 1
+		},
+		"requiredBuilding": "Public School",
+		"maintenance": 3,
+		"requiredTech": "Plastics",
+		"uniques": [
+			"Consumes [1] [Power]"
 		]
 	},
 	{
@@ -309,22 +338,6 @@
 			"Consumes [1] [Power]",
 			"Destroyed when the city is captured",
 			"[-2]% Culture cost of adopting new Policies"
-		]
-	},
-	{
-		"name": "Research Lab",
-		"science": 4,
-		"percentStatBonus": {
-			"science": 25
-		},
-		"specialistSlots": {
-			"Scientist": 1
-		},
-		"requiredBuilding": "Public School",
-		"maintenance": 3,
-		"requiredTech": "Plastics",
-		"uniques": [
-			"Consumes [1] [Power]"
 		]
 	},
 	{
