@@ -205,8 +205,7 @@
                     "[+1 Happiness] from every [Walls]",
                     "[+1 Happiness] from every [Castle]",
                     "[+1 Happiness] from every [Arsenal]",
-                    "[+1 Happiness] from every [Military Base]",
-					"Free [Great General] appears"
+                    "[+1 Happiness] from every [Military Base]"
                 ],
                 "requires": ["Military Caste"],
                 "row": 3,
@@ -823,7 +822,7 @@
 			{
 				"name": "Propaganda",
 				"uniques": [
-					"Comment [Doubles the combat bonus of Great General units]",
+					"Comment [Doubles the combat bonus of Great General and Admiral units]",
 					"Free [Great General] appears"
 				],
 				"requires": [
