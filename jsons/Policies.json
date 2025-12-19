@@ -478,7 +478,7 @@
                 "name": "Free Thought",
                 "uniques": [
                     "[+1 Science] from every [Trading post]",
-                    "[+10]% [Science] from every [University]"
+                    "[+17]% [Science] from every [University]"
                 ],
                 "requires": ["Secularism"],
                 "row": 2,
