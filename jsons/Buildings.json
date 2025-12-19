@@ -42,7 +42,7 @@
 		"name": "Longhouse",
 		"replaces": "Workshop",
 		"uniqueTo": "Iroquois",
-		"cost": 320,
+		"cost": 360,
 		"maintenance": 4,
 		"production": 2,
 		"specialistSlots": {
