@@ -7,8 +7,8 @@
 		"cost": 475,
 		"isNationalWonder": false,
 		"uniques": [
-			"[+1 Science] per [4] population [in this city]",
-			"[+1 Production] per [4] population [in this city]",
+			"[+1 Science] per [2] population [in this city]",
+			"[+1 Production] per [2] population [in this city]",
 			"All newly-trained [{Water} {Military}] units [in this city] receive the [Supply] promotion",
 			"All newly-trained [non-[Air]] units [in this city] receive the [Morale] promotion",
 			"Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>",
@@ -28,7 +28,7 @@
 			"science": 25
 		},
 		"uniques": [
-			"[+1 Gold] per [4] population [in this city]",
+			"[+1 Gold] per [2] population [in this city]",
 			"All newly-trained [Gunpowder] units [in this city] receive the [Stealth] promotion",
 			"All newly-trained [Armored] units [in this city] receive the [Stealth] promotion",
 			"All newly-trained [Helicopter] units [in this city] receive the [Stealth] promotion",
@@ -42,7 +42,7 @@
 		"name": "Longhouse",
 		"replaces": "Workshop",
 		"uniqueTo": "Iroquois",
-		"cost": 360,
+		"cost": 240,
 		"maintenance": 4,
 		"production": 2,
 		"specialistSlots": {
@@ -143,74 +143,6 @@
 		]
 	},
 	{
-		"name": "Library",
-		"hurryCostModifier": 25,
-		"maintenance": 1,
-		"uniques": [
-			"[+1 Science] per [4] population [in this city]"
-		],
-		"requiredTech": "Writing"
-	},
-	{
-		"name": "Paper Maker",
-		"replaces": "Library",
-		"uniqueTo": "China",
-		"hurryCostModifier": 25,
-		"gold": 2,
-		"uniques": [
-			"[+1 Science] per [4] population [in this city]"
-		],
-		"requiredTech": "Writing"
-	},
-	{
-		"name": "University",
-		"maintenance": 3,
-		"hurryCostModifier": 15,
-		"percentStatBonus": {
-			"science": 25
-		},
-		"specialistSlots": {
-			"Scientist": 2
-		},
-		"requiredBuilding": "Library",
-		"uniques": [
-			"[+2 Science] from [Jungle] tiles [in this city]"
-		],
-		"requiredTech": "Education"
-	},
-	{
-		"name": "Wat",
-		"replaces": "University",
-		"uniqueTo": "Siam",
-		"maintenance": 2,
-		"hurryCostModifier": 15,
-		"percentStatBonus": {
-			"science": 25
-		},
-		"specialistSlots": {
-			"Scientist": 2
-		},
-		"culture": 4,
-		"requiredBuilding": "Library",
-		"uniques": [
-			"[+2 Science] from [Jungle] tiles [in this city]"
-		],
-		"requiredTech": "Education"
-	},
-	{
-		"name": "Observatory",
-		"maintenance": 0,
-		"hurryCostModifier": 15,
-		"percentStatBonus": {
-			"science": 25
-		},
-		"requiredBuilding": "Library",
-		"uniques": [
-			"Must be next to [Mountain]"
-		],
-		"requiredTech": "Astronomy"
-	},
-	{
 		"name": "Public School",
 		"science": 2,
 		"specialistSlots": {
@@ -221,7 +153,7 @@
 		"hurryCostModifier": 0,
 		"requiredTech": "Scientific Theory",
 		"uniques": [
-			"[+1 Science] per [4] population [in this city]"
+			"[+1 Science] per [2] population [in this city]"
 		]
 	},
 	{
