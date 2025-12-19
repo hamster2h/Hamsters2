@@ -219,7 +219,7 @@
 		"name": "Stock Exchange",
 		"gold": 2,
 		"percentStatBonus": {
-			"gold": 10
+			"gold": 15
 		},
 		"specialistSlots": {
 			"Merchant": 2
@@ -228,7 +228,7 @@
 		"requiredBuilding": "Bank",
 		"requiredTech": "Electricity",
 		"uniques": [
-			"[+10]% [Gold] [in this city] <with [Power]>"
+			"[+15]% [Gold] [in this city] <with [Power]>"
 		]
 	},
 	{
