@@ -128,7 +128,7 @@
                 "uniques": [
                     "[+1 Happiness] [in all cities connected to capital]",
                     "[-5]% Unhappiness from [Population] [in all non-occupied cities]",
-					"[+15]% [Gold] from Trade Routes"
+					"[+10]% [Gold] from Trade Routes"
                 ],
                 "requires": ["Citizenship"],
                 "row": 2,
@@ -423,7 +423,7 @@
             {
                 "name": "Protectionism",
                 "uniques": [
-					"[+2] Happiness from each type of luxury resource"
+					"[+1] Happiness from each type of luxury resource"
 				],
                 "requires": ["Mercantilism"],
                 "row": 3,
@@ -603,13 +603,18 @@
         "policies": [
             {
                 "name": "Populism",
-                "uniques": ["[+25]% Strength <for [Wounded] units>", "[+100]% weight to this choice for AI decisions"],
+                "uniques": [
+					"[+25]% Strength <for [Wounded] units>",
+					"[+100]% weight to this choice for AI decisions"
+				],
                 "row": 1,
                 "column": 2
             },
             {
                 "name": "Militarism",
-                "uniques": ["[Gold] cost of purchasing [All] units [-33]%"],
+                "uniques": [
+					"[Gold] cost of purchasing [All] units [-33]%"
+				],
                 "row": 1,
                 "column": 4
             },
@@ -672,7 +677,8 @@
             {
                 "name": "United Front",
                 "uniques": [
-                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation","[-100]% weight to this choice for AI decisions"
+                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
+					"[-100]% weight to this choice for AI decisions"
                 ],
                 "row": 1,
                 "column": 1
@@ -681,7 +687,7 @@
                 "name": "Planned Economy",
                 "uniques": [
                     "[+10]% [Production] from every [Factory]",
-                    "[+50]% Production when constructing [Factory] buildings [in all cities]"
+                    "[+25]% Production when constructing [Factory] buildings [in all cities]"
                 ],
                 "row": 1,
                 "column": 3
@@ -728,7 +734,7 @@
 		"name": "Digitalization",
 		"era": "Atomic era",
 		"uniques": [
-			"[+33]% Production when constructing [Civilian] units [in all cities]",
+			"[+10]% Production when constructing [Civilian] units [in all cities]",
 			"[-25]% Gold cost of upgrading <for [Worker] units>"
 		],
 		"priorities": {
@@ -826,7 +832,7 @@
 			{
 				"name": "Propaganda",
 				"uniques": [
-					"Comment [Doubles the combat bonus of Great General and Admiral units]",
+					"Comment [Doubles the combat bonus of Great General and Great Admiral units]",
 					"Free [Great General] appears"
 				],
 				"requires": [
@@ -910,9 +916,9 @@
 			{
 				"name": "Interplanetary Research",
 				"uniques": [
-					"[+25]% [Gold] from every [Space Station]",
-					"[+25]% [Science] from every [Space Station]",
-					"[+25]% [Culture] from every [Space Station]"
+					"[+10]% [Gold] from every [Space Station]",
+					"[+10]% [Science] from every [Space Station]",
+					"[+10]% [Culture] from every [Space Station]"
 				],
 				"requires": [
 					"Futurism"
@@ -980,7 +986,7 @@
 		"name": "Technocracy",
 		"era": "Future era",
 			"uniques": [
-				"[+20]% [Production] [in all cities]"
+				"[+10]% [Production] [in all cities]"
 			],
 			"priorities": {
 				"Neutral": 40,
@@ -1062,7 +1068,7 @@
 			"name": "Transhumanism",
 			"era": "Future era",
 			"uniques": [
-				"[+20]% growth [in capital]",
+				"[+25]% growth [in capital]",
 				"[+10]% Strength <for [Gunpowder] units>"
 			],
 			"priorities": {
