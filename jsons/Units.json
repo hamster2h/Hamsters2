@@ -146,6 +146,7 @@
 			"Can see invisible [Wounded] units",
 			"Can move after attacking",
 			"Heals [25] damage if it kills a unit",
+			"[+100]% Strength <after discovering [Metagenetics]>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
