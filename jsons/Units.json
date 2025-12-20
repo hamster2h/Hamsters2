@@ -141,7 +141,7 @@
 		"movement": 4,
 		"strength": 60,
 		"cost": 450,
-		"requiredTech": "Metagenetics",
+		"requiredTech": "Enhancing",
 		"uniques": [
 			"Can see invisible [Wounded] units",
 			"Can move after attacking",
