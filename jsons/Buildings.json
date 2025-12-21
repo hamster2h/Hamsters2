@@ -99,6 +99,19 @@
 		"quote": "'Pale Death beats equally at the poor man's gate and at the palaces of kings.' - Horace"
 	},
 	{
+		"name": "Alhambra",
+		"culture": 1,
+		"greatPersonPoints": {"Great Artist": 1},
+		"isWonder": true,
+		"percentStatBonus": {"culture": 20},
+		"uniques": [
+			"All newly-trained [relevant] units [in all cities] receive the [Drill I] promotion",
+			"Gain a free [Castle] [in this city]"
+		],
+		"requiredTech": "Chivalry",
+		"quote": "'Justice is an unassailable fortress, built on the brow of a mountain which cannot be overthrown by the violence of torrents, nor demolished by the force of armies.' - Joseph Addison"
+	},
+	{
 		"name": "Palace",
 		"isNationalWonder": true,
 		"production": 3,
