@@ -49,7 +49,7 @@
 			"Engineer": 1
 		},
 		"hurryCostModifier": 25,
-		"requiredTech": "Iron Working"
+		"requiredTech": "Iron Working",
 		"uniques": [
 			"[+1 Production] from [Forest] tiles [in all cities]",
 			"[+1 Production] from [Jungle] tiles [in all cities]"
