@@ -7,7 +7,7 @@
 			"Plains",
 			"Tundra"
 		],
-		"turnsToBuild": 7,
+		"turnsToBuild": 15,
 		"techRequired": "Mining",
 		"uniques": [
 			"Can be built outside your borders",
@@ -24,7 +24,7 @@
 			"Hill",
 			"Plains"
 		],
-		"turnsToBuild": 7,
+		"turnsToBuild": 15,
 		"techRequired": "Bronze Working",
 		"uniques": [
 			"Can be built outside your borders",
