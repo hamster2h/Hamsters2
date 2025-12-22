@@ -9,5 +9,5 @@
         "cityExpandRange": 6,
         "minimalCityDistance": 2,
         "minimalCityDistanceOnDifferentContinents": 1
-    },
+    }
 }
