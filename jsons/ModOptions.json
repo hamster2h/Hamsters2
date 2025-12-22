@@ -3,10 +3,11 @@
         "Allow raze capital",
         "Allow raze holy city",
         "Cannot be used as permanent audiovisual mod"
-        //"Can convert gold to science with sliders"
     ],
     "constants": {
+        "cityWorkRange": 4,
+        "cityExpandRange": 6,
         "minimalCityDistance": 2,
         "minimalCityDistanceOnDifferentContinents": 1
-    }
+    },
 }
