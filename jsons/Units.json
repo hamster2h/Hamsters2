@@ -112,6 +112,7 @@
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
+			"Exploration",
 			"Skirmish",
 			"Ignore terrain cost"
 		],
@@ -130,6 +131,7 @@
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
+			"Exploration",
 			"Skirmish",
 			"Ignore terrain cost"
 		],
@@ -150,6 +152,7 @@
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
+			"Exploration",
 			"Skirmish",
 			"Ignore terrain cost",
 			"Amphibious",
