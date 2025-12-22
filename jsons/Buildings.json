@@ -18,13 +18,13 @@
 	},
 	{
 		"name": "Heroic Epic",
-		"cost": 125,
-		"culture": 1,
+		"cost": 100,
+		"culture": 2,
 		"isNationalWonder": true,
 		"uniques": [
 			"Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>",
 			"All newly-trained [non-[Air]] units [in all cities] receive the [Morale] promotion",
-			"Cost increases by [30] per owned city"
+			"Cost increases by [25] per owned city"
 		],
 		"requiredTech": "Iron Working"
 	},
