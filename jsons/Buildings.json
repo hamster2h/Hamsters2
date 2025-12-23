@@ -923,7 +923,7 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"Comment [Industrial Perk]",
-			"[+2 Science] from [Mine] tiles [in all cities] <during the [Industrial era]>",
+			"[+2 Science] from [Mine] tiles [in all cities]",
 			"[+1 Science] from all [Production] buildings",
 			"Only available <during the [Industrial era]>",
 			"Only available <with [Scientist Perk]>",
