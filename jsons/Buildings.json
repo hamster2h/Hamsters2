@@ -64,7 +64,8 @@
 		"requiredTech": "Iron Working",
 		"uniques": [
 			"[+1 Production] from [Forest] tiles [in all cities]",
-			"[+1 Production] from [Jungle] tiles [in all cities]"
+			"[+1 Production] from [Jungle] tiles [in all cities]",
+			"Cost increases by [120] per owned city"
 		]
 	},
 	{
