@@ -964,6 +964,29 @@
 		"attackSound": "tankshot"
 	},
 	{
+		"name": "Giant Death Robot",
+		"unitType": "Armored",
+		"movement": 5,
+		"strength": 200,
+		"rangedStrength": 200,
+		"range": 2,
+		"cost": 750,
+		"requiredTech": "Nuclear Fusion",
+		"uniques": [
+			"Cyber",
+			"Consumes [4] [Composites]",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Never appears as a Barbarian unit",
+			"Ignores Zone of Control"
+		],
+		"promotions": [
+			"Scan Visor",
+			"Gravity Generator"
+		],
+		"attackSound": "gdrAttack"
+	},
+	{
 		"name": "Biplane",
 		"unitType": "Fighter",
 		"movement": 1,
@@ -1056,11 +1079,11 @@
 		"interceptRange": 12,
 		"cost": 700,
 		"requiredTech": "Spaceflight",
-		"requiredResource": "Composites",
+		"requiredResource": "Oil",
 		"uniques": [
 			"Cyber",
 			"Space",
-			"Consumes [1] [Oil]",
+			"Consumes [2] [Composites]",
 			"[100]% chance to intercept air attacks",
 			"[+150]% Strength <vs [Bomber] units>",
 			"[+50]% Strength <vs [Helicopter] units>"
@@ -1172,11 +1195,11 @@
 		"range": 18,
 		"cost": 700,
 		"requiredTech": "Spaceflight",
-		"requiredResource": "Composites",
+		"requiredResource": "Oil",
 		"uniques": [
 			"Cyber",
 			"Space",
-			"Consumes [1] [Oil]"
+			"Consumes [2] [Composites]"
 		],
 		"attackSound": "bombing"
 	},
@@ -1385,28 +1408,6 @@
 			"Hovering"
 		],
 		"attackSound": "energyshot"
-	},
-	{
-		"name": "Giant Death Robot",
-		"unitType": "Armored",
-		"movement": 5,
-		"strength": 200,
-		"rangedStrength": 200,
-		"range": 2,
-		"cost": 750,
-		"requiredTech": "Nuclear Fusion",
-		"requiredResource": "Composites",
-		"uniques": [
-			"Consumes [1] [Uranium]",
-			"Cyber",
-			"Can move after attacking",
-			"Never appears as a Barbarian unit"
-		],
-		"promotions": [
-			"Scan Visor",
-			"Gravity Generator"
-		],
-		"attackSound": "gdrAttack"
 	},
 	{
 		"name": "Great Artist",
