@@ -55,7 +55,7 @@
 		"replaces": "Workshop",
 		"uniqueTo": "Iroquois",
 		"cost": 240,
-		"maintenance": 4,
+		"maintenance": 2,
 		"production": 2,
 		"specialistSlots": {
 			"Engineer": 1
@@ -65,7 +65,7 @@
 		"uniques": [
 			"[+1 Production] from [Forest] tiles [in all cities]",
 			"[+1 Production] from [Jungle] tiles [in all cities]",
-			"Cost increases by [120] per owned city"
+			"Cost increases by [240] per owned city"
 		]
 	},
 	{
