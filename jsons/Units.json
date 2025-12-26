@@ -559,12 +559,14 @@
 		"strength": 55,
 		"rangedStrength": 55,
 		"range": 3,
+		"interceptRange": 1,
 		"cost": 500,
 		"requiredResource": "Oil",
 		"requiredTech": "Electronics",
 		"upgradesTo": "Missile Cruiser",
 		"obsoleteTech": "Robotics",
 		"uniques": [
+			"[50]% chance to intercept air attacks <after discovering [Ballistics]>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
@@ -589,6 +591,8 @@
 			"Can see invisible [Submarine] units",
 			"Can carry [6] [Missile] units",
 			"[+100]% Strength <vs [Submarine] units>",
+			"[+100]% Strength <vs [Air] units>",
+			"[+100]% Strength <vs [Helicopter] units>",
 			"[+100]% Strength <after discovering [Lasers]>",
 			"Never appears as a Barbarian unit"
 		],
@@ -602,7 +606,7 @@
 		"unitType": "Melee Water",
 		"movement": 6,
 		"strength": 60,
-		"interceptRange": 2,
+		"interceptRange": 1,
 		"cost": 375,
 		"requiredTech": "Combustion",
 		"requiredResource": "Iron",
