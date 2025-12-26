@@ -263,7 +263,11 @@
 		"greatPersonPoints": {
 			"Great Artist": 2
 		},
+		"percentStatBonus": {
+			"culture": 25
+		},
 		"uniques": [
+			"[+10]% [Culture] [in all cities]",
 			"[-10]% Culture cost of adopting new Policies"
 		],
 		"requiredTech": "Plastics",
@@ -825,22 +829,6 @@
 		],
 		"requiredTech": "Combined Arms",
 		"quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.' - Dwight D. Eisenhower"
-	},
-	{
-		"name": "Cristo Redentor",
-		"culture": 5,
-		"isWonder": true,
-		"greatPersonPoints": {
-			"Great Artist": 2
-		},
-		"percentStatBonus": {
-			"culture": 10
-		},
-		"uniques": [
-			"[-10]% Culture cost of adopting new Policies"
-		],
-		"requiredTech": "Plastics",
-		"quote": "'Come to me, all who labor and are heavy burdened, and I will give you rest.' - New Testament, Matthew 11:28"
 	},
 	{
 		"name": "Apollo Program",
