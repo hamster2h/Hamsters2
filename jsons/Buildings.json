@@ -274,6 +274,141 @@
 		"quote": "'Come to me, all who labor and are heavy burdened, and I will give you rest.' - New Testament, Matthew 11:28"
 	},
 	{
+		"name": "Manhattan Project",
+		"isWonder": true,
+		"requiredTech": "Atomic Theory",
+		"uniques": [
+			"Provides [2] [Uranium]",
+			"Gain a free [Nuclear Testing Site] [in this city]",
+			"[+25]% Production when constructing [Atomic Bomb] units [in this city]",
+			"Free [Atomic Bomb] appears"
+		],
+		"quote": "'The only use for an atomic bomb is to keep somebody else from using one.' - George Wald"
+	},
+	{
+		"name": "Pentagon",
+		"isWonder": true,
+		"culture": 2,
+		"greatPersonPoints": {
+			"Great Engineer": 2
+		},
+		"uniques": [
+			"New [Military] units start with [45] XP [in all cities]",
+			"[+100]% Gold cost of upgrading <for [Military] units>",
+			"[Gold] cost of purchasing [All] units [+300]%"
+		],
+		"requiredTech": "Combined Arms",
+		"quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.' - Dwight D. Eisenhower"
+	},
+	{
+		"name": "Apollo Program",
+		"isWonder": true,
+		"uniques": [
+			"Space",
+			"Free [Great Spacefarer] appears",
+			"[Great Spacefarer] is earned [100]% faster"
+		],
+		"greatPersonPoints": {
+			"Great Spacefarer": 24
+		},
+		"requiredTech": "Rocketry",
+		"quote": "'That's one small step for a man, one giant leap for mankind.' - Neil Armstrong"
+	},
+	{
+		"name": "Hubble Space Telescope",
+		"isWonder": true,
+		"requiredTech": "Satellites",
+		"greatPersonPoints": {
+			"Great Spacefarer": 2
+		},
+		"uniques": [
+			"Space",
+			"[2] free [Great Scientist] units appear",
+			"[+25]% Production when constructing [Space] buildings [in this city]"
+		],
+		"quote": "'The wonder is, not that the field of stars is so vast, but that man has measured it.' - Anatole France"
+	},
+	{
+		"name": "United Nations",
+		"isWonder": true,
+		"culture": 1,
+		"greatPersonPoints": {
+			"Great Artist": 2
+		},
+		"requiredTech": "Globalization",
+		"uniques": [
+			"Resting point for Influence with City-States is increased by [60]",
+			"Allied City-States provide [Culture] equal to [100]% of what they produce for themselves"
+		],
+		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
+	},
+	{
+		"name": "Fusion Reactor",
+		"cost": 2600,
+		"requiredTech": "Nuclear Fusion",
+		"isWonder": true,
+		"uniques": [
+			"[+25]% Strength <for [Cyber] units>",
+			"[+10]% Production when constructing [Cyber] units [in all cities]",
+			"[+10]% [Science] from every [Composite Factory]"
+		],
+		"quote": "'The power of the Sun, in the palm of my hand' - Otto Octavious"
+	},
+	{
+		"name": "Living Castle",
+		"isWonder": true,
+		"cost": 2600,
+		"requiredTech": "Metagenetics",
+		"uniques": [
+			"[+25]% Strength <for [Gunpowder] units>",
+			"[+10]% Production when constructing [Gunpowder] units [in all cities]",
+			"[+10]% [Food] from every [Adaptive Base]"
+		],
+		"quote": "'It's alive! It's alive!' - Víctor Frankenstein"
+	},
+	{
+		"name": "Space Elevator",
+		"isWonder": true,
+		"cost": 2600,
+		"requiredTech": "Spaceflight",
+		"greatPersonPoints": {
+			"Great Spacefarer": 2
+		},
+		"uniques": [
+			"Space",
+			"[+25]% Strength <for [Space] units>",
+			"[+2 Culture] from every specialist [in all cities]",
+			"[+50]% Great Person generation [in all cities]",
+			"[+50]% Great Person generation [in this city]"
+		],
+		"quote": "'It takes a planet to explore the universe.' - Dylan Taylor"
+	},
+	{
+		"name": "World Alliance",
+		"isWonder": true,
+		"culture": 1,
+		"greatPersonPoints": {
+			"Great Merchant": 2
+		},
+		"requiredTech": "World Alliance",
+		"uniques": [
+			"Triggers voting for the Diplomatic Victory",
+			"Only available <when [Diplomatic] Victory is enabled>",
+			"Triggers a global alert upon completion"
+		],
+		"quote": "'Don't Cry Because it's Over, Smile Because It Happened'"
+	},
+	{
+		"name": "Teleport Station",
+		"isWonder": true,
+		"cost": 4000,
+		"requiredTech": "Particle Physics",
+		"uniques": [
+			"All newly-trained [Giant Death Robot] units [in all cities] receive the [Teleportation] promotion"
+		],
+		"quote": "'If I could teleport, I'd probably still be late.' - Anonymous"
+	},
+	{
 		"name": "Palace",
 		"isNationalWonder": true,
 		"production": 3,
@@ -803,140 +938,6 @@
 			"Must have an owned [Alien Monolith] within [3] tiles",
 			"Will not be displayed in Civilopedia"
 		]
-	},
-	{
-		"name": "Manhattan Project",
-		"isWonder": true,
-		"requiredTech": "Atomic Theory",
-		"uniques": [
-			"Provides [2] [Uranium]",
-			"Gain a free [Nuclear Testing Site] [in this city]",
-			"[+25]% Production when constructing [Atomic Bomb] units [in this city]",
-			"Free [Atomic Bomb] appears"
-		],
-		"quote": "'The only use for an atomic bomb is to keep somebody else from using one.' - George Wald"
-	},
-	{
-		"name": "Pentagon",
-		"isWonder": true,
-		"culture": 2,
-		"greatPersonPoints": {
-			"Great Engineer": 2
-		},
-		"uniques": [
-			"[-20]% Gold cost of upgrading <for [Military] units>",
-			"[Gold] cost of purchasing [All] units [-10]%"
-		],
-		"requiredTech": "Combined Arms",
-		"quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.' - Dwight D. Eisenhower"
-	},
-	{
-		"name": "Apollo Program",
-		"isWonder": true,
-		"uniques": [
-			"Space",
-			"Free [Great Spacefarer] appears",
-			"[Great Spacefarer] is earned [100]% faster"
-		],
-		"greatPersonPoints": {
-			"Great Spacefarer": 24
-		},
-		"requiredTech": "Rocketry",
-		"quote": "'That's one small step for a man, one giant leap for mankind.' - Neil Armstrong"
-	},
-	{
-		"name": "Hubble Space Telescope",
-		"isWonder": true,
-		"requiredTech": "Satellites",
-		"greatPersonPoints": {
-			"Great Spacefarer": 2
-		},
-		"uniques": [
-			"Space",
-			"[2] free [Great Scientist] units appear",
-			"[+25]% Production when constructing [Space] buildings [in this city]"
-		],
-		"quote": "'The wonder is, not that the field of stars is so vast, but that man has measured it.' - Anatole France"
-	},
-	{
-		"name": "United Nations",
-		"isWonder": true,
-		"culture": 1,
-		"greatPersonPoints": {
-			"Great Artist": 2
-		},
-		"requiredTech": "Globalization",
-		"uniques": [
-			"Resting point for Influence with City-States is increased by [60]",
-			"Allied City-States provide [Culture] equal to [100]% of what they produce for themselves"
-		],
-		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
-	},
-	{
-		"name": "Fusion Reactor",
-		"cost": 2600,
-		"requiredTech": "Nuclear Fusion",
-		"isWonder": true,
-		"uniques": [
-			"[+25]% Strength <for [Cyber] units>",
-			"[+10]% Production when constructing [Cyber] units [in all cities]",
-			"[+10]% [Science] from every [Composite Factory]"
-		],
-		"quote": "'The power of the Sun, in the palm of my hand' - Otto Octavious"
-	},
-	{
-		"name": "Living Castle",
-		"isWonder": true,
-		"cost": 2600,
-		"requiredTech": "Metagenetics",
-		"uniques": [
-			"[+25]% Strength <for [Gunpowder] units>",
-			"[+10]% Production when constructing [Gunpowder] units [in all cities]",
-			"[+10]% [Food] from every [Adaptive Base]"
-		],
-		"quote": "'It's alive! It's alive!' - Víctor Frankenstein"
-	},
-	{
-		"name": "Space Elevator",
-		"isWonder": true,
-		"cost": 2600,
-		"requiredTech": "Spaceflight",
-		"greatPersonPoints": {
-			"Great Spacefarer": 2
-		},
-		"uniques": [
-			"Space",
-			"[+25]% Strength <for [Space] units>",
-			"[+2 Culture] from every specialist [in all cities]",
-			"[+50]% Great Person generation [in all cities]",
-			"[+50]% Great Person generation [in this city]"
-		],
-		"quote": "'It takes a planet to explore the universe.' - Dylan Taylor"
-	},
-	{
-		"name": "World Alliance",
-		"isWonder": true,
-		"culture": 1,
-		"greatPersonPoints": {
-			"Great Merchant": 2
-		},
-		"requiredTech": "World Alliance",
-		"uniques": [
-			"Triggers voting for the Diplomatic Victory",
-			"Only available <when [Diplomatic] Victory is enabled>",
-			"Triggers a global alert upon completion"
-		],
-		"quote": "'Don't Cry Because it's Over, Smile Because It Happened'"
-	},
-	{
-		"name": "Teleport Station",
-		"isWonder": true,
-		"cost": 4000,
-		"requiredTech": "Particle Physics",
-		"uniques": [
-			"All newly-trained [Giant Death Robot] units [in all cities] receive the [Teleportation] promotion"
-		],
-		"quote": "'If I could teleport, I'd probably still be late.' - Anonymous"
 	},
 	{
 		"name": "Electrical Corporation",
