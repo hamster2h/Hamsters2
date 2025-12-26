@@ -789,7 +789,8 @@
 				"name": "Lasers",
 				"row": 6,
 				"prerequisites": [
-					"Artificial Intelligence"
+					"Artificial Intelligence",
+					"Mobile Tactics"
 				],
 				"quote": "There is always room, if only in one's own soul, to create a spot of Paradise, crazy though it may sound.' - Henry Miller"
 			},
