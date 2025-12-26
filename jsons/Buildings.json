@@ -226,6 +226,23 @@
 		"quote": "'He spoke, the son of Kronos, and nodded his head with the dark brows, and the immortally anointed hair of the great god swept from his divine head, and all Olympos was shaken' - The Iliad"
 	},
 	{
+		"name": "Sydney Opera House",
+		"isWonder": true,
+		"greatPersonPoints": {
+			"Great Artist": 2
+		},
+		"percentStatBonus": {
+			"culture": 50
+			"gold": 25
+		},
+		"uniques": [
+			"Free Social Policy",
+			"Must be next to [Coast]"
+		],
+		"requiredTech": "Ecology",
+		"quote": "'Those who lose dreaming are lost.' - Australian Aboriginal saying"
+	},
+	{
 		"name": "Palace",
 		"isNationalWonder": true,
 		"production": 3,
