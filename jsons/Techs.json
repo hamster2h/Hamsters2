@@ -855,7 +855,8 @@
 				"name": "Nuclear Fusion",
 				"row": 9,
 				"prerequisites": [
-					"Automation"
+					"Automation",
+					"Lasers"
 				],
 				"quote": "'The release of atomic energy has not created a new problem. It has readily made more urgent the necessity of solving an existing one.' - Albert Einstein"
 			}
