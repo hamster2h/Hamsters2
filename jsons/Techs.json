@@ -790,7 +790,8 @@
 				"row": 6,
 				"prerequisites": [
 					"Artificial Intelligence",
-					"Mobile Tactics"
+					"Mobile Tactics",
+					"Stealth"
 				],
 				"quote": "There is always room, if only in one's own soul, to create a spot of Paradise, crazy though it may sound.' - Henry Miller"
 			},
