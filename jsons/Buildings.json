@@ -215,6 +215,17 @@
 		"quote": "'With the magnificence of eternity before us, let time, with all its fluctuations, dwindle into its own littleness.' - Thomas Chalmers"
 	},
 	{
+		"name": "Statue of Zeus",
+		"culture": 1,
+		"isWonder": true,
+		"uniques": [
+			"Free Social Policy",
+			"[+15]% Strength <for [All] units> <vs cities> <when attacking>"
+		],
+		"requiredTech": "Bronze Working",
+		"quote": "'He spoke, the son of Kronos, and nodded his head with the dark brows, and the immortally anointed hair of the great god swept from his divine head, and all Olympos was shaken' - The Iliad"
+	},
+	{
 		"name": "Palace",
 		"isNationalWonder": true,
 		"production": 3,
