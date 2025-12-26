@@ -184,6 +184,20 @@
 		"quote": "'Bushido is realized in the presence of death. This means choosing death whenever there is a choice between life and death. There is no other reasoning.' - Yamamoto Tsunetomo"
 	},
 	{
+		"name": "Angkor Wat",
+		"culture": 2,
+		"greatPersonPoints": {
+			"Great Engineer": 1
+		},
+		"isWonder": true,
+		"uniques": [
+			"[-50]% Culture cost of natural border growth [in all cities]",
+			"[-50]% Gold cost of acquiring tiles [in all cities]"
+		],
+		"requiredTech": "Education",
+		"quote": "'The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.' - Antonio da Magdalena"
+	},
+	{
 		"name": "Palace",
 		"isNationalWonder": true,
 		"production": 3,
