@@ -582,7 +582,7 @@
 		"rangedStrength": 100,
 		"range": 3,
 		"interceptRange": 2,
-		"cost": 600,
+		"cost": 800,
 		"requiredTech": "Robotics",
 		"uniques": [
 			"Cyber",
