@@ -257,6 +257,19 @@
 		"quote": "'Nothing travels faster than light with the possible exception of bad news, which obeys its own special rules.' - Douglas Adams"
 	},
 	{
+		"name": "Cristo Redentor",
+		"culture": 5,
+		"isWonder": true,
+		"greatPersonPoints": {
+			"Great Artist": 2
+		},
+		"uniques": [
+			"[-10]% Culture cost of adopting new Policies"
+		],
+		"requiredTech": "Plastics",
+		"quote": "'Come to me, all who labor and are heavy burdened, and I will give you rest.' - New Testament, Matthew 11:28"
+	},
+	{
 		"name": "Palace",
 		"isNationalWonder": true,
 		"production": 3,
