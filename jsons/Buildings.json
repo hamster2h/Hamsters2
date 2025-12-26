@@ -125,6 +125,19 @@
 		"quote": "'Justice is an unassailable fortress, built on the brow of a mountain which cannot be overthrown by the violence of torrents, nor demolished by the force of armies.' - Joseph Addison"
 	},
 	{
+		"name": "Mausoleum of Halicarnassus",
+		"culture": 1,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": [
+			"Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
+			"[+2 Gold] from [Marble] tiles [in all cities]",
+			"[+2 Gold] from [Stone] tiles [in all cities]"
+		],
+		"requiredTech": "Masonry",
+		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
+	},
+	{
 		"name": "Palace",
 		"isNationalWonder": true,
 		"production": 3,
