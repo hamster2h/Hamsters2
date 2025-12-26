@@ -623,6 +623,22 @@
 		"attackSound": "shipguns"
 	},
 	{
+		"name": "Carrier",
+		"unitType": "Aircraft Carrier",
+		"movement": 7,
+		"strength": 40,
+		"cost": 800,
+		"requiredTech": "Electronics",
+		"uniques": [
+			"Cyber",
+			"Can carry [4] [Aircraft] units",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Medic"
+		]
+	},
+	{
 		"name": "Musician",
 		"unitType": "Civilian",
 		"requiredTech": "Radio",
@@ -663,19 +679,6 @@
 			{
 				"text": "Construct Supply Routes on Strategic Resources your empire no longer uses."
 			}
-		]
-	},
-	{
-		"name": "Carrier",
-		"unitType": "Aircraft Carrier",
-		"movement": 6,
-		"strength": 40,
-		"cost": 600,
-		"requiredTech": "Electronics",
-		"uniques": [
-			"Cyber",
-			"Can carry [4] [Aircraft] units",
-			"Never appears as a Barbarian unit"
 		]
 	},
 	{
