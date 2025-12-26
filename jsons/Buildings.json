@@ -232,7 +232,7 @@
 			"Great Artist": 2
 		},
 		"percentStatBonus": {
-			"culture": 50
+			"culture": 50,
 			"gold": 25
 		},
 		"uniques": [
