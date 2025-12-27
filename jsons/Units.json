@@ -513,20 +513,6 @@
 		"attackSound": "artillery"
 	},
 	{
-		"name": "Great War Infantry",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 50,
-		"cost": 320,
-		"upgradesTo": "Infantry",
-		"obsoleteTech": "Plastics",
-		"uniques": [
-			"Only available <if [GP-Great War] is constructed>",
-			"Never appears as a Barbarian unit"
-		],
-		"attackSound": "shot"
-	},
-	{
 		"name": "Frigate",
 		"unitType": "Ranged Water",
 		"movement": 5,
@@ -1253,6 +1239,31 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Great War Infantry",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 50,
+		"cost": 320,
+		"upgradesTo": "Infantry",
+		"obsoleteTech": "Plastics",
+		"uniques": [
+			"Only available <if [GP-Great War] is constructed>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Infantry",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 70,
+		"cost": 350,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Mechanized Infantry",
+		"obsoleteTech": "Mobile Tactics",
+		"attackSound": "shot"
+	},
+	{
 		"name": "Mechanized Infantry",
 		"unitType": "Gunpowder",
 		"movement": 5,
@@ -1261,6 +1272,10 @@
 		"requiredTech": "Mobile Tactics",
 		"upgradesTo": "Energy Infantry",
 		"obsoleteTech": "Nuclear Fusion",
+		"promotions": [
+			"Rocket Launcher",
+			"Blitz"
+		],
 		"attackSound": "tankshot"
 	},
 	{
