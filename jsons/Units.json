@@ -785,7 +785,7 @@
 		"strength": 150,
 		"rangedStrength": 150,
 		"range": 10,
-		"cost": 3600,
+		"cost": 4000,
 		"obsoleteTech": "Advanced Ballistics",
 		"requiredTech": "Nuclear Fission",
 		"upgradesTo": "Nuclear Missile",
@@ -838,7 +838,7 @@
 		"strength": 80,
 		"rangedStrength": 80,
 		"range": 8,
-		"cost": 150,
+		"cost": 200,
 		"requiredTech": "Advanced Ballistics",
 		"uniques": [
 			"[-100]% maintenance costs",
