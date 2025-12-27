@@ -413,12 +413,12 @@
 		"isWonder": true,
 		"cost": 5440,
 		"requiredResource": "Corporation Slot",
+		"requiredTech": "Infrastructure",
 		"uniques": [
 			"Provides [4] [Electrical Stock]",
 			"Comment [Double Power to Buildings that provide it]",
 			"Consumes [1] [Corporation Slot(Total)]",
-			"Only available <with [Corporation Slot]>",
-			"Only available <starting from the [Atomic era]>"
+			"Only available <with [Corporation Slot]>"
 		]
 	},
 	{
