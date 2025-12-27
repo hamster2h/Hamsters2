@@ -411,10 +411,10 @@
 	{
 		"name": "Electrical Corporation",
 		"isWonder": true,
-		"cost": 1360,
+		"cost": 5440,
 		"requiredResource": "Corporation Slot",
 		"uniques": [
-			"Provides [6] [Electrical Stock]",
+			"Provides [4] [Electrical Stock]",
 			"Comment [Double Power to Buildings that provide it]",
 			"Consumes [1] [Corporation Slot(Total)]",
 			"Only available <with [Corporation Slot]>",
@@ -424,10 +424,10 @@
 	{
 		"name": "Engineering Corporation",
 		"isWonder": true,
-		"cost": 980,
+		"cost": 5440,
 		"requiredResource": "Corporation Slot",
 		"uniques": [
-			"Provides [6] [Engineering Stock]",
+			"Provides [4] [Engineering Stock]",
 			"Comment [Production Improvements have their adjacency bonuses doubled]",
 			"Consumes [1] [Corporation Slot(Total)]",
 			"Only available <with [Corporation Slot]>",
@@ -437,10 +437,10 @@
 	{
 		"name": "Tourism Agency",
 		"isWonder": true,
-		"cost": 1360,
+		"cost": 5440,
 		"requiredResource": "Corporation Slot",
 		"uniques": [
-			"Provides [6] [Tourism Stock]",
+			"Provides [4] [Tourism Stock]",
 			"Comment [Doubles the adjacency bonuses of Concert Venue tiles]",
 			"[+100]% Yield from every [Excavation Site]",
 			"[+100]% [Culture] from every [History Museum]",
@@ -454,9 +454,9 @@
 		"isWonder": true,
 		"cost": 5440,
 		"requiredResource": "Corporation Slot",
-		"requiredTech": "Combined Arms"
+		"requiredTech": "Combined Arms",
 		"uniques": [
-			"Provides [6] [Defense Force Stock]",
+			"Provides [4] [Defense Force Stock]",
 			"New [Military] units start with [45] XP [in all cities]",
 			"Consumes [1] [Corporation Slot(Total)]",
 			"Only available <with [Corporation Slot]>"
@@ -465,10 +465,10 @@
 	{
 		"name": "Social Network Company",
 		"isWonder": true,
-		"cost": 1710,
+		"cost": 5440,
 		"requiredResource": "Corporation Slot",
 		"uniques": [
-			"Provides [6] [Social Network Stock]",
+			"Provides [4] [Social Network Stock]",
 			"[-10]% Unhappiness from [Population] [in all cities]",
 			"Consumes [1] [Corporation Slot(Total)]",
 			"Only available <after discovering [Corporations]>",
@@ -479,10 +479,10 @@
 	{
 		"name": "World Delivery Company",
 		"isWonder": true,
-		"cost": 1890,
+		"cost": 5440,
 		"requiredResource": "Corporation Slot",
 		"uniques": [
-			"Provides [6] [World Delivery Stock]",
+			"Provides [4] [World Delivery Stock]",
 			"Comment [Doubles the adjacency bonuses of Industry tiles]",
 			"[+100]% Yield from every [Supply Route]",
 			"Consumes [1] [Corporation Slot(Total)]",
@@ -494,25 +494,24 @@
 	{
 		"name": "Space Organization",
 		"isWonder": true,
-		"cost": 1710,
+		"cost": 5440,
 		"requiredResource": "Corporation Slot",
+		"requiredTech": "Satellites",
 		"uniques": [
-			"Provides [6] [Space Stock]",
+			"Provides [4] [Space Stock]",
 			"[-25]% Food consumption by specialists [in all cities]",
 			"[-25]% Unhappiness from [Specialists] [in all cities]",
 			"Consumes [1] [Corporation Slot(Total)]",
-			"Only available <after discovering [Corporations]>",
-			"Only available <with [Corporation Slot]>",
-			"Only available <starting from the [Atomic era]>"
+			"Only available <with [Corporation Slot]>"
 		]
 	},
 	{
 		"name": "Holy Organization",
 		"isWonder": true,
-		"cost": 1710,
+		"cost": 5440,
 		"requiredResource": "Corporation Slot",
 		"uniques": [
-			"Provides [6] [Holy Stock]",
+			"Provides [4] [Holy Stock]",
 			"[Faith] cost of purchasing [All] units [-35]%",
 			"Consumes [1] [Corporation Slot(Total)]",
 			"Only available <after discovering [Corporations]>",
