@@ -467,13 +467,12 @@
 		"isWonder": true,
 		"cost": 5440,
 		"requiredResource": "Corporation Slot",
+		"requiredTech": "The Internet",
 		"uniques": [
 			"Provides [4] [Social Network Stock]",
 			"[-10]% Unhappiness from [Population] [in all cities]",
 			"Consumes [1] [Corporation Slot(Total)]",
-			"Only available <after discovering [Corporations]>",
-			"Only available <with [Corporation Slot]>",
-			"Only available <starting from the [Information era]>"
+			"Only available <with [Corporation Slot]>"
 		]
 	},
 	{
@@ -481,9 +480,10 @@
 		"isWonder": true,
 		"cost": 5440,
 		"requiredResource": "Corporation Slot",
-		"requiredTech": "Corporations",
+		"requiredTech": "Globalization",
 		"uniques": [
 			"Provides [4] [World Delivery Stock]",
+			"[+4 Gold, +2 Production, +2 Food] from each Trade Route",
 			"Comment [Doubles the adjacency bonuses of Industry tiles]",
 			"[+100]% Yield from every [Supply Route]",
 			"Consumes [1] [Corporation Slot(Total)]",
