@@ -439,14 +439,14 @@
 		"isWonder": true,
 		"cost": 5440,
 		"requiredResource": "Corporation Slot",
+		"requiredTech": "Corporations",
 		"uniques": [
 			"Provides [4] [Tourism Stock]",
 			"Comment [Doubles the adjacency bonuses of Concert Venue tiles]",
 			"[+100]% Yield from every [Excavation Site]",
 			"[+100]% [Culture] from every [History Museum]",
 			"Consumes [1] [Corporation Slot(Total)]",
-			"Only available <with [Corporation Slot]>",
-			"Only available <starting from the [Atomic era]>"
+			"Only available <with [Corporation Slot]>"
 		]
 	},
 	{
@@ -481,14 +481,13 @@
 		"isWonder": true,
 		"cost": 5440,
 		"requiredResource": "Corporation Slot",
+		"requiredTech": "Corporations",
 		"uniques": [
 			"Provides [4] [World Delivery Stock]",
 			"Comment [Doubles the adjacency bonuses of Industry tiles]",
 			"[+100]% Yield from every [Supply Route]",
 			"Consumes [1] [Corporation Slot(Total)]",
-			"Only available <after discovering [Corporations]>",
-			"Only available <with [Corporation Slot]>",
-			"Only available <starting from the [Information era]>"
+			"Only available <with [Corporation Slot]>"
 		]
 	},
 	{
@@ -510,13 +509,12 @@
 		"isWonder": true,
 		"cost": 5440,
 		"requiredResource": "Corporation Slot",
+		"requiredTech": "Corporations",
 		"uniques": [
 			"Provides [4] [Holy Stock]",
 			"[Faith] cost of purchasing [All] units [-35]%",
 			"Consumes [1] [Corporation Slot(Total)]",
-			"Only available <after discovering [Corporations]>",
-			"Only available <with [Corporation Slot]>",
-			"Only available <starting from the [Information era]>"
+			"Only available <with [Corporation Slot]>"
 		]
 	},
 	{
