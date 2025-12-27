@@ -208,15 +208,22 @@
 		]
 	},
 	{
-		"name": "Rifleman",
-		"unitType": "Gunpowder",
+		"name": "Hacker",
+		"unitType": "Support",
 		"movement": 2,
-		"strength": 34,
-		"cost": 225,
-		"requiredTech": "Rifling",
-		"obsoleteTech": "Plastics",
-		"upgradesTo": "Infantry",
-		"attackSound": "shot"
+		"strength": 10,
+		"cost": 450,
+		"requiredTech": "The Internet",
+		"promotions": [
+			"Support Unit"
+		],
+		"uniques": [
+			"Cyber",
+			"Hacker",
+			"Comment [+33% Strength for some adjacent Units vs Cyber Units]",
+			"Comment [25% chance for some adjacent units to capture killed Cyber Units]",
+			"Never appears as a Barbarian unit"
+		]
 	},
 	{
 		"name": "Cavalry",
@@ -877,24 +884,6 @@
 		"attackSound": "torpedo"
 	},
 	{
-		"name": "Hacker",
-		"unitType": "Support",
-		"movement": 2,
-		"strength": 10,
-		"cost": 450,
-		"requiredTech": "The Internet",
-		"promotions": [
-			"Support Unit"
-		],
-		"uniques": [
-			"Cyber",
-			"Hacker",
-			"Comment [+33% Strength for some adjacent Units vs Cyber Units]",
-			"Comment [25% chance for some adjacent units to capture killed Cyber Units]",
-			"Never appears as a Barbarian unit"
-		]
-	},
-	{
 		"name": "Landship",
 		"unitType": "Armored",
 		"movement": 3,
@@ -1055,8 +1044,8 @@
 		"name": "Triplane",
 		"unitType": "Fighter",
 		"movement": 1,
-		"strength": 35,
-		"rangedStrength": 35,
+		"strength": 30,
+		"rangedStrength": 30,
 		"range": 5,
 		"interceptRange": 5,
 		"cost": 325,
@@ -1065,8 +1054,8 @@
 		"obsoleteTech": "Radar",
 		"uniques": [
 			"[50]% chance to intercept air attacks",
-			"[+150]% Strength <vs [Bomber] units>",
-			"[+150]% Strength <vs [Helicopter] units>",
+			"[+100]% Strength <vs [Observation Balloon] units>",
+			"[+100]% Strength <vs [Bomber] units>",
 			"Only available <if [EP-Early Vehicles] is constructed>",
 			"Only available <after discovering [Flight]>"
 		],
@@ -1088,7 +1077,7 @@
 		"uniques": [
 			"[100]% chance to intercept air attacks",
 			"[+150]% Strength <vs [Bomber] units>",
-			"[+150]% Strength <vs [Helicopter] units>"
+			"[+50]% Strength <vs [Helicopter] units>"
 		],
 		"attackSound": "machinegun"
 	},
@@ -1109,8 +1098,8 @@
 			"Cyber",
 			"Consumes [1] [Oil]",
 			"[100]% chance to intercept air attacks",
-			"[+150]% Strength <vs [Bomber] units>",
-			"[+50]% Strength <vs [Helicopter] units>"
+			"[+200]% Strength <vs [Bomber] units>",
+			"[+100]% Strength <vs [Helicopter] units>"
 		],
 		"attackSound": "jetgun"
 	},
@@ -1118,11 +1107,11 @@
 		"name": "Orbital Jet",
 		"unitType": "Fighter",
 		"movement": 2,
-		"strength": 75,
-		"rangedStrength": 75,
+		"strength": 90,
+		"rangedStrength": 90,
 		"range": 12,
 		"interceptRange": 12,
-		"cost": 700,
+		"cost": 600,
 		"requiredTech": "Spaceflight",
 		"requiredResource": "Oil",
 		"uniques": [
@@ -1130,10 +1119,11 @@
 			"Space",
 			"Consumes [2] [Composites]",
 			"[100]% chance to intercept air attacks",
-			"[+150]% Strength <vs [Bomber] units>",
-			"[+50]% Strength <vs [Helicopter] units>"
+			"[+200]% Strength <vs [Bomber] units>",
+			"[+100]% Strength <vs [Helicopter] units>"
 		],
 		"promotions": [
+			"Stealth",
 			"Heat Sensor"
 		],
 		"attackSound": "jetgun"
@@ -1238,15 +1228,29 @@
 		"strength": 120,
 		"rangedStrength": 120,
 		"range": 18,
-		"cost": 700,
+		"cost": 900,
 		"requiredTech": "Spaceflight",
 		"requiredResource": "Oil",
 		"uniques": [
 			"Cyber",
 			"Space",
-			"Consumes [2] [Composites]"
+			"Consumes [4] [Composites]"
+		],
+		"promotions": [
+			"Stealth"
 		],
 		"attackSound": "bombing"
+	},
+	{
+		"name": "Rifleman",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Plastics",
+		"upgradesTo": "Infantry",
+		"attackSound": "shot"
 	},
 	{
 		"name": "Mechanized Infantry",
@@ -1367,7 +1371,7 @@
 		"movement": 2,
 		"strength": 60,
 		"rangedStrength": 60,
-		"cost": 350,
+		"cost": 300,
 		"requiredTech": "Ballistics",
 		"upgradesTo": "Combat Robot",
 		"obsoleteTech": "Automation",
@@ -1380,7 +1384,7 @@
 		"movement": 2,
 		"strength": 60,
 		"rangedStrength": 100,
-		"cost": 400,
+		"cost": 350,
 		"requiredTech": "Automation",
 		"uniques": [
 			"Cyber",
