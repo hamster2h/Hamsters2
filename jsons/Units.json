@@ -1068,6 +1068,30 @@
 		"attackSound": "machinegun"
 	},
 	{
+		"name": "Zero",
+		"unitType": "Fighter",
+		"replaces": "Fighter",
+		"uniqueTo": "Japan",
+		"movement": 1,
+		"strength": 50,
+		"rangedStrength": 50,
+		"range": 8,
+		"interceptRange": 8,
+		"cost": 375,
+		"requiredTech": "Radar",
+		"upgradesTo": "Jet Fighter",
+		"obsoleteTech": "Computers",
+		"uniques": [
+			"[100]% chance to intercept air attacks",
+			"[+150]% Strength <vs [Bomber] units>",
+			"[+100]% Strength <vs [Helicopter] units>"
+		],
+		"promotions": [
+			"[Zero] ability"
+		],
+		"attackSound": "machinegun"
+	},
+	{
 		"name": "Jet Fighter",
 		"unitType": "Fighter",
 		"movement": 1,
