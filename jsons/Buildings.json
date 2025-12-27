@@ -454,13 +454,12 @@
 		"isWonder": true,
 		"cost": 1360,
 		"requiredResource": "Corporation Slot",
+		"requiredTech": "Combined Arms"
 		"uniques": [
 			"Provides [2] [Defense Force Stock]",
 			"New [Military] units start with [25] XP [in all cities]",
 			"Consumes [1] [Corporation Slot(Total)]",
-			"Only available <after discovering [Corporations]>",
-			"Only available <with [Corporation Slot]>",
-			"Only available <starting from the [Atomic era]>"
+			"Only available <with [Corporation Slot]>"
 		]
 	},
 	{
