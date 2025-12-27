@@ -1022,7 +1022,7 @@
 		"uniques": [
 			"[50]% chance to intercept air attacks",
 			"[+100]% Strength <vs [Observation Balloon] units>",
-			"[+50]% Strength <vs [Bomber] units>"
+			"[+100]% Strength <vs [Bomber] units>"
 		],
 		"attackSound": "machinegun"
 	},
