@@ -260,7 +260,7 @@
 	{
         "name": "Exploration",
         "uniques": [
-            "[This Unit] gains [1] XP <with [20]% chance> <upon discovering a [All] tile>",
+            "[This Unit] gains [1] XP <with [25]% chance> <upon discovering a [All] tile>",
             "[This Unit] gains [10] XP <upon discovering a [Natural Wonder] tile>"
         ],
         "unitTypes": [
@@ -309,5 +309,6 @@
         "row": 2
 	}
 ]
+
 
 
