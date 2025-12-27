@@ -805,7 +805,7 @@
 		"strength": 250,
 		"rangedStrength": 250,
 		"range": 12,
-		"cost": 6000,
+		"cost": 10000,
 		"requiredTech": "Advanced Ballistics",
 		"uniques": [
 			"Nuclear weapon of Strength [2]",
@@ -822,7 +822,7 @@
 		"strength": 500,
 		"rangedStrength": 500,
 		"range": 12,
-		"cost": 12000,
+		"cost": 35000,
 		"requiredTech": "Spaceflight",
 		"uniques": [
 			"[-100]% maintenance costs",
