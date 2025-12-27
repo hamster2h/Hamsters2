@@ -548,7 +548,7 @@
 	{
 		"name": "Battleship",
 		"unitType": "Ranged Water",
-		"movement": 6,
+		"movement": 5,
 		"strength": 70,
 		"rangedStrength": 70,
 		"range": 3,
@@ -655,7 +655,7 @@
 	{
 		"name": "Carrier",
 		"unitType": "Aircraft Carrier",
-		"movement": 7,
+		"movement": 5,
 		"strength": 40,
 		"cost": 800,
 		"requiredTech": "Electronics",
