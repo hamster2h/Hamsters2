@@ -54,7 +54,7 @@
 		"name": "Longhouse",
 		"replaces": "Workshop",
 		"uniqueTo": "Iroquois",
-		"cost": 320,
+		"cost": 360,
 		"maintenance": 4,
 		"production": 2,
 		"specialistSlots": {
@@ -65,7 +65,7 @@
 		"uniques": [
 			"[+1 Production] from [Forest] tiles [in all cities]",
 			"[+1 Production] from [Jungle] tiles [in all cities]",
-			"Cost increases by [320] per owned city"
+			"Cost increases by [360] per owned city"
 		]
 	},
 	{
