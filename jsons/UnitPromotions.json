@@ -5,20 +5,7 @@
 			"[This Unit] heals [50] HP",
 			"Doing so will consume this opportunity to choose a Promotion"
 		],
-		"unitTypes": [
-			"Sword",
-			"Gunpowder",
-			"Mounted",
-			"Scout",
-			"Siege",
-			"Archery",
-			"Ranged Gunpowder",
-			"Armored",
-			"Melee Water",
-			"Ranged Water",
-			"Submarine",
-			"Support"
-		]
+		"unitTypes": [ ]
 	},
 	{
 		"name": "Stealth",
@@ -322,4 +309,5 @@
         "row": 2
 	}
 ]
+
 
