@@ -2,6 +2,7 @@
     "name": "Hamsters mod",
     "uniques": [
         "[-1] Unit Supply per [6] population [in all cities]",
+        
         "[+1 Gold] per every [200] [Gold] <after discovering [Banking]>",
         "[+1 Gold] per every [200] [Gold] <after discovering [Economics]>",
         "[+1 Gold] per every [200] [Gold] <starting from the [Industrial era]>",
@@ -9,12 +10,13 @@
         "[+1 Gold] per every [200] [Gold] <starting from the [Atomic era]>",
         "[+1 Gold] per every [200] [Gold] <starting from the [Information era]>",
         "[+1 Gold] per every [200] [Gold] <starting from the [Future era]>",
-        "[+2 Gold] per every [200] [Gold] <starting from the [Beyond the Future]>",
+        "[+1 Gold] per every [200] [Gold] <starting from the [Beyond the Future]>",
+        
         "[+1 Gold] per every [200] [Gold] <during a Golden Age> <starting from the [Industrial era]>",
         "[+1 Gold] per every [200] [Gold] <during a Golden Age> <starting from the [Modern era]>",
         "[+1 Gold] per every [200] [Gold] <during a Golden Age> <starting from the [Atomic era]>",
         "[+1 Gold] per every [200] [Gold] <during a Golden Age> <starting from the [Information era]>",
         "[+1 Gold] per every [200] [Gold] <during a Golden Age> <starting from the [Future era]>",
-        "[+2 Gold] per every [200] [Gold] <during a Golden Age> <starting from the [Beyond the Future>"
+        "[+1 Gold] per every [200] [Gold] <during a Golden Age> <starting from the [Beyond the Future>"
     ]
 }
