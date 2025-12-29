@@ -466,7 +466,7 @@
 		"unitType": "Siege",
 		"movement": 4,
 		"strength": 21,
-		"rangedStrength": 56,
+		"rangedStrength": 28,
 		"range": 5,
 		"cost": 640,
 		"requiredTech": "Rocketry",
@@ -474,7 +474,7 @@
 		"obsoleteTech": "Terraforming",
 		"uniques": [
 			"Cyber",
-			"[+200]% Strength <vs cities> <when attacking>",
+			"[+500]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"[+1] Range <after discovering [Advanced Ballistics]>",
 			"Never appears as a Barbarian unit"
@@ -488,15 +488,15 @@
 		"name": "Hovertillery",
 		"unitType": "Siege",
 		"movement": 5,
-		"strength": 50,
-		"rangedStrength": 80,
-		"range": 5,
-		"cost": 540,
+		"strength": 25,
+		"rangedStrength": 40,
+		"range": 6,
+		"cost": 810,
 		"requiredTech": "Terraforming",
 		"requiredResource": "Composites",
 		"uniques": [
 			"Cyber",
-			"[+200]% Strength <vs cities> <when attacking>",
+			"[+500]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"Never appears as a Barbarian unit"
 		],
