@@ -424,7 +424,7 @@
 		"replaces": "Trebuchet",
 		"uniqueTo": "Korea",
 		"movement": 2,
-		"strength": 4,
+		"strength": 11,
 		"rangedStrength": 26,
 		"range": 2,
 		"cost": 120,
