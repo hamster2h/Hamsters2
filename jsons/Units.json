@@ -464,7 +464,7 @@
 	{
 		"name": "Rocket Artillery",
 		"unitType": "Siege",
-		"movement": 4,
+		"movement": 5,
 		"strength": 21,
 		"rangedStrength": 28,
 		"range": 5,
