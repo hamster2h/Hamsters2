@@ -376,6 +376,29 @@
 		"attackSound": "crossbow"
 	},
 	{
+		"name": "Battering Ram",
+		"unitType": "Siege",
+		"replaces": "Spearman",
+		"uniqueTo": "The Huns",
+		"movement": 3,
+		"strength": 12,
+		"cost": 75,
+		"requiredTech": "Bronze Working",
+		"upgradesTo": "Trebuchet",
+		"obsoleteTech": "Physics",
+		"uniques": [
+			"[+300]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"[-33]% Strength <when defending>",
+			"[-1] Sight",
+			"Can only attack [City] units"
+		],
+		"promotions":  [
+			"Cover I"
+		],
+		"attackSound": "throw"
+	},
+	{
 		"name": "Trebuchet",
 		"unitType": "Siege",
 		"movement": 2,
