@@ -299,6 +299,8 @@
 		"obsoleteTech": "Computers",
 		"upgradesTo": "Drone",
 		"uniques": [
+			"Intel",
+			"Comment [+1 Range to adjacent Siege Units]",
 			"[+20]% Strength bonus for [Siege] units within [1] tiles",
 			"[+1] Sight",
 			"No defensive terrain bonus",
@@ -318,10 +320,10 @@
 		"cost": 300,
 		"requiredTech": "Computers",
 		"uniques": [
-			"Intel",
+			"Intel2",
 			"Comment [+2 Range to adjacent Siege Units]",
 			"[+33]% Strength bonus for [Siege] units within [1] tiles",
-			"[+1] Sight",
+			"[+2] Sight",
 			"No defensive terrain bonus",
 			"Ignores Zone of Control",
 			"Never appears as a Barbarian unit"
