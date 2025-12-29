@@ -68,7 +68,8 @@
         "movementType": "Land",
         "uniques": [
             "[+33]% Strength <vs [Air] units> <when adjacent to a [Anti-Air] unit>",
-            "[+2] Range <when adjacent to a [Intel] unit>"
+            "[+1] Range <when adjacent to a [Intel] unit>",
+            "[+2] Range <when adjacent to a [Intel2] unit>"
         ]
     },
     {
