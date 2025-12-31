@@ -67,7 +67,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"upgradesTo": "Architect",
-		"obsoleteTech": "Infrastructure",
+		//"obsoleteTech": "Infrastructure",
 		"uniques": [
 			"Can build [Land] improvements on tiles"
 		],
