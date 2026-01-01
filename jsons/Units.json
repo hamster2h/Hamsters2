@@ -536,10 +536,10 @@
 		"strength": 25,
 		"rangedStrength": 28,
 		"cost": 250,
-		"requiredResource": "Iron",
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Electronics",
 		"upgradesTo": "Battleship",
+		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
 		"attackSound": "shipCannonVolley"
 	},
@@ -552,13 +552,13 @@
 		"strength": 30,
 		"rangedStrength": 35,
 		"cost": 280,
+		"requiredTech": "Navigation",
+		"obsoleteTech": "Electronics",
+		"upgradesTo": "Battleship",
 		"requiredResource": "Iron",
 		"uniques": [
 			"[+1] Sight"
 		],
-		"requiredTech": "Navigation",
-		"obsoleteTech": "Electronics",
-		"upgradesTo": "Battleship",
 		"hurryCostModifier": 20,
 		"attackSound": "shipCannonVolley"
 	},
@@ -571,11 +571,12 @@
 		"range": 3,
 		"interceptRange": 1,
 		"cost": 500,
-		"requiredResource": "Oil",
 		"requiredTech": "Electronics",
 		"upgradesTo": "Missile Cruiser",
 		"obsoleteTech": "Robotics",
+		"requiredResource": "Oil",
 		"uniques": [
+			"Consumes [2] [Iron]",
 			"[75]% chance to intercept air attacks <after discovering [Ballistics]>",
 			"Never appears as a Barbarian unit"
 		],
@@ -594,9 +595,10 @@
 		"interceptRange": 2,
 		"cost": 800,
 		"requiredTech": "Robotics",
+		"requiredResource": "Oil",
 		"uniques": [
 			"Cyber",
-			"Consumes [1] [Aluminum]",
+			"Consumes [2] [Aluminum]",
 			"[100]% chance to intercept air attacks",
 			"Can see invisible [Submarine] units",
 			"Can carry [6] [Missile] units",
@@ -655,10 +657,11 @@
 		"interceptRange": 1,
 		"cost": 325,
 		"requiredTech": "Combustion",
-		"requiredResource": "Iron",
 		"upgradesTo": "Missile Cruiser",
 		"obsoleteTech": "Robotics",
+		"requiredResource": "Oil",
 		"uniques": [
+			"Consumes [1] [Iron]",
 			"Can see invisible [Submarine] units",
 			"[50]% chance to intercept air attacks <after discovering [Ballistics]>",
 			"Withdraws before melee combat <with [60]% chance>",
