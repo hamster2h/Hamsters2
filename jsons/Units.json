@@ -694,17 +694,36 @@
 		"attackSound": "shipguns"
 	},
 	{
+		"name": "Submarine",
+		"unitType": "Submarine",
+		"movement": 5,
+		"strength": 35,
+		"rangedStrength": 60,
+		"cost": 550,
+		"requiredTech": "Refrigeration",
+		"upgradesTo": "Nuclear Submarine",
+		"requiredResource": "Oil",
+		"uniques": [
+			"[+75]% Strength <when attacking>",
+			"Can only attack [Water] tiles",
+			"Can carry [6] [Missile] units",
+			"Ignores Zone of Control",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "torpedo"
+	},
+	{
 		"name": "Nuclear Submarine",
 		"unitType": "Submarine",
 		"movement": 6,
 		"strength": 65,
 		"range": 3,
 		"rangedStrength": 100,
-		"cost": 425,
+		"cost": 800,
 		"requiredTech": "Telecommunications",
 		"requiredResource": "Uranium",
 		"uniques": [
-			"[+75]% Strength <when attacking>",
+			"[+100]% Strength <when attacking>",
 			"Can only attack [Water] tiles",
 			"Can move after attacking",
 			"[+1] Sight",
