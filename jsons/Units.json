@@ -101,6 +101,49 @@
 		]
 	},
 	{
+		"name": "Musician",
+		"unitType": "Civilian",
+		"requiredTech": "Radio",
+		"movement": 2,
+		"uniques": [
+			"Can instantly construct a [Concert Venue] improvement <by consuming this unit>",
+			"Uncapturable"
+		],
+		"cost": 500
+	},
+	{
+		"name": "Corporate",
+		"unitType": "Civilian",
+		"requiredTech": "Corporations",
+		"movement": 2,
+		"uniques": [
+			"Can instantly construct a [Industry] improvement <by consuming this unit>",
+			"Uncapturable"
+		],
+		"cost": 500,
+		"civilopediaText": [
+			{
+				"text": "Construct Industries on Luxury Resources you have copies of and cannot trade."
+			}
+		]
+	},
+	{
+		"name": "Supply Agent",
+		"unitType": "Civilian",
+		"cost": 500,
+		"movement": 2,
+		"requiredTech": "Combustion",
+		"uniques": [
+			"Can instantly construct a [Supply Route] improvement <by consuming this unit>",
+			"Uncapturable"
+		],
+		"civilopediaText": [
+			{
+				"text": "Construct Supply Routes on Strategic Resources your empire no longer uses."
+			}
+		]
+	},
+	{
 		"name": "Scout",
 		"unitType": "Scout",
 		"movement": 3,
@@ -750,47 +793,74 @@
 		]
 	},
 	{
-		"name": "Musician",
-		"unitType": "Civilian",
-		"requiredTech": "Radio",
-		"movement": 2,
+		"name": "Guided Missile",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 80,
+		"rangedStrength": 80,
+		"range": 8,
+		"cost": 200,
+		"requiredTech": "Advanced Ballistics",
 		"uniques": [
-			"Can instantly construct a [Concert Venue] improvement <by consuming this unit>",
-			"Uncapturable"
+			"[-100]% maintenance costs",
+			"[+125]% Strength <after discovering [Lasers]>",
+			"[+4] Range <after discovering [Satellites]>"
 		],
-		"cost": 500
+		"attackSound": "missile"
 	},
 	{
-		"name": "Corporate",
-		"unitType": "Civilian",
-		"requiredTech": "Corporations",
-		"movement": 2,
+		"name": "Atomic Bomb",
+		"unitType": "Atomic Bomber",
+		"movement": 1,
+		"strength": 150,
+		"rangedStrength": 150,
+		"range": 10,
+		"cost": 4000,
+		"obsoleteTech": "Advanced Ballistics",
+		"requiredTech": "Nuclear Fission",
+		"upgradesTo": "Nuclear Missile",
+		"requiredResource": "Oil",
 		"uniques": [
-			"Can instantly construct a [Industry] improvement <by consuming this unit>",
-			"Uncapturable"
+			"Consumes [1] [Uranium]",
+			"Nuclear weapon of Strength [1]",
+			"Only available <if [Nuclear Testing Site] is constructed>",
+			"Self-destructs when attacking",
+			"Blast radius [1]"
 		],
-		"cost": 500,
-		"civilopediaText": [
-			{
-				"text": "Construct Industries on Luxury Resources you have copies of and cannot trade."
-			}
-		]
+		"attackSound": "nuke"
 	},
 	{
-		"name": "Supply Agent",
-		"unitType": "Civilian",
-		"cost": 500,
-		"movement": 2,
-		"requiredTech": "Combustion",
+		"name": "Nuclear Missile",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 250,
+		"rangedStrength": 250,
+		"range": 12,
+		"cost": 10000,
+		"requiredTech": "Advanced Ballistics",
 		"uniques": [
-			"Can instantly construct a [Supply Route] improvement <by consuming this unit>",
-			"Uncapturable"
+			"Nuclear weapon of Strength [2]",
+			"Only available <if [Nuclear Testing Site] is constructed>",
+			"Blast radius [2]",
+			"Consumes [1] [Uranium]"
 		],
-		"civilopediaText": [
-			{
-				"text": "Construct Supply Routes on Strategic Resources your empire no longer uses."
-			}
-		]
+		"attackSound": "nuke"
+	},
+	{
+		"name": "Orbital Strike",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 500,
+		"rangedStrength": 500,
+		"range": 12,
+		"cost": 35000,
+		"requiredTech": "Spaceflight",
+		"uniques": [
+			"[-100]% maintenance costs",
+			"Nuclear weapon of Strength [3]",
+			"Blast radius [1]"
+		],
+		"attackSound": "nuke"
 	},
 	{
 		"name": "Anti-Aircraft Gun",
@@ -856,75 +926,6 @@
 			"Support Unit",
 			"Hovering",
 			"Heat Sensor"
-		],
-		"attackSound": "missile"
-	},
-	{
-		"name": "Atomic Bomb",
-		"unitType": "Atomic Bomber",
-		"movement": 1,
-		"strength": 150,
-		"rangedStrength": 150,
-		"range": 10,
-		"cost": 4000,
-		"obsoleteTech": "Advanced Ballistics",
-		"requiredTech": "Nuclear Fission",
-		"upgradesTo": "Nuclear Missile",
-		"uniques": [
-			"Consumes [1] [Uranium]",
-			"Nuclear weapon of Strength [1]",
-			"Only available <if [Nuclear Testing Site] is constructed>",
-			"Self-destructs when attacking",
-			"Blast radius [1]"
-		],
-		"attackSound": "nuke"
-	},
-	{
-		"name": "Nuclear Missile",
-		"unitType": "Missile",
-		"movement": 1,
-		"strength": 250,
-		"rangedStrength": 250,
-		"range": 12,
-		"cost": 10000,
-		"requiredTech": "Advanced Ballistics",
-		"uniques": [
-			"Nuclear weapon of Strength [2]",
-			"Only available <if [Nuclear Testing Site] is constructed>",
-			"Blast radius [2]",
-			"Consumes [1] [Uranium]"
-		],
-		"attackSound": "nuke"
-	},
-	{
-		"name": "Orbital Strike",
-		"unitType": "Missile",
-		"movement": 1,
-		"strength": 500,
-		"rangedStrength": 500,
-		"range": 12,
-		"cost": 35000,
-		"requiredTech": "Spaceflight",
-		"uniques": [
-			"[-100]% maintenance costs",
-			"Nuclear weapon of Strength [3]",
-			"Blast radius [1]"
-		],
-		"attackSound": "nuke"
-	},
-	{
-		"name": "Guided Missile",
-		"unitType": "Missile",
-		"movement": 1,
-		"strength": 80,
-		"rangedStrength": 80,
-		"range": 8,
-		"cost": 200,
-		"requiredTech": "Advanced Ballistics",
-		"uniques": [
-			"[-100]% maintenance costs",
-			"[+125]% Strength <after discovering [Lasers]>",
-			"[+4] Range <after discovering [Satellites]>"
 		],
 		"attackSound": "missile"
 	},
