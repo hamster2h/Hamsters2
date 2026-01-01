@@ -105,7 +105,7 @@
 	{
 		"name": "Armor Plating I",
 		"uniques": [
-			"[+20]% Strength <when defending>"
+			"[+25]% Strength <when defending>"
 		],
 		"unitTypes": [
 			"Aircraft Carrier"
@@ -117,7 +117,7 @@
 			"Armor Plating I"
 		],
 		"uniques": [
-			"[+15]% Strength <when defending>"
+			"[+25]% Strength <when defending>"
 		],
 		"unitTypes": [
 			"Aircraft Carrier"
@@ -129,7 +129,7 @@
 			"Armor Plating II"
 		],
 		"uniques": [
-			"[+15]% Strength <when defending>"
+			"[+25]% Strength <when defending>"
 		],
 		"unitTypes": [
 			"Aircraft Carrier"
@@ -324,3 +324,4 @@
         "row": 1
 	}
 ]
+
