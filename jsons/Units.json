@@ -1313,6 +1313,9 @@
 		"requiredTech": "Mobile Tactics",
 		"upgradesTo": "Energy Infantry",
 		"obsoleteTech": "Nuclear Fusion",
+		"uniques": [
+			"Cyber"
+		],
 		"promotions": [
 			"Rocket Launcher",
 			"Blitz"
