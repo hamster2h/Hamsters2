@@ -1,41 +1,24 @@
 [
 	{
 		"name": "Hamster Epic",
-		"replaces": "Heroic Epic",
 		"uniqueTo": "Hamsters",
 		"culture": 2,
 		"cost": 475,
-		"isNationalWonder": false,
 		"uniques": [
 			"[+1 Science] per [2] population [in this city]",
 			"[+1 Production] per [2] population [in this city]",
 			"All newly-trained [{Water} {Military}] units [in this city] receive the [Supply] promotion",
-			"All newly-trained [non-[Air]] units [in this city] receive the [Morale] promotion",
 			"Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Drama and Poetry"
 	},
 	{
-		"name": "Heroic Epic",
-		"cost": 100,
-		"culture": 2,
-		"isNationalWonder": true,
-		"uniques": [
-			"Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>",
-			"All newly-trained [non-[Air]] units [in all cities] receive the [Morale] promotion",
-			"Cost increases by [25] per owned city"
-		],
-		"requiredTech": "Iron Working"
-	},
-	{
 		"name": "Hamster College",
-		"replaces": "National College",
 		"uniqueTo": "Hamsters",
 		"cost": 475,
 		"culture": 2,
 		"science": 4,
-		"isNationalWonder": false,
 		"percentStatBonus": {
 			"science": 25
 		},
@@ -66,6 +49,18 @@
 			"[+1 Production] from [Jungle] tiles [in all cities]",
 			"Cost increases by [120] per owned city"
 		]
+	},
+	{
+		"name": "Heroic Epic",
+		"cost": 100,
+		"culture": 2,
+		"isNationalWonder": true,
+		"uniques": [
+			"Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>",
+			"All newly-trained [non-[Air]] units [in all cities] receive the [Morale] promotion",
+			"Cost increases by [25] per owned city"
+		],
+		"requiredTech": "Iron Working"
 	},
 	{
 		"name": "Petra",
