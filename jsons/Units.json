@@ -648,6 +648,24 @@
 		"attackSound": "cannon"
 	},
 	{
+		"name": "Ironclad",
+		"unitType": "Melee Water",
+		"movement": 3,
+		"strength": 45,
+		"cost": 250,
+		"requiredTech": "Steam Power",
+		"upgradesTo": "Destroyer",
+		"obsoleteTech": "Combustion",
+		"requiredResource": "Iron",
+		"uniques": [
+			"Consumes [2] [Coal]",
+			"[+33]% Strength <vs cities>",
+			"Double movement in [Coast]",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "shipguns"
+	},
+	{
 		"name": "Destroyer",
 		"unitType": "Ranged Water",
 		"movement": 5,
