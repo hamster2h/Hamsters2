@@ -72,7 +72,7 @@
 		"buildingCostModifier": 0.85,
 		"policyCostModifier": 0.85,
 		"unhappinessModifier": 0.75,
-		"barbarianBonus": 0.4,
+		"barbarianBonus": 0.25,
 		"barbarianSpawnDelay": 3,
 		"playerBonusStartingUnits": [],
     
