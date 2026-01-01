@@ -1543,7 +1543,7 @@
 	{
 		"name": "Helicopter Gunship",
 		"unitType": "Helicopter",
-		"movement": 7,
+		"movement": 10,
 		"range": 2,
 		"strength": 70,
 		"rangedStrength": 70,
@@ -1554,7 +1554,7 @@
 		"uniques": [
 			"Cyber",
 			"Consumes [1] [Aluminum]",
-			"[+100]% Strength <vs [Armored] units>",
+			"[+200]% Strength <vs [Armored] units>",
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"Ignores Zone of Control",
@@ -1569,7 +1569,7 @@
 	{
 		"name": "Future Copter",
 		"unitType": "Helicopter",
-		"movement": 8,
+		"movement": 12,
 		"range": 3,
 		"strength": 90,
 		"rangedStrength": 90,
@@ -1578,7 +1578,7 @@
 		"requiredResource": "Composites",
 		"uniques": [
 			"Cyber",
-			"[+100]% Strength <vs [Armored] units>",
+			"[+200]% Strength <vs [Armored] units>",
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"Ignores Zone of Control",
