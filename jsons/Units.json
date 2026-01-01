@@ -839,11 +839,12 @@
 		"range": 12,
 		"cost": 10000,
 		"requiredTech": "Advanced Ballistics",
+		"requiredResource": "Uranium",
 		"uniques": [
 			"Nuclear weapon of Strength [2]",
 			"Only available <if [Nuclear Testing Site] is constructed>",
 			"Blast radius [2]",
-			"Consumes [1] [Uranium]"
+			"Unbuildable"
 		],
 		"attackSound": "nuke"
 	},
@@ -859,7 +860,8 @@
 		"uniques": [
 			"[-100]% maintenance costs",
 			"Nuclear weapon of Strength [3]",
-			"Blast radius [1]"
+			"Blast radius [1]",
+			"Unbuildable"
 		],
 		"attackSound": "nuke"
 	},
