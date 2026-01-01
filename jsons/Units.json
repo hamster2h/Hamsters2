@@ -109,6 +109,7 @@
 		"upgradesTo": "Recon",
 		"obsoleteTech": "Rifling",
 		"uniques": [
+			"Ignores Zone of Control",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
@@ -128,6 +129,7 @@
 		"obsoleteTech": "Metagenetics",
 		"upgradesTo": "Seeker",
 		"uniques": [
+			"Ignores Zone of Control",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
@@ -146,6 +148,7 @@
 		"requiredTech": "Enhancing",
 		"uniques": [
 			"Can see invisible [Wounded] units",
+			"Ignores Zone of Control",
 			"Can move after attacking",
 			"Heals [25] damage if it kills a unit",
 			"[+100]% Strength <after discovering [Metagenetics]>",
@@ -691,6 +694,27 @@
 		"attackSound": "shipguns"
 	},
 	{
+		"name": "Nuclear Submarine",
+		"unitType": "Submarine",
+		"movement": 6,
+		"strength": 65,
+		"range": 3,
+		"rangedStrength": 100,
+		"cost": 425,
+		"requiredTech": "Telecommunications",
+		"requiredResource": "Uranium",
+		"uniques": [
+			"[+75]% Strength <when attacking>",
+			"Can only attack [Water] tiles",
+			"Can move after attacking",
+			"[+1] Sight",
+			"Can carry [8] [Missile] units",
+			"Ignores Zone of Control",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "torpedo"
+	},
+	{
 		"name": "Carrier",
 		"unitType": "Aircraft Carrier",
 		"movement": 5,
@@ -884,28 +908,6 @@
 			"[+4] Range <after discovering [Satellites]>"
 		],
 		"attackSound": "missile"
-	},
-	{
-		"name": "Nuclear Submarine",
-		"unitType": "Submarine",
-		"movement": 6,
-		"strength": 65,
-		"range": 3,
-		"rangedStrength": 100,
-		"cost": 425,
-		"requiredTech": "Telecommunications",
-		"uniques": [
-			"Cyber",
-			"Consumes [1] [Uranium]",
-			"[+75]% Strength <when attacking>",
-			"Can only attack [Water] tiles",
-			"Can move after attacking",
-			"[+1] Sight",
-			"Can carry [2] [Missile] units",
-			"Ignores Zone of Control",
-			"Never appears as a Barbarian unit"
-		],
-		"attackSound": "torpedo"
 	},
 	{
 		"name": "Landship",
