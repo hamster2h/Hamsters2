@@ -3,7 +3,7 @@
 		"name": "Alien Monolith",
 		"type": "NaturalWonder",
 		"culture": 4,
-		"science": 4,
+		"science": 6,
 		"occursOn": [
 			"Desert",
 			"Plains"
