@@ -805,9 +805,7 @@
 		"uniques": [
 			"[-100]% maintenance costs",
 			"[+125]% Strength <after discovering [Lasers]>",
-			"[+4] Range <after discovering [Satellites]>",
-			"Unbuildable",
-			"Can be purchased with [Gold] [in all cities]"
+			"[+4] Range <after discovering [Satellites]>"
 		],
 		"attackSound": "missile"
 	},
