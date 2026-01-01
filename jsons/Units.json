@@ -906,6 +906,9 @@
 			"Ignores Zone of Control",
 			"[+33]% Strength <vs [Land] units>"
 		],
+		"promotions": [
+			"Armor Plating I"
+		],
 		"attackSound": "tankshot"
 	},
 	{
@@ -929,6 +932,7 @@
 			"[+33]% Strength <vs [Land] units>"
 		],
 		"promotions": [
+			"Armor Plating I",
 			"Blitz"
 		],
 		"attackSound": "tankshot"
@@ -955,6 +959,7 @@
 			"[+33]% Strength <vs [Land] units>"
 		],
 		"promotions": [
+			"Armor Plating I",
 			"Blitz"
 		],
 		"attackSound": "tankshot"
@@ -962,7 +967,7 @@
 	{
 		"name": "Modern Armor",
 		"unitType": "Armored",
-		"movement": 5,
+		"movement": 6,
 		"strength": 100,
 		"rangedStrength": 100,
 		"range": 2,
@@ -981,6 +986,8 @@
 			"[+50]% Strength <vs [Land] units>"
 		],
 		"promotions": [
+			"Armor Plating I",
+			"Armor Plating II",
 			"Blitz"
 		],
 		"attackSound": "tankshot"
@@ -988,7 +995,7 @@
 	{
 		"name": "Hovertank",
 		"unitType": "Armored",
-		"movement": 5,
+		"movement": 6,
 		"strength": 140,
 		"rangedStrength": 140,
 		"range": 2,
@@ -1002,9 +1009,11 @@
 			"No defensive terrain bonus",
 			"Never appears as a Barbarian unit",
 			"Ignores Zone of Control",
-			"[+33]% Strength <vs [Land] units>"
+			"[+50]% Strength <vs [Land] units>"
 		],
 		"promotions": [
+			"Armor Plating I",
+			"Armor Plating II",
 			"Hovering",
 			"Blitz"
 		],
@@ -1028,6 +1037,9 @@
 			"Ignores Zone of Control"
 		],
 		"promotions": [
+			"Armor Plating I",
+			"Armor Plating II",
+			"Armor Plating III",
 			"Scan Visor",
 			"Gravity Generator"
 		],
@@ -1287,6 +1299,55 @@
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Plastics",
 		"upgradesTo": "Infantry",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Norwegian Ski Infantry",
+		"unitType": "Gunpowder",
+		"replaces": "Rifleman",
+		"uniqueTo": "Denmark",
+		"movement": 2,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Plastics",
+		"upgradesTo": "Infantry",
+		"promotions": [
+			"[Norwegian Ski Infantry] ability"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Carolean",
+		"unitType": "Gunpowder",
+		"replaces": "Rifleman",
+		"uniqueTo": "Sweden",
+		"movement": 2,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Plastics",
+		"upgradesTo": "Infantry",
+		"promotions": [
+			"March"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Mehal Sefari",
+		"unitType": "Gunpowder",
+		"replaces": "Rifleman",
+		"uniqueTo": "Ethiopia",
+		"movement": 2,
+		"strength": 34,
+		"cost": 200,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Plastics",
+		"upgradesTo": "Infantry",
+		"promotions": [
+			"Drill I",
+			"Home Sweet Home"
+		],
 		"attackSound": "shot"
 	},
 	{
@@ -1919,55 +1980,6 @@
 			"Gravity Generator"
 		],
 		"attackSound": "gdrAttack"
-	},
-	{
-		"name": "Norwegian Ski Infantry",
-		"unitType": "Gunpowder",
-		"replaces": "Rifleman",
-		"uniqueTo": "Denmark",
-		"movement": 2,
-		"strength": 34,
-		"cost": 225,
-		"requiredTech": "Rifling",
-		"obsoleteTech": "Plastics",
-		"upgradesTo": "Infantry",
-		"promotions": [
-			"[Norwegian Ski Infantry] ability"
-		],
-		"attackSound": "shot"
-	},
-	{
-		"name": "Carolean",
-		"unitType": "Gunpowder",
-		"replaces": "Rifleman",
-		"uniqueTo": "Sweden",
-		"movement": 2,
-		"strength": 34,
-		"cost": 225,
-		"requiredTech": "Rifling",
-		"obsoleteTech": "Plastics",
-		"upgradesTo": "Infantry",
-		"promotions": [
-			"March"
-		],
-		"attackSound": "shot"
-	},
-	{
-		"name": "Mehal Sefari",
-		"unitType": "Gunpowder",
-		"replaces": "Rifleman",
-		"uniqueTo": "Ethiopia",
-		"movement": 2,
-		"strength": 34,
-		"cost": 200,
-		"requiredTech": "Rifling",
-		"obsoleteTech": "Plastics",
-		"upgradesTo": "Infantry",
-		"promotions": [
-			"Drill I",
-			"Home Sweet Home"
-		],
-		"attackSound": "shot"
 	},
 	{
 		"name": "SS Booster",
