@@ -928,6 +928,9 @@
 			"Ignores Zone of Control",
 			"[+33]% Strength <vs [Land] units>"
 		],
+		"promotions": [
+			"Blitz"
+		],
 		"attackSound": "tankshot"
 	},
 	{
@@ -951,6 +954,9 @@
 			"Ignores Zone of Control",
 			"[+33]% Strength <vs [Land] units>"
 		],
+		"promotions": [
+			"Blitz"
+		],
 		"attackSound": "tankshot"
 	},
 	{
@@ -972,7 +978,10 @@
 			"No defensive terrain bonus",
 			"Never appears as a Barbarian unit",
 			"Ignores Zone of Control",
-			"[+33]% Strength <vs [Land] units>"
+			"[+50]% Strength <vs [Land] units>"
+		],
+		"promotions": [
+			"Blitz"
 		],
 		"attackSound": "tankshot"
 	},
@@ -996,7 +1005,8 @@
 			"[+33]% Strength <vs [Land] units>"
 		],
 		"promotions": [
-			"Hovering"
+			"Hovering",
+			"Blitz"
 		],
 		"attackSound": "tankshot"
 	},
