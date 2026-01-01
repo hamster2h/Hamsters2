@@ -782,8 +782,10 @@
 		"strength": 40,
 		"cost": 800,
 		"requiredTech": "Electronics",
+		"requiredResource": "Oil",
 		"uniques": [
 			"Cyber",
+			"Consumes [2] [Iron]",
 			"Can carry [4] [Aircraft] units",
 			"Never appears as a Barbarian unit"
 		],
