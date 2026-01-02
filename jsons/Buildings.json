@@ -3,15 +3,15 @@
 		"name": "Hamster Epic",
 		"replaces": "Heroic Epic",
 		"uniqueTo": "Hamsters",
-		"culture": 2,
-		"cost": 475,
 		"isNationalWonder": false,
+		"cost": 475,
+		"culture": 2,
+		"requiredBuilding": "Barracks",
 		"uniques": [
 			"[+1 Science] per [2] population [in this city]",
 			"[+1 Production] per [2] population [in this city]",
 			"All newly-trained [{Water} {Military}] units [in this city] receive the [Supply] promotion",
 			"All newly-trained [non-[Air]] units [in this city] receive the [Morale] promotion",
-			"Only available <if [Barracks] is constructed in this city>",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Drama and Poetry"
@@ -20,21 +20,21 @@
 		"name": "Hamster College",
 		"replaces": "National College",
 		"uniqueTo": "Hamsters",
+		"isNationalWonder": false,
 		"cost": 475,
 		"culture": 2,
 		"science": 4,
-		"isNationalWonder": false,
 		"percentStatBonus": {
 			"science": 25
 		},
+		"requiredBuilding": "University",
 		"uniques": [
 			"[+1 Gold] per [2] population [in this city]",
 			"All newly-trained [Gunpowder] units [in this city] receive the [Stealth] promotion",
 			"All newly-trained [Armored] units [in this city] receive the [Stealth] promotion",
 			"All newly-trained [Helicopter] units [in this city] receive the [Stealth] promotion",
 			"All newly-trained [Ranged Water] units [in this city] receive the [Stealth] promotion",
-			"All newly-trained [Aircraft Carrier] units [in this city] receive the [Stealth] promotion",
-			"Only available <if [University] is constructed in this city>"
+			"All newly-trained [Aircraft Carrier] units [in this city] receive the [Stealth] promotion"
 		],
 		"requiredTech": "Education"
 	},
