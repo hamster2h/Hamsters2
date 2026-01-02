@@ -542,7 +542,7 @@
         "uniques": [
 			"[+1 Science] from [Forest] tiles [in this city]"
 		],
-        "requiredBuilding": "Park",
+        "requiredBuilding": "Small Park",
         "requiredTech": "Biology"
     },
     {
@@ -616,7 +616,7 @@
         "uniques": [
 			"[+4 Happiness] from [Citrus] tiles [in this city]"
 		],
-        "requiredBuilding": "Park",
+        "requiredBuilding": "Small Park",
         "requiredTech": "Biology"
     },
     {
