@@ -129,7 +129,14 @@ BuildingIcons/Mountain Resort
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Park
+BuildingIcons/Small Park
+  rotate: false
+  xy: 628, 270
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Medium Park
   rotate: false
   xy: 628, 270
   size: 200, 200
