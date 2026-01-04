@@ -1020,9 +1020,7 @@
 		"uniques": [
 			"Provides [5] [Power]",
 			"Provides [3] [Power] <after discovering [Clean Energy]>",
-			"Provides [5] [Power] <if [Electrical Corporation] is constructed>",
-			"Only available <in cities without a [Nuclear Plant]>",
-			"Only available <in cities without a [Energy Reactor]>"
+			"Provides [5] [Power] <if [Electrical Corporation] is constructed>"
 		]
 	},
 	{
@@ -1122,9 +1120,7 @@
 		"uniques": [
 			"Provides [7] [Power]",
 			"Provides [3] [Power] <after discovering [Clean Energy]>",
-			"Provides [7] [Power] <if [Electrical Corporation] is constructed>",
-			"Only available <in cities without a [Coal Plant]>",
-			"Only available <in cities without a [Energy Reactor]>"
+			"Provides [7] [Power] <if [Electrical Corporation] is constructed>"
 		]
 	},
 	{
@@ -1301,9 +1297,7 @@
 			"Only available <if [SP-Future Power] is constructed>",
 			"Provides [15] [Power]",
 			"Provides [3] [Power] <after discovering [Clean Energy]>",
-			"Provides [15] [Power] <if [Electrical Corporation] is constructed>",
-			"Only available <in cities without a [Coal Plant]>",
-			"Only available <in cities without a [Nuclear Plant]>"
+			"Provides [15] [Power] <if [Electrical Corporation] is constructed>"
 		]
 	},
 	{
