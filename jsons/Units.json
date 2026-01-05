@@ -1103,9 +1103,9 @@
 		"interceptRange": 4,
 		"cost": 325,
 		"requiredTech": "Flight",
-		"requiredResource": "Oil",
 		"upgradesTo": "Fighter",
 		"obsoleteTech": "Radar",
+		"requiredResource": "Oil",
 		"uniques": [
 			"[50]% chance to intercept air attacks",
 			"[+100]% Strength <vs [Observation Balloon] units>",
@@ -1123,9 +1123,9 @@
 		"range": 5,
 		"interceptRange": 5,
 		"cost": 325,
-		"requiredResource": "Oil",
 		"upgradesTo": "Fighter",
 		"obsoleteTech": "Radar",
+		"requiredResource": "Oil",
 		"uniques": [
 			"[50]% chance to intercept air attacks",
 			"[+100]% Strength <vs [Observation Balloon] units>",
@@ -1146,9 +1146,9 @@
 		"interceptRange": 8,
 		"cost": 375,
 		"requiredTech": "Radar",
-		"requiredResource": "Oil",
 		"upgradesTo": "Jet Fighter",
 		"obsoleteTech": "Computers",
+		"requiredResource": "Oil",
 		"uniques": [
 			"[100]% chance to intercept air attacks",
 			"[+150]% Strength <vs [Bomber] units>",
@@ -1190,12 +1190,12 @@
 		"interceptRange": 10,
 		"cost": 425,
 		"requiredTech": "Computers",
-		"requiredResource": "Aluminum",
 		"upgradesTo": "Orbital Jet",
 		"obsoleteTech": "Spaceflight",
+		"requiredResource": "Oil",
 		"uniques": [
 			"Cyber",
-			"Consumes [1] [Oil]",
+			"Consumes [1] [Aluminum]",
 			"[100]% chance to intercept air attacks",
 			"[+200]% Strength <vs [Bomber] units>",
 			"[+200]% Strength <vs [Helicopter] units>"
@@ -1235,9 +1235,9 @@
 		"rangedStrength": 50,
 		"range": 6,
 		"cost": 325,
-		"requiredResource": "Oil",
 		"upgradesTo": "Bomber",
 		"obsoleteTech": "Radar",
+		"requiredResource": "Oil",
 		"uniques": [
 			"Only available <if [GP-Great War] is constructed>",
 			"Only available <after discovering [Flight]>"
@@ -1253,9 +1253,9 @@
 		"range": 10,
 		"cost": 375,
 		"requiredTech": "Radar",
-		"requiredResource": "Oil",
 		"upgradesTo": "Jet Bomber",
 		"obsoleteTech": "Computers",
+		"requiredResource": "Oil",
 		"attackSound": "bombing"
 	},
 	{
@@ -1269,9 +1269,9 @@
 		"range": 10,
 		"cost": 375,
 		"requiredTech": "Radar",
-		"requiredResource": "Oil",
 		"upgradesTo": "Jet Bomber",
 		"obsoleteTech": "Computers",
+		"requiredResource": "Oil",
 		"promotions": [
 			"Evasion",
 			"Siege I"
@@ -1287,12 +1287,12 @@
 		"range": 14,
 		"cost": 425,
 		"requiredTech": "Computers",
-		"requiredResource": "Aluminum",
 		"upgradesTo": "Stealth Bomber",
 		"obsoleteTech": "Stealth",
+		"requiredResource": "Oil",
 		"uniques": [
 			"Cyber",
-			"Consumes [1] [Oil]"
+			"Consumes [1] [Aluminum]"
 		],
 		"attackSound": "bombing"
 	},
@@ -1305,14 +1305,14 @@
 		"range": 14,
 		"cost": 560,
 		"requiredTech": "Stealth",
-		"requiredResource": "Oil",
 		"upgradesTo": "Orbital Bomber",
 		"obsoleteTech": "Spaceflight",
+		"requiredResource": "Oil",
 		"uniques": [
 			"Cyber",
+			"Consumes [2] [Aluminum]",
 			"Damage taken from interception reduced by [50]%",
 			"Cannot be carried by [Carrier] units",
-			"Consumes [2] [Aluminum]",
 			"Can see over obstacles"
 		],
 		"promotions": [
