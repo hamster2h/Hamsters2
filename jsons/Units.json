@@ -880,7 +880,7 @@
 		"uniques": [
 			"Anti-Air",
 			"Comment [+33% Strength to adjacent Land Units vs Air Units]",
-			"[100]% chance to intercept air attacks",
+			"[75]% chance to intercept air attacks",
 			"[+100]% Strength <vs [Air] units>",
 			"Never appears as a Barbarian unit"
 		],
@@ -1109,7 +1109,8 @@
 		"uniques": [
 			"[50]% chance to intercept air attacks",
 			"[+100]% Strength <vs [Observation Balloon] units>",
-			"[+100]% Strength <vs [Bomber] units>"
+			"[+100]% Strength <vs [Bomber] units>",
+			"[+50]% Strength <vs [Helicopter] units>"
 		],
 		"attackSound": "machinegun"
 	},
@@ -1129,6 +1130,7 @@
 			"[50]% chance to intercept air attacks",
 			"[+100]% Strength <vs [Observation Balloon] units>",
 			"[+100]% Strength <vs [Bomber] units>",
+			"[+50]% Strength <vs [Helicopter] units>",
 			"Only available <if [EP-Early Vehicles] is constructed>",
 			"Only available <after discovering [Flight]>"
 		],
@@ -1150,7 +1152,7 @@
 		"uniques": [
 			"[100]% chance to intercept air attacks",
 			"[+150]% Strength <vs [Bomber] units>",
-			"[+200]% Strength <vs [Helicopter] units>"
+			"[+100]% Strength <vs [Helicopter] units>"
 		],
 		"attackSound": "machinegun"
 	},
@@ -1171,7 +1173,7 @@
 		"uniques": [
 			"[100]% chance to intercept air attacks",
 			"[+150]% Strength <vs [Bomber] units>",
-			"[+200]% Strength <vs [Helicopter] units>"
+			"[+100]% Strength <vs [Helicopter] units>"
 		],
 		"promotions": [
 			"[Zero] ability"
