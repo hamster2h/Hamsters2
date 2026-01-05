@@ -22,28 +22,9 @@
 		"attackSound": "horse"
 	},
 	{
-		"name": "Force Publique",
-		"uniqueTo": "Belgium",
-		"replaces": "Great War Infantry",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 55,
-		"cost": 320,
-		"requiredTech": "Replaceable Parts",
-		"upgradesTo": "Infantry",
-		"obsoleteTech": "Plastics",
-		"promotions": [
-			"Ignore terrain cost"
-		],
-		"uniques": [
-			"[+20]% Strength <in [Friendly Land] tiles>"
-		],
-		"attackSound": "shot"
-	},
-	{
 		"name": "Combat Engineer",
-		"replaces": "Rifleman",
 		"uniqueTo": "Canada",
+		"replaces": "Rifleman",
 		"unitType": "Gunpowder",
 		"movement": 3,
 		"strength": 34,
@@ -62,9 +43,9 @@
 	},
 	{
 		"name": "Black Arquebusier",
-		"unitType": "Gunpowder",
-		"replaces": "Musketman",
 		"uniqueTo": "Hungary",
+		"replaces": "Musketman",
+		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 27,
 		"cost": 150,
@@ -92,41 +73,6 @@
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
-	},
-	{
-		"name": "Fenian",
-		"replaces": "Rifleman",
-		"uniqueTo": "Ireland",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 40,
-		"cost": 180,
-		"requiredTech": "Rifling",
-		"upgradesTo": "Great War Infantry",
-		"obsoleteTech": "Replaceable Parts",
-		"attackSound": "shot"
-	},
-	{
-		"name": "Ballista Elephant",
-		"uniqueTo": "Khmer",
-		"unitType": "Siege",
-		"movement": 3,
-		"strength": 18,
-		"rangedStrength": 16,
-		"cost": 120,
-		"requiredTech": "Machinery",
-		"upgradesTo": "Cannon",
-		"obsoleteTech": "Chemistry",
-		"uniques": [
-			"[+100]% Strength <vs cities> <when attacking>",
-			"[+20]% Strength <vs [Mounted] units>",
-			"No defensive terrain bonus"
-		],
-		"promotions": [
-			"Indirect Fire",
-			"Feared Elephant"
-		],
-		"attackSound": "throw"
 	},
 	{
 		"name": "Ngao Mbeba",
@@ -169,8 +115,8 @@
 	},
 	{
 		"name": "Winged Hussar",
-		"replaces": "Lancer",
 		"uniqueTo": "Poland",
+		"replaces": "Lancer",
 		"unitType": "Mounted",
 		"movement": 5,
 		"strength": 28,
@@ -231,27 +177,9 @@
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Pathfinder",
-		"replaces": "Scout",
-		"uniqueTo": "Shoshone",
-		"unitType": "Scout",
-		"movement": 2,
-		"strength": 8,
-		"cost": 35,
-		"uniques": [
-			"May upgrade to [Composite Bowman] through ruins-like effects",
-			"Gain [5] [Gold] <upon discovering a [Ancient ruins] tile>",
-			"Gain [2] [Culture] <upon discovering a [Ancient ruins] tile>"
-		],
-		"promotions": [
-			"Ignore terrain cost"
-		],
-		"attackSound": "nonmetalhit"
-	},
-	{
 		"name": "Comanche Rider",
-		"replaces": "Cavalry",
 		"uniqueTo": "Shoshone",
+		"replaces": "Cavalry",
 		"unitType": "Mounted",
 		"movement": 5,
 		"strength": 34,
@@ -269,8 +197,8 @@
 	},
 	{
 		"name": "Phalanx",
-		"replaces": "Spearman",
 		"uniqueTo": "Sumeria",
+		"replaces": "Spearman",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 11,
@@ -285,26 +213,9 @@
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Viet Cong",
-		"replaces": "Infantry",
-		"uniqueTo": "Vietnam",
-		"unitType": "Gunpowder",
-		"movement": 3,
-		"strength": 70,
-		"cost": 375,
-		"requiredTech": "Plastics",
-		"upgradesTo": "Mechanized Infantry",
-		"obsoleteTech": "Mobile Tactics",
-		"uniques": [
-			"Invisible to non-adjacent units <in [Jungle] tiles>",
-			"Invisible to non-adjacent units <in [Forest] tiles>"
-		],
-		"attackSound": "shot"
-	},
-	{
 		"name": "Impi",
-		"replaces": "Pikeman",
 		"uniqueTo": "Zulu",
+		"replaces": "Pikeman",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 16,
@@ -361,9 +272,9 @@
 	},
 	{
 		"name": "Keshik",
+		"uniqueTo": "Mongolia",
 		"unitType": "Archery",
 		"replaces": "Knight",
-		"uniqueTo": "Mongolia",
 		"range": 2,
 		"movement": 5,
 		"strength": 15,
@@ -466,8 +377,8 @@
 	{
 		"name": "Supply Agent",
 		"unitType": "Civilian",
-		"cost": 500,
 		"movement": 2,
+		"cost": 500,
 		"requiredTech": "Combustion",
 		"uniques": [
 			"Can instantly construct a [Supply Route] improvement <by consuming this unit>",
@@ -499,14 +410,37 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
+		"name": "Pathfinder",
+		"uniqueTo": "Shoshone",
+		"replaces": "Scout",
+		"unitType": "Scout",
+		"movement": 3,
+		"strength": 8,
+		"cost": 35,
+		"upgradesTo": "Recon",
+		"obsoleteTech": "Rifling",
+		"uniques": [
+			"Ignores Zone of Control",
+			"Gain [5] [Gold] <upon discovering a [Ancient ruins] tile>",
+			"Gain [2] [Culture] <upon discovering a [Ancient ruins] tile>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Exploration",
+			"Skirmish",
+			"Ignore terrain cost"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
 		"name": "Recon",
 		"unitType": "Scout",
 		"movement": 3,
 		"strength": 18,
 		"cost": 200,
 		"requiredTech": "Rifling",
-		"obsoleteTech": "Metagenetics",
 		"upgradesTo": "Seeker",
+		"obsoleteTech": "Metagenetics",
 		"uniques": [
 			"Ignores Zone of Control",
 			"Never appears as a Barbarian unit"
@@ -614,9 +548,9 @@
 		"strength": 34,
 		"cost": 225,
 		"requiredTech": "Military Science",
+		"upgradesTo": "Tank",
 		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
-		"upgradesTo": "Tank",
 		"uniques": [
 			"Can move after attacking",
 			"No defensive terrain bonus",
@@ -627,16 +561,16 @@
 	},
 	{
 		"name": "Cossack",
+		"uniqueTo": "Russia",
 		"unitType": "Mounted",
 		"replaces": "Cavalry",
-		"uniqueTo": "Russia",
 		"movement": 4,
 		"strength": 34,
 		"cost": 225,
 		"requiredTech": "Military Science",
+		"upgradesTo": "Tank",
 		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
-		"upgradesTo": "Tank",
 		"uniques": [
 			"Can move after attacking",
 			"No defensive terrain bonus",
@@ -649,16 +583,16 @@
 	},
 	{
 		"name": "Hussar",
+		"uniqueTo": "Austria",
 		"unitType": "Mounted",
 		"replaces": "Cavalry",
-		"uniqueTo": "Austria",
 		"movement": 5,
 		"strength": 34,
 		"cost": 225,
 		"requiredTech": "Military Science",
+		"upgradesTo": "Tank",
 		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
-		"upgradesTo": "Tank",
 		"uniques": [
 			"Can move after attacking",
 			"No defensive terrain bonus",
@@ -837,6 +771,28 @@
 		"uniques": [
 			"No defensive terrain bonus",
 			"Must set up to ranged attack"
+		],
+		"attackSound": "throw"
+	},
+	{
+		"name": "Ballista Elephant",
+		"uniqueTo": "Khmer",
+		"unitType": "Siege",
+		"movement": 3,
+		"strength": 18,
+		"rangedStrength": 16,
+		"cost": 120,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Cannon",
+		"obsoleteTech": "Chemistry",
+		"uniques": [
+			"[+100]% Strength <vs cities> <when attacking>",
+			"[+20]% Strength <vs [Mounted] units>",
+			"No defensive terrain bonus"
+		],
+		"promotions": [
+			"Indirect Fire",
+			"Feared Elephant"
 		],
 		"attackSound": "throw"
 	},
@@ -1728,15 +1684,15 @@
 	},
 	{
 		"name": "Norwegian Ski Infantry",
-		"unitType": "Gunpowder",
-		"replaces": "Rifleman",
 		"uniqueTo": "Denmark",
+		"replaces": "Rifleman",
+		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 34,
 		"cost": 225,
 		"requiredTech": "Rifling",
-		"obsoleteTech": "Plastics",
 		"upgradesTo": "Infantry",
+		"obsoleteTech": "Plastics",
 		"promotions": [
 			"[Norwegian Ski Infantry] ability"
 		],
@@ -1744,15 +1700,15 @@
 	},
 	{
 		"name": "Carolean",
-		"unitType": "Gunpowder",
-		"replaces": "Rifleman",
 		"uniqueTo": "Sweden",
+		"replaces": "Rifleman",
+		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 34,
 		"cost": 225,
 		"requiredTech": "Rifling",
-		"obsoleteTech": "Plastics",
 		"upgradesTo": "Infantry",
+		"obsoleteTech": "Plastics",
 		"promotions": [
 			"March"
 		],
@@ -1760,19 +1716,32 @@
 	},
 	{
 		"name": "Mehal Sefari",
-		"unitType": "Gunpowder",
-		"replaces": "Rifleman",
 		"uniqueTo": "Ethiopia",
+		"replaces": "Rifleman",
+		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 34,
 		"cost": 200,
 		"requiredTech": "Rifling",
-		"obsoleteTech": "Plastics",
 		"upgradesTo": "Infantry",
+		"obsoleteTech": "Plastics",
 		"promotions": [
 			"Drill I",
 			"Home Sweet Home"
 		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Fenian",
+		"uniqueTo": "Ireland",
+		"replaces": "Rifleman",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 40,
+		"cost": 180,
+		"requiredTech": "Rifling",
+		"upgradesTo": "Infantry",
+		"obsoleteTech": "Plastics",
 		"attackSound": "shot"
 	},
 	{
@@ -1786,6 +1755,26 @@
 		"uniques": [
 			"Only available <if [GP-Great War] is constructed>",
 			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Force Publique",
+		"uniqueTo": "Belgium",
+		"replaces": "Great War Infantry",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 55,
+		"cost": 320,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Infantry",
+		"obsoleteTech": "Plastics",
+		"uniques": [
+			"[+20]% Strength <in [Friendly Land] tiles>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Ignore terrain cost"
 		],
 		"attackSound": "shot"
 	},
@@ -1814,6 +1803,23 @@
 		"uniques": [
 			"[+30]% Strength <when fighting in [Foreign Land] tiles>",
 			"Can move after attacking"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Viet Cong",
+		"uniqueTo": "Vietnam",
+		"replaces": "Infantry",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 70,
+		"cost": 350,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Mechanized Infantry",
+		"obsoleteTech": "Lasers",
+		"uniques": [
+			"Invisible to non-adjacent units <in [Jungle] tiles>",
+			"Invisible to non-adjacent units <in [Forest] tiles>"
 		],
 		"attackSound": "shot"
 	},
