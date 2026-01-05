@@ -1,4 +1,319 @@
 [
+    {
+    "name": "Ocupada Estable",
+    "replaces": "Stable",
+    "uniqueTo": "Argentina",
+    "maintenance": 1,
+    "requiredNearbyImprovedResources": [
+      "Horses",
+      "Sheep",
+      "Cattle"
+    ],
+    "hurryCostModifier": 25,
+    "uniques": [
+      "[+15]% Production when constructing [Mounted] units [in this city]",
+      "[+1 Production, +1 Food] from [Cattle] tiles [in this city]",
+      "[+1 Production, +1 Food] from [Horses] tiles [in this city]",
+      "[+1 Production, +1 Food] from [Sheep] tiles [in this city]"
+    ],
+    "requiredTech": "Horseback Riding"
+  },
+  {
+    "name": "Royal Library",
+    "replaces": "Library",
+    "uniqueTo": "Assyria",
+    "hurryCostModifier": 25,
+    "science": 1,
+    "culture": 1,
+    "maintenance": 1,
+    "uniques": [
+      "[+1 Science] per [2] population [in this city]",
+      "New [Military] units start with [15] XP [in this city]"
+    ],
+    "requiredTech": "Writing"
+  },
+  {
+    "name": "Convict Penitentiary",
+    "replaces": "Constabulary",
+    "uniqueTo": "Australia",
+    "cost": 160,
+    "maintenance": 1,
+    "hurryCostModifier": 25,
+    "percentStatBonus": {
+      "gold": 10,
+      "production": 10
+    },
+    "uniques": [
+      "[-25]% enemy spy effectiveness [in this city]"
+    ],
+    "requiredTech": "Banking"
+  },
+  {
+    "name": "Chocolatier",
+    "replaces": "Theatre",
+    "uniqueTo": "Belgium",
+    "happiness": 2,
+    "hurryCostModifier": 10,
+    "maintenance": 2,
+    "requiredBuilding": "Colosseum",
+    "uniques": [
+      "Provides [1] [Pralines]",
+      "Destroyed when the city is captured"
+    ],
+    "requiredTech": "Printing Press"
+  },
+  {
+    "name": "Maple Farm",
+    "replaces": "Windmill",
+    "uniqueTo": "Canada",
+    "production": 2,
+    "specialistSlots": {
+      "Engineer": 1
+    },
+    "hurryCostModifier": 25,
+    "maintenance": 0,
+    "uniques": [
+      "[+10]% Production when constructing [All] buildings [in this city]",
+      "[+1 Gold] from [Forest] tiles [in this city]",
+      "Must have an owned [Forest] within [2] tiles"
+    ],
+    "requiredTech": "Economics"
+  },
+  {
+    "name": "Orszaggyules",
+    "uniqueTo": "Hungary",
+    "replaces": "Palace",
+    "isNationalWonder": false,
+    "cost": 300,
+    "production": 3,
+    "science": 3,
+    "gold": 3,
+    "culture": 1,
+    "cityStrength": 2,
+    "requiredTech": "Mathematics",
+    "uniques": [
+      "[+10]% Production when constructing [All] buildings [in this city]",
+      "Indicates the capital city",
+      "Limited to [2] per Civilization"
+    ]
+  },
+  {
+    "name": "Cloves",
+    "uniqueTo": "Indonesia",
+    "cost": 100,
+    "uniques": [
+      "Provides [2] [Cloves]",
+      "Destroyed when the city is captured",
+      "Unsellable",
+      "Must be next to [Coast]",
+      "Limited to [1] per Civilization"
+    ],
+    "requiredTech": "Optics"
+  },
+  {
+    "name": "Candi",
+    "replaces": "Garden",
+    "uniqueTo": "Indonesia",
+    "cost": 120,
+    "faith": 2,
+    "culture": 1,
+    "uniques": [
+      "[+25]% Great Person generation [in this city]"
+    ],
+    "hurryCostModifier": 25,
+    "maintenance": 1,
+    "requiredTech": "Theology"
+  },
+  {
+    "name": "Irish Pub",
+    "replaces": "Theatre",
+    "uniqueTo": "Ireland",
+    "cost": 200,
+    "maintenance": 2,
+    "happiness": 3,
+    "food": 2,
+    "culture": 2,
+    "hurryCostModifier": 10,
+    "requiredBuilding": "Colosseum",
+    "requiredTech": "Printing Press"
+  },
+  {
+    "name": "Slave Market",
+    "replaces": "Colosseum",
+    "uniqueTo": "Kongo",
+    "maintenance": 1,
+    "production": 3,
+    "gold": 4,
+    "hurryCostModifier": 25,
+    "requiredTech": "Construction",
+    "uniques": [
+      "[+2 Production, +3 Gold] <after discovering [Industrialization]>",
+      "[-1] population [in this city]"
+    ]
+  },
+  {
+    "name": "Baray",
+    "replaces": "Garden",
+    "uniqueTo": "Khmer",
+    "cost": 120,
+    "uniques": [
+      "[10]% Food is carried over after population increases [in this city]",
+      "[+2 Food, +2 Faith] <after discovering [Drama and Poetry]>",
+      "[+25]% Great Person generation [in this city]"
+    ],
+    "hurryCostModifier": 25,
+    "maintenance": 1,
+    "requiredTech": "Drama and Poetry"
+  },
+  {
+    "name": "Canton Factory",
+    "replaces": "Bank",
+    "uniqueTo": "Manchuria",
+    "cost": 100,
+    "gold": 2,
+    "specialistSlots": {
+      "Merchant": 2
+    },
+    "hurryCostModifier": 15,
+    "percentStatBonus": {
+      "gold": 35
+    },
+    "requiredBuilding": "Market",
+    "requiredTech": "Banking"
+  },
+  {
+    "name": "Manchu Stable",
+    "replaces": "Stable",
+    "uniqueTo": "Manchuria",
+    "maintenance": 2,
+    "requiredNearbyImprovedResources": [
+      "Horses",
+      "Sheep",
+      "Cattle"
+    ],
+    "hurryCostModifier": 25,
+    "uniques": [
+      "[+15]% Production when constructing [Mounted] units [in this city]",
+      "[+1 Production] from [Cattle] tiles [in this city]",
+      "[+1 Production] from [Horses] tiles [in this city]",
+      "[+1 Production] from [Sheep] tiles [in this city]",
+      "Provides [1] [Horses]"
+    ],
+    "requiredTech": "Horseback Riding"
+  },
+  {
+    "name": "Stave Church",
+    "replaces": "Temple",
+    "uniqueTo": "Norway",
+    "maintenance": 2,
+    "cost": 100,
+    "faith": 2,
+    "requiredBuilding": "Shrine",
+    "hurryCostModifier": 25,
+    "requiredTech": "Philosophy",
+    "uniques": [
+      "[+1 Food] from every [Snow]"
+    ]
+  },
+  {
+    "name": "Ducal Stable",
+    "replaces": "Stable",
+    "uniqueTo": "Poland",
+    "maintenance": 1,
+    "requiredNearbyImprovedResources": [
+      "Horses",
+      "Sheep",
+      "Cattle"
+    ],
+    "hurryCostModifier": 25,
+    "uniques": [
+      "[+15]% Production when constructing [Mounted] units [in this city]",
+      "[+1 Production, +1 Gold] from [Cattle] tiles [in this city]",
+      "[+1 Production, +1 Gold] from [Horses] tiles [in this city]",
+      "[+1 Production, +1 Gold] from [Sheep] tiles [in this city]",
+      "New [Mounted] units start with [15] XP [in this city]"
+    ],
+    "requiredTech": "Horseback Riding"
+  },
+  {
+    "name": "Feitoria",
+    "uniqueTo": "Portugal",
+    "replaces": "Harbor",
+    "cost": 120,
+    "maintenance": 2,
+    "hurryCostModifier": 25,
+    "uniques": [
+      "Connects trade routes over water",
+      "Must be next to [Coast]",
+      "[+1 Production] from [Water resource] tiles [in this city]",
+      "[+3 Gold] from [Water resource] tiles [in this city]",
+      "New [Water] units start with [15] XP [in this city]"
+    ],
+    "requiredTech": "Compass"
+  },
+  {
+    "name": "Scottish Ceilidh Hall",
+    "replaces": "Opera House",
+    "uniqueTo": "Scotland",
+    "culture": 4,
+    "happiness": 3,
+    "specialistSlots": {
+      "Artist": 1
+    },
+    "hurryCostModifier": 10,
+    "requiredBuilding": "Amphitheater",
+    "maintenance": 2,
+    "requiredTech": "Acoustics",
+    "uniques": [
+      "Destroyed when the city is captured"
+    ]
+  },
+  {
+    "name": "Ziggurat",
+    "replaces": "Temple",
+    "uniqueTo": "Sumeria",
+    "faith": 2,
+    "requiredBuilding": "Shrine",
+    "maintenance": 2,
+    "hurryCostModifier": 25,
+    "uniques":["Gain [20] [Faith] <upon discovering [Classical era] technology> <(modified by game speed)>",
+    "Gain [21] [Faith] <upon discovering [Medieval era] technology> <(modified by game speed)>",
+    "Destroyed when the city is captured"
+    ],
+    "percentStatBonus": {
+      "science": 10
+    },
+    "requiredTech": "Philosophy"
+  },
+  {
+    "name": "Vo Khi",
+    "replaces": "Armory",
+    "uniqueTo": "Vietnam",
+    "hurryCostModifier": 25,
+    "maintenance": 1,
+    "uniques": [
+      "New [Military] units start with [15] XP [in this city]",
+      "Destroyed when the city is captured",
+      "[+1 Production, +1 Culture] from [Marsh] tiles [in this city]",
+      "[+1 Culture] from [Jungle] tiles [in this city]",
+      "All newly-trained [Melee] units [in this city] receive the [Woodsman] promotion"
+    ],
+    "requiredTech": "Steel"
+  },
+  {
+    "name": "Ikanda",
+    "replaces": "Barracks",
+    "uniqueTo": "Zulu",
+    "hurryCostModifier": 25,
+    "maintenance": 1,
+    "uniques": [
+      "New [Military] units start with [15] XP [in this city]",
+      "Destroyed when the city is captured",
+      "All newly-trained [Sword] units [in this city] receive the [Buffalo Horns I] promotion",
+      "All newly-trained [Mounted] units [in this city] receive the [Buffalo Horns I] promotion"
+    ],
+    "requiredTech": "Bronze Working"
+  },
 	{
 		"name": "Hamster Epic",
 		"replaces": "Heroic Epic",
