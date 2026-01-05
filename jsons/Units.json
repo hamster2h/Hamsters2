@@ -1,5 +1,325 @@
 [
 	{
+		"name": "Gaucho",
+		"uniqueTo": "Argentina",
+		"replaces": "Knight",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
+		"requiredResource": "Horses",
+		"uniques": [
+			"[+200]% to Flank Attack bonuses",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Can build [Pasture] improvements on tiles",
+			"Withdraws before melee combat <with [50]% chance>"
+		],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Force Publique",
+		"uniqueTo": "Belgium",
+		"replaces": "Great War Infantry",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 55,
+		"cost": 320,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Infantry",
+		"obsoleteTech": "Plastics",
+		"promotions": [
+			"Ignore terrain cost"
+		],
+		"uniques": [
+			"[+20]% Strength <in [Friendly Land] tiles>"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Combat Engineer",
+		"replaces": "Rifleman",
+		"uniqueTo": "Canada",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Industrialization",
+		"upgradesTo": "Great War Infantry",
+		"obsoleteTech": "Replaceable Parts",
+		"uniques": [
+			"Can build [All Road] improvements on tiles",
+			"Can build [Fort] improvements on tiles",
+			"Can build [Remove Marsh] improvements on tiles",
+			"Can build [Remove Jungle] improvements on tiles",
+			"Can build [Remove Forest] improvements on tiles"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Black Arquebusier",
+		"unitType": "Gunpowder",
+		"replaces": "Musketman",
+		"uniqueTo": "Hungary",
+		"movement": 2,
+		"strength": 27,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"promotions": [
+			"Medic"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Kris Swordsman",
+		"uniqueTo": "Indonesia",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 15,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"promotions": [
+			"Mystic Blade"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Fenian",
+		"replaces": "Rifleman",
+		"uniqueTo": "Ireland",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 40,
+		"cost": 180,
+		"requiredTech": "Rifling",
+		"upgradesTo": "Great War Infantry",
+		"obsoleteTech": "Replaceable Parts",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Ballista Elephant",
+		"uniqueTo": "Khmer",
+		"unitType": "Siege",
+		"movement": 3,
+		"strength": 18,
+		"rangedStrength": 16,
+		"cost": 120,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Cannon",
+		"obsoleteTech": "Chemistry",
+		"uniques": [
+			"[+100]% Strength <vs cities> <when attacking>",
+			"[+20]% Strength <vs [Mounted] units>",
+			"No defensive terrain bonus"
+		],
+		"promotions": [
+			"Indirect Fire",
+			"Feared Elephant"
+		],
+		"attackSound": "throw"
+	},
+	{
+		"name": "Ngao Mbeba",
+		"uniqueTo": "Kongo",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 15,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"uniques": [
+			"[+100]% Strength <when defending> <vs [Ranged] units>",
+			"Cannot attack"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Qianlong Cavalry",
+		"replaces": "Cavalry",
+		"uniqueTo": "Manchuria",
+		"unitType": "Mounted",
+		"movement": 5,
+		"strength": 36,
+		"cost": 225,
+		"requiredTech": "Military Science",
+		"upgradesTo": "Landship",
+		"obsoleteTech": "Combustion",
+		"requiredResource": "Horses",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus"
+		],
+		"promotions": [
+			"Great Generals I"
+		],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Winged Hussar",
+		"replaces": "Lancer",
+		"uniqueTo": "Poland",
+		"unitType": "Mounted",
+		"movement": 5,
+		"strength": 28,
+		"cost": 185,
+		"requiredTech": "Metallurgy",
+		"upgradesTo": "Anti-Tank Gun",
+		"obsoleteTech": "Combined Arms",
+		"requiredResource": "Horses",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"[+33]% Strength <vs [Armored] units>",
+			"[+33]% Strength <vs [Mounted] units>"
+		],
+		"promotions": [
+			"Heavy Charge"
+		],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Nau",
+		"uniqueTo": "Portugal",
+		"replaces": "Caravel",
+		"unitType": "Melee Water",
+		"movement": 6,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Astronomy",
+		"upgradesTo": "Ironclad",
+		"obsoleteTech": "Combustion",
+		"uniques": [
+			"[+1] Sight",
+			"Withdraws before melee combat <with [80]% chance>",
+			"Can move after attacking"
+		],
+		"hurryCostModifier": 30,
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Gallowglass",
+		"uniqueTo": "Scotland",
+		"unitType": "Sword",
+		"replaces": "Longswordsman",
+		"movement": 2,
+		"strength": 24,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"uniques":[
+			"[+30]% Strength <vs [Melee] units>"
+		],
+		"promotions": [
+			"Ignore terrain cost"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Pathfinder",
+		"replaces": "Scout",
+		"uniqueTo": "Shoshone",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 8,
+		"cost": 35,
+		"uniques": [
+			"May upgrade to [Composite Bowman] through ruins-like effects",
+			"Gain [5] [Gold] <upon discovering a [Ancient ruins] tile>",
+			"Gain [2] [Culture] <upon discovering a [Ancient ruins] tile>"
+		],
+		"promotions": [
+			"Ignore terrain cost"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Comanche Rider",
+		"replaces": "Cavalry",
+		"uniqueTo": "Shoshone",
+		"unitType": "Mounted",
+		"movement": 5,
+		"strength": 34,
+		"cost": 198,
+		"requiredTech": "Military Science",
+		"upgradesTo": "Landship",
+		"obsoleteTech": "Combustion",
+		"requiredResource": "Horses",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities> <when attacking>"
+		],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Phalanx",
+		"replaces": "Spearman",
+		"uniqueTo": "Sumeria",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Mining",
+		"upgradesTo": "Pikeman",
+		"obsoleteTech": "Civil Service",
+		"uniques": [
+			"[+50]% Strength <vs [Mounted] units>",
+			"[+50]% Strength <when defending>"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Viet Cong",
+		"replaces": "Infantry",
+		"uniqueTo": "Vietnam",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 70,
+		"cost": 375,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Mechanized Infantry",
+		"obsoleteTech": "Mobile Tactics",
+		"uniques": [
+			"Invisible to non-adjacent units <in [Jungle] tiles>",
+			"Invisible to non-adjacent units <in [Forest] tiles>"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Impi",
+		"replaces": "Pikeman",
+		"uniqueTo": "Zulu",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 90,
+		"requiredTech": "Civil Service",
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Metallurgy",
+		"uniques": [
+			"[+50]% Strength <vs [Mounted] units>",
+			"[+25]% Strength <vs [Gunpowder] units>",
+			"[1] additional attacks per turn"
+		],
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Legion",
 		"unitType": "Sword",
 		"uniqueTo": "Rome",
@@ -66,16 +386,34 @@
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
+		"cost": 70,
 		"upgradesTo": "Architect",
 		"uniques": [
 			"Can build [Land] improvements on tiles"
+		]
+	},
+	{
+		"name": "Ngangkari",
+		"uniqueTo": "Australia",
+		"replaces": "Worker",
+		"unitType": "Civilian",
+		"movement": 3,
+		"cost": 48,
+		"uniques": [
+			"Can build [Land] improvements on tiles",
+			"Automation is a primary action",
+			"[+1] Movement <in [Water] tiles>"
 		],
-		"cost": 70
+		"promotions": [
+			"Medic",
+			"Medic II"
+		]
 	},
 	{
 		"name": "Architect",
 		"unitType": "Civilian",
 		"movement": 2,
+		"cost": 540,
 		"requiredTech": "Infrastructure",
 		"uniques": [
 			"Can build [Land] improvements on tiles",
@@ -83,8 +421,7 @@
 			"Can instantly construct a [Water Tower] improvement <by consuming this unit>",
 			"Can instantly construct a [Industrial Complex] improvement <by consuming this unit>",
 			"Can instantly construct a [Residential] improvement <by consuming this unit>"
-		],
-		"cost": 540
+		]
 	},
 	{
 		"name": "Work Boats",
@@ -104,22 +441,22 @@
 		"unitType": "Civilian",
 		"requiredTech": "Radio",
 		"movement": 2,
+		"cost": 500,
 		"uniques": [
 			"Can instantly construct a [Concert Venue] improvement <by consuming this unit>",
 			"Uncapturable"
-		],
-		"cost": 500
+		]
 	},
 	{
 		"name": "Corporate",
 		"unitType": "Civilian",
 		"requiredTech": "Corporations",
 		"movement": 2,
+		"cost": 500,
 		"uniques": [
 			"Can instantly construct a [Industry] improvement <by consuming this unit>",
 			"Uncapturable"
 		],
-		"cost": 500,
 		"civilopediaText": [
 			{
 				"text": "Construct Industries on Luxury Resources you have copies of and cannot trade."
@@ -400,6 +737,27 @@
 		"attackSound": "throw"
 	},
 	{
+		"name": "Siege Tower",
+		"unitType": "Siege",
+		"uniqueTo": "Assyria",
+		"movement": 2,
+		"strength": 12,
+		"cost": 75,
+		"requiredTech": "Mathematics",
+		"upgradesTo": "Trebuchet",
+		"obsoleteTech": "Physics",
+		"uniques": [
+			"[+200]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"[-1] Sight"
+		],
+		"promotions": [
+			"Cover I"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Ballista",
 		"unitType": "Siege",
 		"replaces": "Catapult",
@@ -573,6 +931,23 @@
 			"Hovering"
 		],
 		"attackSound": "artillery"
+	},
+	{
+		"name": "Skeid",
+		"replaces": "Galleass",
+		"uniqueTo": "Norway",
+		"unitType": "Ranged Water",
+		"movement": 3,
+		"strength": 16,
+		"rangedStrength": 17,
+		"cost": 100,
+		"requiredTech": "Compass",
+		"upgradesTo": "Frigate",
+		"obsoleteTech": "Navigation",
+		"uniques": [
+			"[+33]% Strength <vs [Water] units>"
+		],
+		"attackSound": "arrow"
 	},
 	{
 		"name": "Frigate",
@@ -1423,6 +1798,23 @@
 		"requiredTech": "Plastics",
 		"upgradesTo": "Mechanized Infantry",
 		"obsoleteTech": "Lasers",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Pracinha",
+		"uniqueTo": "Brazil",
+		"replaces": "Infantry",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 80,
+		"cost": 350,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Mechanized Infantry",
+		"obsoleteTech": "Lasers",
+		"uniques": [
+			"[+30]% Strength <when fighting in [Foreign Land] tiles>",
+			"Can move after attacking"
+		],
 		"attackSound": "shot"
 	},
 	{
