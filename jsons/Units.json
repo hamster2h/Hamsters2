@@ -1150,7 +1150,7 @@
 		"uniques": [
 			"[100]% chance to intercept air attacks",
 			"[+150]% Strength <vs [Bomber] units>",
-			"[+50]% Strength <vs [Helicopter] units>"
+			"[+200]% Strength <vs [Helicopter] units>"
 		],
 		"attackSound": "machinegun"
 	},
@@ -1171,7 +1171,7 @@
 		"uniques": [
 			"[100]% chance to intercept air attacks",
 			"[+150]% Strength <vs [Bomber] units>",
-			"[+100]% Strength <vs [Helicopter] units>"
+			"[+200]% Strength <vs [Helicopter] units>"
 		],
 		"promotions": [
 			"[Zero] ability"
@@ -1196,7 +1196,7 @@
 			"Consumes [1] [Oil]",
 			"[100]% chance to intercept air attacks",
 			"[+200]% Strength <vs [Bomber] units>",
-			"[+100]% Strength <vs [Helicopter] units>"
+			"[+200]% Strength <vs [Helicopter] units>"
 		],
 		"attackSound": "jetgun"
 	},
@@ -1217,7 +1217,7 @@
 			"Consumes [2] [Composites]",
 			"[100]% chance to intercept air attacks",
 			"[+200]% Strength <vs [Bomber] units>",
-			"[+100]% Strength <vs [Helicopter] units>"
+			"[+200]% Strength <vs [Helicopter] units>"
 		],
 		"promotions": [
 			"Stealth",
@@ -1578,13 +1578,12 @@
 		"name": "Anti-Tank Gun",
 		"unitType": "Gunpowder",
 		"movement": 2,
-		"strength": 50,
+		"strength": 40,
 		"cost": 300,
 		"requiredTech": "Combined Arms",
 		"upgradesTo": "Helicopter Gunship",
-		"obsoleteTech": "Computers",
 		"uniques": [
-			"[+200]% Strength <vs [Armored] units>",
+			"[+400]% Strength <vs [Armored] units>",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "machinegun"
@@ -1593,17 +1592,18 @@
 		"name": "Helicopter Gunship",
 		"unitType": "Helicopter",
 		"movement": 10,
-		"range": 2,
+		"range": 3,
 		"strength": 70,
 		"rangedStrength": 70,
 		"cost": 550,
 		"requiredTech": "Computers",
 		"upgradesTo": "Future Copter",
 		"obsoleteTech": "Clean Energy",
+		"requiredResource": "Oil",
 		"uniques": [
 			"Cyber",
 			"Consumes [1] [Aluminum]",
-			"[+200]% Strength <vs [Armored] units>",
+			"[+300]% Strength <vs [Armored] units>",
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"Ignores Zone of Control",
@@ -1619,15 +1619,16 @@
 		"name": "Future Copter",
 		"unitType": "Helicopter",
 		"movement": 12,
-		"range": 3,
+		"range": 4,
 		"strength": 90,
 		"rangedStrength": 90,
 		"cost": 700,
 		"requiredTech": "Clean Energy",
-		"requiredResource": "Composites",
+		"requiredResource": "Oil",
 		"uniques": [
 			"Cyber",
-			"[+200]% Strength <vs [Armored] units>",
+			"Consumes [1] [Composites]",
+			"[+300]% Strength <vs [Armored] units>",
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"Ignores Zone of Control",
