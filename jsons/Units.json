@@ -1420,7 +1420,7 @@
 		"cost": 350,
 		"requiredTech": "Plastics",
 		"upgradesTo": "Mechanized Infantry",
-		"obsoleteTech": "Mobile Tactics",
+		"obsoleteTech": "Lasers",
 		"attackSound": "shot"
 	},
 	{
@@ -1432,6 +1432,7 @@
 		"requiredTech": "Mobile Tactics",
 		"upgradesTo": "Energy Infantry",
 		"obsoleteTech": "Nuclear Fusion",
+		"requiredResource": "Oil",
 		"uniques": [
 			"Cyber"
 		],
