@@ -2039,54 +2039,50 @@
 	{
 		"name": "Great Artist",
 		"unitType": "Civilian",
+		"movement": 2,
 		"uniques": [
             "Empire enters a [8]-turn Golden Age <by consuming this unit>",
             "Can instantly construct a [Landmark] improvement <by consuming this unit>",
             "Is part of Great Person group [Great Person]",
             "Great Person - [Culture]",
-			"Unbuildable",
-			"Uncapturable"
-		],
-		"movement": 2
+			"Unbuildable"
+		]
 	},
 	{
 		"name": "Great Scientist",
 		"unitType": "Civilian",
+		"movement": 2,
 		"uniques": [
             "Can hurry technology research",
             "Can instantly construct a [Academy] improvement <by consuming this unit>",
             "Is part of Great Person group [Great Person]",
             "Great Person - [Science]",
-			"Unbuildable",
-			"Uncapturable"
-		],
-		"movement": 2
+			"Unbuildable"
+		]
 	},
 	{
 		"name": "Great Merchant",
 		"unitType": "Civilian",
+		"movement": 2,
 		"uniques": [
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
             "Can instantly construct a [Customs house] improvement <by consuming this unit>",
             "Is part of Great Person group [Great Person]",
 			"Great Person - [Gold]",
-			"Unbuildable",
-			"Uncapturable"
-		],
-		"movement": 2
+			"Unbuildable"
+		]
 	},
 	{
 		"name": "Great Engineer",
 		"unitType": "Civilian",
+		"movement": 2,
 		"uniques": [
 			"Can speed up construction of a building",
             "Can instantly construct a [Manufactory] improvement <by consuming this unit>",
             "Is part of Great Person group [Great Person]",
             "Great Person - [Production]",
-			"Unbuildable",
-			"Uncapturable"
-		],
-		"movement": 2
+			"Unbuildable"
+		]
 	},
 	{
 		"name": "Great Prophet",
@@ -2130,6 +2126,7 @@
             "Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
 			"[+1] Sight",
 			"Unbuildable",
+			"Uncapturable",
 			"Religious Unit",
 			"Only available <when religion is enabled>"
 		]
@@ -2137,18 +2134,18 @@
 	{
 		"name": "Great Spacefarer",
 		"unitType": "Civilian",
+		"movement": 2,
 		"uniques": [
 			"Empire enters a [12]-turn Golden Age <by consuming this unit>",
 			"Can instantly construct a [Space Platform] improvement <by consuming this unit> <starting from the [Atomic era]>",
 			"Great Person - [Spacefarer]",
-			"Unbuildable",
-			"Uncapturable"
-		],
-		"movement": 2
+			"Unbuildable"
+		]
 	},
 	{
 		"name": "Great General",
 		"unitType": "Civilian",
+		"movement": 2,
 		"uniques": [
 			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"[+15]% Strength bonus for [Military] units within [2] tiles <before adopting [Propaganda]>",
@@ -2159,14 +2156,14 @@
 			"Great Person - [War]",
 			"Unbuildable",
 			"Uncapturable"
-		],
-		"movement": 2
+		]
 	},
 	{
 		"name": "Khan",
 		"unitType": "Civilian",
 		"uniqueTo": "Mongolia",
 		"replaces": "Great General",
+		"movement": 5,
 		"uniques": [
 			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"[+15]% Strength bonus for [Military] units within [2] tiles <before adopting [Propaganda]>",
@@ -2179,12 +2176,12 @@
 			"Great Person - [War]",
 			"Unbuildable",
 			"Uncapturable"
-		],
-		"movement": 5
+		]
 	},
 	{
 		"name": "Great Admiral",
 		"unitType": "Civilian Water",
+		"movement": 4,
 		"uniques": [
 			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
             "May Paradrop to [{your} {Coastal} {City center}] tiles up to [25] tiles away <in [City center] tiles>",
@@ -2195,8 +2192,7 @@
             "Great Person - [War]",
 			"Unbuildable",
 			"Uncapturable"
-		],
-		"movement": 4
+		]
 	},
 	{
 		"name": "Photon Generator",
