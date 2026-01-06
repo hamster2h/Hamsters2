@@ -1,143 +1,5 @@
 [
 	{
-		"name": "Gaucho",
-		"uniqueTo": "Argentina",
-		"replaces": "Knight",
-		"unitType": "Mounted",
-		"movement": 4,
-		"strength": 20,
-		"cost": 120,
-		"requiredTech": "Chivalry",
-		"upgradesTo": "Cavalry",
-		"obsoleteTech": "Military Science",
-		"requiredResource": "Horses",
-		"uniques": [
-			"[+200]% to Flank Attack bonuses",
-			"Can move after attacking",
-			"No defensive terrain bonus",
-			"[-33]% Strength <vs cities> <when attacking>",
-			"Can build [Pasture] improvements on tiles",
-			"Withdraws before melee combat <with [50]% chance>"
-		],
-		"attackSound": "horse"
-	},
-	{
-		"name": "Combat Engineer",
-		"uniqueTo": "Canada",
-		"replaces": "Rifleman",
-		"unitType": "Gunpowder",
-		"movement": 3,
-		"strength": 34,
-		"cost": 225,
-		"requiredTech": "Industrialization",
-		"upgradesTo": "Great War Infantry",
-		"obsoleteTech": "Replaceable Parts",
-		"uniques": [
-			"Can build [All Road] improvements on tiles",
-			"Can build [Fort] improvements on tiles",
-			"Can build [Remove Marsh] improvements on tiles",
-			"Can build [Remove Jungle] improvements on tiles",
-			"Can build [Remove Forest] improvements on tiles"
-		],
-		"attackSound": "shot"
-	},
-	{
-		"name": "Black Arquebusier",
-		"uniqueTo": "Hungary",
-		"replaces": "Musketman",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 27,
-		"cost": 150,
-		"requiredTech": "Gunpowder",
-		"upgradesTo": "Rifleman",
-		"obsoleteTech": "Rifling",
-		"promotions": [
-			"Medic"
-		],
-		"attackSound": "shot"
-	},
-	{
-		"name": "Kris Swordsman",
-		"uniqueTo": "Indonesia",
-		"replaces": "Swordsman",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 15,
-		"cost": 75,
-		"requiredTech": "Iron Working",
-		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Steel",
-		"promotions": [
-			"Mystic Blade"
-		],
-		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
-	},
-	{
-		"name": "Ngao Mbeba",
-		"uniqueTo": "Kongo",
-		"replaces": "Swordsman",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 15,
-		"cost": 75,
-		"requiredTech": "Iron Working",
-		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Steel",
-		"uniques": [
-			"[+100]% Strength <when defending> <vs [Ranged] units>",
-			"Cannot attack"
-		],
-		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
-	},
-	{
-		"name": "Qianlong Cavalry",
-		"replaces": "Cavalry",
-		"uniqueTo": "Manchuria",
-		"unitType": "Mounted",
-		"movement": 5,
-		"strength": 36,
-		"cost": 225,
-		"requiredTech": "Military Science",
-		"upgradesTo": "Landship",
-		"obsoleteTech": "Combustion",
-		"requiredResource": "Horses",
-		"uniques": [
-			"Can move after attacking",
-			"No defensive terrain bonus"
-		],
-		"promotions": [
-			"Great Generals I"
-		],
-		"attackSound": "horse"
-	},
-	{
-		"name": "Winged Hussar",
-		"uniqueTo": "Poland",
-		"replaces": "Lancer",
-		"unitType": "Mounted",
-		"movement": 5,
-		"strength": 28,
-		"cost": 185,
-		"requiredTech": "Metallurgy",
-		"upgradesTo": "Anti-Tank Gun",
-		"obsoleteTech": "Combined Arms",
-		"requiredResource": "Horses",
-		"uniques": [
-			"Can move after attacking",
-			"No defensive terrain bonus",
-			"[-33]% Strength <vs cities> <when attacking>",
-			"[+33]% Strength <vs [Armored] units>",
-			"[+33]% Strength <vs [Mounted] units>"
-		],
-		"promotions": [
-			"Heavy Charge"
-		],
-		"attackSound": "horse"
-	},
-	{
 		"name": "Nau",
 		"uniqueTo": "Portugal",
 		"replaces": "Caravel",
@@ -155,45 +17,6 @@
 		],
 		"hurryCostModifier": 30,
 		"attackSound": "cannon"
-	},
-	{
-		"name": "Gallowglass",
-		"uniqueTo": "Scotland",
-		"unitType": "Sword",
-		"replaces": "Longswordsman",
-		"movement": 2,
-		"strength": 24,
-		"cost": 120,
-		"requiredTech": "Steel",
-		"upgradesTo": "Musketman",
-		"obsoleteTech": "Gunpowder",
-		"requiredResource": "Iron",
-		"uniques":[
-			"[+30]% Strength <vs [Melee] units>"
-		],
-		"promotions": [
-			"Ignore terrain cost"
-		],
-		"attackSound": "metalhit"
-	},
-	{
-		"name": "Comanche Rider",
-		"uniqueTo": "Shoshone",
-		"replaces": "Cavalry",
-		"unitType": "Mounted",
-		"movement": 5,
-		"strength": 34,
-		"cost": 198,
-		"requiredTech": "Military Science",
-		"upgradesTo": "Landship",
-		"obsoleteTech": "Combustion",
-		"requiredResource": "Horses",
-		"uniques": [
-			"Can move after attacking",
-			"No defensive terrain bonus",
-			"[-33]% Strength <vs cities> <when attacking>"
-		],
-		"attackSound": "horse"
 	},
 	{
 		"name": "Phalanx",
@@ -232,9 +55,9 @@
 	},
 	{
 		"name": "Legion",
-		"unitType": "Sword",
 		"uniqueTo": "Rome",
 		"replaces": "Swordsman",
+		"unitType": "Sword",
 		"movement": 3,
 		"strength": 17,
 		"cost": 50,
@@ -255,43 +78,75 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Kris Swordsman",
+		"uniqueTo": "Indonesia",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 15,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"promotions": [
+			"Mystic Blade"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Ngao Mbeba",
+		"uniqueTo": "Kongo",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 15,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"uniques": [
+			"[+100]% Strength <when defending> <vs [Ranged] units>",
+			"Cannot attack"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Gallowglass",
+		"uniqueTo": "Scotland",
+		"unitType": "Sword",
+		"replaces": "Longswordsman",
+		"movement": 2,
+		"strength": 24,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"uniques":[
+			"[+30]% Strength <vs [Melee] units>"
+		],
+		"promotions": [
+			"Ignore terrain cost"
+		],
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Quinquereme",
-		"unitType": "Melee Water",
 		"uniqueTo": "Carthage",
+		"unitType": "Melee Water",
 		"replaces": "Trireme",
 		"movement": 5,
 		"strength": 14,
 		"cost": 25,
 		"requiredTech": "Sailing",
+		"upgradesTo": "Caravel",
+		"obsoleteTech": "Astronomy",
 		"uniques": [
 			"Cannot enter ocean tiles"
 		],
-		"upgradesTo": "Caravel",
-		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Keshik",
-		"uniqueTo": "Mongolia",
-		"unitType": "Archery",
-		"replaces": "Knight",
-		"range": 2,
-		"movement": 5,
-		"strength": 15,
-		"rangedStrength": 16,
-		"cost": 60,
-		"requiredTech": "Chivalry",
-		"upgradesTo": "Cavalry",
-		"obsoleteTech": "Military Science",
-		"uniques": [
-			"Can move after attacking",
-			"No defensive terrain bonus"
-		],
-		"promotions": [
-			"Great Generals I",
-			"Quick Study"
-		],
-		"attackSound": "arrow"
 	},
 	{
 		"name": "Worker",
@@ -391,6 +246,71 @@
 		]
 	},
 	{
+		"name": "Archaeologist",
+		"unitType": "Civilian",
+		"cost": 375,
+		"movement": 2,
+		"requiredTech": "Archaeology",
+		"uniques": [
+			"Can instantly construct a [Excavation Site] improvement <by consuming this unit>",
+			"Uncapturable"
+		]
+	},
+	{
+		"name": "Medic",
+		"unitType": "Support",
+		"movement": 2,
+		"strength": 10,
+		"cost": 375,
+		"requiredTech": "Biology",
+		"upgradesTo": "Tactical Supplier",
+		"obsoleteTech": "Pharmaceuticals",
+		"promotions": [
+			"Support Unit"
+		],
+		"uniques": [
+			"All adjacent units heal [+10] HP when healing <before adopting [Collectivization]>",
+			"All adjacent units heal [+20] HP when healing <after adopting [Collectivization]>",
+			"Uncapturable",
+			"Never appears as a Barbarian unit"
+		]
+	},
+	{
+		"name": "Tactical Supplier",
+		"unitType": "Support",
+		"requiredTech": "Pharmaceuticals",
+		"movement": 4,
+		"strength": 20,
+		"cost": 560,
+		"promotions": [
+			"Support Unit"
+		],
+		"uniques": [
+			"All adjacent units heal [+15] HP when healing <before adopting [Collectivization]>",
+			"All adjacent units heal [+30] HP when healing <after adopting [Collectivization]>",
+			"Uncapturable",
+			"Never appears as a Barbarian unit"
+		]
+	},
+	{
+		"name": "Hacker",
+		"unitType": "Support",
+		"movement": 2,
+		"strength": 10,
+		"cost": 450,
+		"requiredTech": "The Internet",
+		"promotions": [
+			"Support Unit"
+		],
+		"uniques": [
+			"Cyber",
+			"Hacker",
+			"Comment [+33% Strength for some adjacent Units vs Cyber Units]",
+			"Comment [25% chance for some adjacent units to capture killed Cyber Units]",
+			"Never appears as a Barbarian unit"
+		]
+	},
+	{
 		"name": "Scout",
 		"unitType": "Scout",
 		"movement": 3,
@@ -477,69 +397,49 @@
 		"attackSound": "bite"
 	},
 	{
-		"name": "Archaeologist",
-		"unitType": "Civilian",
-		"cost": 375,
-		"movement": 2,
-		"requiredTech": "Archaeology",
+		"name": "Keshik",
+		"uniqueTo": "Mongolia",
+		"replaces": "Knight",
+		"unitType": "Archery",
+		"range": 2,
+		"movement": 5,
+		"strength": 15,
+		"rangedStrength": 16,
+		"cost": 60,
+		"requiredTech": "Chivalry",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
 		"uniques": [
-			"Can instantly construct a [Excavation Site] improvement <by consuming this unit>",
-			"Uncapturable"
-		]
-	},
-	{
-		"name": "Medic",
-		"unitType": "Support",
-		"movement": 2,
-		"strength": 10,
-		"cost": 375,
-		"requiredTech": "Biology",
-		"upgradesTo": "Tactical Supplier",
-		"obsoleteTech": "Pharmaceuticals",
-		"promotions": [
-			"Support Unit"
+			"Can move after attacking",
+			"No defensive terrain bonus"
 		],
-		"uniques": [
-			"All adjacent units heal [+10] HP when healing <before adopting [Collectivization]>",
-			"All adjacent units heal [+20] HP when healing <after adopting [Collectivization]>",
-			"Uncapturable",
-			"Never appears as a Barbarian unit"
-		]
+		"promotions": [
+			"Great Generals I",
+			"Quick Study"
+		],
+		"attackSound": "arrow"
 	},
 	{
-		"name": "Tactical Supplier",
-		"unitType": "Support",
-		"requiredTech": "Pharmaceuticals",
+		"name": "Gaucho",
+		"uniqueTo": "Argentina",
+		"replaces": "Knight",
+		"unitType": "Mounted",
 		"movement": 4,
 		"strength": 20,
-		"cost": 560,
-		"promotions": [
-			"Support Unit"
-		],
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
+		"requiredResource": "Horses",
 		"uniques": [
-			"All adjacent units heal [+15] HP when healing <before adopting [Collectivization]>",
-			"All adjacent units heal [+30] HP when healing <after adopting [Collectivization]>",
-			"Uncapturable",
-			"Never appears as a Barbarian unit"
-		]
-	},
-	{
-		"name": "Hacker",
-		"unitType": "Support",
-		"movement": 2,
-		"strength": 10,
-		"cost": 450,
-		"requiredTech": "The Internet",
-		"promotions": [
-			"Support Unit"
+			"[+200]% to Flank Attack bonuses",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Can build [Pasture] improvements on tiles",
+			"Withdraws before melee combat <with [50]% chance>"
 		],
-		"uniques": [
-			"Cyber",
-			"Hacker",
-			"Comment [+33% Strength for some adjacent Units vs Cyber Units]",
-			"Comment [25% chance for some adjacent units to capture killed Cyber Units]",
-			"Never appears as a Barbarian unit"
-		]
+		"attackSound": "horse"
 	},
 	{
 		"name": "Cavalry",
@@ -562,8 +462,8 @@
 	{
 		"name": "Cossack",
 		"uniqueTo": "Russia",
-		"unitType": "Mounted",
 		"replaces": "Cavalry",
+		"unitType": "Mounted",
 		"movement": 4,
 		"strength": 34,
 		"cost": 225,
@@ -584,8 +484,8 @@
 	{
 		"name": "Hussar",
 		"uniqueTo": "Austria",
-		"unitType": "Mounted",
 		"replaces": "Cavalry",
+		"unitType": "Mounted",
 		"movement": 5,
 		"strength": 34,
 		"cost": 225,
@@ -605,15 +505,79 @@
 		"attackSound": "horse"
 	},
 	{
+		"name": "Qianlong Cavalry",
+		"uniqueTo": "Manchuria",
+		"replaces": "Cavalry",
+		"unitType": "Mounted",
+		"movement": 5,
+		"strength": 36,
+		"cost": 225,
+		"requiredTech": "Military Science",
+		"upgradesTo": "Tank",
+		"obsoleteTech": "Combustion",
+		"requiredResource": "Horses",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus"
+		],
+		"promotions": [
+			"Great Generals I"
+		],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Comanche Rider",
+		"uniqueTo": "Shoshone",
+		"replaces": "Cavalry",
+		"unitType": "Mounted",
+		"movement": 5,
+		"strength": 34,
+		"cost": 198,
+		"requiredTech": "Military Science",
+		"upgradesTo": "Tank",
+		"obsoleteTech": "Combustion",
+		"requiredResource": "Horses",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities> <when attacking>"
+		],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Winged Hussar",
+		"uniqueTo": "Poland",
+		"replaces": "Lancer",
+		"unitType": "Mounted",
+		"movement": 5,
+		"strength": 28,
+		"cost": 185,
+		"requiredTech": "Metallurgy",
+		"upgradesTo": "Anti-Tank Gun",
+		"obsoleteTech": "Combined Arms",
+		"requiredResource": "Horses",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"[+33]% Strength <vs [Armored] units>",
+			"[+33]% Strength <vs [Mounted] units>"
+		],
+		"promotions": [
+			"Heavy Charge"
+		],
+		"attackSound": "horse"
+	},
+	{
 		"name": "Observation Balloon",
 		"unitType": "Support",
 		"movement": 3,
 		"strength": 10,
 		"cost": 375,
 		"requiredTech": "Dynamite",
-		"requiredResource": "Coal",
-		"obsoleteTech": "Computers",
 		"upgradesTo": "Drone",
+		"obsoleteTech": "Computers",
+		"requiredResource": "Coal",
 		"uniques": [
 			"Intel",
 			"Comment [+1 Range to adjacent Siege Units]",
@@ -671,31 +635,10 @@
 		"attackSound": "throw"
 	},
 	{
-		"name": "Siege Tower",
-		"unitType": "Siege",
-		"uniqueTo": "Assyria",
-		"movement": 2,
-		"strength": 12,
-		"cost": 75,
-		"requiredTech": "Mathematics",
-		"upgradesTo": "Trebuchet",
-		"obsoleteTech": "Physics",
-		"uniques": [
-			"[+200]% Strength <vs cities> <when attacking>",
-			"No defensive terrain bonus",
-			"[-1] Sight"
-		],
-		"promotions": [
-			"Cover I"
-		],
-		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
-	},
-	{
 		"name": "Ballista",
-		"unitType": "Siege",
-		"replaces": "Catapult",
 		"uniqueTo": "Rome",
+		"replaces": "Catapult",
+		"unitType": "Siege",
 		"movement": 2,
 		"strength": 2,
 		"rangedStrength": 5,
@@ -714,9 +657,8 @@
 	},
 	{
 		"name": "Battering Ram",
-		"unitType": "Siege",
-		"replaces": "Spearman",
 		"uniqueTo": "The Huns",
+		"unitType": "Siege",
 		"movement": 3,
 		"strength": 12,
 		"cost": 75,
@@ -734,6 +676,27 @@
 			"Cover I"
 		],
 		"attackSound": "throw"
+	},
+	{
+		"name": "Siege Tower",
+		"uniqueTo": "Assyria",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 12,
+		"cost": 75,
+		"requiredTech": "Mathematics",
+		"upgradesTo": "Trebuchet",
+		"obsoleteTech": "Physics",
+		"uniques": [
+			"[+200]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"[-1] Sight"
+		],
+		"promotions": [
+			"Cover I"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
 	},
 	{
 		"name": "Trebuchet",
@@ -757,9 +720,8 @@
 	},
 	{
 		"name": "Hwach'a",
-		"unitType": "Siege",
-		"replaces": "Trebuchet",
 		"uniqueTo": "Korea",
+		"unitType": "Siege",
 		"movement": 2,
 		"strength": 11,
 		"rangedStrength": 26,
@@ -890,8 +852,8 @@
 	},
 	{
 		"name": "Skeid",
-		"replaces": "Galleass",
 		"uniqueTo": "Norway",
+		"replaces": "Galleass",
 		"unitType": "Ranged Water",
 		"movement": 3,
 		"strength": 16,
@@ -913,24 +875,24 @@
 		"rangedStrength": 28,
 		"cost": 250,
 		"requiredTech": "Navigation",
-		"obsoleteTech": "Electronics",
 		"upgradesTo": "Battleship",
+		"obsoleteTech": "Electronics",
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
 		"attackSound": "shipCannonVolley"
 	},
 	{
 		"name": "Ship of the Line",
-		"unitType": "Ranged Water",
-		"replaces": "Frigate",
 		"uniqueTo": "England",
+		"replaces": "Frigate",
+		"unitType": "Ranged Water",
 		"movement": 5,
 		"strength": 30,
 		"rangedStrength": 35,
 		"cost": 280,
 		"requiredTech": "Navigation",
-		"obsoleteTech": "Electronics",
 		"upgradesTo": "Battleship",
+		"obsoleteTech": "Electronics",
 		"requiredResource": "Iron",
 		"uniques": [
 			"[+1] Sight"
@@ -1006,9 +968,9 @@
 	},
 	{
 		"name": "Sea Beggar",
-		"unitType": "Melee Water",
-		"replaces": "Privateer",
 		"uniqueTo": "The Netherlands",
+		"replaces": "Privateer",
+		"unitType": "Melee Water",
 		"movement": 5,
 		"strength": 25,
 		"cost": 150,
@@ -1148,16 +1110,14 @@
 		"rangedStrength": 150,
 		"range": 10,
 		"cost": 4000,
-		"obsoleteTech": "Advanced Ballistics",
 		"requiredTech": "Nuclear Fission",
-		"upgradesTo": "Nuclear Missile",
 		"requiredResource": "Oil",
 		"uniques": [
 			"Consumes [1] [Uranium]",
 			"Nuclear weapon of Strength [1]",
 			"Only available <if [Nuclear Testing Site] is constructed>",
-			"Self-destructs when attacking",
-			"Blast radius [1]"
+			"Blast radius [1]",
+			"[+900]% maintenance costs"
 		],
 		"attackSound": "nuke"
 	},
@@ -1672,14 +1632,30 @@
 		"attackSound": "bombing"
 	},
 	{
+		"name": "Black Arquebusier",
+		"uniqueTo": "Hungary",
+		"replaces": "Musketman",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 27,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"promotions": [
+			"Medic"
+		],
+		"attackSound": "shot"
+	},
+	{
 		"name": "Rifleman",
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 34,
 		"cost": 225,
 		"requiredTech": "Rifling",
-		"obsoleteTech": "Plastics",
 		"upgradesTo": "Infantry",
+		"obsoleteTech": "Plastics",
 		"attackSound": "shot"
 	},
 	{
@@ -1742,6 +1718,26 @@
 		"requiredTech": "Rifling",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Combat Engineer",
+		"uniqueTo": "Canada",
+		"replaces": "Rifleman",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Rifling",
+		"upgradesTo": "Infantry",
+		"obsoleteTech": "Plastics",
+		"uniques": [
+			"Can build [All Road] improvements on tiles",
+			"Can build [Fort] improvements on tiles",
+			"Can build [Remove Marsh] improvements on tiles",
+			"Can build [Remove Jungle] improvements on tiles",
+			"Can build [Remove Forest] improvements on tiles"
+		],
 		"attackSound": "shot"
 	},
 	{
