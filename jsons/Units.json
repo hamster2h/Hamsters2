@@ -405,7 +405,7 @@
 		"movement": 5,
 		"strength": 15,
 		"rangedStrength": 16,
-		"cost": 60,
+		"cost": 80,
 		"requiredTech": "Chivalry",
 		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Military Science",
