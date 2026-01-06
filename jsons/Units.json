@@ -376,7 +376,7 @@
 		"name": "Seeker",
 		"unitType": "Scout",
 		"movement": 4,
-		"strength": 60,
+		"strength": 40,
 		"cost": 450,
 		"requiredTech": "Enhancing",
 		"uniques": [
@@ -384,7 +384,7 @@
 			"Ignores Zone of Control",
 			"Can move after attacking",
 			"Heals [25] damage if it kills a unit",
-			"[+100]% Strength <after discovering [Metagenetics]>",
+			"[+200]% Strength <after discovering [Metagenetics]>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
