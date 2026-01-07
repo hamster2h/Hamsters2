@@ -268,7 +268,9 @@
 		"uniques": [
 			"Gain a free [Harbor] [in all coastal cities]",
 			"Land units may cross [Mountain] tiles after the first [Great General] is earned",
-			"Comment [Units ending their turn on [Mountain] tiles take [50] damage]"
+			"Comment [Units ending their turn on [Mountain] tiles take [50] damage]",
+			"[+1 Gold] from [Coast] tiles [in all cities]",
+			"[+1 Gold] from [Ocean] tiles [in all cities]"
 		],
 		"cities": [
 			"Carthage","Utique","Hippo Regius","Gades","Saguntum","Carthago Nova","Panormus","Lilybaeum","Hadrumetum","Zama Regia",
