@@ -115,7 +115,7 @@
     "replaces": "Garden",
     "uniqueTo": "Indonesia",
     "cost": 120,
-    "faith": 2,
+    "faith": 6,
     "culture": 1,
     "uniques": [
       "[+25]% Great Person generation [in this city]"
