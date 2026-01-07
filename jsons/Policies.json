@@ -239,8 +239,8 @@
             {
                 "name": "Organized Religion",
                 "uniques": [
-                    "[+1 Faith] from every [Shrine]",
-                    "[+1 Faith] from every [Temple]"
+                    "[+1 Faith, +1 Happiness] from every [Shrine]",
+                    "[+1 Faith, +1 Happiness] from every [Temple]"
                 ],
                 "row": 1,
                 "column": 2
@@ -451,8 +451,7 @@
             "Scientific": 10
         },
         "uniques": [
-			"[+10]% [Science] <while the empire is happy>",
-            "Only available <before adopting [Piety]>"
+			"[+10]% [Science] <while the empire is happy>"
         ],
         "policies": [
             {
