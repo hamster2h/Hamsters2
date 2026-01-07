@@ -570,107 +570,119 @@
 			"Patrick","James","Thomas","Michael","William","Timothy","Dennis","Margaret","Bridget","Ann"
 		]
 	},
-{
-    "name": "Khmer",
-    "leaderName": "Suryavarman II",
-    "adjective": ["Khmer"],
-    "startBias": ["Avoid [Coast]"],
-    "preferredVictoryType": "Scientific",
-    "personality": "Suryavarman II",
+	{
+		"name": "Khmer",
+		"leaderName": "Suryavarman II",
+		"adjective": ["Khmer"],
+		"startBias": [
+			"Avoid [Coast]"
+		],
+		"preferredVictoryType": "Scientific",
+		"personality": "Suryavarman II",
 
-    "startIntroPart1": "Great Suryavarman, Emperor of the Khmer, the one who has entered the heavenly world of Vishnu, we kneel blinded by your glory! You reunited a divided empire and made it stronger than ever before, expanding its borders to the west and north and reaching the present-day peninsular Malaysia. Merciless to enemies, kind to friends, you established good relations with China, creating new important trade routes. You innovated the arts and architecture of the empire, and even gave the order to build the legendary Angkor Wat, the largest temple in the known world! In the end, your empire collapsed below its own greatness long before the Europeans managed to create their \"civilizations\", and yet history remembers you as a warrior, diplomat, artist and religious man.",
-    "startIntroPart2": "Mighty King, your people need you once more, for only you are capable to lead them to even greater glory and fame, bringing back the glory of Angkor! Will you smite your insolent enemies and at the same time enrich the already magnificent temples in your empire? Can you build a civilization that will stand the test of time?",
-    "declaringWar": "I usually seek council to my sages, but this time it is arms that I must express myself.",
-    "attacked": "May Vishny's wrath engulf you into ruin and despair!",
-    "defeated": "What do you mean it's the end? My workd it's yet to be finished! Let me build... just... one... more... temple...",
-    "introduction": "You look upon the King of Angkor, Emperor of Khmer, rightful Ruler of the World and Master of the Universe! We've just met, but I can already tell you're quite an interesting individual.",
-    "neutralHello": "Welcome.",
-    "hateHello": "What do you want?",
-    "tradeRequest": "Heaven smiles upon you - as do the Khmer. Isn't it great deal?",
-    "outerColor": [182, 101, 191],
-    "innerColor": [0, 0, 178],
-    "uniqueName": "Grand Baray of Angkor",
-    "uniques": ["Gain a free [Baray] [in capital]",
-                "[+3 Science] per [3] population [in capital] <after discovering [Drama and Poetry]>"],
-    "cities": [
-        "Yasodharapura","Hariharalaya","Mahendraparvata","Indrapura","Vimayapura","Rajavihara","Isvarapura","Lingapura","Nagara Jayasri","Vyadhapura",
-        "Dviradapura","Amarendrapura","Lavodayapura","Shrestapura","Aninditapura","Isanapura","Banteay Kdei","Chaturmukha","Phetchaburi","Preah Vihear",
-        "Kompong Svay","Chaiya","Beng Melea","Muang Tam"
-    ],
-    "spyNames": [
-        "Aran","Chanarong","Kiet","Niran","Virote","Kulap","Mayuree","Phueng","Ratana","Tola"
-    ]
-},
-{
-    "name": "Kongo",
-    "leaderName": "Nzinga Mbande",
-    "adjective": ["Kongo"],
-    "startBias": ["Avoid [Coast]", "Jungle"],
-    "preferredVictoryType": "Cultural",
-    "personality": "Nzinga Mbande",
+		"startIntroPart1": "Great Suryavarman, Emperor of the Khmer, the one who has entered the heavenly world of Vishnu, we kneel blinded by your glory! You reunited a divided empire and made it stronger than ever before, expanding its borders to the west and north and reaching the present-day peninsular Malaysia. Merciless to enemies, kind to friends, you established good relations with China, creating new important trade routes. You innovated the arts and architecture of the empire, and even gave the order to build the legendary Angkor Wat, the largest temple in the known world! In the end, your empire collapsed below its own greatness long before the Europeans managed to create their \"civilizations\", and yet history remembers you as a warrior, diplomat, artist and religious man.",
+		"startIntroPart2": "Mighty King, your people need you once more, for only you are capable to lead them to even greater glory and fame, bringing back the glory of Angkor! Will you smite your insolent enemies and at the same time enrich the already magnificent temples in your empire? Can you build a civilization that will stand the test of time?",
+		"declaringWar": "I usually seek council to my sages, but this time it is arms that I must express myself.",
+		"attacked": "May Vishny's wrath engulf you into ruin and despair!",
+		"defeated": "What do you mean it's the end? My workd it's yet to be finished! Let me build... just... one... more... temple...",
+		"introduction": "You look upon the King of Angkor, Emperor of Khmer, rightful Ruler of the World and Master of the Universe! We've just met, but I can already tell you're quite an interesting individual.",
+		"neutralHello": "Welcome.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Heaven smiles upon you - as do the Khmer. Isn't it great deal?",
+		"outerColor": [182, 101, 191],
+		"innerColor": [0, 0, 178],
+		"uniqueName": "Grand Baray of Angkor",
+		"uniques": [
+			"Gain a free [Baray] [in capital]",
+			"[+3 Science] per [3] population [in capital] <after discovering [Drama and Poetry]>"
+		],
+		"cities": [
+			"Yasodharapura","Hariharalaya","Mahendraparvata","Indrapura","Vimayapura","Rajavihara","Isvarapura","Lingapura","Nagara Jayasri","Vyadhapura",
+			"Dviradapura","Amarendrapura","Lavodayapura","Shrestapura","Aninditapura","Isanapura","Banteay Kdei","Chaturmukha","Phetchaburi","Preah Vihear",
+			"Kompong Svay","Chaiya","Beng Melea","Muang Tam"
+		],
+		"spyNames": [
+			"Aran","Chanarong","Kiet","Niran","Virote","Kulap","Mayuree","Phueng","Ratana","Tola"
+		]
+	},
+	{
+		"name": "Kongo",
+		"leaderName": "Nzinga Mbande",
+		"adjective": ["Kongo"],
+		"startBias": [
+			"Avoid [Coast]",
+			"Jungle"
+		],
+		"preferredVictoryType": "Cultural",
+		"personality": "Nzinga Mbande",
 
-    "startIntroPart1": "Hail to you, brave Nzinga Mbande, Queen of the Ndongo and Matamba, whose beauty is matched only by your cunning. Your Kingdom is part of the great Kingdom of Kongo, situated at the mouth of the mighty Congo River in west-central Africa. You defied tradition by claiming two thrones and are remembered for standing bravely against the onslaught of European imperialism. When the Portuguese invaded your lands, you escaped death and shrewdly manipulated the Dutch into sending you aid. Together you turned back the army of the Portuguese at the Battle of Kombi. Yet, ever faced with threats both inside and out, the never-ending war took its tool, and in the end not even your bravery could stop the march of foreign crowns.",
-    "startIntroPart2": "Mighty Queen of Kongo, your people has been chained and sold into slavery. Yet, your old alliances stand firm and await your call. It is time to return, to instill your strenght and spirit and lead your people to battle once more. Can you restore your war-torn land? Can you build a civilization that will stand the test of time?",
-    "declaringWar": "Me and my warriors come to set your lands and your flags on fire!",
-    "attacked": "Go ahead, send your soldiers! We will melt into the trees and strike at you from the stones.",
-    "defeated": "Your swords cleave only flesh. Your chains bind only hands. Our soul remains ours.",
-    "introduction": "I am Nzinga, Muchino a Muhato of the Ndongo and Matamba. Please sit anywhere, and do not look down upon me and dismiss me as a woman: I am the equal of any King, both in governance and in battle.",
-    "neutralHello": "Greetings.",
-    "hateHello": "What do you want?",
-    "tradeRequest": "Let us exchange ideas, gold, and good... just not land." ,
-    "outerColor": [255,227,151],
-    "innerColor": [96,11,99],
-    "uniqueName": "Heart of Africa",
-    "uniques": [
-		"[+2 Culture] from [Jungle] tiles without [Improvement] [in all cities]"
-	],
-    "cities": [
-        "M'banza-Kongo","M'banza-Ngungu","M'banza-Nsundi","M'banza-Mbata","M'banza-Bakwanga","M'banza-Mpangu","M'banza-Wembo","M'banza-Lovata","M'banza-Mbumbi","M'banza-Mbamba",
-        "M'banza-Mbwila","M'banza-Mpinda","M'banza-Mpemda","M'banza-Kwila","M'banza-Soyo","M'banza-Kwango","M'banza-Bakavu","M'banza-Sanga","M'banza-Katango","M'banza-Nkunga",
-        "M'banza-Nkondo","M'banza-Ndongo","M'banza-Lembabula","M'banza-Kibangu","M'banza-Manga","M'banza-Mulumbi","M'banza-Mbandaka","M'banza-Kindu","M'banza-Makuta","M'banza-Zombo",
-        "M'banza-Matadi","M'banza-Lubumbashi","M'banza-Kalemie","M'banza-Kikwit","M'banza-Popokabaka","M'banza-Kinshasa","M'banza-Loango"
-    ],
-    "spyNames": [
-        "Gumede","Jama","Mageba","Malanda","Mnguni","Ndaba","Phunga","Senzangakhona","Balungile","Samkelisiwe"
-    ]
-},
-{
-    "name": "Manchuria", 
-    "leaderName": "Nurhaci",
-    "adjective": ["Manchurian"],
-    "startBias": ["Avoid [Coast]"],
-    "preferredVictoryType": "Domination",
+		"startIntroPart1": "Hail to you, brave Nzinga Mbande, Queen of the Ndongo and Matamba, whose beauty is matched only by your cunning. Your Kingdom is part of the great Kingdom of Kongo, situated at the mouth of the mighty Congo River in west-central Africa. You defied tradition by claiming two thrones and are remembered for standing bravely against the onslaught of European imperialism. When the Portuguese invaded your lands, you escaped death and shrewdly manipulated the Dutch into sending you aid. Together you turned back the army of the Portuguese at the Battle of Kombi. Yet, ever faced with threats both inside and out, the never-ending war took its tool, and in the end not even your bravery could stop the march of foreign crowns.",
+		"startIntroPart2": "Mighty Queen of Kongo, your people has been chained and sold into slavery. Yet, your old alliances stand firm and await your call. It is time to return, to instill your strenght and spirit and lead your people to battle once more. Can you restore your war-torn land? Can you build a civilization that will stand the test of time?",
+		"declaringWar": "Me and my warriors come to set your lands and your flags on fire!",
+		"attacked": "Go ahead, send your soldiers! We will melt into the trees and strike at you from the stones.",
+		"defeated": "Your swords cleave only flesh. Your chains bind only hands. Our soul remains ours.",
+		"introduction": "I am Nzinga, Muchino a Muhato of the Ndongo and Matamba. Please sit anywhere, and do not look down upon me and dismiss me as a woman: I am the equal of any King, both in governance and in battle.",
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Let us exchange ideas, gold, and good... just not land." ,
+		"outerColor": [255,227,151],
+		"innerColor": [96,11,99],
+		"uniqueName": "Heart of Africa",
+		"uniques": [
+			"[+3 Culture] from [Jungle] tiles without [Improvement] [in all cities]"
+		],
+		"cities": [
+			"M'banza-Kongo","M'banza-Ngungu","M'banza-Nsundi","M'banza-Mbata","M'banza-Bakwanga","M'banza-Mpangu","M'banza-Wembo","M'banza-Lovata","M'banza-Mbumbi","M'banza-Mbamba",
+			"M'banza-Mbwila","M'banza-Mpinda","M'banza-Mpemda","M'banza-Kwila","M'banza-Soyo","M'banza-Kwango","M'banza-Bakavu","M'banza-Sanga","M'banza-Katango","M'banza-Nkunga",
+			"M'banza-Nkondo","M'banza-Ndongo","M'banza-Lembabula","M'banza-Kibangu","M'banza-Manga","M'banza-Mulumbi","M'banza-Mbandaka","M'banza-Kindu","M'banza-Makuta","M'banza-Zombo",
+			"M'banza-Matadi","M'banza-Lubumbashi","M'banza-Kalemie","M'banza-Kikwit","M'banza-Popokabaka","M'banza-Kinshasa","M'banza-Loango"
+		],
+		"spyNames": [
+			"Gumede","Jama","Mageba","Malanda","Mnguni","Ndaba","Phunga","Senzangakhona","Balungile","Samkelisiwe"
+		]
+	},
+	{
+		"name": "Manchuria", 
+		"leaderName": "Nurhaci",
+		"adjective": ["Manchurian"],
+		"startBias": [
+			"Avoid [Coast]"
+		],
+		"preferredVictoryType": "Domination",
 
-    "startIntroPart1": "The Eight Banners bow down before you, oh great Nurhaci, Brilliant Khan Who Benefits All Nations, unifier of the Manchu peoples! Under your rule, a collection of scattered Jurchen tribes were unified into a great empire! Your reign was a period of great victory and progress for the Manchu people, consisting of constantly successful campaigns against the Ming, the Koreans, the Mongols and other Jurchen tribes. Truly, no empire in East Asia could withstand the might of the Manchu! Your reign is notable for more than sheer conquest, however, with great and important leaps in Manchu culture, such as the funding of the Eight Banners and the creation of a Manchu Alphabet. And your successors would build off your great achievements, conquering the entirety of China and founding one of the greatest dynasties of all time!",
-    "startIntroPart2": "Oh, bold and noble Khan and Chieftain, the empire your actions shaped has fallen, and the Manchu have been reduced to a mere minority group in another nation’s empire. But your people call your name unto the heavens, desperate for your strong and wise leadership to lead them to glory once more! Will you ride with your Bannermen to the field of battle once more? Will you build a civilization to stand the test of time?",
-    "declaringWar": "Prepare for war!",
-    "attacked": "You shall regret this!",
-    "defeated": "You have bested me, warrior. I have no choice but to submit. Which banner shall I be allocated to? What do you mean, 'we don't sort our troops by banner'?!", 
-    "introduction": "You stand before Nurhaci, Brilliant Khan Who Benefits All Nations. Will you be a worthwhile ally or mere fodder for my armies?",
-    "neutralHello": "Greetings.",
-    "hateHello": "What do you want?",
-    "tradeRequest": "Better hurry, I may change my mind.",
-    "outerColor": [254,204,32],
-    "innerColor": [0,55,106],
-    "uniqueName": "Eight Banners",
-    "uniques": [
-        "[+100]% Production when constructing [Stable] buildings [in all cities]",
-        "[-100]% maintenance costs <for [Mounted] units>"
-    ],
-    "cities": [
-        "Mukden","Hetu Ala","Yenden","Xingjing","Fushun","Qinghe","Sarhu","Girin Ula","Qiaonan","Tieling",
-        "Ningdota","Siping","Anshan","Lushun","Liaoyuan","Gulian","Yanxi","Fengtian","Harbin","Qiqihar",
-        "Suiha","Daqing","Jiamusi","Yichun","Jixi","Jilin","Songyuan","Baicheng","Yanbian","Nanling"
-    ],
-    "spyNames": [
-        "Li","Chen","Zhang","Liu","Yang","Huang","Zhao","Wu","Zhou","Sun"
-    ]
-},
-{
+		"startIntroPart1": "The Eight Banners bow down before you, oh great Nurhaci, Brilliant Khan Who Benefits All Nations, unifier of the Manchu peoples! Under your rule, a collection of scattered Jurchen tribes were unified into a great empire! Your reign was a period of great victory and progress for the Manchu people, consisting of constantly successful campaigns against the Ming, the Koreans, the Mongols and other Jurchen tribes. Truly, no empire in East Asia could withstand the might of the Manchu! Your reign is notable for more than sheer conquest, however, with great and important leaps in Manchu culture, such as the funding of the Eight Banners and the creation of a Manchu Alphabet. And your successors would build off your great achievements, conquering the entirety of China and founding one of the greatest dynasties of all time!",
+		"startIntroPart2": "Oh, bold and noble Khan and Chieftain, the empire your actions shaped has fallen, and the Manchu have been reduced to a mere minority group in another nation’s empire. But your people call your name unto the heavens, desperate for your strong and wise leadership to lead them to glory once more! Will you ride with your Bannermen to the field of battle once more? Will you build a civilization to stand the test of time?",
+		"declaringWar": "Prepare for war!",
+		"attacked": "You shall regret this!",
+		"defeated": "You have bested me, warrior. I have no choice but to submit. Which banner shall I be allocated to? What do you mean, 'we don't sort our troops by banner'?!", 
+		"introduction": "You stand before Nurhaci, Brilliant Khan Who Benefits All Nations. Will you be a worthwhile ally or mere fodder for my armies?",
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"outerColor": [254,204,32],
+		"innerColor": [0,55,106],
+		"uniqueName": "Eight Banners",
+		"uniques": [
+			"[+100]% Production when constructing [Stable] buildings [in all cities]",
+			"[-100]% maintenance costs <for [Mounted] units>"
+		],
+		"cities": [
+			"Mukden","Hetu Ala","Yenden","Xingjing","Fushun","Qinghe","Sarhu","Girin Ula","Qiaonan","Tieling",
+			"Ningdota","Siping","Anshan","Lushun","Liaoyuan","Gulian","Yanxi","Fengtian","Harbin","Qiqihar",
+			"Suiha","Daqing","Jiamusi","Yichun","Jixi","Jilin","Songyuan","Baicheng","Yanbian","Nanling"
+		],
+		"spyNames": [
+			"Li","Chen","Zhang","Liu","Yang","Huang","Zhao","Wu","Zhou","Sun"
+		]
+	},
+	{
         "name": "Norway",
         "leaderName": "Harald Hardrada",
         "adjective": ["Norwegian"],
-        "startBias": ["Coast", "Tundra"],
+        "startBias": [
+			"Coast",
+			"Tundra"
+		],
         "preferredVictoryType": "Domination",
         "personality": "Harald Hardrada",
 
@@ -699,7 +711,7 @@
             "Johann","Marlene","Wilhelm","Eva","Heinz","Horst","Carl","Viper","Albrecht","Anton"
         ]
     },
-    {
+	{
         "name": "Poland",
         "leaderName": "Casimir III",
         "adjective": ["Polish"],
@@ -725,8 +737,8 @@
         "uniques": [
 			"Free Social Policy <upon entering a new era> <after turn number [3]> <hidden from users>",
 			"[-10]% Culture cost of adopting new Policies",
-        "Provides [2] [Horses]"
-    ],
+			"Provides [2] [Horses]"
+		],
         "cities": [
             "Warsaw","Krakow","Lodz","Wroclaw","Poznan","Gdansk","Szczecin","Bydgoszcz","Lublin","Kaunas",
             "Katowice","Bialystok","Gdynia","Schweidnitz","Czestochowa","Radom","Torun","Kielce","Gliwice","Klaipeda",
@@ -741,7 +753,9 @@
         "name": "Portugal",
         "leaderName": "Maria I",
         "adjective": ["Portuguese"],
-        "startBias": ["Coast"],
+        "startBias": [
+			"Coast"
+		],
         "preferredVictoryType": "Diplomatic",
         "personality": "Maria I",
 
@@ -774,7 +788,10 @@
         "name": "Scotland",
         "leaderName": "Robert the Bruce",
         "adjective": ["Scottish"],
-        "startBias": ["Avoid [Coast]","Hill"],
+        "startBias": [
+			"Avoid [Coast]",
+			"Hill"
+		],
         "preferredVictoryType": "Cultural",
         "personality": "Robert the Bruce",
 
@@ -807,7 +824,10 @@
         "name": "Shoshone",
         "leaderName": "Pocatello",
         "adjective": ["Shoshone"],
-        "startBias": ["Avoid [Coast]", "Forest"],
+        "startBias": [
+			"Avoid [Coast]",
+			"Forest"
+		],
         "preferredVictoryType": "Diplomatic",
         "personality": "Pocatello",
 
@@ -823,9 +843,10 @@
         "outerColor": [65,54,42],
         "innerColor": [78,244,234],
         "uniqueName": "Great Expanse",
-        "uniques": ["[+15]% Strength <for [Military] units> <in [Friendly Land] tiles>",
-        "Gain control over [All] tiles in a [2]-tile radius <upon founding a city> <in this city>"]
-        ,
+        "uniques": [
+			"[+15]% Strength <for [Military] units> <in [Friendly Land] tiles>",
+			"Gain control over [All] tiles in a [2]-tile radius <upon founding a city> <in this city>"
+		],
         "cities": [
             "Moson Kahni","Te-Moak","Agaidika","Goshute","Pohokwi","Washakie","Timbisha","Hukandeka","Duckwater","Tukudeka",
             "Kuchundeka","Yomba","Kamudeka","Ely","Yambadeka","Nampa","Bannock","Yahandeka","Tetadeka","Deheyaeka",
@@ -839,7 +860,9 @@
         "name": "Sumeria",
         "leaderName": "Gilgamesh",
         "adjective": ["Sumer"],
-        "startBias": ["Avoid [Coast]"],
+        "startBias": [
+			"Avoid [Coast]"
+		],
         "preferredVictoryType": "Scientific",
         "personality": "Gilgamesh",
 
@@ -855,8 +878,10 @@
         "outerColor": [15,70,109],
         "innerColor": [229,118,95],
         "uniqueName": "Cradle of Civilization",
-        "uniques": ["[+1 Culture] [in all cities] <after discovering [Drama and Poetry]>",
-        "[+2 Science] [in all cities] <after discovering [Drama and Poetry]>"],
+        "uniques": [
+			"[+1 Culture] [in all cities] <after discovering [Drama and Poetry]>",
+			"[+2 Science] [in all cities] <after discovering [Drama and Poetry]>"
+		],
         "cities": [
             "Ur","Kish","Uruk","Eridu","Umma","Lagash","Akshak","Larak","Bad-Tibira","Larsa",
             "Isin","Shruppak","Nibru","Zimbir","Girsu","Zabalam","Kisiga","Adab","Jemdet Nasr","Nina",
@@ -871,7 +896,11 @@
         "name": "Vietnam",
         "leaderName": "Le Loi",
         "adjective": ["Vietnamese"],
-        "startBias": ["Avoid [Coast]","Marsh","Jungle"],
+        "startBias": [
+			"Avoid [Coast]",
+			"Marsh",
+			"Jungle"
+		],
         "preferredVictoryType": "Cultural",
         "personality": "Le Loi",
 
@@ -889,7 +918,7 @@
         "uniqueName": "Tam Giao",
         "uniques": [
             "[+3 Food] from every [Marsh]",
-            "[+1 Faith] from [Jungle] tiles without [Improvement] [in all cities]"
+            "[+2 Faith] from [Jungle] tiles without [Improvement] [in all cities]"
         ],
         "cities": [
             "Hà Noi","Thành Pho Ho Chí Minh","Hai Phòng","Thành Pho Hue","Can Tho","Dà Nang","Biên Hòa","Phan Rang","Quang Ngãi","Quang Ninh",
@@ -904,7 +933,10 @@
         "name": "Zulu",
         "leaderName": "Shaka",
         "adjective": ["Zulu"],
-        "startBias": ["Avoid [Coast]","Avoid [Jungle]"],
+        "startBias": [
+			"Avoid [Coast]",
+			"Avoid [Jungle]"
+		],
         "preferredVictoryType": "Domination",
         "personality": "Shaka",
 
