@@ -875,7 +875,7 @@
     },
     {
         "name": "Brick Works",
-        "cost": 75,
+        "cost": 60,
         "production": 2,
         "maintenance": 1,
         "uniques": [
