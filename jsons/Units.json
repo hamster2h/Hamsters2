@@ -1130,16 +1130,16 @@
 		"movement": 1,
 		"strength": 150,
 		"rangedStrength": 150,
-		"range": 8,
+		"range": 10,
 		"cost": 4000,
 		"requiredTech": "Nuclear Fission",
 		"requiredResource": "Oil",
 		"uniques": [
-			"Consumes [2] [Uranium]",
+			"Consumes [1] [Uranium]",
 			"Nuclear weapon of Strength [1]",
 			"Only available <if [Nuclear Testing Site] is constructed>",
-			"Blast radius [1]",
-			"[+900]% maintenance costs"
+			"Self-destructs when attacking",
+			"Blast radius [1]"
 		],
 		"attackSound": "nuke"
 	},
