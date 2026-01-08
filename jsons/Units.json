@@ -1290,7 +1290,8 @@
 			"No defensive terrain bonus",
 			"Never appears as a Barbarian unit",
 			"Ignores Zone of Control",
-			"[+33]% Strength <vs [Land] units>"
+			"[+33]% Strength <vs [Land] units>",
+			"[+25]% Strength <vs [Armored] units> <when attacking>"
 		],
 		"promotions": [
 			"Armor Plating I",
@@ -1317,7 +1318,8 @@
 			"No defensive terrain bonus",
 			"Never appears as a Barbarian unit",
 			"Ignores Zone of Control",
-			"[+33]% Strength <vs [Land] units>"
+			"[+33]% Strength <vs [Land] units>",
+			"[+25]% Strength <vs [Armored] units> <when attacking>"
 		],
 		"promotions": [
 			"Armor Plating I",
@@ -1344,7 +1346,8 @@
 			"No defensive terrain bonus",
 			"Never appears as a Barbarian unit",
 			"Ignores Zone of Control",
-			"[+50]% Strength <vs [Land] units>"
+			"[+50]% Strength <vs [Land] units>",
+			"[+50]% Strength <vs [Armored] units> <when attacking>"
 		],
 		"promotions": [
 			"Armor Plating I",
@@ -1370,7 +1373,8 @@
 			"No defensive terrain bonus",
 			"Never appears as a Barbarian unit",
 			"Ignores Zone of Control",
-			"[+50]% Strength <vs [Land] units>"
+			"[+50]% Strength <vs [Land] units>",
+			"[+50]% Strength <vs [Armored] units> <when attacking>"
 		],
 		"promotions": [
 			"Armor Plating I",
