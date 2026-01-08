@@ -118,7 +118,7 @@
 			"production": 3
 		},
 		"uniques": [
-			"Deposits in [Coast] tiles always provide [4] resources",
+			"Deposits in [Coast] tiles always provide [5] resources",
 			"Guaranteed with Strategic Balance resource option",
 			"Generated with weight [65] <in [Marsh] tiles> <in tiles without [Hill]>",
 			"Generated with weight [40] <in [{Featureless} {Tundra}] tiles>",
@@ -133,14 +133,14 @@
 			"Generated on every [90] tiles <in [{Featureless} {Coast}] tiles>"
 		],
 		"majorDepositAmount": {
-			"sparse": 5,
-			"default": 7,
-			"abundant": 9
+			"sparse": 6,
+			"default": 8,
+			"abundant": 10
 		},
 		"minorDepositAmount": {
-			"sparse": 2,
-			"default": 3,
-			"abundant": 4
+			"sparse": 3,
+			"default": 4,
+			"abundant": 5
 		}
 	},
 	{
