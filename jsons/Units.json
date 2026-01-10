@@ -875,6 +875,74 @@
 		"attackSound": "artillery"
 	},
 	{
+		"name": "Anti-Aircraft Gun",
+		"unitType": "Support",
+		"movement": 2,
+		"interceptRange": 2,
+		"strength": 50,
+		"cost": 375,
+		"requiredTech": "Ballistics",
+		"upgradesTo": "Mobile SAM",
+		"uniques": [
+			"Anti-Air",
+			"Comment [+33% Strength to adjacent Land Units vs Air Units]",
+			"[75]% chance to intercept air attacks",
+			"[+100]% Strength <vs [Air] units>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Support Unit"
+		]
+	},
+	{
+		"name": "Mobile SAM",
+		"unitType": "Support",
+		"movement": 3,
+		"interceptRange": 3,
+		"strength": 65,
+		"cost": 425,
+		"requiredTech": "Rocketry",
+		"upgradesTo": "Hover-SAM",
+		"obsoleteTech": "Terraforming",
+		"requiredResource": "Oil",
+		"uniques": [
+			"Cyber",
+			"Anti-Air",
+			"Comment [+33% Strength to adjacent Land Units vs Air Units]",
+			"[100]% chance to intercept air attacks",
+			"[+150]% Strength <vs [Air] units>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Support Unit"
+		]
+	},
+	{
+		"name": "Hover-SAM",
+		"unitType": "Support",
+		"movement": 3,
+		"interceptRange": 4,
+		"strength": 80,
+		"cost": 540,
+		"requiredTech": "Terraforming",
+		"requiredResource": "Oil",
+		"uniques": [
+			"Cyber",
+			"Anti-Air",
+			"Consumes [1] [Composites]",
+			"Comment [+33% Strength to adjacent Land Units vs Air Units]",
+			"[100]% chance to intercept air attacks",
+			"[+150]% Strength <vs [Air] units>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Support Unit",
+			"Hovering",
+			"Heat Sensor"
+		],
+		"attackSound": "missile"
+	},
+	{
 		"name": "Skeid",
 		"uniqueTo": "Norway",
 		"replaces": "Galleass",
@@ -1181,73 +1249,6 @@
 			"Can be purchased with [Gold] [in all cities]"
 		],
 		"attackSound": "nuke"
-	},
-	{
-		"name": "Anti-Aircraft Gun",
-		"unitType": "Support",
-		"movement": 2,
-		"interceptRange": 2,
-		"strength": 50,
-		"cost": 375,
-		"requiredTech": "Ballistics",
-		"upgradesTo": "Mobile SAM",
-		"obsoleteTech": "Rocketry",
-		"uniques": [
-			"Anti-Air",
-			"Comment [+33% Strength to adjacent Land Units vs Air Units]",
-			"[75]% chance to intercept air attacks",
-			"[+100]% Strength <vs [Air] units>",
-			"Never appears as a Barbarian unit"
-		],
-		"promotions": [
-			"Support Unit"
-		]
-	},
-	{
-		"name": "Mobile SAM",
-		"unitType": "Support",
-		"movement": 3,
-		"interceptRange": 3,
-		"strength": 65,
-		"cost": 425,
-		"requiredTech": "Rocketry",
-		"upgradesTo": "Hover-SAM",
-		"obsoleteTech": "Terraforming",
-		"uniques": [
-			"Cyber",
-			"Anti-Air",
-			"Comment [+33% Strength to adjacent Land Units vs Air Units]",
-			"[100]% chance to intercept air attacks",
-			"[+150]% Strength <vs [Air] units>",
-			"Never appears as a Barbarian unit"
-		],
-		"promotions": [
-			"Support Unit"
-		]
-	},
-	{
-		"name": "Hover-SAM",
-		"unitType": "Support",
-		"movement": 3,
-		"interceptRange": 4,
-		"strength": 80,
-		"cost": 540,
-		"requiredTech": "Terraforming",
-		"requiredResource": "Composites",
-		"uniques": [
-			"Cyber",
-			"Anti-Air",
-			"Comment [+33% Strength to adjacent Land Units vs Air Units]",
-			"[100]% chance to intercept air attacks",
-			"[+150]% Strength <vs [Air] units>",
-			"Never appears as a Barbarian unit"
-		],
-		"promotions": [
-			"Support Unit",
-			"Hovering",
-			"Heat Sensor"
-		],
-		"attackSound": "missile"
 	},
 	{
 		"name": "Landship",
