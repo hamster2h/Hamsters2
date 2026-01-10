@@ -155,7 +155,8 @@
 		"cost": 70,
 		"upgradesTo": "Architect",
 		"uniques": [
-			"Can build [Land] improvements on tiles"
+			"Can build [Land] improvements on tiles",
+			"[+100]% maintenance costs"
 		]
 	},
 	{
@@ -186,7 +187,8 @@
 			"Can instantly construct a [Power Plant] improvement <by consuming this unit>",
 			"Can instantly construct a [Water Tower] improvement <by consuming this unit>",
 			"Can instantly construct a [Industrial Complex] improvement <by consuming this unit>",
-			"Can instantly construct a [Residential] improvement <by consuming this unit>"
+			"Can instantly construct a [Residential] improvement <by consuming this unit>",
+			"[+100]% maintenance costs"
 		]
 	},
 	{
