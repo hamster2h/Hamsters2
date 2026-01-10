@@ -879,7 +879,7 @@
 		"unitType": "Support",
 		"movement": 2,
 		"interceptRange": 2,
-		"strength": 50,
+		"strength": 40,
 		"cost": 375,
 		"requiredTech": "Ballistics",
 		"upgradesTo": "Mobile SAM",
@@ -887,7 +887,7 @@
 			"Anti-Air",
 			"Comment [+33% Strength to adjacent Land Units vs Air Units]",
 			"[75]% chance to intercept air attacks",
-			"[+100]% Strength <vs [Air] units>",
+			"[+300]% Strength <vs [Air] units>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
@@ -897,9 +897,9 @@
 	{
 		"name": "Mobile SAM",
 		"unitType": "Support",
-		"movement": 3,
-		"interceptRange": 3,
-		"strength": 65,
+		"movement": 4,
+		"interceptRange": 4,
+		"strength": 32,
 		"cost": 425,
 		"requiredTech": "Rocketry",
 		"upgradesTo": "Hover-SAM",
@@ -910,7 +910,7 @@
 			"Anti-Air",
 			"Comment [+33% Strength to adjacent Land Units vs Air Units]",
 			"[100]% chance to intercept air attacks",
-			"[+150]% Strength <vs [Air] units>",
+			"[+300]% Strength <vs [Air] units>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
@@ -920,9 +920,9 @@
 	{
 		"name": "Hover-SAM",
 		"unitType": "Support",
-		"movement": 3,
+		"movement": 4,
 		"interceptRange": 4,
-		"strength": 80,
+		"strength": 40,
 		"cost": 540,
 		"requiredTech": "Terraforming",
 		"requiredResource": "Oil",
@@ -932,7 +932,7 @@
 			"Consumes [1] [Composites]",
 			"Comment [+33% Strength to adjacent Land Units vs Air Units]",
 			"[100]% chance to intercept air attacks",
-			"[+150]% Strength <vs [Air] units>",
+			"[+300]% Strength <vs [Air] units>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
@@ -941,6 +941,72 @@
 			"Heat Sensor"
 		],
 		"attackSound": "missile"
+	},
+	{
+		"name": "Anti-Tank Gun",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 40,
+		"cost": 300,
+		"requiredTech": "Combined Arms",
+		"upgradesTo": "Helicopter Gunship",
+		"uniques": [
+			"[+400]% Strength <vs [Armored] units>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Helicopter Gunship",
+		"unitType": "Helicopter",
+		"movement": 10,
+		"range": 3,
+		"strength": 70,
+		"rangedStrength": 70,
+		"cost": 550,
+		"requiredTech": "Computers",
+		"upgradesTo": "Future Copter",
+		"obsoleteTech": "Clean Energy",
+		"requiredResource": "Oil",
+		"uniques": [
+			"Cyber",
+			"Consumes [1] [Aluminum]",
+			"[+300]% Strength <vs [Armored] units>",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"Ignores Zone of Control",
+			"Unable to capture cities",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Hovering"
+		],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Future Copter",
+		"unitType": "Helicopter",
+		"movement": 12,
+		"range": 4,
+		"strength": 90,
+		"rangedStrength": 90,
+		"cost": 700,
+		"requiredTech": "Clean Energy",
+		"requiredResource": "Oil",
+		"uniques": [
+			"Cyber",
+			"Consumes [1] [Aluminum]",
+			"[+300]% Strength <vs [Armored] units>",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"Ignores Zone of Control",
+			"Unable to capture cities",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Hovering"
+		],
+		"attackSound": "energyshot"
 	},
 	{
 		"name": "Skeid",
@@ -1997,72 +2063,6 @@
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "machinegun"
-	},
-	{
-		"name": "Anti-Tank Gun",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 40,
-		"cost": 300,
-		"requiredTech": "Combined Arms",
-		"upgradesTo": "Helicopter Gunship",
-		"uniques": [
-			"[+400]% Strength <vs [Armored] units>",
-			"Never appears as a Barbarian unit"
-		],
-		"attackSound": "machinegun"
-	},
-	{
-		"name": "Helicopter Gunship",
-		"unitType": "Helicopter",
-		"movement": 10,
-		"range": 3,
-		"strength": 70,
-		"rangedStrength": 70,
-		"cost": 550,
-		"requiredTech": "Computers",
-		"upgradesTo": "Future Copter",
-		"obsoleteTech": "Clean Energy",
-		"requiredResource": "Oil",
-		"uniques": [
-			"Cyber",
-			"Consumes [1] [Aluminum]",
-			"[+300]% Strength <vs [Armored] units>",
-			"No defensive terrain bonus",
-			"Can move after attacking",
-			"Ignores Zone of Control",
-			"Unable to capture cities",
-			"Never appears as a Barbarian unit"
-		],
-		"promotions": [
-			"Hovering"
-		],
-		"attackSound": "machinegun"
-	},
-	{
-		"name": "Future Copter",
-		"unitType": "Helicopter",
-		"movement": 12,
-		"range": 4,
-		"strength": 90,
-		"rangedStrength": 90,
-		"cost": 700,
-		"requiredTech": "Clean Energy",
-		"requiredResource": "Oil",
-		"uniques": [
-			"Cyber",
-			"Consumes [1] [Composites]",
-			"[+300]% Strength <vs [Armored] units>",
-			"No defensive terrain bonus",
-			"Can move after attacking",
-			"Ignores Zone of Control",
-			"Unable to capture cities",
-			"Never appears as a Barbarian unit"
-		],
-		"promotions": [
-			"Hovering"
-		],
-		"attackSound": "energyshot"
 	},
 	{
 		"name": "Great Artist",
