@@ -724,7 +724,7 @@
 	{
 		"name": "Electrical Corporation",
 		"isWonder": true,
-		"cost": 5440,
+		"cost": 2720,
 		"requiredResource": "Corporation Slot",
 		"requiredTech": "Infrastructure",
 		"uniques": [
@@ -737,7 +737,7 @@
 	{
 		"name": "Engineering Corporation",
 		"isWonder": true,
-		"cost": 5440,
+		"cost": 2720,
 		"requiredResource": "Corporation Slot",
 		"requiredTech": "Corporations",
 		"uniques": [
@@ -750,7 +750,7 @@
 	{
 		"name": "Tourism Agency",
 		"isWonder": true,
-		"cost": 5440,
+		"cost": 2720,
 		"requiredResource": "Corporation Slot",
 		"requiredTech": "Corporations",
 		"uniques": [
@@ -765,7 +765,7 @@
 	{
 		"name": "Defense Force Agency",
 		"isWonder": true,
-		"cost": 5440,
+		"cost": 2720,
 		"requiredResource": "Corporation Slot",
 		"requiredTech": "Combined Arms",
 		"uniques": [
@@ -778,7 +778,7 @@
 	{
 		"name": "Social Network Company",
 		"isWonder": true,
-		"cost": 5440,
+		"cost": 2720,
 		"requiredResource": "Corporation Slot",
 		"requiredTech": "The Internet",
 		"uniques": [
@@ -791,7 +791,7 @@
 	{
 		"name": "World Delivery Company",
 		"isWonder": true,
-		"cost": 5440,
+		"cost": 2720,
 		"requiredResource": "Corporation Slot",
 		"requiredTech": "Globalization",
 		"uniques": [
@@ -806,7 +806,7 @@
 	{
 		"name": "Space Organization",
 		"isWonder": true,
-		"cost": 5440,
+		"cost": 2720,
 		"requiredResource": "Corporation Slot",
 		"requiredTech": "Satellites",
 		"uniques": [
@@ -820,7 +820,7 @@
 	{
 		"name": "Holy Organization",
 		"isWonder": true,
-		"cost": 5440,
+		"cost": 2720,
 		"requiredResource": "Corporation Slot",
 		"requiredTech": "Corporations",
 		"uniques": [
