@@ -838,6 +838,7 @@
 		"requiredTech": "Rocketry",
 		"upgradesTo": "Hovertillery",
 		"obsoleteTech": "Terraforming",
+		"requiredResource": "Oil",
 		"uniques": [
 			"Cyber",
 			"[+500]% Strength <vs cities> <when attacking>",
@@ -859,9 +860,10 @@
 		"range": 6,
 		"cost": 810,
 		"requiredTech": "Terraforming",
-		"requiredResource": "Composites",
+		"requiredResource": "Oil",
 		"uniques": [
 			"Cyber",
+			"Consumes [1] [Composites]",
 			"[+500]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"Never appears as a Barbarian unit"
