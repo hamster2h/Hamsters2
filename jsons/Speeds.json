@@ -2,7 +2,7 @@
     {
         "name": "Standard",
         "modifier": 1.0,
-        "productionCostModifier": 1.25,
+        "productionCostModifier": 1.5,
         "goldCostModifier": 1.0,
         "scienceCostModifier": 1.0,
         "cultureCostModifier": 1.0,
