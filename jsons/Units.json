@@ -837,7 +837,6 @@
 		"cost": 640,
 		"requiredTech": "Rocketry",
 		"upgradesTo": "Hovertillery",
-		"obsoleteTech": "Terraforming",
 		"requiredResource": "Oil",
 		"uniques": [
 			"Cyber",
@@ -1855,7 +1854,6 @@
 		"cost": 375,
 		"requiredTech": "Mobile Tactics",
 		"upgradesTo": "Energy Infantry",
-		"obsoleteTech": "Nuclear Fusion",
 		"requiredResource": "Oil",
 		"uniques": [
 			"Cyber"
@@ -1913,7 +1911,6 @@
 		"cost": 500,
 		"requiredTech": "Lasers",
 		"upgradesTo": "Energy Infantry",
-		"obsoleteTech": "Nuclear Fusion",
 		"uniques": [
 			"[1] Movement point cost to disembark",
 			"[1] Movement point cost to embark",
