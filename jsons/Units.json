@@ -1240,6 +1240,7 @@
 			"Cyber",
 			"Consumes [2] [Iron]",
 			"Can carry [4] [Aircraft] units",
+			"Limited to [4] per Civilization",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
