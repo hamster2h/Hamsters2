@@ -605,10 +605,14 @@
 		"greatPersonPoints": {
 			"Great Engineer": 2
 		},
+		"percentStatBonus": {
+			"science": 50,
+			"culture": 25
+		},
 		"uniques": [
 			"New [Military] units start with [45] XP [in all cities]",
-			"[+100]% Gold cost of upgrading <for [Military] units>",
-			"[Gold] cost of purchasing [All] units [+300]%"
+			"[+300]% Gold cost of upgrading <for [Military] units>",
+			"[Gold] cost of purchasing [Military] units [+300]%"
 		],
 		"requiredTech": "Combined Arms",
 		"quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.' - Dwight D. Eisenhower"
