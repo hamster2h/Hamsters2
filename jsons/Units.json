@@ -1937,6 +1937,7 @@
 		"strength": 120,
 		"cost": 600,
 		"requiredTech": "Nuclear Fusion",
+		"requiredResource": "Composites",
 		"uniques": [
 			"[1] Movement point cost to disembark",
 			"[1] Movement point cost to embark",
