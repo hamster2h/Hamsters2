@@ -28,7 +28,8 @@
 		"favoredReligion": "Shinto",
 		"uniqueName": "High Underground",
         "uniques": [
-			"[+1 Food, +3 Production] from [Mountain] tiles [in all cities]"
+			"[+1 Food, +3 Production] from [{non-[Natural Wonder]} {Mountain}] tiles [in all cities]",
+			"[+2 Gold] from [Natural Wonder] tiles [in all cities]"
 		],
 		"cities": [
 			"Seoul","Busan","Jeonju","Daegu","Pyongyang","Kaesong","Suwon","Gwangju","Gangneung","Hamhung","Wonju","Ulsan",
