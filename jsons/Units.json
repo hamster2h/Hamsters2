@@ -149,6 +149,19 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
+		"name": "Settler",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 80,
+		"requiredTech": "Agriculture",
+		"uniques": [
+			"Founds a new city <by consuming this unit>",
+			"Excess Food converted to Production when under construction",
+			"Requires at least [2] population"
+		],
+		"hurryCostModifier": 20
+	},
+	{
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
