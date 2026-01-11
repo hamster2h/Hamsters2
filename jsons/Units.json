@@ -339,7 +339,7 @@
 		"unitType": "Scout",
 		"movement": 3,
 		"strength": 8,
-		"cost": 15,
+		"cost": 20,
 		"upgradesTo": "Recon",
 		"obsoleteTech": "Rifling",
 		"uniques": [
