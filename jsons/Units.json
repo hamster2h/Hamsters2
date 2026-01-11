@@ -152,7 +152,7 @@
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost": 70,
+		"cost": 60,
 		"upgradesTo": "Architect",
 		"uniques": [
 			"Can build [Land] improvements on tiles",
@@ -165,11 +165,11 @@
 		"replaces": "Worker",
 		"unitType": "Civilian",
 		"movement": 3,
-		"cost": 48,
+		"cost": 42,
 		"uniques": [
 			"Can build [Land] improvements on tiles",
-			"Automation is a primary action",
-			"[+1] Movement <in [Water] tiles>"
+			"[+1] Movement <in [Water] tiles>",
+			"[+50]% maintenance costs"
 		],
 		"promotions": [
 			"Medic",
@@ -195,7 +195,7 @@
 		"name": "Work Boats",
 		"unitType": "Civilian Water",
 		"movement": 4,
-		"cost": 30,
+		"cost": 25,
 		"requiredTech": "Sailing",
 		"uniques": [
 			"Cannot enter ocean tiles <before discovering [Astronomy]>",
@@ -317,11 +317,12 @@
 		"unitType": "Scout",
 		"movement": 3,
 		"strength": 5,
-		"cost": 25,
+		"cost": 15,
 		"upgradesTo": "Recon",
 		"obsoleteTech": "Rifling",
 		"uniques": [
 			"Ignores Zone of Control",
+			"[-75]% maintenance costs",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
@@ -338,13 +339,14 @@
 		"unitType": "Scout",
 		"movement": 3,
 		"strength": 8,
-		"cost": 35,
+		"cost": 15,
 		"upgradesTo": "Recon",
 		"obsoleteTech": "Rifling",
 		"uniques": [
 			"Ignores Zone of Control",
-			"Gain [5] [Gold] <upon discovering a [Ancient ruins] tile>",
-			"Gain [2] [Culture] <upon discovering a [Ancient ruins] tile>",
+			"Gain [10] [Gold] <upon discovering a [Ancient ruins] tile>",
+			"Gain [4] [Culture] <upon discovering a [Ancient ruins] tile>",
+			"[-75]% maintenance costs",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
@@ -365,6 +367,7 @@
 		"obsoleteTech": "Metagenetics",
 		"uniques": [
 			"Ignores Zone of Control",
+			"[-50]% maintenance costs",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
@@ -387,6 +390,7 @@
 			"Can move after attacking",
 			"Heals [25] damage if it kills a unit",
 			"[+200]% Strength <after discovering [Metagenetics]>",
+			"[-50]% maintenance costs",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
@@ -397,6 +401,64 @@
 			"Stealth"
 		],
 		"attackSound": "bite"
+	},
+	{
+		"name": "Warrior",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 8,
+		"cost": 20,
+		"requiredTech": "Agriculture",
+		"upgradesTo": "Swordsman",
+		"obsoleteTech": "Metal Casting",
+		"uniques": [
+			"[-50]% maintenance costs"
+		],
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{
+				"text": "This is your basic, club-swinging fighter."
+			}
+		]
+	},
+	{
+		"name": "Maori Warrior",
+		"uniqueTo": "Polynesia",
+		"replaces": "Warrior",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 8,
+		"cost": 20,
+		"requiredTech": "Agriculture",
+		"upgradesTo": "Swordsman",
+		"obsoleteTech": "Metal Casting",
+		"uniques": [
+			"[-50]% maintenance costs"
+		],
+		"promotions": [
+			"Haka War Dance"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Jaguar",
+		"uniqueTo": "Aztecs",
+		"replaces": "Warrior",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 8,
+		"cost": 20,
+		"requiredTech": "Agriculture",
+		"upgradesTo": "Swordsman",
+		"obsoleteTech": "Metal Casting",
+		"uniques": [
+			"[-50]% maintenance costs"
+		],
+		"promotions": [
+			"[Jaguar] ability",
+			"Woodsman"
+		],
+		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "African Forest Elephant",
