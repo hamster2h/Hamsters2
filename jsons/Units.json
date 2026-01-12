@@ -335,7 +335,6 @@
 		"obsoleteTech": "Rifling",
 		"uniques": [
 			"Ignores Zone of Control",
-			"May enter foreign tiles without open borders",
 			"[-75]% maintenance costs",
 			"Never appears as a Barbarian unit"
 		],
@@ -358,7 +357,6 @@
 		"obsoleteTech": "Rifling",
 		"uniques": [
 			"Ignores Zone of Control",
-			"May enter foreign tiles without open borders",
 			"Gain [10] [Gold] <upon discovering a [Ancient ruins] tile>",
 			"Gain [4] [Culture] <upon discovering a [Ancient ruins] tile>",
 			"[-75]% maintenance costs",
@@ -382,7 +380,6 @@
 		"obsoleteTech": "Metagenetics",
 		"uniques": [
 			"Ignores Zone of Control",
-			"May enter foreign tiles without open borders",
 			"[-50]% maintenance costs",
 			"Never appears as a Barbarian unit"
 		],
@@ -403,7 +400,6 @@
 		"uniques": [
 			"Can see invisible [Wounded] units",
 			"Ignores Zone of Control",
-			"May enter foreign tiles without open borders",
 			"Can move after attacking",
 			"Heals [25] damage if it kills a unit",
 			"[+200]% Strength <after discovering [Metagenetics]>",
