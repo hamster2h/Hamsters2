@@ -265,7 +265,9 @@
 		"name": "Scouting III",
 		"prerequisites": ["Scouting II"],
 		"uniques": [
-			"[+1] Movement"
+			"[+1] Sight",
+			"[+1] Movement",
+			"May enter foreign tiles without open borders"
 		],
 		"unitTypes": [
 			"Scout",
@@ -490,3 +492,4 @@
         "unitTypes": ["Sword","Gunpowder"]
     }
 ]
+
