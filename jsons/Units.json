@@ -1345,7 +1345,7 @@
 		"movement": 1,
 		"strength": 100,
 		"rangedStrength": 100,
-		"range": 6,
+		"range": 8,
 		"cost": 6000,
 		"requiredTech": "Nuclear Fission",
 		"requiredResource": "Oil",
