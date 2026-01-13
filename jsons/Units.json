@@ -1165,7 +1165,7 @@
 		"strength": 100,
 		"rangedStrength": 100,
 		"range": 3,
-		"interceptRange": 2,
+		"interceptRange": 4,
 		"cost": 800,
 		"requiredTech": "Robotics",
 		"requiredResource": "Oil",
@@ -1329,12 +1329,13 @@
 		"strength": 80,
 		"rangedStrength": 80,
 		"range": 8,
-		"cost": 200,
+		"cost": 600,
 		"requiredTech": "Advanced Ballistics",
 		"uniques": [
 			"[-100]% maintenance costs",
 			"[+125]% Strength <after discovering [Lasers]>",
-			"[+4] Range <after discovering [Satellites]>"
+			"[+100]% Strength <vs [Land] units> <after discovering [Lasers]>",
+			"[+4] Range <after discovering [Lasers]>"
 		],
 		"attackSound": "missile"
 	},
@@ -1342,9 +1343,9 @@
 		"name": "Atomic Bomb",
 		"unitType": "Atomic Bomber",
 		"movement": 1,
-		"strength": 150,
-		"rangedStrength": 150,
-		"range": 10,
+		"strength": 100,
+		"rangedStrength": 100,
+		"range": 8,
 		"cost": 4000,
 		"requiredTech": "Nuclear Fission",
 		"requiredResource": "Oil",
@@ -1364,7 +1365,7 @@
 		"strength": 250,
 		"rangedStrength": 250,
 		"range": 12,
-		"cost": 10000,
+		"cost": 20000,
 		"requiredTech": "Advanced Ballistics",
 		"requiredResource": "Uranium",
 		"uniques": [
@@ -1383,7 +1384,7 @@
 		"strength": 500,
 		"rangedStrength": 500,
 		"range": 12,
-		"cost": 35000,
+		"cost": 70000,
 		"requiredTech": "Spaceflight",
 		"uniques": [
 			"[-100]% maintenance costs",
