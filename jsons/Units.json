@@ -43,7 +43,7 @@
 		"movement": 2,
 		"strength": 16,
 		"cost": 90,
-		"requiredTech": "Civil Service",
+		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Metallurgy",
 		"uniques": [
