@@ -213,9 +213,9 @@
 		"uniques": [
 			"May create improvements on water resources",
 			"Cannot enter ocean tiles <before discovering [Astronomy]>",
-			"Can enter ice tiles <after discovering [Navigation]>",
+			"Can enter ice tiles <after discovering [Steam Power]>",
 			"Can instantly construct a [Offshore Wind Farm] improvement <by consuming this unit> <after discovering [Terraforming]>",
-			"Can instantly construct a [Remove Ice] improvement <by consuming this unit> <after discovering [Navigation]>",
+			"Can instantly construct a [Remove Ice] improvement <by consuming this unit> <after discovering [Steam Power]>",
 			"Uncapturable"
 		]
 	},
