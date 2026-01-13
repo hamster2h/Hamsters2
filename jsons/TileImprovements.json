@@ -39,7 +39,7 @@
 		"terrainsCanBeBuiltOn": [
 			"Ice"
 		],
-		"techRequired": "Agriculture",
+		"techRequired": "Steam Power",
 		"uniques": [
 			"Can be built outside your borders"
 		]
