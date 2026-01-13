@@ -215,6 +215,7 @@
 			"May create improvements on water resources",
 			"Can enter ice tiles <after discovering [Navigation]>",
 			"Can instantly construct a [Offshore Wind Farm] improvement <by consuming this unit> <after discovering [Terraforming]>",
+			"Can build [Remove Ice] improvements on tiles",
 			"Uncapturable"
 		]
 	},
