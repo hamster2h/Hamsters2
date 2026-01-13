@@ -5,8 +5,8 @@
         "Cannot be used as permanent audiovisual mod"
     ],
     "constants": {
-        "cityWorkRange": 4,
-        "cityExpandRange": 6,
+        "cityWorkRange": 5,
+        "cityExpandRange": 8,
         "minimalCityDistance": 2,
         "minimalCityDistanceOnDifferentContinents": 1
     }
