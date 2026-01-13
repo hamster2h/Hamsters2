@@ -211,11 +211,11 @@
 		"cost": 25,
 		"requiredTech": "Sailing",
 		"uniques": [
-			"Cannot enter ocean tiles <before discovering [Astronomy]>",
 			"May create improvements on water resources",
+			"Cannot enter ocean tiles <before discovering [Astronomy]>",
 			"Can enter ice tiles <after discovering [Navigation]>",
 			"Can instantly construct a [Offshore Wind Farm] improvement <by consuming this unit> <after discovering [Terraforming]>",
-			"Can build [Remove Ice] improvements on tiles",
+			"Can instantly construct a [Remove Ice] improvement <by consuming this unit> <after discovering [Navigation]>",
 			"Uncapturable"
 		]
 	},
