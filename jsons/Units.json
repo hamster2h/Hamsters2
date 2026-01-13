@@ -989,6 +989,7 @@
 			"Anti-Air",
 			"Comment [+33% Strength to adjacent Land Units vs Air Units]",
 			"[100]% chance to intercept air attacks",
+			"[1] extra interceptions may be made per turn",
 			"[+300]% Strength <vs [Air] units>",
 			"Never appears as a Barbarian unit"
 		],
@@ -1011,6 +1012,7 @@
 			"Consumes [1] [Composites]",
 			"Comment [+33% Strength to adjacent Land Units vs Air Units]",
 			"[100]% chance to intercept air attacks",
+			"[1] extra interceptions may be made per turn",
 			"[+300]% Strength <vs [Air] units>",
 			"Never appears as a Barbarian unit"
 		],
@@ -1175,6 +1177,7 @@
 			"Cyber",
 			"Consumes [2] [Aluminum]",
 			"[100]% chance to intercept air attacks",
+			"[1] extra interceptions may be made per turn",
 			"Can see invisible [Submarine] units",
 			"Can carry [6] [Missile] units",
 			"[+100]% Strength <vs [Submarine] units>",
