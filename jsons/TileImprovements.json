@@ -34,6 +34,17 @@
 		]
 	},
 	{
+		"name": "Remove Ice",
+		"turnsToBuild": 14,
+		"terrainsCanBeBuiltOn": [
+			"Ice"
+		],
+		"techRequired": "Agriculture",
+		"uniques": [
+			"Can be built outside your borders"
+		]
+	},
+	{
 		"name": "Farm",
 		"terrainsCanBeBuiltOn": [
 			"Plains",
@@ -248,7 +259,8 @@
 			"Plains",
 			"Grassland",
 			"Desert",
-			"Tundra"
+			"Tundra",
+			"Snow"
 		],
 		"gold": 3,
 		"production": 2,
