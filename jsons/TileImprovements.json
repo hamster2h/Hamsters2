@@ -286,6 +286,7 @@
 	},
 	{
 		"name": "Offshore Wind Farm",
+		"turnsToBuild": 14,
 		"terrainsCanBeBuiltOn": [
 			"Coast",
 			"Ocean"
@@ -302,7 +303,6 @@
 			"[+1 Food, +1 Production] <within [1] tiles of a [Offshore Platform]>",
 			"[+1 Food, +1 Production] <within [1] tiles of a [Offshore Platform]> <after adopting [Safety Checks]>",
 			"[+1 Food, +1 Production] <within [1] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
-			"Can only be built on [Water] tiles",
 			"Pillaging this improvement yields approximately [+30 Gold]"
 		],
 		"shortcutKey": "G"
