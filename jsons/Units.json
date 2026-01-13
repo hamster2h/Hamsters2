@@ -213,6 +213,7 @@
 		"uniques": [
 			"Cannot enter ocean tiles <before discovering [Astronomy]>",
 			"May create improvements on water resources",
+			"Can enter ice tiles <after discovering [Terraforming]>",
 			"Can instantly construct a [Offshore Wind Farm] improvement <by consuming this unit> <after discovering [Terraforming]>",
 			"Uncapturable"
 		]
