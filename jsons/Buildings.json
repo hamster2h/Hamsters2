@@ -1331,18 +1331,6 @@
 		]
 	},
 	{
-		"name": "Coal Plant",
-		"requiredResource": "Coal",
-		"cost": 360,
-		"maintenance": 3,
-		"requiredTech": "Electricity",
-		"uniques": [
-			"Provides [5] [Power]",
-			"Provides [3] [Power] <after discovering [Clean Energy]>",
-			"Provides [5] [Power] <if [Electrical Corporation] is constructed>"
-		]
-	},
-	{
 		"name": "Hospital",
 		"food": 3,
 		"requiredBuilding": "Aqueduct",
@@ -1367,20 +1355,6 @@
 		"requiredTech": "Electricity",
 		"uniques": [
 			"[+15]% [Gold] [in this city] <with [Power]>"
-		]
-	},
-	{
-		"name": "Hydro Plant",
-		"cost": 360,
-		"requiredTech": "Electricity",
-		"hurryCostModifier": 0,
-		"maintenance": 3,
-		"uniques": [
-			"Must be on [River]",
-			"Provides [3] [Power]",
-			"Provides [3] [Power] <after discovering [Clean Energy]>",
-			"[+1 Production] from [River] tiles [in this city]",
-			"Provides [3] [Power] <if [Electrical Corporation] is constructed>"
 		]
 	},
 	{
@@ -1432,6 +1406,45 @@
 		]
 	},
 	{
+		"name": "Hydro Plant",
+		"cost": 360,
+		"requiredTech": "Electricity",
+		"hurryCostModifier": 0,
+		"maintenance": 3,
+		"uniques": [
+			"Must be on [River]",
+			"Provides [3] [Power]",
+			"Provides [3] [Power] <after discovering [Clean Energy]>",
+			"[+1 Production] from [River] tiles [in this city]",
+			"Provides [3] [Power] <if [Electrical Corporation] is constructed>"
+		]
+	},
+	{
+		"name": "Electrical Grid",
+		"hurryCostModifier": 15,
+		"requiredTech": "Infrastructure",
+		"cost": 500,
+		"uniques": [
+			"Provides [4] [Power]",
+			"Provides [1] [Power] <after discovering [Clean Energy]>",
+			"Provides [1] [Power] <if [Electrical Corporation] is constructed>",
+			"Must have an owned [Power Plant] within [3] tiles",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Coal Plant",
+		"requiredResource": "Coal",
+		"cost": 360,
+		"maintenance": 3,
+		"requiredTech": "Electricity",
+		"uniques": [
+			"Provides [5] [Power]",
+			"Provides [3] [Power] <after discovering [Clean Energy]>",
+			"Provides [5] [Power] <if [Electrical Corporation] is constructed>"
+		]
+	},
+	{
 		"name": "Nuclear Plant",
 		"maintenance": 3,
 		"requiredResource": "Uranium",
@@ -1440,6 +1453,17 @@
 			"Provides [7] [Power]",
 			"Provides [3] [Power] <after discovering [Clean Energy]>",
 			"Provides [7] [Power] <if [Electrical Corporation] is constructed>"
+		]
+	},
+	{
+		"name": "Energy Reactor",
+		"cost": 1000,
+		"maintenance": 6,
+		"uniques": [
+			"Only available <if [SP-Future Power] is constructed>",
+			"Provides [20] [Power]",
+			"Provides [3] [Power] <after discovering [Clean Energy]>",
+			"Provides [20] [Power] <if [Electrical Corporation] is constructed>"
 		]
 	},
 	{
@@ -1454,19 +1478,6 @@
 			"Provides [1] [Oil]",
 			"[+1 Production] per [4] population [in this city]",
 			"Limited to [5] per Civilization"
-		]
-	},
-	{
-		"name": "Electrical Grid",
-		"hurryCostModifier": 15,
-		"requiredTech": "Infrastructure",
-		"cost": 500,
-		"uniques": [
-			"Provides [4] [Power]",
-			"Provides [1] [Power] <after discovering [Clean Energy]>",
-			"Provides [1] [Power] <if [Electrical Corporation] is constructed>",
-			"Must have an owned [Power Plant] within [3] tiles",
-			"Destroyed when the city is captured"
 		]
 	},
 	{
@@ -1609,17 +1620,6 @@
 		]
 	},
 	{
-		"name": "Energy Reactor",
-		"cost": 1000,
-		"maintenance": 6,
-		"uniques": [
-			"Only available <if [SP-Future Power] is constructed>",
-			"Provides [15] [Power]",
-			"Provides [3] [Power] <after discovering [Clean Energy]>",
-			"Provides [15] [Power] <if [Electrical Corporation] is constructed>"
-		]
-	},
-	{
 		"name": "Composite Factory",
 		"production": 2,
 		"maintenance": 6,
@@ -1627,7 +1627,7 @@
 		"cost": 1000,
 		"uniques": [
 			"Consumes [4] [Power]",
-			"Provides [4] [Composites]",
+			"Provides [6] [Composites]",
 			"[+10]% Production when constructing [Cyber] units [in this city]",
 			"Destroyed when the city is captured",
 			"Only available <if [EP-Cyber Engineering] is constructed>"
