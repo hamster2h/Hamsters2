@@ -2146,6 +2146,7 @@
 		"requiredTech": "Automation",
 		"uniques": [
 			"Cyber",
+			"Can move immediately once bought",
 			"[+100]% Strength <when defending>",
 			"Never appears as a Barbarian unit"
 		],
