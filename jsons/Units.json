@@ -1179,7 +1179,7 @@
 			"[100]% chance to intercept air attacks",
 			"[1] extra interceptions may be made per turn",
 			"Can see invisible [Submarine] units",
-			"Can carry [6] [Missile] units",
+			"Can carry [40] [Missile] units",
 			"[+100]% Strength <vs [Submarine] units>",
 			"[+100]% Strength <vs [Air] units>",
 			"[+100]% Strength <vs [Helicopter] units>",
@@ -1338,6 +1338,7 @@
 		"requiredTech": "Advanced Ballistics",
 		"uniques": [
 			"[-100]% maintenance costs",
+			"Can move immediately once bought",
 			"[+125]% Strength <after discovering [Lasers]>",
 			"[+100]% Strength <vs [Land] units> <after discovering [Lasers]>",
 			"[+4] Range <after discovering [Lasers]>"
@@ -1374,6 +1375,7 @@
 		"requiredTech": "Advanced Ballistics",
 		"requiredResource": "Uranium",
 		"uniques": [
+			"Can move immediately once bought",
 			"Nuclear weapon of Strength [2]",
 			"Only available <if [Nuclear Testing Site] is constructed>",
 			"Blast radius [2]",
@@ -1393,6 +1395,7 @@
 		"requiredTech": "Spaceflight",
 		"uniques": [
 			"[-100]% maintenance costs",
+			"Can move immediately once bought",
 			"Nuclear weapon of Strength [3]",
 			"Blast radius [1]",
 			"Unbuildable",
