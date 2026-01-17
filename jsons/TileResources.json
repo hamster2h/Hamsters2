@@ -87,14 +87,14 @@
 			"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>"
 		],
 		"majorDepositAmount": {
-			"sparse": 5,
-			"default": 8,
-			"abundant": 10
+			"sparse": 6,
+			"default": 9,
+			"abundant": 11
 		},
 		"minorDepositAmount": {
-			"sparse": 2,
-			"default": 3,
-			"abundant": 3
+			"sparse": 3,
+			"default": 4,
+			"abundant": 4
 		}
 	},
 	{
