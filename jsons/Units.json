@@ -1337,6 +1337,7 @@
 		"cost": 2000,
 		"requiredTech": "Nuclear Fission",
 		"requiredResource": "Oil",
+		"obsoleteTech": "Advanced Ballistics",
 		"uniques": [
 			"Consumes [1] [Uranium]",
 			"Nuclear weapon of Strength [1]",
