@@ -163,6 +163,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Ancien Régime",
 		"uniques": [
+			"[+6 Culture] [in capital]",
 			"[+4 Culture] [in all cities] <before discovering [Steam Power]>"
 		],
 		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
@@ -577,7 +578,9 @@
 		"outerColor": [101,211,220],
 		"innerColor": [167,52,31],
 		"uniqueName": "Spice Islanders",
-		"uniques": ["[+25]% Great Person generation [in capital]"],
+		"uniques": [
+			"[+25]% Great Person generation [in capital]"
+		],
 		"uniqueText": "After discovering Optics gains access to the building that provides 2 copies of unique Luxury Resources \n[+25]% Great Person generation [in capital]",
 		"cities": [
 			"Jakarta","Surabaya","Medan","Makassar","Batam","Denpasar","Samarinda","Mataram","Ambon","Bandung",
