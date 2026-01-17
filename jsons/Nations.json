@@ -163,7 +163,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Ancien Régime",
 		"uniques": [
-			"[+6 Culture] [in capital]",
+			"[+2 Culture] [in capital]",
 			"[+4 Culture] [in all cities] <before discovering [Steam Power]>"
 		],
 		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
