@@ -424,6 +424,8 @@
             {
                 "name": "Protectionism",
                 "uniques": [
+					"[+25]% [Gold] [in all cities]",
+					"[+10]% [Production] [in all cities]",
 					"[+1] Happiness from each type of luxury resource"
 				],
                 "requires": ["Mercantilism"],
@@ -487,7 +489,7 @@
             {
                 "name": "Sovereignty",
                 "uniques": [
-					"[+1 Science, +2 Gold] from all [Science] buildings"
+					"[+2 Science, +2 Gold] from all [Science] buildings"
 				],
                 "requires": ["Humanism"],
                 "row": 2,
