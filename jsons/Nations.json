@@ -421,7 +421,7 @@
 		"innerColor": [243, 240, 14],
 		"uniqueName": "Colonialist Riches",
 		"uniques": [
-			"[+1 Production] from every [Plantation]",
+			"[+1 Production] from [Plantation] tiles [in all cities]",
 			"[+1 Gold] from every [Strategic resource]",
 			"[+1 Culture] from every [Artist]"
 		],
@@ -458,7 +458,7 @@
 		"innerColor": [63,106,64],
 		"uniqueName": "Carnival",
 		"uniques": [
-			"[+6 Culture] from every [Landmark]"
+			"[+6 Culture] from [Landmark] tiles [in all cities]"
 		],
 		"cities": [
 			"Rio de Janeiro","Sao Paulo","Salvador","Brasilia","Fortaleza","Belo Horizonte","Manaus","Curitiba","Recife","Porto Alegre",
@@ -494,7 +494,7 @@
 		"innerColor": [245, 222, 153],
 		"uniqueName": "Canadian Fur Trade",
 		"uniques": [
-			"[+1 Gold] from every [Tundra] <after discovering [Guilds]>"
+			"[+1 Gold] from [Tundra] tiles [in all cities] <after discovering [Guilds]>"
 		],
 		"cities": [
 			"Ottawa","Toronto","Montreal","Vancouver","Calgary","Edmonton","Quebec City","Winnipeg","Mississauga","Halifax",
@@ -792,7 +792,7 @@
         "innerColor": [80,11,14],
         "uniqueName": "Solidarity",
         "uniques": [
-			"Free Social Policy <upon entering a new era> <after turn number [3]> <hidden from users>",
+			"Free Social Policy <upon entering a new era> <after turn number [3]>",
 			"[-10]% Culture cost of adopting new Policies",
 			"Provides [2] [Horses]"
 		],
@@ -974,7 +974,7 @@
         "innerColor": [128,3,28],
         "uniqueName": "Tam Giao",
         "uniques": [
-            "[+3 Food] from every [Marsh]",
+            "[+3 Food] from [Marsh] tiles [in all cities]",
             "[+2 Faith] from [Jungle] tiles without [Improvement] [in all cities]"
         ],
         "cities": [
