@@ -63,7 +63,7 @@
             {
                 "name": "Tradition Complete",
                 "uniques": [
-                    "[+15]% growth [in all cities]",
+                    "[+20]% growth [in all cities]",
                     "Provides a [Aqueduct] in your first [4] cities for free",
                     "Get the leader title of [Lord [leaderName]]"
                 ]
@@ -96,9 +96,9 @@
             {
                 "name": "Citizenship",
                 "uniques": [
+					"[+1 Happiness] [in all cities]",
                     "Can build [all] improvements at a [+25]% rate",
-                    "Free [Worker] appears",
-                    "[-100]% weight to this choice for AI decisions"
+                    "Free [Worker] appears"
                 ],
                 "row": 1,
                 "column": 4
@@ -199,6 +199,8 @@
             {
                 "name": "Professional Army",
                 "uniques": [
+					"New [Military] units start with [15] XP [in all cities]",
+					"[-10]% Production when constructing [Military] units [in all cities]",
                     "[-33]% Gold cost of upgrading <for [Military] units>",
                     "[+1 Happiness] from every [Walls]",
                     "[+1 Happiness] from every [Castle]",
@@ -255,8 +257,8 @@
             {
                 "name": "Theocracy",
                 "uniques": [
-					"[+10]% [Gold] from every [Shrine]",
-					"[+10]% [Gold] from every [Temple]"
+					"[+15]% [Gold] from every [Shrine]",
+					"[+15]% [Gold] from every [Temple]"
 				],
                 "requires": ["Organized Religion"],
                 "row": 2,
@@ -450,7 +452,7 @@
             "Scientific": 10
         },
         "uniques": [
-			"[+10]% [Science] <while the empire is happy>"
+			"[+15]% [Science] <while the empire is happy>"
         ],
         "policies": [
             {
@@ -629,8 +631,9 @@
             {
                 "name": "Police State",
                 "uniques": [
+					"[+1 Happiness] [in all cities]",
                     "[+3 Happiness] from every [Courthouse]",
-                    "[+100]% Production when constructing [Courthouse] buildings [in all cities]",
+                    "[+300]% Production when constructing [Courthouse] buildings [in all cities]",
                     "[-25]% enemy spy effectiveness [in all cities]"
                 ],
                 "requires": ["Militarism"],
@@ -640,7 +643,7 @@
             {
                 "name": "Total War",
                 "uniques": [
-                    "[+25]% Production when constructing [Military] units [in all cities]",
+                    "[+100]% Production when constructing [Military] units [in all cities]",
                     "New [Military] units start with [15] XP [in all cities]"
                 ],
                 "requires": ["Police State", "Fascism"],
@@ -650,7 +653,7 @@
             {
                 "name": "Autocracy Complete",
                 "uniques": [
-                    "[+25]% Strength <when attacking> <for [Military] units> <for [50] turns>",
+                    "[+25]% Strength <when attacking> <for [Military] units>",
 					"Free [Great General] appears",
                     "Get the leader title of [[leaderName] the Terrible]"
                 ]
