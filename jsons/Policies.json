@@ -200,7 +200,7 @@
                 "name": "Professional Army",
                 "uniques": [
 					"New [Military] units start with [15] XP [in all cities]",
-					"[-10]% Production when constructing [Military] units [in all cities]",
+					"[-25]% Production when constructing [Military] units [in all cities]",
                     "[-33]% Gold cost of upgrading <for [Military] units>",
                     "[+1 Happiness] from every [Walls]",
                     "[+1 Happiness] from every [Castle]",
@@ -452,7 +452,7 @@
             "Scientific": 10
         },
         "uniques": [
-			"[+15]% [Science] <while the empire is happy>"
+			"[+10]% [Science] <while the empire is happy>"
         ],
         "policies": [
             {
@@ -487,7 +487,7 @@
             {
                 "name": "Sovereignty",
                 "uniques": [
-					"[+1 Gold] from all [Science] buildings"
+					"[+1 Science, +2 Gold] from all [Science] buildings"
 				],
                 "requires": ["Humanism"],
                 "row": 2,
