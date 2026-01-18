@@ -112,9 +112,12 @@
 		"leaderName": "Augustus Caesar",
 		"personality": "Augustus",
 		"adjective": ["Roman"],
-		"startBias":["Avoid [Tundra]","Avoid [Desert]"],
+		"startBias":[
+			"Avoid [Tundra]",
+			"Avoid [Desert]"
+		],
 		"preferredVictoryType": "Domination",
-                "style": "Mediterranean",
+        "style": "Mediterranean",
 
 		"startIntroPart1": "The blessings of the gods be upon you, Caesar Augustus, emperor of Rome and all her holdings. Your empire was the greatest and longest lived of all in Western civilization. And your people single-handedly shaped its culture, law, art, and warfare like none other, before or since. Through years of glorious conquest, Rome came to dominate all the lands of the Mediterranean from Spain in the west to Syria in the east. And her dominion would eventually expand to cover much of England and northern Germany. Roman art and architecture still awe and inspire the world. And she remains the envy of all lesser civilizations who have followed.",
 		"startIntroPart2": "O mighty emperor, your people turn to you to once more reclaim the glory of Rome! Will you see to it that your empire rises again, bringing peace and order to all? Will you make Reme once again center of the world? Can you build a civilization that will stand the test of time?",
@@ -134,17 +137,21 @@
 			"[-100]% maintenance on road & railroads",
 			"Empire enters a [5]-turn Golden Age <upon gaining a [Great General] unit>"
 		],
-		"cities": ["Rome","Antium","Cumae","Neapolis","Ravenna","Arretium","Mediolanum","Arpinum","Circei","Setia",
+		"cities": [
+			"Rome","Antium","Cumae","Neapolis","Ravenna","Arretium","Mediolanum","Arpinum","Circei","Setia",
 			"Satricum","Ardea","Ostia","Velitrae","Viroconium","Tarentum","Brundisium","Caesaraugusta","Caesarea","Palmyra",
 			"Signia","Aquileia","Clusium","Sutrium","Cremona","Placentia","Hispalis","Artaxata","Aurelianorum","Nicopolis",
-			  "Agrippina","Verona","Corfinium","Treverii","Sirmium","Augustadorum","Curia","Interrama","Adria"],
+			"Agrippina","Verona","Corfinium","Treverii","Sirmium","Augustadorum","Curia","Interrama","Adria"
+		],
         "spyNames": ["Flavius", "Regula", "Servius", "Lucia", "Cornelius", "Licina", "Canus", "Serpens", "Agrippa", "Brutus"]
     },
 	{
 		"name": "Japan",
 		"leaderName": "Oda Nobunaga",
 		"adjective": ["Japanese"],
-		"startBias": ["Coast"],
+		"startBias": [
+			"Coast"
+		],
 		"preferredVictoryType": "Domination",
 		"personality": "Oda Nobunaga",
 
@@ -168,10 +175,12 @@
 			"[+1 Food] from [Coast] tiles [in all cities]",
 			"[+1 Food] from [Ocean] tiles [in all cities]"
 		],
-		"cities": ["Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama",
+		"cities": [
+			"Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama",
 			"Shimonoseki","Matsuyama","Sapporo","Hakodate","Ise","Toyama","Fukushima","Suo","Bizen","Echizen",
 			"Izumi","Omi","Echigo","Kozuke","Sado","Kobe","Nagano","Hiroshima","Takayama","Akita","Fukuoka","Aomori",
-			"Kamakura","Kochi","Naha","Sendai","Gifu","Yamaguchi","Ota","Tottori"],
+			"Kamakura","Kochi","Naha","Sendai","Gifu","Yamaguchi","Ota","Tottori"
+		],
         "spyNames": ["Akaishi", "Oki", "Hattori", "Morozumi", "Momochi", "Kawashima", "Orin", "Sakanishi", "Kaede", "Mochizuki"]
     },
 	{
@@ -201,10 +210,12 @@
 			"[+2 Culture] [in capital]",
 			"[+4 Culture] [in all cities] <before discovering [Steam Power]>"
 		],
-		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
+		"cities": [
+			"Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
 			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
 			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
-			"Le Havre","Lourdes","Cannes","Aix-En-Provence","La Rochelle","Bourges","Calais"],
+			"Le Havre","Lourdes","Cannes","Aix-En-Provence","La Rochelle","Bourges","Calais"
+		],
         "spyNames": ["Jean-Paul", "Martine", "Lucien", "François", "Augustine", "Monsieur X", "Dr. Dupont", "Vipère", "Yvette", "Renard"]
     },
 	{
@@ -250,6 +261,9 @@
 		"name": "America",
 		"leaderName": "George Washington",
 		"adjective": ["American"],
+		"startBias": [
+			"River"
+		],
 		"preferredVictoryType": "Scientific",
 		"personality": "George Washington",
 
