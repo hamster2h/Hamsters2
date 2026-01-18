@@ -490,6 +490,13 @@
         ],
         "prerequisites": ["Buffalo Chest II"],
         "unitTypes": ["Sword","Gunpowder"]
-    }
+    },
+	{
+		"name": "Golden Age from Victories",
+		"uniques": [
+			"Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]"
+		]
+	}
 ]
+
 
