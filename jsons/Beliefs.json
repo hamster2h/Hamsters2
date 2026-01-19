@@ -102,18 +102,24 @@
     {
         "name": "Monument to the Gods",
         "type": "Pantheon",
-        "uniques": ["[+15]% Production when constructing [Ancient era] wonders [in cities following this religion]",
-            "[+15]% Production when constructing [Classical era] wonders [in cities following this religion]"]
+        "uniques": [
+            "[+20]% Production when constructing [Ancient era] wonders [in cities following this religion]",
+            "[+20]% Production when constructing [Classical era] wonders [in cities following this religion]"
+        ]
     },
     {
         "name": "One with Nature",
         "type": "Pantheon",
-        "uniques": ["[+4 Faith] from every [Natural Wonder]"]
+        "uniques": [
+            "[+4 Faith] from every [Natural Wonder]"
+        ]
     },
     {
         "name": "Oral Tradition",
         "type": "Pantheon",
-        "uniques": ["[+1 Culture] from every [Plantation]"]
+        "uniques": [
+            "[+1 Culture] from every [Plantation]"
+        ]
     },
     {
         "name": "Religious Idols",
