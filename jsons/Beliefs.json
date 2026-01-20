@@ -182,67 +182,94 @@
     {
         "name": "Divine inspiration",
         "type": "Follower",
-        "uniques": ["[+2 Faith] from every [Wonder]"]
+        "uniques": [
+            "[+2 Faith] from every [Wonder]"
+        ]
     },
     {
         "name": "Feed the World",
         "type": "Follower",
-        "uniques": ["[+1 Food] from every [Shrine]", "[+1 Food] from every [Temple]"]
+        "uniques": [
+            "[+1 Food] from every [Shrine]",
+            "[+1 Food] from every [Temple]"
+        ]
     },
     {
         "name": "Guruship",
         "type": "Follower",
-        "uniques": ["[+2 Production] [in cities following this religion] <in cities with at least [1] [Specialists]>"]
+        "uniques": [
+            "[+4 Production] [in cities following this religion] <in cities with at least [1] [Specialists]>"
+        ]
     },
     {
         "name": "Holy Warriors",
         "type": "Follower",
-        "uniques": ["May buy [{pre-[Industrial era]} {Military} {Land}] units with [Faith] for [2] times their normal Production cost <in [in cities following this religion] cities>"]
+        "uniques": [
+            "May buy [{pre-[Industrial era]} {Military} {Land}] units with [Faith] for [2] times their normal Production cost <in [in cities following this religion] cities>"
+        ]
     },
     {
         "name": "Liturgical Drama",
         "type": "Follower",
-        "uniques": ["[+1 Faith] from every [Amphitheater] <in cities with at least [3] [Followers of this Religion]>"]
+        "uniques": [
+            "[+2 Faith] from every [Amphitheater] <in cities with at least [3] [Followers of this Religion]>"
+        ]
     },
     {
         "name": "Monasteries",
         "type": "Follower",
-        "uniques": ["May buy [Monastery] buildings for [150] [Faith] [in cities following this religion]"]
+        "uniques": [
+            "May buy [Monastery] buildings for [150] [Faith] [in cities following this religion]"
+        ]
     },
     {
         "name": "Mosques",
         "type": "Follower",
-        "uniques": ["May buy [Mosque] buildings with [Faith] [in cities following this religion]"]
+        "uniques": [
+            "May buy [Mosque] buildings with [Faith] [in cities following this religion]"
+        ]
     },
     {
         "name": "Pagodas",
         "type": "Follower",
-        "uniques": ["May buy [Pagoda] buildings with [Faith] [in cities following this religion]"]
+        "uniques": [
+            "May buy [Pagoda] buildings with [Faith] [in cities following this religion]"
+        ]
     },
     {
         "name": "Peace Gardens",
         "type": "Follower",
-        "uniques": ["[+2 Happiness] from every [Garden]"]
+        "uniques": [
+            "[+2 Happiness] from every [Garden]"
+        ]
     },
     {
         "name": "Religious Art",
         "type": "Follower",
-        "uniques": ["[+8 Culture] from every [Hermitage]"]
+        "uniques": [
+            "[+8 Culture] from every [Hermitage]"
+        ]
     },
     {
         "name": "Religious Center",
         "type": "Follower",
-        "uniques": ["[+2 Happiness] from every [Temple] <in cities with at least [5] [Followers of this Religion]>"]
+        "uniques": [
+            "[+2 Happiness] from every [Temple] <in cities with at least [5] [Followers of this Religion]>"
+        ]
     },
     {
         "name": "Religious Community",
         "type": "Follower",
-        "uniques": ["[+1]% [Production] from every follower, up to [15]%"]
+        "uniques": [
+            "[+1]% [Production] from every follower, up to [15]%"
+        ]
     },
     {
         "name": "Swords into Ploughshares",
         "type": "Follower",
-        "uniques": ["[+15]% growth [in this city] <when not at war>"]
+        "uniques": [
+            "[+15]% growth [in this city] <when not at war>"
+        ]
     },
 ///////////////////////////////////////// Founder beliefs //////////////////////////////////////////
 
@@ -317,50 +344,69 @@
     {
         "name": "Defender of the Faith",
         "type": "Enhancer",
-        "uniques": ["[+20]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"]
-        // ToDo: Should only be friendly territory of cities that follow this religion
+        "uniques": [
+            "[+20]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
+        ]
     },
     {
         "name": "Holy Order",
         "type": "Enhancer",
-        "uniques": ["[Faith] cost of purchasing [Missionary] units [-30]%", "[Faith] cost of purchasing [Inquisitor] units [-30]%"]
+        "uniques": [
+            "[Faith] cost of purchasing [Missionary] units [-30]%",
+            "[Faith] cost of purchasing [Inquisitor] units [-30]%"
+        ]
     },
     {
         "name": "Itinerant Preachers",
         "type": "Enhancer",
-        "uniques": ["Religion naturally spreads to cities [+3] tiles away"]
+        "uniques": [
+            "Religion naturally spreads to cities [+3] tiles away"
+        ]
     },
     {
         "name": "Just War",
         "type": "Enhancer",
-        "uniques": ["[+20]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>"]
-        // ToDo: Should only be enemy territory of cities that follow this religion
+        "uniques": [
+            "[+20]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>"
+        ]
     },
     {
         "name": "Messiah",
         "type": "Enhancer",
-        "uniques": ["[+25]% Spread Religion Strength <for [Great Prophet] units>", "[-25]% Faith cost of generating Great Prophet equivalents"]
+        "uniques": [
+            "[+25]% Spread Religion Strength <for [Great Prophet] units>",
+            "[-25]% Faith cost of generating Great Prophet equivalents"
+        ]
     },
     {
         "name": "Missionary Zeal",
         "type": "Enhancer",
-        "uniques": ["[+25]% Spread Religion Strength <for [Missionary] units>"]
+        "uniques": [
+            "[+25]% Spread Religion Strength <for [Missionary] units>"
+        ]
     },
     {
         "name": "Religious Texts",
         "type": "Enhancer",
-        "uniques": ["[+34]% Natural religion spread [in all cities]", "[+34]% Natural religion spread [in all cities] <after discovering [Printing Press]>"]
+        "uniques": [
+            "[+34]% Natural religion spread [in all cities]",
+            "[+34]% Natural religion spread [in all cities] <after discovering [Printing Press]>"
+        ]
     },
     {
         "name": "Religious Unity",
         "type": "Enhancer",
-        "uniques": ["[+100]% Natural religion spread [in City-State cities]",
+        "uniques": [
+            "[+100]% Natural religion spread [in City-State cities]",
             "[-100]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [2]>",
-            "[-50]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [4]>"]
+            "[-50]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [4]>"
+        ]
     },
     {
         "name": "Reliquary",
         "type": "Enhancer",
-        "uniques": ["Gain [50] [Faith] <upon expending a [Great Person] unit> <(modified by game speed)>"]
+        "uniques": [
+            "Gain [50] [Faith] <upon expending a [Great Person] unit> <(modified by game speed)>"
+        ]
     }
 ]
