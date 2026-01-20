@@ -66,7 +66,7 @@
 		"uniqueName": "The Great Warpath",
 		"uniques": [
 			"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.",
-			"Starts with [Construction]"
+			"Starts with [Mining]"
 		],
 		"cities": [
 			"Onondaga","Osininka","Grand River","Akwesasme","Buffalo Creek","Brantford","Montreal","Genesse River",
