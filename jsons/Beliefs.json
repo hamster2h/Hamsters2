@@ -11,7 +11,7 @@
         "name": "Dance of the Aurora",
         "type": "Pantheon",
         "uniques": [
-            "[+2 Faith] from [Tundra] tiles [in all cities]"
+            "[+1 Faith] from [Tundra] tiles [in all cities]"
         ]
     },
     {
@@ -190,8 +190,8 @@
         "name": "Feed the World",
         "type": "Follower",
         "uniques": [
-            "[+1 Food] from every [Shrine]",
-            "[+1 Food] from every [Temple]"
+            "[+2 Food] from every [Shrine]",
+            "[+2 Food] from every [Temple]"
         ]
     },
     {
@@ -205,21 +205,21 @@
         "name": "Holy Warriors",
         "type": "Follower",
         "uniques": [
-            "May buy [{pre-[Industrial era]} {Military} {Land}] units with [Faith] for [2] times their normal Production cost <in [in cities following this religion] cities>"
+            "May buy [{pre-[Industrial era]} {Military} {Land}] units with [Faith] for [1] times their normal Production cost <in [in cities following this religion] cities>"
         ]
     },
     {
         "name": "Liturgical Drama",
         "type": "Follower",
         "uniques": [
-            "[+2 Faith] from every [Amphitheater] <in cities with at least [3] [Followers of this Religion]>"
+            "[+3 Faith] from every [Amphitheater] <in cities with at least [3] [Followers of this Religion]>"
         ]
     },
     {
         "name": "Monasteries",
         "type": "Follower",
         "uniques": [
-            "May buy [Monastery] buildings for [150] [Faith] [in cities following this religion]"
+            "May buy [Monastery] buildings for [125] [Faith] [in cities following this religion]"
         ]
     },
     {
@@ -247,7 +247,7 @@
         "name": "Religious Art",
         "type": "Follower",
         "uniques": [
-            "[+8 Culture] from every [Hermitage]"
+            "[+12 Culture] from every [Hermitage]"
         ]
     },
     {
@@ -353,7 +353,7 @@
         "type": "Enhancer",
         "uniques": [
             "[Faith] cost of purchasing [Missionary] units [-30]%",
-            "[Faith] cost of purchasing [Inquisitor] units [-30]%"
+            "[Faith] cost of purchasing [Inquisitor] units [-75]%"
         ]
     },
     {
@@ -382,7 +382,7 @@
         "name": "Missionary Zeal",
         "type": "Enhancer",
         "uniques": [
-            "[+25]% Spread Religion Strength <for [Missionary] units>"
+            "[+50]% Spread Religion Strength <for [Missionary] units>"
         ]
     },
     {
@@ -406,7 +406,7 @@
         "name": "Reliquary",
         "type": "Enhancer",
         "uniques": [
-            "Gain [50] [Faith] <upon expending a [Great Person] unit> <(modified by game speed)>"
+            "Gain [100] [Faith] <upon expending a [Great Person] unit> <(modified by game speed)>"
         ]
     }
 ]
