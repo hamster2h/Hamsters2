@@ -2070,7 +2070,7 @@
 			"Comment [Enables construction of Triplanes and Landships]",
 			"[+10]% Strength <for [Armored] units>",
 			"[+10]% Strength <for [Air] units>",
-			"Only available <during the [Modern era]>",
+			"Only available <starting from the [Modern era]>",
 			"Only available <with [Engineer Perk]>",
 			"Consumes [1] [Engineer Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
