@@ -768,12 +768,14 @@
 	{
 		"name": "Defense Force Agency",
 		"isWonder": true,
-		"cost": 2720,
+		"cost": 3500,
 		"requiredResource": "Corporation Slot",
 		"requiredTech": "Combined Arms",
 		"uniques": [
 			"Provides [4] [Defense Force Stock]",
 			"New [Military] units start with [45] XP [in all cities]",
+			"[+100]% Gold cost of upgrading <for [Military] units>",
+			"[Gold] cost of purchasing [Military] units [+100]%",
 			"Consumes [1] [Corporation Slot(Total)]",
 			"Only available <with [Corporation Slot]>"
 		]
@@ -824,12 +826,12 @@
 		"name": "Holy Organization",
 		"isWonder": true,
 		"cost": 2720,
-		"culture": ,
+		"culture": 4,
 		"requiredResource": "Corporation Slot",
 		"requiredTech": "Corporations",
 		"uniques": [
 			"Provides [4] [Holy Stock]",
-			"[Faith] cost of purchasing [Al44l] units [-35]%",
+			"[Faith] cost of purchasing [All] units [-35]%",
 			"Consumes [1] [Corporation Slot(Total)]",
 			"Only available <with [Corporation Slot]>"
 		]
@@ -1771,9 +1773,9 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Industrial Perk]",
-			"[+2 Science] from [River] tiles [in all cities] <during the [Industrial era]>",
-			"[+1 Science] from [Coast] tiles [in all cities] <during the [Industrial era]>",
-			"[+1 Science] from [Ocean] tiles [in all cities] <during the [Industrial era]>",
+			"[+4 Science] from [River] tiles [in all cities] <during the [Industrial era]>",
+			"[+2 Science] from [Coast] tiles [in all cities] <during the [Industrial era]>",
+			"[+2 Science] from [Ocean] tiles [in all cities] <during the [Industrial era]>",
 			"Only available <during the [Industrial era]>",
 			"Only available <with [Scientist Perk]>",
 			"Consumes [1] [Scientist Perk]",
@@ -1828,7 +1830,7 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Atomic Perk]",
-			"[+50]% Production when constructing [Atomic Bomb] units [in all cities]",
+			"[+100]% Production when constructing [Atomic Bomb] units [in all cities]",
 			"[Gold] cost of purchasing [Atomic Bomb] units [-25]%",
 			"Only available <during the [Atomic era]>",
 			"Only available <with [Scientist Perk]>",
@@ -1898,9 +1900,9 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Industrial Perk]",
-			"[+50]% Production when constructing [Archaeologist] units [in all cities]",
+			"[+100]% Production when constructing [Archaeologist] units [in all cities]",
 			"[Gold] cost of purchasing [Archaeologist] units [-25]%",
-			"[+5]% [Culture] from every [Museum]",
+			"[+10]% [Culture] from every [Museum]",
 			"Only available <during the [Industrial era]>",
 			"Only available <with [Artist Perk]>",
 			"Consumes [1] [Artist Perk]",
@@ -1941,7 +1943,7 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Modern Perk]",
-			"[+50]% Production when constructing [Musician] units [in all cities]",
+			"[+100]% Production when constructing [Musician] units [in all cities]",
 			"[Gold] cost of purchasing [Musician] units [-25]%",
 			"[+10]% [Culture] from every [Public School]",
 			"Only available <during the [Modern era]>",
@@ -2019,19 +2021,19 @@
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
 	},
-	//{
-		//"name": "AP-Space Combat",
-		//"isNationalWonder": true,
-		//"cost": 1,
-		//"uniques": [
-			//"Comment [Information Perk]",
-			//"[+1 Culture] from every specialist [in all cities]",
-			//"Only available <during the [Future era]>",
-			//"Only available <with [Artist Perk]>",
-			//"Consumes [1] [Artist Perk]",
-			//"[-2 Culture] [in this city] <after adopting [Constitution]>"
-		//]
-	//},
+	{
+		"name": "AP-Space Combat",
+		"isNationalWonder": true,
+		"cost": 1,
+		"uniques": [
+			"Comment [Information Perk]",
+			"[+2 Culture] from every specialist [in all cities]",
+			"Only available <during the [Future era]>",
+			"Only available <with [Artist Perk]>",
+			"Consumes [1] [Artist Perk]",
+			"[-2 Culture] [in this city] <after adopting [Constitution]>"
+		]
+	},
 	{
 		"name": "EP-First Pioneers",
 		"isNationalWonder": true,
@@ -2053,7 +2055,7 @@
 		"uniques": [
 			"Comment [Industrial Perk]",
 			"Gain a free [Free Iron] [in all cities]",
-			"Only available <during the [Industrial era]>",
+			"Only available <starting from the [Industrial era]>",
 			"Only available <with [Engineer Perk]>",
 			"Consumes [1] [Engineer Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
