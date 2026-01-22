@@ -1,23 +1,23 @@
 [
     {
-    "name": "Ocupada Estable",
-    "replaces": "Stable",
-    "uniqueTo": "Argentina",
-    "maintenance": 1,
-    "requiredNearbyImprovedResources": [
-      "Horses",
-      "Sheep",
-      "Cattle"
-    ],
-    "hurryCostModifier": 25,
-    "uniques": [
-      "[+15]% Production when constructing [Mounted] units [in this city]",
-      "[+1 Production, +1 Food] from [Cattle] tiles [in this city]",
-      "[+1 Production, +1 Food] from [Horses] tiles [in this city]",
-      "[+1 Production, +1 Food] from [Sheep] tiles [in this city]"
-    ],
-    "requiredTech": "Horseback Riding"
-  },
+		"name": "Ocupada Estable",
+		"replaces": "Stable",
+		"uniqueTo": "Argentina",
+		"maintenance": 1,
+		"requiredNearbyImprovedResources": [
+			"Horses",
+			"Sheep",
+			"Cattle"
+		],
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+15]% Production when constructing [Mounted] units [in this city]",
+			"[+1 Production, +1 Food] from [Cattle] tiles [in this city]",
+			"[+1 Production, +1 Food] from [Horses] tiles [in this city]",
+			"[+1 Production, +1 Food] from [Sheep] tiles [in this city]"
+		],
+		"requiredTech": "Horseback Riding"
+	},
   {
     "name": "Royal Library",
     "replaces": "Library",
@@ -824,11 +824,12 @@
 		"name": "Holy Organization",
 		"isWonder": true,
 		"cost": 2720,
+		"culture": ,
 		"requiredResource": "Corporation Slot",
 		"requiredTech": "Corporations",
 		"uniques": [
 			"Provides [4] [Holy Stock]",
-			"[Faith] cost of purchasing [All] units [-35]%",
+			"[Faith] cost of purchasing [Al44l] units [-35]%",
 			"Consumes [1] [Corporation Slot(Total)]",
 			"Only available <with [Corporation Slot]>"
 		]
