@@ -1900,7 +1900,7 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Industrial Perk]",
-			"[+100]% Production when constructing [Archaeologist] units [in all cities]",
+			"[+50]% Production when constructing [Archaeologist] units [in all cities]",
 			"[Gold] cost of purchasing [Archaeologist] units [-25]%",
 			"[+10]% [Culture] from every [Museum]",
 			"Only available <starting from the [Industrial era]>",
