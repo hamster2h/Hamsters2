@@ -1416,7 +1416,6 @@
 		"cost": 350,
 		"requiredResource": "Iron",
 		"upgradesTo": "Tank",
-		"obsoleteTech": "Combustion",
 		"uniques": [
 			"Consumes [1] [Oil]",
 			"Only available <if [EP-Early Vehicles] is constructed>",
@@ -1600,7 +1599,6 @@
 		"interceptRange": 5,
 		"cost": 325,
 		"upgradesTo": "Fighter",
-		"obsoleteTech": "Radar",
 		"requiredResource": "Oil",
 		"uniques": [
 			"[50]% chance to intercept air attacks",
