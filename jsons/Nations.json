@@ -369,9 +369,7 @@
 		"uniques": [
 			"[+1] Sight <for [{Military} {Land}] units>",
 			"[-50]% Gold cost of acquiring tiles [in all cities]",
-			"Starts with [Freedom] adopted",
-			"Starts with [Constitution] adopted",
-			"Starts with [Democracy] adopted"
+			"Starts with [Freedom] adopted"
 		],
 		"cities": [
 			"Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
