@@ -2581,6 +2581,9 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Future Perk]",
+			"All newly-trained [Hovertank] units [in all cities] receive the [Mobility] promotion",
+			"All newly-trained [Hovertillery] units [in all cities] receive the [Mobility] promotion",
+			"All newly-trained [Hover-SAM] units [in all cities] receive the [Mobility] promotion",
 			"Only available <starting from the [Future era]>",
 			"Only available <with [General Perk]>",
 			"Consumes [1] [General Perk]",
