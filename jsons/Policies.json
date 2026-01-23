@@ -311,7 +311,8 @@
             {
                 "name": "Philantropy",
                 "uniques": [
-                    "Gifts of Gold to City-States generate [25]% more Influence"
+                    "Gifts of Gold to City-States generate [25]% more Influence",
+					"[+300]% Gold from Great Merchant trade missions",
                 ],
                 "row": 1,
                 "column": 2
@@ -345,10 +346,10 @@
             },
             {
                 "name": "Educated Elite",
-                "requires": ["Scholasticism", "Aesthetics"],
                 "uniques": [
                     "Allied City-States will occasionally gift Great People"
                 ],
+				"requires": ["Scholasticism", "Aesthetics"],
                 "row": 3,
                 "column": 4
             },
@@ -436,7 +437,6 @@
                 "name": "Commerce Complete",
                 "uniques": [
                     "[+1 Gold] from every [Trading post]",
-                    "[+100]% Gold from Great Merchant trade missions",
                     "May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500])",
                     "Get the leader title of [Doge [leaderName]]"
                 ]
