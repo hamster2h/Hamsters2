@@ -290,7 +290,8 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Ancien Régime",
 		"uniques": [
-			"[+2 Culture] [in capital]",
+			"[+10]% [Culture] [in all cities]",
+			"[+2 Culture, +2 Gold] [in capital]",
 			"[+4 Culture] [in all cities] <before discovering [Steam Power]>"
 		],
 		"cities": [
