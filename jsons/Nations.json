@@ -962,7 +962,7 @@
         "uniqueName": "Mare Clausum",
         "uniques": [
             "[+3 Gold] from every [Luxury resource]",
-			"[+100]% Gold from Great Merchant trade missions"
+			"[+400]% Gold from Great Merchant trade missions"
         ],
         "cities": [
             "Lisbon","Porto","Braga","Coimbra","Funchal","Leiria","Goa","Vila Nova de Gaia","Aveiro","Luanda",
