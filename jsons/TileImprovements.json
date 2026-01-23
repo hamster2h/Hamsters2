@@ -613,6 +613,7 @@
 		"uniques": [
 			"Great Improvement",
 			"[+4 Gold] <after discovering [Economics]>",
+			"[+4 Gold] <after discovering [Scientific Theory]>",
 			"Provides [1] [Merchant Perk] <starting from the [Industrial era]>",
 			"Removes removable features when built",
 			"[+1 Food, +2 Gold] <within [1] tiles of a [Water Tower]>",
@@ -772,11 +773,14 @@
 			"Forest"
 		],
         "production": 1,
+		"food": 1,
         "turnsToBuild": 7,
         "techRequired": "Bronze Working",
         "uniques": [
             "[+2 Gold] <after discovering [Machinery]>",
             "[+2 Culture] <after discovering [Acoustics]>",
+			"[+1 Gold] <after discovering [Economics]>",
+			"[+1 Gold] <after discovering [Scientific Theory]>",
 			"[+1 Production] <after discovering [Scientific Theory]>",
 			"[+1 Food] <after discovering [Ecology]>",
 			"[+1 Food] <within [1] tiles of a [Water Tower]>",
