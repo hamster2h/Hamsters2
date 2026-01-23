@@ -778,6 +778,19 @@
         "uniques": [
             "[+2 Gold] <after discovering [Machinery]>",
             "[+2 Culture] <after discovering [Acoustics]>",
+			"[+1 Production] <after discovering [Scientific Theory]>",
+			"[+1 Food] <after discovering [Ecology]>",
+			"[+1 Food] <within [1] tiles of a [Water Tower]>",
+			"[+1 Food] <within [1] tiles of a [Water Tower]> <after adopting [Safety Checks]>",
+			"[+1 Food] <within [1] tiles of a [Water Tower]> <if [Engineering Corporation] is constructed>",
+			"[+2 Production] <within [1] tiles of a [Industrial Complex]>",
+			"[+2 Production] <within [1] tiles of a [Industrial Complex]> <if [Engineering Corporation] is constructed>",
+			"[+2 Production] <within [1] tiles of a [Industrial Complex]> <after adopting [Safety Checks]>",
+			"[+2 Production] <within [1] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
+			"[+2 Production] <within [1] tiles of a [Citadel]> <after adopting [Coalition Complete]> <if [Engineering Corporation] is constructed>",
+			"[+2 Gold] <within [1] tiles of a [Residential]>",
+			"[+2 Gold] <within [1] tiles of a [Residential]> <after adopting [Safety Checks]>",
+			"[+2 Gold] <within [1] tiles of a [Residential]> <if [Engineering Corporation] is constructed>",
             "Pillaging this improvement yields approximately [+20 Gold]"
         ]
     },
