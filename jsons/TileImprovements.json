@@ -689,13 +689,12 @@
 		"terrainsCanBeBuiltOn": [
 			"Land"
 		],
-		"culture": 1,
+		"culture": 2,
 		"turnsToBuild": 4,
 		"uniques": [
 			"Can only be built on [Coastal] tiles",
 			"[+1 Culture] for each adjacent [Moai]",
 			"[+1 Gold] <after discovering [Flight]>",
-			"Pillaging this improvement yields approximately [+10 Gold]",
 			"[+1 Food, +1 Culture, +1 Gold] <within [1] tiles of a [Water Tower]>",
 			"[+1 Food, +1 Culture, +1 Gold] <within [1] tiles of a [Water Tower]> <after adopting [Safety Checks]>",
 			"[+1 Production, +1 Culture, +1 Gold] <within [1] tiles of a [Industrial Complex]>",
