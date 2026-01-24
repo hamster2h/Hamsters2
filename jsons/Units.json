@@ -535,9 +535,9 @@
 	},
 	{
 		"name": "Companion Cavalry",
-		"unitType": "Mounted",
 		"uniqueTo": "Greece",
 		"replaces": "Horseman",
+		"unitType": "Mounted",
 		"movement": 5,
 		"strength": 15,
 		"cost": 75,
