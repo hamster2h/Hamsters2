@@ -56,7 +56,7 @@
 		"uniqueTo": "Zulu",
 		"replaces": "Pikeman",
 		"unitType": "Sword",
-		"movement": 2,
+		"movement": 3,
 		"strength": 16,
 		"cost": 90,
 		"requiredTech": "Horseback Riding",
