@@ -1,4 +1,20 @@
 [
+	{
+		"name": "Krepost",
+		"uniqueTo": "Russia",
+		"replaces": "Barracks",
+		"maintenance": 4,
+		"uniques": [
+			"[+1 Food] from [Tundra] tiles [in this city]",
+			"[+1 Food] from [Snow] tiles [in this city]",
+			"[-25]% Culture cost of natural border growth [in this city]",
+			"[-25]% Gold cost of acquiring tiles [in this city]",
+			"New [Military] units start with [15] XP [in this city]",
+			"Destroyed when the city is captured"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Bronze Working"
+	},
     {
 		"name": "Ocupada Estable",
 		"replaces": "Stable",
