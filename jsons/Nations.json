@@ -103,8 +103,8 @@
 		"uniqueName": "Patriarchate of Constantinople",
 		"uniques": [
 			"Gain a free [Cathedral] [in capital]",
-			"[+100]% Production when constructing [Settler] units [in all cities]",
 			"[Great General] is earned [+50]% faster",
+			"[+100]% Production when constructing [Settler] units [in all cities]",
 			"May choose [1] additional belief(s) of any type when [founding] a religion"
 		],
 		"cities": [
