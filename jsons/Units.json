@@ -579,6 +579,24 @@
 		"attackSound": "elephant"
 	},
 	{
+		"name": "Mandekalu Cavalry",
+		"uniqueTo": "Songhai",
+		"replaces": "Knight",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 20,
+		"cost": 100,
+		"requiredTech": "Chivalry",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
+		"requiredResource": "Horses",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus"
+		],
+		"attackSound": "horse"
+	},
+	{
 		"name": "Keshik",
 		"uniqueTo": "Mongolia",
 		"replaces": "Knight",
