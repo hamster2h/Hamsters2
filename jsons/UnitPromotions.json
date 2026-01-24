@@ -57,7 +57,7 @@
 	{
 		"name": "Anti-Armor I",
 		"uniques": [
-			"[+50]% Strength <vs [Armored] units> <when attacking>"
+			"[+75]% Strength <vs [Armored] units> <when attacking>"
 		],
 		"unitTypes": [
 			"Helicopter"
@@ -69,7 +69,7 @@
 		"name": "Anti-Armor II",
 		"prerequisites": ["Anti-Armor I"],
 		"uniques": [
-			"[+50]% Strength <vs [Armored] units> <when attacking>"
+			"[+75]% Strength <vs [Armored] units> <when attacking>"
 		],
 		"unitTypes": [
 			"Helicopter"
@@ -545,6 +545,7 @@
 		]
 	}
 ]
+
 
 
 
