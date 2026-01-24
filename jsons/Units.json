@@ -1131,7 +1131,7 @@
 		"requiredTech": "Combined Arms",
 		"upgradesTo": "Helicopter Gunship",
 		"uniques": [
-			"[+400]% Strength <vs [Armored] units>",
+			"[+400]% Strength <vs [Armored] units> <when attacking>",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "machinegun"
@@ -1151,7 +1151,7 @@
 		"uniques": [
 			"Cyber",
 			"Consumes [1] [Aluminum]",
-			"[+300]% Strength <vs [Armored] units>",
+			"[+300]% Strength <vs [Armored] units> <when attacking>",
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"Ignores Zone of Control",
@@ -1176,7 +1176,7 @@
 		"uniques": [
 			"Cyber",
 			"Consumes [1] [Aluminum]",
-			"[+300]% Strength <vs [Armored] units>",
+			"[+300]% Strength <vs [Armored] units> <when attacking>",
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"Ignores Zone of Control",
