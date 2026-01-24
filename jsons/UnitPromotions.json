@@ -55,6 +55,29 @@
         "row": 3
 	},
 	{
+		"name": "Anti-Armor I",
+		"uniques": [
+			"[+50]% Strength <vs [Armored] units> <when attacking>"
+		],
+		"unitTypes": [
+			"Helicopter"
+		],
+        "column": 23,
+        "row": 1
+	},
+	{
+		"name": "Anti-Armor II",
+		"prerequisites": ["Anti-Armor I"],
+		"uniques": [
+			"[+50]% Strength <vs [Armored] units> <when attacking>"
+		],
+		"unitTypes": [
+			"Helicopter"
+		],
+        "column": 23,
+        "row": 2
+	},
+	{
 		"name": "Amphibious",
 		"uniques": [
 			"[+1] Sight <for [Embarked] units>",
@@ -522,6 +545,7 @@
 		]
 	}
 ]
+
 
 
 
