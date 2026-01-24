@@ -50,123 +50,105 @@
 	},
 	{
 		"name": "Convict Penitentiary",
-    "replaces": "Constabulary",
-    "uniqueTo": "Australia",
-    "cost": 160,
-    "maintenance": 1,
-    "hurryCostModifier": 25,
-    "percentStatBonus": {
-      "gold": 10,
-      "production": 10
-    },
-    "uniques": [
-      "[-25]% enemy spy effectiveness [in this city]"
-    ],
-    "requiredTech": "Banking"
-  },
-  {
-    "name": "Chocolatier",
-    "replaces": "Theatre",
-    "uniqueTo": "Belgium",
-    "happiness": 2,
-    "hurryCostModifier": 10,
-    "maintenance": 2,
-    "requiredBuilding": "Colosseum",
-    "uniques": [
-      "Provides [1] [Pralines]",
-      "Destroyed when the city is captured"
-    ],
-    "requiredTech": "Printing Press"
-  },
-  {
-    "name": "Maple Farm",
-    "replaces": "Windmill",
-    "uniqueTo": "Canada",
-    "production": 2,
-    "specialistSlots": {
-      "Engineer": 1
-    },
-    "hurryCostModifier": 25,
-    "maintenance": 0,
-    "uniques": [
-      "[+10]% Production when constructing [All] buildings [in this city]",
-      "[+1 Gold] from [Forest] tiles [in this city]",
-      "Must have an owned [Forest] within [2] tiles"
-    ],
-    "requiredTech": "Economics"
-  },
-  {
-    "name": "Orszaggyules",
-    "uniqueTo": "Hungary",
-    "replaces": "Palace",
-    "isNationalWonder": false,
-    "cost": 300,
-    "production": 3,
-    "science": 3,
-    "gold": 3,
-    "culture": 1,
-    "cityStrength": 2,
-    "requiredTech": "Mathematics",
-    "uniques": [
-      "[+10]% Production when constructing [All] buildings [in this city]",
-      "Indicates the capital city",
-      "Limited to [2] per Civilization"
-    ]
-  },
-  {
-    "name": "Cloves",
-    "uniqueTo": "Indonesia",
-    "cost": 100,
-    "uniques": [
-      "Provides [2] [Cloves]",
-      "Destroyed when the city is captured",
-      "Unsellable",
-      "Must be next to [Coast]",
-      "Limited to [1] per Civilization"
-    ],
-    "requiredTech": "Optics"
-  },
-  {
-    "name": "Candi",
-    "replaces": "Garden",
-    "uniqueTo": "Indonesia",
-    "cost": 120,
-    "faith": 6,
-    "culture": 1,
-    "uniques": [
-      "[+25]% Great Person generation [in this city]"
-    ],
-    "hurryCostModifier": 25,
-    "maintenance": 1,
-    "requiredTech": "Theology"
-  },
-  {
-    "name": "Irish Pub",
-    "replaces": "Theatre",
-    "uniqueTo": "Ireland",
-    "cost": 200,
-    "maintenance": 2,
-    "happiness": 3,
-    "food": 2,
-    "culture": 2,
-    "hurryCostModifier": 10,
-    "requiredBuilding": "Colosseum",
-    "requiredTech": "Printing Press"
-  },
-  {
-    "name": "Slave Market",
-    "replaces": "Colosseum",
-    "uniqueTo": "Kongo",
-    "maintenance": 1,
-    "production": 3,
-    "gold": 4,
-    "hurryCostModifier": 25,
-    "requiredTech": "Construction",
-    "uniques": [
-      "[+2 Production, +3 Gold] <after discovering [Industrialization]>",
-      "[-1] population [in this city]"
-    ]
-  },
+		"uniqueTo": "Australia",
+		"replaces": "Constabulary",
+		"cost": 160,
+		"maintenance": 1,
+		"percentStatBonus": {
+			"gold": 10,
+			"production": 10
+		},
+		"uniques": [
+			"[-25]% enemy spy effectiveness [in this city]"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Banking"
+	},
+	{
+		"name": "Chocolatier",
+		"uniqueTo": "Belgium",
+		"replaces": "Theatre",
+		"happiness": 2,
+		"maintenance": 2,
+		"requiredBuilding": "Colosseum",
+		"uniques": [
+			"Provides [1] [Pralines]",
+			"Destroyed when the city is captured"
+		],
+		"hurryCostModifier": 10,
+		"requiredTech": "Printing Press"
+	},
+	{
+		"name": "Maple Farm",
+		"uniqueTo": "Canada",
+		"replaces": "Windmill",
+		"production": 2,
+		"specialistSlots": {
+			"Engineer": 1
+		},
+		"maintenance": 0,
+		"uniques": [
+			"[+10]% Production when constructing [All] buildings [in this city]",
+			"[+1 Gold] from [Forest] tiles [in this city]",
+			"Must have an owned [Forest] within [2] tiles"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Economics"
+	},
+	{
+		"name": "Cloves",
+		"uniqueTo": "Indonesia",
+		"cost": 100,
+		"uniques": [
+			"Provides [2] [Cloves]",
+			"Destroyed when the city is captured",
+			"Unsellable",
+			"Must be next to [Coast]",
+			"Limited to [1] per Civilization"
+		],
+		"requiredTech": "Optics"
+	},
+	{
+		"name": "Candi",
+		"uniqueTo": "Indonesia",
+		"replaces": "Garden",
+		"cost": 120,
+		"maintenance": 1,
+		"faith": 6,
+		"culture": 1,
+		"uniques": [
+			"[+25]% Great Person generation [in this city]"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Theology"
+	},
+	{
+		"name": "Irish Pub",
+		"uniqueTo": "Ireland",
+		"replaces": "Theatre",
+		"cost": 200,
+		"maintenance": 2,
+		"happiness": 3,
+		"food": 2,
+		"culture": 2,
+		"requiredBuilding": "Colosseum",
+		"hurryCostModifier": 10,
+		"requiredTech": "Printing Press"
+	},
+	{
+		"name": "Slave Market",
+		"uniqueTo": "Kongo",
+		"replaces": "Colosseum",
+		"maintenance": 1,
+		"production": 3,
+		"gold": 4,
+		"uniques": [
+			"[+2 Production, +3 Gold] <after discovering [Industrialization]>",
+			"[-1] population [in this city]"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Construction"
+	},
   {
     "name": "Baray",
     "replaces": "Garden",
@@ -865,6 +847,24 @@
 			"Indicates the capital city",
 			"Provides [1] [Corporation Slot(Total)] <in cities without a [No Corporation]> <after discovering [Corporations]>",
 			"Provides [1] [Corporation Slot] <in cities without a [No Corporation]> <after discovering [Corporations]>"
+		]
+	},
+	{
+		"name": "Orszaggyules",
+		"uniqueTo": "Hungary",
+		"replaces": "Palace",
+		"isNationalWonder": false,
+		"cost": 300,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 2,
+		"requiredTech": "Mathematics",
+		"uniques": [
+			"[+10]% Production when constructing [All] buildings [in this city]",
+			"Indicates the capital city",
+			"Limited to [2] per Civilization"
 		]
 	},
     {
