@@ -375,15 +375,15 @@
 		"uniqueTo": "Shoshone",
 		"replaces": "Scout",
 		"unitType": "Scout",
-		"movement": 3,
+		"movement": 4,
 		"strength": 8,
 		"cost": 20,
 		"upgradesTo": "Recon",
 		"obsoleteTech": "Rifling",
 		"uniques": [
 			"Ignores Zone of Control",
-			"Gain [10] [Gold] <upon discovering a [Ancient ruins] tile>",
-			"Gain [4] [Culture] <upon discovering a [Ancient ruins] tile>",
+			"Gain [20] [Gold] <upon discovering a [Ancient ruins] tile>",
+			"Gain [10] [Culture] <upon discovering a [Ancient ruins] tile>",
 			"[-75]% maintenance costs",
 			"Never appears as a Barbarian unit"
 		],
