@@ -56,7 +56,7 @@
 		"uniqueTo": "Zulu",
 		"replaces": "Pikeman",
 		"unitType": "Sword",
-		"movement": 3,
+		"movement": 2,
 		"strength": 16,
 		"cost": 90,
 		"requiredTech": "Horseback Riding",
@@ -64,8 +64,11 @@
 		"obsoleteTech": "Metallurgy",
 		"uniques": [
 			"[+50]% Strength <vs [Mounted] units>",
-			"[+25]% Strength <vs [Gunpowder] units>",
-			"[1] additional attacks per turn"
+			"[+25]% Strength <vs [Gunpowder] units>"
+		],
+		"promotions": [
+			"Blitz",
+			"March"
 		],
 		"attackSound": "metalhit"
 	},
