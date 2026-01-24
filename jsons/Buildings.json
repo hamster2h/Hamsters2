@@ -180,6 +180,25 @@
 		"requiredTech": "Banking"
 	},
 	{
+        "name": "Hanse",
+		"uniqueTo": "Germany",
+        "replaces": "Bank",
+        "gold": 2,
+        "percentStatBonus": {
+			"gold": 25
+		},
+        "specialistSlots": {
+			"Merchant": 1
+		},
+		"requiredBuilding": "Market",
+        "uniques": [
+			"[+10]% Production when constructing [Production] buildings [in this city]",
+			"[+1 Gold] from each Trade Route"
+		],
+		"hurryCostModifier": 15,
+		"requiredTech": "Banking"
+    },
+	{
 		"name": "Manchu Stable",
 		"uniqueTo": "Manchuria",
 		"replaces": "Stable",
