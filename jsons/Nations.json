@@ -110,7 +110,7 @@
 			"[-50]% City-State Influence degradation",
 			"City-State Influence recovers at twice the normal rate",
 			"City-State territory always counts as friendly territory",
-			"Enables embarkation for land units <starting from the [Ancient era]> <Suppress warning [*contains a conditional on a unit movement unique*]>"
+			"Starts with [Optics]"
 		],
 		"cities": [
 			"Athens","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
