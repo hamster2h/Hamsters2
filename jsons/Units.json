@@ -52,6 +52,22 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Hoplite",
+		"uniqueTo": "Greece",
+		"replaces": "Spearman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"upgradesTo": "Pikeman",
+		"obsoleteTech": "Civil Service",
+		"uniques": [
+			"[+50]% Strength <vs [Mounted] units>"
+		],
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Impi",
 		"uniqueTo": "Zulu",
 		"replaces": "Pikeman",
@@ -516,6 +532,29 @@
 			"Woodsman"
 		],
 		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Companion Cavalry",
+		"unitType": "Mounted",
+		"uniqueTo": "Greece",
+		"replaces": "Horseman",
+		"movement": 5,
+		"strength": 15,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"requiredResource": "Horses",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities> <when attacking>"
+		],
+		"promotions": [
+			"Great Generals I"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
 	},
 	{
 		"name": "African Forest Elephant",
