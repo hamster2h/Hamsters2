@@ -68,6 +68,25 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Pictish Warrior",
+		"uniqueTo": "Celts",
+		"replaces": "Spearman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"upgradesTo": "Pikeman",
+		"obsoleteTech": "Civil Service",
+		"uniques": [
+			"Earn [200]% of killed [Military] unit's [Strength] as [Faith]"
+		],
+		"promotions": [
+			"Pictish Courage"
+		],
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Impi",
 		"uniqueTo": "Zulu",
 		"replaces": "Pikeman",
