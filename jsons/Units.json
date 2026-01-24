@@ -1259,6 +1259,10 @@
 		"requiredTech": "Navigation",
 		"upgradesTo": "Destroyer",
 		"obsoleteTech": "Combustion",
+		"uniques": [
+			"May enter foreign tiles without open borders",
+			"Double movement in [Ocean]"
+		],
 		"promotions": [
 			"Coastal Raider I",
 			"Coastal Raider II",
