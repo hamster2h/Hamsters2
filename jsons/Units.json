@@ -2085,7 +2085,10 @@
 			"Invisible to non-adjacent units <in [Forest] tiles>"
 		],
 		"promotions": [
-			"Woodsman"
+			"Cover I",
+			"Cover II",
+			"Ambush I",
+			"Sentry"
 		],
 		"attackSound": "shot"
 	},
