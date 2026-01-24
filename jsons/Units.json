@@ -19,6 +19,22 @@
 		"attackSound": "cannon"
 	},
 	{
+		"name": "Turtle Ship",
+		"uniqueTo": "Korea",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 40,
+		"cost": 120,
+		"requiredTech": "Astronomy",
+		"upgradesTo": "Ironclad",
+		"obsoleteTech": "Combustion",
+		"uniques": [
+			"Cannot enter ocean tiles"
+		],
+		"hurryCostModifier": 30,
+		"attackSound": "cannon"
+	},
+	{
 		"name": "Phalanx",
 		"uniqueTo": "Sumeria",
 		"replaces": "Spearman",
