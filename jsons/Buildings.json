@@ -17,39 +17,39 @@
 	},
     {
 		"name": "Ocupada Estable",
-		"replaces": "Stable",
 		"uniqueTo": "Argentina",
+		"replaces": "Stable",
 		"maintenance": 1,
 		"requiredNearbyImprovedResources": [
 			"Horses",
 			"Sheep",
 			"Cattle"
 		],
-		"hurryCostModifier": 25,
 		"uniques": [
 			"[+15]% Production when constructing [Mounted] units [in this city]",
 			"[+1 Production, +1 Food] from [Cattle] tiles [in this city]",
 			"[+1 Production, +1 Food] from [Horses] tiles [in this city]",
 			"[+1 Production, +1 Food] from [Sheep] tiles [in this city]"
 		],
+		"hurryCostModifier": 25,
 		"requiredTech": "Horseback Riding"
 	},
-  {
-    "name": "Royal Library",
-    "replaces": "Library",
-    "uniqueTo": "Assyria",
-    "hurryCostModifier": 25,
-    "science": 1,
-    "culture": 1,
-    "maintenance": 1,
-    "uniques": [
-      "[+1 Science] per [2] population [in this city]",
-      "New [Military] units start with [15] XP [in this city]"
-    ],
-    "requiredTech": "Writing"
-  },
-  {
-    "name": "Convict Penitentiary",
+	{
+		"name": "Royal Library",
+		"uniqueTo": "Assyria",
+		"replaces": "Library",
+		"science": 1,
+		"culture": 1,
+		"maintenance": 1,
+		"uniques": [
+			"[+1 Science] per [2] population [in this city]",
+			"New [Military] units start with [15] XP [in this city]"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "Convict Penitentiary",
     "replaces": "Constabulary",
     "uniqueTo": "Australia",
     "cost": 160,
@@ -312,7 +312,7 @@
       "Destroyed when the city is captured",
       "[+1 Production, +1 Culture] from [Marsh] tiles [in this city]",
       "[+1 Culture] from [Jungle] tiles [in this city]",
-      "All newly-trained [Melee] units [in this city] receive the [Woodsman] promotion"
+      "All newly-trained [relevant] units [in this city] receive the [Woodsman] promotion"
     ],
     "requiredTech": "Steel"
   },
