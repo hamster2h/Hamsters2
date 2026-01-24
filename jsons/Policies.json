@@ -81,7 +81,7 @@
             "Scientific": 10
         },
         "uniques": [
-			"[+2 Culture, +2 Gold] [in all cities]"
+			"[+1 Culture, +1 Gold] [in all cities]"
 		],
         "policies": [
             {
@@ -106,7 +106,8 @@
             {
                 "name": "Collective Rule",
                 "uniques": [
-                    "[+50]% Production when constructing [Settler] units [in capital]",
+					"[+1 Culture, +1 Gold] [in all cities]",
+                    "[+50]% Production when constructing [Settler] units [in all cities]",
                     "Free [Settler] appears"
                 ],
                 "requires": ["Republic"],
