@@ -82,7 +82,9 @@
 		"name": "Celts",
 		"leaderName": "Boudicca",
 		"adjective": ["celtic"],
-		"startBias": ["Forest"],
+		"startBias": [
+			"Forest"
+		],
 		"preferredVictoryType": "Domination",
 		"personality": "Boudicca",
 
