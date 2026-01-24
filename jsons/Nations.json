@@ -877,7 +877,6 @@
 		"outerColor": [101,211,220],
 		"innerColor": [167,52,31],
 		"uniqueName": "Spice Islanders",
-		"uniqueText": "After discovering Optics gains access to the building that provides 2 copies of unique Luxury Resources \n[+25]% Great Person generation [in capital]",
 		"uniques": [
 			"[+25]% Great Person generation [in capital]"
 		],
