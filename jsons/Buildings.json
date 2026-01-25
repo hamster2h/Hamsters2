@@ -65,8 +65,8 @@
 		"replaces": "Garden",
 		"cost": 120,
 		"maintenance": 1,
-		"faith": 6,
-		"culture": 1,
+		"faith": 8,
+		"culture": 2,
 		"uniques": [
 			"[+25]% Great Person generation [in this city]"
 		],
