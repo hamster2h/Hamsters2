@@ -1,5 +1,18 @@
 [
 	{
+		"name": "Stele",
+        "replaces": "Monument",
+		"uniqueTo": "Ethiopia",
+		"culture": 2,
+		"faith": 4,
+		"cost": 20,
+		"maintenance": 1,
+		"uniques": [
+			"Destroyed when the city is captured"
+		],
+		"hurryCostModifier": 40
+	},
+	{
 		"name": "Royal Library",
 		"uniqueTo": "Assyria",
 		"replaces": "Library",
