@@ -390,6 +390,12 @@
         "row": 1
 	},
 	{
+		"name": "Home Sweet Home",
+		"uniques": [
+			"[+50]% Strength decreasing with distance from the capital"
+		]
+	},
+	{
 		"name": "Altitude Training",
 		"uniques": [
             "Double movement in [Snow]",
@@ -545,6 +551,7 @@
 		]
 	}
 ]
+
 
 
 
