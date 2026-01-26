@@ -23,7 +23,7 @@
 		"uniqueTo": "Korea",
 		"unitType": "Melee Water",
 		"movement": 4,
-		"strength": 40,
+		"strength": 36,
 		"cost": 120,
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
