@@ -381,7 +381,7 @@
 			"Barrage I"
 		],
 		"uniques": [
-			"[+100]% Strength <vs cities>"
+			"[+150]% Strength <vs cities>"
 		],
 		"unitTypes": [
 			"Siege"
@@ -551,6 +551,7 @@
 		]
 	}
 ]
+
 
 
 
