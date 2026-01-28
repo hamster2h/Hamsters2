@@ -689,7 +689,7 @@
             {
                 "name": "Planned Economy",
                 "uniques": [
-                    "[+15]% [Production] from every [Factory]",
+                    "[+25]% [Production] from every [Factory]",
                     "[+50]% Production when constructing [Factory] buildings [in all cities]"
                 ],
                 "row": 1,
@@ -698,8 +698,8 @@
             {
                 "name": "Nationalism",
                 "uniques": [
-					"[+10]% Strength <for [All] units>",
-                    "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+					"[+15]% Strength <for [All] units>",
+                    "[+10]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
 					"[-25]% enemy spy effectiveness [in all cities]"
                 ],
                 "row": 1,
@@ -731,6 +731,7 @@
                 "name": "Order Complete",
                 "uniques": [
                     "[+2 Food, +2 Production, +2 Science, +2 Gold, +2 Culture] [in all cities]",
+					"[Gold] cost of purchasing [Missile] units [-50]%",
                     "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500])",
                     "Get the leader title of [Chairman [leaderName]]"
                 ]
