@@ -731,7 +731,7 @@
                 "name": "Order Complete",
                 "uniques": [
                     "[+2 Food, +2 Production, +2 Science, +2 Gold, +2 Culture] [in all cities]",
-					//"[Gold] cost of purchasing [Missile] units [-50]%",
+					"[Gold] cost of purchasing [Missile] units [-50]%",
                     "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500])",
                     "Get the leader title of [Chairman [leaderName]]"
                 ]
@@ -866,7 +866,7 @@
 			{
 				"name": "Collectivization",
 				"uniques": [
-					"[+10]% Strength <for [Support] units> <when defending>",
+					"[+25]% Strength <for [Support] units> <when defending>",
 					"Comment [Doubles the Healing bonus from Medics and Tactical Supplier units]"
 				],
 				"requires": [
@@ -890,7 +890,9 @@
 			{
 				"name": "Dual Strike",
 				"uniques": [
-					"All newly-trained [relevant] units [in all cities] receive the [Logistics] promotion"
+					"All newly-trained [relevant] units [in all cities] receive the [Logistics] promotion",
+					"All newly-trained [relevant] units [in all cities] receive the [Blitz] promotion",
+					"All newly-trained [relevant] units [in all cities] receive the [March] promotion"
 				],
 				"requires": [
 					"Censor",
