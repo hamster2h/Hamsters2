@@ -107,7 +107,7 @@
 		"uniqueName": "Sacrificial Captives",
 		"uniques": [
 			"Earn [200]% of killed [Military] unit's [Strength] as [Culture]",
-			"May buy [Melee] units with [Culture] [in all cities] <before the [Renaissance era]>"
+			"May buy [Melee] units for [1] [Culture] [in all cities] <before the [Renaissance era]>"
 		],
 		"cities": [
 			"Tenochtitlan","Teotihuacan","Tlatelolco","Texcoco","Tlaxcala","Calixtlahuaca","Xochicalco","Tlacopan",
