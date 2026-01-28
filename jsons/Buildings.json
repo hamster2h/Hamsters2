@@ -962,6 +962,21 @@
         "requiredBuilding": "Desalination Plant",
         "requiredTech": "Bronze Working"
     },
+	{
+		"name": "Coffee House",
+		"uniqueTo": "Austria",
+		"cost": 150,
+		"gold": 4,
+		"maintenance": 1,
+		"percentStatBonus": {
+			"production": 5
+		},
+		"uniques": [
+			"[+25]% Great Person generation [in this city]"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Printing Press"
+	},
     {
         "name": "Foundry",
         "cost": 200,
