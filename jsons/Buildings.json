@@ -388,7 +388,7 @@
 	{
 		"name": "Longhouse",
 		"uniqueTo": "Iroquois",
-		"cost": 250,
+		"cost": 300,
 		"maintenance": 6,
 		"production": 2,
 		"requiredTech": "Iron Working",
