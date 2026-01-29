@@ -29,7 +29,6 @@
 	{
 		"name": "Wat",
 		"uniqueTo": "Siam",
-		"happiness": 2,
 		"science": 2,
 		"culture": 4,
 		"faith": 4,
