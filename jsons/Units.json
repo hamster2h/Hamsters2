@@ -598,6 +598,30 @@
 		"attackSound": "elephant"
 	},
 	{
+		"name": "Conquistador",
+		"uniqueTo": "Spain",
+		"replaces": "Knight",
+		"unitType": "Mounted",
+		"movement": 6,
+		"strength": 30,
+		"cost": 135,
+		"requiredTech": "Chivalry",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
+		"requiredResource": "Horses",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+100]% Strength <vs cities> <when attacking>",
+			"Founds a new city <on foreign continents>",
+			"[+2] Sight"
+		],
+		"promotions": [
+			"[Conquistador] ability"
+		],
+		"attackSound": "horse"
+	},
+	{
 		"name": "Mandekalu Cavalry",
 		"uniqueTo": "Songhai",
 		"replaces": "Knight",
