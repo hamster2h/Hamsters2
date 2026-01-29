@@ -1975,8 +1975,8 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Future Perk]",
-			"[+2 Production] from [Solar Farm] tiles [in all cities]",
-			"[+2 Production] from [Wind Farm] tiles [in all cities]",
+			"[+2 Production, +2 Food] from [Solar Farm] tiles [in all cities]",
+			"[+2 Production, +2 Food] from [Wind Farm] tiles [in all cities]",
 			"[+4 Production] from [Offshore Wind Farm] tiles [in all cities]",
 			"Only available <starting from the [Future era]>",
 			"Only available <with [Scientist Perk]>",
