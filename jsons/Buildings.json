@@ -1,8 +1,8 @@
 [
 	{
 		"name": "Stele",
-        "replaces": "Monument",
 		"uniqueTo": "Ethiopia",
+        "replaces": "Monument",
 		"culture": 2,
 		"faith": 4,
 		"cost": 20,
@@ -116,16 +116,16 @@
 	{
 		"name": "Chocolatier",
 		"uniqueTo": "Belgium",
-		"replaces": "Theatre",
+		"food": 2,
 		"happiness": 2,
-		"maintenance": 2,
+		"maintenance": 1,
 		"requiredBuilding": "Colosseum",
 		"uniques": [
 			"Provides [1] [Pralines]",
 			"Destroyed when the city is captured"
 		],
 		"hurryCostModifier": 10,
-		"requiredTech": "Printing Press"
+		"requiredTech": "Guilds"
 	},
 	{
 		"name": "Scottish Ceilidh Hall",
