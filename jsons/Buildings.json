@@ -659,9 +659,10 @@
 		"requiredTech": "Atomic Theory",
 		"uniques": [
 			"Provides [2] [Uranium]",
+			"Provides [2] [Oil]",
 			"Gain a free [Nuclear Testing Site] [in this city]",
 			"[+25]% Production when constructing [Atomic Bomb] units [in this city]",
-			"Free [Atomic Bomb] appears"
+			"[2] free [Atomic Bomb] units appear"
 		],
 		"quote": "'The only use for an atomic bomb is to keep somebody else from using one.' - George Wald"
 	},
