@@ -1537,7 +1537,7 @@
         "uniqueName": "Great Expanse",
         "uniques": [
 			"[+15]% Strength <for [Military] units> <in [Friendly Land] tiles>",
-			"Gain control over [All] tiles in a [2]-tile radius <upon founding a city> <in this city>"
+			"Gain control over [All] tiles in a [3]-tile radius <upon founding a city> <in this city>"
 		],
         "cities": [
             "Moson Kahni","Te-Moak","Agaidika","Goshute","Pohokwi","Washakie","Timbisha","Hukandeka","Duckwater","Tukudeka",
