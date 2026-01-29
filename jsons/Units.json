@@ -876,11 +876,12 @@
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[+50]% Strength <vs [Ranged] units> <when attacking>",
-			"[-33]% Strength <vs cities> <when attacking>",
-			"[+33]% Strength <vs [Armored] units>",
-			"[+33]% Strength <vs [Mounted] units>"
+			"[-33]% Strength <vs cities> <when attacking>"
 		],
 		"promotions": [
+			"Formation I",
+			"Formation II",
+			"Ambush I",
 			"Heavy Charge"
 		],
 		"attackSound": "horse"
