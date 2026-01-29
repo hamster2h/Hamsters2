@@ -116,7 +116,7 @@
 	{
 		"name": "Chocolatier",
 		"uniqueTo": "Belgium",
-		"food": 2,
+		"gold": 2,
 		"happiness": 2,
 		"maintenance": 1,
 		"requiredBuilding": "Colosseum",
@@ -196,15 +196,10 @@
 	{
 		"name": "Pyramid",
 		"uniqueTo": "The Maya",
-		"replaces": "Shrine",
-		"faith": 2,
 		"science": 2,
-		"culture": 4,
+		"culture": 6,
 		"cost": 60,
 		"maintenance": 1,
-		"uniques": [
-			"Only available <when religion is enabled>"
-		],
 		"requiredTech": "Pottery"
 	},
 	{
