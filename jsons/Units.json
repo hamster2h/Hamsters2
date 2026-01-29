@@ -429,7 +429,7 @@
 		"uniqueTo": "Shoshone",
 		"replaces": "Scout",
 		"unitType": "Scout",
-		"movement": 4,
+		"movement": 3,
 		"strength": 8,
 		"cost": 20,
 		"upgradesTo": "Recon",
@@ -444,7 +444,9 @@
 		"promotions": [
 			"Exploration",
 			"Skirmish",
-			"Ignore terrain cost"
+			"Ignore terrain cost",
+			"Mobility I",
+			"Mobility II"
 		],
 		"attackSound": "nonmetalhit"
 	},
