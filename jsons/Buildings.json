@@ -45,7 +45,6 @@
 	{
 		"name": "Maple Farm",
 		"uniqueTo": "Canada",
-		"replaces": "Windmill",
 		"production": 2,
 		"maintenance": 0,
 		"specialistSlots": {
@@ -103,7 +102,6 @@
 	{
 		"name": "Irish Pub",
 		"uniqueTo": "Ireland",
-		"replaces": "Theatre",
 		"cost": 200,
 		"happiness": 3,
 		"food": 2,
@@ -147,7 +145,6 @@
 	{
 		"name": "Slave Market",
 		"uniqueTo": "Kongo",
-		"replaces": "Colosseum",
 		"production": 3,
 		"gold": 4,
 		"maintenance": 1,
@@ -206,7 +203,6 @@
 	{
 		"name": "Stave Church",
 		"uniqueTo": "Norway",
-		"replaces": "Temple",
 		"cost": 100,
 		"maintenance": 2,
 		"faith": 2,
