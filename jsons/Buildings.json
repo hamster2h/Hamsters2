@@ -27,6 +27,27 @@
 		"requiredTech": "Writing"
 	},
 	{
+		"name": "Wat",
+		"uniqueTo": "Siam",
+		"science": 2,
+		"culture": 4,
+		"faith": 4,
+		"maintenance": 2,
+		"percentStatBonus": {
+			"science": 25
+		},
+		"specialistSlots": {
+			"Scientist": 1
+		},
+		"requiredBuilding": "Library",
+		"uniques": [
+			"[+1 Science] from [Jungle] tiles [in this city]",
+			"[+1 Science] from [Forest] tiles [in this city]"
+		],
+		"hurryCostModifier": 15,
+		"requiredTech": "Education"
+	},
+	{
 		"name": "Convict Penitentiary",
 		"uniqueTo": "Australia",
 		"replaces": "Constabulary",
