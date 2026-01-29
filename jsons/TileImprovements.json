@@ -714,7 +714,7 @@
 		"terrainsCanBeBuiltOn": [
 			"Hill"
 		],
-		"food": 1,
+		"food": 2,
 		"turnsToBuild": 7,
 		"uniques": [
 			"Cannot be built on [Bonus resource] tiles",
