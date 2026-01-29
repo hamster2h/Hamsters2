@@ -98,6 +98,14 @@
 		}
 	},
 	{
+		"name": "Cocoa",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle","Forest"], // Forest only if flat, non-tundra
+		"food": 1,
+		"gold": 1,
+		"improvement": "Plantation"
+	},
+	{
 		"name": "Fish",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": [
