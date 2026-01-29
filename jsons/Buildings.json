@@ -45,18 +45,14 @@
 	{
 		"name": "Maple Farm",
 		"uniqueTo": "Canada",
-		"production": 2,
-		"maintenance": 0,
-		"specialistSlots": {
-			"Engineer": 1
-		},
+		"gold": 4,
+		"maintenance": 1,
 		"uniques": [
-			"[+10]% Production when constructing [All] buildings [in this city]",
 			"[+1 Gold] from [Forest] tiles [in this city]",
 			"Must have an owned [Forest] within [2] tiles"
 		],
 		"hurryCostModifier": 25,
-		"requiredTech": "Economics"
+		"requiredTech": "Bronze Working"
 	},
 	{
 		"name": "Cloves",
