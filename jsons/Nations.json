@@ -1320,7 +1320,7 @@
 		"innerColor": [96,11,99],
 		"uniqueName": "Heart of Africa",
 		"uniques": [
-			"[+3 Culture] from [Jungle] tiles without [Improvement] [in all cities]"
+			"[+3 Culture] from [Jungle] tiles [in all cities]"
 		],
 		"cities": [
 			"M'banza-Kongo","M'banza-Ngungu","M'banza-Nsundi","M'banza-Mbata","M'banza-Bakwanga","M'banza-Mpangu","M'banza-Wembo","M'banza-Lovata","M'banza-Mbumbi","M'banza-Mbamba",
