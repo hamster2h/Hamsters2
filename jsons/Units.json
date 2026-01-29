@@ -87,6 +87,37 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Pikeman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 90,
+		"requiredTech": "Civil Service",
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Acoustics",
+		"uniques": [
+			"[+50]% Strength <vs [Mounted] units>"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Landsknecht",
+		"uniqueTo": "Germany",
+		"replaces": "Pikeman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 45,
+		"requiredTech": "Civil Service",
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Acoustics",
+		"uniques": [
+			"[+50]% Strength <vs [Mounted] units>",
+			"Can move immediately once bought"
+		],
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Impi",
 		"uniqueTo": "Zulu",
 		"replaces": "Pikeman",
@@ -96,7 +127,7 @@
 		"cost": 90,
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Lancer",
-		"obsoleteTech": "Metallurgy",
+		"obsoleteTech": "Acoustics",
 		"uniques": [
 			"[+50]% Strength <vs [Mounted] units>",
 			"[+25]% Strength <vs [Gunpowder] units>"
