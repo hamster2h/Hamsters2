@@ -229,11 +229,13 @@
 		"terrainsCanBeBuiltOn": [
 			"Hill",
 			"Tundra",
-			"Flood plains"
+			"Flood plains",
+			"Forest",
+			"Jungle"
 		],
 		"food": 3,
 		"production": 2,
-		"turnsToBuild": 7,
+		"turnsToBuild": 14,
 		"techRequired": "Genetics",
 		"uniques": [
 			"Provides [1] [Power]",
@@ -264,7 +266,7 @@
 		],
 		"gold": 3,
 		"production": 2,
-		"turnsToBuild": 7,
+		"turnsToBuild": 14,
 		"techRequired": "Urbanization",
 		"uniques": [
 			"Provides [1] [Power]",
@@ -286,13 +288,13 @@
 	},
 	{
 		"name": "Offshore Wind Farm",
-		"turnsToBuild": 14,
 		"terrainsCanBeBuiltOn": [
 			"Coast",
 			"Ocean"
 		],
 		"food": 3,
 		"production": 2,
+		"turnsToBuild": 14,
 		"techRequired": "Terraforming",
 		"uniques": [
 			"Provides [1] [Power]",
