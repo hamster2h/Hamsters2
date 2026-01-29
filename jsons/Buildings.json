@@ -196,6 +196,7 @@
 	{
 		"name": "Pyramid",
 		"uniqueTo": "The Maya",
+		"faith": 2,
 		"science": 2,
 		"culture": 6,
 		"cost": 60,
