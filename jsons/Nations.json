@@ -106,8 +106,9 @@
 		"favoredReligion": "Islam",
 		"uniqueName": "Ingenuity",
 		"uniques": [
+			"Free [Great Scientist] appears <upon entering a new era> <after turn number [3]> <hidden from users>",
 			"Free [Great Scientist] appears <upon discovering [Writing] technology>",
-			"Free [Great Scientist] appears <upon entering a new era>"
+			"[Great Scientist] is earned [50]% faster"]
 		],
 		"cities": [
 			"Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
@@ -1425,7 +1426,7 @@
         "innerColor": [80,11,14],
         "uniqueName": "Solidarity",
         "uniques": [
-			"Free Social Policy <upon entering a new era> <after turn number [3]>",
+			"Free Social Policy <upon entering a Golden Age>",
 			"[-10]% Culture cost of adopting new Policies",
 			"Provides [2] [Horses]"
 		],
