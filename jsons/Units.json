@@ -790,20 +790,92 @@
 		"attackSound": "horse"
 	},
 	{
-		"name": "Winged Hussar",
-		"uniqueTo": "Poland",
-		"replaces": "Lancer",
+		"name": "Lancer",
 		"unitType": "Mounted",
 		"movement": 5,
-		"strength": 28,
+		"strength": 25,
 		"cost": 185,
-		"requiredTech": "Metallurgy",
+		"requiredTech": "Acoustics",
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
 		"requiredResource": "Horses",
 		"uniques": [
 			"Can move after attacking",
 			"No defensive terrain bonus",
+			"[+50]% Strength <vs [Ranged] units> <when attacking>",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Formation I"
+		],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Sipahi",
+		"uniqueTo": "The Ottomans",
+		"replaces": "Lancer",
+		"unitType": "Mounted",
+		"movement": 6,
+		"strength": 25,
+		"cost": 185,
+		"requiredTech": "Acoustics",
+		"upgradesTo": "Anti-Tank Gun",
+		"obsoleteTech": "Combined Arms",
+		"requiredResource": "Horses",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+50]% Strength <vs [Ranged] units> <when attacking>",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"[+1] Sight"
+		],
+		"promotions": [
+			"[Sipahi] ability",
+			"Formation I"
+		],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Hakkapeliitta",
+		"uniqueTo": "Sweden",
+		"replaces": "Lancer",
+		"unitType": "Mounted",
+		"movement": 5,
+		"strength": 25,
+		"cost": 185,
+		"requiredTech": "Acoustics",
+		"upgradesTo": "Anti-Tank Gun",
+		"obsoleteTech": "Combined Arms",
+		"requiredResource": "Horses",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+50]% Strength <vs [Ranged] units> <when attacking>",
+			"[-33]% Strength <vs cities> <when attacking>"
+		],
+		"promotions": [
+			"[Hakkapeliitta] ability",
+			"Formation I"
+		],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Winged Hussar",
+		"uniqueTo": "Poland",
+		"replaces": "Lancer",
+		"unitType": "Mounted",
+		"movement": 6,
+		"strength": 28,
+		"cost": 185,
+		"requiredTech": "Acoustics",
+		"upgradesTo": "Anti-Tank Gun",
+		"obsoleteTech": "Combined Arms",
+		"requiredResource": "Horses",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+50]% Strength <vs [Ranged] units> <when attacking>",
 			"[-33]% Strength <vs cities> <when attacking>",
 			"[+33]% Strength <vs [Armored] units>",
 			"[+33]% Strength <vs [Mounted] units>"
