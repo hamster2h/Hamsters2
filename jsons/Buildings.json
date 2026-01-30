@@ -425,16 +425,16 @@
 	{
 		"name": "Longhouse",
 		"uniqueTo": "Iroquois",
-		"cost": 300,
-		"maintenance": 6,
+		"cost": 225,
+		"maintenance": 8,
 		"production": 2,
-		"requiredTech": "Iron Working",
 		"uniques": [
 			"[+1 Production] from [Forest] tiles [in all cities]",
 			"[+1 Production] from [Jungle] tiles [in all cities]",
-			"Cost increases by [50] per owned city"
+			"Cost increases by [65] per owned city"
 		],
-		"hurryCostModifier": 25
+		"hurryCostModifier": 25,
+		"requiredTech": "Iron Working"
 	},
 	{
 		"name": "Heroic Epic",
