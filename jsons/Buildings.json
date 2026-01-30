@@ -886,7 +886,7 @@
 		"requiredTech": "Satellites",
 		"uniques": [
 			"Provides [4] [Space Stock]",
-			"[-25]% Food consumption by specialists [in all cities]",
+			"[-25]% Food consumption by [Specialists] [in all cities]",
 			"[-25]% Unhappiness from [Specialists] [in all cities]",
 			"Consumes [1] [Corporation Slot(Total)]",
 			"Only available <with [Corporation Slot]>"
