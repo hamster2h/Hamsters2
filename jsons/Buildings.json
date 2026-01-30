@@ -2440,7 +2440,7 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Industrial Perk]",
-			"[+20]% [Faith] from City-States",
+			"[+25]% [Faith] from City-States",
 			"[+10]% [Faith] from every [Hospital]",
 			"Only available <starting from the [Industrial era]>",
 			"Only available <with [Prophet Perk]>",
@@ -2457,7 +2457,7 @@
 			"[+4 Faith, +2 Happiness] from all [Faith] buildings",
 			"Only available <starting from the [Industrial era]>",
 			"Only available <with [Prophet Perk]>",
-			"Consumes [1] [Prophet Perk]",
+			"Consumes [2] [Prophet Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
 	},
@@ -2555,7 +2555,7 @@
 			"[+2 Faith, +1 Gold] from every [Great Improvement]",
 			"Only available <starting from the [Future era]>",
 			"Only available <with [Prophet Perk]>",
-			"Consumes [1] [Prophet Perk]",
+			"Consumes [2] [Prophet Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
 	},
@@ -2565,10 +2565,10 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Future Perk]",
-			"[+10]% Strength <for [All] units> <when fighting in [Foreign Land] tiles>",
+			"[+25]% Strength <for [All] units> <when fighting in [Foreign Land] tiles>",
 			"Only available <starting from the [Future era]>",
 			"Only available <with [Prophet Perk]>",
-			"Consumes [1] [Prophet Perk]",
+			"Consumes [2] [Prophet Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
 	},
@@ -2578,7 +2578,7 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Industrial Perk]",
-			"[-25]% Gold cost of upgrading <for [Military] units> <during the [Industrial era]>",
+			"[-25]% Gold cost of upgrading <for [Military] units>",
 			"[+2 Science, +2 Production] from [Fort] tiles [in all cities]",
 			"[+4 Science, +4 Production] from [Citadel] tiles [in all cities]",
 			"Only available <starting from the [Industrial era]>",
@@ -2693,9 +2693,12 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Future Perk]",
-			"All newly-trained [Hovertank] units [in all cities] receive the [Mobility] promotion",
-			"All newly-trained [Hovertillery] units [in all cities] receive the [Mobility] promotion",
-			"All newly-trained [Hover-SAM] units [in all cities] receive the [Mobility] promotion",
+			"All newly-trained [Hovertank] units [in all cities] receive the [Mobility I] promotion",
+			"All newly-trained [Hovertank] units [in all cities] receive the [Mobility II] promotion",
+			"All newly-trained [Hovertillery] units [in all cities] receive the [Mobility I] promotion",
+			"All newly-trained [Hovertillery] units [in all cities] receive the [Mobility II] promotion",
+			"All newly-trained [Hover-SAM] units [in all cities] receive the [Mobility I] promotion",
+			"All newly-trained [Hover-SAM] units [in all cities] receive the [Mobility II] promotion",
 			"Only available <starting from the [Future era]>",
 			"Only available <with [General Perk]>",
 			"Consumes [1] [General Perk]",
@@ -2708,9 +2711,9 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Future Perk]",
-			"All newly-trained [Seeker] units [in all cities] receive the [Energy Weapons] promotion",
 			"All newly-trained [Future Soldier] units [in all cities] receive the [Energy Weapons] promotion",
 			"All newly-trained [Combat Robot] units [in all cities] receive the [Energy Weapons] promotion",
+			"All newly-trained [Seeker] units [in all cities] receive the [Energy Weapons] promotion",
 			"All newly-trained [Hovertank] units [in all cities] receive the [Energy Weapons] promotion",
 			"All newly-trained [Future Copter] units [in all cities] receive the [Energy Weapons] promotion",
 			"All newly-trained [Missile Cruiser] units [in all cities] receive the [Energy Weapons] promotion",
