@@ -1349,36 +1349,40 @@
 	{
 		"name": "Forge",
 		"maintenance": 1,
-		"hurryCostModifier": 25,
 		"requiredNearbyImprovedResources": [
 			"Iron"
 		],
-		"requiredTech": "Metal Casting",
 		"uniques": [
 			"[+15]% Production when constructing [Space] units [in this city]",
 			"[+15]% Production when constructing [Land] units [in this city]",
 			"[+2 Production] from [Iron] tiles [in this city]"
-		]
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Metal Casting"
 	},
 	{
 		"name": "Museum",
 		"culture": 5,
+		"maintenance": 3,
 		"specialistSlots": {
 			"Artist": 2
 		},
 		"requiredBuilding": "Opera House",
-		"maintenance": 3,
-		"hurryCostModifier": 0,
-		"requiredTech": "Archaeology",
 		"uniques": [
 			"[+5]% [Culture] [in this city] <with [Power]>",
 			"Destroyed when the city is captured"
-		]
+		],
+		"hurryCostModifier": 0,
+		"requiredTech": "Archaeology"
 	},
 	{
 		"name": "History Museum",
-		"maintenance": 2,
 		"cost": 300,
+		"culture": 4,
+		"maintenance": 2,
+		"percentStatBonus": {
+			"culture": 25
+		},
 		"uniques": [
 			"Only available <if [AP-Museum Host] is constructed>",
 			"Consumes [3] [Fossil]",
@@ -1390,16 +1394,16 @@
 	{
 		"name": "Public School",
 		"science": 2,
+		"maintenance": 4,
 		"specialistSlots": {
 			"Scientist": 1
 		},
 		"requiredBuilding": "University",
-		"maintenance": 4,
-		"hurryCostModifier": 0,
-		"requiredTech": "Scientific Theory",
 		"uniques": [
 			"[+1 Science] per [2] population [in this city]"
-		]
+		],
+		"hurryCostModifier": 0,
+		"requiredTech": "Scientific Theory"
 	},
 	{
 		"name": "Research Lab",
@@ -1891,8 +1895,8 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Modern Perk]",
-			"[+1 Gold] from [Strategic resource] tiles [in all cities]",
-			"[+2 Science] from [Supply Route] tiles [in all cities]",
+			"[+2 Gold] from [Strategic resource] tiles [in all cities]",
+			"[+4 Science] from [Supply Route] tiles [in all cities]",
 			"Only available <starting from the [Modern era]>",
 			"Only available <with [Scientist Perk]>",
 			"Consumes [1] [Scientist Perk]",
@@ -1905,8 +1909,8 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Modern Perk]",
-			"[+1 Production] from [Luxury resource] tiles [in all cities]",
-			"[+2 Science] from [Industry] tiles [in all cities]",
+			"[+2 Production] from [Luxury resource] tiles [in all cities]",
+			"[+4 Science] from [Industry] tiles [in all cities]",
 			"Only available <starting from the [Modern era]>",
 			"Only available <with [Scientist Perk]>",
 			"Consumes [1] [Scientist Perk]",
@@ -1965,7 +1969,7 @@
 			"Comment [+2 Power provided by Solar Farm, Wind Farm and Offshore Wind Farm]",
 			"Only available <starting from the [Information era]>",
 			"Only available <with [Scientist Perk]>",
-			"Consumes [1] [Scientist Perk]",
+			"Consumes [2] [Scientist Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
 	},
@@ -1980,7 +1984,7 @@
 			"[+4 Production] from [Offshore Wind Farm] tiles [in all cities]",
 			"Only available <starting from the [Future era]>",
 			"Only available <with [Scientist Perk]>",
-			"Consumes [1] [Scientist Perk]",
+			"Consumes [2] [Scientist Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
 	},
@@ -2160,7 +2164,7 @@
 			"Gain a free [Free Iron] [in all cities]",
 			"Only available <starting from the [Industrial era]>",
 			"Only available <with [Engineer Perk]>",
-			"Consumes [1] [Engineer Perk]",
+			"Consumes [2] [Engineer Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
 	},
@@ -2188,7 +2192,7 @@
 			"Gain a free [Free Oil] [in all cities]",
 			"Only available <starting from the [Modern era]>",
 			"Only available <with [Engineer Perk]>",
-			"Consumes [1] [Engineer Perk]",
+			"Consumes [2] [Engineer Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
 	},
@@ -2246,7 +2250,7 @@
 			"Gain a free [Free Power] [in all cities]",
 			"Only available <starting from the [Information era]>",
 			"Only available <with [Engineer Perk]>",
-			"Consumes [1] [Engineer Perk]",
+			"Consumes [2] [Engineer Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
 	},
