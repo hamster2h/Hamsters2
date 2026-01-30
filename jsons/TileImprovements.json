@@ -29,6 +29,7 @@
 			"Can be built outside your borders",
 			"Turn this tile into a [Jungle] tile",
 			"Cannot be built on [Jungle] tiles <hidden from users>"
+		]
 	},
 	{
 		"name": "Remove Ice",
