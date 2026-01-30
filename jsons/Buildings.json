@@ -1507,10 +1507,10 @@
 	},
 	{
 		"name": "International Pass",
-		"cost": 350,
+		"cost": 600,
 		"uniques": [
 			"Only available <if [AP-World Tour] is constructed>",
-			"[+8 Culture, +4 Gold] from [Concert Venue] tiles [in this city]",
+			"[+12 Culture, +6 Gold] from [Concert Venue] tiles [in this city]",
 			"Must have an owned [Concert Venue] within [3] tiles"
 		]
 	},
@@ -2066,10 +2066,10 @@
 		"uniques": [
 			"Comment [Atomic Perk]",
 			"Comment [Enables construction of International Pass]",
-			"[+50]% Yield from every [Concert Venue]",
+			"[+100]% Yield from every [Concert Venue]",
 			"Only available <starting from the [Atomic era]>",
 			"Only available <with [Artist Perk]>",
-			"Consumes [1] [Artist Perk]",
+			"Consumes [2] [Artist Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
 	},
@@ -2106,12 +2106,12 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Information Perk]",
-			"[+2 Happiness] from [Concert Venue] tiles [in all cities]",
+			"[+2 Happiness, +4 Gold] from [Concert Venue] tiles [in all cities]",
 			"[+4 Faith, +1 Happiness] from all [Culture] buildings",
 			"[10]% of excess happiness converted to [Culture]",
 			"Only available <starting from the [Information era]>",
 			"Only available <with [Artist Perk]>",
-			"Consumes [1] [Artist Perk]",
+			"Consumes [2] [Artist Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
 	},
@@ -2122,9 +2122,10 @@
 		"uniques": [
 			"Comment [Future Perk]",
 			"[+3 Culture, +3 Faith] from every [Wonder]",
+			"[+1 Culture] per [2] population [in all cities]",
 			"Only available <starting from the [Future era]>",
 			"Only available <with [Artist Perk]>",
-			"Consumes [1] [Artist Perk]",
+			"Consumes [2] [Artist Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
 	},
@@ -2135,9 +2136,11 @@
 		"uniques": [
 			"Comment [Information Perk]",
 			"[+2 Culture] from every specialist [in all cities]",
+			"New [Air] units start with [15] XP [in all cities]",
+			"All newly-trained [relevant] units [in all cities] receive the [Extended Range] promotion",
 			"Only available <starting from the [Future era]>",
 			"Only available <with [Artist Perk]>",
-			"Consumes [1] [Artist Perk]",
+			"Consumes [2] [Artist Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
 	},
@@ -2147,6 +2150,7 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Industrial Perk]",
+			"Provides [4] [Coal]",
 			"Gain a free [Coal Plant] [in capital]",
 			"Gain a free [Factory] [in capital]",
 			"Only available <during the [Industrial era]>",
@@ -2202,7 +2206,7 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Atomic Perk]",
-			"[+50]% Production when constructing [Recycling Center] buildings [in all cities]",
+			"[+100]% Production when constructing [Recycling Center] buildings [in all cities]",
 			"Provides [4] [Power]",
 			"Only available <starting from the [Atomic era]>",
 			"Only available <with [Engineer Perk]>",
@@ -2216,8 +2220,8 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Atomic Perk]",
-			"[+25]% Production when constructing [All] wonders [in all cities] <during the [Atomic era]>",
-			"[+25]% Production when constructing [Architect] units [in all cities] <during the [Atomic era]>",
+			"[+50]% Production when constructing [All] wonders [in all cities] <during the [Atomic era]>",
+			"[+50]% Production when constructing [Architect] units [in all cities] <during the [Atomic era]>",
 			"[Gold] cost of purchasing [Architect] units [-25]% <during the [Atomic era]>",
 			"Only available <during the [Atomic era]>",
 			"Only available <with [Engineer Perk]>",
@@ -2393,10 +2397,10 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Information Perk]",
-			"[+1 Gold] per [3] population [in all cities]",
+			"[+2 Gold, +4 Culture] per [1] population [in all cities]",
 			"Only available <starting from the [Information era]>",
 			"Only available <with [Merchant Perk]>",
-			"Consumes [1] [Merchant Perk]",
+			"Consumes [2] [Merchant Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
 	},
@@ -2411,7 +2415,7 @@
 			"[+3 Food, +1 Gold] from every [Ocean]",
 			"Only available <starting from the [Future era]>",
 			"Only available <with [Merchant Perk]>",
-			"Consumes [1] [Merchant Perk]",
+			"Consumes [2] [Merchant Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
 	},
@@ -2421,11 +2425,12 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Future Perk]",
+			"[+10]% [Gold] [in all cities]",
 			"[+25]% [Gold] [in all cities] <during a Golden Age>",
 			"Production to [Gold] conversion in cities changed by [+25]%",
 			"Only available <starting from the [Future era]>",
 			"Only available <with [Merchant Perk]>",
-			"Consumes [1] [Merchant Perk]",
+			"Consumes [2] [Merchant Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
 	},
