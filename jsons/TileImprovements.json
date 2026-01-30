@@ -12,7 +12,7 @@
 		"uniques": [
 			"Can be built outside your borders",
 			"Turn this tile into a [Forest] tile",
-			"Does not need removal of [Trading post] <hidden from users>",
+			"Cannot be built on [Forest] tiles <hidden from users>",
 			"Cannot be built on [Desert] tiles <hidden from users>",
 			"Cannot be built on [Snow] tiles <hidden from users>"
 		]
@@ -28,10 +28,7 @@
 		"uniques": [
 			"Can be built outside your borders",
 			"Turn this tile into a [Jungle] tile",
-			"Does not need removal of [Trading post] <hidden from users>",
-			"Cannot be built on [Desert] tiles <hidden from users>",
-			"Cannot be built on [Snow] tiles <hidden from users>"
-		]
+			"Cannot be built on [Jungle] tiles <hidden from users>"
 	},
 	{
 		"name": "Remove Ice",
