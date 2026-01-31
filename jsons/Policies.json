@@ -240,8 +240,8 @@
             {
                 "name": "Organized Religion",
                 "uniques": [
-                    "[+1 Faith, +1 Happiness] from every [Shrine]",
-                    "[+1 Faith, +1 Happiness] from every [Temple]"
+                    "[+1 Faith, +1 Happiness, +2 Culture] from every [Shrine]",
+                    "[+1 Faith, +1 Happiness, +2 Culture] from every [Temple]"
                 ],
                 "row": 1,
                 "column": 2
