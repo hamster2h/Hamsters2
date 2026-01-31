@@ -1676,7 +1676,8 @@
 			"No defensive terrain bonus",
 			"Never appears as a Barbarian unit",
 			"Ignores Zone of Control",
-			"[+33]% Strength <vs [Land] units>"
+			"[+33]% Strength <vs [Land] units>",
+			"[-1] Sight"
 		],
 		"promotions": [
 			"Armor Plating I"
