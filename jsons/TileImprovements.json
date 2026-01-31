@@ -657,7 +657,7 @@
 			"Gives a defensive bonus of [100]%",
 			"Adjacent enemy units ending their turn take [30] damage",
 			"Can be built outside your borders",
-			"Gain control over [all] tiles in a [1]-tile radius",
+			"Gain control over [all] tiles in a [2]-tile radius",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		]
