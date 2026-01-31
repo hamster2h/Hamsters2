@@ -3,9 +3,9 @@
 		"name": "Stele",
 		"uniqueTo": "Ethiopia",
         "replaces": "Monument",
+		"cost": 20,
 		"culture": 2,
 		"faith": 4,
-		"cost": 20,
 		"maintenance": 1,
 		"uniques": [
 			"Destroyed when the city is captured"
@@ -193,6 +193,7 @@
         "name": "Hanse",
 		"uniqueTo": "Germany",
         "replaces": "Bank",
+		"cost": 150,
         "gold": 2,
         "percentStatBonus": {
 			"gold": 25
