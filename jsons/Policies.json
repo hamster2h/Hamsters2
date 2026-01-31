@@ -914,7 +914,7 @@
 		"name": "Futurism",
 		"era": "Future era",
 		"uniques": [
-			"Provides a [Corporate Slot] in your first [1] cities for free"
+			"Gain a free [Corporate Slot] [in all cities]"
 		],
 		"priorities": {
 			"Neutral": 70,
