@@ -80,6 +80,25 @@
         "row": 2
 	},
 	{
+		"name": "Charge",
+		"prerequisites": [
+			"Shock II",
+			"Drill II",
+			"Anti-Armor II"
+		],
+		"uniques": [
+			"[+33]% Strength <vs [Wounded] units>",
+			"[+200]% weight to this choice for AI decisions"
+		],
+		"unitTypes": [
+			"Mounted",
+			"Armored",
+			"Helicopter"
+		],
+        "column": 6,
+        "row": 2
+	},
+	{
 		"name": "Amphibious",
 		"uniques": [
 			"[+1] Sight <for [Embarked] units>",
@@ -553,3 +572,4 @@
 		]
 	}
 ]
+
