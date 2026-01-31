@@ -23,7 +23,7 @@
 			"Scout",
 			"Ranged"
 		]
-	}
+	},
 	{
 		"name": "Stealth",
 		"uniques": [
@@ -554,6 +554,7 @@
 		]
 	}
 ]
+
 
 
 
