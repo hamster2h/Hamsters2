@@ -206,7 +206,7 @@
 			"[+1 Gold] from each Trade Route"
 		],
 		"hurryCostModifier": 15,
-		"requiredTech": "Banking"
+		"requiredTech": "Guilds"
     },
 	{
 		"name": "Pyramid",
