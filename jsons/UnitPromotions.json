@@ -28,6 +28,9 @@
 		"name": "Stealth",
 		"uniques": [
 			"Invisible to non-adjacent units"
+		],
+		"unitTypes": [
+			"Helicopter"
 		]
 	},
 	{
@@ -551,6 +554,7 @@
 		]
 	}
 ]
+
 
 
 
