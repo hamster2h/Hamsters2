@@ -262,7 +262,8 @@
 			"Bombardment II", 
 			"Wolfpack II",
 			"Shock II",
-			"Drill II"
+			"Drill II",
+			"Anti-Armor II"
 		],
 		"uniques": [
 			"[+1] Range"
@@ -271,6 +272,7 @@
 			"Archery",
 			"Ranged Gunpowder",
 			"Armored",
+			"Helicopter",
 			"Siege",
 			"Ranged Water",
 			"Submarine"
@@ -572,4 +574,5 @@
 		]
 	}
 ]
+
 
