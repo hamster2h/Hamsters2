@@ -135,6 +135,63 @@
 		"hurryCostModifier": 40
 	},
 	{
+		"name": "Scottish Ceilidh Hall",
+		"uniqueTo": "Scotland",
+		"replaces": "Opera House",
+		"culture": 4,
+		"happiness": 3,
+		"maintenance": 2,
+		"specialistSlots": {
+			"Artist": 1
+		},
+		"requiredBuilding": "Amphitheater",
+		"uniques": [
+			"Destroyed when the city is captured"
+		],
+		"hurryCostModifier": 10,
+		"requiredTech": "Acoustics"
+	},
+	{
+		"name": "Shrine",
+		"cost": 20,
+		"faith": 1,
+		"maintenance": 1,
+		"uniques": [
+			"Only available <when religion is enabled>"
+		],
+		"requiredTech": "Pottery"
+	},
+	{
+		"name": "Temple",
+		"faith": 2,
+		"maintenance": 2,
+		"requiredBuilding": "Shrine",
+		"uniques": [
+			"Only available <when religion is enabled>",
+			"Destroyed when the city is captured"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "Ziggurat",
+		"uniqueTo": "Sumeria",
+		"replaces": "Temple",
+		"faith": 2,
+		"maintenance": 2,
+		"percentStatBonus": {
+			"science": 10
+		},
+		"requiredBuilding": "Shrine",
+		"uniques":[
+			"Gain [20] [Faith] <upon discovering [Classical era] technology> <(modified by game speed)>",
+			"Gain [21] [Faith] <upon discovering [Medieval era] technology> <(modified by game speed)>",
+			"Destroyed when the city is captured"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy"
+	},
+	{
 		"name": "Royal Library",
 		"uniqueTo": "Assyria",
 		"replaces": "Library",
@@ -193,23 +250,6 @@
 		"requiredTech": "Drama and Poetry"
 	},
 	{
-		"name": "Scottish Ceilidh Hall",
-		"uniqueTo": "Scotland",
-		"replaces": "Opera House",
-		"culture": 4,
-		"happiness": 3,
-		"maintenance": 2,
-		"specialistSlots": {
-			"Artist": 1
-		},
-		"requiredBuilding": "Amphitheater",
-		"uniques": [
-			"Destroyed when the city is captured"
-		],
-		"hurryCostModifier": 10,
-		"requiredTech": "Acoustics"
-	},
-	{
 		"name": "Canton Factory",
 		"uniqueTo": "Manchuria",
 		"replaces": "Bank",
@@ -245,34 +285,6 @@
 		"hurryCostModifier": 15,
 		"requiredTech": "Guilds"
     },
-	{
-		"name": "Shrine",
-		"faith": 1,
-		"cost": 20,
-		"maintenance": 1,
-		"requiredTech": "Pottery",
-		"uniques": [
-			"Only available <when religion is enabled>"
-		]
-	},
-	{
-		"name": "Ziggurat",
-		"uniqueTo": "Sumeria",
-		"replaces": "Temple",
-		"maintenance": 2,
-		"faith": 2,
-		"percentStatBonus": {
-			"science": 10
-		},
-		"requiredBuilding": "Shrine",
-		"uniques":[
-			"Gain [20] [Faith] <upon discovering [Classical era] technology> <(modified by game speed)>",
-			"Gain [21] [Faith] <upon discovering [Medieval era] technology> <(modified by game speed)>",
-			"Destroyed when the city is captured"
-		],
-		"hurryCostModifier": 25,
-		"requiredTech": "Philosophy"
-	},
 	{
 		"name": "Feitoria",
 		"uniqueTo": "Portugal",
