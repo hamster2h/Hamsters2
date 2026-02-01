@@ -1,5 +1,127 @@
 [
 	{
+		"name": "Stave Church",
+		"uniqueTo": "Norway",
+		"cost": 100,
+		"maintenance": 2,
+		"faith": 2,
+		"requiredBuilding": "Shrine",
+		"uniques": [
+			"[+1 Food] from [Snow] tiles [in this city]"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "Burial Tomb",
+		"uniqueTo": "Egypt",
+		"faith": 2,
+		"happiness": 2,
+		"maintenance": 0,
+		"requiredBuilding": "Shrine",
+		"uniques": [
+			"[+100]% Gold given to enemy if city is captured <in this city>"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "Wat",
+		"uniqueTo": "Siam",
+		"science": 2,
+		"culture": 4,
+		"faith": 4,
+		"maintenance": 2,
+		"percentStatBonus": {
+			"science": 25
+		},
+		"specialistSlots": {
+			"Scientist": 1
+		},
+		"requiredBuilding": "Library",
+		"uniques": [
+			"[+1 Science] from [Jungle] tiles [in this city]",
+			"[+1 Science] from [Forest] tiles [in this city]"
+		],
+		"hurryCostModifier": 15,
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Maple Farm",
+		"uniqueTo": "Canada",
+		"gold": 4,
+		"maintenance": 1,
+		"uniques": [
+			"[+1 Gold] from [Forest] tiles [in this city]",
+			"Must have an owned [Forest] within [2] tiles"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Bronze Working"
+	},
+	{
+		"name": "Cloves",
+		"uniqueTo": "Indonesia",
+		"cost": 100,
+		"uniques": [
+			"Provides [2] [Cloves]",
+			"Destroyed when the city is captured",
+			"Unsellable",
+			"Must be next to [Coast]",
+			"Limited to [1] per Civilization"
+		],
+		"requiredTech": "Optics"
+	},
+	{
+		"name": "Irish Pub",
+		"uniqueTo": "Ireland",
+		"cost": 200,
+		"happiness": 3,
+		"food": 2,
+		"culture": 2,
+		"maintenance": 2,
+		"requiredBuilding": "Colosseum",
+		"hurryCostModifier": 10,
+		"requiredTech": "Printing Press"
+	},
+	{
+		"name": "Chocolatier",
+		"uniqueTo": "Belgium",
+		"gold": 2,
+		"happiness": 2,
+		"maintenance": 1,
+		"requiredBuilding": "Colosseum",
+		"uniques": [
+			"Provides [1] [Pralines]",
+			"Destroyed when the city is captured"
+		],
+		"hurryCostModifier": 10,
+		"requiredTech": "Guilds"
+	},
+	{
+		"name": "Slave Market",
+		"uniqueTo": "Kongo",
+		"production": 3,
+		"gold": 4,
+		"happiness": -4,
+		"maintenance": 1,
+		"uniques": [
+			"[+2 Production, +3 Gold] <after discovering [Industrialization]>",
+			"[-1] population [in this city]"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Pyramid",
+		"uniqueTo": "The Maya",
+		"faith": 2,
+		"science": 2,
+		"culture": 6,
+		"cost": 30,
+		"maintenance": 1,
+		"requiredTech": "Pottery"
+	},
+	{
 		"name": "Stele",
 		"uniqueTo": "Ethiopia",
         "replaces": "Monument",
@@ -27,27 +149,6 @@
 		"requiredTech": "Writing"
 	},
 	{
-		"name": "Wat",
-		"uniqueTo": "Siam",
-		"science": 2,
-		"culture": 4,
-		"faith": 4,
-		"maintenance": 2,
-		"percentStatBonus": {
-			"science": 25
-		},
-		"specialistSlots": {
-			"Scientist": 1
-		},
-		"requiredBuilding": "Library",
-		"uniques": [
-			"[+1 Science] from [Jungle] tiles [in this city]",
-			"[+1 Science] from [Forest] tiles [in this city]"
-		],
-		"hurryCostModifier": 15,
-		"requiredTech": "Education"
-	},
-	{
 		"name": "Convict Penitentiary",
 		"uniqueTo": "Australia",
 		"replaces": "Constabulary",
@@ -62,31 +163,6 @@
 		],
 		"hurryCostModifier": 25,
 		"requiredTech": "Banking"
-	},
-	{
-		"name": "Maple Farm",
-		"uniqueTo": "Canada",
-		"gold": 4,
-		"maintenance": 1,
-		"uniques": [
-			"[+1 Gold] from [Forest] tiles [in this city]",
-			"Must have an owned [Forest] within [2] tiles"
-		],
-		"hurryCostModifier": 25,
-		"requiredTech": "Bronze Working"
-	},
-	{
-		"name": "Cloves",
-		"uniqueTo": "Indonesia",
-		"cost": 100,
-		"uniques": [
-			"Provides [2] [Cloves]",
-			"Destroyed when the city is captured",
-			"Unsellable",
-			"Must be next to [Coast]",
-			"Limited to [1] per Civilization"
-		],
-		"requiredTech": "Optics"
 	},
 	{
 		"name": "Candi",
@@ -117,32 +193,6 @@
 		"requiredTech": "Drama and Poetry"
 	},
 	{
-		"name": "Irish Pub",
-		"uniqueTo": "Ireland",
-		"cost": 200,
-		"happiness": 3,
-		"food": 2,
-		"culture": 2,
-		"maintenance": 2,
-		"requiredBuilding": "Colosseum",
-		"hurryCostModifier": 10,
-		"requiredTech": "Printing Press"
-	},
-	{
-		"name": "Chocolatier",
-		"uniqueTo": "Belgium",
-		"gold": 2,
-		"happiness": 2,
-		"maintenance": 1,
-		"requiredBuilding": "Colosseum",
-		"uniques": [
-			"Provides [1] [Pralines]",
-			"Destroyed when the city is captured"
-		],
-		"hurryCostModifier": 10,
-		"requiredTech": "Guilds"
-	},
-	{
 		"name": "Scottish Ceilidh Hall",
 		"uniqueTo": "Scotland",
 		"replaces": "Opera House",
@@ -158,20 +208,6 @@
 		],
 		"hurryCostModifier": 10,
 		"requiredTech": "Acoustics"
-	},
-	{
-		"name": "Slave Market",
-		"uniqueTo": "Kongo",
-		"production": 3,
-		"gold": 4,
-		"happiness": -4,
-		"maintenance": 1,
-		"uniques": [
-			"[+2 Production, +3 Gold] <after discovering [Industrialization]>",
-			"[-1] population [in this city]"
-		],
-		"hurryCostModifier": 25,
-		"requiredTech": "Construction"
 	},
 	{
 		"name": "Canton Factory",
@@ -210,40 +246,14 @@
 		"requiredTech": "Guilds"
     },
 	{
-		"name": "Pyramid",
-		"uniqueTo": "The Maya",
-		"faith": 2,
-		"science": 2,
-		"culture": 6,
-		"cost": 60,
+		"name": "Shrine",
+		"faith": 1,
+		"cost": 20,
 		"maintenance": 1,
-		"requiredTech": "Pottery"
-	},
-	{
-		"name": "Stave Church",
-		"uniqueTo": "Norway",
-		"cost": 100,
-		"maintenance": 2,
-		"faith": 2,
-		"requiredBuilding": "Shrine",
+		"requiredTech": "Pottery",
 		"uniques": [
-			"[+1 Food] from [Snow] tiles [in this city]"
-		],
-		"hurryCostModifier": 25,
-		"requiredTech": "Philosophy"
-	},
-	{
-		"name": "Burial Tomb",
-		"uniqueTo": "Egypt",
-		"faith": 2,
-		"happiness": 2,
-		"maintenance": 0,
-		"requiredBuilding": "Shrine",
-		"uniques": [
-			"[+100]% Gold given to enemy if city is captured <in this city>"
-		],
-		"hurryCostModifier": 25,
-		"requiredTech": "Philosophy"
+			"Only available <when religion is enabled>"
+		]
 	},
 	{
 		"name": "Ziggurat",
