@@ -155,7 +155,7 @@
         },
         "uniques": [
             "[+50]% Strength <vs [Barbarian] units>",
-            "Earn [100]% of killed [All] unit's [Strength] as [Culture]",
+            "Earn [200]% of killed [All] unit's [Strength] as [Culture]",
             "Notified of new Barbarian encampments"
         ],
         "policies": [
@@ -171,8 +171,9 @@
             {
                 "name": "Discipline",
                 "uniques": [
-                    "[+25]% Strength <for [Military] units> <when adjacent to a [Military] unit>"
-                ],
+                    "[+25]% Strength <for [Military] units> <when adjacent to a [Military] unit>",
+					"[+1 Culture, +2 Production] [in all cities with a garrison]"
+				],
                 "row": 1,
                 "column": 4
             },
