@@ -117,7 +117,7 @@
 		"faith": 2,
 		"science": 2,
 		"culture": 6,
-		"cost": 30,
+		"cost": 60,
 		"maintenance": 1,
 		"requiredTech": "Pottery"
 	},
@@ -153,7 +153,7 @@
 	},
 	{
 		"name": "Shrine",
-		"cost": 20,
+		"cost": 40,
 		"faith": 1,
 		"maintenance": 1,
 		"uniques": [
