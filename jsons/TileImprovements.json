@@ -351,7 +351,8 @@
 			"[+1 Production] <within [1] tiles of a [Industrial Complex]> <after adopting [Safety Checks]>",
 			"[+2 Gold] <within [1] tiles of a [Residential]>",
 			"[+2 Gold] <within [1] tiles of a [Residential]> <after adopting [Safety Checks]>",
-			"Pillaging this improvement yields approximately [+10 Gold]"
+			"Pillaging this improvement yields approximately [+10 Gold]",
+			"Will not be replaced by automated units"
 		],
 		"shortcutKey": "P"
 	},
