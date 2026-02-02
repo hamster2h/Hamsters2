@@ -166,7 +166,8 @@
 			"[+4 Gold] <within [1] tiles of a [Residential]>",
 			"[+4 Gold] <within [1] tiles of a [Residential]> <after adopting [Safety Checks]>",
 			"[+4 Gold] <within [1] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
-			"Pillaging this improvement yields approximately [+80 Gold]"
+			"Pillaging this improvement yields approximately [+80 Gold]",
+			"Will not be replaced by automated units"
 		],
 		"shortcutKey": "O"
 	},
@@ -191,7 +192,8 @@
 			"[+4 Gold, +2 Culture] <within [1] tiles of a [Residential]> <after adopting [Safety Checks]>",
 			"[+4 Gold, +2 Culture] <within [1] tiles of a [Residential]> <if [Tourism Agency] is constructed>",
 			"[+4 Gold, +2 Culture] <within [1] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
-			"Pillaging this improvement yields approximately [+100 Gold]"
+			"Pillaging this improvement yields approximately [+100 Gold]",
+			"Will not be replaced by automated units"
 		],
 		"shortcutKey": "O"
 	},
@@ -218,7 +220,8 @@
 			"[+8 Gold] <within [1] tiles of a [Residential]> <after adopting [Safety Checks]>",
 			"[+8 Gold] <within [1] tiles of a [Residential]> <after adopting [Startups]>",
 			"[+8 Gold] <within [1] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
-			"Pillaging this improvement yields approximately [+100 Gold]"
+			"Pillaging this improvement yields approximately [+100 Gold]",
+			"Will not be replaced by automated units"
 		],
 		"shortcutKey": "O"
 	},
@@ -370,7 +373,8 @@
 			"[+2 Gold] <within [1] tiles of a [Residential]>",
 			"[+2 Gold] <within [1] tiles of a [Residential]> <after adopting [Safety Checks]>",
 			"[+2 Gold] <within [1] tiles of a [Residential]> <if [Engineering Corporation] is constructed>",
-			"Pillaging this improvement yields approximately [+20 Gold]"
+			"Pillaging this improvement yields approximately [+20 Gold]",
+			"Will not be replaced by automated units"
 		],
 		"shortcutKey": "O"
 	},
@@ -385,7 +389,8 @@
 			"[+1 Food, +1 Production] <within [1] tiles of a [Offshore Wind Farm]>",
 			"[+1 Food, +1 Production] <within [1] tiles of a [Offshore Wind Farm]> <after adopting [Safety Checks]>",
 			"[+1 Food, +1 Production] <within [1] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
-			"Pillaging this improvement yields approximately [+20 Gold]"
+			"Pillaging this improvement yields approximately [+20 Gold]",
+			"Will not be replaced by automated units"
 		],
 		"shortcutKey": "P"
 	},
@@ -403,7 +408,8 @@
 			"[+1 Production] <within [1] tiles of a [Industrial Complex]> <after adopting [Safety Checks]>",
 			"[+4 Gold] <within [1] tiles of a [Residential]>",
 			"[+4 Gold] <within [1] tiles of a [Residential]> <after adopting [Safety Checks]>",
-			"[+4 Gold] <within [1] tiles of a [Citadel]> <after adopting [Coalition Complete]>"
+			"[+4 Gold] <within [1] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
+			"Will not be replaced by automated units"
 		],
 		"shortcutKey": "P"
 	},
@@ -427,7 +433,8 @@
 			"[+2 Gold] <within [1] tiles of a [Residential]>",
 			"[+2 Gold] <within [1] tiles of a [Residential]> <after adopting [Safety Checks]>",
 			"[+2 Gold] <within [1] tiles of a [Residential]> <if [Engineering Corporation] is constructed>",
-			"Pillaging this improvement yields approximately [+10 Gold]"
+			"Pillaging this improvement yields approximately [+10 Gold]",
+			"Will not be replaced by automated units"
 		],
 		"shortcutKey": "C"
 	},
@@ -449,7 +456,8 @@
 			"[+2 Gold] <within [1] tiles of a [Residential]>",
 			"[+2 Gold] <within [1] tiles of a [Residential]> <after adopting [Safety Checks]>",
 			"[+2 Gold] <within [1] tiles of a [Residential]> <if [Engineering Corporation] is constructed>",
-			"Pillaging this improvement yields approximately [+20 Gold]"
+			"Pillaging this improvement yields approximately [+20 Gold]",
+			"Will not be replaced by automated units"
 		],
 		"shortcutKey": "Q"
 	},
@@ -468,7 +476,8 @@
 			"[+1 Food, +1 Production] <within [1] tiles of a [Offshore Wind Farm]> <after adopting [Safety Checks]>",
 			"[+1 Food, +1 Production] <within [1] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
 			"Can only be built to improve a resource",
-			"Pillaging this improvement yields approximately [+10 Gold]"
+			"Pillaging this improvement yields approximately [+10 Gold]",
+			"Will not be replaced by automated units"
 		],
 		"shortcutKey": "F"
 	},
@@ -482,7 +491,8 @@
 			"Provides [2] [Power]",
 			"Comment [Infrastructure]",
 			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+100 Gold]"
+			"Pillaging this improvement yields approximately [+100 Gold]",
+			"Will not be replaced by automated units"
 		]
 	},
 	{
@@ -501,7 +511,8 @@
 			"[+8 Gold] <within [1] tiles of a [Residential]>",
 			"[+8 Gold] <within [1] tiles of a [Residential]> <after adopting [Safety Checks]>",
 			"[+8 Gold] <within [1] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
-			"Pillaging this improvement yields approximately [+100 Gold]"
+			"Pillaging this improvement yields approximately [+100 Gold]",
+			"Will not be replaced by automated units"
 		]
 	},
 	{
@@ -513,7 +524,8 @@
 		"uniques": [
 			"Comment [Infrastructure]",
 			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+100 Gold]"
+			"Pillaging this improvement yields approximately [+100 Gold]",
+			"Will not be replaced by automated units"
 		],
 		"shortcutKey": "W"
 	},
@@ -526,7 +538,8 @@
 		"uniques": [
 			"Comment [Infrastructure]",
 			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+100 Gold]"
+			"Pillaging this improvement yields approximately [+100 Gold]",
+			"Will not be replaced by automated units"
 		],
 		"shortcutKey": "I"
 	},
@@ -539,7 +552,8 @@
 		"uniques": [
 			"Comment [Infrastructure]",
 			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+100 Gold]"
+			"Pillaging this improvement yields approximately [+100 Gold]",
+			"Will not be replaced by automated units"
 		],
 		"shortcutKey": "R"
 	},
@@ -560,7 +574,8 @@
 			"[+2 Gold, +1 Science] <within [1] tiles of a [Residential]>",
 			"[+2 Gold, +1 Science] <within [1] tiles of a [Residential]> <after adopting [Safety Checks]>",
 			"[+2 Gold, +1 Science] <within [1] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
-			"Pillaging this improvement yields approximately [+20 Gold]"
+			"Pillaging this improvement yields approximately [+20 Gold]",
+			"Will not be replaced by automated units"
 		]
 	},
 	{
@@ -580,7 +595,8 @@
 			"[+2 Gold, +1 Culture] <within [1] tiles of a [Residential]>",
 			"[+2 Gold, +1 Culture] <within [1] tiles of a [Residential]> <after adopting [Safety Checks]>",
 			"[+2 Gold, +1 Culture] <within [1] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
-			"Pillaging this improvement yields approximately [+20 Gold]"
+			"Pillaging this improvement yields approximately [+20 Gold]",
+			"Will not be replaced by automated units"
 		]
 	},
 	{
@@ -601,7 +617,8 @@
 			"[+2 Production] <within [1] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
 			"[+2 Gold, +1 Production] <within [1] tiles of a [Residential]>",
 			"[+2 Gold, +1 Production] <within [1] tiles of a [Residential]> <after adopting [Safety Checks]>",
-			"Pillaging this improvement yields approximately [+20 Gold]"
+			"Pillaging this improvement yields approximately [+20 Gold]",
+			"Will not be replaced by automated units"
 		]
 	},
 	{
@@ -623,7 +640,8 @@
 			"[+4 Gold] <within [1] tiles of a [Residential]>",
 			"[+4 Gold] <within [1] tiles of a [Residential]> <after adopting [Safety Checks]>",
 			"[+4 Gold] <within [1] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
-			"Pillaging this improvement yields approximately [+20 Gold]"
+			"Pillaging this improvement yields approximately [+20 Gold]",
+			"Will not be replaced by automated units"
 		]
 	},
 	{
@@ -643,7 +661,8 @@
 			"[+2 Gold, +1 Faith] <within [1] tiles of a [Residential]>",
 			"[+2 Gold, +1 Faith] <within [1] tiles of a [Residential]> <after adopting [Safety Checks]>",
 			"[+2 Gold, +1 Faith] <within [1] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
-			"Pillaging this improvement yields approximately [+20 Gold]"
+			"Pillaging this improvement yields approximately [+20 Gold]",
+			"Will not be replaced by automated units"
 		]
 	},
 	{
@@ -659,7 +678,8 @@
 			"Can be built outside your borders",
 			"Gain control over [all] tiles in a [2]-tile radius",
 			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+20 Gold]"
+			"Pillaging this improvement yields approximately [+20 Gold]",
+			"Will not be replaced by automated units"
 		]
 	},
 	{
@@ -681,7 +701,8 @@
 			"[+2 Gold, +1 Culture, +1 Science] <within [1] tiles of a [Residential]> <after adopting [Safety Checks]>",
 			"[+2 Gold, +1 Culture, +1 Science] <within [1] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
 			"Pillaging this improvement yields approximately [+40 Gold]",
-			"Removes removable features when built"
+			"Removes removable features when built",
+			"Will not be replaced by automated units"
 		]
 	},
 	{
