@@ -2332,8 +2332,9 @@
 			"[1] Movement point cost to disembark",
 			"[1] Movement point cost to embark",
 			"[+1] Sight <when [Embarked]>",
-			"May enter foreign tiles without open borders",
-			"[+100]% Strength <when defending> <when [Embarked]>"
+			"[+100]% Strength <when defending> <when [Embarked]>",
+			"Can pass through impassable tiles",
+			"May enter foreign tiles without open borders"
 		],
 		"promotions": [
 			"Amphibious"
@@ -2351,6 +2352,7 @@
 		"obsoleteTech": "Lasers",
 		"uniques": [
 			"May Paradrop to [Land] tiles up to [9] tiles away <in [{Friendly} {Land}] tiles>",
+			"Can pass through impassable tiles",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
@@ -2372,8 +2374,9 @@
 			"[+1] Sight <when [Embarked]>",
 			"[+100]% Strength <when defending> <when [Embarked]>",
 			"May Paradrop to [Land] tiles up to [16] tiles away <in [{Friendly} {Land}] tiles>",
-			"No movement cost to pillage",
+			"Can pass through impassable tiles",
 			"May enter foreign tiles without open borders",
+			"No movement cost to pillage",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
@@ -2397,8 +2400,9 @@
 			"[+1] Sight <when [Embarked]>",
 			"[+100]% Strength <when defending> <when [Embarked]>",
 			"May Paradrop to [Land] tiles up to [16] tiles away",
-			"No movement cost to pillage",
+			"Can pass through impassable tiles",
 			"May enter foreign tiles without open borders",
+			"No movement cost to pillage",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
