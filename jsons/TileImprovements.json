@@ -792,6 +792,7 @@
         "turnsToBuild": 7,
         "techRequired": "Bronze Working",
         "uniques": [
+			"Cannot be built on [resource] tiles",
             "[+2 Gold] <after discovering [Machinery]>",
             "[+2 Culture] <after discovering [Acoustics]>",
 			"[+1 Gold] <after discovering [Economics]>",
@@ -808,7 +809,6 @@
 			"[+2 Gold] <within [1] tiles of a [Residential]>",
 			"[+2 Gold] <within [1] tiles of a [Residential]> <after adopting [Safety Checks]>",
 			"[+2 Gold] <within [1] tiles of a [Residential]> <if [Engineering Corporation] is constructed>",
-			"Cannot be built on [resource] tiles",
             "Pillaging this improvement yields approximately [+20 Gold]"
         ]
     },
