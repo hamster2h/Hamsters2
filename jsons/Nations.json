@@ -1672,7 +1672,7 @@
         "innerColor": [201,214,217],
         "uniqueName": "Last of the Free",
         "uniques": [
-            "[+1 Culture] from [Hill] tiles without [Improvement] [in all cities] <after discovering [Acoustics]>"
+            "[+2 Culture] from [Hill] tiles without [Improvement] [in all cities] <after discovering [Acoustics]>"
         ],
         "cities": [
             "Edinburgh","Glasgow","Stirling","Aberdeen","Dundee","Inverness","Perth","Dunfermline","Kilmarnock","Dumfries",
