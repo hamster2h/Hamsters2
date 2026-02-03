@@ -250,7 +250,9 @@
             {
                 "name": "Mandate Of Heaven",
                 "uniques": [
-					"[50]% of excess happiness converted to [Culture]"
+					"[50]% of excess happiness converted to [Culture]",
+					"[+3 Food] from every [Holy site]",
+					"Adopt [Cloning]"
 				],
                 "row": 1,
                 "column": 5
