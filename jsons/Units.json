@@ -1716,7 +1716,7 @@
 		"unitType": "Armored",
 		"uniqueTo": "Germany",
 		"replaces": "Tank",
-		"movement": 5,
+		"movement": 4,
 		"strength": 80,
 		"rangedStrength": 80,
 		"range": 2,
@@ -1743,7 +1743,7 @@
 	{
 		"name": "Modern Armor",
 		"unitType": "Armored",
-		"movement": 5,
+		"movement": 6,
 		"strength": 100,
 		"rangedStrength": 100,
 		"range": 2,
@@ -1765,15 +1765,14 @@
 		"promotions": [
 			"Armor Plating I",
 			"Armor Plating II",
-			"Blitz",
-			"March"
+			"Blitz"
 		],
 		"attackSound": "tankshot"
 	},
 	{
 		"name": "Hovertank",
 		"unitType": "Armored",
-		"movement": 5,
+		"movement": 6,
 		"strength": 140,
 		"rangedStrength": 140,
 		"range": 2,
@@ -1794,8 +1793,7 @@
 			"Armor Plating I",
 			"Armor Plating II",
 			"Hovering",
-			"Blitz",
-			"March"
+			"Blitz"
 		],
 		"attackSound": "tankshot"
 	},
