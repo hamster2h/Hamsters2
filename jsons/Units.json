@@ -198,6 +198,27 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Berserker",
+		"uniqueTo": "Denmark",
+		"replaces": "Longswordsman",
+		"unitType": "Sword",
+		"movement": 3,
+		"strength": 25,
+		"cost": 100,
+		"requiredTech": "Metal Casting",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Metallurgy",
+		"requiredResource": "Iron",
+		"uniques": [
+			"[+25]% Strength <when attacking>"
+		],
+		"promotions": [
+			"Amphibious"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Samurai",
 		"uniqueTo": "Japan",
 		"replaces": "Longswordsman",
