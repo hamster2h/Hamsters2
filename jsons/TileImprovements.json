@@ -713,6 +713,7 @@
 			"Land"
 		],
 		"culture": 2,
+		"happiness": 1,
 		"turnsToBuild": 4,
 		"uniques": [
 			"Can only be built on [Coastal] tiles",
