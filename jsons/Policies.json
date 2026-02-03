@@ -252,7 +252,7 @@
                 "uniques": [
 					"[50]% of excess happiness converted to [Culture]",
 					"[+3 Food] from every [Holy site]",
-					
+					"Adopt [Rationalism]"
 				],
                 "row": 1,
                 "column": 5
@@ -280,8 +280,7 @@
             {
                 "name": "Free Religion",
                 "uniques": [
-					"[-10]% Culture cost of adopting new Policies",
-					"Adopt [Cloning]"
+					"[-10]% Culture cost of adopting new Policies"
 				],
                 "requires": ["Mandate Of Heaven", "Reformation"],
                 "row": 3,
