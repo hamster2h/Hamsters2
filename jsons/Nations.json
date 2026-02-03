@@ -352,7 +352,7 @@
 		"favoredReligion": "Zoroastrianism",
 		"uniqueName": "Achaemenid Legacy",
 		"uniques": [
-			"[+50]% Golden Age length",
+			"[+100]% Golden Age length",
 			"[+1] Movement <for [All] units> <during a Golden Age>",
 			"[+25]% Strength <for [All] units> <during a Golden Age>"
 		],
