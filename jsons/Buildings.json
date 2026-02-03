@@ -67,7 +67,7 @@
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"Must be next to [Coast]",
-			"Limited to [1] per Civilization"
+			"Limited to [2] per Civilization"
 		],
 		"requiredTech": "Optics"
 	},
