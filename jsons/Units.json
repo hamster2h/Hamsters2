@@ -1735,14 +1735,15 @@
 		],
 		"promotions": [
 			"Armor Plating I",
-			"Blitz"
+			"Blitz",
+			"March"
 		],
 		"attackSound": "tankshot"
 	},
 	{
 		"name": "Modern Armor",
 		"unitType": "Armored",
-		"movement": 6,
+		"movement": 5,
 		"strength": 100,
 		"rangedStrength": 100,
 		"range": 2,
@@ -1764,14 +1765,15 @@
 		"promotions": [
 			"Armor Plating I",
 			"Armor Plating II",
-			"Blitz"
+			"Blitz",
+			"March"
 		],
 		"attackSound": "tankshot"
 	},
 	{
 		"name": "Hovertank",
 		"unitType": "Armored",
-		"movement": 6,
+		"movement": 5,
 		"strength": 140,
 		"rangedStrength": 140,
 		"range": 2,
@@ -1792,7 +1794,8 @@
 			"Armor Plating I",
 			"Armor Plating II",
 			"Hovering",
-			"Blitz"
+			"Blitz",
+			"March"
 		],
 		"attackSound": "tankshot"
 	},
