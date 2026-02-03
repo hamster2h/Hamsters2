@@ -1613,8 +1613,8 @@
         "innerColor": [229,118,95],
         "uniqueName": "Cradle of Civilization",
         "uniques": [
-			"[+1 Culture] [in all cities] <after discovering [Drama and Poetry]>",
-			"[+2 Science] [in all cities] <after discovering [Drama and Poetry]>"
+			"[+3 Culture] [in all cities] <after discovering [Drama and Poetry]>",
+			"[+6 Science] [in all cities] <after discovering [Drama and Poetry]>"
 		],
         "cities": [
             "Ur","Kish","Uruk","Eridu","Umma","Lagash","Akshak","Larak","Bad-Tibira","Larsa",
