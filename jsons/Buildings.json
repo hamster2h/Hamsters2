@@ -26,6 +26,19 @@
 		"requiredTech": "Philosophy"
 	},
 	{
+		"name": "Paper Maker",
+		"uniqueTo": "China",
+		"maintenance": 2,
+		"percentStatBonus": {
+			"science": 25
+		},
+		"uniques": [
+			"[+1 Science] per [2] population [in this city]"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Writing"
+	},
+	{
 		"name": "Wat",
 		"uniqueTo": "Siam",
 		"science": 2,
