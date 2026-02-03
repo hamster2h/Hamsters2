@@ -177,10 +177,10 @@
 		"name": "Ziggurat",
 		"uniqueTo": "Sumeria",
 		"replaces": "Temple",
-		"faith": 2,
+		"faith": 4,
 		"maintenance": 2,
 		"percentStatBonus": {
-			"science": 10
+			"science": 25
 		},
 		"requiredBuilding": "Shrine",
 		"uniques":[
