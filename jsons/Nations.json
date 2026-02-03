@@ -527,6 +527,7 @@
 		"uniques": [
 			"[+1 Faith] [in all cities] <with [1] to [2] neighboring [{unimproved} {Forest}] tiles>",
 			"[+2 Faith] [in all cities] <with [3] to [6] neighboring [{unimproved} {Forest}] tiles>",
+			"Gain a free [Ceilidh Hall] [in all cities]",
 			"[+20]% [Happiness] <when at war>"
 		],
 		"cities": [
