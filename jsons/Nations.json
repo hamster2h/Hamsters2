@@ -124,6 +124,49 @@
 		]
     },
 	{
+		"name": "Denmark",
+		"leaderName": "Harald Bluetooth",
+		"adjective": ["Danish"],
+		"startBias": [
+			"Coast"
+		],
+		"preferredVictoryType": "Cultural",
+		"personality": "Harald Bluetooth",
+
+        "startIntroPart1": "Skal, Harald Bluetooth Gormsson, son of King Gorm of the Old and Thyra Dannebod! After crushing the armies of Norway, you achieved great construction projects all across the land of mighty Denmark. Numerous Ring Fortresses were built under your reign to protect the people from foreign invasions, but also from local quarrels. In 983 AD, you successfully repelled several waves of German settlers trying to colonize your land, and then always kept your kingdom free from any foreign pressure.",
+        "startIntroPart2": "As a true Viking, who knows not fear, time has come to unleash mighty armies of Northsmen to bring despair upon your enemies! By the will of the Gods, it will be either a glorious triumph or a sumptuous feast in the Valhalla! Will your new empire shine through the ages of history?",
+
+        "declaringWar": "If I am to be honest, I tire of those pointless charades. Why don't we settle our disputes on the field of battle, like true men? Perhaps the skalds will sing of your valor... or mine!",
+		"attacked": "Ahahah! You seem to show some skills of a true Viking! Too bad that I'll probably kill you!",
+		"defeated": "Loki must have stood by you, for a common man alone could not have defeated me... Oh well! I will join the einherjar in Valhalla and feast, while you toil away here.",
+		"denounced": "I'm excited for our upcoming battle, my friend.",
+		"introduction": "Harald Bluetooth bids you welcome to his lands, a Viking unlike any the seas and lands have ever known! Hah, are you afraid?",
+		"neutralHello": "Hail to you.",
+		"hateHello": "Oh, it's you.",
+		"tradeRequest": "This is a fine deal! Even a drunk beggar would agree!",
+
+        "outerColor": [51,25,0],
+        "innerColor": [255,255,102],
+
+		"favoredReligion": "Christianity",
+		"uniqueName": "Viking Fury",
+		"uniques": [
+			"[+2] Movement <for [Embarked] units>",
+			"[1] Movement point cost to disembark <for [All] units>",
+			"No movement cost to pillage <for [Melee] units>"
+		],
+		"cities": [
+			"Copenhagen","Aarhus","Kaupang","Ribe","Viborg","Tunsberg","Roskilde","Hedeby","Oslo","Jelling","Truso",
+			"Bergen","Faeroerne","Reykjavik","Trondheim","Godthab","Helluland","Lillehammer","Markland","Elsinore",
+			"Sarpsborg","Odense","Aalborg","Stavanger","Vorbasse","Schleswig","Kristiansand","Halogaland","Randers",
+			"Fredrikstad","Kolding","Horsens","Tromsoe","Vejle","Koge","Sandnes","Holstebro","Slagelse","Drammen",
+			"Hillerod","Sonderborg","Skien","Svendborg","Holbaek","Hjorring","Fladstrand","Haderslev","Ringsted","Skrive"
+		],
+        "spyNames": [
+			"Jørgen", "Mette", "Henrik", "Niels", "Helle", "Frederik", "Ida", "Thea", "Freja", "Morten"
+		]
+    },
+	{
 		"name": "Songhai",
 		"leaderName": "Askia",
 		"adjective": ["Songhai"],
