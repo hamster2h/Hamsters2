@@ -797,9 +797,9 @@
 		"uniqueName": "Bushido",
 		"uniques": [
 			"No damage penalty for wounded units <for [non-[Air]] units>",
+			"[+10]% [Production] [in all cities] <after discovering [Steam Power]>",
 			"[+1 Food] from [Coast] tiles [in all cities]",
-			"[+1 Food] from [Ocean] tiles [in all cities]",
-			"[+10]% [Production] [in all cities] <after discovering [Steam Power]>"
+			"[+1 Food] from [Ocean] tiles [in all cities]"
 		],
 		"cities": [
 			"Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama",
