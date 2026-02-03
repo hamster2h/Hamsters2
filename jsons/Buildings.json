@@ -957,7 +957,7 @@
 		"cityStrength": 2,
 		"requiredTech": "Mathematics",
 		"uniques": [
-			"[+10]% Production when constructing [All] buildings [in this city]",
+			"[+15]% Production when constructing [All] buildings [in this city]",
 			"Indicates the capital city",
 			"Limited to [2] per Civilization"
 		]
