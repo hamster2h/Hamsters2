@@ -2111,6 +2111,22 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Musketeer",
+		"uniqueTo": "France",
+		"replaces": "Musketman",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 28,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"promotions": [
+			"Mobility"
+		],
+		"attackSound": "shot"
+	},
+	{
 		"name": "Janissary",
 		"uniqueTo": "The Ottomans",
 		"replaces": "Musketman",
@@ -2248,6 +2264,25 @@
 		"uniques": [
 			"Only available <if [GP-Great War] is constructed>",
 			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Foreign Legion",
+		"uniqueTo": "France",
+		"replaces": "Great War Infantry",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 50,
+		"cost": 320,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Infantry",
+		"obsoleteTech": "Plastics",
+		"uniques": [
+			"[+25]% Strength <when fighting in [Foreign Land] tiles>"
+		],
+		"promotions": [
+			"Mobility"
 		],
 		"attackSound": "shot"
 	},
