@@ -194,14 +194,12 @@
 	},
 	{
 		"name": "Corporation Slot(Total)",
-		"resourceType": "Bonus",
-		"gold": 1
+		"resourceType": "Bonus"
 	},
 	{
 		"name": "Corporation Slot",
 		"resourceType": "Strategic",
-		"revealedBy": "Corporations",
-		"gold": 1
+		"revealedBy": "Corporations"
 	},
 	{
 		"name": "Electrical Stock",
