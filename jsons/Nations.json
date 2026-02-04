@@ -322,7 +322,7 @@
 		"uniqueName": "Spirit of Adwa",
 		"uniques": [
 			"[+25]% Strength <when fighting units from a Civilization with more Cities than you>",
-			"[+1 Culture] per every [2] [Faith]"
+			"[+1 Culture] per every [4] [Faith]"
 		],
 		"cities": [
 			"Addis Ababa","Harar","Adwa","Lalibela","Gondar","Axum","Dire Dawa","Bahir Dar","Adama",
