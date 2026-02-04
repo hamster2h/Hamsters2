@@ -1752,7 +1752,8 @@
 			"Never appears as a Barbarian unit",
 			"Ignores Zone of Control",
 			"[+33]% Strength <vs [Land] units>",
-			"[+25]% Strength <vs [Armored] units> <when attacking>"
+			"[+25]% Strength <vs [Armored] units> <when attacking>",
+			"Can move immediately once bought"
 		],
 		"promotions": [
 			"Armor Plating I",
