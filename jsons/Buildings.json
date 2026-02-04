@@ -3,14 +3,30 @@
 		"name": "Stave Church",
 		"uniqueTo": "Norway",
 		"cost": 100,
-		"maintenance": 2,
 		"faith": 2,
+		"maintenance": 2,
 		"requiredBuilding": "Shrine",
 		"uniques": [
 			"[+1 Food] from [Snow] tiles [in this city]"
 		],
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "Floating Gardens",
+		"uniqueTo": "Aztecs",
+		"food": 2,
+		"production": 2,
+		"maintenance": 1,
+		"percentStatBonus": {
+			"food": 15
+		},
+		"uniques": [
+			"[+2 Food] from [Lakes] tiles [in this city]",
+			"Must be next to [Fresh water]"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "The Wheel"
 	},
 	{
 		"name": "Burial Tomb",
