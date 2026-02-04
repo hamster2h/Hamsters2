@@ -1430,7 +1430,8 @@
 		"innerColor": [167,52,31],
 		"uniqueName": "Spice Islanders",
 		"uniques": [
-			"[+25]% Great Person generation [in capital]"
+			"[+25]% Great Person generation [in capital]",
+			"Provides [2] [Spices]"
 		],
 		"cities": [
 			"Jakarta","Surabaya","Medan","Makassar","Batam","Denpasar","Samarinda","Mataram","Ambon","Bandung",
