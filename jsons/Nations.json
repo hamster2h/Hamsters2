@@ -1501,8 +1501,9 @@
 		"innerColor": [0, 0, 178],
 		"uniqueName": "Grand Baray of Angkor",
 		"uniques": [
-			"Gain a free [Baray] [in capital]",
-			"[+3 Science] per [3] population [in capital] <after discovering [Drama and Poetry]>"
+			"[+3 Science] per [3] population [in capital] <after discovering [Drama and Poetry]>",
+			"Gain a free [Angkor Wat] [in capital]",
+			"Gain a free [Baray] [in capital]"
 		],
 		"cities": [
 			"Yasodharapura","Hariharalaya","Mahendraparvata","Indrapura","Vimayapura","Rajavihara","Isvarapura","Lingapura","Nagara Jayasri","Vyadhapura",
