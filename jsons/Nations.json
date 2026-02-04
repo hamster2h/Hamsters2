@@ -80,49 +80,6 @@
 		]
     },
 	{
-		"name": "Denmark",
-		"leaderName": "Harald Bluetooth",
-		"adjective": ["Danish"],
-		"startBias": [
-			"Coast"
-		],
-		"preferredVictoryType": "Cultural",
-		"personality": "Harald Bluetooth",
-
-        "startIntroPart1": "Skal, Harald Bluetooth Gormsson, son of King Gorm of the Old and Thyra Dannebod! After crushing the armies of Norway, you achieved great construction projects all across the land of mighty Denmark. Numerous Ring Fortresses were built under your reign to protect the people from foreign invasions, but also from local quarrels. In 983 AD, you successfully repelled several waves of German settlers trying to colonize your land, and then always kept your kingdom free from any foreign pressure.",
-        "startIntroPart2": "As a true Viking, who knows not fear, time has come to unleash mighty armies of Northsmen to bring despair upon your enemies! By the will of the Gods, it will be either a glorious triumph or a sumptuous feast in the Valhalla! Will your new empire shine through the ages of history?",
-
-        "declaringWar": "If I am to be honest, I tire of those pointless charades. Why don't we settle our disputes on the field of battle, like true men? Perhaps the skalds will sing of your valor... or mine!",
-		"attacked": "Ahahah! You seem to show some skills of a true Viking! Too bad that I'll probably kill you!",
-		"defeated": "Loki must have stood by you, for a common man alone could not have defeated me... Oh well! I will join the einherjar in Valhalla and feast, while you toil away here.",
-		"denounced": "I'm excited for our upcoming battle, my friend.",
-		"introduction": "Harald Bluetooth bids you welcome to his lands, a Viking unlike any the seas and lands have ever known! Hah, are you afraid?",
-		"neutralHello": "Hail to you.",
-		"hateHello": "Oh, it's you.",
-		"tradeRequest": "This is a fine deal! Even a drunk beggar would agree!",
-
-        "outerColor": [51,25,0],
-        "innerColor": [255,255,102],
-
-		"favoredReligion": "Christianity",
-		"uniqueName": "Viking Fury",
-		"uniques": [
-			"[+2] Movement <for [Embarked] units>",
-			"[1] Movement point cost to disembark <for [All] units>",
-			"No movement cost to pillage <for [Melee] units>"
-		],
-		"cities": [
-			"Copenhagen","Aarhus","Kaupang","Ribe","Viborg","Tunsberg","Roskilde","Hedeby","Oslo","Jelling","Truso",
-			"Bergen","Faeroerne","Reykjavik","Trondheim","Godthab","Helluland","Lillehammer","Markland","Elsinore",
-			"Sarpsborg","Odense","Aalborg","Stavanger","Vorbasse","Schleswig","Kristiansand","Halogaland","Randers",
-			"Fredrikstad","Kolding","Horsens","Tromsoe","Vejle","Koge","Sandnes","Holstebro","Slagelse","Drammen",
-			"Hillerod","Sonderborg","Skien","Svendborg","Holbaek","Hjorring","Fladstrand","Haderslev","Ringsted","Skrive"
-		],
-        "spyNames": [
-			"Jørgen", "Mette", "Henrik", "Niels", "Helle", "Frederik", "Ida", "Thea", "Freja", "Morten"
-		]
-    },
-	{
 		"name": "Aztecs",
 		"leaderName": "Montezuma I",
 		"adjective": ["Aztec"],
@@ -207,6 +164,49 @@
 		]
 	},
 	{
+		"name": "Denmark",
+		"leaderName": "Harald Bluetooth",
+		"adjective": ["Danish"],
+		"startBias": [
+			"Coast"
+		],
+		"preferredVictoryType": "Cultural",
+		"personality": "Harald Bluetooth",
+
+        "startIntroPart1": "Skal, Harald Bluetooth Gormsson, son of King Gorm of the Old and Thyra Dannebod! After crushing the armies of Norway, you achieved great construction projects all across the land of mighty Denmark. Numerous Ring Fortresses were built under your reign to protect the people from foreign invasions, but also from local quarrels. In 983 AD, you successfully repelled several waves of German settlers trying to colonize your land, and then always kept your kingdom free from any foreign pressure.",
+        "startIntroPart2": "As a true Viking, who knows not fear, time has come to unleash mighty armies of Northsmen to bring despair upon your enemies! By the will of the Gods, it will be either a glorious triumph or a sumptuous feast in the Valhalla! Will your new empire shine through the ages of history?",
+
+        "declaringWar": "If I am to be honest, I tire of those pointless charades. Why don't we settle our disputes on the field of battle, like true men? Perhaps the skalds will sing of your valor... or mine!",
+		"attacked": "Ahahah! You seem to show some skills of a true Viking! Too bad that I'll probably kill you!",
+		"defeated": "Loki must have stood by you, for a common man alone could not have defeated me... Oh well! I will join the einherjar in Valhalla and feast, while you toil away here.",
+		"denounced": "I'm excited for our upcoming battle, my friend.",
+		"introduction": "Harald Bluetooth bids you welcome to his lands, a Viking unlike any the seas and lands have ever known! Hah, are you afraid?",
+		"neutralHello": "Hail to you.",
+		"hateHello": "Oh, it's you.",
+		"tradeRequest": "This is a fine deal! Even a drunk beggar would agree!",
+
+        "outerColor": [51,25,0],
+        "innerColor": [255,255,102],
+
+		"favoredReligion": "Christianity",
+		"uniqueName": "Viking Fury",
+		"uniques": [
+			"[+2] Movement <for [Embarked] units>",
+			"[1] Movement point cost to disembark <for [All] units>",
+			"No movement cost to pillage <for [Melee] units>"
+		],
+		"cities": [
+			"Copenhagen","Aarhus","Kaupang","Ribe","Viborg","Tunsberg","Roskilde","Hedeby","Oslo","Jelling","Truso",
+			"Bergen","Faeroerne","Reykjavik","Trondheim","Godthab","Helluland","Lillehammer","Markland","Elsinore",
+			"Sarpsborg","Odense","Aalborg","Stavanger","Vorbasse","Schleswig","Kristiansand","Halogaland","Randers",
+			"Fredrikstad","Kolding","Horsens","Tromsoe","Vejle","Koge","Sandnes","Holstebro","Slagelse","Drammen",
+			"Hillerod","Sonderborg","Skien","Svendborg","Holbaek","Hjorring","Fladstrand","Haderslev","Ringsted","Skrive"
+		],
+        "spyNames": [
+			"Jørgen", "Mette", "Henrik", "Niels", "Helle", "Frederik", "Ida", "Thea", "Freja", "Morten"
+		]
+    },
+	{
 		"name": "Egypt",
 		"leaderName": "Ramesses II",
 		"adjective": ["Egyptian"],
@@ -288,6 +288,52 @@
 		],
         "spyNames": [
 			"James", "Scarlett", "Mycroft", "Charlotte", "Gwendolyn", "Mr. Eks", "Dr. Grey", "Andrew", "Scott", "Anne"
+		]
+    },
+	{
+		"name": "Greece",
+		"leaderName": "Alexander",
+		"adjective": ["Greek"],
+		"startBias": [
+			"Coast"
+		],
+		"preferredVictoryType":"Diplomatic",
+		"personality": "Alexander",
+
+		"startIntroPart1": "Great King Alexander, leader of the mighty Greek nation, you are truly blessed by the gods. In 480 BC, quarrelsome city-states such as Athens, Sparta, Thebes, found a way to join their forces, allowing Greece to defeat the mighty Persia in the 5th century BC, both on land and sea. Following their example, you lead a Greek coalition and finally struck down the Persian Empire in 331 BC. You conquered almost all the known world, and from Europe to Africa to India, you built an empire unmatched by any before it.",
+		"startIntroPart2": "Megalexandros, son of Zeus, will you ride Bucephalas again, to gift the world with the brightness of the Greek culture? Will your new empire shine through the ages of history?",
+
+		"declaringWar": "You are in my way, you must be destroyed.",
+		"attacked": "As a matter of fact I too grow weary of peace.",
+		"defeated": "You have somehow become my undoing! What kind of beast are you?",
+		"denounced": "You'll regret this decision, fool. I swear it!",
+		"introduction": "Hello stranger! I am Alexandros, son of kings and grandson of the gods!",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "My friend, does this seem reasonable to you?",
+
+		"outerColor": [255, 255, 255],
+		"innerColor": [65, 141, 254],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Hellenic League",
+		"uniques": [
+			"[-50]% City-State Influence degradation",
+			"City-State Influence recovers at twice the normal rate",
+			"City-State territory always counts as friendly territory",
+			"Starts with [Citizenship] adopted",
+			"Starts with [Optics]"
+		],
+		"cities": [
+			"Athens","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
+			"Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios",
+			"Paros","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos",
+			"Larissa","Apollonia","Messene","Orchomenos","Ambracia","Kos","Knidos","Amphipolis",
+			"Patras","Lamia","Nafplion","Apolyton"
+		],
+        "spyNames": [
+			"Jason", "Helena", "Alexa", "Cletus", "Kassandra", "Andres", "Desdemona", "Anthea", "Aeneas", "Leander"
 		]
     },
 	{
@@ -539,52 +585,6 @@
 		],
         "spyNames": [
 			"Crìsdean", "Siobhán", "Seamus", "Ffion", "Pádraig", "Deirdre", "Mr. Quinn", "Éadaoin", "Alwyn", "Col Ceathar"
-		]
-    },
-	{
-		"name": "Greece",
-		"leaderName": "Alexander",
-		"adjective": ["Greek"],
-		"startBias": [
-			"Coast"
-		],
-		"preferredVictoryType":"Diplomatic",
-		"personality": "Alexander",
-
-		"startIntroPart1": "Great King Alexander, leader of the mighty Greek nation, you are truly blessed by the gods. In 480 BC, quarrelsome city-states such as Athens, Sparta, Thebes, found a way to join their forces, allowing Greece to defeat the mighty Persia in the 5th century BC, both on land and sea. Following their example, you lead a Greek coalition and finally struck down the Persian Empire in 331 BC. You conquered almost all the known world, and from Europe to Africa to India, you built an empire unmatched by any before it.",
-		"startIntroPart2": "Megalexandros, son of Zeus, will you ride Bucephalas again, to gift the world with the brightness of the Greek culture? Will your new empire shine through the ages of history?",
-
-		"declaringWar": "You are in my way, you must be destroyed.",
-		"attacked": "As a matter of fact I too grow weary of peace.",
-		"defeated": "You have somehow become my undoing! What kind of beast are you?",
-		"denounced": "You'll regret this decision, fool. I swear it!",
-		"introduction": "Hello stranger! I am Alexandros, son of kings and grandson of the gods!",
-
-		"neutralHello": "Greetings!",
-		"hateHello": "What?",
-
-		"tradeRequest": "My friend, does this seem reasonable to you?",
-
-		"outerColor": [255, 255, 255],
-		"innerColor": [65, 141, 254],
-		"favoredReligion": "Christianity",
-		"uniqueName": "Hellenic League",
-		"uniques": [
-			"[-50]% City-State Influence degradation",
-			"City-State Influence recovers at twice the normal rate",
-			"City-State territory always counts as friendly territory",
-			"Starts with [Citizenship] adopted",
-			"Starts with [Optics]"
-		],
-		"cities": [
-			"Athens","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
-			"Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios",
-			"Paros","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos",
-			"Larissa","Apollonia","Messene","Orchomenos","Ambracia","Kos","Knidos","Amphipolis",
-			"Patras","Lamia","Nafplion","Apolyton"
-		],
-        "spyNames": [
-			"Jason", "Helena", "Alexa", "Cletus", "Kassandra", "Andres", "Desdemona", "Anthea", "Aeneas", "Leander"
 		]
     },
 	{
