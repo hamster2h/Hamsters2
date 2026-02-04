@@ -840,7 +840,7 @@
 		"uniques": [
 			"Provides [4] [Electrical Stock]",
 			"Comment [Double Power to Buildings that provide it]",
-			"Consumes [1] [Corporation Slot(Total)]",
+			//"Consumes [1] [Corporation Slot(Total)]",
 			"Only available <with [Corporation Slot]>"
 		]
 	},
@@ -853,7 +853,7 @@
 		"uniques": [
 			"Provides [4] [Engineering Stock]",
 			"Comment [Production Improvements have their adjacency bonuses doubled]",
-			"Consumes [1] [Corporation Slot(Total)]",
+			//"Consumes [1] [Corporation Slot(Total)]",
 			"Only available <with [Corporation Slot]>"
 		]
 	},
@@ -868,7 +868,7 @@
 			"Comment [Doubles the adjacency bonuses of Concert Venue tiles]",
 			"[+100]% Yield from every [Excavation Site]",
 			"[+100]% [Culture] from every [History Museum]",
-			"Consumes [1] [Corporation Slot(Total)]",
+			//"Consumes [1] [Corporation Slot(Total)]",
 			"Only available <with [Corporation Slot]>"
 		]
 	},
@@ -883,7 +883,7 @@
 			"New [Military] units start with [45] XP [in all cities]",
 			"[+100]% Gold cost of upgrading <for [Military] units>",
 			"[Gold] cost of purchasing [Military] units [+100]%",
-			"Consumes [1] [Corporation Slot(Total)]",
+			//"Consumes [1] [Corporation Slot(Total)]",
 			"Only available <with [Corporation Slot]>"
 		]
 	},
@@ -896,7 +896,7 @@
 		"uniques": [
 			"Provides [4] [Social Network Stock]",
 			"[-10]% Unhappiness from [Population] [in all cities]",
-			"Consumes [1] [Corporation Slot(Total)]",
+			//"Consumes [1] [Corporation Slot(Total)]",
 			"Only available <with [Corporation Slot]>"
 		]
 	},
@@ -911,7 +911,7 @@
 			"[+4 Gold, +2 Production, +2 Food] from each Trade Route",
 			"Comment [Doubles the adjacency bonuses of Industry tiles]",
 			"[+100]% Yield from every [Supply Route]",
-			"Consumes [1] [Corporation Slot(Total)]",
+			//"Consumes [1] [Corporation Slot(Total)]",
 			"Only available <with [Corporation Slot]>"
 		]
 	},
@@ -925,7 +925,7 @@
 			"Provides [4] [Space Stock]",
 			"[-25]% Food consumption by [Specialists] [in all cities]",
 			"[-25]% Unhappiness from [Specialists] [in all cities]",
-			"Consumes [1] [Corporation Slot(Total)]",
+			//"Consumes [1] [Corporation Slot(Total)]",
 			"Only available <with [Corporation Slot]>"
 		]
 	},
@@ -939,7 +939,7 @@
 		"uniques": [
 			"Provides [4] [Holy Stock]",
 			"[Faith] cost of purchasing [All] units [-35]%",
-			"Consumes [1] [Corporation Slot(Total)]",
+			//"Consumes [1] [Corporation Slot(Total)]",
 			"Only available <with [Corporation Slot]>"
 		]
 	},
@@ -954,7 +954,7 @@
 		"cost": 1,
 		"uniques": [
 			"Indicates the capital city",
-			"Provides [1] [Corporation Slot(Total)] <in cities without a [No Corporation]> <after discovering [Corporations]>",
+			//"Provides [1] [Corporation Slot(Total)] <in cities without a [No Corporation]> <after discovering [Corporations]>",
 			"Provides [1] [Corporation Slot] <in cities without a [No Corporation]> <after discovering [Corporations]>"
 		]
 	},
