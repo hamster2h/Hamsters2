@@ -138,11 +138,10 @@
 	{
 		"name": "Stele",
 		"uniqueTo": "Ethiopia",
-        "replaces": "Monument",
 		"cost": 20,
 		"culture": 2,
-		"faith": 4,
-		"maintenance": 1,
+		"faith": 6,
+		"maintenance": 2,
 		"uniques": [
 			"Destroyed when the city is captured"
 		],
