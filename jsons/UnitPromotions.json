@@ -438,6 +438,12 @@
             "[+50]% Strength <when attacking>"
         ]
     },
+	{
+		"name": "[Foreign Legion] ability",
+		"uniques": [
+			"[+25]% Strength <when fighting in [Foreign Land] tiles>"
+		]
+	},
     {
         "name": "Mystic Blade",
         "uniques": [
@@ -569,10 +575,11 @@
 	{
 		"name": "Golden Age from Victories",
 		"uniques": [
-			"Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]"
+			"Earn [200]% of killed [Military] unit's [Strength] as [Golden Age points]"
 		]
 	}
 ]
+
 
 
 
