@@ -172,7 +172,7 @@
                 "name": "Discipline",
                 "uniques": [
                     "[+25]% Strength <for [Military] units> <when adjacent to a [Military] unit>",
-					"[+1 Culture, +2 Production] [in all cities with a garrison]"
+					"[+2 Production, +1 Science, +1 Culture] [in all cities with a garrison]"
 				],
                 "row": 1,
                 "column": 4
