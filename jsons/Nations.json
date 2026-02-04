@@ -1672,7 +1672,7 @@
         "innerColor": [201,214,217],
         "uniqueName": "Last of the Free",
         "uniques": [
-            "[+2 Culture] from [Hill] tiles without [Improvement] [in all cities] <after discovering [Acoustics]>",
+            "[+6 Culture] from [Hill] tiles without [Improvement] [in all cities]",
 			"Gain a free [Stonehenge] [in capital]"
         ],
         "cities": [
