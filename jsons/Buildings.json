@@ -839,9 +839,7 @@
 		"requiredTech": "Infrastructure",
 		"uniques": [
 			"Provides [4] [Electrical Stock]",
-			"Comment [Double Power to Buildings that provide it]",
-			//"Consumes [1] [Corporation Slot(Total)]",
-			"Only available <with [Corporation Slot]>"
+			"Comment [Double Power to Buildings that provide it]"
 		]
 	},
 	{
@@ -852,9 +850,7 @@
 		"requiredTech": "Corporations",
 		"uniques": [
 			"Provides [4] [Engineering Stock]",
-			"Comment [Production Improvements have their adjacency bonuses doubled]",
-			//"Consumes [1] [Corporation Slot(Total)]",
-			"Only available <with [Corporation Slot]>"
+			"Comment [Production Improvements have their adjacency bonuses doubled]"
 		]
 	},
 	{
@@ -867,9 +863,7 @@
 			"Provides [4] [Tourism Stock]",
 			"Comment [Doubles the adjacency bonuses of Concert Venue tiles]",
 			"[+100]% Yield from every [Excavation Site]",
-			"[+100]% [Culture] from every [History Museum]",
-			//"Consumes [1] [Corporation Slot(Total)]",
-			"Only available <with [Corporation Slot]>"
+			"[+100]% [Culture] from every [History Museum]"
 		]
 	},
 	{
@@ -882,9 +876,7 @@
 			"Provides [4] [Defense Force Stock]",
 			"New [Military] units start with [45] XP [in all cities]",
 			"[+100]% Gold cost of upgrading <for [Military] units>",
-			"[Gold] cost of purchasing [Military] units [+100]%",
-			//"Consumes [1] [Corporation Slot(Total)]",
-			"Only available <with [Corporation Slot]>"
+			"[Gold] cost of purchasing [Military] units [+100]%"
 		]
 	},
 	{
@@ -895,9 +887,7 @@
 		"requiredTech": "The Internet",
 		"uniques": [
 			"Provides [4] [Social Network Stock]",
-			"[-10]% Unhappiness from [Population] [in all cities]",
-			//"Consumes [1] [Corporation Slot(Total)]",
-			"Only available <with [Corporation Slot]>"
+			"[-10]% Unhappiness from [Population] [in all cities]"
 		]
 	},
 	{
@@ -910,9 +900,7 @@
 			"Provides [4] [World Delivery Stock]",
 			"[+4 Gold, +2 Production, +2 Food] from each Trade Route",
 			"Comment [Doubles the adjacency bonuses of Industry tiles]",
-			"[+100]% Yield from every [Supply Route]",
-			//"Consumes [1] [Corporation Slot(Total)]",
-			"Only available <with [Corporation Slot]>"
+			"[+100]% Yield from every [Supply Route]"
 		]
 	},
 	{
@@ -924,9 +912,7 @@
 		"uniques": [
 			"Provides [4] [Space Stock]",
 			"[-25]% Food consumption by [Specialists] [in all cities]",
-			"[-25]% Unhappiness from [Specialists] [in all cities]",
-			//"Consumes [1] [Corporation Slot(Total)]",
-			"Only available <with [Corporation Slot]>"
+			"[-25]% Unhappiness from [Specialists] [in all cities]"
 		]
 	},
 	{
@@ -938,9 +924,7 @@
 		"requiredTech": "Corporations",
 		"uniques": [
 			"Provides [4] [Holy Stock]",
-			"[Faith] cost of purchasing [All] units [-35]%",
-			//"Consumes [1] [Corporation Slot(Total)]",
-			"Only available <with [Corporation Slot]>"
+			"[Faith] cost of purchasing [All] units [-35]%"
 		]
 	},
 	{
@@ -954,8 +938,7 @@
 		"cost": 1,
 		"uniques": [
 			"Indicates the capital city",
-			//"Provides [1] [Corporation Slot(Total)] <in cities without a [No Corporation]> <after discovering [Corporations]>",
-			"Provides [1] [Corporation Slot] <in cities without a [No Corporation]> <after discovering [Corporations]>"
+			"Provides [1] [Corporation Slot] <after discovering [Corporations]>"
 		]
 	},
 	{
@@ -2318,7 +2301,6 @@
 			"Comment [Enables construction of [Composite Factory]]",
 			"[+10]% [Production] [in all cities]",
 			"Only available <starting from the [Future era]>",
-			"Only available <with [Engineer Perk]>",
 			"Consumes [1] [Engineer Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
@@ -2333,7 +2315,6 @@
 			"[Gold] cost of purchasing [Settler] units [-25]%",
 			"[-50]% Gold cost of acquiring tiles [in all cities]",
 			"Only available <starting from the [Industrial era]>",
-			"Only available <with [Merchant Perk]>",
 			"Consumes [1] [Merchant Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
@@ -2347,7 +2328,6 @@
 			"[+2 Gold, +2 Science] from each Trade Route",
 			"[+1] Movement <for [Civilian] units>",
 			"Only available <starting from the [Industrial era]>",
-			"Only available <with [Merchant Perk]>",
 			"Consumes [1] [Merchant Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		],
@@ -2364,7 +2344,6 @@
 			"Gain [20] Influence with a [Military] gift to a City-State",
 			"[Gold] cost of purchasing [Military] units [-10]%",
 			"Only available <starting from the [Modern era]>",
-			"Only available <with [Merchant Perk]>",
 			"Consumes [1] [Merchant Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
@@ -2379,7 +2358,6 @@
 			"[+5]% [Gold] from every [Theatre]",
 			"[+5]% [Gold] from every [Stadium]",
 			"Only available <starting from the [Modern era]>",
-			"Only available <with [Merchant Perk]>",
 			"Consumes [1] [Merchant Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
@@ -2394,7 +2372,6 @@
 			"[+25]% Production when constructing [Corporate] units [in all cities]",
 			"[Gold] cost of purchasing [Corporate] units [-25]%",
 			"Only available <starting from the [Atomic era]>",
-			"Only available <with [Merchant Perk]>",
 			"Consumes [1] [Merchant Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
@@ -2409,7 +2386,6 @@
 			"[+10]% [Gold] from City-States",
 			"Gifts of Gold to City-States generate [25]% more Influence",
 			"Only available <starting from the [Atomic era]>",
-			"Only available <with [Merchant Perk]>",
 			"Consumes [1] [Merchant Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
@@ -2423,7 +2399,6 @@
 			"[+10]% [Gold] from every [Entrepeneur Venue]",
 			"[+10]% [Gold] from every [Stock Exchange]",
 			"Only available <starting from the [Information era]>",
-			"Only available <with [Merchant Perk]>",
 			"Consumes [1] [Merchant Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
@@ -2436,7 +2411,6 @@
 			"Comment [Information Perk]",
 			"[+2 Gold, +4 Culture] per [1] population [in all cities]",
 			"Only available <starting from the [Information era]>",
-			"Only available <with [Merchant Perk]>",
 			"Consumes [2] [Merchant Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
@@ -2451,7 +2425,6 @@
 			"[+3 Food, +1 Gold] from every [Coast]",
 			"[+3 Food, +1 Gold] from every [Ocean]",
 			"Only available <starting from the [Future era]>",
-			"Only available <with [Merchant Perk]>",
 			"Consumes [2] [Merchant Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
@@ -2466,7 +2439,6 @@
 			"[+25]% [Gold] [in all cities] <during a Golden Age>",
 			"Production to [Gold] conversion in cities changed by [+25]%",
 			"Only available <starting from the [Future era]>",
-			"Only available <with [Merchant Perk]>",
 			"Consumes [2] [Merchant Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
@@ -2480,7 +2452,6 @@
 			"[+25]% [Faith] from City-States",
 			"[+10]% [Faith] from every [Hospital]",
 			"Only available <starting from the [Industrial era]>",
-			"Only available <with [Prophet Perk]>",
 			"Consumes [1] [Prophet Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
@@ -2493,7 +2464,6 @@
 			"Comment [Industrial Perk]",
 			"[+4 Faith, +2 Happiness] from all [Faith] buildings",
 			"Only available <starting from the [Industrial era]>",
-			"Only available <with [Prophet Perk]>",
 			"Consumes [2] [Prophet Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
@@ -2507,7 +2477,6 @@
 			"[+5]% [Gold] from every [Shrine]",
 			"[+5]% [Gold] from every [Temple]",
 			"Only available <starting from the [Modern era]>",
-			"Only available <with [Prophet Perk]>",
 			"Consumes [1] [Prophet Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
@@ -2521,7 +2490,6 @@
 			"[+10]% Strength <for [Military] units> <when defending>",
 			"May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <during the [Modern era]>",
 			"Only available <starting from the [Modern era]>",
-			"Only available <with [Prophet Perk]>",
 			"Consumes [1] [Prophet Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
@@ -2535,7 +2503,6 @@
 			"[Faith] cost of purchasing items in cities [-25]% <during the [Atomic era]>",
 			"[+2 Culture] from all [Faith] buildings",
 			"Only available <starting from the [Atomic era]>",
-			"Only available <with [Prophet Perk]>",
 			"Consumes [1] [Prophet Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
@@ -2550,7 +2517,6 @@
 			"[+250]% Spread Religion Strength <for [Great Prophet] units> <during the [Atomic era]>",
 			"[Faith] cost of purchasing [Inquisitor] units [-50]% <during the [Atomic era]>",
 			"Only available <during the [Atomic era]>",
-			"Only available <with [Prophet Perk]>",
 			"Consumes [1] [Prophet Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
@@ -2564,7 +2530,6 @@
 			"[+50]% Natural religion spread [in all cities] <during the [Information era]>",
 			"[Faith] cost of purchasing [All] units [-15]% <during the [Information era]>",
 			"Only available <during the [Information era]>",
-			"Only available <with [Prophet Perk]>",
 			"Consumes [1] [Prophet Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
@@ -2577,7 +2542,6 @@
 			"Comment [Information Perk]",
 			"[+25]% [Faith] [in all cities] <when not at war>",
 			"Only available <starting from the [Information era]>",
-			"Only available <with [Prophet Perk]>",
 			"Consumes [1] [Prophet Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
@@ -2591,7 +2555,6 @@
 			"[+10]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
 			"[+2 Faith, +1 Gold] from every [Great Improvement]",
 			"Only available <starting from the [Future era]>",
-			"Only available <with [Prophet Perk]>",
 			"Consumes [2] [Prophet Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
@@ -2604,7 +2567,6 @@
 			"Comment [Future Perk]",
 			"[+25]% Strength <for [All] units> <when fighting in [Foreign Land] tiles>",
 			"Only available <starting from the [Future era]>",
-			"Only available <with [Prophet Perk]>",
 			"Consumes [2] [Prophet Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
@@ -2619,7 +2581,6 @@
 			"[+2 Science, +2 Production] from [Fort] tiles [in all cities]",
 			"[+4 Science, +4 Production] from [Citadel] tiles [in all cities]",
 			"Only available <starting from the [Industrial era]>",
-			"Only available <with [General Perk]>",
 			"Consumes [1] [General Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
@@ -2633,7 +2594,6 @@
 			"[+10]% Strength <for [Military] units>",
 			"[+25]% Strength <for [Military] units> <vs cities>",
 			"Only available <starting from the [Industrial era]>",
-			"Only available <with [General Perk]>",
 			"Consumes [1] [General Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
@@ -2647,7 +2607,6 @@
 			"Comment [Enables construction of Great War Infantry and Great War Bombers]",
 			"[+10]% Strength <for [Military] units>",
 			"Only available <starting from the [Modern era]>",
-			"Only available <with [General Perk]>",
 			"Consumes [1] [General Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
@@ -2661,7 +2620,6 @@
 			"[+25]% Production when constructing [{Water} {Military}] units [in all cities]",
 			"[Gold] cost of purchasing [{Water} {Military}] units [-10]%",
 			"Only available <starting from the [Modern era]>",
-			"Only available <with [General Perk]>",
 			"Consumes [1] [General Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
@@ -2676,7 +2634,6 @@
 			"[+2 Gold] from [Fort] tiles [in all cities]",
 			"[+4 Gold] from [Citadel] tiles [in all cities]",
 			"Only available <starting from the [Atomic era]>",
-			"Only available <with [General Perk]>",
 			"Consumes [1] [General Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
@@ -2690,7 +2647,6 @@
 			"[+25]% Production when constructing [{Air} {Military}] units [in all cities]",
 			"[Gold] cost of purchasing [{Air} {Military}] units [-10]%",
 			"Only available <starting from the [Atomic era]>",
-			"Only available <with [General Perk]>",
 			"Consumes [1] [General Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
@@ -2705,7 +2661,6 @@
 			"[Gold] cost of purchasing [Support] units [-10]%",
 			"[+33]% Strength <for [Support] units>",
 			"Only available <starting from the [Information era]>",
-			"Only available <with [General Perk]>",
 			"Consumes [1] [General Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
@@ -2719,7 +2674,6 @@
 			"Provides [8] [Aluminum]",
 			"All newly-trained [Missile Cruiser] units [in all cities] receive the [Stealth] promotion",
 			"Only available <starting from the [Information era]>",
-			"Only available <with [General Perk]>",
 			"Consumes [1] [General Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
@@ -2737,7 +2691,6 @@
 			"All newly-trained [Hover-SAM] units [in all cities] receive the [Mobility I] promotion",
 			"All newly-trained [Hover-SAM] units [in all cities] receive the [Mobility II] promotion",
 			"Only available <starting from the [Future era]>",
-			"Only available <with [General Perk]>",
 			"Consumes [1] [General Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
@@ -2755,7 +2708,6 @@
 			"All newly-trained [Future Copter] units [in all cities] receive the [Energy Weapons] promotion",
 			"All newly-trained [Missile Cruiser] units [in all cities] receive the [Energy Weapons] promotion",
 			"Only available <starting from the [Future era]>",
-			"Only available <with [General Perk]>",
 			"Consumes [1] [General Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
@@ -2799,21 +2751,10 @@
 	{
 		"name": "Corporate Slot",
 		"uniques": [
-			//"Provides [1] [Corporation Slot(Total)] <after discovering [Corporations]>",
 			"Provides [1] [Corporation Slot] <after discovering [Corporations]>",
 			"Destroyed when the city is captured",
 			"Unbuildable",
 			"Unsellable"
-		]
-	},
-	{
-		"name": "No Corporation",
-		"cost": 1,
-		"uniques": [
-			//"Will not be displayed in Civilopedia",
-			"Comment [City-State have no corporation]",
-			"Destroyed when the city is captured",
-			"Unbuildable"
 		]
 	},
 	{
