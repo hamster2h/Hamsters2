@@ -404,7 +404,7 @@
 		"uniques": [
 			"[+10]% [Culture] [in all cities]",
 			"[+2 Culture, +2 Gold] [in capital]",
-			"[+4 Culture] [in all cities] <before discovering [Steam Power]>"
+			"[+4 Culture] [in all cities]"
 		],
 		"cities": [
 			"Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
