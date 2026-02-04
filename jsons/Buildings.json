@@ -140,10 +140,10 @@
 		"uniqueTo": "Ethiopia",
 		"cost": 20,
 		"culture": 2,
-		"faith": 6,
+		"faith": 4,
 		"maintenance": 2,
 		"uniques": [
-			"Destroyed when the city is captured"
+			"[+1 Faith] from each Trade Route"
 		],
 		"hurryCostModifier": 40
 	},
