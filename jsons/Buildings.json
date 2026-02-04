@@ -2799,7 +2799,7 @@
 	{
 		"name": "Corporate Slot",
 		"uniques": [
-			"Provides [1] [Corporation Slot(Total)] <after discovering [Corporations]>",
+			//"Provides [1] [Corporation Slot(Total)] <after discovering [Corporations]>",
 			"Provides [1] [Corporation Slot] <after discovering [Corporations]>",
 			"Destroyed when the city is captured",
 			"Unbuildable",
@@ -2810,7 +2810,7 @@
 		"name": "No Corporation",
 		"cost": 1,
 		"uniques": [
-			"Will not be displayed in Civilopedia",
+			//"Will not be displayed in Civilopedia",
 			"Comment [City-State have no corporation]",
 			"Destroyed when the city is captured",
 			"Unbuildable"
