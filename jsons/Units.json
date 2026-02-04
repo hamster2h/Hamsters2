@@ -68,6 +68,25 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Persian Immortal",
+		"uniqueTo": "Persia",
+		"replaces": "Spearman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 12,
+		"cost": 28,
+		"requiredTech": "Bronze Working",
+		"upgradesTo": "Pikeman",
+		"obsoleteTech": "Civil Service",
+		"uniques": [
+			"[+50]% Strength <vs [Mounted] units>"
+		],
+		"promotions":[
+			"[Persian Immortal] ability"
+		],
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Pictish Warrior",
 		"uniqueTo": "Celts",
 		"replaces": "Spearman",
