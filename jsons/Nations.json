@@ -164,6 +164,50 @@
 		]
 	},
 	{
+		"name": "Celts",
+		"leaderName": "Boudicca",
+		"adjective": ["celtic"],
+		"startBias": [
+			"Forest"
+		],
+		"preferredVictoryType": "Domination",
+		"personality": "Boudicca",
+
+        "startIntroPart1": "May glory and honor always be upon you, Warrior Queen! In a time dominated by men, you successfully claimed the throne and the power, but also valiantly defied the mighty Roman Empire. Punished and humiliated by the hand of the Roman bloody invaders, you united your people and led a terrible revolt, to seek revenge. Many legions fell under your fierce attacks and you burned the city of London with your anger. While the Romans still kept ownership of your land after your final defeat, your actions nonetheless showed Rome that this land could never be fully conquered, making Nero himself consider to withdraw all troops and leaving Britain forever.",
+        "startIntroPart2": "O raging lioness, will you lead the Celts again under the glory of your name, to spread the fires of liberty, and achieve a final victory? Will your new empire shine through the ages of history?",
+
+        "declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen. We ride to war!",
+		"attacked": "Traitorous man! The Celtic peoples will not stand for such wanton abuse and slander - I shall have your balls!",
+		"defeated": "Vile ruler, know you have won this war in name alone. Your cities lie buried and your troops defeated. I have my own victory.",
+		"denounced": "Don't forget who you're dealing with. Arrogant moves can get you in danger.",
+		"introduction": "I am Boudicca, Queen of the Celts. Let no-one underestimate me!",
+		"tradeRequest": "Let us join our forces together and reap the rewards.",
+
+		"neutralHello": "God has given good to you.",
+
+		"hateHello": "Well?",
+        "outerColor": [12,75,25],
+        "innerColor": [157,172,255],
+
+		"favoredReligion": "Christianity",
+		"uniqueName": "Druidic Lore",
+		"uniques": [
+			"[+1 Faith] [in all cities] <with [1] to [2] neighboring [{unimproved} {Forest}] tiles>",
+			"[+2 Faith] [in all cities] <with [3] to [6] neighboring [{unimproved} {Forest}] tiles>",
+			"Gain a free [Ceilidh Hall] [in all cities]",
+			"[+20]% [Happiness] <when at war>"
+		],
+		"cities": [
+			"Edinburgh","Dublin","Cardiff","Truro","Nantes","Douglas","Glasgow","Cork","Aberystwyth",
+			"Penzance","Rennes","Ramsey","Inverness","Limerick","Swansea","St. Ives","Brest","Peel","Aberdeen",
+			"Belfast","Caernarfon","Newquay","Saint-Nazaire","Castletown","Stirling","Galway","Conwy",
+			"St. Austell","Saint-Malo","Onchan","Dundee","Londonderry","Llanfairpwllgwyngyll","Falmouth","Lorient"
+		],
+        "spyNames": [
+			"Crìsdean", "Siobhán", "Seamus", "Ffion", "Pádraig", "Deirdre", "Mr. Quinn", "Éadaoin", "Alwyn", "Col Ceathar"
+		]
+    },
+	{
 		"name": "Denmark",
 		"leaderName": "Harald Bluetooth",
 		"adjective": ["Danish"],
@@ -322,7 +366,7 @@
 		"uniqueName": "Spirit of Adwa",
 		"uniques": [
 			"[+25]% Strength <when fighting units from a Civilization with more Cities than you>",
-			"[+1 Culture] per every [8] [Faith]"
+			"[+1 Culture] per every [10] [Faith]"
 		],
 		"cities": [
 			"Addis Ababa","Harar","Adwa","Lalibela","Gondar","Axum","Dire Dawa","Bahir Dar","Adama",
@@ -333,6 +377,42 @@
         "spyNames": [
 			"Mulu Ken", "Wendimu", "Li'ol", "Demeke", "Mulu Alem", "Abebech", "Zema", "Mihret", "Kebedech", "Alemnesh"
 		]
+    },
+	{
+		"name": "France",
+		"leaderName": "Napoleon",
+		"adjective": ["French"],
+		"preferredVictoryType": "Cultural",
+		"personality": "Napoleon",
+
+        "startIntroPart1": "Vive Napoleon I, First Consul and Emperor of France! After the glorious Revolution which suppressed the centuries-old monarchy, the French nation stood at the heart of Europe as a Republic, and intended to export its ideals to the entire European continent, either by diplomacy or war. The French Capital Paris was more than ever the world center of Culture, Arts, and Letters. With its Great Army, reputed as one of the greatest in the History, France fought gloriously all surrounding enemies, but eventually fell against the coalition of other European powers.",
+        "startIntroPart2": "Napoleon Bonaparte, ruler of the French people, will you rebuild the Empire to take revenge on your foes, and make again of its Capital the City of Lights? Will your new empire shine through the ages of history?",
+
+        "declaringWar": "You're disturbing us, prepare for war.",
+		"attacked": "You've fallen into my trap. I'll bury you.",
+		"defeated": "I congratulate you for your victory.",
+		"introduction": "Welcome. I'm Napoleon, of France; the smartest military man in world history.",
+		"neutralHello": "Hello.",
+		"hateHello": "It's you.",
+		"tradeRequest": "France offers you this exceptional proposition.",
+
+        "outerColor": [ 38, 98, 255],
+        "innerColor": [239,236,148],
+
+		"favoredReligion": "Christianity",
+		"uniqueName": "Ancien Régime",
+		"uniques": [
+			"[+10]% [Culture] [in all cities]",
+			"[+2 Culture, +2 Gold] [in capital]",
+			"[+4 Culture] [in all cities] <before discovering [Steam Power]>"
+		],
+		"cities": [
+			"Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
+			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
+			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
+			"Le Havre","Lourdes","Cannes","Aix-En-Provence","La Rochelle","Bourges","Calais"
+		],
+        "spyNames": ["Jean-Paul", "Martine", "Lucien", "François", "Augustine", "Monsieur X", "Dr. Dupont", "Vipère", "Yvette", "Renard"]
     },
 	{
 		"name": "Greece",
@@ -585,50 +665,6 @@
 		],
         "spyNames": [
 			"Azi", "Dabir", "Firuz", "Gaspar", "Shahzad", "Aga", "Marjane", "Peri", "Sartaj ", "Yasmin"
-		]
-    },
-	{
-		"name": "Celts",
-		"leaderName": "Boudicca",
-		"adjective": ["celtic"],
-		"startBias": [
-			"Forest"
-		],
-		"preferredVictoryType": "Domination",
-		"personality": "Boudicca",
-
-        "startIntroPart1": "May glory and honor always be upon you, Warrior Queen! In a time dominated by men, you successfully claimed the throne and the power, but also valiantly defied the mighty Roman Empire. Punished and humiliated by the hand of the Roman bloody invaders, you united your people and led a terrible revolt, to seek revenge. Many legions fell under your fierce attacks and you burned the city of London with your anger. While the Romans still kept ownership of your land after your final defeat, your actions nonetheless showed Rome that this land could never be fully conquered, making Nero himself consider to withdraw all troops and leaving Britain forever.",
-        "startIntroPart2": "O raging lioness, will you lead the Celts again under the glory of your name, to spread the fires of liberty, and achieve a final victory? Will your new empire shine through the ages of history?",
-
-        "declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen. We ride to war!",
-		"attacked": "Traitorous man! The Celtic peoples will not stand for such wanton abuse and slander - I shall have your balls!",
-		"defeated": "Vile ruler, know you have won this war in name alone. Your cities lie buried and your troops defeated. I have my own victory.",
-		"denounced": "Don't forget who you're dealing with. Arrogant moves can get you in danger.",
-		"introduction": "I am Boudicca, Queen of the Celts. Let no-one underestimate me!",
-		"tradeRequest": "Let us join our forces together and reap the rewards.",
-
-		"neutralHello": "God has given good to you.",
-
-		"hateHello": "Well?",
-        "outerColor": [12,75,25],
-        "innerColor": [157,172,255],
-
-		"favoredReligion": "Christianity",
-		"uniqueName": "Druidic Lore",
-		"uniques": [
-			"[+1 Faith] [in all cities] <with [1] to [2] neighboring [{unimproved} {Forest}] tiles>",
-			"[+2 Faith] [in all cities] <with [3] to [6] neighboring [{unimproved} {Forest}] tiles>",
-			"Gain a free [Ceilidh Hall] [in all cities]",
-			"[+20]% [Happiness] <when at war>"
-		],
-		"cities": [
-			"Edinburgh","Dublin","Cardiff","Truro","Nantes","Douglas","Glasgow","Cork","Aberystwyth",
-			"Penzance","Rennes","Ramsey","Inverness","Limerick","Swansea","St. Ives","Brest","Peel","Aberdeen",
-			"Belfast","Caernarfon","Newquay","Saint-Nazaire","Castletown","Stirling","Galway","Conwy",
-			"St. Austell","Saint-Malo","Onchan","Dundee","Londonderry","Llanfairpwllgwyngyll","Falmouth","Lorient"
-		],
-        "spyNames": [
-			"Crìsdean", "Siobhán", "Seamus", "Ffion", "Pádraig", "Deirdre", "Mr. Quinn", "Éadaoin", "Alwyn", "Col Ceathar"
 		]
     },
 	{
@@ -982,42 +1018,6 @@
 			"Kamakura","Kochi","Naha","Sendai","Gifu","Yamaguchi","Ota","Tottori"
 		],
         "spyNames": ["Akaishi", "Oki", "Hattori", "Morozumi", "Momochi", "Kawashima", "Orin", "Sakanishi", "Kaede", "Mochizuki"]
-    },
-	{
-		"name": "France",
-		"leaderName": "Napoleon",
-		"adjective": ["French"],
-		"preferredVictoryType": "Cultural",
-		"personality": "Napoleon",
-
-        "startIntroPart1": "Vive Napoleon I, First Consul and Emperor of France! After the glorious Revolution which suppressed the centuries-old monarchy, the French nation stood at the heart of Europe as a Republic, and intended to export its ideals to the entire European continent, either by diplomacy or war. The French Capital Paris was more than ever the world center of Culture, Arts, and Letters. With its Great Army, reputed as one of the greatest in the History, France fought gloriously all surrounding enemies, but eventually fell against the coalition of other European powers.",
-        "startIntroPart2": "Napoleon Bonaparte, ruler of the French people, will you rebuild the Empire to take revenge on your foes, and make again of its Capital the City of Lights? Will your new empire shine through the ages of history?",
-
-        "declaringWar": "You're disturbing us, prepare for war.",
-		"attacked": "You've fallen into my trap. I'll bury you.",
-		"defeated": "I congratulate you for your victory.",
-		"introduction": "Welcome. I'm Napoleon, of France; the smartest military man in world history.",
-		"neutralHello": "Hello.",
-		"hateHello": "It's you.",
-		"tradeRequest": "France offers you this exceptional proposition.",
-
-        "outerColor": [ 38, 98, 255],
-        "innerColor": [239,236,148],
-
-		"favoredReligion": "Christianity",
-		"uniqueName": "Ancien Régime",
-		"uniques": [
-			"[+10]% [Culture] [in all cities]",
-			"[+2 Culture, +2 Gold] [in capital]",
-			"[+4 Culture] [in all cities] <before discovering [Steam Power]>"
-		],
-		"cities": [
-			"Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
-			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
-			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
-			"Le Havre","Lourdes","Cannes","Aix-En-Provence","La Rochelle","Bourges","Calais"
-		],
-        "spyNames": ["Jean-Paul", "Martine", "Lucien", "François", "Augustine", "Monsieur X", "Dr. Dupont", "Vipère", "Yvette", "Renard"]
     },
 	{
 		"name": "Mongolia",
