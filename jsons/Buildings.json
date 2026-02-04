@@ -2720,15 +2720,6 @@
 		]
 	},
 	{
-		"name": "Corporate Slot",
-		"uniques": [
-			"Provides [1] [Corporation Slot] <after discovering [Corporations]>",
-			"Destroyed when the city is captured",
-			"Unbuildable",
-			"Unsellable"
-		]
-	},
-	{
 		"name": "Solar Plant",
 		"uniques": [
 			"Comment [Future Expansion has no Solar Plant]",
