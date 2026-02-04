@@ -192,10 +192,6 @@
 			"abundant": 1
 		}
 	},
-	//{
-		//"name": "Corporation Slot(Total)",
-		//"resourceType": "Bonus"
-	//},
 	{
 		"name": "Corporation Slot",
 		"resourceType": "Strategic",
