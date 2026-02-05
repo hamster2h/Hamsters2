@@ -1470,7 +1470,7 @@
 			"[1] extra interceptions may be made per turn",
 			"Can see invisible [Submarine] units",
 			"Can carry [6] [Missile] units",
-			"Can carry [2] [Long Missile] units",
+			"Can carry [2] [Big Missile] units",
 			"[+100]% Strength <vs [Submarine] units>",
 			"[+100]% Strength <vs [Air] units>",
 			"[+100]% Strength <vs [Helicopter] units>",
@@ -1597,9 +1597,9 @@
 			"[+100]% Strength <when attacking>",
 			"Can only attack [Water] tiles",
 			"Can move after attacking",
-			"[+1] Sight",
-			"Can carry [8] [Missile] units",
+			"Can carry [8] [Big Missile] units",
 			"Ignores Zone of Control",
+			"[+1] Sight",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "torpedo"
@@ -1665,11 +1665,11 @@
 	},
 	{
 		"name": "Nuclear Missile",
-		"unitType": "Missile",
+		"unitType": "Big Missile",
 		"movement": 1,
 		"strength": 250,
 		"rangedStrength": 250,
-		"range": 12,
+		"range": 18,
 		"cost": 80000,
 		"requiredTech": "Advanced Ballistics",
 		"requiredResource": "Uranium",
@@ -1685,7 +1685,7 @@
 	},
 	{
 		"name": "Orbital Strike",
-		"unitType": "Long Missile",
+		"unitType": "Big Missile",
 		"movement": 1,
 		"strength": 500,
 		"rangedStrength": 500,
