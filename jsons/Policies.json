@@ -609,7 +609,7 @@
                 "name": "Populism",
                 "uniques": [
 					"[+25]% Strength <for [Wounded] units>",
-					"[+10]% Strength <for [all] units>"
+					"[+10]% Strength <for [All] units>"
 				],
                 "row": 1,
                 "column": 2
