@@ -1650,16 +1650,28 @@
 		"strength": 80,
 		"rangedStrength": 80,
 		"range": 8,
-		"cost": 6000,
+		"cost": 200,
 		"requiredTech": "Advanced Ballistics",
 		"uniques": [
 			"[-100]% maintenance costs",
-			"Can move immediately once bought",
 			"[+125]% Strength <after discovering [Lasers]>",
 			"[+100]% Strength <vs [Land] units> <after discovering [Lasers]>",
-			"[+4] Range <after discovering [Lasers]>",
-			"Unbuildable",
-			"Can be purchased with [Gold] [in all cities]"
+			"[+4] Range <after discovering [Lasers]>"
+		],
+		"attackSound": "missile"
+	},
+	{
+		"name": "Orbital Missile",
+		"unitType": "Big Missile",
+		"movement": 1,
+		"strength": 200,
+		"rangedStrength": 200,
+		"range": 99,
+		"cost": 2000,
+		"requiredTech": "Spaceflight",
+		"uniques": [
+			"[-100]% maintenance costs",
+			"Cannot be intercepted"
 		],
 		"attackSound": "missile"
 	},
@@ -1669,15 +1681,15 @@
 		"movement": 1,
 		"strength": 250,
 		"rangedStrength": 250,
-		"range": 18,
+		"range": 12,
 		"cost": 80000,
 		"requiredTech": "Advanced Ballistics",
 		"requiredResource": "Uranium",
 		"uniques": [
-			"Can move immediately once bought",
-			"Nuclear weapon of Strength [2]",
 			"Only available <if [Nuclear Testing Site] is constructed>",
+			"Nuclear weapon of Strength [2]",
 			"Blast radius [2]",
+			"[+99] Range <after discovering [Spaceflight]>",
 			"Unbuildable",
 			"Can be purchased with [Gold] [in all cities]"
 		],
@@ -1689,12 +1701,11 @@
 		"movement": 1,
 		"strength": 500,
 		"rangedStrength": 500,
-		"range": 18,
+		"range": 99,
 		"cost": 140000,
 		"requiredTech": "Spaceflight",
 		"uniques": [
 			"[-100]% maintenance costs",
-			"Can move immediately once bought",
 			"Nuclear weapon of Strength [3]",
 			"Blast radius [1]",
 			"Unbuildable",
