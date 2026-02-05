@@ -354,6 +354,14 @@
 		]
 	},
 	{
+		"name": "Barbarians",
+		"outerColor": [0,0,0],
+        "innerColor": [185,12,12],
+		"uniques": [
+			"Excluded from map editor"
+		]
+	}
+	{
 		"name": "Belgium",
 		"leaderName": "Leopold II",
 		"adjective": ["Belgian"],
@@ -1955,7 +1963,7 @@
 		"uniqueName": "Scourge of God",
 		"uniques": [
 			"[+1 Production] from every [Pasture]",
-			"Cities are razed [3] times as fast",
+			"Cities are razed [4] times as fast",
 			"Starts with [Animal Husbandry]",
 			"\"Borrows\" city names from other civilizations in the game"
 		],
