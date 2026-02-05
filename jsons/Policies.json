@@ -617,8 +617,8 @@
             {
                 "name": "Militarism",
                 "uniques": [
-					"New [Military] units start with [15] XP [in all cities]",
-					"[Gold] cost of purchasing [All] units [-33]%"
+					"[Gold] cost of purchasing [All] units [-33]%",
+					"New [Military] units start with [15] XP [in all cities]"
 				],
                 "row": 1,
                 "column": 4
