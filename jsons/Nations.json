@@ -1777,42 +1777,6 @@
 			"Aran", "Chanarong", "Kiet", "Niran", "Virote", "Kulap", "Mayuree", "Phueng", "Ratana", "Tola"
 		]
     },
-    {
-        "name": "Sumeria",
-        "leaderName": "Gilgamesh",
-        "adjective": ["Sumer"],
-        "startBias": [
-			"Avoid [Coast]"
-		],
-        "preferredVictoryType": "Scientific",
-        "personality": "Gilgamesh",
-
-        "startIntroPart1": "The neverending glory be upon you. King Gilgamesh, most legendary and mystical ruler of Sumeria! Oh mighty king, whose hands built the city-walls of Uruk and eyes saw the sage Utnapishtim! You are the leader of the Sumer, the first and the only civilization that was truely original and innovative. Sumer's history stretches back into time when the Gods were walking alongside the mere mortals. Sumer, the cradle of civilization, made a great progress in our history, gave the world most beatiful things - literature, architecture and music - and developed professional army, immortalizing the very first battle in the stele. Sumer's contributions to the civlization of man are uncountable.",
-        "startIntroPart2": "Divine King, who, with strength and wisdom, built the glory of the ancient Sumer and became the very first hero of the history - people seek for your guidance! The wealth of Euphrates, Tigris and the whole Fertile Crescent cannot be wasted in the hands of barbarians. Can you once more bring glory and light to the humankind? Can you build a civilization to stand the test of time?",
-        "declaringWar": "Why do I fight? Because I can... because Inanna demands it. Now you will know the power of Sumer! ",
-        "attacked": "I will enjoy hearing your last breath when you witness the destruction of your people. ",
-        "defeated":  "The time has come. Mere mortals challenged the Gods and overthrew them, destroying the old world and proudly awaiting the new one.",
-        "introduction": "I am Gilgamesh of Sumeria and King of Uruk. Do not be afraid… I am good to my friends. ",
-        "neutralHello": "Welcome",
-        "hateHello": "Hah! Gilgamesh is stronger than your false words. ",
-        "tradeRequest": "All the world knows of my generosity to my friends. ",
-        "outerColor": [15,70,109],
-        "innerColor": [229,118,95],
-        "uniqueName": "Cradle of Civilization",
-        "uniques": [
-			"[+3 Culture] [in all cities] <after discovering [Drama and Poetry]>",
-			"[+6 Science] [in all cities] <after discovering [Drama and Poetry]>"
-		],
-        "cities": [
-            "Ur","Kish","Uruk","Eridu","Umma","Lagash","Akshak","Larak","Bad-Tibira","Larsa",
-            "Isin","Shruppak","Nibru","Zimbir","Girsu","Zabalam","Kisiga","Adab","Jemdet Nasr","Nina",
-            "Dilbat","Kutu","Marad","Enegi","Abu Salabikh","Ki-an","Pazurish-Dagan","Dabrum","Kissura","Kutallu",
-            "Nagsu","Kesh","Aratta","Der","Urukag","Hamazi","Apisada","Ubaid"
-        ],
-        "spyNames": [
-            "Azi","Dabir","Firuz","Gaspar","Shahzad","Aga","Marjane","Peri","Sartaj","Yasmin"
-        ]
-    },
 	{
 		"name": "Songhai",
 		"leaderName": "Askia",
@@ -1880,7 +1844,7 @@
 		"uniques": [
 			"[+200 Gold] for discovering a Natural Wonder (bonus enhanced to [+600 Gold] if first to discover it)",
 			"[+1 Happiness] for every known Natural Wonder",
-			"[+150]% Yield from every [Natural Wonder]"
+			"[+200]% Yield from every [Natural Wonder]"
 		],
 		"cities": [
 			"Madrid","Barcelona","Seville","Cordoba","Toledo","Santiago","Salamanca","Murcia","Valencia","Zaragoza","Pamplona",
@@ -1891,6 +1855,42 @@
         "spyNames": [
 			"Rodrigo", "Esmeralda", "Leon", "Mathilda", "Ramona", "Señor X", "Topolino", "Serpiente", "Garcia", "El Lobo"
 		]
+    },
+	{
+        "name": "Sumeria",
+        "leaderName": "Gilgamesh",
+        "adjective": ["Sumer"],
+        "startBias": [
+			"Avoid [Coast]"
+		],
+        "preferredVictoryType": "Scientific",
+        "personality": "Gilgamesh",
+
+        "startIntroPart1": "The neverending glory be upon you. King Gilgamesh, most legendary and mystical ruler of Sumeria! Oh mighty king, whose hands built the city-walls of Uruk and eyes saw the sage Utnapishtim! You are the leader of the Sumer, the first and the only civilization that was truely original and innovative. Sumer's history stretches back into time when the Gods were walking alongside the mere mortals. Sumer, the cradle of civilization, made a great progress in our history, gave the world most beatiful things - literature, architecture and music - and developed professional army, immortalizing the very first battle in the stele. Sumer's contributions to the civlization of man are uncountable.",
+        "startIntroPart2": "Divine King, who, with strength and wisdom, built the glory of the ancient Sumer and became the very first hero of the history - people seek for your guidance! The wealth of Euphrates, Tigris and the whole Fertile Crescent cannot be wasted in the hands of barbarians. Can you once more bring glory and light to the humankind? Can you build a civilization to stand the test of time?",
+        "declaringWar": "Why do I fight? Because I can... because Inanna demands it. Now you will know the power of Sumer! ",
+        "attacked": "I will enjoy hearing your last breath when you witness the destruction of your people. ",
+        "defeated":  "The time has come. Mere mortals challenged the Gods and overthrew them, destroying the old world and proudly awaiting the new one.",
+        "introduction": "I am Gilgamesh of Sumeria and King of Uruk. Do not be afraid… I am good to my friends. ",
+        "neutralHello": "Welcome",
+        "hateHello": "Hah! Gilgamesh is stronger than your false words. ",
+        "tradeRequest": "All the world knows of my generosity to my friends. ",
+        "outerColor": [15,70,109],
+        "innerColor": [229,118,95],
+        "uniqueName": "Cradle of Civilization",
+        "uniques": [
+			"[+3 Culture] [in all cities] <after discovering [Drama and Poetry]>",
+			"[+6 Science] [in all cities] <after discovering [Drama and Poetry]>"
+		],
+        "cities": [
+            "Ur","Kish","Uruk","Eridu","Umma","Lagash","Akshak","Larak","Bad-Tibira","Larsa",
+            "Isin","Shruppak","Nibru","Zimbir","Girsu","Zabalam","Kisiga","Adab","Jemdet Nasr","Nina",
+            "Dilbat","Kutu","Marad","Enegi","Abu Salabikh","Ki-an","Pazurish-Dagan","Dabrum","Kissura","Kutallu",
+            "Nagsu","Kesh","Aratta","Der","Urukag","Hamazi","Apisada","Ubaid"
+        ],
+        "spyNames": [
+            "Azi","Dabir","Firuz","Gaspar","Shahzad","Aga","Marjane","Peri","Sartaj","Yasmin"
+        ]
     },
 	{
 	    "name": "Sweden",
