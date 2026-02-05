@@ -87,7 +87,7 @@
             {
                 "name": "Republic",
                 "uniques": [
-                    "[+2 Production] [in all cities]",
+                    "[+1 Production, +1 Culture] [in all cities]",
                     "[+5]% Production when constructing [All] buildings [in all cities]",
                 ],
                 "row": 1,
