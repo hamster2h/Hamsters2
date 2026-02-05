@@ -1379,6 +1379,7 @@
 		"uniqueName": "Mongol Terror",
 		"uniques": [
 			"[-50]% unhappiness from the number of cities",
+			"[-25]% Unhappiness from [Population] [in all cities]",
 			"[+2] Movement <for [Mounted] units>"
 		],
 		"cities": [
