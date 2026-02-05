@@ -1247,7 +1247,7 @@
 		"name": "Anti-Aircraft Gun",
 		"unitType": "Support",
 		"movement": 2,
-		"interceptRange": 2,
+		"interceptRange": 1,
 		"strength": 40,
 		"cost": 375,
 		"requiredTech": "Ballistics",
