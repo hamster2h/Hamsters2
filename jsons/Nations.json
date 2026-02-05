@@ -39,44 +39,234 @@
         "spyNames": ["Kim", "Park", "Han", "Na", "Kong", "Yu", "Ahn", "Da", "Eun"]
     },
 	{
-		"name": "Iroquois",
-		"leaderName": "Hiawatha",
-		"adjective": ["Iroquoise"],
+		"name": "America",
+		"leaderName": "George Washington",
+		"adjective": ["American"],
 		"startBias": [
-			"Forest"
+			"River"
 		],
 		"preferredVictoryType": "Scientific",
-		"personality": "Hiawatha",
+		"personality": "George Washington",
 
-        "startIntroPart1": "Greetings, noble Hiawatha, leader of the mighty Iroquois nations! Your people lived near the great and holy lake Ontario since the ancient ages, on a land that will be later known as New York city. Long ago, the five peoples of Seneca, Onondaga, Mohawks, Cayugas and Oneida became one nation, the Haudenosaunee, the Iroquois. Although not having a written language, the wise Iroquois created the Great Law of Peace, which can be considered the first established constitution. For decades, your people fought powerful enemies, such as the Huron, and then the French and English colonists. With less warriors and inferior weaponry, the Iroquois still survived and walk on the path of peace and harmony, until their way of living faded away under the crush of the newborn United States nation.",
-        "startIntroPart2": "Great Sachem Hiawatha, do you hear the complaints of your people? Can you light the path leading to the ancient Iroquois union? Will your new empire shine through the ages of history?",
+        "startIntroPart1": "President Washington, we salute you and the proud American civilization! Freed from the British dominion in the 18th century, then cleansed and reborn after a terrible civil war, the United States nation was ready to play its great role in the 20th century. At the height of its power, triumphant after two terrible world wars, United States of America, a land of immigration, opportunities, optimism and determination, has risen above all other weakening nations, unable to equal such power.",
+        "startIntroPart2": "President Washington, will you show to the world the legitimacy of the American way of life, and spread the flame of liberty to all mankind? Will your new empire shine through the ages of history?",
 
-        "declaringWar": "You are a plague upon Mother Earth! Prepare for battle!",
-		"attacked": "You evil creature! My braves will slaughter you!",
-		"defeated": "You have defeated us... but our spirits will never be vanquished! We shall return!",
-		"denounced": "Go back to the shadows, you fool.",
-		"introduction": "Greetings, stranger. I am Hiawatha, speaker for the Iroquois. We seek peace with all, but we do not shrink from war.",
+        "declaringWar": "Your wanton aggression leaves us no choice. Prepare for war!",
+		"attacked": "You have mistaken our love of peace for weakness. You shall regret this!",
+		"defeated": "The day...is yours. I hope you will be merciful in your triumph.",
+		"introduction": "The people of the United States of America welcome you.",
 		"neutralHello": "Good day.",
-		"hateHello": "Oh, it's you.",
-		"tradeRequest": "Does this trade work for you, my friend?",
+		"hateHello": "Well?",
+		"tradeRequest": "Is the following trade of interest to you?",
 
-        "outerColor": [54,72,72],
-        "innerColor": [246,205,137],
+        "outerColor": [ 28,51,119],
+        "innerColor": [255,255,255],
 
         "favoredReligion": "Christianity",
-		"uniqueName": "The Great Warpath",
+		"uniqueName": "Manifest Destiny",
 		"uniques": [
-			"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.",
-			"Starts with [Mining]"
+			"[+1] Sight <for [{Military} {Land}] units>",
+			"[+1] Movement <for [{Military} {Land}] units>",
+			"[-50]% Gold cost of acquiring tiles [in all cities]",
+			"Starts with [Freedom] adopted"
 		],
 		"cities": [
-			"Onondaga","Osininka","Grand River","Akwesasme","Buffalo Creek","Brantford","Montreal","Genesse River",
-			"Canandaigua Lake","Lake Simcoe","Salamanca","Gowanda","Cuba","Akron","Kanesatake","Ganienkeh","Cayuga Castle",
-			"Chondote","Canajoharie","Nedrow","Oneida Lake","Kanonwalohale","Green Bay","Southwold","Mohawk Valley",
-			"Schoharie","Bay of Quinte","Kanawale","Kanatsiokareke","Tyendinaga","Hahta"
+			"Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
+			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
+			"Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh",
+			"Oakland","Tampa Bay","Orlando","Tacoma","Santa Fe","Olympia","Hunt Valley","Springfield","Palo Alto","Centralia",
+			"Spokane","Jacksonville","Savannah","Charleston","San Antonio","Birmingham","Anchorage","Sacramento","Reno",
+			"Salt Lake City","Boise","Milwaukee","Santa Cruz","Little Rock"
 		],
         "spyNames": [
-			"Onatah", "Oneida", "Oshadagea", "Otetiani", "Genesee", "Dadgayadoh", "Otwtiani", "Kateri", "Onondakai", "Honanyawus"
+			"Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"
+		]
+	},
+	{
+		"name": "Arabia",
+		"leaderName": "Harun al-Rashid",
+		"adjective": ["Arabian"],
+		"startBias": [
+			"Desert"
+		],
+		"preferredVictoryType": "Scientific",
+		"personality": "Harun al-Rashid",
+
+        "startIntroPart1": "Blessings of the Great God be upon you, O great caliph Harun al-Rashid, leader of the mighty Arabian people! The Muslim Empire, the Caliphate, born from chaos after the death of the prophet Muhammad in 632 AD, intended to apply the rule of God to all Earth. And by the will of God, the caliphate reached its full power, ruling Spain, North Africa, the Middle East, Anatolia, the Balkans and Persia, to even surpass the Great Roman Empire. The arts and sciences were a holy gift of Arabia during the Middle Ages, as the infidel lands of Europe delved deep into ignorance and chaos. Lasting for six hundred years, the Caliphate finally fell before the Mongols, the plague of the civilized world.",
+        "startIntroPart2": "Great Caliph Harun al Rashid, all Arabian people long for greatness! Arabia must be once again the land of arts and knowledge, which under the radiant law of God, will fear no enemy! Will your new empire shine through the ages of history?",
+
+        "declaringWar": "The world will be more beautiful without you. Prepare for war.",
+		"attacked": "Fool! You will soon regret dearly! I swear it!",
+		"defeated": "You have won, congratulations. My palace is now in your possession, and I beg that you care well for the peacock.",
+		"denounced": "Well done, my friend. Now I look forward to our next battle even more!",
+		"introduction": "Welcome foreigner, I am Harun Al-Rashid, Caliph of the Arabs. Come and tell me about your empire.",
+		"neutralHello": "Peace be upon you.",
+		"hateHello": "Oh, it's you.",
+		"tradeRequest": "Come forth, let's do business.",
+		"outerColor": [43, 88, 46],
+		"innerColor": [146, 221, 10],
+		"favoredReligion": "Islam",
+		"uniqueName": "Trade Caravans",
+		"uniques": [
+			"[+1 Gold] from each Trade Route",
+			"[+10]% Spread Religion Strength",
+			"[+300]% [Oil] resource production",
+			"Provides [2] [Oil]"
+		],
+		"cities": [
+			"Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
+			"Aden","Yamama","Muscat","Mansura","Bukhara","Fez","Shiraz","Merw","Balkh","Mosul",
+			"Aydab","Bayt","Suhar","Taif","Hama","Tabuk","Sana'a","Shihr","Tripoli","Tunis","Kairouan","Algiers","Oran"
+		],
+        "spyNames": [
+			"Solhofaat", "Khenzeer", "Zarafah", "Temsaah", "Abyadh", "Mostafa", "Yusuf", "Waddah", "Sameera", "Gamal"
+		]
+    },
+    {
+		"name": "Argentina", 
+		"leaderName": "Eva Peron",
+		"adjective": ["Argentine"],
+		"startBias": ["Avoid [Coast]"],
+		"preferredVictoryType": "Scientific",
+		"personality": "Eva Peron",
+
+		"startIntroPart1": "Salutations, Eva Perón, spiritual leader of the Argentinian nation and wife to Juan Perón. Yours is the second largest country in Latin America, and its name has derived from the rumors of the existence of silver mountains; what is certainly rich is history in both pre-columbian and republican eras. With the primitive Hispanic American reality fractured in La Plata Basin due to immigration, its inhabitants have come to be somewhat deal with all the dangers but also with all the advantages of that condition: because of their European roots, they deeply linked the nation with the enduring values of the Old World; and because of their condition of colonials, they link themselves to the rest of the continent, through the folklore of the interior and the old Castilian that unifies the people, feeling somehow the vocation of the Patria Grande San Martín and Bolívar once imagined.",
+		"startIntroPart2": "Evita, your people still remember your deeds to the people in the darkest times, because you defended the rights of Descamisados and Women in your great nation. Now it falls to you to build a nation of hope and justice for everyone. Will you answer the call? Can you build a civilization that will stand the test of time?",
+		"declaringWar": "Prepare for war!",
+		"attacked": "You shall regret this!",
+		"defeated": "Don't cry for me Argentina! The truth is I never left you all through my wild days, my mad existence, I kept my promise don't keep your distance.",
+		"introduction": "This place is the reason for my life, Argentina! Welcome, I'm Eva Perón.",
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"outerColor": [64, 138, 178],
+		"innerColor": [244, 244, 86],
+		"uniqueName": "Pride of the People",
+		"uniques": [
+			"[-50]% construction time for [Pasture] improvements",
+			"[-50]% construction time for [Farm] improvements"
+		],
+		"cities": [
+			"Buenos Aires","La Plata","Cordoba","Jujuy","Catamarca","La Rioja","Formosa","Parana","Posadas","Neuquen",
+			"Salta","San Juan","San Luis","Santa Fe","Santiago del Estero","Ushuaia","Tucuman","Resistencia","Rawson","Santa Rosa","Viedma",
+			"Ushuaia"
+		],
+		"spyNames": [
+			"Cortázar","Fontanarrosa","Borges","Laiseca","Crossa","Aira","Piazzolla","Valcárcel","Shakespear","Sabato"
+		]
+	},
+	{
+		"name": "Assyria",
+		"leaderName": "Ashurbanipal",
+		"adjective": ["Assyrian"],
+		"startBias": [
+			"Avoid [Coast]",
+			"Avoid [Tundra]"
+		],
+		"preferredVictoryType": "Domination",
+		"personality": "Ashurbanipal",
+		
+		"startIntroPart1": "The people bow to your esteemed will, o wise and illustrious King Ashurbanipal of Assyria. Across the world, you are known as both a scholar and a warrior, and yet the legends represent merely a glimmer of your true ambition. Although your enemies cowered at the thought of your ferocity in conquest, you were most proud of your intellectual pursuits. Your thirst for knowledge led to your establishment of the royal library at Nineveh, which came to represent one of the greatest collections of ancient texts and tablets found anywhere in the world - securing your legacy as one of Assyria's greatest kings.",
+		"startIntroPart2": "Wise and fearsome king, the time has come for you to return the kingdom of Assyria to its greatest heights. Will you once again strive to acquire the knowledge and histories of all the world's peoples? Can you build a civilization that will stand the test of time?",
+		"declaringWar": "I fear there is no other choice but to remove you from this world!",
+		"attacked": "I think you will come to regret this decision...most unwise.",
+		"defeated": "You have bested my forces...perhaps it was I that underestimated you.",
+		"introduction": "I welcome you to the great kingdom of Assyria...have you come to view my library?",
+		"neutralHello": "Hello, go ahead",
+		"hateHello": "What do you want again?!",
+		"tradeRequest": "Will you consider a trade?",
+		"outerColor": [255,246,194],
+		"innerColor": [191,126,9],
+		"uniqueName": "Treasures of Nineveh",
+		"uniques": [
+			"Upon capturing a city, receive [20] times its [Science] production as [Science] immediately",
+			"Gain [200] [Science] <upon conquering a city>"
+		],
+		"cities": [
+			"Assur","Nineveh","Nimrud","Kar-Tukulti-Ninurta","Dur-Sharrukin","Halab","Carchemish","Kanesh","Harran","Imgur-Enlil",
+			"Shubat-Enlil","Qatna","Sareisa","Sam al","Qarqar","Til Barsip","Sultantepe","Erbil","Hamath","Guzana",
+			"Turuspa","Nasibina","Arpad","Kelashin","Tadmor","Urartu","Sabata","Hit"
+		],
+		"spyNames": [
+			"Adapa","Kubaba","Nabu","Nergal","Ninlil","Ninurta","Nisroch","Shamash","Pazuzu","Qingu"
+		]
+	},
+	{
+		"name": "Australia",
+		"leaderName": "Henry Parkes",
+		"adjective": ["Australian"],
+		"startBias": [
+			"Coast",
+			"Desert"
+		],
+		"preferredVictoryType": "Cultural",
+		"personality" :"Henry Parkes",
+
+		"startIntroPart1": "Greetings, most wise and prudent Sir Henry Parkes, father of the Australian Federation. Australia truly is a unique and ancient land, more so than any other, for its lands abound in nature's gifts and its shores have beckoned, welcomed, and harbored immigrants from afar for over 50,000 years. By the time you arrived in Sydney as an English immigrant in 1839, Australia was divided into thriving British colonies of undeniably vital significance. By 1889, as premier you had led the colony of New South Wales five times to achieve many great things that undoubtedly improved the lives of many. You will always be remembered, however, in the hearts of Australians, for being instrumental in the process of federating the Australian colonies into a single united nation, earning you the humble title of \"The father of the Australian Federation\". Thanks to your efforts, Australia today remains one of the most wealthy, prosperous, and modern countries in the developed world, and truly a sight to behold.",
+		"startIntroPart2": "O Henry Parkes, your people call for you in joyful strains once more. Will you make the rest the world hear the thunder of Australia? Will you build a civilization that stands the test of time?",
+		"declaringWar": "The Commonwealth of Australia formally declare war on you!",
+		"attacked": "Australia will not sit idly, we shall defend our homeland 'till our dying breath!",
+		"defeated": "I die happily, knowing that Australia was once a proud and mighty nation far exceeding the ideals of your unequivocally barbaric ways.",
+		"introduction": "The great people of Australia welcome you, as do I. My name is Sir Henry Parkes, and it is a pleasure to meet you.",
+		"neutralHello": "Welcome, dear friend.",
+		"hateHello": "Step forward, vile barbarian.",
+		"tradeRequest": "Will you accept this deal?",
+		"outerColor": [0, 91, 65],
+		"innerColor": [225, 148, 26],
+		"uniqueName": "Dreamtime",
+		"uniques": [
+			"[+1 Faith] from [Desert] tiles without [Flood plains] [in all cities]",
+			"[+5 Faith] from [Natural Wonder] tiles [in all cities]",
+			"Gain [20] [Faith] <upon discovering a Natural Wonder>"
+		],
+		"cities": [
+			"Canberra","Sydney","Melbourne","Brisbane","Gold Coast","Adelaide","Perth","Newcastle","Sunshine Coast","Wollongong",
+			"Hobart","Geelong","Cairns","Darwin","Toowoomba","Albury","Queanbeyan","Rockhampton","Bunbury","Bundaberg",
+			"Wagga Wagga","Bendigo","Ballarat","Mittagong"
+		],
+		"spyNames": [
+			"Metztli","Xitllali","Chimalli","Quauhtli","Teyacapan","Yaotl","Coatl","Huitzilin","Itzli","Tepin"
+		]
+	},
+	{
+		"name": "Austria",
+		"leaderName": "Maria Theresa",
+		"adjective": ["Austrian"],
+		"startBias": [
+			"Hill",
+			"Avoid [Coast]"
+		],
+		"preferredVictoryType": "Diplomatic",
+		"personality": "Maria Theresa",
+
+        "startIntroPart1": "Noble and pious Queen Maria Theresa, Holy Roman Empress and sovereign of Austria, the people revere your grace. After the death of your father King Charles VI, you inherited the throne of Austria during difficult economic and military times. But you used your wisdom and unflinching determination to fend off your foes and resolve any obstacles to stability and prosperity. With your husband Francis Stephen at your side as co-ruler, you assured your place as Empress of the Holy Roman Empire. During your reign, you reformed Austria in several domains, as you gifted it with a powerful army, a stable economic model, and an improved educational system.",
+        "startIntroPart2": "O Great Queen, proud and dignified, by the will of God and the Divine right, can you reach the height of prosperity and splendor the kingdom of Austria deserves? Will your new empire shine through the ages of history?",
+
+        "declaringWar": "Shame that it has come this far. But ye wished it so. Next time, be so good, choose your words more wisely.",
+		"attacked": "What a fool ye are! Ye will end swiftly and miserably.",
+		"defeated": "The world is pitiful! There's no beauty in it, no wisdom. I am almost glad to go.",
+		"introduction": "The archduchess of Austria welcomes your Eminence to... Oh let's get this over with! I have a luncheon at four o'clock.",
+
+		"neutralHello": "Hello!",
+		"hateHello": "Oh, it's ye!",
+		"tradeRequest": "I see you admire my new damask. Nobody should say that I am an unjust woman. Let's reach an agreement!",
+
+        "outerColor": [234,0,0],
+        "innerColor": [255,255,255],
+
+		"favoredReligion": "Christianity",
+		"uniqueName": "Diplomatic Marriage",
+		"uniques": [
+			"Can spend Gold to annex or puppet a City-State that has been your Ally for [5] turns"
+		],
+		"cities": [
+			"Vienna", "Salzburg", "Graz", "Linz", "Klagenfurt", "Bregenz", "Innsbruck", "Kitzbühel",
+			"St. Pölten", "Eisenstadt", "Villach", "Zwettl", "Traun", "Wels", "Dornbirn", "Feldkirch",
+			"Amstetten", "Bad Ischl", "Wolfsberg", "Kufstein", "Leoben", "Klosterneuburg", "Leonding",
+			"Kapfenberg", "Hallein", "Bischofshofen", "Waidhofen", "Saalbach", "Lienz", "Steyr"
+		],
+        "spyNames": [
+			"Ferdinand", "Johanna", "Franz-Josef", "Astrid", "Anna", "Hubert", "Alois", "Natter", "Georg", "Arnold"
 		]
     },
 	{
@@ -613,6 +803,45 @@
         "spyNames": ["Johann", "Marlene", "Wilhelm", "Eva", "Heinz", "Horst", "Carl", "Viper", "Albrecht", "Anton"]
     },
 	{
+		"name": "Japan",
+		"leaderName": "Oda Nobunaga",
+		"adjective": ["Japanese"],
+		"startBias": [
+			"Coast"
+		],
+		"preferredVictoryType": "Domination",
+		"personality": "Oda Nobunaga",
+
+        "startIntroPart1": "Lord Oda Nobunaga, ruler of Japan, the land of the Rising Sun is at your command! Through history, Japanese people lived and died with honor, proud of their rich culture of arts and letters. Years of bloody civil wars, invasions of foreign powers, wealth but also great poverty, have never altered the strong will of the Rising Sun island, as the Bushido spirit has imbued the fields of battle and the Japanese society for millenia. At the end of the 19th century, under foreign influence, your people took the path of modernity, and in a few decades, made of Japan a land of technological innovation and powerful industry, with which only few nations can compete.",
+        "startIntroPart2": "O great daimyo, will you take on your hands the Japan destiny, for the Rising Sun to light the world? Will your new empire shine through the ages of history?",
+
+        "declaringWar": "I hereby inform you of our intention to wipe out your civilization from this world.",
+		"attacked": "Pitiful fool! Now we shall destroy you!",
+		"defeated": "You were much wiser than I thought.",
+		"denounced": "Alright then. I trust you've thought it through.",
+		"introduction": "We hope for a fair and just relationship with you, who are renowned for military bravery.",
+		"neutralHello": "Hello.",
+		"hateHello": "Oh, it's you...",
+		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
+		"outerColor": [255, 255, 255],
+		"innerColor": [184, 0, 0],
+		"favoredReligion": "Shinto",
+		"uniqueName": "Bushido",
+		"uniques": [
+			"No damage penalty for wounded units <for [non-[Air]] units>",
+			"[+10]% [Production] [in all cities] <after discovering [Steam Power]>",
+			"[+1 Food] from [Coast] tiles [in all cities]",
+			"[+1 Food] from [Ocean] tiles [in all cities]"
+		],
+		"cities": [
+			"Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama",
+			"Shimonoseki","Matsuyama","Sapporo","Hakodate","Ise","Toyama","Fukushima","Suo","Bizen","Echizen",
+			"Izumi","Omi","Echigo","Kozuke","Sado","Kobe","Nagano","Hiroshima","Takayama","Akita","Fukuoka","Aomori",
+			"Kamakura","Kochi","Naha","Sendai","Gifu","Yamaguchi","Ota","Tottori"
+		],
+        "spyNames": ["Akaishi", "Oki", "Hattori", "Morozumi", "Momochi", "Kawashima", "Orin", "Sakanishi", "Kaede", "Mochizuki"]
+    },
+	{
 		"name": "Korea",
 		"leaderName": "Sejong",
 		"adjective": ["Korean"],
@@ -697,6 +926,118 @@
 		]
     },
 	{
+		"name": "Indonesia",
+		"leaderName": "Gajah Mada",
+		"adjective": ["Indonesian"],
+		"startBias": [
+			"Coast"
+		],
+		"preferredVictoryType": "Cultural",
+		"personality": "Gajah Mada",
+
+		"startIntroPart1": "Honour be with you, oh great hero Gajah Mada, prime minister of Majapahit and uniter of the Indonesian archipelago. The stories of your heroism on the battlefield are bested only by the legends of your sworn oath to unite the far-flung islands of Indonesia under one banner. Serving your queen and empire with loyalty, you not only strive to fulfill your oath and conquered any who stood in your path, but you succeeded in capturing what was then the entirety of the known archipelago, the first to unite what is today modern Indonesia.",
+		"startIntroPart2": "Mighty warrior Gajah Mada, your people yearn for a strong leader who can return them to prosperity! Will you set out to conquer the neighboring kingdoms, further expanding your glory of your empire? Will you build a civilization that can stand the test of time?",
+		"declaringWar": "Don't mean to stand in your way, but I have to protect them!",
+		"attacked": "How dare you! Really insignificant as well!",
+		"defeated": "You may win, but you cannot win upon my spirit.",
+		"introduction": "You came before the great warrior, Gajah Mada from Nusantara!",
+		"neutralHello": "Greetings!",
+		"hateHello": "Are you a male concubine, stranger?",
+		"tradeRequest": "What if we make a deal, you and me?",
+		"outerColor": [101,211,220],
+		"innerColor": [167,52,31],
+		"uniqueName": "Spice Islanders",
+		"uniques": [
+			"[+25]% Great Person generation [in capital]",
+			"Provides [4] [Spices]"
+		],
+		"cities": [
+			"Jakarta","Surabaya","Medan","Makassar","Batam","Denpasar","Samarinda","Mataram","Ambon","Bandung",
+			"Kupang","Depok","Palembang","Trowulan","Semarang","Jayapura","Tangerang","Bogor","Pekanbaru","Bandar Lampung",
+			"Malang","Padang","Samarinda","Ternate","Banjarmasin","Pontianak","Cimahi","Balikpapan","Jambi","Komodo"
+		],
+		"spyNames": [
+			"Adityawarman","Airlangga","Citra","Halayudha","Jayakatwang","Lingga","Mahendradatta","Prapana","Raden","Devi"
+		]
+	},
+	{
+		"name": "Iroquois",
+		"leaderName": "Hiawatha",
+		"adjective": ["Iroquoise"],
+		"startBias": [
+			"Forest"
+		],
+		"preferredVictoryType": "Scientific",
+		"personality": "Hiawatha",
+
+        "startIntroPart1": "Greetings, noble Hiawatha, leader of the mighty Iroquois nations! Your people lived near the great and holy lake Ontario since the ancient ages, on a land that will be later known as New York city. Long ago, the five peoples of Seneca, Onondaga, Mohawks, Cayugas and Oneida became one nation, the Haudenosaunee, the Iroquois. Although not having a written language, the wise Iroquois created the Great Law of Peace, which can be considered the first established constitution. For decades, your people fought powerful enemies, such as the Huron, and then the French and English colonists. With less warriors and inferior weaponry, the Iroquois still survived and walk on the path of peace and harmony, until their way of living faded away under the crush of the newborn United States nation.",
+        "startIntroPart2": "Great Sachem Hiawatha, do you hear the complaints of your people? Can you light the path leading to the ancient Iroquois union? Will your new empire shine through the ages of history?",
+
+        "declaringWar": "You are a plague upon Mother Earth! Prepare for battle!",
+		"attacked": "You evil creature! My braves will slaughter you!",
+		"defeated": "You have defeated us... but our spirits will never be vanquished! We shall return!",
+		"denounced": "Go back to the shadows, you fool.",
+		"introduction": "Greetings, stranger. I am Hiawatha, speaker for the Iroquois. We seek peace with all, but we do not shrink from war.",
+		"neutralHello": "Good day.",
+		"hateHello": "Oh, it's you.",
+		"tradeRequest": "Does this trade work for you, my friend?",
+
+        "outerColor": [54,72,72],
+        "innerColor": [246,205,137],
+
+        "favoredReligion": "Christianity",
+		"uniqueName": "The Great Warpath",
+		"uniques": [
+			"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.",
+			"Starts with [Mining]"
+		],
+		"cities": [
+			"Onondaga","Osininka","Grand River","Akwesasme","Buffalo Creek","Brantford","Montreal","Genesse River",
+			"Canandaigua Lake","Lake Simcoe","Salamanca","Gowanda","Cuba","Akron","Kanesatake","Ganienkeh","Cayuga Castle",
+			"Chondote","Canajoharie","Nedrow","Oneida Lake","Kanonwalohale","Green Bay","Southwold","Mohawk Valley",
+			"Schoharie","Bay of Quinte","Kanawale","Kanatsiokareke","Tyendinaga","Hahta"
+		],
+        "spyNames": [
+			"Onatah", "Oneida", "Oshadagea", "Otetiani", "Genesee", "Dadgayadoh", "Otwtiani", "Kateri", "Onondakai", "Honanyawus"
+		]
+    },
+	{
+        "name": "Norway",
+        "leaderName": "Harald Hardrada",
+        "adjective": ["Norwegian"],
+        "startBias": [
+			"Coast",
+			"Tundra"
+		],
+        "preferredVictoryType": "Domination",
+        "personality": "Harald Hardrada",
+
+        "startIntroPart1": "Harald Hardrada, the last great Viking warrior-king, your name echoes through the ages. From your early days as a mercenary in the Byzantine Empire to your rise as King of Norway, your life has been a testament to strength, cunning, and unyielding ambition. Your campaigns have set the stage for a new era of Norse dominance. The winds of fate howl through the fjords, calling you to greatness once more.",
+        "startIntroPart2": "The Great King of Norway, The Thunderbolt of the North, your people call upon you once more. Will you lead them to glory as you did in the battles of Stiklestad and Niså? Can you reclaim the throne of England and show the world the true power ? Will you build a civilization that will stand the test of time?",
+        "declaringWar": "Now comes a storm you cannot escape. You can only hope for a quick death! To victory! To Odin's halls!",
+        "attacked": "This will make a great saga! The skalds will sing of my valor! Let us see if the same will go to you!",
+        "defeated": "Joke's on you. I will join the einherjar in Valhalla and feast, while you toil away here.",
+        "introduction": "Harald Sigurdsson stands before you: a Viking unlike any the seas and lands have ever known. Hah, are you afraid?",
+        "neutralHello": "Greetings.",
+        "hateHello": "Your seas are unprotected, friend. All too easy to raid.",
+        "tradeRequest": "I have sent you traders with gifts of rune stones. They are powerful. I mean, the stones, not the traders.",
+        "outerColor": [8,30,87],
+        "innerColor": [238,180,0],
+        "uniqueName": "Nordic Bounty",
+        "uniques": [
+			"[+1 Food] from [Snow] tiles [in all cities]",
+            "[+1 Production] from [Tundra] tiles [in all cities] <after discovering [Optics]>"
+        ],
+        "cities": [
+            "Oslo","Bergen","Trondheim","Stavanger","Tromso","Sarpsborg","Kristiansand","Fredrikstad","Tunsberg","Sandefjord",
+            "Sandnes","Skien","Drammen","Bodo","Alesund","Larvik","Arendal","Gjovik","Narvik","Porsgrunn",
+            "Halden","Hammerfest","Longyearbyen","Haugesund","Kongsberg","Horten"
+        ],
+        "spyNames": [
+            "Johann","Marlene","Wilhelm","Eva","Heinz","Horst","Carl","Viper","Albrecht","Anton"
+        ]
+    },
+	{
 		"name": "Persia",
 		"leaderName": "Darius I",
 		"adjective": ["Persian"],
@@ -777,6 +1118,44 @@
         "spyNames": [
 			"Tiki", "Hotu Matua", "Rongo-ma-tane", "Kupe", "Haloti", "Degei", "Babamik", "Kulu Lau", "Nangananga", "Turua"
 		]
+    },
+	{
+		"name": "Rome",
+		"leaderName": "Augustus Caesar",
+		"personality": "Augustus",
+		"adjective": ["Roman"],
+		"startBias":[
+			"Avoid [Tundra]",
+			"Avoid [Desert]"
+		],
+		"preferredVictoryType": "Domination",
+        "style": "Mediterranean",
+
+		"startIntroPart1": "The blessings of the gods be upon you, Caesar Augustus, emperor of Rome and all her holdings. Your empire was the greatest and longest lived of all in Western civilization. And your people single-handedly shaped its culture, law, art, and warfare like none other, before or since. Through years of glorious conquest, Rome came to dominate all the lands of the Mediterranean from Spain in the west to Syria in the east. And her dominion would eventually expand to cover much of England and northern Germany. Roman art and architecture still awe and inspire the world. And she remains the envy of all lesser civilizations who have followed.",
+		"startIntroPart2": "O mighty emperor, your people turn to you to once more reclaim the glory of Rome! Will you see to it that your empire rises again, bringing peace and order to all? Will you make Reme once again center of the world? Can you build a civilization that will stand the test of time?",
+		"declaringWar": "My treasury is running dry and my legions are getting impatient... (sigh) ...therefore you must die.",
+		"attacked": "So brave, yet so stupid! If only you had a brain to match to your courage.",
+		"defeated": "The gods have deprived Rome of their favour. The dream has ended.",
+		"introduction": "I greet you. I am Augustus, Imperator and Pontifex Maximus of Rome. If you are a friend of Rome, you are welcome.",
+		"neutralHello": "I shall lend you my ears.",
+		"hateHello": "Hail barbarian, speak if you can.",
+		"tradeRequest": "This is what I am willing to offer.",
+		"outerColor": [ 53,0,87],
+		"innerColor": [238,201,9],
+		"favoredReligion": "Christianity",
+		"uniqueName": "The Glory of Rome",
+		"uniques": [
+			"[+25]% Production towards any buildings that already exist in the Capital",
+			"[-100]% maintenance on road & railroads",
+			"Empire enters a [5]-turn Golden Age <upon gaining a [Great General] unit>"
+		],
+		"cities": [
+			"Rome","Antium","Cumae","Neapolis","Ravenna","Arretium","Mediolanum","Arpinum","Circei","Setia",
+			"Satricum","Ardea","Ostia","Velitrae","Viroconium","Tarentum","Brundisium","Caesaraugusta","Caesarea","Palmyra",
+			"Signia","Aquileia","Clusium","Sutrium","Cremona","Placentia","Hispalis","Artaxata","Aurelianorum","Nicopolis",
+			"Agrippina","Verona","Corfinium","Treverii","Sirmium","Augustadorum","Curia","Interrama","Adria"
+		],
+        "spyNames": ["Flavius", "Regula", "Servius", "Lucia", "Cornelius", "Licina", "Canus", "Serpens", "Agrippa", "Brutus"]
     },
 	{
 		"name": "Russia",
@@ -942,46 +1321,6 @@
 		]
     },
 	{
-		"name": "Arabia",
-		"leaderName": "Harun al-Rashid",
-		"adjective": ["Arabian"],
-		"startBias": [
-			"Desert"
-		],
-		"preferredVictoryType": "Scientific",
-		"personality": "Harun al-Rashid",
-
-        "startIntroPart1": "Blessings of the Great God be upon you, O great caliph Harun al-Rashid, leader of the mighty Arabian people! The Muslim Empire, the Caliphate, born from chaos after the death of the prophet Muhammad in 632 AD, intended to apply the rule of God to all Earth. And by the will of God, the caliphate reached its full power, ruling Spain, North Africa, the Middle East, Anatolia, the Balkans and Persia, to even surpass the Great Roman Empire. The arts and sciences were a holy gift of Arabia during the Middle Ages, as the infidel lands of Europe delved deep into ignorance and chaos. Lasting for six hundred years, the Caliphate finally fell before the Mongols, the plague of the civilized world.",
-        "startIntroPart2": "Great Caliph Harun al Rashid, all Arabian people long for greatness! Arabia must be once again the land of arts and knowledge, which under the radiant law of God, will fear no enemy! Will your new empire shine through the ages of history?",
-
-        "declaringWar": "The world will be more beautiful without you. Prepare for war.",
-		"attacked": "Fool! You will soon regret dearly! I swear it!",
-		"defeated": "You have won, congratulations. My palace is now in your possession, and I beg that you care well for the peacock.",
-		"denounced": "Well done, my friend. Now I look forward to our next battle even more!",
-		"introduction": "Welcome foreigner, I am Harun Al-Rashid, Caliph of the Arabs. Come and tell me about your empire.",
-		"neutralHello": "Peace be upon you.",
-		"hateHello": "Oh, it's you.",
-		"tradeRequest": "Come forth, let's do business.",
-		"outerColor": [43, 88, 46],
-		"innerColor": [146, 221, 10],
-		"favoredReligion": "Islam",
-		"uniqueName": "Trade Caravans",
-		"uniques": [
-			"[+1 Gold] from each Trade Route",
-			"[+10]% Spread Religion Strength",
-			"[+300]% [Oil] resource production",
-			"Provides [2] [Oil]"
-		],
-		"cities": [
-			"Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
-			"Aden","Yamama","Muscat","Mansura","Bukhara","Fez","Shiraz","Merw","Balkh","Mosul",
-			"Aydab","Bayt","Suhar","Taif","Hama","Tabuk","Sana'a","Shihr","Tripoli","Tunis","Kairouan","Algiers","Oran"
-		],
-        "spyNames": [
-			"Solhofaat", "Khenzeer", "Zarafah", "Temsaah", "Abyadh", "Mostafa", "Yusuf", "Waddah", "Sameera", "Gamal"
-		]
-    },
-	{
 		"name": "The Ottomans",
 		"leaderName": "Suleiman I",
 		"adjective": ["Ottoman"],
@@ -1023,83 +1362,6 @@
 		]
     },
 	{
-		"name": "Rome",
-		"leaderName": "Augustus Caesar",
-		"personality": "Augustus",
-		"adjective": ["Roman"],
-		"startBias":[
-			"Avoid [Tundra]",
-			"Avoid [Desert]"
-		],
-		"preferredVictoryType": "Domination",
-        "style": "Mediterranean",
-
-		"startIntroPart1": "The blessings of the gods be upon you, Caesar Augustus, emperor of Rome and all her holdings. Your empire was the greatest and longest lived of all in Western civilization. And your people single-handedly shaped its culture, law, art, and warfare like none other, before or since. Through years of glorious conquest, Rome came to dominate all the lands of the Mediterranean from Spain in the west to Syria in the east. And her dominion would eventually expand to cover much of England and northern Germany. Roman art and architecture still awe and inspire the world. And she remains the envy of all lesser civilizations who have followed.",
-		"startIntroPart2": "O mighty emperor, your people turn to you to once more reclaim the glory of Rome! Will you see to it that your empire rises again, bringing peace and order to all? Will you make Reme once again center of the world? Can you build a civilization that will stand the test of time?",
-		"declaringWar": "My treasury is running dry and my legions are getting impatient... (sigh) ...therefore you must die.",
-		"attacked": "So brave, yet so stupid! If only you had a brain to match to your courage.",
-		"defeated": "The gods have deprived Rome of their favour. The dream has ended.",
-		"introduction": "I greet you. I am Augustus, Imperator and Pontifex Maximus of Rome. If you are a friend of Rome, you are welcome.",
-		"neutralHello": "I shall lend you my ears.",
-		"hateHello": "Hail barbarian, speak if you can.",
-		"tradeRequest": "This is what I am willing to offer.",
-		"outerColor": [ 53,0,87],
-		"innerColor": [238,201,9],
-		"favoredReligion": "Christianity",
-		"uniqueName": "The Glory of Rome",
-		"uniques": [
-			"[+25]% Production towards any buildings that already exist in the Capital",
-			"[-100]% maintenance on road & railroads",
-			"Empire enters a [5]-turn Golden Age <upon gaining a [Great General] unit>"
-		],
-		"cities": [
-			"Rome","Antium","Cumae","Neapolis","Ravenna","Arretium","Mediolanum","Arpinum","Circei","Setia",
-			"Satricum","Ardea","Ostia","Velitrae","Viroconium","Tarentum","Brundisium","Caesaraugusta","Caesarea","Palmyra",
-			"Signia","Aquileia","Clusium","Sutrium","Cremona","Placentia","Hispalis","Artaxata","Aurelianorum","Nicopolis",
-			"Agrippina","Verona","Corfinium","Treverii","Sirmium","Augustadorum","Curia","Interrama","Adria"
-		],
-        "spyNames": ["Flavius", "Regula", "Servius", "Lucia", "Cornelius", "Licina", "Canus", "Serpens", "Agrippa", "Brutus"]
-    },
-	{
-		"name": "Japan",
-		"leaderName": "Oda Nobunaga",
-		"adjective": ["Japanese"],
-		"startBias": [
-			"Coast"
-		],
-		"preferredVictoryType": "Domination",
-		"personality": "Oda Nobunaga",
-
-        "startIntroPart1": "Lord Oda Nobunaga, ruler of Japan, the land of the Rising Sun is at your command! Through history, Japanese people lived and died with honor, proud of their rich culture of arts and letters. Years of bloody civil wars, invasions of foreign powers, wealth but also great poverty, have never altered the strong will of the Rising Sun island, as the Bushido spirit has imbued the fields of battle and the Japanese society for millenia. At the end of the 19th century, under foreign influence, your people took the path of modernity, and in a few decades, made of Japan a land of technological innovation and powerful industry, with which only few nations can compete.",
-        "startIntroPart2": "O great daimyo, will you take on your hands the Japan destiny, for the Rising Sun to light the world? Will your new empire shine through the ages of history?",
-
-        "declaringWar": "I hereby inform you of our intention to wipe out your civilization from this world.",
-		"attacked": "Pitiful fool! Now we shall destroy you!",
-		"defeated": "You were much wiser than I thought.",
-		"denounced": "Alright then. I trust you've thought it through.",
-		"introduction": "We hope for a fair and just relationship with you, who are renowned for military bravery.",
-		"neutralHello": "Hello.",
-		"hateHello": "Oh, it's you...",
-		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
-		"outerColor": [255, 255, 255],
-		"innerColor": [184, 0, 0],
-		"favoredReligion": "Shinto",
-		"uniqueName": "Bushido",
-		"uniques": [
-			"No damage penalty for wounded units <for [non-[Air]] units>",
-			"[+10]% [Production] [in all cities] <after discovering [Steam Power]>",
-			"[+1 Food] from [Coast] tiles [in all cities]",
-			"[+1 Food] from [Ocean] tiles [in all cities]"
-		],
-		"cities": [
-			"Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama",
-			"Shimonoseki","Matsuyama","Sapporo","Hakodate","Ise","Toyama","Fukushima","Suo","Bizen","Echizen",
-			"Izumi","Omi","Echigo","Kozuke","Sado","Kobe","Nagano","Hiroshima","Takayama","Akita","Fukuoka","Aomori",
-			"Kamakura","Kochi","Naha","Sendai","Gifu","Yamaguchi","Ota","Tottori"
-		],
-        "spyNames": ["Akaishi", "Oki", "Hattori", "Morozumi", "Momochi", "Kawashima", "Orin", "Sakanishi", "Kaede", "Mochizuki"]
-    },
-	{
 		"name": "Mongolia",
 		"leaderName": "Genghis Khan",
 		"adjective": ["Mongolian"],
@@ -1138,156 +1400,6 @@
 			"Asashōryū", "Tömöriin", "Zevegiin", "Jigjidiin", "Enkhbat", "Mönkhbayar", "Gündegmaa", "Ssima", "Batachikhan", "Chulunny"
 		]
     },
-	{
-		"name": "America",
-		"leaderName": "George Washington",
-		"adjective": ["American"],
-		"startBias": [
-			"River"
-		],
-		"preferredVictoryType": "Scientific",
-		"personality": "George Washington",
-
-        "startIntroPart1": "President Washington, we salute you and the proud American civilization! Freed from the British dominion in the 18th century, then cleansed and reborn after a terrible civil war, the United States nation was ready to play its great role in the 20th century. At the height of its power, triumphant after two terrible world wars, United States of America, a land of immigration, opportunities, optimism and determination, has risen above all other weakening nations, unable to equal such power.",
-        "startIntroPart2": "President Washington, will you show to the world the legitimacy of the American way of life, and spread the flame of liberty to all mankind? Will your new empire shine through the ages of history?",
-
-        "declaringWar": "Your wanton aggression leaves us no choice. Prepare for war!",
-		"attacked": "You have mistaken our love of peace for weakness. You shall regret this!",
-		"defeated": "The day...is yours. I hope you will be merciful in your triumph.",
-		"introduction": "The people of the United States of America welcome you.",
-		"neutralHello": "Good day.",
-		"hateHello": "Well?",
-		"tradeRequest": "Is the following trade of interest to you?",
-
-        "outerColor": [ 28,51,119],
-        "innerColor": [255,255,255],
-
-        "favoredReligion": "Christianity",
-		"uniqueName": "Manifest Destiny",
-		"uniques": [
-			"[+1] Sight <for [{Military} {Land}] units>",
-			"[+1] Movement <for [{Military} {Land}] units>",
-			"[-50]% Gold cost of acquiring tiles [in all cities]",
-			"Starts with [Freedom] adopted"
-		],
-		"cities": [
-			"Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
-			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
-			"Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh",
-			"Oakland","Tampa Bay","Orlando","Tacoma","Santa Fe","Olympia","Hunt Valley","Springfield","Palo Alto","Centralia",
-			"Spokane","Jacksonville","Savannah","Charleston","San Antonio","Birmingham","Anchorage","Sacramento","Reno",
-			"Salt Lake City","Boise","Milwaukee","Santa Cruz","Little Rock"
-		],
-        "spyNames": [
-			"Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"
-		]
-	},
-    {
-		"name": "Argentina", 
-		"leaderName": "Eva Peron",
-		"adjective": ["Argentine"],
-		"startBias": ["Avoid [Coast]"],
-		"preferredVictoryType": "Scientific",
-		"personality": "Eva Peron",
-
-		"startIntroPart1": "Salutations, Eva Perón, spiritual leader of the Argentinian nation and wife to Juan Perón. Yours is the second largest country in Latin America, and its name has derived from the rumors of the existence of silver mountains; what is certainly rich is history in both pre-columbian and republican eras. With the primitive Hispanic American reality fractured in La Plata Basin due to immigration, its inhabitants have come to be somewhat deal with all the dangers but also with all the advantages of that condition: because of their European roots, they deeply linked the nation with the enduring values of the Old World; and because of their condition of colonials, they link themselves to the rest of the continent, through the folklore of the interior and the old Castilian that unifies the people, feeling somehow the vocation of the Patria Grande San Martín and Bolívar once imagined.",
-		"startIntroPart2": "Evita, your people still remember your deeds to the people in the darkest times, because you defended the rights of Descamisados and Women in your great nation. Now it falls to you to build a nation of hope and justice for everyone. Will you answer the call? Can you build a civilization that will stand the test of time?",
-		"declaringWar": "Prepare for war!",
-		"attacked": "You shall regret this!",
-		"defeated": "Don't cry for me Argentina! The truth is I never left you all through my wild days, my mad existence, I kept my promise don't keep your distance.",
-		"introduction": "This place is the reason for my life, Argentina! Welcome, I'm Eva Perón.",
-		"neutralHello": "Greetings.",
-		"hateHello": "What do you want?",
-		"tradeRequest": "Better hurry, I may change my mind.",
-		"outerColor": [64, 138, 178],
-		"innerColor": [244, 244, 86],
-		"uniqueName": "Pride of the People",
-		"uniques": [
-			"[-50]% construction time for [Pasture] improvements",
-			"[-50]% construction time for [Farm] improvements"
-		],
-		"cities": [
-			"Buenos Aires","La Plata","Cordoba","Jujuy","Catamarca","La Rioja","Formosa","Parana","Posadas","Neuquen",
-			"Salta","San Juan","San Luis","Santa Fe","Santiago del Estero","Ushuaia","Tucuman","Resistencia","Rawson","Santa Rosa","Viedma",
-			"Ushuaia"
-		],
-		"spyNames": [
-			"Cortázar","Fontanarrosa","Borges","Laiseca","Crossa","Aira","Piazzolla","Valcárcel","Shakespear","Sabato"
-		]
-	},
-	{
-		"name": "Assyria",
-		"leaderName": "Ashurbanipal",
-		"adjective": ["Assyrian"],
-		"startBias": [
-			"Avoid [Coast]",
-			"Avoid [Tundra]"
-		],
-		"preferredVictoryType": "Domination",
-		"personality": "Ashurbanipal",
-		
-		"startIntroPart1": "The people bow to your esteemed will, o wise and illustrious King Ashurbanipal of Assyria. Across the world, you are known as both a scholar and a warrior, and yet the legends represent merely a glimmer of your true ambition. Although your enemies cowered at the thought of your ferocity in conquest, you were most proud of your intellectual pursuits. Your thirst for knowledge led to your establishment of the royal library at Nineveh, which came to represent one of the greatest collections of ancient texts and tablets found anywhere in the world - securing your legacy as one of Assyria's greatest kings.",
-		"startIntroPart2": "Wise and fearsome king, the time has come for you to return the kingdom of Assyria to its greatest heights. Will you once again strive to acquire the knowledge and histories of all the world's peoples? Can you build a civilization that will stand the test of time?",
-		"declaringWar": "I fear there is no other choice but to remove you from this world!",
-		"attacked": "I think you will come to regret this decision...most unwise.",
-		"defeated": "You have bested my forces...perhaps it was I that underestimated you.",
-		"introduction": "I welcome you to the great kingdom of Assyria...have you come to view my library?",
-		"neutralHello": "Hello, go ahead",
-		"hateHello": "What do you want again?!",
-		"tradeRequest": "Will you consider a trade?",
-		"outerColor": [255,246,194],
-		"innerColor": [191,126,9],
-		"uniqueName": "Treasures of Nineveh",
-		"uniques": [
-			"Upon capturing a city, receive [20] times its [Science] production as [Science] immediately",
-			"Gain [200] [Science] <upon conquering a city>"
-		],
-		"cities": [
-			"Assur","Nineveh","Nimrud","Kar-Tukulti-Ninurta","Dur-Sharrukin","Halab","Carchemish","Kanesh","Harran","Imgur-Enlil",
-			"Shubat-Enlil","Qatna","Sareisa","Sam al","Qarqar","Til Barsip","Sultantepe","Erbil","Hamath","Guzana",
-			"Turuspa","Nasibina","Arpad","Kelashin","Tadmor","Urartu","Sabata","Hit"
-		],
-		"spyNames": [
-			"Adapa","Kubaba","Nabu","Nergal","Ninlil","Ninurta","Nisroch","Shamash","Pazuzu","Qingu"
-		]
-	},
-	{
-		"name": "Australia",
-		"leaderName": "Henry Parkes",
-		"adjective": ["Australian"],
-		"startBias": [
-			"Coast",
-			"Desert"
-		],
-		"preferredVictoryType": "Cultural",
-		"personality" :"Henry Parkes",
-
-		"startIntroPart1": "Greetings, most wise and prudent Sir Henry Parkes, father of the Australian Federation. Australia truly is a unique and ancient land, more so than any other, for its lands abound in nature's gifts and its shores have beckoned, welcomed, and harbored immigrants from afar for over 50,000 years. By the time you arrived in Sydney as an English immigrant in 1839, Australia was divided into thriving British colonies of undeniably vital significance. By 1889, as premier you had led the colony of New South Wales five times to achieve many great things that undoubtedly improved the lives of many. You will always be remembered, however, in the hearts of Australians, for being instrumental in the process of federating the Australian colonies into a single united nation, earning you the humble title of \"The father of the Australian Federation\". Thanks to your efforts, Australia today remains one of the most wealthy, prosperous, and modern countries in the developed world, and truly a sight to behold.",
-		"startIntroPart2": "O Henry Parkes, your people call for you in joyful strains once more. Will you make the rest the world hear the thunder of Australia? Will you build a civilization that stands the test of time?",
-		"declaringWar": "The Commonwealth of Australia formally declare war on you!",
-		"attacked": "Australia will not sit idly, we shall defend our homeland 'till our dying breath!",
-		"defeated": "I die happily, knowing that Australia was once a proud and mighty nation far exceeding the ideals of your unequivocally barbaric ways.",
-		"introduction": "The great people of Australia welcome you, as do I. My name is Sir Henry Parkes, and it is a pleasure to meet you.",
-		"neutralHello": "Welcome, dear friend.",
-		"hateHello": "Step forward, vile barbarian.",
-		"tradeRequest": "Will you accept this deal?",
-		"outerColor": [0, 91, 65],
-		"innerColor": [225, 148, 26],
-		"uniqueName": "Dreamtime",
-		"uniques": [
-			"[+1 Faith] from [Desert] tiles without [Flood plains] [in all cities]",
-			"[+5 Faith] from [Natural Wonder] tiles [in all cities]",
-			"Gain [20] [Faith] <upon discovering a Natural Wonder>"
-		],
-		"cities": [
-			"Canberra","Sydney","Melbourne","Brisbane","Gold Coast","Adelaide","Perth","Newcastle","Sunshine Coast","Wollongong",
-			"Hobart","Geelong","Cairns","Darwin","Toowoomba","Albury","Queanbeyan","Rockhampton","Bunbury","Bundaberg",
-			"Wagga Wagga","Bendigo","Ballarat","Mittagong"
-		],
-		"spyNames": [
-			"Metztli","Xitllali","Chimalli","Quauhtli","Teyacapan","Yaotl","Coatl","Huitzilin","Itzli","Tepin"
-		]
-	},
 	{
 		"name": "Belgium",
 		"leaderName": "Leopold II",
@@ -1448,41 +1560,6 @@
 		]
 	},
 	{
-		"name": "Indonesia",
-		"leaderName": "Gajah Mada",
-		"adjective": ["Indonesian"],
-		"startBias": [
-			"Coast"
-		],
-		"preferredVictoryType": "Cultural",
-		"personality": "Gajah Mada",
-
-		"startIntroPart1": "Honour be with you, oh great hero Gajah Mada, prime minister of Majapahit and uniter of the Indonesian archipelago. The stories of your heroism on the battlefield are bested only by the legends of your sworn oath to unite the far-flung islands of Indonesia under one banner. Serving your queen and empire with loyalty, you not only strive to fulfill your oath and conquered any who stood in your path, but you succeeded in capturing what was then the entirety of the known archipelago, the first to unite what is today modern Indonesia.",
-		"startIntroPart2": "Mighty warrior Gajah Mada, your people yearn for a strong leader who can return them to prosperity! Will you set out to conquer the neighboring kingdoms, further expanding your glory of your empire? Will you build a civilization that can stand the test of time?",
-		"declaringWar": "Don't mean to stand in your way, but I have to protect them!",
-		"attacked": "How dare you! Really insignificant as well!",
-		"defeated": "You may win, but you cannot win upon my spirit.",
-		"introduction": "You came before the great warrior, Gajah Mada from Nusantara!",
-		"neutralHello": "Greetings!",
-		"hateHello": "Are you a male concubine, stranger?",
-		"tradeRequest": "What if we make a deal, you and me?",
-		"outerColor": [101,211,220],
-		"innerColor": [167,52,31],
-		"uniqueName": "Spice Islanders",
-		"uniques": [
-			"[+25]% Great Person generation [in capital]",
-			"Provides [4] [Spices]"
-		],
-		"cities": [
-			"Jakarta","Surabaya","Medan","Makassar","Batam","Denpasar","Samarinda","Mataram","Ambon","Bandung",
-			"Kupang","Depok","Palembang","Trowulan","Semarang","Jayapura","Tangerang","Bogor","Pekanbaru","Bandar Lampung",
-			"Malang","Padang","Samarinda","Ternate","Banjarmasin","Pontianak","Cimahi","Balikpapan","Jambi","Komodo"
-		],
-		"spyNames": [
-			"Adityawarman","Airlangga","Citra","Halayudha","Jayakatwang","Lingga","Mahendradatta","Prapana","Raden","Devi"
-		]
-	},
-	{
 		"name": "Ireland",
 		"leaderName": "Michael Collins",
 		"adjective": ["Irish"],
@@ -1624,42 +1701,6 @@
 			"Li","Chen","Zhang","Liu","Yang","Huang","Zhao","Wu","Zhou","Sun"
 		]
 	},
-	{
-        "name": "Norway",
-        "leaderName": "Harald Hardrada",
-        "adjective": ["Norwegian"],
-        "startBias": [
-			"Coast",
-			"Tundra"
-		],
-        "preferredVictoryType": "Domination",
-        "personality": "Harald Hardrada",
-
-        "startIntroPart1": "Harald Hardrada, the last great Viking warrior-king, your name echoes through the ages. From your early days as a mercenary in the Byzantine Empire to your rise as King of Norway, your life has been a testament to strength, cunning, and unyielding ambition. Your campaigns have set the stage for a new era of Norse dominance. The winds of fate howl through the fjords, calling you to greatness once more.",
-        "startIntroPart2": "The Great King of Norway, The Thunderbolt of the North, your people call upon you once more. Will you lead them to glory as you did in the battles of Stiklestad and Niså? Can you reclaim the throne of England and show the world the true power ? Will you build a civilization that will stand the test of time?",
-        "declaringWar": "Now comes a storm you cannot escape. You can only hope for a quick death! To victory! To Odin's halls!",
-        "attacked": "This will make a great saga! The skalds will sing of my valor! Let us see if the same will go to you!",
-        "defeated": "Joke's on you. I will join the einherjar in Valhalla and feast, while you toil away here.",
-        "introduction": "Harald Sigurdsson stands before you: a Viking unlike any the seas and lands have ever known. Hah, are you afraid?",
-        "neutralHello": "Greetings.",
-        "hateHello": "Your seas are unprotected, friend. All too easy to raid.",
-        "tradeRequest": "I have sent you traders with gifts of rune stones. They are powerful. I mean, the stones, not the traders.",
-        "outerColor": [8,30,87],
-        "innerColor": [238,180,0],
-        "uniqueName": "Nordic Bounty",
-        "uniques": [
-			"[+1 Food] from [Snow] tiles [in all cities]",
-            "[+1 Production] from [Tundra] tiles [in all cities] <after discovering [Optics]>"
-        ],
-        "cities": [
-            "Oslo","Bergen","Trondheim","Stavanger","Tromso","Sarpsborg","Kristiansand","Fredrikstad","Tunsberg","Sandefjord",
-            "Sandnes","Skien","Drammen","Bodo","Alesund","Larvik","Arendal","Gjovik","Narvik","Porsgrunn",
-            "Halden","Hammerfest","Longyearbyen","Haugesund","Kongsberg","Horten"
-        ],
-        "spyNames": [
-            "Johann","Marlene","Wilhelm","Eva","Heinz","Horst","Carl","Viper","Albrecht","Anton"
-        ]
-    },
 	{
         "name": "Poland",
         "leaderName": "Casimir III",
