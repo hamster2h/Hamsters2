@@ -1845,6 +1845,45 @@
 		]
     },
 	{
+		"name": "Spain",
+		"leaderName": "Isabella",
+		"adjective": ["Spanish"],
+		"startBias": [
+			"Coast"
+		],
+		"preferredVictoryType": "Domination",
+		"personality": "Isabella",
+
+        "startIntroPart1": "Holy Isabella, envoy of God, Great Queen of Castille and León, your people celebrate you! Spain is a beautiful and ancient country, a link between Europe and Africa, one shore on the Mediterranean and the other on the mighty Atlantic Ocean. The Spanish culture had taken the best of the Christian and Muslim worlds, and was ready to dominate the world for centuries. Powerful Spanish military fleets and brave explorers found and conquered much of the New World. Exploiting a whole new continent and its riches, Spain reached a state of power few could compete with for hundreds of years.",
+        "startIntroPart2": "O splendid and virtuous Isabella! By the will of the heavens, will Spain reborn to achieve its holy destiny and become a new El Dorado? Will your new empire shine through the ages of history?",
+
+        "declaringWar": "God will probably forgive you... but I shall not. Prepare for war.",
+		"attacked": "Repugnant spawn of the devil! You will pay!",
+		"defeated": "If my defeat is, without any doubt, the will of God, then I will accept it.",
+		"introduction": "God blesses those who deserve it. I am Isabel of Spain.",
+		"neutralHello": "Greetings.",
+		"hateHello": "Well?",
+		"tradeRequest": "I hope this deal will receive your blessing.",
+		"outerColor": [84,26,26],
+		"innerColor": [255,168,168],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Seven Cities of Gold",
+		"uniques": [
+			"[+200 Gold] for discovering a Natural Wonder (bonus enhanced to [+600 Gold] if first to discover it)",
+			"[+1 Happiness] for every known Natural Wonder",
+			"[+150]% Yield from every [Natural Wonder]"
+		],
+		"cities": [
+			"Madrid","Barcelona","Seville","Cordoba","Toledo","Santiago","Salamanca","Murcia","Valencia","Zaragoza","Pamplona",
+			"Vitoria","Santander","Oviedo","Jaen","Logroño","Valladolid","Palma","Teruel","Almeria","Leon","Zamora","Mida",
+			"Lugo","Alicante","Càdiz","Eiche","Alcorcon","Burgos","Vigo","Badajoz","La Coruña","Guadalquivir","Bilbao",
+			"San Sebastian","Granada","Mérida","Huelva","Ibiza","Las Palmas","Tenerife"
+		],
+        "spyNames": [
+			"Rodrigo", "Esmeralda", "Leon", "Mathilda", "Ramona", "Señor X", "Topolino", "Serpiente", "Garcia", "El Lobo"
+		]
+    },
+	{
 	    "name": "Sweden",
 		"leaderName": "Gustavus Adolphus",
 		"adjective": ["Swedish"],
@@ -1884,6 +1923,85 @@
         ],
         "spyNames": [
 			"Leif", "Ingegard", "Sören", "Ragnhild", "Lars", "Lina", "Herr Grå", "Magnus", "Vilma", "Kusin"
+		]
+    },
+	{
+		"name": "The Huns",
+		"leaderName": "Attila the Hun",
+		"adjective": ["Hunnic"],
+		"startBias": [
+			"Avoid [Jungle]",
+			"Avoid [Forest]"
+		],
+		"preferredVictoryType": "Domination",
+		"personality": "Attila the Hun",
+
+        "startIntroPart1": "Great Attila, mighty warrior and leader of the Hunnic empire, your men bow down before you. During the 5th century, you and your brother Bleda have conquered many lands, forged a mighty empire and commanded the most powerful and frightening force of antiquity. You inspired fear to the Roman Emperors themselves, who called you 'Flagellum Dei', the 'Scourge of God', as you took kingdom after kingdom in the Balkans, invaded Eastern Roman Empire, into Gaul and Northern Italy, and planned to conquer Rome itself. Your empire didn't survive long after your death, but your name and your legend have, for millenia to come.",
+        "startIntroPart2": "Fearsome General, your mighty hordes are at your command, waiting to crush your foes once again and to conquer all the riches the world has to offer! Will your new empire shine through the ages of history?",
+
+        "declaringWar": "I grow tired of this throne. I think I should like to have yours instead.",
+		"defeated": "My people will mourn me not with tears, but with human blood.",
+		"denounced": "Do you know who you're dealing with?",
+		"attacked": "Now what is this?! You ask me to add your riches to my great avails. The invitation is accepted.",
+		"introduction": "You are in the presence of Attila, scourge of Rome. Do not let hubris be your downfall as well.",
+		"neutralHello": "Good day to you.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "This is better than you deserve, but let it not be said that I am an unfair man.",
+
+        "outerColor": [180, 178, 164],
+        "innerColor": [70, 0, 4],
+
+        "favoredReligion": "Tengriism",
+		"uniqueName": "Scourge of God",
+		"uniques": [
+			"[+1 Production] from every [Pasture]",
+			"Cities are razed [3] times as fast",
+			"Starts with [Animal Husbandry]",
+			"\"Borrows\" city names from other civilizations in the game"
+		],
+		"cities": [
+			"Attila's Court"
+		],
+        "spyNames": [
+			"Balamber", "Uldin", "Donatus", "Charato", "Octar", "Bleda", "Ellac", "Dengizik", "Hildico", "Gudrun"
+		]
+    },
+	{
+		"name": "The Maya",
+		"leaderName": "Pacal",
+		"adjective": ["mayan"],
+		"startBias": [
+			"Jungle"
+		],
+		"preferredVictoryType": "Scientific",
+		"personality": "Pacal",
+
+        "startIntroPart1": "Kneel before King Pacal the Great, son of the gods and protector of the Palenque domain! After your kingdom has been harassed for years by neighboring rivals, you struck back at the enemies of your people, defeating each of them and sacrificing their leaders as a retribution to the insults made to your ancestors. Your wisdom and hard will not only restored the glory of Palenque, but turned it into a magnificient city, as your people built the greatest monuments and architecture the world has ever known.",
+        "startIntroPart2": "Absolute King, your people need you to save the great Mayan culture and knowledge. Will you be able to read the movement of the stars, and find in the heavens the power to repel any foes? Will your new empire shine through the ages of history?",
+
+        "declaringWar": "A sacrifice unlike all others must be made!",
+		"attacked": "Muahahahahahaha!",
+		"defeated": "Today comes a great searing pain. With you comes the path to the black storm.",
+		"introduction": "Greetings, wayward one. I am known as Pacal.",
+		"tradeRequest": "Friend, I believe I may have found a way to save us all! Look, look and accept my offering!",
+
+		"neutralHello": "A fine day, it helps you.",
+		"outerColor": [198, 141, 99],
+		"innerColor": [24, 63, 66],
+		"favoredReligion": "Christianity",
+		"uniqueName": "The Long Count",
+		"uniques": [
+			"Receive a free Great Person at the end of every [Maya Long Count calendar cycle] (every 394 years), after researching [Theology]. Each bonus person can only be chosen once.",
+			"Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count."
+		],
+		"cities": [
+			"Palenque","Tikal","Chichen Itza","Uxmal","Tulum","Copan","Coba","El Mirador","Calakmul",
+			"Edzna","Lamanai","Izapa","Uaxactun","Comalcalco","Piedras Negras","Cancuen","Yaxha","Quirigua",
+			"Q'umarkaj","Nakbe","Cerros","Xunantunich","Takalik Abaj","Cival","San Bartolo","Altar de Sacrificios","Seibal",
+			"Caracol","Naranjo","Dos Pilas","Mayapan","Ixinche","Zaculeu","Kabah"
+		],
+        "spyNames": [
+			"Camazotz", "Coyopa", "Gukumatz", "Hunahpu", "Huracan", "Ixchel", "Ixtab", "Kukulkán", "Xbalanque", "Zipacna"
 		]
     },
 	{
