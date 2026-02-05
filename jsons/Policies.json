@@ -395,8 +395,8 @@
                 "name": "Trade Unions",
                 "uniques": [
                     "[-33]% maintenance on road & railroads",
-                    "[+1 Gold] from every [Harbor]",
-                    "[+1 Gold] from every [Seaport]"
+                    "[+1 Production, +1 Gold] from every [Harbor]",
+                    "[+1 Production, +1 Gold] from every [Seaport]"
                 ],
                 "row": 1,
                 "column": 4
@@ -404,9 +404,9 @@
             {
                 "name": "Merchant Navy",
                 "uniques": [
-					"[+2 Gold] [in all coastal cities]",
-					"[+1 Production, +1 Food] from [Coast] tiles [in all coastal cities]",
-					"[+1 Production, +1 Food] from [Ocean] tiles [in all coastal cities]"
+					"[+4 Gold] [in all coastal cities]",
+					"[+2 Production, +1 Food] from [Coast] tiles [in all coastal cities]",
+					"[+2 Production, +1 Food] from [Ocean] tiles [in all coastal cities]"
 				],
                 "requires": ["Naval Tradition"],
                 "row": 2,
@@ -440,7 +440,7 @@
                 "name": "Commerce Complete",
                 "uniques": [
                     "[+1 Gold] from every [Trading post]",
-                    "May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500])",
+                    "May buy [Great Merchant] units for [800] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([400])",
                     "Get the leader title of [Doge [leaderName]]"
                 ]
             }
@@ -457,13 +457,14 @@
             "Scientific": 10
         },
         "uniques": [
-			"[+10]% [Science] <while the empire is happy>"
+			"[+10]% [Science] <while the empire is happy>",
+			"[Great Scientist] is earned [25]% faster"
         ],
         "policies": [
             {
                 "name": "Secularism",
                 "uniques": [
-                    "[+1 Science] from every specialist [in all cities]"
+                    "[+2 Science] from every specialist [in all cities]"
                 ],
                 "row": 1,
                 "column": 2
@@ -471,10 +472,10 @@
             {
                 "name": "Humanism",
                 "uniques": [
+					"[1] Free Technologies",
                     "[+1 Happiness] from every [University]",
                     "[+1 Happiness] from every [Observatory]",
-                    "[+1 Happiness] from every [Public School]",
-                    "[-50]% weight to this choice for AI decisions"
+                    "[+1 Happiness] from every [Public School]"
                 ],
                 "row": 1,
                 "column": 4
@@ -493,7 +494,7 @@
             {
                 "name": "Sovereignty",
                 "uniques": [
-					"[+2 Science, +2 Gold] from all [Science] buildings"
+					"[+2 Production, +2 Gold] from all [Science] buildings"
 				],
                 "requires": ["Humanism"],
                 "row": 2,
@@ -502,9 +503,8 @@
             {
                 "name": "Scientific Revolution",
                 "uniques": [
-					"[+1 Science] from every specialist [in all cities]",
 					"Science gained from research agreements [+50]%",
-					"[-100]% weight to this choice for AI decisions"
+					"[+25]% [Science] [in all cities]"
 				],
                 "requires": ["Free Thought"],
                 "row": 3,
@@ -538,8 +538,7 @@
             {
                 "name": "Constitution",
                 "uniques": [
-					"[+2 Culture] from every [Wonder]",
-					"[-100]% weight to this choice for AI decisions"
+					"[+4 Culture] from every [Wonder]"
 				],
                 "row": 1,
                 "column": 1
@@ -547,8 +546,7 @@
             {
                 "name": "Universal Suffrage",
                 "uniques": [
-					"[+33]% Strength for cities <when defending>",
-					"[-100]% weight to this choice for AI decisions"
+					"[+33]% Strength for cities <when defending>"
 				],
                 "row": 1,
                 "column": 3
@@ -564,7 +562,7 @@
             {
                 "name": "Free Speech",
                 "uniques": [
-					"[+20]% [Gold] [in all cities]"
+					"[+25]% [Gold] [in all cities]"
 				],
                 "requires": ["Constitution"],
                 "row": 2,
@@ -584,7 +582,7 @@
                 "uniques": [
                     "[+100]% Yield from every [Great Improvement]",
                     "[+50]% Golden Age length",
-                    "May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500])",
+                    "May buy [Great Artist] units for [500] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500])",
                     "Get the leader title of [President [leaderName]]"
                 ]
             }
@@ -602,7 +600,7 @@
         },
         "uniques": [
             "[-33]% maintenance costs <for [All] units>",
-            "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
+            "Upon capturing a city, receive [20] times its [Culture] production as [Culture] immediately",
             "Only available <before adopting [Order]>",
             "Only available <before adopting [Freedom]>"
         ],
@@ -611,7 +609,7 @@
                 "name": "Populism",
                 "uniques": [
 					"[+25]% Strength <for [Wounded] units>",
-					"[+100]% weight to this choice for AI decisions"
+					"[+10]% Strength <for [all] units>"
 				],
                 "row": 1,
                 "column": 2
@@ -619,6 +617,7 @@
             {
                 "name": "Militarism",
                 "uniques": [
+					"New [Military] units start with [15] XP [in all cities]",
 					"[Gold] cost of purchasing [All] units [-33]%"
 				],
                 "row": 1,
@@ -627,6 +626,7 @@
             {
                 "name": "Fascism",
                 "uniques": [
+					"[+5 Food, +5 Science] [in capital]",
                     "[+100]% [Strategic] resource production",
                     "[+2] Movement <for [Great General] units>"
                 ],
