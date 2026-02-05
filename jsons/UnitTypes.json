@@ -133,6 +133,13 @@
         ]
     },
     {
+        "name": "Big Missile",
+        "movementType": "Air",
+        "uniques": [
+            "Self-destructs when attacking"
+        ]
+    },
+    {
         "name": "Helicopter",
         "movementType": "Land",
         "uniques": [
