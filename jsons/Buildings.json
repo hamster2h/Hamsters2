@@ -2564,8 +2564,7 @@
 		"uniques": [
 			"Comment [Industrial Perk]",
 			"[-25]% Gold cost of upgrading <for [Military] units>",
-			"[+2 Science, +2 Production] from [Fort] tiles [in all cities]",
-			"[+4 Science, +4 Production] from [Citadel] tiles [in all cities]",
+			"[+8 Science, +8 Production] from [Citadel] tiles [in all cities]",
 			"Only available <starting from the [Industrial era]>",
 			"Consumes [1] [General Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
@@ -2617,8 +2616,7 @@
 		"uniques": [
 			"Comment [Atomic Perk]",
 			"[-10]% maintenance costs <for [Military] units>",
-			"[+2 Gold] from [Fort] tiles [in all cities]",
-			"[+4 Gold] from [Citadel] tiles [in all cities]",
+			"[+8 Gold] from [Citadel] tiles [in all cities]",
 			"Only available <starting from the [Atomic era]>",
 			"Consumes [1] [General Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
