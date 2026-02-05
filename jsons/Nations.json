@@ -354,6 +354,79 @@
 		]
 	},
 	{
+		"name": "Belgium",
+		"leaderName": "Leopold II",
+		"adjective": ["Belgian"],
+		"startBias": [
+			"Avoid [Coast]",
+			"Grassland"
+		],
+		"preferredVictoryType": "Diplomatic",
+		"personality": "Leopold II",
+
+		"startIntroPart1": "Fledgling Belgium looks to you, Leopold II, King of the Belgians. In your forty-four years of rule, you strove to bring Belgium to the forefront of European progress - to make her a model for industry and her wealth the envy of lesser nations. With the help of the explorer Henry Morton Stanley, you privately laid claim to the Congo, whose immense natural wealth would be put to the advancement of your kingdom. Though your reputation abroad would ultimately succumb to controversy, your public works would nonetheless put the Belgian people on the path to progress.",
+		"startIntroPart2": "King Leopold, once more Belgium must make haste if it is to maintain its stride with the march of progress. Can you take up the charge and bring wealth and ingenuity to your kingdom? Can you leave your people with great public works and develop Belgium into a modern nation? Can you build a civilization that can stand the test of time?",
+		"declaringWar": "Prepare for war!",
+		"attacked": "You shall regret this!",
+		"defeated": "Will you treat my savages kindly, as I have done?",
+		"introduction": "Greetings to you. I am Leopold II Of Belgium, founder AND absolute ruler of the Congo Free State.",
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Would you be interested in a trade agreement with us? We've got chocolate.",
+		"outerColor": [50, 50, 39],
+		"innerColor": [243, 240, 14],
+		"uniqueName": "Colonialist Riches",
+		"uniques": [
+			"[+1 Production] from [Plantation] tiles [in all cities]",
+			"[+1 Gold] from every [Strategic resource]",
+			"[+1 Culture] from every [Artist]"
+		],
+		"cities": [
+			"Brussels","Antwerp","Ghent","Liege","Bruges","Charleroi","Anderlecht","Schaerbeek","Namur","Leuven",
+			"Mons","Ypres","Mechelen","Aalst","Ixelles","Ukkel","Kortrijk","Hasselt","Ostend","Dendermonde",
+			"Verviers","La Louviere","Tournai","Genk","Mouscron","Vorst","Seraing","Roeselare","Beveren"
+		],
+		"spyNames": [
+			"Jean-Paul","Martine","Lucien","François","Augustine","Monsieur X","Dr. Dupont","Vipère","Yvette","Renard"
+		]
+	},
+	{
+		"name": "Brazil",
+		"leaderName": "Pedro II",
+		"adjective": ["Brazilian"],
+		"startBias": [
+			"Avoid [Coast]",
+			"Jungle"
+		],
+		"preferredVictoryType": "Cultural",
+		"personality": "Pedro II",
+
+		"startIntroPart1": "All Hail his most respected and magnanimous Emperor, Pedro II of Brazil. It was with great insight and unshakeable dignity that you ruled the Brazilian empire for over 50 years, ushering in a time of lasting peace and prosperity. Your reputation as a stern, but fair leader was never blemished by controversy, as your unwavering dedication to the people of Brazil provided hope and established the kingdom's position in South America. Your scholarly pursuits and staunch defense of freedom of speech led to the creation of several institutions of higher learning, strengthening Brazil's sense of national identity.",
+		"startIntroPart2": "Revered Emperor Pedro, your people long for a return to the peaceful days when you walked among them, hearing their stories and reassuring them of a bright future. Will you once again lead your kingdom to prosperity? Can you build a civilization that stands the test of time?",
+		"declaringWar": "Your reign will be better under MY domain.",
+		"attacked": "I worry about all those who are affected by this conflict.",
+		"defeated": "This is why I prefer diplomacy to violence...",
+		"introduction": "I am Pedro, Emperor of Brazil. I have little time for pleasantries, what brings you here?",
+		"neutralHello": "Hello.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Should we prosper through commerce?",
+		"outerColor": [107,208,6],
+		"innerColor": [63,106,64],
+		"uniqueName": "Carnival",
+		"uniques": [
+			"[+6 Culture] from [Landmark] tiles [in all cities]"
+		],
+		"cities": [
+			"Rio de Janeiro","Sao Paulo","Salvador","Brasilia","Fortaleza","Belo Horizonte","Manaus","Curitiba","Recife","Porto Alegre",
+			"Belém","Goiânia","Guarulhos","Campinas","São Luis","Maceió","Duque de Caxias","Natal","Campo Grande","Teresina",
+			"Florianópolis","Nova Iguaçu","Sao Bernardo do Campo","João Pessoa","Osasco","Jaboatão dos Guararapes","São José dos Campos","Contagem","Uberlândia","Aracaju",
+			"Cuiaba","Feira de Santana","Juiz de Fora","Joinville","Macapa"
+		],
+		"spyNames": [
+			"Antonio","Bartolomeu","Domingos","Estevao","Fernao","Francisco","Pascoal","Salvador","Tome","Bianca"
+		]
+	},
+	{
 		"name": "Byzantium",
 		"leaderName": "Theodora",
 		"adjective": ["Byzantine"],
@@ -391,6 +464,42 @@
 			"Basil", "Nikophoros", "Demetrios", "Philippos", "Theophylaktos", "Simonis", "Zoe", "Ioanno", "Xene", "Euphrosyne"
 		]
     },
+	{
+		"name": "Canada",
+		"leaderName": "Wilfrid Laurier",
+		"adjective": ["Canadian"],
+		"startBias": [
+			"Avoid [Coast]",
+			"Tundra"
+		],
+		"preferredVictoryType": "Diplomatic",
+		"personality": "Wilfrid Laurier",
+
+		"startIntroPart1": "Canada is free and freedom is its nationality, and it is your task, Sir Wilfrid Laurier, to ensure that this liberty is preserved. Born from French stock, your tenure as Prime Minister would cement the foundations of Canada as a bastion of freedom in the new world. Under your leadership, Canada would expand to the green plains of the West, and the wounds dealt by the rivalries and alliances of the Old World would begin to heal. An intelligent and eloquent politician, your words and deeds would keep Canada hale and whole through the First World War and beyond.",
+		"startIntroPart2": "The world is once again plunged into darkness, and Canada herself struggles in the shadows. O' steadfast Prime Minister, will you be for Canada a pillar of fire, guiding the free world with your sunny ways? Will you build a civilization to stand the test of time?",
+		"declaringWar": "In responding to the unstinting malignancy that has heretofore defined your relationship with Canada, we can have no recourse, but war!" ,
+		"attacked": "As we can reach no peaceful resolution with you, Canada must turn, with reluctance, to war.", 
+		"defeated": "So ends our dream of a Canada that might have been. Our people are good-hearted. Rule with mercy, and learn from them.", 
+		"introduction": "On behalf of the people of Canada, welcome. I am Prime Minister Laurier.",
+		"neutralHello": "Greetings.",
+		"hateHello": "Negotiating with you tests the limits of human patience",
+		"tradeRequest": "What do you think about this proposal?",
+		"outerColor": [228, 26, 40],
+		"innerColor": [245, 222, 153],
+		"uniqueName": "Canadian Fur Trade",
+		"uniques": [
+			"[+1 Gold] from [Tundra] tiles [in all cities] <after discovering [Guilds]>"
+		],
+		"cities": [
+			"Ottawa","Toronto","Montreal","Vancouver","Calgary","Edmonton","Quebec City","Winnipeg","Mississauga","Halifax",
+			"Saskatoon","Regina","Brampton","Hamilton","Fredericton","Laval","Surrey","Yellowknife","Whitehorse","Iqaluit",
+			"London","Victoria","Chilliwack","Markham","Windsor","Vaughan","Gatineau","Longueuil","St. John's","Burnaby",
+			"Kitchener","Richmond"
+		],
+		"spyNames": [
+			"Cousin","Felix","Dennis","Edward","Prof. Rex","Eliza","Mary","Virginia","Scarlett","Barbara"
+		]
+	},
 	{
 		"name": "Carthage",
 		"leaderName": "Dido",
@@ -803,6 +912,56 @@
         "spyNames": ["Johann", "Marlene", "Wilhelm", "Eva", "Heinz", "Horst", "Carl", "Viper", "Albrecht", "Anton"]
     },
 	{
+		"name": "Hungary",
+		"leaderName": "Matthias Corvinus",
+		"adjective": ["Hungarian"],
+		"startBias": [
+			"Avoid [Coast]",
+			"Hill",
+			"Plains"
+		],
+		"preferredVictoryType": "Diplomatic",
+		"personality": "Matthias Corvinus",
+    
+		"startIntroPart1": "Maganimous King Matthias Corvinus of Hungary, your shining legacy is everlasting. When you came to the Magyar throne, your nation was going through a tumultuous time, threatened as it was from all sides; seeing this with perfect clarity, you established a permanent professional army, and thus the fearsome mercenary Black Army was born: unusual in its size and comparison, it famously incorporated the use of muskets. But perhaps the pinnacle of your reign is the fact that you made Hungary the first country outside Italy to adopt the principles of the Renaissance: learned men from all countries, not just Italy itself, travelled to Hungary to talk about arts, and your legendary library was rivaled only by that of Venice.",
+		"startIntroPart2": "King Matthias the Just, God has called upon you to usher a new epoch of absolute greatness by calling upon your loyal people and lead them to glory? Can you rebuild your legendary library and at the same time let the Black Army serve as both a sword against your enemies and a shield protecting your nation? Can you build a civilization that will stand the test of time?",
+		"declaringWar": "I can't tolerate you anymore, hopefully you are at least a worthy opponent!",
+		"attacked": "It can not be true, but I feel it is. We will do our best to fend you off!",
+		"defeated": "I envisioned a different future. Have I not interpreted the stars correctly?",
+		"introduction": "As you approach, I wonder what the future has in store for both our nations. I must consult the stars.",
+    
+		"neutralHello": "Greetings.",
+		"neutralLetsHearIt": ["Yes.","Speak."],
+		"neutralNo": ["No.","That's unacceptable."],
+		"neutralYes": ["I can't refuse.","I gladly accept."],
+		"hateHello": "Don't waste my time!",
+		"hateLetsHearIt": "What's your offer?",
+		"hateNo": ["Hungary will never accept that!","No way!"],
+		"hateYes": ["I must accept.","I never reject a good offer."],
+    
+		"afterPeace": "Let's celebrate this glorious day, when our nations decided to sign a peace treaty!",
+		"tradeRequest": "I've got an offer. Are you interested?",
+
+		"outerColor": [51, 89, 46],
+		"innerColor": [212, 149, 65],
+    
+		"uniqueName": "Verszerzodes",
+		"uniques": [
+			"[+1 Production, +1 Culture] from every [Walls]",
+			"[+1 Production, +1 Culture] from every [Castle]",
+			"[+1 Production, +1 Culture] from every [Arsenal]",
+			"[+1 Production, +1 Culture] from every [Military Base]"
+		],
+		"cities": [
+			"Buda","Pest","Esztergom","Debrecen","Pecs","Eger","Miskolc","Gyor","Szekesfehervar","Szeged",
+			"Koszeg","Obuda","Kolozsvar","Diosgyor","Tatabanya","Kassa","Eperjes","Kisszeben","Eger","Mohacs","Tata",
+			"Szolnok","Sarvar","Zagrab","Temesvar","Nyiregyhaza","Kecskemet","Sopron"
+		],
+		"spyNames": [
+			"Francisco","Gaspar","Alvaro","Bento","Roberto","Afonso","Galeote","Diogo","Eliana","Oriana"
+		]
+	},
+	{
 		"name": "Japan",
 		"leaderName": "Oda Nobunaga",
 		"adjective": ["Japanese"],
@@ -841,6 +1000,78 @@
 		],
         "spyNames": ["Akaishi", "Oki", "Hattori", "Morozumi", "Momochi", "Kawashima", "Orin", "Sakanishi", "Kaede", "Mochizuki"]
     },
+	{
+		"name": "Khmer",
+		"leaderName": "Suryavarman II",
+		"adjective": ["Khmer"],
+		"startBias": [
+			"Avoid [Coast]"
+		],
+		"preferredVictoryType": "Scientific",
+		"personality": "Suryavarman II",
+
+		"startIntroPart1": "Great Suryavarman, Emperor of the Khmer, the one who has entered the heavenly world of Vishnu, we kneel blinded by your glory! You reunited a divided empire and made it stronger than ever before, expanding its borders to the west and north and reaching the present-day peninsular Malaysia. Merciless to enemies, kind to friends, you established good relations with China, creating new important trade routes. You innovated the arts and architecture of the empire, and even gave the order to build the legendary Angkor Wat, the largest temple in the known world! In the end, your empire collapsed below its own greatness long before the Europeans managed to create their \"civilizations\", and yet history remembers you as a warrior, diplomat, artist and religious man.",
+		"startIntroPart2": "Mighty King, your people need you once more, for only you are capable to lead them to even greater glory and fame, bringing back the glory of Angkor! Will you smite your insolent enemies and at the same time enrich the already magnificent temples in your empire? Can you build a civilization that will stand the test of time?",
+		"declaringWar": "I usually seek council to my sages, but this time it is arms that I must express myself.",
+		"attacked": "May Vishny's wrath engulf you into ruin and despair!",
+		"defeated": "What do you mean it's the end? My workd it's yet to be finished! Let me build... just... one... more... temple...",
+		"introduction": "You look upon the King of Angkor, Emperor of Khmer, rightful Ruler of the World and Master of the Universe! We've just met, but I can already tell you're quite an interesting individual.",
+		"neutralHello": "Welcome.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Heaven smiles upon you - as do the Khmer. Isn't it great deal?",
+		"outerColor": [182, 101, 191],
+		"innerColor": [0, 0, 178],
+		"uniqueName": "Grand Baray of Angkor",
+		"uniques": [
+			"[+3 Science] per [3] population [in capital] <after discovering [Drama and Poetry]>",
+			"Gain a free [Angkor Wat] [in capital]",
+			"Gain a free [Baray] [in capital]"
+		],
+		"cities": [
+			"Yasodharapura","Hariharalaya","Mahendraparvata","Indrapura","Vimayapura","Rajavihara","Isvarapura","Lingapura","Nagara Jayasri","Vyadhapura",
+			"Dviradapura","Amarendrapura","Lavodayapura","Shrestapura","Aninditapura","Isanapura","Banteay Kdei","Chaturmukha","Phetchaburi","Preah Vihear",
+			"Kompong Svay","Chaiya","Beng Melea","Muang Tam"
+		],
+		"spyNames": [
+			"Aran","Chanarong","Kiet","Niran","Virote","Kulap","Mayuree","Phueng","Ratana","Tola"
+		]
+	},
+	{
+		"name": "Kongo",
+		"leaderName": "Nzinga Mbande",
+		"adjective": ["Kongo"],
+		"startBias": [
+			"Avoid [Coast]",
+			"Jungle"
+		],
+		"preferredVictoryType": "Cultural",
+		"personality": "Nzinga Mbande",
+
+		"startIntroPart1": "Hail to you, brave Nzinga Mbande, Queen of the Ndongo and Matamba, whose beauty is matched only by your cunning. Your Kingdom is part of the great Kingdom of Kongo, situated at the mouth of the mighty Congo River in west-central Africa. You defied tradition by claiming two thrones and are remembered for standing bravely against the onslaught of European imperialism. When the Portuguese invaded your lands, you escaped death and shrewdly manipulated the Dutch into sending you aid. Together you turned back the army of the Portuguese at the Battle of Kombi. Yet, ever faced with threats both inside and out, the never-ending war took its tool, and in the end not even your bravery could stop the march of foreign crowns.",
+		"startIntroPart2": "Mighty Queen of Kongo, your people has been chained and sold into slavery. Yet, your old alliances stand firm and await your call. It is time to return, to instill your strenght and spirit and lead your people to battle once more. Can you restore your war-torn land? Can you build a civilization that will stand the test of time?",
+		"declaringWar": "Me and my warriors come to set your lands and your flags on fire!",
+		"attacked": "Go ahead, send your soldiers! We will melt into the trees and strike at you from the stones.",
+		"defeated": "Your swords cleave only flesh. Your chains bind only hands. Our soul remains ours.",
+		"introduction": "I am Nzinga, Muchino a Muhato of the Ndongo and Matamba. Please sit anywhere, and do not look down upon me and dismiss me as a woman: I am the equal of any King, both in governance and in battle.",
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Let us exchange ideas, gold, and good... just not land." ,
+		"outerColor": [255,227,151],
+		"innerColor": [96,11,99],
+		"uniqueName": "Heart of Africa",
+		"uniques": [
+			"[+3 Culture] from [Jungle] tiles [in all cities]"
+		],
+		"cities": [
+			"M'banza-Kongo","M'banza-Ngungu","M'banza-Nsundi","M'banza-Mbata","M'banza-Bakwanga","M'banza-Mpangu","M'banza-Wembo","M'banza-Lovata","M'banza-Mbumbi","M'banza-Mbamba",
+			"M'banza-Mbwila","M'banza-Mpinda","M'banza-Mpemda","M'banza-Kwila","M'banza-Soyo","M'banza-Kwango","M'banza-Bakavu","M'banza-Sanga","M'banza-Katango","M'banza-Nkunga",
+			"M'banza-Nkondo","M'banza-Ndongo","M'banza-Lembabula","M'banza-Kibangu","M'banza-Manga","M'banza-Mulumbi","M'banza-Mbandaka","M'banza-Kindu","M'banza-Makuta","M'banza-Zombo",
+			"M'banza-Matadi","M'banza-Lubumbashi","M'banza-Kalemie","M'banza-Kikwit","M'banza-Popokabaka","M'banza-Kinshasa","M'banza-Loango"
+		],
+		"spyNames": [
+			"Gumede","Jama","Mageba","Malanda","Mnguni","Ndaba","Phunga","Senzangakhona","Balungile","Samkelisiwe"
+		]
+	},
 	{
 		"name": "Korea",
 		"leaderName": "Sejong",
@@ -961,6 +1192,42 @@
 		]
 	},
 	{
+		"name": "Ireland",
+		"leaderName": "Michael Collins",
+		"adjective": ["Irish"],
+		"startBias": [
+			"Avoid [Coast]",
+			"Hill"
+		],
+		"preferredVictoryType": "Diplomatic",
+		"personality": "Michael Collins",
+		
+		"startIntroPart1": "Few can boast your patriotism and commitment to the cause of a Free Ireland, Commander Collins. Though you came from the humblest of beginnings, you truly embodied the pride of Irishness. It was not long before you joined the struggle for Home Rule, and you began to build a reputation for yourself – one of dedication, devotion, and pride for Ireland. After the Easter Rising turned bloody, you managed to turn a beaten movement into a potent physical force, one that would successfully found an Irish nation, fight a war for liberation, and win independence. Some did not share your view, however, and soon this incomplete nation descended once more into war. And though you paid the ultimate cost in the subsequent civil war, you gave your life for a free state that was established soon after.",
+		"startIntroPart2": "Michael Collins, Ireland looks up to you again for guidance in a new time of hardship. Will you serve once more for your nation and your people? Will you overcome those that seek to shackle you? Can you build a civilization that will stand the test of time?",
+		"declaringWar": "I hope you have no hard feelings for me. This is a cruel world, after all...",
+		"attacked": "So once again it befalls onto me to fight for my people.",
+		"defeated": "I signed my own death warrant long ago. I thought at the time how odd, how ridiculous, a bullet might just as well have done the job 5 years ago...",
+		"introduction": "Welcome! I am Michael Collins, Chairman Of Provisional Government in Ireland. We could get along quite well if you're a friend of Ireland.",
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "This moment of peace must not be wasted between us, so let us make the most of it.",
+		"outerColor": [238,231,221],
+		"innerColor": [65,143,35],
+		"uniqueName": "August Destiny",
+		"uniques": [
+			"[+2 Happiness] from every [National Wonder]"
+		],
+		"cities": [
+			"Dublin","Cork","Galway","Wexford","Kilkenny","Tralee","Limerick","Castlebar","Lifford","Clonmel",
+			"Ennis","Roscommon","Cavan","Waterford","Nenagh","Sligo","Monaghan","Naas","Navan","Dundalk",
+			"Carrick-on-Shannon","Wicklow","Tullamore","Mullingar","Portlaoighise","Swords","Bray","Carlow","Armagh","Ballinna",
+			"Letterkenny","Athlone","Celbridge"
+		],
+		"spyNames": [
+			"Patrick","James","Thomas","Michael","William","Timothy","Dennis","Margaret","Bridget","Ann"
+		]
+	},
+	{
 		"name": "Iroquois",
 		"leaderName": "Hiawatha",
 		"adjective": ["Iroquoise"],
@@ -999,6 +1266,79 @@
 		],
         "spyNames": [
 			"Onatah", "Oneida", "Oshadagea", "Otetiani", "Genesee", "Dadgayadoh", "Otwtiani", "Kateri", "Onondakai", "Honanyawus"
+		]
+    },
+	{
+		"name": "Manchuria", 
+		"leaderName": "Nurhaci",
+		"adjective": ["Manchurian"],
+		"startBias": [
+			"Avoid [Coast]"
+		],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "The Eight Banners bow down before you, oh great Nurhaci, Brilliant Khan Who Benefits All Nations, unifier of the Manchu peoples! Under your rule, a collection of scattered Jurchen tribes were unified into a great empire! Your reign was a period of great victory and progress for the Manchu people, consisting of constantly successful campaigns against the Ming, the Koreans, the Mongols and other Jurchen tribes. Truly, no empire in East Asia could withstand the might of the Manchu! Your reign is notable for more than sheer conquest, however, with great and important leaps in Manchu culture, such as the funding of the Eight Banners and the creation of a Manchu Alphabet. And your successors would build off your great achievements, conquering the entirety of China and founding one of the greatest dynasties of all time!",
+		"startIntroPart2": "Oh, bold and noble Khan and Chieftain, the empire your actions shaped has fallen, and the Manchu have been reduced to a mere minority group in another nation’s empire. But your people call your name unto the heavens, desperate for your strong and wise leadership to lead them to glory once more! Will you ride with your Bannermen to the field of battle once more? Will you build a civilization to stand the test of time?",
+		"declaringWar": "Prepare for war!",
+		"attacked": "You shall regret this!",
+		"defeated": "You have bested me, warrior. I have no choice but to submit. Which banner shall I be allocated to? What do you mean, 'we don't sort our troops by banner'?!", 
+		"introduction": "You stand before Nurhaci, Brilliant Khan Who Benefits All Nations. Will you be a worthwhile ally or mere fodder for my armies?",
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"outerColor": [254,204,32],
+		"innerColor": [0,55,106],
+		"uniqueName": "Eight Banners",
+		"uniques": [
+			"[+100]% Production when constructing [Stable] buildings [in all cities]",
+			"[-100]% maintenance costs <for [Mounted] units>"
+		],
+		"cities": [
+			"Mukden","Hetu Ala","Yenden","Xingjing","Fushun","Qinghe","Sarhu","Girin Ula","Qiaonan","Tieling",
+			"Ningdota","Siping","Anshan","Lushun","Liaoyuan","Gulian","Yanxi","Fengtian","Harbin","Qiqihar",
+			"Suiha","Daqing","Jiamusi","Yichun","Jixi","Jilin","Songyuan","Baicheng","Yanbian","Nanling"
+		],
+		"spyNames": [
+			"Li","Chen","Zhang","Liu","Yang","Huang","Zhao","Wu","Zhou","Sun"
+		]
+	},
+	{
+		"name": "Mongolia",
+		"leaderName": "Genghis Khan",
+		"adjective": ["Mongolian"],
+		"startBias": [
+			"Plains"
+		],
+		"preferredVictoryType": "Domination",
+		"personality": "Genghis Khan",
+
+        "startIntroPart1": "O great Temuujin, immortal leader of the mighty Mongol Empire! Your name alone was enough to make cities crumble, and the sound of the mighty Mongol cavalry to make your enemies flee! O Great Khan! Once Northern Asia united into a mighty people, producing one of the greatest armies the world has ever known, your skillful mounted archers conquered in only a few years, most of China, Eastern Asia, and even reached the gates of Europe at the West. With cunning diplomacy and brilliant warfare, you swept your enemies one after another, creating the greatest empire ever seen, reducing Roman or Greek conquests to minor achievements.",
+        "startIntroPart2": "Divine Temuujin, battles and conquests run through the veins of the Mongols. Are you ready to shatter the will of your enemies? Will your cavalry ride in the steppes once again and strike as lightning and thunder? Will your new empire shine through the ages of history?",
+
+        "declaringWar": "You stand in the way of my armies. Let us solve this like warriors!",
+		"attacked": "No more words. Today, Mongolia charges toward your defeat.",
+		"defeated": "You have hobbled the Mongolian clans. My respect for you nearly matches the loathing. I am waiting for my execution.",
+		"denounced": "Your courage must be commended.",
+		"introduction": "I am Temuujin, conqueror of cities and countries. Before me lie future Mongolian lands. Behind me is the only cavalry that matters.",
+		"neutralHello": "Hello.",
+		"hateHello": "So what now?",
+		"tradeRequest": "I am not always this generous, but we hope you take this rare opportunity we give you.",
+		"outerColor": [81,0,9],
+		"innerColor": [255,120,0],
+		"favoredReligion": "Tengriism",
+		"uniqueName": "Mongol Terror",
+		"uniques": [
+			"[-50]% unhappiness from the number of cities",
+			"[+2] Movement <for [Mounted] units>"
+		],
+		"cities": [
+			"Karakorum","Beshbalik","Turfan","Hsia","Old Sarai","New Sarai","Tabriz","Tiflis","Otrar","Sanchu","Kazan",
+			"Almarikh","Ulaanbaatar","Hovd","Darhan","Dalandzadgad","Mandalgovi","Choybalsan","Erdenet","Tsetserieg",
+			"Baruun-Urt","Ereen","Batshireet","Choyr","Ulaangom","Tosontsengel","Altay","Uliastay","Bayanhongor",
+			"Har-Ayrag","Nalayh","Tes"
+		],
+        "spyNames": [
+			"Asashōryū", "Tömöriin", "Zevegiin", "Jigjidiin", "Enkhbat", "Mönkhbayar", "Gündegmaa", "Ssima", "Batachikhan", "Chulunny"
 		]
     },
 	{
@@ -1079,6 +1419,44 @@
 		]
     },
 	{
+        "name": "Poland",
+        "leaderName": "Casimir III",
+        "adjective": ["Polish"],
+        "startBias": [
+			"Avoid [Coast]",
+			"Plains"
+		],
+        "preferredVictoryType": "Domination",
+        "personality": "Casimir III",
+
+        "startIntroPart1": "All hail noble King Casimir the Great, protector and sovereign of the Kingdom of Poland. You ascended to the throne during a time of great turmoil, with the nation's economy in shambles and its people demoralized by the wars of your predecessor. And yet, your reign marked the beginning of a new era, with affluence and security afforded only by way of your careful governance. Among your most notable achievements, the code of laws you established gave legal authority to many of the accepted customs of the time, strengthening the nation.",
+        "startIntroPart2": "Honored king Casimir, the people have long admired the steady hand of governance you wield. Can you return your kingdom and its subjects to a golden age of prosperity? Will you conquer all those who oppose you, or strive for peaceful relations? Can you build a civilization that will stand the test of time?",
+        "declaringWar": "I have decided to end you!",
+        "attacked": "My armies will grind you to dust!",
+        "defeated": "Celebrate your victory well...it might be your last one.",
+        "introduction": "I, Casimir the Great, welcome you to the lands of the Great Kingdom of Poland.",
+        "neutralHello": "I salute you.",
+        "hateHello": "What are you looking for here?",
+        "tradeRequest": "How do you like my offer?",
+        "outerColor": [241,3,0],
+        "innerColor": [80,11,14],
+        "uniqueName": "Solidarity",
+        "uniques": [
+			"Free Social Policy <upon entering a Golden Age>",
+			"[-10]% Culture cost of adopting new Policies",
+			"Provides [2] [Horses]"
+		],
+        "cities": [
+            "Warsaw","Krakow","Lodz","Wroclaw","Poznan","Gdansk","Szczecin","Bydgoszcz","Lublin","Kaunas",
+            "Katowice","Bialystok","Gdynia","Schweidnitz","Czestochowa","Radom","Torun","Kielce","Gliwice","Klaipeda",
+            "Bytom","Olsztyn","Rzeszow","Bielsko-Biala","Ruda Slaska","Rybnik","Plock","Elblag","Gorzow Wielkopolski","Opole",
+            "Siauliai","Walbrzych","Zielona Gora","Wloclawek"
+        ],
+        "spyNames": [
+            "Wincenty","Roman","Benita","Jan","Kazimierz","Josef","Krystyna Skarbek","Tarnowski","Marian","Alenka"
+        ]
+    },
+	{
 		"name": "Polynesia",
 		"leaderName": "Kamehameha I",
 		"adjective": ["Polynesia"],
@@ -1118,6 +1496,42 @@
         "spyNames": [
 			"Tiki", "Hotu Matua", "Rongo-ma-tane", "Kupe", "Haloti", "Degei", "Babamik", "Kulu Lau", "Nangananga", "Turua"
 		]
+    },
+	{
+        "name": "Portugal",
+        "leaderName": "Maria I",
+        "adjective": ["Portuguese"],
+        "startBias": [
+			"Coast"
+		],
+        "preferredVictoryType": "Diplomatic",
+        "personality": "Maria I",
+
+        "startIntroPart1": "Blessings be upon you, most gracious Queen Maria, protector and sovereign of the Portuguese people. As the first ever Queen regnant of Portugal, it was your wise stewardship that protected the royal court from the incursions of Napoleon, establishing a safe haven in Brazil to preserve the integrity of Portuguese rule. Despite struggling with illness throughout your reign, your effort to ensure Portugal's close cooperation with Brazil are credited with helping that state gain its eventual independence - and for this you will always be admired and respected by the people of both nations.",
+        "startIntroPart2": "Oh noble and pious queen, will you once again guide the kingdom of Portugal in the spirit of cooperation and prosperity? Will you establish a new legacy, one that will surpass all those who come before you? Can you build a civilization that will stand the test of time?",
+        "declaringWar": "I'm afraid I cannot allow your kingdom to exist for much longer! I hope you won't mind...",
+        "attacked": "You cannot be serious!",
+        "defeated": "I know little about this conflict...I'll have to consult my regent...",
+        "introduction": "I am Maria, Queen of Portugal! Have we met before? You look familiar to me... Or maybe not.",
+        "neutralHello": "Good morning.",
+        "hateHello": "Why did you come?",
+        "tradeRequest": "Will you consider this offer?",
+        "outerColor": [206,206,205],
+        "innerColor": [8,25,115],
+        "uniqueName": "Mare Clausum",
+        "uniques": [
+            "[+3 Gold] from every [Luxury resource]",
+			"[+400]% Gold from Great Merchant trade missions"
+        ],
+        "cities": [
+            "Lisbon","Porto","Braga","Coimbra","Funchal","Leiria","Goa","Vila Nova de Gaia","Aveiro","Luanda",
+            "Evora","Faro","Castelo Branco","Bissau","Guarda","Viseu","Praia","Braganza","Beja","Tomar",
+            "Maputo","Tavira","Figueira da Foz","Viana do Castelo","Sao Tome and Principe","Silves","Sintra","Dili","Lamego",
+            "Ponta Delgada"
+        ],
+        "spyNames": [
+            "Francisco","Gaspar","Alvaro","Bento","Roberto","Afonso","Galeote","Diogo","Eliana","Oriana"
+        ]
     },
 	{
 		"name": "Rome",
@@ -1198,6 +1612,115 @@
         "spyNames": [
 			"Alexei", "Lena", "Dmitry", "Anastasia", "Tatiana", "Boris", "Doktor Seriy", "Mikhail", "Natacha", "Zmeya"
 		]
+    },
+	{
+        "name": "Scotland",
+        "leaderName": "Robert the Bruce",
+        "adjective": ["Scottish"],
+        "startBias": [
+			"Avoid [Coast]",
+			"Hill"
+		],
+        "preferredVictoryType": "Cultural",
+        "personality": "Robert the Bruce",
+
+        "startIntroPart1": "King Robert I, legendary monarch and enlightened ruler of Scotland, your realm awaits your command. A bastion of freedom, your nation resisted outside rule for nearly a millennium; bravely fighting off invasion after invasion by even the greatest of empires. Through your cunning and ambition, you succeeded in claiming the throne of Scotland from the very foreigners so despised in your land, who ascended through a series of events only God could foresee. With the throne thus claimed and popular support on your side, you defeated the army of Edward I, the English monarch whom you had previously driven from your lands, and one of the greatest threats your nation had ever faced. It was your actions which established a tenuous peace between your warring Kingdoms, fostering a common history which culminated in the union of the two kingdoms under a Scottish monarch in the year 1707. Yet your legacy is one of ensuring the protection of the culture and freedom of the Scottish people, for which you shall forever be remembered.",
+        "startIntroPart2": "Robert the Bruce, general and king, Scotland once more has enemies encroaching on her land. The Scottish people are in need of a great general once more, to send homeward those who would threaten the sovereignty of their Kingdom. Will you fend off all foes that may threaten your nation? Will you ensure that Scotland is the land of the brave and free? Can you build a civilization that will stand the test of time?",
+        "declaringWar": "War lingers in our hearts. Why carry on with a false peace? ",
+        "attacked": "You gormless radger! You'll dine on your own teeth before you set foot in Scotland! ",
+        "defeated": "You may take our lands, but you may never take our freedom. We will return.",
+        "introduction": "Welcome to the domain of free men. Be warned that we will fight dearly for our lives if it comes to that.",
+        "neutralHello": "Greetings.",
+        "hateHello": "I'd brain you with an axe, but I'm afraid your thick pate'd shatter it! ",
+        "tradeRequest": "Scotland would rather have true words from you than fair gifts, but we can make a deal.",
+        "outerColor": [5,60,77],
+        "innerColor": [201,214,217],
+        "uniqueName": "Last of the Free",
+        "uniques": [
+            "[+4 Culture] from [Hill] tiles without [Improvement] [in all cities]",
+			"Gain a free [Stonehenge] [in capital]"
+        ],
+        "cities": [
+            "Edinburgh","Glasgow","Stirling","Aberdeen","Dundee","Inverness","Perth","Dunfermline","Kilmarnock","Dumfries",
+            "Lanark","Dumbarton","Falkirk","Arbroath","Linlithgow","Kirkcaldy","Forfar","Saint Andrews","Tain","Lerwick",
+            "Ayr","Wick","Thurso","Stranraer","Portree","Melrose","Berwick","Oban","Ullapool","Aviemore",
+            "Gallowglass"
+        ],
+        "spyNames": [
+            "Robert","William","Angus","Ewan","Alastair","Ian","Wallace","Fiona","Ilsa","Nessie"
+        ]
+    },
+	{
+        "name": "Shoshone",
+        "leaderName": "Pocatello",
+        "adjective": ["Shoshone"],
+        "startBias": [
+			"Avoid [Coast]",
+			"Forest"
+		],
+        "preferredVictoryType": "Diplomatic",
+        "personality": "Pocatello",
+
+        "startIntroPart1": "Blessings be upon you, wise and fearsome Chief Pocatello, revered leader of the Shoshone people. As the young chieftain of the Shoshone, you rose to face a wave of encroaching American settlements across the western United States. Forced to defend the Shoshone ancestral lands from a seemingly endless stream of new emigrants, your war band struck fear into those who would claim the sacred lands of your people. After years of strife, you skillfully avoided a direct conflict with the armies of the U.S. government, and negotiated a series of treaties in the hopes of establishing a lasting peace for the Shoshone.",
+        "startIntroPart2": "Most esteemed Pocatello, your people once again look to you for guidance. Will you conquer your enemies, driving them far from your lands? Or will you seek out peaceful diplomacy and trade? Will you build a civilization that stands the test of time?",
+        "declaringWar": "Shoshone!, We will kill the white man!",
+        "attacked": "I must make the foreigner go away!",
+        "defeated": "This will not be the end of my people, I assure you.",
+        "introduction": "I am Chief Pocatello. You have arrived in the thick of Shoshone land.",
+        "neutralHello": "Our time has arrived!",
+        "hateHello": "What do you want?",
+        "tradeRequest": "Would you listen to my proposal?",
+        "outerColor": [65,54,42],
+        "innerColor": [78,244,234],
+        "uniqueName": "Great Expanse",
+        "uniques": [
+			"[+15]% Strength <for [Military] units> <in [Friendly Land] tiles>",
+			"Gain control over [All] tiles in a [4]-tile radius <upon founding a city> <in this city>"
+		],
+        "cities": [
+            "Moson Kahni","Te-Moak","Agaidika","Goshute","Pohokwi","Washakie","Timbisha","Hukandeka","Duckwater","Tukudeka",
+            "Kuchundeka","Yomba","Kamudeka","Ely","Yambadeka","Nampa","Bannock","Yahandeka","Tetadeka","Deheyaeka",
+            "Pengwideka","Winnemucca","Skull Valley","Big Pine","Duck Valley"
+        ], 
+        "spyNames": [
+            "Cameahwait","Ondongarte","Queenah","Pugweenee","Sacajawea","Sagwitch","Sanpitch","Tuziyammo","Mugwayan"
+        ]
+    },
+    {
+        "name": "Sumeria",
+        "leaderName": "Gilgamesh",
+        "adjective": ["Sumer"],
+        "startBias": [
+			"Avoid [Coast]"
+		],
+        "preferredVictoryType": "Scientific",
+        "personality": "Gilgamesh",
+
+        "startIntroPart1": "The neverending glory be upon you. King Gilgamesh, most legendary and mystical ruler of Sumeria! Oh mighty king, whose hands built the city-walls of Uruk and eyes saw the sage Utnapishtim! You are the leader of the Sumer, the first and the only civilization that was truely original and innovative. Sumer's history stretches back into time when the Gods were walking alongside the mere mortals. Sumer, the cradle of civilization, made a great progress in our history, gave the world most beatiful things - literature, architecture and music - and developed professional army, immortalizing the very first battle in the stele. Sumer's contributions to the civlization of man are uncountable.",
+        "startIntroPart2": "Divine King, who, with strength and wisdom, built the glory of the ancient Sumer and became the very first hero of the history - people seek for your guidance! The wealth of Euphrates, Tigris and the whole Fertile Crescent cannot be wasted in the hands of barbarians. Can you once more bring glory and light to the humankind? Can you build a civilization to stand the test of time?",
+        "declaringWar": "Why do I fight? Because I can... because Inanna demands it. Now you will know the power of Sumer! ",
+        "attacked": "I will enjoy hearing your last breath when you witness the destruction of your people. ",
+        "defeated":  "The time has come. Mere mortals challenged the Gods and overthrew them, destroying the old world and proudly awaiting the new one.",
+        "introduction": "I am Gilgamesh of Sumeria and King of Uruk. Do not be afraid… I am good to my friends. ",
+        "neutralHello": "Welcome",
+        "hateHello": "Hah! Gilgamesh is stronger than your false words. ",
+        "tradeRequest": "All the world knows of my generosity to my friends. ",
+        "outerColor": [15,70,109],
+        "innerColor": [229,118,95],
+        "uniqueName": "Cradle of Civilization",
+        "uniques": [
+			"[+3 Culture] [in all cities] <after discovering [Drama and Poetry]>",
+			"[+6 Science] [in all cities] <after discovering [Drama and Poetry]>"
+		],
+        "cities": [
+            "Ur","Kish","Uruk","Eridu","Umma","Lagash","Akshak","Larak","Bad-Tibira","Larsa",
+            "Isin","Shruppak","Nibru","Zimbir","Girsu","Zabalam","Kisiga","Adab","Jemdet Nasr","Nina",
+            "Dilbat","Kutu","Marad","Enegi","Abu Salabikh","Ki-an","Pazurish-Dagan","Dabrum","Kissura","Kutallu",
+            "Nagsu","Kesh","Aratta","Der","Urukag","Hamazi","Apisada","Ubaid"
+        ],
+        "spyNames": [
+            "Azi","Dabir","Firuz","Gaspar","Shahzad","Aga","Marjane","Peri","Sartaj","Yasmin"
+        ]
     },
 	{
 		"name": "Songhai",
@@ -1362,529 +1885,6 @@
 		]
     },
 	{
-		"name": "Mongolia",
-		"leaderName": "Genghis Khan",
-		"adjective": ["Mongolian"],
-		"startBias": [
-			"Plains"
-		],
-		"preferredVictoryType": "Domination",
-		"personality": "Genghis Khan",
-
-        "startIntroPart1": "O great Temuujin, immortal leader of the mighty Mongol Empire! Your name alone was enough to make cities crumble, and the sound of the mighty Mongol cavalry to make your enemies flee! O Great Khan! Once Northern Asia united into a mighty people, producing one of the greatest armies the world has ever known, your skillful mounted archers conquered in only a few years, most of China, Eastern Asia, and even reached the gates of Europe at the West. With cunning diplomacy and brilliant warfare, you swept your enemies one after another, creating the greatest empire ever seen, reducing Roman or Greek conquests to minor achievements.",
-        "startIntroPart2": "Divine Temuujin, battles and conquests run through the veins of the Mongols. Are you ready to shatter the will of your enemies? Will your cavalry ride in the steppes once again and strike as lightning and thunder? Will your new empire shine through the ages of history?",
-
-        "declaringWar": "You stand in the way of my armies. Let us solve this like warriors!",
-		"attacked": "No more words. Today, Mongolia charges toward your defeat.",
-		"defeated": "You have hobbled the Mongolian clans. My respect for you nearly matches the loathing. I am waiting for my execution.",
-		"denounced": "Your courage must be commended.",
-		"introduction": "I am Temuujin, conqueror of cities and countries. Before me lie future Mongolian lands. Behind me is the only cavalry that matters.",
-		"neutralHello": "Hello.",
-		"hateHello": "So what now?",
-		"tradeRequest": "I am not always this generous, but we hope you take this rare opportunity we give you.",
-		"outerColor": [81,0,9],
-		"innerColor": [255,120,0],
-		"favoredReligion": "Tengriism",
-		"uniqueName": "Mongol Terror",
-		"uniques": [
-			"[-50]% unhappiness from the number of cities",
-			"[+2] Movement <for [Mounted] units>"
-		],
-		"cities": [
-			"Karakorum","Beshbalik","Turfan","Hsia","Old Sarai","New Sarai","Tabriz","Tiflis","Otrar","Sanchu","Kazan",
-			"Almarikh","Ulaanbaatar","Hovd","Darhan","Dalandzadgad","Mandalgovi","Choybalsan","Erdenet","Tsetserieg",
-			"Baruun-Urt","Ereen","Batshireet","Choyr","Ulaangom","Tosontsengel","Altay","Uliastay","Bayanhongor",
-			"Har-Ayrag","Nalayh","Tes"
-		],
-        "spyNames": [
-			"Asashōryū", "Tömöriin", "Zevegiin", "Jigjidiin", "Enkhbat", "Mönkhbayar", "Gündegmaa", "Ssima", "Batachikhan", "Chulunny"
-		]
-    },
-	{
-		"name": "Belgium",
-		"leaderName": "Leopold II",
-		"adjective": ["Belgian"],
-		"startBias": [
-			"Avoid [Coast]",
-			"Grassland"
-		],
-		"preferredVictoryType": "Diplomatic",
-		"personality": "Leopold II",
-
-		"startIntroPart1": "Fledgling Belgium looks to you, Leopold II, King of the Belgians. In your forty-four years of rule, you strove to bring Belgium to the forefront of European progress - to make her a model for industry and her wealth the envy of lesser nations. With the help of the explorer Henry Morton Stanley, you privately laid claim to the Congo, whose immense natural wealth would be put to the advancement of your kingdom. Though your reputation abroad would ultimately succumb to controversy, your public works would nonetheless put the Belgian people on the path to progress.",
-		"startIntroPart2": "King Leopold, once more Belgium must make haste if it is to maintain its stride with the march of progress. Can you take up the charge and bring wealth and ingenuity to your kingdom? Can you leave your people with great public works and develop Belgium into a modern nation? Can you build a civilization that can stand the test of time?",
-		"declaringWar": "Prepare for war!",
-		"attacked": "You shall regret this!",
-		"defeated": "Will you treat my savages kindly, as I have done?",
-		"introduction": "Greetings to you. I am Leopold II Of Belgium, founder AND absolute ruler of the Congo Free State.",
-		"neutralHello": "Greetings.",
-		"hateHello": "What do you want?",
-		"tradeRequest": "Would you be interested in a trade agreement with us? We've got chocolate.",
-		"outerColor": [50, 50, 39],
-		"innerColor": [243, 240, 14],
-		"uniqueName": "Colonialist Riches",
-		"uniques": [
-			"[+1 Production] from [Plantation] tiles [in all cities]",
-			"[+1 Gold] from every [Strategic resource]",
-			"[+1 Culture] from every [Artist]"
-		],
-		"cities": [
-			"Brussels","Antwerp","Ghent","Liege","Bruges","Charleroi","Anderlecht","Schaerbeek","Namur","Leuven",
-			"Mons","Ypres","Mechelen","Aalst","Ixelles","Ukkel","Kortrijk","Hasselt","Ostend","Dendermonde",
-			"Verviers","La Louviere","Tournai","Genk","Mouscron","Vorst","Seraing","Roeselare","Beveren"
-		],
-		"spyNames": [
-			"Jean-Paul","Martine","Lucien","François","Augustine","Monsieur X","Dr. Dupont","Vipère","Yvette","Renard"
-		]
-	},
-	{
-		"name": "Brazil",
-		"leaderName": "Pedro II",
-		"adjective": ["Brazilian"],
-		"startBias": [
-			"Avoid [Coast]",
-			"Jungle"
-		],
-		"preferredVictoryType": "Cultural",
-		"personality": "Pedro II",
-
-		"startIntroPart1": "All Hail his most respected and magnanimous Emperor, Pedro II of Brazil. It was with great insight and unshakeable dignity that you ruled the Brazilian empire for over 50 years, ushering in a time of lasting peace and prosperity. Your reputation as a stern, but fair leader was never blemished by controversy, as your unwavering dedication to the people of Brazil provided hope and established the kingdom's position in South America. Your scholarly pursuits and staunch defense of freedom of speech led to the creation of several institutions of higher learning, strengthening Brazil's sense of national identity.",
-		"startIntroPart2": "Revered Emperor Pedro, your people long for a return to the peaceful days when you walked among them, hearing their stories and reassuring them of a bright future. Will you once again lead your kingdom to prosperity? Can you build a civilization that stands the test of time?",
-		"declaringWar": "Your reign will be better under MY domain.",
-		"attacked": "I worry about all those who are affected by this conflict.",
-		"defeated": "This is why I prefer diplomacy to violence...",
-		"introduction": "I am Pedro, Emperor of Brazil. I have little time for pleasantries, what brings you here?",
-		"neutralHello": "Hello.",
-		"hateHello": "What do you want?",
-		"tradeRequest": "Should we prosper through commerce?",
-		"outerColor": [107,208,6],
-		"innerColor": [63,106,64],
-		"uniqueName": "Carnival",
-		"uniques": [
-			"[+6 Culture] from [Landmark] tiles [in all cities]"
-		],
-		"cities": [
-			"Rio de Janeiro","Sao Paulo","Salvador","Brasilia","Fortaleza","Belo Horizonte","Manaus","Curitiba","Recife","Porto Alegre",
-			"Belém","Goiânia","Guarulhos","Campinas","São Luis","Maceió","Duque de Caxias","Natal","Campo Grande","Teresina",
-			"Florianópolis","Nova Iguaçu","Sao Bernardo do Campo","João Pessoa","Osasco","Jaboatão dos Guararapes","São José dos Campos","Contagem","Uberlândia","Aracaju",
-			"Cuiaba","Feira de Santana","Juiz de Fora","Joinville","Macapa"
-		],
-		"spyNames": [
-			"Antonio","Bartolomeu","Domingos","Estevao","Fernao","Francisco","Pascoal","Salvador","Tome","Bianca"
-		]
-	},
-	{
-		"name": "Canada",
-		"leaderName": "Wilfrid Laurier",
-		"adjective": ["Canadian"],
-		"startBias": [
-			"Avoid [Coast]",
-			"Tundra"
-		],
-		"preferredVictoryType": "Diplomatic",
-		"personality": "Wilfrid Laurier",
-
-		"startIntroPart1": "Canada is free and freedom is its nationality, and it is your task, Sir Wilfrid Laurier, to ensure that this liberty is preserved. Born from French stock, your tenure as Prime Minister would cement the foundations of Canada as a bastion of freedom in the new world. Under your leadership, Canada would expand to the green plains of the West, and the wounds dealt by the rivalries and alliances of the Old World would begin to heal. An intelligent and eloquent politician, your words and deeds would keep Canada hale and whole through the First World War and beyond.",
-		"startIntroPart2": "The world is once again plunged into darkness, and Canada herself struggles in the shadows. O' steadfast Prime Minister, will you be for Canada a pillar of fire, guiding the free world with your sunny ways? Will you build a civilization to stand the test of time?",
-		"declaringWar": "In responding to the unstinting malignancy that has heretofore defined your relationship with Canada, we can have no recourse, but war!" ,
-		"attacked": "As we can reach no peaceful resolution with you, Canada must turn, with reluctance, to war.", 
-		"defeated": "So ends our dream of a Canada that might have been. Our people are good-hearted. Rule with mercy, and learn from them.", 
-		"introduction": "On behalf of the people of Canada, welcome. I am Prime Minister Laurier.",
-		"neutralHello": "Greetings.",
-		"hateHello": "Negotiating with you tests the limits of human patience",
-		"tradeRequest": "What do you think about this proposal?",
-		"outerColor": [228, 26, 40],
-		"innerColor": [245, 222, 153],
-		"uniqueName": "Canadian Fur Trade",
-		"uniques": [
-			"[+1 Gold] from [Tundra] tiles [in all cities] <after discovering [Guilds]>"
-		],
-		"cities": [
-			"Ottawa","Toronto","Montreal","Vancouver","Calgary","Edmonton","Quebec City","Winnipeg","Mississauga","Halifax",
-			"Saskatoon","Regina","Brampton","Hamilton","Fredericton","Laval","Surrey","Yellowknife","Whitehorse","Iqaluit",
-			"London","Victoria","Chilliwack","Markham","Windsor","Vaughan","Gatineau","Longueuil","St. John's","Burnaby",
-			"Kitchener","Richmond"
-		],
-		"spyNames": [
-			"Cousin","Felix","Dennis","Edward","Prof. Rex","Eliza","Mary","Virginia","Scarlett","Barbara"
-		]
-	},
-	{
-		"name": "Hungary",
-		"leaderName": "Matthias Corvinus",
-		"adjective": ["Hungarian"],
-		"startBias": [
-			"Avoid [Coast]",
-			"Hill",
-			"Plains"
-		],
-		"preferredVictoryType": "Diplomatic",
-		"personality": "Matthias Corvinus",
-    
-		"startIntroPart1": "Maganimous King Matthias Corvinus of Hungary, your shining legacy is everlasting. When you came to the Magyar throne, your nation was going through a tumultuous time, threatened as it was from all sides; seeing this with perfect clarity, you established a permanent professional army, and thus the fearsome mercenary Black Army was born: unusual in its size and comparison, it famously incorporated the use of muskets. But perhaps the pinnacle of your reign is the fact that you made Hungary the first country outside Italy to adopt the principles of the Renaissance: learned men from all countries, not just Italy itself, travelled to Hungary to talk about arts, and your legendary library was rivaled only by that of Venice.",
-		"startIntroPart2": "King Matthias the Just, God has called upon you to usher a new epoch of absolute greatness by calling upon your loyal people and lead them to glory? Can you rebuild your legendary library and at the same time let the Black Army serve as both a sword against your enemies and a shield protecting your nation? Can you build a civilization that will stand the test of time?",
-		"declaringWar": "I can't tolerate you anymore, hopefully you are at least a worthy opponent!",
-		"attacked": "It can not be true, but I feel it is. We will do our best to fend you off!",
-		"defeated": "I envisioned a different future. Have I not interpreted the stars correctly?",
-		"introduction": "As you approach, I wonder what the future has in store for both our nations. I must consult the stars.",
-    
-		"neutralHello": "Greetings.",
-		"neutralLetsHearIt": ["Yes.","Speak."],
-		"neutralNo": ["No.","That's unacceptable."],
-		"neutralYes": ["I can't refuse.","I gladly accept."],
-		"hateHello": "Don't waste my time!",
-		"hateLetsHearIt": "What's your offer?",
-		"hateNo": ["Hungary will never accept that!","No way!"],
-		"hateYes": ["I must accept.","I never reject a good offer."],
-    
-		"afterPeace": "Let's celebrate this glorious day, when our nations decided to sign a peace treaty!",
-		"tradeRequest": "I've got an offer. Are you interested?",
-
-		"outerColor": [51, 89, 46],
-		"innerColor": [212, 149, 65],
-    
-		"uniqueName": "Verszerzodes",
-		"uniques": [
-			"[+1 Production, +1 Culture] from every [Walls]",
-			"[+1 Production, +1 Culture] from every [Castle]",
-			"[+1 Production, +1 Culture] from every [Arsenal]",
-			"[+1 Production, +1 Culture] from every [Military Base]"
-		],
-		"cities": [
-			"Buda","Pest","Esztergom","Debrecen","Pecs","Eger","Miskolc","Gyor","Szekesfehervar","Szeged",
-			"Koszeg","Obuda","Kolozsvar","Diosgyor","Tatabanya","Kassa","Eperjes","Kisszeben","Eger","Mohacs","Tata",
-			"Szolnok","Sarvar","Zagrab","Temesvar","Nyiregyhaza","Kecskemet","Sopron"
-		],
-		"spyNames": [
-			"Francisco","Gaspar","Alvaro","Bento","Roberto","Afonso","Galeote","Diogo","Eliana","Oriana"
-		]
-	},
-	{
-		"name": "Ireland",
-		"leaderName": "Michael Collins",
-		"adjective": ["Irish"],
-		"startBias": [
-			"Avoid [Coast]",
-			"Hill"
-		],
-		"preferredVictoryType": "Diplomatic",
-		"personality": "Michael Collins",
-		
-		"startIntroPart1": "Few can boast your patriotism and commitment to the cause of a Free Ireland, Commander Collins. Though you came from the humblest of beginnings, you truly embodied the pride of Irishness. It was not long before you joined the struggle for Home Rule, and you began to build a reputation for yourself – one of dedication, devotion, and pride for Ireland. After the Easter Rising turned bloody, you managed to turn a beaten movement into a potent physical force, one that would successfully found an Irish nation, fight a war for liberation, and win independence. Some did not share your view, however, and soon this incomplete nation descended once more into war. And though you paid the ultimate cost in the subsequent civil war, you gave your life for a free state that was established soon after.",
-		"startIntroPart2": "Michael Collins, Ireland looks up to you again for guidance in a new time of hardship. Will you serve once more for your nation and your people? Will you overcome those that seek to shackle you? Can you build a civilization that will stand the test of time?",
-		"declaringWar": "I hope you have no hard feelings for me. This is a cruel world, after all...",
-		"attacked": "So once again it befalls onto me to fight for my people.",
-		"defeated": "I signed my own death warrant long ago. I thought at the time how odd, how ridiculous, a bullet might just as well have done the job 5 years ago...",
-		"introduction": "Welcome! I am Michael Collins, Chairman Of Provisional Government in Ireland. We could get along quite well if you're a friend of Ireland.",
-		"neutralHello": "Greetings.",
-		"hateHello": "What do you want?",
-		"tradeRequest": "This moment of peace must not be wasted between us, so let us make the most of it.",
-		"outerColor": [238,231,221],
-		"innerColor": [65,143,35],
-		"uniqueName": "August Destiny",
-		"uniques": [
-			"[+2 Happiness] from every [National Wonder]"
-		],
-		"cities": [
-			"Dublin","Cork","Galway","Wexford","Kilkenny","Tralee","Limerick","Castlebar","Lifford","Clonmel",
-			"Ennis","Roscommon","Cavan","Waterford","Nenagh","Sligo","Monaghan","Naas","Navan","Dundalk",
-			"Carrick-on-Shannon","Wicklow","Tullamore","Mullingar","Portlaoighise","Swords","Bray","Carlow","Armagh","Ballinna",
-			"Letterkenny","Athlone","Celbridge"
-		],
-		"spyNames": [
-			"Patrick","James","Thomas","Michael","William","Timothy","Dennis","Margaret","Bridget","Ann"
-		]
-	},
-	{
-		"name": "Khmer",
-		"leaderName": "Suryavarman II",
-		"adjective": ["Khmer"],
-		"startBias": [
-			"Avoid [Coast]"
-		],
-		"preferredVictoryType": "Scientific",
-		"personality": "Suryavarman II",
-
-		"startIntroPart1": "Great Suryavarman, Emperor of the Khmer, the one who has entered the heavenly world of Vishnu, we kneel blinded by your glory! You reunited a divided empire and made it stronger than ever before, expanding its borders to the west and north and reaching the present-day peninsular Malaysia. Merciless to enemies, kind to friends, you established good relations with China, creating new important trade routes. You innovated the arts and architecture of the empire, and even gave the order to build the legendary Angkor Wat, the largest temple in the known world! In the end, your empire collapsed below its own greatness long before the Europeans managed to create their \"civilizations\", and yet history remembers you as a warrior, diplomat, artist and religious man.",
-		"startIntroPart2": "Mighty King, your people need you once more, for only you are capable to lead them to even greater glory and fame, bringing back the glory of Angkor! Will you smite your insolent enemies and at the same time enrich the already magnificent temples in your empire? Can you build a civilization that will stand the test of time?",
-		"declaringWar": "I usually seek council to my sages, but this time it is arms that I must express myself.",
-		"attacked": "May Vishny's wrath engulf you into ruin and despair!",
-		"defeated": "What do you mean it's the end? My workd it's yet to be finished! Let me build... just... one... more... temple...",
-		"introduction": "You look upon the King of Angkor, Emperor of Khmer, rightful Ruler of the World and Master of the Universe! We've just met, but I can already tell you're quite an interesting individual.",
-		"neutralHello": "Welcome.",
-		"hateHello": "What do you want?",
-		"tradeRequest": "Heaven smiles upon you - as do the Khmer. Isn't it great deal?",
-		"outerColor": [182, 101, 191],
-		"innerColor": [0, 0, 178],
-		"uniqueName": "Grand Baray of Angkor",
-		"uniques": [
-			"[+3 Science] per [3] population [in capital] <after discovering [Drama and Poetry]>",
-			"Gain a free [Angkor Wat] [in capital]",
-			"Gain a free [Baray] [in capital]"
-		],
-		"cities": [
-			"Yasodharapura","Hariharalaya","Mahendraparvata","Indrapura","Vimayapura","Rajavihara","Isvarapura","Lingapura","Nagara Jayasri","Vyadhapura",
-			"Dviradapura","Amarendrapura","Lavodayapura","Shrestapura","Aninditapura","Isanapura","Banteay Kdei","Chaturmukha","Phetchaburi","Preah Vihear",
-			"Kompong Svay","Chaiya","Beng Melea","Muang Tam"
-		],
-		"spyNames": [
-			"Aran","Chanarong","Kiet","Niran","Virote","Kulap","Mayuree","Phueng","Ratana","Tola"
-		]
-	},
-	{
-		"name": "Kongo",
-		"leaderName": "Nzinga Mbande",
-		"adjective": ["Kongo"],
-		"startBias": [
-			"Avoid [Coast]",
-			"Jungle"
-		],
-		"preferredVictoryType": "Cultural",
-		"personality": "Nzinga Mbande",
-
-		"startIntroPart1": "Hail to you, brave Nzinga Mbande, Queen of the Ndongo and Matamba, whose beauty is matched only by your cunning. Your Kingdom is part of the great Kingdom of Kongo, situated at the mouth of the mighty Congo River in west-central Africa. You defied tradition by claiming two thrones and are remembered for standing bravely against the onslaught of European imperialism. When the Portuguese invaded your lands, you escaped death and shrewdly manipulated the Dutch into sending you aid. Together you turned back the army of the Portuguese at the Battle of Kombi. Yet, ever faced with threats both inside and out, the never-ending war took its tool, and in the end not even your bravery could stop the march of foreign crowns.",
-		"startIntroPart2": "Mighty Queen of Kongo, your people has been chained and sold into slavery. Yet, your old alliances stand firm and await your call. It is time to return, to instill your strenght and spirit and lead your people to battle once more. Can you restore your war-torn land? Can you build a civilization that will stand the test of time?",
-		"declaringWar": "Me and my warriors come to set your lands and your flags on fire!",
-		"attacked": "Go ahead, send your soldiers! We will melt into the trees and strike at you from the stones.",
-		"defeated": "Your swords cleave only flesh. Your chains bind only hands. Our soul remains ours.",
-		"introduction": "I am Nzinga, Muchino a Muhato of the Ndongo and Matamba. Please sit anywhere, and do not look down upon me and dismiss me as a woman: I am the equal of any King, both in governance and in battle.",
-		"neutralHello": "Greetings.",
-		"hateHello": "What do you want?",
-		"tradeRequest": "Let us exchange ideas, gold, and good... just not land." ,
-		"outerColor": [255,227,151],
-		"innerColor": [96,11,99],
-		"uniqueName": "Heart of Africa",
-		"uniques": [
-			"[+3 Culture] from [Jungle] tiles [in all cities]"
-		],
-		"cities": [
-			"M'banza-Kongo","M'banza-Ngungu","M'banza-Nsundi","M'banza-Mbata","M'banza-Bakwanga","M'banza-Mpangu","M'banza-Wembo","M'banza-Lovata","M'banza-Mbumbi","M'banza-Mbamba",
-			"M'banza-Mbwila","M'banza-Mpinda","M'banza-Mpemda","M'banza-Kwila","M'banza-Soyo","M'banza-Kwango","M'banza-Bakavu","M'banza-Sanga","M'banza-Katango","M'banza-Nkunga",
-			"M'banza-Nkondo","M'banza-Ndongo","M'banza-Lembabula","M'banza-Kibangu","M'banza-Manga","M'banza-Mulumbi","M'banza-Mbandaka","M'banza-Kindu","M'banza-Makuta","M'banza-Zombo",
-			"M'banza-Matadi","M'banza-Lubumbashi","M'banza-Kalemie","M'banza-Kikwit","M'banza-Popokabaka","M'banza-Kinshasa","M'banza-Loango"
-		],
-		"spyNames": [
-			"Gumede","Jama","Mageba","Malanda","Mnguni","Ndaba","Phunga","Senzangakhona","Balungile","Samkelisiwe"
-		]
-	},
-	{
-		"name": "Manchuria", 
-		"leaderName": "Nurhaci",
-		"adjective": ["Manchurian"],
-		"startBias": [
-			"Avoid [Coast]"
-		],
-		"preferredVictoryType": "Domination",
-
-		"startIntroPart1": "The Eight Banners bow down before you, oh great Nurhaci, Brilliant Khan Who Benefits All Nations, unifier of the Manchu peoples! Under your rule, a collection of scattered Jurchen tribes were unified into a great empire! Your reign was a period of great victory and progress for the Manchu people, consisting of constantly successful campaigns against the Ming, the Koreans, the Mongols and other Jurchen tribes. Truly, no empire in East Asia could withstand the might of the Manchu! Your reign is notable for more than sheer conquest, however, with great and important leaps in Manchu culture, such as the funding of the Eight Banners and the creation of a Manchu Alphabet. And your successors would build off your great achievements, conquering the entirety of China and founding one of the greatest dynasties of all time!",
-		"startIntroPart2": "Oh, bold and noble Khan and Chieftain, the empire your actions shaped has fallen, and the Manchu have been reduced to a mere minority group in another nation’s empire. But your people call your name unto the heavens, desperate for your strong and wise leadership to lead them to glory once more! Will you ride with your Bannermen to the field of battle once more? Will you build a civilization to stand the test of time?",
-		"declaringWar": "Prepare for war!",
-		"attacked": "You shall regret this!",
-		"defeated": "You have bested me, warrior. I have no choice but to submit. Which banner shall I be allocated to? What do you mean, 'we don't sort our troops by banner'?!", 
-		"introduction": "You stand before Nurhaci, Brilliant Khan Who Benefits All Nations. Will you be a worthwhile ally or mere fodder for my armies?",
-		"neutralHello": "Greetings.",
-		"hateHello": "What do you want?",
-		"tradeRequest": "Better hurry, I may change my mind.",
-		"outerColor": [254,204,32],
-		"innerColor": [0,55,106],
-		"uniqueName": "Eight Banners",
-		"uniques": [
-			"[+100]% Production when constructing [Stable] buildings [in all cities]",
-			"[-100]% maintenance costs <for [Mounted] units>"
-		],
-		"cities": [
-			"Mukden","Hetu Ala","Yenden","Xingjing","Fushun","Qinghe","Sarhu","Girin Ula","Qiaonan","Tieling",
-			"Ningdota","Siping","Anshan","Lushun","Liaoyuan","Gulian","Yanxi","Fengtian","Harbin","Qiqihar",
-			"Suiha","Daqing","Jiamusi","Yichun","Jixi","Jilin","Songyuan","Baicheng","Yanbian","Nanling"
-		],
-		"spyNames": [
-			"Li","Chen","Zhang","Liu","Yang","Huang","Zhao","Wu","Zhou","Sun"
-		]
-	},
-	{
-        "name": "Poland",
-        "leaderName": "Casimir III",
-        "adjective": ["Polish"],
-        "startBias": [
-			"Avoid [Coast]",
-			"Plains"
-		],
-        "preferredVictoryType": "Domination",
-        "personality": "Casimir III",
-
-        "startIntroPart1": "All hail noble King Casimir the Great, protector and sovereign of the Kingdom of Poland. You ascended to the throne during a time of great turmoil, with the nation's economy in shambles and its people demoralized by the wars of your predecessor. And yet, your reign marked the beginning of a new era, with affluence and security afforded only by way of your careful governance. Among your most notable achievements, the code of laws you established gave legal authority to many of the accepted customs of the time, strengthening the nation.",
-        "startIntroPart2": "Honored king Casimir, the people have long admired the steady hand of governance you wield. Can you return your kingdom and its subjects to a golden age of prosperity? Will you conquer all those who oppose you, or strive for peaceful relations? Can you build a civilization that will stand the test of time?",
-        "declaringWar": "I have decided to end you!",
-        "attacked": "My armies will grind you to dust!",
-        "defeated": "Celebrate your victory well...it might be your last one.",
-        "introduction": "I, Casimir the Great, welcome you to the lands of the Great Kingdom of Poland.",
-        "neutralHello": "I salute you.",
-        "hateHello": "What are you looking for here?",
-        "tradeRequest": "How do you like my offer?",
-        "outerColor": [241,3,0],
-        "innerColor": [80,11,14],
-        "uniqueName": "Solidarity",
-        "uniques": [
-			"Free Social Policy <upon entering a Golden Age>",
-			"[-10]% Culture cost of adopting new Policies",
-			"Provides [2] [Horses]"
-		],
-        "cities": [
-            "Warsaw","Krakow","Lodz","Wroclaw","Poznan","Gdansk","Szczecin","Bydgoszcz","Lublin","Kaunas",
-            "Katowice","Bialystok","Gdynia","Schweidnitz","Czestochowa","Radom","Torun","Kielce","Gliwice","Klaipeda",
-            "Bytom","Olsztyn","Rzeszow","Bielsko-Biala","Ruda Slaska","Rybnik","Plock","Elblag","Gorzow Wielkopolski","Opole",
-            "Siauliai","Walbrzych","Zielona Gora","Wloclawek"
-        ],
-        "spyNames": [
-            "Wincenty","Roman","Benita","Jan","Kazimierz","Josef","Krystyna Skarbek","Tarnowski","Marian","Alenka"
-        ]
-    },
-    {
-        "name": "Portugal",
-        "leaderName": "Maria I",
-        "adjective": ["Portuguese"],
-        "startBias": [
-			"Coast"
-		],
-        "preferredVictoryType": "Diplomatic",
-        "personality": "Maria I",
-
-        "startIntroPart1": "Blessings be upon you, most gracious Queen Maria, protector and sovereign of the Portuguese people. As the first ever Queen regnant of Portugal, it was your wise stewardship that protected the royal court from the incursions of Napoleon, establishing a safe haven in Brazil to preserve the integrity of Portuguese rule. Despite struggling with illness throughout your reign, your effort to ensure Portugal's close cooperation with Brazil are credited with helping that state gain its eventual independence - and for this you will always be admired and respected by the people of both nations.",
-        "startIntroPart2": "Oh noble and pious queen, will you once again guide the kingdom of Portugal in the spirit of cooperation and prosperity? Will you establish a new legacy, one that will surpass all those who come before you? Can you build a civilization that will stand the test of time?",
-        "declaringWar": "I'm afraid I cannot allow your kingdom to exist for much longer! I hope you won't mind...",
-        "attacked": "You cannot be serious!",
-        "defeated": "I know little about this conflict...I'll have to consult my regent...",
-        "introduction": "I am Maria, Queen of Portugal! Have we met before? You look familiar to me... Or maybe not.",
-        "neutralHello": "Good morning.",
-        "hateHello": "Why did you come?",
-        "tradeRequest": "Will you consider this offer?",
-        "outerColor": [206,206,205],
-        "innerColor": [8,25,115],
-        "uniqueName": "Mare Clausum",
-        "uniques": [
-            "[+3 Gold] from every [Luxury resource]",
-			"[+400]% Gold from Great Merchant trade missions"
-        ],
-        "cities": [
-            "Lisbon","Porto","Braga","Coimbra","Funchal","Leiria","Goa","Vila Nova de Gaia","Aveiro","Luanda",
-            "Evora","Faro","Castelo Branco","Bissau","Guarda","Viseu","Praia","Braganza","Beja","Tomar",
-            "Maputo","Tavira","Figueira da Foz","Viana do Castelo","Sao Tome and Principe","Silves","Sintra","Dili","Lamego",
-            "Ponta Delgada"
-        ],
-        "spyNames": [
-            "Francisco","Gaspar","Alvaro","Bento","Roberto","Afonso","Galeote","Diogo","Eliana","Oriana"
-        ]
-    },
-    {
-        "name": "Scotland",
-        "leaderName": "Robert the Bruce",
-        "adjective": ["Scottish"],
-        "startBias": [
-			"Avoid [Coast]",
-			"Hill"
-		],
-        "preferredVictoryType": "Cultural",
-        "personality": "Robert the Bruce",
-
-        "startIntroPart1": "King Robert I, legendary monarch and enlightened ruler of Scotland, your realm awaits your command. A bastion of freedom, your nation resisted outside rule for nearly a millennium; bravely fighting off invasion after invasion by even the greatest of empires. Through your cunning and ambition, you succeeded in claiming the throne of Scotland from the very foreigners so despised in your land, who ascended through a series of events only God could foresee. With the throne thus claimed and popular support on your side, you defeated the army of Edward I, the English monarch whom you had previously driven from your lands, and one of the greatest threats your nation had ever faced. It was your actions which established a tenuous peace between your warring Kingdoms, fostering a common history which culminated in the union of the two kingdoms under a Scottish monarch in the year 1707. Yet your legacy is one of ensuring the protection of the culture and freedom of the Scottish people, for which you shall forever be remembered.",
-        "startIntroPart2": "Robert the Bruce, general and king, Scotland once more has enemies encroaching on her land. The Scottish people are in need of a great general once more, to send homeward those who would threaten the sovereignty of their Kingdom. Will you fend off all foes that may threaten your nation? Will you ensure that Scotland is the land of the brave and free? Can you build a civilization that will stand the test of time?",
-        "declaringWar": "War lingers in our hearts. Why carry on with a false peace? ",
-        "attacked": "You gormless radger! You'll dine on your own teeth before you set foot in Scotland! ",
-        "defeated": "You may take our lands, but you may never take our freedom. We will return.",
-        "introduction": "Welcome to the domain of free men. Be warned that we will fight dearly for our lives if it comes to that.",
-        "neutralHello": "Greetings.",
-        "hateHello": "I'd brain you with an axe, but I'm afraid your thick pate'd shatter it! ",
-        "tradeRequest": "Scotland would rather have true words from you than fair gifts, but we can make a deal.",
-        "outerColor": [5,60,77],
-        "innerColor": [201,214,217],
-        "uniqueName": "Last of the Free",
-        "uniques": [
-            "[+4 Culture] from [Hill] tiles without [Improvement] [in all cities]",
-			"Gain a free [Stonehenge] [in capital]"
-        ],
-        "cities": [
-            "Edinburgh","Glasgow","Stirling","Aberdeen","Dundee","Inverness","Perth","Dunfermline","Kilmarnock","Dumfries",
-            "Lanark","Dumbarton","Falkirk","Arbroath","Linlithgow","Kirkcaldy","Forfar","Saint Andrews","Tain","Lerwick",
-            "Ayr","Wick","Thurso","Stranraer","Portree","Melrose","Berwick","Oban","Ullapool","Aviemore",
-            "Gallowglass"
-        ],
-        "spyNames": [
-            "Robert","William","Angus","Ewan","Alastair","Ian","Wallace","Fiona","Ilsa","Nessie"
-        ]
-    },
-    {
-        "name": "Shoshone",
-        "leaderName": "Pocatello",
-        "adjective": ["Shoshone"],
-        "startBias": [
-			"Avoid [Coast]",
-			"Forest"
-		],
-        "preferredVictoryType": "Diplomatic",
-        "personality": "Pocatello",
-
-        "startIntroPart1": "Blessings be upon you, wise and fearsome Chief Pocatello, revered leader of the Shoshone people. As the young chieftain of the Shoshone, you rose to face a wave of encroaching American settlements across the western United States. Forced to defend the Shoshone ancestral lands from a seemingly endless stream of new emigrants, your war band struck fear into those who would claim the sacred lands of your people. After years of strife, you skillfully avoided a direct conflict with the armies of the U.S. government, and negotiated a series of treaties in the hopes of establishing a lasting peace for the Shoshone.",
-        "startIntroPart2": "Most esteemed Pocatello, your people once again look to you for guidance. Will you conquer your enemies, driving them far from your lands? Or will you seek out peaceful diplomacy and trade? Will you build a civilization that stands the test of time?",
-        "declaringWar": "Shoshone!, We will kill the white man!",
-        "attacked": "I must make the foreigner go away!",
-        "defeated": "This will not be the end of my people, I assure you.",
-        "introduction": "I am Chief Pocatello. You have arrived in the thick of Shoshone land.",
-        "neutralHello": "Our time has arrived!",
-        "hateHello": "What do you want?",
-        "tradeRequest": "Would you listen to my proposal?",
-        "outerColor": [65,54,42],
-        "innerColor": [78,244,234],
-        "uniqueName": "Great Expanse",
-        "uniques": [
-			"[+15]% Strength <for [Military] units> <in [Friendly Land] tiles>",
-			"Gain control over [All] tiles in a [4]-tile radius <upon founding a city> <in this city>"
-		],
-        "cities": [
-            "Moson Kahni","Te-Moak","Agaidika","Goshute","Pohokwi","Washakie","Timbisha","Hukandeka","Duckwater","Tukudeka",
-            "Kuchundeka","Yomba","Kamudeka","Ely","Yambadeka","Nampa","Bannock","Yahandeka","Tetadeka","Deheyaeka",
-            "Pengwideka","Winnemucca","Skull Valley","Big Pine","Duck Valley"
-        ], 
-        "spyNames": [
-            "Cameahwait","Ondongarte","Queenah","Pugweenee","Sacajawea","Sagwitch","Sanpitch","Tuziyammo","Mugwayan"
-        ]
-    },
-    {
-        "name": "Sumeria",
-        "leaderName": "Gilgamesh",
-        "adjective": ["Sumer"],
-        "startBias": [
-			"Avoid [Coast]"
-		],
-        "preferredVictoryType": "Scientific",
-        "personality": "Gilgamesh",
-
-        "startIntroPart1": "The neverending glory be upon you. King Gilgamesh, most legendary and mystical ruler of Sumeria! Oh mighty king, whose hands built the city-walls of Uruk and eyes saw the sage Utnapishtim! You are the leader of the Sumer, the first and the only civilization that was truely original and innovative. Sumer's history stretches back into time when the Gods were walking alongside the mere mortals. Sumer, the cradle of civilization, made a great progress in our history, gave the world most beatiful things - literature, architecture and music - and developed professional army, immortalizing the very first battle in the stele. Sumer's contributions to the civlization of man are uncountable.",
-        "startIntroPart2": "Divine King, who, with strength and wisdom, built the glory of the ancient Sumer and became the very first hero of the history - people seek for your guidance! The wealth of Euphrates, Tigris and the whole Fertile Crescent cannot be wasted in the hands of barbarians. Can you once more bring glory and light to the humankind? Can you build a civilization to stand the test of time?",
-        "declaringWar": "Why do I fight? Because I can... because Inanna demands it. Now you will know the power of Sumer! ",
-        "attacked": "I will enjoy hearing your last breath when you witness the destruction of your people. ",
-        "defeated":  "The time has come. Mere mortals challenged the Gods and overthrew them, destroying the old world and proudly awaiting the new one.",
-        "introduction": "I am Gilgamesh of Sumeria and King of Uruk. Do not be afraid… I am good to my friends. ",
-        "neutralHello": "Welcome",
-        "hateHello": "Hah! Gilgamesh is stronger than your false words. ",
-        "tradeRequest": "All the world knows of my generosity to my friends. ",
-        "outerColor": [15,70,109],
-        "innerColor": [229,118,95],
-        "uniqueName": "Cradle of Civilization",
-        "uniques": [
-			"[+3 Culture] [in all cities] <after discovering [Drama and Poetry]>",
-			"[+6 Science] [in all cities] <after discovering [Drama and Poetry]>"
-		],
-        "cities": [
-            "Ur","Kish","Uruk","Eridu","Umma","Lagash","Akshak","Larak","Bad-Tibira","Larsa",
-            "Isin","Shruppak","Nibru","Zimbir","Girsu","Zabalam","Kisiga","Adab","Jemdet Nasr","Nina",
-            "Dilbat","Kutu","Marad","Enegi","Abu Salabikh","Ki-an","Pazurish-Dagan","Dabrum","Kissura","Kutallu",
-            "Nagsu","Kesh","Aratta","Der","Urukag","Hamazi","Apisada","Ubaid"
-        ],
-        "spyNames": [
-            "Azi","Dabir","Firuz","Gaspar","Shahzad","Aga","Marjane","Peri","Sartaj","Yasmin"
-        ]
-    },
-    {
         "name": "Vietnam",
         "leaderName": "Le Loi",
         "adjective": ["Vietnamese"],
