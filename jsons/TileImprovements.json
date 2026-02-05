@@ -712,12 +712,12 @@
 		"terrainsCanBeBuiltOn": [
 			"Land"
 		],
-		"culture": 3,
+		"culture": 2,
 		"happiness": 1,
 		"turnsToBuild": 4,
 		"uniques": [
 			"Can only be built on [Coastal] tiles",
-			"[+3 Culture, +1 Gold] for each adjacent [Moai]",
+			"[+3 Culture, +2 Gold] for each adjacent [Moai]",
 			"[+1 Gold] <after discovering [Flight]>",
 			"[+1 Food, +1 Culture, +1 Gold] <within [1] tiles of a [Water Tower]>",
 			"[+1 Food, +1 Culture, +1 Gold] <within [1] tiles of a [Water Tower]> <after adopting [Safety Checks]>",
