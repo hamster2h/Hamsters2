@@ -88,7 +88,7 @@
                 "name": "Republic",
                 "uniques": [
 					"Each city founded increases culture cost of policies [33]% less than normal",
-                    "[+5]% Production when constructing [All] buildings [in all cities]",
+					"Free [Settler] appears"
                 ],
                 "row": 1,
                 "column": 1
@@ -106,8 +106,8 @@
             {
                 "name": "Collective Rule",
                 "uniques": [
-                    "[+50]% Production when constructing [Settler] units [in all cities]",
-                    "Free [Settler] appears"
+                    "[+100]% Production when constructing [Settler] units [in all cities]",
+                    "[+5]% Production when constructing [All] buildings [in all cities]"
                 ],
                 "requires": ["Republic"],
                 "row": 2,
