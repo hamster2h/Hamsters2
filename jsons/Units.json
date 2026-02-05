@@ -1502,6 +1502,7 @@
 		"unitType": "Melee Water",
 		"movement": 5,
 		"strength": 25,
+		"rangedStrength": 25,
 		"cost": 150,
 		"requiredTech": "Navigation",
 		"upgradesTo": "Destroyer",
