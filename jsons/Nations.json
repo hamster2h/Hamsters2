@@ -970,158 +970,6 @@
 		]
 	},
 	{
-		"name": "Japan",
-		"leaderName": "Oda Nobunaga",
-		"adjective": ["Japanese"],
-		"startBias": [
-			"Coast"
-		],
-		"preferredVictoryType": "Domination",
-		"personality": "Oda Nobunaga",
-
-        "startIntroPart1": "Lord Oda Nobunaga, ruler of Japan, the land of the Rising Sun is at your command! Through history, Japanese people lived and died with honor, proud of their rich culture of arts and letters. Years of bloody civil wars, invasions of foreign powers, wealth but also great poverty, have never altered the strong will of the Rising Sun island, as the Bushido spirit has imbued the fields of battle and the Japanese society for millenia. At the end of the 19th century, under foreign influence, your people took the path of modernity, and in a few decades, made of Japan a land of technological innovation and powerful industry, with which only few nations can compete.",
-        "startIntroPart2": "O great daimyo, will you take on your hands the Japan destiny, for the Rising Sun to light the world? Will your new empire shine through the ages of history?",
-
-        "declaringWar": "I hereby inform you of our intention to wipe out your civilization from this world.",
-		"attacked": "Pitiful fool! Now we shall destroy you!",
-		"defeated": "You were much wiser than I thought.",
-		"denounced": "Alright then. I trust you've thought it through.",
-		"introduction": "We hope for a fair and just relationship with you, who are renowned for military bravery.",
-		"neutralHello": "Hello.",
-		"hateHello": "Oh, it's you...",
-		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
-		"outerColor": [255, 255, 255],
-		"innerColor": [184, 0, 0],
-		"favoredReligion": "Shinto",
-		"uniqueName": "Bushido",
-		"uniques": [
-			"No damage penalty for wounded units <for [non-[Air]] units>",
-			"[+10]% [Production] [in all cities] <after discovering [Steam Power]>",
-			"[+1 Food] from [Coast] tiles [in all cities]",
-			"[+1 Food] from [Ocean] tiles [in all cities]"
-		],
-		"cities": [
-			"Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama",
-			"Shimonoseki","Matsuyama","Sapporo","Hakodate","Ise","Toyama","Fukushima","Suo","Bizen","Echizen",
-			"Izumi","Omi","Echigo","Kozuke","Sado","Kobe","Nagano","Hiroshima","Takayama","Akita","Fukuoka","Aomori",
-			"Kamakura","Kochi","Naha","Sendai","Gifu","Yamaguchi","Ota","Tottori"
-		],
-        "spyNames": ["Akaishi", "Oki", "Hattori", "Morozumi", "Momochi", "Kawashima", "Orin", "Sakanishi", "Kaede", "Mochizuki"]
-    },
-	{
-		"name": "Khmer",
-		"leaderName": "Suryavarman II",
-		"adjective": ["Khmer"],
-		"startBias": [
-			"Avoid [Coast]"
-		],
-		"preferredVictoryType": "Scientific",
-		"personality": "Suryavarman II",
-
-		"startIntroPart1": "Great Suryavarman, Emperor of the Khmer, the one who has entered the heavenly world of Vishnu, we kneel blinded by your glory! You reunited a divided empire and made it stronger than ever before, expanding its borders to the west and north and reaching the present-day peninsular Malaysia. Merciless to enemies, kind to friends, you established good relations with China, creating new important trade routes. You innovated the arts and architecture of the empire, and even gave the order to build the legendary Angkor Wat, the largest temple in the known world! In the end, your empire collapsed below its own greatness long before the Europeans managed to create their \"civilizations\", and yet history remembers you as a warrior, diplomat, artist and religious man.",
-		"startIntroPart2": "Mighty King, your people need you once more, for only you are capable to lead them to even greater glory and fame, bringing back the glory of Angkor! Will you smite your insolent enemies and at the same time enrich the already magnificent temples in your empire? Can you build a civilization that will stand the test of time?",
-		"declaringWar": "I usually seek council to my sages, but this time it is arms that I must express myself.",
-		"attacked": "May Vishny's wrath engulf you into ruin and despair!",
-		"defeated": "What do you mean it's the end? My workd it's yet to be finished! Let me build... just... one... more... temple...",
-		"introduction": "You look upon the King of Angkor, Emperor of Khmer, rightful Ruler of the World and Master of the Universe! We've just met, but I can already tell you're quite an interesting individual.",
-		"neutralHello": "Welcome.",
-		"hateHello": "What do you want?",
-		"tradeRequest": "Heaven smiles upon you - as do the Khmer. Isn't it great deal?",
-		"outerColor": [182, 101, 191],
-		"innerColor": [0, 0, 178],
-		"uniqueName": "Grand Baray of Angkor",
-		"uniques": [
-			"[+3 Science] per [3] population [in capital] <after discovering [Drama and Poetry]>",
-			"Gain a free [Angkor Wat] [in capital]",
-			"Gain a free [Baray] [in capital]"
-		],
-		"cities": [
-			"Yasodharapura","Hariharalaya","Mahendraparvata","Indrapura","Vimayapura","Rajavihara","Isvarapura","Lingapura","Nagara Jayasri","Vyadhapura",
-			"Dviradapura","Amarendrapura","Lavodayapura","Shrestapura","Aninditapura","Isanapura","Banteay Kdei","Chaturmukha","Phetchaburi","Preah Vihear",
-			"Kompong Svay","Chaiya","Beng Melea","Muang Tam"
-		],
-		"spyNames": [
-			"Aran","Chanarong","Kiet","Niran","Virote","Kulap","Mayuree","Phueng","Ratana","Tola"
-		]
-	},
-	{
-		"name": "Kongo",
-		"leaderName": "Nzinga Mbande",
-		"adjective": ["Kongo"],
-		"startBias": [
-			"Avoid [Coast]",
-			"Jungle"
-		],
-		"preferredVictoryType": "Cultural",
-		"personality": "Nzinga Mbande",
-
-		"startIntroPart1": "Hail to you, brave Nzinga Mbande, Queen of the Ndongo and Matamba, whose beauty is matched only by your cunning. Your Kingdom is part of the great Kingdom of Kongo, situated at the mouth of the mighty Congo River in west-central Africa. You defied tradition by claiming two thrones and are remembered for standing bravely against the onslaught of European imperialism. When the Portuguese invaded your lands, you escaped death and shrewdly manipulated the Dutch into sending you aid. Together you turned back the army of the Portuguese at the Battle of Kombi. Yet, ever faced with threats both inside and out, the never-ending war took its tool, and in the end not even your bravery could stop the march of foreign crowns.",
-		"startIntroPart2": "Mighty Queen of Kongo, your people has been chained and sold into slavery. Yet, your old alliances stand firm and await your call. It is time to return, to instill your strenght and spirit and lead your people to battle once more. Can you restore your war-torn land? Can you build a civilization that will stand the test of time?",
-		"declaringWar": "Me and my warriors come to set your lands and your flags on fire!",
-		"attacked": "Go ahead, send your soldiers! We will melt into the trees and strike at you from the stones.",
-		"defeated": "Your swords cleave only flesh. Your chains bind only hands. Our soul remains ours.",
-		"introduction": "I am Nzinga, Muchino a Muhato of the Ndongo and Matamba. Please sit anywhere, and do not look down upon me and dismiss me as a woman: I am the equal of any King, both in governance and in battle.",
-		"neutralHello": "Greetings.",
-		"hateHello": "What do you want?",
-		"tradeRequest": "Let us exchange ideas, gold, and good... just not land." ,
-		"outerColor": [255,227,151],
-		"innerColor": [96,11,99],
-		"uniqueName": "Heart of Africa",
-		"uniques": [
-			"[+3 Culture] from [Jungle] tiles [in all cities]"
-		],
-		"cities": [
-			"M'banza-Kongo","M'banza-Ngungu","M'banza-Nsundi","M'banza-Mbata","M'banza-Bakwanga","M'banza-Mpangu","M'banza-Wembo","M'banza-Lovata","M'banza-Mbumbi","M'banza-Mbamba",
-			"M'banza-Mbwila","M'banza-Mpinda","M'banza-Mpemda","M'banza-Kwila","M'banza-Soyo","M'banza-Kwango","M'banza-Bakavu","M'banza-Sanga","M'banza-Katango","M'banza-Nkunga",
-			"M'banza-Nkondo","M'banza-Ndongo","M'banza-Lembabula","M'banza-Kibangu","M'banza-Manga","M'banza-Mulumbi","M'banza-Mbandaka","M'banza-Kindu","M'banza-Makuta","M'banza-Zombo",
-			"M'banza-Matadi","M'banza-Lubumbashi","M'banza-Kalemie","M'banza-Kikwit","M'banza-Popokabaka","M'banza-Kinshasa","M'banza-Loango"
-		],
-		"spyNames": [
-			"Gumede","Jama","Mageba","Malanda","Mnguni","Ndaba","Phunga","Senzangakhona","Balungile","Samkelisiwe"
-		]
-	},
-	{
-		"name": "Korea",
-		"leaderName": "Sejong",
-		"adjective": ["Korean"],
-		"startBias": [
-			"Coast"
-		],
-		"preferredVictoryType": "Scientific",
-		"personality": "Sejong",
-
-        "startIntroPart1": "Greetings to you, King Sejong the Great, heir of the Choson Dynasty! Prosperity and benevolence towards the common man are the principles of your reign, and made of you the most beloved Korean king. You always aimed to provide a fair and equal society for all your people, and also to favor knowledge and technological discoveries. Your wisdom and intelligence imbued all the Korean society, and the scholars of the Jade Hall developed Korea's first written language, Hangul, sharing further literature and science to the people after centuries of darkness.",
-        "startIntroPart2": "Wise Sejong, will you gift your people with the radiance of harmony and knowledge to dispel the darkness once again? Will your new empire shine through the ages of history?",
-
-        "declaringWar": "Jip-hyun-jun (Hall of Worthies) will no longer tolerate your irksome behavior. We will liberate the citizens under your oppression even with force, and enlighten them!",
-		"attacked": "Foolish, miserable wretch! You will be crushed by this country's magnificent scientific power!",
-		"defeated": "Now the question is who will protect my people. A dark age has come.",
-		"denounced": "Such unpleasant conduct is typical of Yangpyeong, not someone like you.",
-		"introduction": "Welcome to the palace of Choson, stranger. I am the learned King Sejong, who looks after his great people.",
-
-		"neutralHello": "Hello.",
-		"hateHello": "Oh, it's you",
-		"tradeRequest": "We have many things to discuss and have much to benefit from each other.",
-		"outerColor": [27,33,96],
-		"innerColor": [255,0,0],
-		"favoredReligion": "Confucianism",
-		"uniqueName": "Scholars of the Jade Hall",
-        "uniques": [
-			"[+2 Science] from every specialist [in all cities]",
-			"[+4 Science] from every [Great Improvement]",
-			"Receive a tech boost when scientific buildings/wonders are built in capital",
-			"Gain a free [Library] [in all cities]"
-		],
-		"cities": [
-			"Seoul","Busan","Jeonju","Daegu","Pyongyang","Kaesong","Suwon","Gwangju","Gangneung","Hamhung","Wonju","Ulsan",
-			"Changwon","Andong","Gongju","Haeju","Cheongju","Mokpo","Dongducheon","Geoje","Suncheon","Jinju","Sangju",
-			"Rason","Gyeongju","Chungju","Sacheon","Gimje","Anju"
-		],
-        "spyNames": [
-			"Kim", "Park", "Han", "Na", "Kong", "Yu", "Ahn", "Da", "Eun"
-		]
-    },
-	{
 		"name": "Inca",
 		"leaderName": "Pachacuti",
 		"adjective": ["Incan"],
@@ -1316,6 +1164,158 @@
 		],
         "spyNames": [
 			"Onatah", "Oneida", "Oshadagea", "Otetiani", "Genesee", "Dadgayadoh", "Otwtiani", "Kateri", "Onondakai", "Honanyawus"
+		]
+    },
+	{
+		"name": "Japan",
+		"leaderName": "Oda Nobunaga",
+		"adjective": ["Japanese"],
+		"startBias": [
+			"Coast"
+		],
+		"preferredVictoryType": "Domination",
+		"personality": "Oda Nobunaga",
+
+        "startIntroPart1": "Lord Oda Nobunaga, ruler of Japan, the land of the Rising Sun is at your command! Through history, Japanese people lived and died with honor, proud of their rich culture of arts and letters. Years of bloody civil wars, invasions of foreign powers, wealth but also great poverty, have never altered the strong will of the Rising Sun island, as the Bushido spirit has imbued the fields of battle and the Japanese society for millenia. At the end of the 19th century, under foreign influence, your people took the path of modernity, and in a few decades, made of Japan a land of technological innovation and powerful industry, with which only few nations can compete.",
+        "startIntroPart2": "O great daimyo, will you take on your hands the Japan destiny, for the Rising Sun to light the world? Will your new empire shine through the ages of history?",
+
+        "declaringWar": "I hereby inform you of our intention to wipe out your civilization from this world.",
+		"attacked": "Pitiful fool! Now we shall destroy you!",
+		"defeated": "You were much wiser than I thought.",
+		"denounced": "Alright then. I trust you've thought it through.",
+		"introduction": "We hope for a fair and just relationship with you, who are renowned for military bravery.",
+		"neutralHello": "Hello.",
+		"hateHello": "Oh, it's you...",
+		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
+		"outerColor": [255, 255, 255],
+		"innerColor": [184, 0, 0],
+		"favoredReligion": "Shinto",
+		"uniqueName": "Bushido",
+		"uniques": [
+			"No damage penalty for wounded units <for [non-[Air]] units>",
+			"[+10]% [Production] [in all cities] <after discovering [Steam Power]>",
+			"[+1 Food] from [Coast] tiles [in all cities]",
+			"[+1 Food] from [Ocean] tiles [in all cities]"
+		],
+		"cities": [
+			"Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama",
+			"Shimonoseki","Matsuyama","Sapporo","Hakodate","Ise","Toyama","Fukushima","Suo","Bizen","Echizen",
+			"Izumi","Omi","Echigo","Kozuke","Sado","Kobe","Nagano","Hiroshima","Takayama","Akita","Fukuoka","Aomori",
+			"Kamakura","Kochi","Naha","Sendai","Gifu","Yamaguchi","Ota","Tottori"
+		],
+        "spyNames": ["Akaishi", "Oki", "Hattori", "Morozumi", "Momochi", "Kawashima", "Orin", "Sakanishi", "Kaede", "Mochizuki"]
+    },
+	{
+		"name": "Khmer",
+		"leaderName": "Suryavarman II",
+		"adjective": ["Khmer"],
+		"startBias": [
+			"Avoid [Coast]"
+		],
+		"preferredVictoryType": "Scientific",
+		"personality": "Suryavarman II",
+
+		"startIntroPart1": "Great Suryavarman, Emperor of the Khmer, the one who has entered the heavenly world of Vishnu, we kneel blinded by your glory! You reunited a divided empire and made it stronger than ever before, expanding its borders to the west and north and reaching the present-day peninsular Malaysia. Merciless to enemies, kind to friends, you established good relations with China, creating new important trade routes. You innovated the arts and architecture of the empire, and even gave the order to build the legendary Angkor Wat, the largest temple in the known world! In the end, your empire collapsed below its own greatness long before the Europeans managed to create their \"civilizations\", and yet history remembers you as a warrior, diplomat, artist and religious man.",
+		"startIntroPart2": "Mighty King, your people need you once more, for only you are capable to lead them to even greater glory and fame, bringing back the glory of Angkor! Will you smite your insolent enemies and at the same time enrich the already magnificent temples in your empire? Can you build a civilization that will stand the test of time?",
+		"declaringWar": "I usually seek council to my sages, but this time it is arms that I must express myself.",
+		"attacked": "May Vishny's wrath engulf you into ruin and despair!",
+		"defeated": "What do you mean it's the end? My workd it's yet to be finished! Let me build... just... one... more... temple...",
+		"introduction": "You look upon the King of Angkor, Emperor of Khmer, rightful Ruler of the World and Master of the Universe! We've just met, but I can already tell you're quite an interesting individual.",
+		"neutralHello": "Welcome.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Heaven smiles upon you - as do the Khmer. Isn't it great deal?",
+		"outerColor": [182, 101, 191],
+		"innerColor": [0, 0, 178],
+		"uniqueName": "Grand Baray of Angkor",
+		"uniques": [
+			"[+3 Science] per [3] population [in capital] <after discovering [Drama and Poetry]>",
+			"Gain a free [Angkor Wat] [in capital]",
+			"Gain a free [Baray] [in capital]"
+		],
+		"cities": [
+			"Yasodharapura","Hariharalaya","Mahendraparvata","Indrapura","Vimayapura","Rajavihara","Isvarapura","Lingapura","Nagara Jayasri","Vyadhapura",
+			"Dviradapura","Amarendrapura","Lavodayapura","Shrestapura","Aninditapura","Isanapura","Banteay Kdei","Chaturmukha","Phetchaburi","Preah Vihear",
+			"Kompong Svay","Chaiya","Beng Melea","Muang Tam"
+		],
+		"spyNames": [
+			"Aran","Chanarong","Kiet","Niran","Virote","Kulap","Mayuree","Phueng","Ratana","Tola"
+		]
+	},
+	{
+		"name": "Kongo",
+		"leaderName": "Nzinga Mbande",
+		"adjective": ["Kongo"],
+		"startBias": [
+			"Avoid [Coast]",
+			"Jungle"
+		],
+		"preferredVictoryType": "Cultural",
+		"personality": "Nzinga Mbande",
+
+		"startIntroPart1": "Hail to you, brave Nzinga Mbande, Queen of the Ndongo and Matamba, whose beauty is matched only by your cunning. Your Kingdom is part of the great Kingdom of Kongo, situated at the mouth of the mighty Congo River in west-central Africa. You defied tradition by claiming two thrones and are remembered for standing bravely against the onslaught of European imperialism. When the Portuguese invaded your lands, you escaped death and shrewdly manipulated the Dutch into sending you aid. Together you turned back the army of the Portuguese at the Battle of Kombi. Yet, ever faced with threats both inside and out, the never-ending war took its tool, and in the end not even your bravery could stop the march of foreign crowns.",
+		"startIntroPart2": "Mighty Queen of Kongo, your people has been chained and sold into slavery. Yet, your old alliances stand firm and await your call. It is time to return, to instill your strenght and spirit and lead your people to battle once more. Can you restore your war-torn land? Can you build a civilization that will stand the test of time?",
+		"declaringWar": "Me and my warriors come to set your lands and your flags on fire!",
+		"attacked": "Go ahead, send your soldiers! We will melt into the trees and strike at you from the stones.",
+		"defeated": "Your swords cleave only flesh. Your chains bind only hands. Our soul remains ours.",
+		"introduction": "I am Nzinga, Muchino a Muhato of the Ndongo and Matamba. Please sit anywhere, and do not look down upon me and dismiss me as a woman: I am the equal of any King, both in governance and in battle.",
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Let us exchange ideas, gold, and good... just not land." ,
+		"outerColor": [255,227,151],
+		"innerColor": [96,11,99],
+		"uniqueName": "Heart of Africa",
+		"uniques": [
+			"[+3 Culture] from [Jungle] tiles [in all cities]"
+		],
+		"cities": [
+			"M'banza-Kongo","M'banza-Ngungu","M'banza-Nsundi","M'banza-Mbata","M'banza-Bakwanga","M'banza-Mpangu","M'banza-Wembo","M'banza-Lovata","M'banza-Mbumbi","M'banza-Mbamba",
+			"M'banza-Mbwila","M'banza-Mpinda","M'banza-Mpemda","M'banza-Kwila","M'banza-Soyo","M'banza-Kwango","M'banza-Bakavu","M'banza-Sanga","M'banza-Katango","M'banza-Nkunga",
+			"M'banza-Nkondo","M'banza-Ndongo","M'banza-Lembabula","M'banza-Kibangu","M'banza-Manga","M'banza-Mulumbi","M'banza-Mbandaka","M'banza-Kindu","M'banza-Makuta","M'banza-Zombo",
+			"M'banza-Matadi","M'banza-Lubumbashi","M'banza-Kalemie","M'banza-Kikwit","M'banza-Popokabaka","M'banza-Kinshasa","M'banza-Loango"
+		],
+		"spyNames": [
+			"Gumede","Jama","Mageba","Malanda","Mnguni","Ndaba","Phunga","Senzangakhona","Balungile","Samkelisiwe"
+		]
+	},
+	{
+		"name": "Korea",
+		"leaderName": "Sejong",
+		"adjective": ["Korean"],
+		"startBias": [
+			"Coast"
+		],
+		"preferredVictoryType": "Scientific",
+		"personality": "Sejong",
+
+        "startIntroPart1": "Greetings to you, King Sejong the Great, heir of the Choson Dynasty! Prosperity and benevolence towards the common man are the principles of your reign, and made of you the most beloved Korean king. You always aimed to provide a fair and equal society for all your people, and also to favor knowledge and technological discoveries. Your wisdom and intelligence imbued all the Korean society, and the scholars of the Jade Hall developed Korea's first written language, Hangul, sharing further literature and science to the people after centuries of darkness.",
+        "startIntroPart2": "Wise Sejong, will you gift your people with the radiance of harmony and knowledge to dispel the darkness once again? Will your new empire shine through the ages of history?",
+
+        "declaringWar": "Jip-hyun-jun (Hall of Worthies) will no longer tolerate your irksome behavior. We will liberate the citizens under your oppression even with force, and enlighten them!",
+		"attacked": "Foolish, miserable wretch! You will be crushed by this country's magnificent scientific power!",
+		"defeated": "Now the question is who will protect my people. A dark age has come.",
+		"denounced": "Such unpleasant conduct is typical of Yangpyeong, not someone like you.",
+		"introduction": "Welcome to the palace of Choson, stranger. I am the learned King Sejong, who looks after his great people.",
+
+		"neutralHello": "Hello.",
+		"hateHello": "Oh, it's you",
+		"tradeRequest": "We have many things to discuss and have much to benefit from each other.",
+		"outerColor": [27,33,96],
+		"innerColor": [255,0,0],
+		"favoredReligion": "Confucianism",
+		"uniqueName": "Scholars of the Jade Hall",
+        "uniques": [
+			"[+2 Science] from every specialist [in all cities]",
+			"[+4 Science] from every [Great Improvement]",
+			"Receive a tech boost when scientific buildings/wonders are built in capital",
+			"Gain a free [Library] [in all cities]"
+		],
+		"cities": [
+			"Seoul","Busan","Jeonju","Daegu","Pyongyang","Kaesong","Suwon","Gwangju","Gangneung","Hamhung","Wonju","Ulsan",
+			"Changwon","Andong","Gongju","Haeju","Cheongju","Mokpo","Dongducheon","Geoje","Suncheon","Jinju","Sangju",
+			"Rason","Gyeongju","Chungju","Sacheon","Gimje","Anju"
+		],
+        "spyNames": [
+			"Kim", "Park", "Han", "Na", "Kong", "Yu", "Ahn", "Da", "Eun"
 		]
     },
 	{
