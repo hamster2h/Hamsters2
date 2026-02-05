@@ -95,7 +95,7 @@
 	{
 		"name": "Prince",
 		"baseHappiness": 9,
-		"extraHappinessPerLuxury": 0,
+		"extraHappinessPerLuxury": -1,
 		"researchCostModifier": 1,
 		"unitCostModifier": 1,
 		"unitSupplyBase": 4,
@@ -126,7 +126,7 @@
 	{
 		"name": "King",
 		"baseHappiness": 9,
-		"extraHappinessPerLuxury": 0,
+		"extraHappinessPerLuxury": -1,
 		"researchCostModifier": 1,
 		"unitCostModifier": 1,
 		"unitSupplyBase": 4,
@@ -157,7 +157,7 @@
 	{
 		"name": "Emperor",
 		"baseHappiness": 9,
-		"extraHappinessPerLuxury": 0,
+		"extraHappinessPerLuxury": -1,
 		"researchCostModifier": 1,
 		"unitCostModifier": 1,
 		"unitSupplyBase": 4,
@@ -188,7 +188,7 @@
 	{
 		"name": "Immortal",
 		"baseHappiness": 9,
-		"extraHappinessPerLuxury": 0,
+		"extraHappinessPerLuxury": -1,
 		"researchCostModifier": 1,
 		"unitCostModifier": 1,
 		"unitSupplyBase": 4,
@@ -219,7 +219,7 @@
 	{
 		"name": "Deity",
 		"baseHappiness": 9,
-		"extraHappinessPerLuxury": 0,
+		"extraHappinessPerLuxury": -1,
 		"researchCostModifier": 1,
 		"unitCostModifier": 1,
 		"unitSupplyBase": 4,
