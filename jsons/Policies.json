@@ -919,7 +919,7 @@
 		"era": "Future era",
 		"uniques": [
 			"Provides [8] [Corporation Slot]",
-			"All newly-trained [non-[Air]] units [in all cities] receive the [Restlessness] promotion"
+			"All newly-trained [{non-[Air]} {Military}] units [in all cities] receive the [Restlessness] promotion"
 		],
 		"priorities": {
 			"Neutral": 70,
