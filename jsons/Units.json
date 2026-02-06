@@ -1825,8 +1825,7 @@
 			"Never appears as a Barbarian unit",
 			"Ignores Zone of Control",
 			"[+50]% Strength <vs [Land] units>",
-			"[+50]% Strength <vs [Armored] units> <when attacking>",
-			"Cannot be purchased"
+			"[+50]% Strength <vs [Armored] units> <when attacking>"
 		],
 		"promotions": [
 			"Armor Plating I",
@@ -1842,7 +1841,7 @@
 		"strength": 140,
 		"rangedStrength": 140,
 		"range": 2,
-		"cost": 5000,
+		"cost": 600,
 		"requiredTech": "Terraforming",
 		"requiredResource": "Composites",
 		"uniques": [
@@ -1853,8 +1852,7 @@
 			"Never appears as a Barbarian unit",
 			"Ignores Zone of Control",
 			"[+50]% Strength <vs [Land] units>",
-			"[+50]% Strength <vs [Armored] units> <when attacking>",
-			"Cannot be purchased"
+			"[+50]% Strength <vs [Armored] units> <when attacking>"
 		],
 		"promotions": [
 			"Armor Plating I",
@@ -1871,7 +1869,7 @@
 		"strength": 200,
 		"rangedStrength": 200,
 		"range": 2,
-		"cost": 7000,
+		"cost": 750,
 		"requiredTech": "Nuclear Fusion",
 		"uniques": [
 			"Cyber",
@@ -1879,8 +1877,7 @@
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"Never appears as a Barbarian unit",
-			"Ignores Zone of Control",
-			"Cannot be purchased"
+			"Ignores Zone of Control"
 		],
 		"promotions": [
 			"Armor Plating I",
@@ -2494,7 +2491,7 @@
 		"unitType": "Gunpowder",
 		"movement": 4,
 		"strength": 120,
-		"cost": 4000,
+		"cost": 600,
 		"requiredTech": "Nuclear Fusion",
 		"requiredResource": "Composites",
 		"uniques": [
