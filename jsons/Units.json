@@ -1842,7 +1842,7 @@
 		"strength": 140,
 		"rangedStrength": 140,
 		"range": 2,
-		"cost": 3600,
+		"cost": 5000,
 		"requiredTech": "Terraforming",
 		"requiredResource": "Composites",
 		"uniques": [
@@ -1871,7 +1871,7 @@
 		"strength": 200,
 		"rangedStrength": 200,
 		"range": 2,
-		"cost": 6000,
+		"cost": 7000,
 		"requiredTech": "Nuclear Fusion",
 		"uniques": [
 			"Cyber",
@@ -2494,7 +2494,7 @@
 		"unitType": "Gunpowder",
 		"movement": 4,
 		"strength": 120,
-		"cost": 600,
+		"cost": 4000,
 		"requiredTech": "Nuclear Fusion",
 		"requiredResource": "Composites",
 		"uniques": [
