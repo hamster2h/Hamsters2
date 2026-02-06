@@ -94,9 +94,12 @@
         "movementType": "Water",
         "uniques": [
             "Can enter ice tiles",
+            "Ignores Zone of Control",
             "Invisible to others",
+            "May enter foreign tiles without open borders",
             "Can see invisible [Submarine] units",
-            "May enter foreign tiles without open borders"
+            "Can only attack [Water] tiles",
+			"Never appears as a Barbarian unit"
         ]
     },
     {
