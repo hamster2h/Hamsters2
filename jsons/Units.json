@@ -970,7 +970,7 @@
 		"requiredResource": "Coal",
 		"uniques": [
 			"Intel",
-			"Comment [+1 Range to adjacent Siege Units]",
+			"Comment [+1 Range to adjacent Siege and Ranged Water Units]",
 			"[+20]% Strength bonus for [Siege] units within [1] tiles",
 			"[+1] Sight",
 			"No defensive terrain bonus",
@@ -991,7 +991,7 @@
 		"requiredTech": "Computers",
 		"uniques": [
 			"Intel2",
-			"Comment [+2 Range to adjacent Siege Units]",
+			"Comment [+2 Range to adjacent Siege and Ranged Water Units]",
 			"[+33]% Strength bonus for [Siege] units within [1] tiles",
 			"[+2] Sight",
 			"No defensive terrain bonus",
