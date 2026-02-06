@@ -2910,9 +2910,12 @@
 			"[+100]% Strength <vs [Air] units>",
 		],
 		"promotions": [
-			"Firewall",
-			"Amphibious",
-			"Gravity Generator"
+			"Armor Plating I",
+			"Armor Plating II",
+			"Armor Plating III",
+			"Gravity Generator",
+			"Hovering",
+			"Firewall"
 		],
 		"attackSound": "gdrAttack"
 	},
@@ -2923,7 +2926,7 @@
 		"strength": 185,
 		"rangedStrength": 185,
 		"range": 2,
-		"cost": 1180,
+		"cost": 8000,
 		"requiredTech": "Nanotechnology",
 		"uniques": [
 			"Cyber",
@@ -2934,9 +2937,12 @@
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
-			"Firewall",
-			"Amphibious",
-			"Gravity Generator"
+			"Armor Plating I",
+			"Armor Plating II",
+			"Armor Plating III",
+			"Gravity Generator",
+			"Hovering",
+			"Firewall"
 		],
 		"attackSound": "gdrAttack"
 	},
