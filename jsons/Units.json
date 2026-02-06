@@ -1448,6 +1448,7 @@
 			"Consumes [4] [Composites] <after discovering [Nuclear Fusion]>",
 			"Can carry [2] [Missile] units <after discovering [Lasers]>",
 			"[75]% chance to intercept air attacks <after discovering [Ballistics]>",
+			"[+100]% Strength <vs [Land] units>",
 			"[+5] Range <after discovering [Nuclear Fusion]>",
 			"[+500]% Strength <vs [non-[Air]] units> <after discovering [Nuclear Fusion]>",
 			"Never appears as a Barbarian unit"
