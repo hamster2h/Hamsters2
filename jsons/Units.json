@@ -1444,7 +1444,6 @@
 		"upgradesTo": "Missile Cruiser",
 		"requiredResource": "Oil",
 		"uniques": [
-			"Cyber <after discovering [Lasers]>",
 			"Consumes [2] [Iron]",
 			"Consumes [4] [Composites] <after discovering [Nuclear Fusion]>",
 			"Can carry [2] [Missile] units <after discovering [Lasers]>",
