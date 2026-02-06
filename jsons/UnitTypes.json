@@ -59,6 +59,9 @@
         "name": "Armored",
         "movementType": "Land",
         "uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Ignores Zone of Control",
             "[+33]% Strength <vs [Air] units> <when adjacent to a [Anti-Air] unit>",
             "[+33]% Strength <vs [Cyber] units> <when adjacent to a [Hacker] unit>"
         ]
