@@ -2225,7 +2225,7 @@ UnitIcons/Orbital Strike
   index: -1
 UnitIcons/Orbital Missile
   rotate: false
-  xy: 678, 464
+  xy: 668, 444
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
