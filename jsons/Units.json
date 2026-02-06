@@ -1586,10 +1586,7 @@
 		"requiredResource": "Oil",
 		"uniques": [
 			"[+75]% Strength <when attacking>",
-			"Can only attack [Water] tiles",
-			"Can carry [4] [Missile] units",
-			"Ignores Zone of Control",
-			"Never appears as a Barbarian unit"
+			"Can carry [4] [Missile] units"
 		],
 		"attackSound": "torpedo"
 	},
@@ -1605,12 +1602,9 @@
 		"requiredResource": "Uranium",
 		"uniques": [
 			"[+100]% Strength <when attacking>",
-			"Can only attack [Water] tiles",
 			"Can move after attacking",
 			"Can carry [8] [Big Missile] units",
-			"Ignores Zone of Control",
-			"[+1] Sight",
-			"Never appears as a Barbarian unit"
+			"[+1] Sight"
 		],
 		"attackSound": "torpedo"
 	},
