@@ -1563,9 +1563,10 @@
 		"requiredResource": "Oil",
 		"uniques": [
 			"Consumes [1] [Iron]",
-			"Can see invisible [Submarine] units",
 			"[50]% chance to intercept air attacks <after discovering [Ballistics]>",
+			"[+75]% Strength <vs [Land] units>",
 			"Withdraws before melee combat <with [60]% chance>",
+			"Can see invisible [Submarine] units",
 			"[+100]% Strength <vs [Submarine] units>"
 		],
 		"promotions": [
