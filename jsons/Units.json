@@ -1442,11 +1442,15 @@
 		"cost": 500,
 		"requiredTech": "Electronics",
 		"upgradesTo": "Missile Cruiser",
-		"obsoleteTech": "Robotics",
 		"requiredResource": "Oil",
 		"uniques": [
+			"Cyber <after discovering [Lasers]>",
 			"Consumes [2] [Iron]",
+			"Consumes [4] [Composites] <after discovering [Nuclear Fusion]>",
+			"Can carry [2] [Missile] units <after discovering [Lasers]>",
 			"[75]% chance to intercept air attacks <after discovering [Ballistics]>",
+			"[+5] Range <after discovering [Nuclear Fusion]>",
+			"[+700]% Strength <after discovering [Nuclear Fusion]>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
