@@ -183,7 +183,7 @@
                 "name": "Military Tradition",
                 "uniques": [
                     "[+50]% XP gained from combat <for [Military] units>",
-					"All newly-trained [{non-[Air]} {Military}] units [in all cities] receive the [Great Generals I] promotion"
+					"[Great General] is earned [+25]% faster"
                 ],
                 "requires": ["Warrior Code"],
                 "row": 2,
@@ -217,9 +217,8 @@
             {
                 "name": "Honor Complete",
                 "uniques": [
-					"All newly-trained [{non-[Air]} {Military}] units [in all cities] receive the [Great Generals II] promotion",
-					"May buy [Great General] units for [4000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([1000])",
-                    "Earn [50]% of killed [Military] unit's [Cost] as [Gold]",
+					"Earn [100]% of killed [Military] unit's [Cost] as [Gold]",
+					"May buy [Great General] units for [2000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500])",
 					"Get the leader title of [[leaderName] the Great]"
                 ]
             }
