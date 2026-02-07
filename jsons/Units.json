@@ -2533,6 +2533,24 @@
 		"attackSound": "crossbow"
 	},
 	{
+		"name": "Longbowman",
+		"uniqueTo": "England",
+		"replaces": "Crossbowman",
+		"unitType": "Archery",
+		"range": 2,
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 18,
+		"cost": 150,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Industrialization",
+		"promotions": [
+			"Extended Range"
+		],
+		"attackSound": "arrow"
+	},
+	{
 		"name": "Gatling Gun",
 		"unitType": "Ranged Gunpowder",
 		"range": 2,
