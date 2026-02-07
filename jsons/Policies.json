@@ -17,7 +17,7 @@
             {
                 "name": "Aristocracy",
                 "uniques": [
-                    "[+15]% Production when constructing [All] wonders [in all cities]",
+                    "[+20]% Production when constructing [All] wonders [in all cities]",
                     "[+1 Happiness] per [10] population [in all cities]"
                 ],
                 "row": 1,
@@ -26,7 +26,8 @@
             {
                 "name": "Legalism",
                 "uniques": [
-                    "Provides the cheapest [Culture] building in your first [4] cities for free"
+                    "Provides the cheapest [Culture] building in your first [4] cities for free",
+					"Free [Settler] appears"
                 ],
                 "row": 1,
                 "column": 3
@@ -54,6 +55,7 @@
             {
                 "name": "Monarchy",
                 "uniques": [
+					"Each city founded increases culture cost of policies [20]% less than normal",
                     "[+1 Gold, +1 Happiness] per [2] population [in capital]"
                 ],
                 "requires": ["Legalism"],
@@ -87,7 +89,7 @@
             {
                 "name": "Republic",
                 "uniques": [
-					"Each city founded increases culture cost of policies [33]% less than normal",
+					"Each city founded increases culture cost of policies [20]% less than normal",
 					"Free [Settler] appears"
                 ],
                 "row": 1,
