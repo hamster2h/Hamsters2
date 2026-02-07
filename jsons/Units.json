@@ -2570,7 +2570,7 @@
 		"movement": 2,
 		"strength": 60,
 		"rangedStrength": 60,
-		"cost": 600,
+		"cost": 1100,
 		"requiredTech": "Ballistics",
 		"upgradesTo": "Combat Robot",
 		"obsoleteTech": "Automation",
@@ -2583,7 +2583,7 @@
 		"movement": 2,
 		"strength": 60,
 		"rangedStrength": 100,
-		"cost": 700,
+		"cost": 2000,
 		"requiredTech": "Automation",
 		"uniques": [
 			"Cyber",
