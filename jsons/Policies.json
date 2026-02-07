@@ -210,14 +210,14 @@
                     "[+1 Happiness] from every [Arsenal]",
                     "[+1 Happiness] from every [Military Base]"
                 ],
-                "requires": ["Military Tradition", "Military Caste"],
+                "requires": ["Military Caste"],
                 "row": 3,
                 "column": 4
             },
             {
                 "name": "Honor Complete",
                 "uniques": [
-					"Earn [100]% of killed [Military] unit's [Cost] as [Gold]",
+					"Earn [50]% of killed [Military] unit's [Cost] as [Gold]",
 					"May buy [Great General] units for [2000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500])",
 					"Get the leader title of [[leaderName] the Great]"
                 ]
