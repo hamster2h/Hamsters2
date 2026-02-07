@@ -17,7 +17,7 @@
             {
                 "name": "Aristocracy",
                 "uniques": [
-                    "[+20]% Production when constructing [All] wonders [in all cities]",
+                    "[+25]% Production when constructing [All] wonders [in all cities]",
                     "[+1 Happiness] per [10] population [in all cities]"
                 ],
                 "row": 1,
@@ -45,7 +45,7 @@
             {
                 "name": "Landed Elite",
                 "uniques": [
-                    "[+10]% growth [in capital]",
+                    "[+20]% growth [in capital]",
                     "[+2 Food] [in capital]"
                 ],
                 "requires": ["Legalism"],
