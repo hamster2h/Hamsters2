@@ -2492,6 +2492,47 @@
 		"attackSound": "energyshot"
 	},
 	{
+		"name": "Composite Bowman",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 11,
+		"cost": 90,
+		"requiredTech": "Construction",
+		"upgradesTo": "Crossbowman",
+		"obsoleteTech": "Machinery",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Crossbowman",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 18,
+		"cost": 150,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Industrialization",
+		"attackSound": "crossbow"
+	},
+	{
+		"name": "Chu-Ko-Nu",
+		"uniqueTo": "China",
+		"replaces": "Crossbowman",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 14,
+		"cost": 150,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Industrialization",
+		"promotions": [
+			"[Chu-Ko-Nu] ability"
+		],
+		"attackSound": "crossbow"
+	},
+	{
 		"name": "Gatling Gun",
 		"unitType": "Ranged Gunpowder",
 		"range": 2,
