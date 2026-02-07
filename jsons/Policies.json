@@ -108,7 +108,7 @@
             {
                 "name": "Collective Rule",
                 "uniques": [
-                    "[+100]% Production when constructing [Settler] units [in all cities]",
+                    "[+50]% Production when constructing [Settler] units [in all cities]",
                     "[+5]% Production when constructing [All] buildings [in all cities]"
                 ],
                 "requires": ["Republic"],
@@ -217,7 +217,7 @@
             {
                 "name": "Honor Complete",
                 "uniques": [
-                    "Earn [20]% of killed [Military] unit's [Cost] as [Gold]",
+                    "Earn [100]% of killed [Military] unit's [Cost] as [Gold]",
 					"May buy [Great General] units for [2000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500])",
                     "Get the leader title of [[leaderName] the Great]"
                 ]
@@ -262,8 +262,8 @@
             {
                 "name": "Theocracy",
                 "uniques": [
-					"[+15]% [Gold] from every [Shrine]",
-					"[+15]% [Gold] from every [Temple]"
+					"[+10]% [Gold] from every [Shrine]",
+					"[+10]% [Gold] from every [Temple]"
 				],
                 "requires": ["Organized Religion"],
                 "row": 2,
@@ -282,7 +282,7 @@
             {
                 "name": "Free Religion",
                 "uniques": [
-					"[-10]% Culture cost of adopting new Policies"
+					"[-5]% Culture cost of adopting new Policies"
 				],
                 "requires": ["Mandate Of Heaven", "Reformation"],
                 "row": 3,
@@ -291,7 +291,7 @@
             {
                 "name": "Piety Complete",
                 "uniques": [
-                    "[Faith] cost of purchasing items in cities [-20]%",
+                    "[Faith] cost of purchasing items in cities [-10]%",
                     "[+3 Gold, +3 Culture] from every [Holy site]",
                     "Get the leader title of [[leaderName] the Pious]"
                 ]
