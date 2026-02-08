@@ -158,129 +158,6 @@
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Legion",
-		"uniqueTo": "Rome",
-		"replaces": "Swordsman",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 17,
-		"cost": 40,
-		"requiredTech": "Iron Working",
-		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Gunpowder",
-		"requiredResource": "Iron",
-		"uniques": [
-			"Can build [Road] improvements on tiles",
-			"Can build [Fort] improvements on tiles"
-		],
-	 	"promotions": [
-			"Cover I",
-			"Besiege",
-			"March"
-		],
-		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
-	},
-	{
-		"name": "Kris Swordsman",
-		"uniqueTo": "Indonesia",
-		"replaces": "Swordsman",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 15,
-		"cost": 75,
-		"requiredTech": "Iron Working",
-		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Steel",
-		"promotions": [
-			"Mystic Blade"
-		],
-		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
-	},
-	{
-		"name": "Ngao Mbeba",
-		"uniqueTo": "Kongo",
-		"replaces": "Swordsman",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 15,
-		"cost": 75,
-		"requiredTech": "Iron Working",
-		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Steel",
-		"uniques": [
-			"[+100]% Strength <when defending> <vs [Ranged] units>",
-			"Cannot attack"
-		],
-		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
-	},
-	{
-		"name": "Berserker",
-		"uniqueTo": "Denmark",
-		"replaces": "Longswordsman",
-		"unitType": "Sword",
-		"movement": 3,
-		"strength": 25,
-		"cost": 100,
-		"requiredTech": "Metal Casting",
-		"upgradesTo": "Musketman",
-		"obsoleteTech": "Metallurgy",
-		"requiredResource": "Iron",
-		"uniques": [
-			"[+25]% Strength <when attacking>"
-		],
-		"promotions": [
-			"Amphibious"
-		],
-		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
-	},
-	{
-		"name": "Samurai",
-		"uniqueTo": "Japan",
-		"replaces": "Longswordsman",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 21,
-		"cost": 120,
-		"requiredTech": "Steel",
-		"upgradesTo": "Musketman",
-		"obsoleteTech": "Gunpowder",
-		"requiredResource": "Iron",
-		"uniques": [
-			"Can instantly construct a [Fishing Boats] improvement"
-		],
-		"promotions": [
-			"Shock I",
-			"Drill I",
-			"Blitz",
-			"Great Generals II"
-		],
-		"attackSound": "metalhit"
-	},
-	{
-		"name": "Gallowglass",
-		"uniqueTo": "Scotland",
-		"unitType": "Sword",
-		"replaces": "Longswordsman",
-		"movement": 2,
-		"strength": 24,
-		"cost": 120,
-		"requiredTech": "Steel",
-		"upgradesTo": "Musketman",
-		"obsoleteTech": "Gunpowder",
-		"requiredResource": "Iron",
-		"uniques":[
-			"[+30]% Strength <vs [Melee] units>"
-		],
-		"promotions": [
-			"Ignore terrain cost"
-		],
-		"attackSound": "metalhit"
-	},
-	{
 		"name": "Quinquereme",
 		"uniqueTo": "Carthage",
 		"unitType": "Melee Water",
@@ -2112,6 +1989,129 @@
 		"attackSound": "bombing"
 	},
 	{
+		"name": "Legion",
+		"uniqueTo": "Rome",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 17,
+		"cost": 40,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"uniques": [
+			"Can build [Road] improvements on tiles",
+			"Can build [Fort] improvements on tiles"
+		],
+	 	"promotions": [
+			"Cover I",
+			"Besiege",
+			"March"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Kris Swordsman",
+		"uniqueTo": "Indonesia",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 15,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"promotions": [
+			"Mystic Blade"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Ngao Mbeba",
+		"uniqueTo": "Kongo",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 15,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"uniques": [
+			"[+100]% Strength <when defending> <vs [Ranged] units>",
+			"Cannot attack"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Berserker",
+		"uniqueTo": "Denmark",
+		"replaces": "Longswordsman",
+		"unitType": "Sword",
+		"movement": 3,
+		"strength": 25,
+		"cost": 100,
+		"requiredTech": "Metal Casting",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Metallurgy",
+		"requiredResource": "Iron",
+		"uniques": [
+			"[+25]% Strength <when attacking>"
+		],
+		"promotions": [
+			"Amphibious"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Samurai",
+		"uniqueTo": "Japan",
+		"replaces": "Longswordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 21,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"uniques": [
+			"Can instantly construct a [Fishing Boats] improvement"
+		],
+		"promotions": [
+			"Shock I",
+			"Drill I",
+			"Blitz",
+			"Great Generals II"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Gallowglass",
+		"uniqueTo": "Scotland",
+		"unitType": "Sword",
+		"replaces": "Longswordsman",
+		"movement": 2,
+		"strength": 24,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"uniques":[
+			"[+30]% Strength <vs [Melee] units>"
+		],
+		"promotions": [
+			"Ignore terrain cost"
+		],
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Minuteman",
 		"uniqueTo": "America",
 		"replaces": "Musketman",
@@ -2186,7 +2186,7 @@
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 34,
-		"cost": 225,
+		"cost": 350,
 		"requiredTech": "Rifling",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
@@ -2199,7 +2199,7 @@
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 34,
-		"cost": 225,
+		"cost": 350,
 		"requiredTech": "Rifling",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
@@ -2215,7 +2215,7 @@
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 34,
-		"cost": 225,
+		"cost": 350,
 		"requiredTech": "Rifling",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
@@ -2231,7 +2231,7 @@
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 34,
-		"cost": 200,
+		"cost": 300,
 		"requiredTech": "Rifling",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
@@ -2248,7 +2248,7 @@
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 40,
-		"cost": 180,
+		"cost": 300,
 		"requiredTech": "Rifling",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
@@ -2261,7 +2261,7 @@
 		"unitType": "Gunpowder",
 		"movement": 3,
 		"strength": 34,
-		"cost": 225,
+		"cost": 350,
 		"requiredTech": "Rifling",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
