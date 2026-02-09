@@ -2381,7 +2381,7 @@
 		"unitType": "Gunpowder",
 		"movement": 5,
 		"strength": 90,
-		"cost": 375,
+		"cost": 3000,
 		"requiredTech": "Mobile Tactics",
 		"upgradesTo": "Energy Infantry",
 		"requiredResource": "Oil",
