@@ -2441,7 +2441,7 @@
 		"unitType": "Gunpowder",
 		"movement": 3,
 		"strength": 85,
-		"cost": 500,
+		"cost": 3500,
 		"requiredTech": "Lasers",
 		"upgradesTo": "Energy Infantry",
 		"uniques": [
@@ -2467,7 +2467,7 @@
 		"unitType": "Gunpowder",
 		"movement": 4,
 		"strength": 120,
-		"cost": 600,
+		"cost": 6000,
 		"requiredTech": "Nuclear Fusion",
 		"requiredResource": "Composites",
 		"uniques": [
