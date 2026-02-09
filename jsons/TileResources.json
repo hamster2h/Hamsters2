@@ -2,7 +2,6 @@
 	{
 		"name": "Natural Appeal",
 		"resourceType": "Bonus",
-		"revealedBy": "Radio",
 		"terrainsCanBeFoundOn": [
 			"Grassland",
 			"Plains",
@@ -158,7 +157,7 @@
 	{
 		"name": "Fossil",
 		"resourceType": "Strategic",
-		"revealedBy": "Archaeology",
+		"revealedBy": "Mining",
 		"terrainsCanBeFoundOn": [
 			"Plains",
 			"Grassland",
