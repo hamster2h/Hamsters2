@@ -322,87 +322,6 @@
 		"attackSound": "bite"
 	},
 	{
-		"name": "Warrior",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 8,
-		"cost": 20,
-		"requiredTech": "Agriculture",
-		"upgradesTo": "Swordsman",
-		"obsoleteTech": "Metal Casting",
-		"uniques": [
-			"[-50]% maintenance costs"
-		],
-		"attackSound": "nonmetalhit",
-        "civilopediaText": [
-			{
-				"text": "This is your basic, club-swinging fighter."
-			}
-		]
-	},
-	{
-		"name": "Maori Warrior",
-		"uniqueTo": "Polynesia",
-		"replaces": "Warrior",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 8,
-		"cost": 20,
-		"requiredTech": "Agriculture",
-		"upgradesTo": "Swordsman",
-		"obsoleteTech": "Metal Casting",
-		"uniques": [
-			"[-50]% maintenance costs"
-		],
-		"promotions": [
-			"Haka War Dance"
-		],
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Jaguar",
-		"uniqueTo": "Aztecs",
-		"replaces": "Warrior",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 8,
-		"cost": 20,
-		"requiredTech": "Agriculture",
-		"upgradesTo": "Swordsman",
-		"obsoleteTech": "Metal Casting",
-		"uniques": [
-			"[-50]% maintenance costs"
-		],
-		"promotions": [
-			"[Jaguar] ability",
-			"Woodsman"
-		],
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Companion Cavalry",
-		"uniqueTo": "Greece",
-		"replaces": "Horseman",
-		"unitType": "Mounted",
-		"movement": 5,
-		"strength": 15,
-		"cost": 75,
-		"requiredTech": "Horseback Riding",
-		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
-		"requiredResource": "Horses",
-		"uniques": [
-			"Can move after attacking",
-			"No defensive terrain bonus",
-			"[-33]% Strength <vs cities> <when attacking>"
-		],
-		"promotions": [
-			"Great Generals I"
-		],
-		"hurryCostModifier": 20,
-		"attackSound": "horse"
-	},
-	{
 		"name": "African Forest Elephant",
 		"uniqueTo": "Carthage",
 		"unitType": "Mounted",
@@ -1609,6 +1528,66 @@
 		"attackSound": "nuke"
 	},
 	{
+		"name": "Horseman",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 12,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"requiredResource": "Horses",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities> <when attacking>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
+		"name": "Companion Cavalry",
+		"uniqueTo": "Greece",
+		"replaces": "Horseman",
+		"unitType": "Mounted",
+		"movement": 5,
+		"strength": 15,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"requiredResource": "Horses",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities> <when attacking>"
+		],
+		"promotions": [
+			"Great Generals I"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
+		"name": "Cataphract",
+		"uniqueTo": "Byzantium",
+		"replaces": "Horseman",
+		"unitType": "Mounted",
+		"movement": 3,
+		"strength": 15,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"requiredResource": "Horses",
+		"uniques": [
+			"Can move after attacking",
+			"[-25]% Strength <vs cities> <when attacking>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
 		"name": "Landship",
 		"unitType": "Armored",
 		"movement": 3,
@@ -2001,6 +1980,64 @@
 			"Stealth"
 		],
 		"attackSound": "bombing"
+	},
+	{
+		"name": "Warrior",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 8,
+		"cost": 20,
+		"requiredTech": "Agriculture",
+		"upgradesTo": "Swordsman",
+		"obsoleteTech": "Metal Casting",
+		"uniques": [
+			"[-50]% maintenance costs"
+		],
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{
+				"text": "This is your basic, club-swinging fighter."
+			}
+		]
+	},
+	{
+		"name": "Maori Warrior",
+		"uniqueTo": "Polynesia",
+		"replaces": "Warrior",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 8,
+		"cost": 20,
+		"requiredTech": "Agriculture",
+		"upgradesTo": "Swordsman",
+		"obsoleteTech": "Metal Casting",
+		"uniques": [
+			"[-50]% maintenance costs"
+		],
+		"promotions": [
+			"Haka War Dance"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Jaguar",
+		"uniqueTo": "Aztecs",
+		"replaces": "Warrior",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 8,
+		"cost": 20,
+		"requiredTech": "Agriculture",
+		"upgradesTo": "Swordsman",
+		"obsoleteTech": "Metal Casting",
+		"uniques": [
+			"[-50]% maintenance costs"
+		],
+		"promotions": [
+			"[Jaguar] ability",
+			"Woodsman"
+		],
+		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Legion",
