@@ -35,129 +35,6 @@
 		"attackSound": "cannon"
 	},
 	{
-		"name": "Phalanx",
-		"uniqueTo": "Sumeria",
-		"replaces": "Spearman",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 11,
-		"cost": 56,
-		"requiredTech": "Mining",
-		"upgradesTo": "Pikeman",
-		"obsoleteTech": "Civil Service",
-		"uniques": [
-			"[+50]% Strength <vs [Mounted] units>",
-			"[+50]% Strength <when defending>"
-		],
-		"attackSound": "metalhit"
-	},
-	{
-		"name": "Hoplite",
-		"uniqueTo": "Greece",
-		"replaces": "Spearman",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 14,
-		"cost": 56,
-		"requiredTech": "Bronze Working",
-		"upgradesTo": "Pikeman",
-		"obsoleteTech": "Civil Service",
-		"uniques": [
-			"[+50]% Strength <vs [Mounted] units>"
-		],
-		"attackSound": "metalhit"
-	},
-	{
-		"name": "Persian Immortal",
-		"uniqueTo": "Persia",
-		"replaces": "Spearman",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 12,
-		"cost": 18,
-		"requiredTech": "Bronze Working",
-		"upgradesTo": "Pikeman",
-		"obsoleteTech": "Civil Service",
-		"uniques": [
-			"[+50]% Strength <vs [Mounted] units>"
-		],
-		"promotions":[
-			"[Persian Immortal] ability"
-		],
-		"attackSound": "metalhit"
-	},
-	{
-		"name": "Pictish Warrior",
-		"uniqueTo": "Celts",
-		"replaces": "Spearman",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 11,
-		"cost": 56,
-		"requiredTech": "Bronze Working",
-		"upgradesTo": "Pikeman",
-		"obsoleteTech": "Civil Service",
-		"uniques": [
-			"Earn [200]% of killed [Military] unit's [Strength] as [Faith]"
-		],
-		"promotions": [
-			"Pictish Courage"
-		],
-		"attackSound": "metalhit"
-	},
-	{
-		"name": "Pikeman",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 16,
-		"cost": 90,
-		"requiredTech": "Civil Service",
-		"upgradesTo": "Lancer",
-		"obsoleteTech": "Acoustics",
-		"uniques": [
-			"[+50]% Strength <vs [Mounted] units>"
-		],
-		"attackSound": "metalhit"
-	},
-	{
-		"name": "Landsknecht",
-		"uniqueTo": "Germany",
-		"replaces": "Pikeman",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 16,
-		"cost": 45,
-		"requiredTech": "Civil Service",
-		"upgradesTo": "Lancer",
-		"obsoleteTech": "Acoustics",
-		"uniques": [
-			"[+50]% Strength <vs [Mounted] units>",
-			"Can move immediately once bought"
-		],
-		"attackSound": "metalhit"
-	},
-	{
-		"name": "Impi",
-		"uniqueTo": "Zulu",
-		"replaces": "Pikeman",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 16,
-		"cost": 90,
-		"requiredTech": "Horseback Riding",
-		"upgradesTo": "Lancer",
-		"obsoleteTech": "Acoustics",
-		"uniques": [
-			"[+50]% Strength <vs [Mounted] units>",
-			"[+25]% Strength <vs [Gunpowder] units>"
-		],
-		"promotions": [
-			"Blitz",
-			"March"
-		],
-		"attackSound": "metalhit"
-	},
-	{
 		"name": "Quinquereme",
 		"uniqueTo": "Carthage",
 		"unitType": "Melee Water",
@@ -739,103 +616,6 @@
 		"attackSound": "horse"
 	},
 	{
-		"name": "Lancer",
-		"unitType": "Mounted",
-		"movement": 5,
-		"strength": 25,
-		"cost": 185,
-		"requiredTech": "Acoustics",
-		"upgradesTo": "Anti-Tank Gun",
-		"obsoleteTech": "Combined Arms",
-		"requiredResource": "Horses",
-		"uniques": [
-			"Can move after attacking",
-			"No defensive terrain bonus",
-			"[+50]% Strength <vs [Ranged] units> <when attacking>",
-			"[-33]% Strength <vs cities> <when attacking>",
-			"Never appears as a Barbarian unit"
-		],
-		"promotions": [
-			"Formation I"
-		],
-		"attackSound": "horse"
-	},
-	{
-		"name": "Sipahi",
-		"uniqueTo": "The Ottomans",
-		"replaces": "Lancer",
-		"unitType": "Mounted",
-		"movement": 6,
-		"strength": 25,
-		"cost": 185,
-		"requiredTech": "Acoustics",
-		"upgradesTo": "Anti-Tank Gun",
-		"obsoleteTech": "Combined Arms",
-		"requiredResource": "Horses",
-		"uniques": [
-			"Can move after attacking",
-			"No defensive terrain bonus",
-			"[+50]% Strength <vs [Ranged] units> <when attacking>",
-			"[-33]% Strength <vs cities> <when attacking>",
-			"[+1] Sight"
-		],
-		"promotions": [
-			"[Sipahi] ability",
-			"Formation I"
-		],
-		"attackSound": "horse"
-	},
-	{
-		"name": "Hakkapeliitta",
-		"uniqueTo": "Sweden",
-		"replaces": "Lancer",
-		"unitType": "Mounted",
-		"movement": 5,
-		"strength": 25,
-		"cost": 185,
-		"requiredTech": "Acoustics",
-		"upgradesTo": "Anti-Tank Gun",
-		"obsoleteTech": "Combined Arms",
-		"requiredResource": "Horses",
-		"uniques": [
-			"Can move after attacking",
-			"No defensive terrain bonus",
-			"[+50]% Strength <vs [Ranged] units> <when attacking>",
-			"[-33]% Strength <vs cities> <when attacking>"
-		],
-		"promotions": [
-			"[Hakkapeliitta] ability",
-			"Formation I"
-		],
-		"attackSound": "horse"
-	},
-	{
-		"name": "Winged Hussar",
-		"uniqueTo": "Poland",
-		"replaces": "Lancer",
-		"unitType": "Mounted",
-		"movement": 6,
-		"strength": 28,
-		"cost": 185,
-		"requiredTech": "Acoustics",
-		"upgradesTo": "Anti-Tank Gun",
-		"obsoleteTech": "Combined Arms",
-		"requiredResource": "Horses",
-		"uniques": [
-			"Can move after attacking",
-			"No defensive terrain bonus",
-			"[+50]% Strength <vs [Ranged] units> <when attacking>",
-			"[-33]% Strength <vs cities> <when attacking>"
-		],
-		"promotions": [
-			"Formation I",
-			"Formation II",
-			"Ambush I",
-			"Heavy Charge"
-		],
-		"attackSound": "horse"
-	},
-	{
 		"name": "Observation Balloon",
 		"unitType": "Support",
 		"movement": 3,
@@ -1191,6 +971,240 @@
 			"Heat Sensor"
 		],
 		"attackSound": "missile"
+	},
+	{
+		"name": "Spearman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"upgradesTo": "Pikeman",
+		"obsoleteTech": "Civil Service",
+		"uniques": [
+			"[+50]% Strength <vs [Mounted] units>"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Phalanx",
+		"uniqueTo": "Sumeria",
+		"replaces": "Spearman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Mining",
+		"upgradesTo": "Pikeman",
+		"obsoleteTech": "Civil Service",
+		"uniques": [
+			"[+50]% Strength <vs [Mounted] units>",
+			"[+50]% Strength <when defending>"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Hoplite",
+		"uniqueTo": "Greece",
+		"replaces": "Spearman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"upgradesTo": "Pikeman",
+		"obsoleteTech": "Civil Service",
+		"uniques": [
+			"[+50]% Strength <vs [Mounted] units>"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Persian Immortal",
+		"uniqueTo": "Persia",
+		"replaces": "Spearman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 12,
+		"cost": 18,
+		"requiredTech": "Bronze Working",
+		"upgradesTo": "Pikeman",
+		"obsoleteTech": "Civil Service",
+		"uniques": [
+			"[+50]% Strength <vs [Mounted] units>"
+		],
+		"promotions":[
+			"[Persian Immortal] ability"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Pictish Warrior",
+		"uniqueTo": "Celts",
+		"replaces": "Spearman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"upgradesTo": "Pikeman",
+		"obsoleteTech": "Civil Service",
+		"uniques": [
+			"Earn [200]% of killed [Military] unit's [Strength] as [Faith]"
+		],
+		"promotions": [
+			"Pictish Courage"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Pikeman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 90,
+		"requiredTech": "Civil Service",
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Acoustics",
+		"uniques": [
+			"[+50]% Strength <vs [Mounted] units>"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Landsknecht",
+		"uniqueTo": "Germany",
+		"replaces": "Pikeman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 45,
+		"requiredTech": "Civil Service",
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Acoustics",
+		"uniques": [
+			"[+50]% Strength <vs [Mounted] units>",
+			"Can move immediately once bought"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Impi",
+		"uniqueTo": "Zulu",
+		"replaces": "Pikeman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 90,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Acoustics",
+		"uniques": [
+			"[+50]% Strength <vs [Mounted] units>",
+			"[+25]% Strength <vs [Gunpowder] units>"
+		],
+		"promotions": [
+			"Blitz",
+			"March"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Lancer",
+		"unitType": "Mounted",
+		"movement": 5,
+		"strength": 25,
+		"cost": 200,
+		"requiredTech": "Acoustics",
+		"upgradesTo": "Anti-Tank Gun",
+		"obsoleteTech": "Combined Arms",
+		"requiredResource": "Horses",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+50]% Strength <vs [Ranged] units> <when attacking>",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Formation I"
+		],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Sipahi",
+		"uniqueTo": "The Ottomans",
+		"replaces": "Lancer",
+		"unitType": "Mounted",
+		"movement": 6,
+		"strength": 25,
+		"cost": 200,
+		"requiredTech": "Acoustics",
+		"upgradesTo": "Anti-Tank Gun",
+		"obsoleteTech": "Combined Arms",
+		"requiredResource": "Horses",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+50]% Strength <vs [Ranged] units> <when attacking>",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"[+1] Sight"
+		],
+		"promotions": [
+			"[Sipahi] ability",
+			"Formation I"
+		],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Hakkapeliitta",
+		"uniqueTo": "Sweden",
+		"replaces": "Lancer",
+		"unitType": "Mounted",
+		"movement": 5,
+		"strength": 25,
+		"cost": 200,
+		"requiredTech": "Acoustics",
+		"upgradesTo": "Anti-Tank Gun",
+		"obsoleteTech": "Combined Arms",
+		"requiredResource": "Horses",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+50]% Strength <vs [Ranged] units> <when attacking>",
+			"[-33]% Strength <vs cities> <when attacking>"
+		],
+		"promotions": [
+			"[Hakkapeliitta] ability",
+			"Formation I"
+		],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Winged Hussar",
+		"uniqueTo": "Poland",
+		"replaces": "Lancer",
+		"unitType": "Mounted",
+		"movement": 6,
+		"strength": 28,
+		"cost": 200,
+		"requiredTech": "Acoustics",
+		"upgradesTo": "Anti-Tank Gun",
+		"obsoleteTech": "Combined Arms",
+		"requiredResource": "Horses",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+50]% Strength <vs [Ranged] units> <when attacking>",
+			"[-33]% Strength <vs cities> <when attacking>"
+		],
+		"promotions": [
+			"Formation I",
+			"Formation II",
+			"Ambush I",
+			"Heavy Charge"
+		],
+		"attackSound": "horse"
 	},
 	{
 		"name": "Anti-Tank Gun",
