@@ -1796,7 +1796,7 @@
 		"strength": 100,
 		"rangedStrength": 100,
 		"range": 2,
-		"cost": 450,
+		"cost": 4500,
 		"requiredTech": "Mobile Tactics",
 		"upgradesTo": "Hovertank",
 		"obsoleteTech": "Terraforming",
@@ -1822,7 +1822,7 @@
 		"strength": 140,
 		"rangedStrength": 140,
 		"range": 2,
-		"cost": 600,
+		"cost": 8000,
 		"requiredTech": "Terraforming",
 		"requiredResource": "Composites",
 		"uniques": [
