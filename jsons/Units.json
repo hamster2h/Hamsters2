@@ -2187,8 +2187,8 @@
 	{
 		"name": "Gallowglass",
 		"uniqueTo": "Scotland",
-		"unitType": "Sword",
 		"replaces": "Longswordsman",
+		"unitType": "Sword",
 		"movement": 2,
 		"strength": 24,
 		"cost": 120,
