@@ -1211,7 +1211,7 @@
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 40,
-		"cost": 300,
+		"cost": 1300,
 		"requiredTech": "Combined Arms",
 		"upgradesTo": "Helicopter Gunship",
 		"uniques": [
@@ -1227,7 +1227,7 @@
 		"range": 3,
 		"strength": 70,
 		"rangedStrength": 70,
-		"cost": 550,
+		"cost": 2500,
 		"requiredTech": "Computers",
 		"upgradesTo": "Future Copter",
 		"obsoleteTech": "Clean Energy",
@@ -1254,7 +1254,7 @@
 		"range": 4,
 		"strength": 90,
 		"rangedStrength": 90,
-		"cost": 700,
+		"cost": 7000,
 		"requiredTech": "Clean Energy",
 		"requiredResource": "Oil",
 		"uniques": [
