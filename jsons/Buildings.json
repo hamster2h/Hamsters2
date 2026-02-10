@@ -2448,7 +2448,7 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Industrial Perk]",
-			"[+4 Faith, +2 Happiness] from all [Faith] buildings",
+			"[+4 Faith, +2 Culture] from all [Faith] buildings",
 			"Only available <starting from the [Industrial era]>",
 			"Consumes [2] [Prophet Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
