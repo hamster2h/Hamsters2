@@ -1,5 +1,27 @@
 [
 	{
+		"name": "African Forest Elephant",
+		"uniqueTo": "Carthage",
+		"unitType": "Mounted",
+		"movement": 3,
+		"strength": 15,
+		"cost": 100,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles"
+		],
+		"promotions": [
+			"Great Generals II"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "elephant"
+	},
+	{
 		"name": "Nau",
 		"uniqueTo": "Portugal",
 		"replaces": "Caravel",
@@ -320,116 +342,6 @@
 			"Stealth"
 		],
 		"attackSound": "bite"
-	},
-	{
-		"name": "African Forest Elephant",
-		"uniqueTo": "Carthage",
-		"unitType": "Mounted",
-		"movement": 3,
-		"strength": 15,
-		"cost": 100,
-		"requiredTech": "Horseback Riding",
-		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
-		"uniques": [
-			"Can move after attacking",
-			"No defensive terrain bonus",
-			"[-33]% Strength <vs cities> <when attacking>",
-			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles"
-		],
-		"promotions": [
-			"Great Generals II"
-		],
-		"hurryCostModifier": 20,
-		"attackSound": "elephant"
-	},
-	{
-		"name": "Conquistador",
-		"uniqueTo": "Spain",
-		"replaces": "Knight",
-		"unitType": "Mounted",
-		"movement": 6,
-		"strength": 30,
-		"cost": 135,
-		"requiredTech": "Chivalry",
-		"upgradesTo": "Cavalry",
-		"obsoleteTech": "Military Science",
-		"requiredResource": "Horses",
-		"uniques": [
-			"Can move after attacking",
-			"No defensive terrain bonus",
-			"[+100]% Strength <vs cities> <when attacking>",
-			"Founds a new city <on foreign continents>",
-			"[+2] Sight"
-		],
-		"promotions": [
-			"[Conquistador] ability"
-		],
-		"attackSound": "horse"
-	},
-	{
-		"name": "Mandekalu Cavalry",
-		"uniqueTo": "Songhai",
-		"replaces": "Knight",
-		"unitType": "Mounted",
-		"movement": 4,
-		"strength": 20,
-		"cost": 100,
-		"requiredTech": "Chivalry",
-		"upgradesTo": "Cavalry",
-		"obsoleteTech": "Military Science",
-		"requiredResource": "Horses",
-		"uniques": [
-			"Can move after attacking",
-			"No defensive terrain bonus"
-		],
-		"attackSound": "horse"
-	},
-	{
-		"name": "Keshik",
-		"uniqueTo": "Mongolia",
-		"replaces": "Knight",
-		"unitType": "Archery",
-		"range": 2,
-		"movement": 5,
-		"strength": 15,
-		"rangedStrength": 16,
-		"cost": 80,
-		"requiredTech": "Chivalry",
-		"upgradesTo": "Cavalry",
-		"obsoleteTech": "Military Science",
-		"uniques": [
-			"Can move after attacking",
-			"No defensive terrain bonus"
-		],
-		"promotions": [
-			"Great Generals I",
-			"Great Generals II",
-			"Quick Study"
-		],
-		"attackSound": "arrow"
-	},
-	{
-		"name": "Gaucho",
-		"uniqueTo": "Argentina",
-		"replaces": "Knight",
-		"unitType": "Mounted",
-		"movement": 4,
-		"strength": 20,
-		"cost": 120,
-		"requiredTech": "Chivalry",
-		"upgradesTo": "Cavalry",
-		"obsoleteTech": "Military Science",
-		"requiredResource": "Horses",
-		"uniques": [
-			"[+200]% to Flank Attack bonuses",
-			"Can move after attacking",
-			"No defensive terrain bonus",
-			"[-33]% Strength <vs cities> <when attacking>",
-			"Can build [Pasture] improvements on tiles",
-			"Withdraws before melee combat <with [50]% chance>"
-		],
-		"attackSound": "horse"
 	},
 	{
 		"name": "Cavalry",
@@ -1528,6 +1440,79 @@
 		"attackSound": "nuke"
 	},
 	{
+		"name": "Chariot Archer",
+		"unitType": "Archery",
+		"movement": 4,
+		"strength": 6,
+		"rangedStrength": 10,
+		"cost": 56,
+		"requiredTech": "The Wheel",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"requiredResource": "Horses",
+		"uniques": [
+			"No defensive terrain bonus",
+			"Rough terrain penalty",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "War Chariot",
+		"uniqueTo": "Egypt",
+		"replaces": "Chariot Archer",
+		"unitType": "Archery",
+		"movement": 5,
+		"strength": 6,
+		"rangedStrength": 10,
+		"cost": 56,
+		"requiredTech": "The Wheel",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": [
+			"No defensive terrain bonus",
+			"Rough terrain penalty"
+		],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Horse Archer",
+		"uniqueTo": "The Huns",
+		"replaces": "Chariot Archer",
+		"unitType": "Archery",
+		"movement": 4,
+		"strength": 7,
+		"rangedStrength": 10,
+		"cost": 56,
+		"requiredTech": "The Wheel",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": [
+			"No defensive terrain bonus"
+		],
+		"promotions": [
+			"Accuracy I"
+		],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "War Elephant",
+		"uniqueTo": "India",
+		"replaces": "Chariot Archer",
+		"unitType": "Archery",
+		"movement": 3,
+		"strength": 9,
+		"rangedStrength": 11,
+		"cost": 70,
+		"requiredTech": "The Wheel",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": [
+			"No defensive terrain bonus"
+		],
+		"attackSound": "elephant"
+	},
+	{
 		"name": "Horseman",
 		"unitType": "Mounted",
 		"movement": 4,
@@ -1585,6 +1570,131 @@
 			"[-25]% Strength <vs cities> <when attacking>"
 		],
 		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
+		"name": "Knight",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
+		"requiredResource": "Horses",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Camel Archer",
+		"uniqueTo": "Arabia",
+		"replaces": "Knight",
+		"unitType": "Archery",
+		"movement": 4,
+		"strength": 17,
+		"rangedStrength": 21,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
+		"requiredResource": "Horses",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus"
+		],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Conquistador",
+		"uniqueTo": "Spain",
+		"replaces": "Knight",
+		"unitType": "Mounted",
+		"movement": 6,
+		"strength": 30,
+		"cost": 135,
+		"requiredTech": "Chivalry",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
+		"requiredResource": "Horses",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+100]% Strength <vs cities> <when attacking>",
+			"Founds a new city <on foreign continents>",
+			"[+2] Sight"
+		],
+		"promotions": [
+			"[Conquistador] ability"
+		],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Mandekalu Cavalry",
+		"uniqueTo": "Songhai",
+		"replaces": "Knight",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 20,
+		"cost": 100,
+		"requiredTech": "Chivalry",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
+		"requiredResource": "Horses",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus"
+		],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Keshik",
+		"uniqueTo": "Mongolia",
+		"replaces": "Knight",
+		"unitType": "Archery",
+		"range": 2,
+		"movement": 5,
+		"strength": 15,
+		"rangedStrength": 16,
+		"cost": 80,
+		"requiredTech": "Chivalry",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus"
+		],
+		"promotions": [
+			"Great Generals I",
+			"Great Generals II",
+			"Quick Study"
+		],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Gaucho",
+		"uniqueTo": "Argentina",
+		"replaces": "Knight",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
+		"requiredResource": "Horses",
+		"uniques": [
+			"[+200]% to Flank Attack bonuses",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Can build [Pasture] improvements on tiles",
+			"Withdraws before melee combat <with [50]% chance>"
+		],
 		"attackSound": "horse"
 	},
 	{
