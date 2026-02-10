@@ -1704,7 +1704,7 @@
 		"unitType": "Mounted",
 		"movement": 5,
 		"strength": 34,
-		"cost": 198,
+		"cost": 350,
 		"requiredTech": "Military Science",
 		"upgradesTo": "Tank",
 		"obsoleteTech": "Combustion",
