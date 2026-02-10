@@ -344,109 +344,6 @@
 		"attackSound": "bite"
 	},
 	{
-		"name": "Cavalry",
-		"unitType": "Mounted",
-		"movement": 4,
-		"strength": 34,
-		"cost": 225,
-		"requiredTech": "Military Science",
-		"upgradesTo": "Tank",
-		"obsoleteTech": "Combustion",
-		"requiredResource": "Horses",
-		"uniques": [
-			"Can move after attacking",
-			"No defensive terrain bonus",
-			"[-33]% Strength <vs cities> <when attacking>",
-			"Never appears as a Barbarian unit"
-		],
-		"attackSound": "horse"
-	},
-	{
-		"name": "Cossack",
-		"uniqueTo": "Russia",
-		"replaces": "Cavalry",
-		"unitType": "Mounted",
-		"movement": 4,
-		"strength": 34,
-		"cost": 225,
-		"requiredTech": "Military Science",
-		"upgradesTo": "Tank",
-		"obsoleteTech": "Combustion",
-		"requiredResource": "Horses",
-		"uniques": [
-			"Can move after attacking",
-			"No defensive terrain bonus",
-			"[-33]% Strength <vs cities> <when attacking>"
-		],
-		"promotions": [
-			"[Cossack] ability"
-		],
-		"attackSound": "horse"
-	},
-	{
-		"name": "Hussar",
-		"uniqueTo": "Austria",
-		"replaces": "Cavalry",
-		"unitType": "Mounted",
-		"movement": 5,
-		"strength": 34,
-		"cost": 225,
-		"requiredTech": "Military Science",
-		"upgradesTo": "Tank",
-		"obsoleteTech": "Combustion",
-		"requiredResource": "Horses",
-		"uniques": [
-			"Can move after attacking",
-			"No defensive terrain bonus",
-			"[-33]% Strength <vs cities> <when attacking>",
-			"[+1] Sight"
-		],
-		"promotions": [
-			"[Hussar] ability"
-		],
-		"attackSound": "horse"
-	},
-	{
-		"name": "Qianlong Cavalry",
-		"uniqueTo": "Manchuria",
-		"replaces": "Cavalry",
-		"unitType": "Mounted",
-		"movement": 5,
-		"strength": 36,
-		"cost": 225,
-		"requiredTech": "Military Science",
-		"upgradesTo": "Tank",
-		"obsoleteTech": "Combustion",
-		"requiredResource": "Horses",
-		"uniques": [
-			"Can move after attacking",
-			"No defensive terrain bonus"
-		],
-		"promotions": [
-			"Great Generals I"
-		],
-		"attackSound": "horse"
-	},
-	{
-		"name": "Comanche Rider",
-		"uniqueTo": "Shoshone",
-		"replaces": "Cavalry",
-		"unitType": "Mounted",
-		"movement": 5,
-		"strength": 34,
-		"cost": 198,
-		"requiredTech": "Military Science",
-		"upgradesTo": "Tank",
-		"obsoleteTech": "Combustion",
-		"requiredResource": "Horses",
-		"uniques": [
-			"Can move after attacking",
-			"No defensive terrain bonus",
-			"[-33]% Strength <vs cities> <when attacking>"
-		],
-		"attackSound": "horse"
-	},
-	{
 		"name": "Observation Balloon",
 		"unitType": "Support",
 		"movement": 3,
@@ -1713,6 +1610,109 @@
 			"[-33]% Strength <vs cities> <when attacking>",
 			"Can build [Pasture] improvements on tiles",
 			"Withdraws before melee combat <with [50]% chance>"
+		],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Cavalry",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Military Science",
+		"upgradesTo": "Tank",
+		"obsoleteTech": "Combustion",
+		"requiredResource": "Horses",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Cossack",
+		"uniqueTo": "Russia",
+		"replaces": "Cavalry",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Military Science",
+		"upgradesTo": "Tank",
+		"obsoleteTech": "Combustion",
+		"requiredResource": "Horses",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities> <when attacking>"
+		],
+		"promotions": [
+			"[Cossack] ability"
+		],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Hussar",
+		"uniqueTo": "Austria",
+		"replaces": "Cavalry",
+		"unitType": "Mounted",
+		"movement": 5,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Military Science",
+		"upgradesTo": "Tank",
+		"obsoleteTech": "Combustion",
+		"requiredResource": "Horses",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"[+1] Sight"
+		],
+		"promotions": [
+			"[Hussar] ability"
+		],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Qianlong Cavalry",
+		"uniqueTo": "Manchuria",
+		"replaces": "Cavalry",
+		"unitType": "Mounted",
+		"movement": 5,
+		"strength": 36,
+		"cost": 225,
+		"requiredTech": "Military Science",
+		"upgradesTo": "Tank",
+		"obsoleteTech": "Combustion",
+		"requiredResource": "Horses",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus"
+		],
+		"promotions": [
+			"Great Generals I"
+		],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Comanche Rider",
+		"uniqueTo": "Shoshone",
+		"replaces": "Cavalry",
+		"unitType": "Mounted",
+		"movement": 5,
+		"strength": 34,
+		"cost": 198,
+		"requiredTech": "Military Science",
+		"upgradesTo": "Tank",
+		"obsoleteTech": "Combustion",
+		"requiredResource": "Horses",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities> <when attacking>"
 		],
 		"attackSound": "horse"
 	},
