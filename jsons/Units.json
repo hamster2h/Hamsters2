@@ -2205,6 +2205,17 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Musketman",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 24,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"attackSound": "shot"
+	},
+	{
 		"name": "Minuteman",
 		"uniqueTo": "America",
 		"replaces": "Musketman",
