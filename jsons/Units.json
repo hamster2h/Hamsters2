@@ -2040,6 +2040,19 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
+		"name": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Legion",
 		"uniqueTo": "Rome",
 		"replaces": "Swordsman",
@@ -2081,6 +2094,23 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Mohawk Warrior",
+		"uniqueTo": "Iroquois",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 15,
+		"cost": 60,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Gunpowder",
+		"promotions": [
+			"[Mohawk Warrior] ability"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Ngao Mbeba",
 		"uniqueTo": "Kongo",
 		"replaces": "Swordsman",
@@ -2096,6 +2126,18 @@
 			"Cannot attack"
 		],
 		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Longswordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 21,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
 		"attackSound": "metalhit"
 	},
 	{
