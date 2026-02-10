@@ -323,7 +323,7 @@
 		"unitType": "Scout",
 		"movement": 4,
 		"strength": 40,
-		"cost": 450,
+		"cost": 3000,
 		"requiredTech": "Enhancing",
 		"uniques": [
 			"Can see invisible [Wounded] units",
