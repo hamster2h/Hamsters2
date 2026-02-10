@@ -1227,7 +1227,7 @@
 		"range": 3,
 		"strength": 70,
 		"rangedStrength": 70,
-		"cost": 2500,
+		"cost": 5000,
 		"requiredTech": "Computers",
 		"upgradesTo": "Future Copter",
 		"obsoleteTech": "Clean Energy",
@@ -1254,7 +1254,7 @@
 		"range": 4,
 		"strength": 90,
 		"rangedStrength": 90,
-		"cost": 7000,
+		"cost": 10000,
 		"requiredTech": "Clean Energy",
 		"requiredResource": "Oil",
 		"uniques": [
