@@ -1318,26 +1318,6 @@
 		]
 	},
 	{
-		"name": "Atomic Bomb",
-		"unitType": "Atomic Bomber",
-		"movement": 1,
-		"strength": 150,
-		"rangedStrength": 150,
-		"range": 8,
-		"cost": 600,
-		"requiredTech": "Nuclear Fission",
-		"requiredResource": "Oil",
-		"obsoleteTech": "Advanced Ballistics",
-		"uniques": [
-			"Consumes [1] [Uranium]",
-			"Nuclear weapon of Strength [1]",
-			"Only available <if [Nuclear Testing Site] is constructed>",
-			"Self-destructs when attacking",
-			"Blast radius [1]"
-		],
-		"attackSound": "nuke"
-	},
-	{
 		"name": "Guided Missile",
 		"unitType": "Missile",
 		"movement": 1,
@@ -1419,6 +1399,26 @@
 			"Nuclear weapon of Strength [3]",
 			"Blast radius [1]",
 			"Can be purchased with [Gold] [in all cities]"
+		],
+		"attackSound": "nuke"
+	},
+	{
+		"name": "Atomic Bomb",
+		"unitType": "Atomic Bomber",
+		"movement": 1,
+		"strength": 150,
+		"rangedStrength": 150,
+		"range": 8,
+		"cost": 6000,
+		"requiredTech": "Nuclear Fission",
+		"upgradesTo": "Nuclear Missile",
+		"obsoleteTech": "Advanced Ballistics",
+		"requiredResource": "Oil",
+		"uniques": [
+			"Consumes [1] [Uranium]",
+			"Only available <if [Nuclear Testing Site] is constructed>",
+			"Nuclear weapon of Strength [1]",
+			"Blast radius [1]"
 		],
 		"attackSound": "nuke"
 	},
