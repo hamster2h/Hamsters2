@@ -1090,8 +1090,7 @@
 			"Consumes [1] [Iron]",
 			"[50]% chance to intercept air attacks <after discovering [Ballistics]>",
 			"Withdraws before melee combat <with [60]% chance>",
-			"Can see invisible [Submarine] units",
-			"[+100]% Strength <vs [Submarine] units>"
+			"Can see invisible [Submarine] units"
 		],
 		"promotions": [
 			"Indirect Fire"
@@ -1214,7 +1213,6 @@
 			"[+100]% Strength <after discovering [Lasers]>",
 			"[+100]% Strength <vs [non-[Air]] units> <after discovering [Nuclear Fusion]>",
 			"Can see invisible [Submarine] units",
-			"[+100]% Strength <vs [Submarine] units>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
