@@ -1270,7 +1270,7 @@
 		"movement": 5,
 		"strength": 35,
 		"rangedStrength": 60,
-		"cost": 550,
+		"cost": 3300,
 		"requiredTech": "Refrigeration",
 		"upgradesTo": "Nuclear Submarine",
 		"requiredResource": "Oil",
@@ -1287,13 +1287,13 @@
 		"strength": 65,
 		"range": 3,
 		"rangedStrength": 100,
-		"cost": 800,
+		"cost": 8000,
 		"requiredTech": "Telecommunications",
 		"requiredResource": "Uranium",
 		"uniques": [
 			"[+100]% Strength <when attacking>",
 			"Can move after attacking",
-			"Can carry [8] [Big Missile] units",
+			"Can carry [6] [Big Missile] units",
 			"[+1] Sight"
 		],
 		"attackSound": "torpedo"
@@ -1351,6 +1351,23 @@
 			"[+125]% Strength <after discovering [Lasers]>",
 			"[+100]% Strength <vs [Land] units> <after discovering [Lasers]>",
 			"[+4] Range <after discovering [Lasers]>"
+		],
+		"attackSound": "missile"
+	},
+	{
+		"name": "Big Missile",
+		"unitType": "Big Missile",
+		"movement": 1,
+		"strength": 90,
+		"rangedStrength": 90,
+		"range": 12,
+		"cost": 200,
+		"requiredTech": "Advanced Ballistics",
+		"uniques": [
+			"[-100]% maintenance costs",
+			"[+125]% Strength <after discovering [Lasers]>",
+			"[+100]% Strength <vs [Land] units> <after discovering [Lasers]>",
+			"[+6] Range <after discovering [Lasers]>"
 		],
 		"attackSound": "missile"
 	},
