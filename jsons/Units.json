@@ -564,7 +564,7 @@
 		"strength": 10,
 		"rangedStrength": 14,
 		"range": 4,
-		"cost": 480,
+		"cost": 520,
 		"requiredTech": "Dynamite",
 		"upgradesTo": "Rocket Artillery",
 		"obsoleteTech": "Rocketry",
