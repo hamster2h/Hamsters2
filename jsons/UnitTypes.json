@@ -131,7 +131,8 @@
         "name": "Atomic Bomber",
         "movementType": "Air",
         "uniques": [
-            "Aircraft"
+            "Aircraft",
+			"Self-destructs when attacking"
         ]
     },
     {
