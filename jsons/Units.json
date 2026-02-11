@@ -1303,7 +1303,7 @@
 		"unitType": "Aircraft Carrier",
 		"movement": 5,
 		"strength": 40,
-		"cost": 800,
+		"cost": 5000,
 		"requiredTech": "Electronics",
 		"requiredResource": "Oil",
 		"uniques": [
