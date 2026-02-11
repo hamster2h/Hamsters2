@@ -1335,7 +1335,7 @@
 		"attackSound": "missile"
 	},
 	{
-		"name": "Big Missile",
+		"name": "LR Missile",
 		"unitType": "Big Missile",
 		"movement": 1,
 		"strength": 90,
