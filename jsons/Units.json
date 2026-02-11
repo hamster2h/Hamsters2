@@ -1050,6 +1050,50 @@
 		"attackSound": "cannon"
 	},
 	{
+		"name": "Ironclad",
+		"unitType": "Melee Water",
+		"movement": 3,
+		"strength": 45,
+		"cost": 250,
+		"requiredTech": "Steam Power",
+		"upgradesTo": "Destroyer",
+		"obsoleteTech": "Combustion",
+		"requiredResource": "Iron",
+		"uniques": [
+			"Consumes [2] [Coal]",
+			"[+33]% Strength <vs cities>",
+			"Double movement in [Coast]",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Destroyer",
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"strength": 55,
+		"rangedStrength": 55,
+		"range": 2,
+		"interceptRange": 1,
+		"cost": 325,
+		"requiredTech": "Combustion",
+		"upgradesTo": "Missile Cruiser",
+		"obsoleteTech": "Robotics",
+		"requiredResource": "Oil",
+		"uniques": [
+			"Consumes [1] [Iron]",
+			"[50]% chance to intercept air attacks <after discovering [Ballistics]>",
+			"[+75]% Strength <vs [Land] units>",
+			"Withdraws before melee combat <with [60]% chance>",
+			"Can see invisible [Submarine] units",
+			"[+100]% Strength <vs [Submarine] units>"
+		],
+		"promotions": [
+			"Indirect Fire"
+		],
+		"attackSound": "shipguns"
+	},
+	{
 		"name": "Skeid",
 		"uniqueTo": "Norway",
 		"replaces": "Galleass",
@@ -1197,50 +1241,6 @@
 			"[Privateer] ability"
 		],
 		"attackSound": "cannon"
-	},
-	{
-		"name": "Ironclad",
-		"unitType": "Melee Water",
-		"movement": 3,
-		"strength": 45,
-		"cost": 250,
-		"requiredTech": "Steam Power",
-		"upgradesTo": "Destroyer",
-		"obsoleteTech": "Combustion",
-		"requiredResource": "Iron",
-		"uniques": [
-			"Consumes [2] [Coal]",
-			"[+33]% Strength <vs cities>",
-			"Double movement in [Coast]",
-			"Never appears as a Barbarian unit"
-		],
-		"attackSound": "shipguns"
-	},
-	{
-		"name": "Destroyer",
-		"unitType": "Ranged Water",
-		"movement": 5,
-		"strength": 55,
-		"rangedStrength": 55,
-		"range": 2,
-		"interceptRange": 1,
-		"cost": 325,
-		"requiredTech": "Combustion",
-		"upgradesTo": "Missile Cruiser",
-		"obsoleteTech": "Robotics",
-		"requiredResource": "Oil",
-		"uniques": [
-			"Consumes [1] [Iron]",
-			"[50]% chance to intercept air attacks <after discovering [Ballistics]>",
-			"[+75]% Strength <vs [Land] units>",
-			"Withdraws before melee combat <with [60]% chance>",
-			"Can see invisible [Submarine] units",
-			"[+100]% Strength <vs [Submarine] units>"
-		],
-		"promotions": [
-			"Indirect Fire"
-		],
-		"attackSound": "shipguns"
 	},
 	{
 		"name": "Submarine",
