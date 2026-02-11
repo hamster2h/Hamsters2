@@ -238,7 +238,7 @@
 		"unitType": "Support",
 		"movement": 2,
 		"strength": 10,
-		"cost": 450,
+		"cost": 1500,
 		"requiredTech": "The Internet",
 		"promotions": [
 			"Support Unit"
