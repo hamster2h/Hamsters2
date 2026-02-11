@@ -266,14 +266,14 @@
 		"name": "Recon",
 		"unitType": "Scout",
 		"movement": 3,
-		"strength": 6,
+		"strength": 9,
 		"cost": 200,
 		"requiredTech": "Rifling",
 		"upgradesTo": "Seeker",
 		"obsoleteTech": "Metagenetics",
 		"uniques": [
 			"Ignores Zone of Control",
-			"[+200]% Strength <after discovering [Rifling]>",
+			"[+100]% Strength <after discovering [Rifling]>",
 			"[-50]% maintenance costs",
 			"Never appears as a Barbarian unit"
 		],
