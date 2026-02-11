@@ -273,7 +273,7 @@
 		"obsoleteTech": "Metagenetics",
 		"uniques": [
 			"Ignores Zone of Control",
-			"[+150]% Strength <after discovering [Rifling]>",
+			"[+100]% Strength <after discovering [Rifling]>",
 			"[-50]% maintenance costs",
 			"Never appears as a Barbarian unit"
 		],
