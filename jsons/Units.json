@@ -588,7 +588,7 @@
 		"strength": 21,
 		"rangedStrength": 28,
 		"range": 5,
-		"cost": 640,
+		"cost": 4000,
 		"requiredTech": "Rocketry",
 		"upgradesTo": "Hovertillery",
 		"obsoleteTech": "Terraforming",
@@ -612,7 +612,7 @@
 		"strength": 25,
 		"rangedStrength": 40,
 		"range": 6,
-		"cost": 810,
+		"cost": 6000,
 		"requiredTech": "Terraforming",
 		"requiredResource": "Oil",
 		"uniques": [
@@ -634,7 +634,7 @@
 		"movement": 2,
 		"interceptRange": 1,
 		"strength": 40,
-		"cost": 375,
+		"cost": 800,
 		"requiredTech": "Ballistics",
 		"upgradesTo": "Mobile SAM",
 		"uniques": [
@@ -654,7 +654,7 @@
 		"movement": 4,
 		"interceptRange": 4,
 		"strength": 32,
-		"cost": 425,
+		"cost": 6000,
 		"requiredTech": "Rocketry",
 		"upgradesTo": "Hover-SAM",
 		"obsoleteTech": "Terraforming",
@@ -679,7 +679,7 @@
 		"movement": 4,
 		"interceptRange": 4,
 		"strength": 40,
-		"cost": 540,
+		"cost": 8000,
 		"requiredTech": "Terraforming",
 		"requiredResource": "Oil",
 		"uniques": [
@@ -1846,12 +1846,14 @@
 		"movement": 5,
 		"strength": 200,
 		"rangedStrength": 200,
-		"range": 2,
-		"cost": 750,
+		"range": 3,
+		"cost": 16000,
 		"requiredTech": "Nuclear Fusion",
 		"uniques": [
 			"Cyber",
 			"Consumes [4] [Composites]",
+			"[+50]% Strength <vs [Land] units>",
+			"[-75]% Strength <vs [Armored] units>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
