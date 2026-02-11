@@ -2230,6 +2230,13 @@ UnitIcons/Orbital Missile
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Big Missile
+  rotate: false
+  xy: 669, 450
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Photon Generator
   rotate: false
   xy: 328, 248
