@@ -202,7 +202,7 @@
 		"unitType": "Support",
 		"movement": 2,
 		"strength": 10,
-		"cost": 375,
+		"cost": 900,
 		"requiredTech": "Biology",
 		"upgradesTo": "Tactical Supplier",
 		"obsoleteTech": "Pharmaceuticals",
@@ -222,7 +222,7 @@
 		"requiredTech": "Pharmaceuticals",
 		"movement": 4,
 		"strength": 20,
-		"cost": 560,
+		"cost": 1400,
 		"promotions": [
 			"Support Unit"
 		],
