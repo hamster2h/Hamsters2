@@ -22,25 +22,6 @@
 		"attackSound": "elephant"
 	},
 	{
-		"name": "Nau",
-		"uniqueTo": "Portugal",
-		"replaces": "Caravel",
-		"unitType": "Melee Water",
-		"movement": 6,
-		"strength": 20,
-		"cost": 120,
-		"requiredTech": "Astronomy",
-		"upgradesTo": "Ironclad",
-		"obsoleteTech": "Combustion",
-		"uniques": [
-			"[+1] Sight",
-			"Withdraws before melee combat <with [80]% chance>",
-			"Can move after attacking"
-		],
-		"hurryCostModifier": 30,
-		"attackSound": "cannon"
-	},
-	{
 		"name": "Turtle Ship",
 		"uniqueTo": "Korea",
 		"unitType": "Melee Water",
@@ -55,22 +36,6 @@
 		],
 		"hurryCostModifier": 30,
 		"attackSound": "cannon"
-	},
-	{
-		"name": "Quinquereme",
-		"uniqueTo": "Carthage",
-		"unitType": "Melee Water",
-		"replaces": "Trireme",
-		"movement": 5,
-		"strength": 14,
-		"cost": 25,
-		"requiredTech": "Sailing",
-		"upgradesTo": "Caravel",
-		"obsoleteTech": "Astronomy",
-		"uniques": [
-			"Cannot enter ocean tiles"
-		],
-		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Settler",
@@ -372,7 +337,7 @@
 		"unitType": "Support",
 		"movement": 3,
 		"strength": 20,
-		"cost": 300,
+		"cost": 2500,
 		"requiredTech": "Computers",
 		"uniques": [
 			"Intel2",
@@ -999,6 +964,90 @@
 			"Hovering"
 		],
 		"attackSound": "energyshot"
+	},
+	{
+		"name": "Trireme",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 20,
+		"cost": 90,
+		"requiredTech": "Sailing",
+		"upgradesTo": "Caravel",
+		"obsoleteTech": "Astronomy",
+		"uniques": [
+			"Cannot enter ocean tiles",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Quinquereme",
+		"uniqueTo": "Carthage",
+		"replaces": "Trireme",
+		"unitType": "Melee Water",
+		"movement": 5,
+		"strength": 30,
+		"cost": 50,
+		"requiredTech": "Sailing",
+		"upgradesTo": "Caravel",
+		"obsoleteTech": "Astronomy",
+		"uniques": [
+			"Cannot enter ocean tiles"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Dromon",
+		"uniqueTo": "Byzantium",
+		"replaces": "Trireme",
+		"unitType": "Ranged Water",
+		"movement": 4,
+		"strength": 18,
+		"rangedStrength": 20,
+		"cost": 120,
+		"requiredTech": "Sailing",
+		"upgradesTo": "Galleass",
+		"obsoleteTech": "Astronomy",
+		"uniques": [
+			"Cannot enter ocean tiles",
+			"[+50]% Strength <vs [Water] units>"
+		],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Caravel",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 45,
+		"cost": 500,
+		"requiredTech": "Astronomy",
+		"upgradesTo": "Ironclad",
+		"obsoleteTech": "Combustion",
+		"uniques": [
+			"[+1] Sight",
+			"Withdraws before melee combat <with [80]% chance>"
+		],
+		"hurryCostModifier": 30,
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Nau",
+		"uniqueTo": "Portugal",
+		"replaces": "Caravel",
+		"unitType": "Melee Water",
+		"movement": 6,
+		"strength": 45,
+		"cost": 500,
+		"requiredTech": "Astronomy",
+		"upgradesTo": "Ironclad",
+		"obsoleteTech": "Combustion",
+		"uniques": [
+			"[+1] Sight",
+			"Withdraws before melee combat <with [80]% chance>",
+			"Can move after attacking"
+		],
+		"hurryCostModifier": 30,
+		"attackSound": "cannon"
 	},
 	{
 		"name": "Skeid",
