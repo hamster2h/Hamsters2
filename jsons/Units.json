@@ -1344,7 +1344,7 @@
 		"strength": 80,
 		"rangedStrength": 80,
 		"range": 8,
-		"cost": 200,
+		"cost": 1000,
 		"requiredTech": "Advanced Ballistics",
 		"uniques": [
 			"[-100]% maintenance costs",
@@ -1361,7 +1361,7 @@
 		"strength": 90,
 		"rangedStrength": 90,
 		"range": 12,
-		"cost": 200,
+		"cost": 1500,
 		"requiredTech": "Advanced Ballistics",
 		"uniques": [
 			"[-100]% maintenance costs",
@@ -1378,7 +1378,7 @@
 		"strength": 200,
 		"rangedStrength": 200,
 		"range": 99,
-		"cost": 2000,
+		"cost": 4000,
 		"requiredTech": "Spaceflight",
 		"uniques": [
 			"[-100]% maintenance costs",
@@ -1393,7 +1393,7 @@
 		"strength": 250,
 		"rangedStrength": 250,
 		"range": 12,
-		"cost": 80000,
+		"cost": 8000,
 		"requiredTech": "Advanced Ballistics",
 		"requiredResource": "Uranium",
 		"uniques": [
@@ -1401,7 +1401,6 @@
 			"Nuclear weapon of Strength [2]",
 			"Blast radius [2]",
 			"[+99] Range <after discovering [Spaceflight]>",
-			"Unbuildable",
 			"Can be purchased with [Gold] [in all cities]"
 		],
 		"attackSound": "nuke"
@@ -1413,13 +1412,12 @@
 		"strength": 500,
 		"rangedStrength": 500,
 		"range": 99,
-		"cost": 140000,
+		"cost": 14000,
 		"requiredTech": "Spaceflight",
 		"uniques": [
 			"[-100]% maintenance costs",
 			"Nuclear weapon of Strength [3]",
 			"Blast radius [1]",
-			"Unbuildable",
 			"Can be purchased with [Gold] [in all cities]"
 		],
 		"attackSound": "nuke"
