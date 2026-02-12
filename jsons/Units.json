@@ -2180,7 +2180,7 @@
 		"strength": 90,
 		"rangedStrength": 90,
 		"range": 200,
-		"interceptRange": 99,
+		"interceptRange": 200,
 		"cost": 19000,
 		"requiredTech": "Spaceflight",
 		"requiredResource": "Oil",
