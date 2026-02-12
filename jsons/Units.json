@@ -1341,14 +1341,14 @@
 		"movement": 1,
 		"strength": 90,
 		"rangedStrength": 90,
-		"range": 12,
+		"range": 14,
 		"cost": 1500,
 		"requiredTech": "Advanced Ballistics",
 		"uniques": [
 			"[-100]% maintenance costs",
 			"[+125]% Strength <after discovering [Lasers]>",
 			"[+100]% Strength <vs [Land] units> <after discovering [Lasers]>",
-			"[+6] Range <after discovering [Lasers]>"
+			"[+8] Range <after discovering [Lasers]>"
 		],
 		"attackSound": "missile"
 	},
@@ -1358,7 +1358,7 @@
 		"movement": 1,
 		"strength": 200,
 		"rangedStrength": 200,
-		"range": 99,
+		"range": 200,
 		"cost": 4000,
 		"requiredTech": "Spaceflight",
 		"uniques": [
@@ -1381,7 +1381,7 @@
 			"Only available <if [Nuclear Testing Site] is constructed>",
 			"Nuclear weapon of Strength [2]",
 			"Blast radius [2]",
-			"[+99] Range <after discovering [Spaceflight]>",
+			"[+188] Range <after discovering [Spaceflight]>",
 			"Can be purchased with [Gold] [in all cities]"
 		],
 		"attackSound": "nuke"
@@ -1392,7 +1392,7 @@
 		"movement": 1,
 		"strength": 500,
 		"rangedStrength": 500,
-		"range": 99,
+		"range": 200,
 		"cost": 14000,
 		"requiredTech": "Spaceflight",
 		"uniques": [
