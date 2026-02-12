@@ -1341,14 +1341,14 @@
 		"movement": 1,
 		"strength": 90,
 		"rangedStrength": 90,
-		"range": 14,
+		"range": 12,
 		"cost": 1500,
 		"requiredTech": "Advanced Ballistics",
 		"uniques": [
 			"[-100]% maintenance costs",
 			"[+125]% Strength <after discovering [Lasers]>",
 			"[+100]% Strength <vs [Land] units> <after discovering [Lasers]>",
-			"[+8] Range <after discovering [Lasers]>"
+			"[+6] Range <after discovering [Lasers]>"
 		],
 		"attackSound": "missile"
 	},
