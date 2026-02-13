@@ -929,13 +929,7 @@
 		"requiredResource": "Oil",
 		"uniques": [
 			"Cyber",
-			"Consumes [1] [Aluminum]",
-			"[+200]% Strength <vs [Armored] units> <when attacking>",
-			"No defensive terrain bonus",
-			"Can move after attacking",
-			"Ignores Zone of Control",
-			"Unable to capture cities",
-			"Never appears as a Barbarian unit"
+			"Consumes [1] [Aluminum]"
 		],
 		"promotions": [
 			"Hovering"
@@ -954,13 +948,7 @@
 		"requiredResource": "Oil",
 		"uniques": [
 			"Cyber",
-			"Consumes [1] [Aluminum]",
-			"[+200]% Strength <vs [Armored] units> <when attacking>",
-			"No defensive terrain bonus",
-			"Can move after attacking",
-			"Ignores Zone of Control",
-			"Unable to capture cities",
-			"Never appears as a Barbarian unit"
+			"Consumes [1] [Aluminum]"
 		],
 		"promotions": [
 			"Hovering"
@@ -2038,8 +2026,7 @@
 			"Cyber",
 			"Consumes [2] [Aluminum]",
 			"Damage taken from interception reduced by [50]%",
-			"Cannot be carried by [Carrier] units",
-			"Can see over obstacles"
+			"Cannot be carried by [Carrier] units"
 		],
 		"promotions": [
 			"Stealth"
