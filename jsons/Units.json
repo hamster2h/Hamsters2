@@ -105,7 +105,8 @@
 			"Can enter ice tiles",
 			"Can build [Remove Ice] improvements on tiles",
 			"Can build [Offshore Wind Farm] improvements on tiles",
-			"Uncapturable"
+			"Uncapturable",
+			"Limited to [6] per Civilization"
 		]
 	},
 	{
