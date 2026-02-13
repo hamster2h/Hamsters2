@@ -156,7 +156,6 @@
         "movementType": "Land",
         "uniques": [
             "[+33]% Strength <vs [Air] units> <when adjacent to a [Anti-Air] unit>",
-			"[+200]% Strength <vs [Armored] units> <when attacking>",
 			"Can pass through impassable tiles",
 			"No defensive terrain bonus",
 			"Can move after attacking",
