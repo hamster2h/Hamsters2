@@ -55,6 +55,25 @@
         "row": 3
 	},
 	{
+		"name": "Woodsman",
+		"prerequisites": [
+			"Shock III",
+			"Drill III"
+		],
+		"uniques": [
+			"[+25]% Strength <when fighting in [Forest] tiles>",
+			"[+25]% Strength <when fighting in [Jungle] tiles>",
+			"Double movement in [Forest]",
+			"Double movement in [Jungle]"
+		],
+		"unitTypes": [
+			"Sword",
+			"Gunpowder"
+		],
+        "column": 6,
+        "row": 5
+	},
+	{
 		"name": "Anti-Armor I",
 		"uniques": [
 			"[+75]% Strength <vs [Armored] units> <when attacking>"
@@ -584,4 +603,5 @@
 		]
 	}
 ]
+
 
