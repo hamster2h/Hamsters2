@@ -1,5 +1,21 @@
 [
 	{
+		"name": "Open-Air Museum",
+		"uniqueTo": "Sweden",
+		"culture": 4,
+		"maintenance": 3,
+		"greatPersonPoints": {
+			"Great Artist": 6
+		},
+		"uniques": [
+			"[+1 Culture] from [Tundra] tiles [in this city]",
+			"[+1 Culture] from [Snow] tiles [in this city]",
+			"Destroyed when the city is captured"
+		],
+		"hurryCostModifier": 0,
+		"requiredTech": "Metal Casting"
+	},
+	{
 		"name": "Stave Church",
 		"uniqueTo": "Norway",
 		"cost": 100,
@@ -179,22 +195,6 @@
 		],
 		"hurryCostModifier": 10,
 		"requiredTech": "Acoustics"
-	},
-	{
-		"name": "Open-Air Museum",
-		"uniqueTo": "Sweden",
-		"culture": 4,
-		"maintenance": 3,
-		"greatPersonPoints": {
-			"Great Artist": 6
-		},
-		"uniques": [
-			"[+1 Culture] from [Tundra] tiles [in this city]",
-			"[+1 Culture] from [Snow] tiles [in this city]",
-			"Destroyed when the city is captured"
-		],
-		"hurryCostModifier": 0,
-		"requiredTech": "Metal Casting"
 	},
 	{
 		"name": "Shrine",
