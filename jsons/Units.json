@@ -929,7 +929,8 @@
 		"requiredResource": "Oil",
 		"uniques": [
 			"Cyber",
-			"Consumes [1] [Aluminum]"
+			"Consumes [1] [Aluminum]",
+			"[+200]% Strength <vs [Armored] units> <when attacking>"
 		],
 		"promotions": [
 			"Hovering"
@@ -948,7 +949,8 @@
 		"requiredResource": "Oil",
 		"uniques": [
 			"Cyber",
-			"Consumes [1] [Aluminum]"
+			"Consumes [1] [Aluminum]",
+			"[+200]% Strength <vs [Armored] units> <when attacking>"
 		],
 		"promotions": [
 			"Hovering"
@@ -1351,6 +1353,7 @@
 		"cost": 4000,
 		"requiredTech": "Spaceflight",
 		"uniques": [
+			"Space",
 			"[-100]% maintenance costs",
 			"Cannot be intercepted"
 		],
@@ -1367,6 +1370,7 @@
 		"requiredTech": "Advanced Ballistics",
 		"requiredResource": "Uranium",
 		"uniques": [
+			"Space",
 			"Only available <if [Nuclear Testing Site] is constructed>",
 			"Nuclear weapon of Strength [2]",
 			"Blast radius [2]",
@@ -1385,6 +1389,7 @@
 		"cost": 14000,
 		"requiredTech": "Spaceflight",
 		"uniques": [
+			"Space",
 			"[-100]% maintenance costs",
 			"Nuclear weapon of Strength [3]",
 			"Blast radius [1]",
