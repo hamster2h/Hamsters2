@@ -1346,6 +1346,7 @@
 		"innerColor": [0,55,106],
 		"uniqueName": "Eight Banners",
 		"uniques": [
+			"All newly-trained [relevant] units [in all cities] receive the [Charge] promotion",
 			"[+100]% Production when constructing [Stable] buildings [in all cities]",
 			"[-100]% maintenance costs <for [Mounted] units>"
 		],
