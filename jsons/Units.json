@@ -27,7 +27,7 @@
 		"unitType": "Melee Water",
 		"movement": 4,
 		"strength": 36,
-		"cost": 120,
+		"cost": 300,
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
