@@ -468,7 +468,7 @@
 		"strength": 11,
 		"rangedStrength": 26,
 		"range": 2,
-		"cost": 120,
+		"cost": 180,
 		"requiredTech": "Physics",
 		"upgradesTo": "Cannon",
 		"obsoleteTech": "Chemistry",
