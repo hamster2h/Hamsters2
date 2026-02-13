@@ -144,7 +144,8 @@
 		"uniqueName": "Pride of the People",
 		"uniques": [
 			"[-50]% construction time for [Pasture] improvements",
-			"[-50]% construction time for [Farm] improvements"
+			"[-50]% construction time for [Farm] improvements",
+			"[+3 Gold, +1 Culture] from each Trade Route"
 		],
 		"cities": [
 			"Buenos Aires","La Plata","Cordoba","Jujuy","Catamarca","La Rioja","Formosa","Parana","Posadas","Neuquen",
@@ -1195,7 +1196,9 @@
 			"No damage penalty for wounded units <for [non-[Air]] units>",
 			"[+10]% [Production] [in all cities] <after discovering [Steam Power]>",
 			"[+1 Food] from [Coast] tiles [in all cities]",
-			"[+1 Food] from [Ocean] tiles [in all cities]"
+			"[+1 Food] from [Ocean] tiles [in all cities]",
+			"[+1 Culture] from every [Fishing Boats]",
+			"[+2 Culture] from every [Atoll]",
 		],
 		"cities": [
 			"Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama",
