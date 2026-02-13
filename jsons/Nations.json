@@ -1402,7 +1402,7 @@
         "adjective": ["Norwegian"],
         "startBias": [
 			"Coast",
-			"Tundra"
+			"Snow"
 		],
         "preferredVictoryType": "Domination",
         "personality": "Harald Hardrada",
