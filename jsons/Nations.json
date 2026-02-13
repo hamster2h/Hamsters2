@@ -183,7 +183,7 @@
 		"uniqueName": "Treasures of Nineveh",
 		"uniques": [
 			"Upon capturing a city, receive [20] times its [Science] production as [Science] immediately",
-			"Gain [200] [Science] <upon conquering a city>"
+			"Gain [400] [Science] <upon conquering a city>"
 		],
 		"cities": [
 			"Assur","Nineveh","Nimrud","Kar-Tukulti-Ninurta","Dur-Sharrukin","Halab","Carchemish","Kanesh","Harran","Imgur-Enlil",
