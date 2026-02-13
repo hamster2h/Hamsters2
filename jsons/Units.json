@@ -70,8 +70,7 @@
 		"cost": 42,
 		"uniques": [
 			"Can build [Land] improvements on tiles",
-			"[+1] Movement <in [Water] tiles>",
-			"[+50]% maintenance costs"
+			"[+1] Movement <in [Water] tiles>"
 		],
 		"promotions": [
 			"Medic",
