@@ -258,7 +258,8 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Diplomatic Marriage",
 		"uniques": [
-			"Can spend Gold to annex or puppet a City-State that has been your Ally for [5] turns"
+			"Can spend Gold to annex or puppet a City-State that has been your Ally for [5] turns",
+			"May buy items in puppet cities"
 		],
 		"cities": [
 			"Vienna", "Salzburg", "Graz", "Linz", "Klagenfurt", "Bregenz", "Innsbruck", "Kitzbühel",
