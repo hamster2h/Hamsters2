@@ -65,7 +65,7 @@
         "favoredReligion": "Christianity",
 		"uniqueName": "Manifest Destiny",
 		"uniques": [
-			"[4] Range <for [Air]",
+			"[2] Range <for [Air] units>",
 			"[+1] Sight <for [{Military} {Land}] units>",
 			"[+1] Movement <for [{Military} {Land}] units>",
 			"[-50]% Gold cost of acquiring tiles [in all cities]",
