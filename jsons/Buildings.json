@@ -226,9 +226,9 @@
 		"replaces": "Library",
 		"science": 2,
 		"culture": 2,
-		"maintenance": 1,
+		"maintenance": 2,
 		"uniques": [
-			"[+1 Science] per [2] population [in this city]",
+			"[+2 Science] per [2] population [in this city]",
 			"New [Military] units start with [15] XP [in this city]"
 		],
 		"hurryCostModifier": 25,
