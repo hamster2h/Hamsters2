@@ -156,7 +156,13 @@
         "movementType": "Land",
         "uniques": [
             "[+33]% Strength <vs [Air] units> <when adjacent to a [Anti-Air] unit>",
-            "Can pass through impassable tiles"
+			"[+200]% Strength <vs [Armored] units> <when attacking>",
+			"Can pass through impassable tiles",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"Ignores Zone of Control",
+			"Unable to capture cities",
+			"Never appears as a Barbarian unit"
         ]
     },
     {
