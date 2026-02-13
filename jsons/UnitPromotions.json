@@ -445,6 +445,10 @@
 			"[+25]% Strength <when fighting in [Foreign Land] tiles>"
 		]
 	},
+	{
+		"name": "[Hussar] ability",
+		"uniques": ["[+100]% to Flank Attack bonuses"]
+	},
     {
         "name": "Mystic Blade",
         "uniques": [
@@ -576,13 +580,8 @@
 	{
 		"name": "Golden Age from Victories",
 		"uniques": [
-			"Earn [200]% of killed [Military] unit's [Strength] as [Golden Age points]"
+			"Earn [400]% of killed [Military] unit's [Strength] as [Golden Age points]"
 		]
 	}
 ]
-
-
-
-
-
 
