@@ -407,6 +407,18 @@
 		"requiredTech": "Bronze Working"
 	},
 	{
+		"name": "Military Academy",
+		"maintenance": 1,
+		"requiredBuilding": "Armory",
+		"uniques": [
+			"New [Military] units start with [15] XP [in this city]",
+			"[+25]% Production when constructing [Military] units [in this city]",
+			"Destroyed when the city is captured"
+		],
+		"hurryCostModifier": 0,
+		"requiredTech": "Military Science"
+	},
+	{
 		"name": "Ducal Stable",
 		"uniqueTo": "Poland",
 		"replaces": "Stable",
