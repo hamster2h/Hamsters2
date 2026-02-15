@@ -488,7 +488,8 @@
                 "uniques": [
                     "[+1 Science] from every [Trading post]",
 					"[+1 Science] from every [Brazilwood Camp]",
-                    "[+17]% [Science] from every [University]"
+                    "[+17]% [Science] from every [University]",
+					"[+25]% [Production] from every [University]"
                 ],
                 "requires": ["Secularism"],
                 "row": 2,
@@ -507,7 +508,8 @@
                 "name": "Scientific Revolution",
                 "uniques": [
 					"Science gained from research agreements [+50]%",
-					"[+25]% [Science] [in all cities]"
+					"[+25]% [Science] [in all cities]",
+					"[+10]% [Production] [in all cities]"
 				],
                 "requires": ["Free Thought"],
                 "row": 3,
