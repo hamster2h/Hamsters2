@@ -16,6 +16,21 @@
 		"requiredTech": "Metal Casting"
 	},
 	{
+		"name": "Coffee House",
+		"uniqueTo": "Austria",
+		"cost": 150,
+		"gold": 4,
+		"maintenance": 1,
+		"percentStatBonus": {
+			"production": 5
+		},
+		"uniques": [
+			"[+25]% Great Person generation [in this city]"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Printing Press"
+	},
+	{
 		"name": "Stave Church",
 		"uniqueTo": "Norway",
 		"cost": 100,
@@ -1051,21 +1066,6 @@
         "requiredBuilding": "Desalination Plant",
         "requiredTech": "Bronze Working"
     },
-	{
-		"name": "Coffee House",
-		"uniqueTo": "Austria",
-		"cost": 150,
-		"gold": 4,
-		"maintenance": 1,
-		"percentStatBonus": {
-			"production": 5
-		},
-		"uniques": [
-			"[+25]% Great Person generation [in this city]"
-		],
-		"hurryCostModifier": 25,
-		"requiredTech": "Printing Press"
-	},
     {
         "name": "Foundry",
         "cost": 200,
@@ -1139,7 +1139,7 @@
 			"[+1 Food] from [Mountain] tiles [in this city]",
 			"[+1 Food] from [Desert] tiles [in this city]",
 			"[+1 Food] from [Tundra] tiles [in this city]",
-			"[+2 Food] from [Snow] tiles [in this city]"
+			"[+1 Food] from [Snow] tiles [in this city]"
 		],
         "requiredTech": "Construction"
     },
@@ -1290,7 +1290,7 @@
         "name": "Mushroom Farm",
         "cost": 200,
         "uniques": [
-			"[+2 Food] from [Mountain] tiles [in this city]",
+			"[+1 Food] from [Mountain] tiles [in this city]",
 			"[+1 Food] from [Hill] tiles [in this city] <after discovering [Engineering]>",
 			"[+1 Food] from [Forest] tiles [in this city] <after discovering [Civil Service]>",
 			"[+1 Food] from [Jungle] tiles [in this city] <after discovering [Education]>"
