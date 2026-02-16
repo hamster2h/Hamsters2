@@ -792,7 +792,7 @@
 		"uniqueName": "Spirit of Adwa",
 		"uniques": [
 			"[+25]% Strength <when fighting units from a Civilization with more Cities than you>",
-			"[+1 Culture] per every [10] [Faith]"
+			"[+1 Culture] per every [15] [Faith]"
 		],
 		"cities": [
 			"Addis Ababa","Harar","Adwa","Lalibela","Gondar","Axum","Dire Dawa","Bahir Dar","Adama",
@@ -828,7 +828,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Ancien Régime",
 		"uniques": [
-			"[+15]% [Culture] [in all cities]",
+			"[+10]% [Culture] [in all cities]",
 			"[+2 Culture, +2 Gold] [in capital]",
 			"[+4 Culture] [in all cities] <before discovering [Steam Power]>"
 		],
