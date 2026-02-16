@@ -740,7 +740,7 @@
                 "name": "Order Complete",
                 "uniques": [
                     "[+2 Food, +2 Production, +2 Science, +2 Gold, +2 Culture] [in all cities]",
-					"[Gold] cost of purchasing [Missile] units [-50]%",
+					"[Gold] cost of purchasing [Missile] units [-25]%",
                     "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500])",
                     "Get the leader title of [Chairman [leaderName]]"
                 ]
@@ -949,7 +949,8 @@
 			{
 				"name": "Determination",
 				"uniques": [
-					"[+10]% Strength <for [Wounded] units>"
+					"[Gold] cost of purchasing [Missile] units [-25]%",
+					"[+25]% Strength <for [Wounded] units>"
 				],
 				"requires": [
 					"Futurism"
