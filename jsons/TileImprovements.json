@@ -731,7 +731,7 @@
 			"[+2 Gold, +1 Culture, +1 Gold] <within [1] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
-		"techRequired": "Construction",
+		"techRequired": "Masonry",
 		"shortcutKey": "M"
 	},
 	{
