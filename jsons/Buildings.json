@@ -309,6 +309,25 @@
 		"requiredTech": "Drama and Poetry"
 	},
 	{
+		"name": "Bazaar",
+		"uniqueTo": "Arabia",
+		"replaces": "Market",
+		"gold": 2,
+		"specialistSlots": {
+			"Merchant": 1
+		},
+		"percentStatBonus": {
+			"gold": 25
+		},
+		"uniques": [
+			"Provides 1 extra copy of each improved luxury resource near this City",
+			"[+12 Gold] from [Oil] tiles [in this city]",
+			"[+2 Gold] from [Oasis] tiles [in this city]"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Currency"
+	},
+	{
 		"name": "Bank",
 		"gold": 2,
 		"specialistSlots": {
