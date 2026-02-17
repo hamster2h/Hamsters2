@@ -135,14 +135,13 @@
 	{
 		"name": "Irish Pub",
 		"uniqueTo": "Ireland",
-		"cost": 200,
+		"cost": 75,
 		"happiness": 3,
 		"food": 2,
-		"culture": 2,
+		"culture": 4,
 		"maintenance": 2,
-		"requiredBuilding": "Colosseum",
 		"hurryCostModifier": 10,
-		"requiredTech": "Printing Press"
+		"requiredTech": "Construction"
 	},
 	{
 		"name": "Chocolatier",
