@@ -2356,17 +2356,18 @@
 		"replaces": "Longswordsman",
 		"unitType": "Sword",
 		"movement": 3,
-		"strength": 25,
-		"cost": 100,
+		"strength": 26,
+		"cost": 80,
 		"requiredTech": "Metal Casting",
-		"upgradesTo": "Musketman",
-		"obsoleteTech": "Metallurgy",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
 		"requiredResource": "Iron",
 		"uniques": [
 			"[+25]% Strength <when attacking>"
 		],
 		"promotions": [
-			"Amphibious"
+			"Woodsman",
+			"Besiege"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
@@ -2377,20 +2378,21 @@
 		"replaces": "Longswordsman",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 21,
-		"cost": 120,
+		"strength": 24,
+		"cost": 140,
 		"requiredTech": "Steel",
-		"upgradesTo": "Musketman",
-		"obsoleteTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
 		"requiredResource": "Iron",
 		"uniques": [
+			"May Paradrop to [Land] tiles up to [6] tiles away",
 			"Can instantly construct a [Fishing Boats] improvement"
 		],
 		"promotions": [
-			"Shock I",
-			"Drill I",
 			"Blitz",
-			"Great Generals II"
+			"March",
+			"Charge",
+			"Stealth"
 		],
 		"attackSound": "metalhit"
 	},
@@ -2403,10 +2405,11 @@
 		"strength": 24,
 		"cost": 120,
 		"requiredTech": "Steel",
-		"upgradesTo": "Musketman",
-		"obsoleteTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
 		"requiredResource": "Iron",
 		"uniques":[
+			"[+50]% Strength <when defending>",
 			"[+30]% Strength <vs [Melee] units>"
 		],
 		"promotions": [
