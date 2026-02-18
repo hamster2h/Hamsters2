@@ -212,7 +212,7 @@
 	},
 	{
 		"name": "Shrine",
-		"cost": 40,
+		"cost": 50,
 		"faith": 1,
 		"maintenance": 1,
 		"uniques": [
