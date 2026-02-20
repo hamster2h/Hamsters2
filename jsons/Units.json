@@ -1391,8 +1391,7 @@
 			"Only available <if [Nuclear Testing Site] is constructed>",
 			"Nuclear weapon of Strength [2]",
 			"Blast radius [2]",
-			"[+188] Range <after discovering [Spaceflight]>",
-			"Can be purchased with [Gold] [in all cities]"
+			"[+188] Range <after discovering [Spaceflight]>"
 		],
 		"attackSound": "nuke"
 	},
@@ -1409,8 +1408,7 @@
 			"Space",
 			"[-100]% maintenance costs",
 			"Nuclear weapon of Strength [3]",
-			"Blast radius [1]",
-			"Can be purchased with [Gold] [in all cities]"
+			"Blast radius [1]"
 		],
 		"attackSound": "nuke"
 	},
