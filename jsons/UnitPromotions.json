@@ -31,6 +31,22 @@
 		]
 	},
 	{
+		"name": "Blitz",
+		"prerequisites": ["Shock III","Drill III"],
+		"uniques": [
+			"[1] additional attacks per turn",
+			"Can move after attacking"
+		],
+		"unitTypes": [
+			"Sword",
+			"Gunpowder",
+			"Mounted",
+			"Armored"
+		],
+        "column": 6,
+        "row": 4
+	},
+	{
 		"name": "March",
 		"prerequisites": [
 			"Accuracy II",
@@ -511,6 +527,7 @@
         "uniques": [
             "[1] additional attacks per turn",
             "[+1] Movement",
+			"Can move after attacking",
             "Only available <for units without [Ambition]>",
             "Only available <for units without [Invulnerability]>",
             "Only available <for units without [Restlessness]>",
@@ -603,6 +620,3 @@
 		]
 	}
 ]
-
-
-
