@@ -1320,7 +1320,8 @@
 			"[-100]% maintenance costs",
 			"[+125]% Strength <after discovering [Lasers]>",
 			"[+100]% Strength <vs [Land] units> <after discovering [Lasers]>",
-			"[+4] Range <after discovering [Lasers]>"
+			"[+4] Range <after discovering [Lasers]>",
+			"Cannot be intercepted"
 		],
 		"attackSound": "missile"
 	},
