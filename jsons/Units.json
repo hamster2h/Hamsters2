@@ -2198,7 +2198,7 @@
 			"[100]% chance to intercept air attacks",
 			"[+200]% Strength <vs [Bomber] units>",
 			"[+200]% Strength <vs [Helicopter] units>",
-			"[+500]% Damage when intercepting <vs [Big Missile] units>"
+			"[+500]% Damage when intercepting"
 		],
 		"promotions": [
 			"Stealth",
