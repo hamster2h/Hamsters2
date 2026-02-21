@@ -632,7 +632,8 @@
 			"[100]% chance to intercept air attacks",
 			"[1] extra interceptions may be made per turn",
 			"[+300]% Strength <vs [Air] units>",
-			"[+500]% Damage when intercepting <vs [Big Missile] units>",
+			"[+5000]% Strength <vs [Missile] units>",
+			"[+5000]% Strength <vs [Big Missile] units>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
@@ -656,7 +657,8 @@
 			"[100]% chance to intercept air attacks",
 			"[1] extra interceptions may be made per turn",
 			"[+300]% Strength <vs [Air] units>",
-			"[+5000]% Damage when intercepting <vs [Big Missile] units>",
+			"[+5000]% Strength <vs [Missile] units>",
+			"[+5000]% Strength <vs [Big Missile] units>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
@@ -1199,7 +1201,8 @@
 			"[3] extra interceptions may be made per turn",
 			"[+100]% Strength <vs [Air] units>",
 			"[+100]% Strength <vs [Helicopter] units>",
-			"[+5000]% Damage when intercepting <vs [Big Missile] units>",
+			"[+5000]% Strength <vs [Missile] units>",
+			"[+5000]% Strength <vs [Big Missile] units>",
 			"[+3] Range <after discovering [Nuclear Fusion]>",
 			"[+100]% Strength <after discovering [Lasers]>",
 			"[+100]% Strength <vs [non-[Air]] units> <after discovering [Nuclear Fusion]>",
@@ -2198,6 +2201,7 @@
 			"[100]% chance to intercept air attacks",
 			"[+200]% Strength <vs [Bomber] units>",
 			"[+200]% Strength <vs [Helicopter] units>",
+			"[+5000]% Strength <vs [Missile] units>",
 			"[+5000]% Strength <vs [Big Missile] units>"
 		],
 		"promotions": [
