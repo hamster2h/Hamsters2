@@ -598,28 +598,31 @@
 		"name": "Anti-Aircraft Gun",
 		"unitType": "Support",
 		"movement": 2,
-		"interceptRange": 1,
 		"strength": 40,
+		"rangedStrength": 40,
+		"range": 1,
+		"interceptRange": 1,
 		"cost": 800,
 		"requiredTech": "Ballistics",
 		"upgradesTo": "Mobile SAM",
 		"uniques": [
 			"Anti-Air",
 			"Comment [+33% Strength to adjacent Land Units vs Air Units]",
-			"[75]% chance to intercept air attacks",
+			"[50]% chance to intercept air attacks",
 			"[+300]% Strength <vs [Air] units>",
+			"[+300]% Strength <vs [Helicopter] units>",
+			"Can only attack [Helicopter] units",
 			"Never appears as a Barbarian unit"
-		],
-		"promotions": [
-			"Support Unit"
 		]
 	},
 	{
 		"name": "Mobile SAM",
 		"unitType": "Support",
 		"movement": 4,
-		"interceptRange": 4,
 		"strength": 32,
+		"rangedStrength": 32,
+		"range": 3,
+		"interceptRange": 3,
 		"cost": 6000,
 		"requiredTech": "Rocketry",
 		"upgradesTo": "Hover-SAM",
@@ -629,23 +632,24 @@
 			"Cyber",
 			"Anti-Air",
 			"Comment [+33% Strength to adjacent Land Units vs Air Units]",
-			"[100]% chance to intercept air attacks",
+			"[90]% chance to intercept air attacks",
 			"[1] extra interceptions may be made per turn",
 			"[+300]% Strength <vs [Air] units>",
+			"[+300]% Strength <vs [Helicopter] units>",
 			"[+5000]% Strength <vs [Missile] units>",
 			"[+5000]% Strength <vs [Big Missile] units>",
+			"Can only attack [Helicopter] units",
 			"Never appears as a Barbarian unit"
-		],
-		"promotions": [
-			"Support Unit"
 		]
 	},
 	{
 		"name": "Hover-SAM",
 		"unitType": "Support",
 		"movement": 4,
-		"interceptRange": 4,
 		"strength": 40,
+		"rangedStrength": 40,
+		"range": 4,
+		"interceptRange": 4,
 		"cost": 8000,
 		"requiredTech": "Terraforming",
 		"requiredResource": "Oil",
@@ -654,15 +658,16 @@
 			"Anti-Air",
 			"Consumes [1] [Composites]",
 			"Comment [+33% Strength to adjacent Land Units vs Air Units]",
-			"[100]% chance to intercept air attacks",
+			"[95]% chance to intercept air attacks",
 			"[1] extra interceptions may be made per turn",
 			"[+300]% Strength <vs [Air] units>",
+			"[+300]% Strength <vs [Helicopter] units>",
 			"[+5000]% Strength <vs [Missile] units>",
 			"[+5000]% Strength <vs [Big Missile] units>",
+			"Can only attack [Helicopter] units",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
-			"Support Unit",
 			"Hovering",
 			"Heat Sensor"
 		],
