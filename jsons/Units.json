@@ -58,7 +58,8 @@
 		"upgradesTo": "Architect",
 		"uniques": [
 			"Can build [Land] improvements on tiles",
-			"[+100]% maintenance costs"
+			"[+100]% maintenance costs",
+			"Can generate a large amount of culture"
 		]
 	},
 	{
