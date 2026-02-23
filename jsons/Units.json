@@ -1266,7 +1266,7 @@
 	{
 		"name": "Submarine",
 		"unitType": "Submarine",
-		"movement": 5,
+		"movement": 4,
 		"strength": 35,
 		"rangedStrength": 60,
 		"range": 2,
@@ -1284,7 +1284,7 @@
 	{
 		"name": "Nuclear Submarine",
 		"unitType": "Submarine",
-		"movement": 6,
+		"movement": 5,
 		"strength": 65,
 		"rangedStrength": 100,
 		"range": 3,
