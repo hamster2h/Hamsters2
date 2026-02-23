@@ -1327,8 +1327,7 @@
 		"requiredTech": "Advanced Ballistics",
 		"uniques": [
 			"[-100]% maintenance costs",
-			"[+125]% Strength <after discovering [Lasers]>",
-			"[+100]% Strength <vs [Land] units> <after discovering [Lasers]>",
+			"[+150]% Strength <after discovering [Lasers]>",
 			"[+4] Range <after discovering [Lasers]>",
 			"Cannot be intercepted"
 		],
@@ -1345,8 +1344,7 @@
 		"requiredTech": "Advanced Ballistics",
 		"uniques": [
 			"[-100]% maintenance costs",
-			"[+125]% Strength <after discovering [Lasers]>",
-			"[+100]% Strength <vs [Land] units> <after discovering [Lasers]>",
+			"[+100]% Strength <after discovering [Lasers]>",
 			"[+6] Range <after discovering [Lasers]>"
 		],
 		"attackSound": "missile"
@@ -1358,12 +1356,11 @@
 		"strength": 140,
 		"rangedStrength": 140,
 		"range": 14,
-		"cost": 2000,
+		"cost": 3000,
 		"requiredTech": "Advanced Ballistics",
 		"uniques": [
 			"[-100]% maintenance costs",
-			"[+125]% Strength <after discovering [Lasers]>",
-			"[+100]% Strength <vs [Land] units> <after discovering [Lasers]>",
+			"[+150]% Strength <after discovering [Terraforming]>",
 			"[+10] Range <after discovering [Lasers]>"
 		],
 		"attackSound": "missile"
@@ -1375,7 +1372,7 @@
 		"strength": 200,
 		"rangedStrength": 200,
 		"range": 200,
-		"cost": 4000,
+		"cost": 5000,
 		"requiredTech": "Spaceflight",
 		"uniques": [
 			"Space",
