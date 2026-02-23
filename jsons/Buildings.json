@@ -1456,7 +1456,6 @@
     {
         "name": "Shipyard",
         "cost": 500,
-        "production": 2,
         "maintenance": 4,
         "requiredTech": "Sailing",
         "uniques": [
