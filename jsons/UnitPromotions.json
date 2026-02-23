@@ -288,6 +288,41 @@
 		]
 	},
 	{
+		"name": "Wolfpack I",
+		"uniques": [
+			"[+50]% Strength <when attacking>"
+		],
+		"unitTypes": [
+			"Submarine"
+		],
+        "column": 14,
+        "row": 1
+	},
+	{
+		"name": "Wolfpack II",
+		"prerequisites": ["Wolfpack I"],
+		"uniques": [
+			"[+50]% Strength <when attacking>"
+		],
+		"unitTypes": [
+			"Submarine"
+		],
+        "column": 14,
+        "row": 2
+	},
+	{
+		"name": "Wolfpack III",
+		"prerequisites": ["Wolfpack II"],
+		"uniques": [
+			"[+50]% Strength <when attacking>"
+		],
+		"unitTypes": [
+			"Submarine"
+		],
+        "column": 14,
+        "row": 3
+	},
+	{
 		"name": "Extended Range",
 		"prerequisites": [
 			"Accuracy II",
@@ -620,4 +655,5 @@
 		]
 	}
 ]
+
 
