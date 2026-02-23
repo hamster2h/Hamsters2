@@ -1387,7 +1387,7 @@
 		"movement": 1,
 		"strength": 250,
 		"rangedStrength": 250,
-		"range": 12,
+		"range": 14,
 		"cost": 8000,
 		"requiredTech": "Advanced Ballistics",
 		"requiredResource": "Uranium",
