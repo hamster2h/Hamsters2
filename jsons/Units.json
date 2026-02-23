@@ -2841,9 +2841,6 @@
 		"requiredTech": "Construction",
 		"upgradesTo": "Crossbowman",
 		"obsoleteTech": "Machinery",
-		"uniques": [
-			"Blast radius [1]"
-		],
 		"attackSound": "arrow"
 	},
 	{
