@@ -2209,7 +2209,7 @@ UnitIcons/Orbital Carrier
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Orbital Jet
+UnitIcons/Orbital Fighter
   rotate: false
   xy: 328, 572
   size: 100, 100
