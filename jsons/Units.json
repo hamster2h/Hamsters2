@@ -58,8 +58,7 @@
 		"upgradesTo": "Architect",
 		"uniques": [
 			"Can build [Land] improvements on tiles",
-			"[+100]% maintenance costs",
-			"Can generate a large amount of culture"
+			"[+100]% maintenance costs"
 		]
 	},
 	{
@@ -2940,6 +2939,7 @@
 		"movement": 2,
 		"uniques": [
             "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"Can generate a large amount of culture",
             "Can instantly construct a [Landmark] improvement <by consuming this unit>",
             "Is part of Great Person group [Great Person]",
             "Great Person - [Culture]",
