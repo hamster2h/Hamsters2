@@ -1086,7 +1086,7 @@
 		"requiredResource": "Oil",
 		"uniques": [
 			"Consumes [1] [Iron]",
-			"[50]% chance to intercept air attacks <after discovering [Ballistics]>",
+			"[40]% chance to intercept air attacks <after discovering [Ballistics]>",
 			"Withdraws before melee combat <with [60]% chance>",
 			"Can see invisible [Submarine] units",
 			"[+100]% Strength <vs [Submarine] units>"
@@ -1202,7 +1202,7 @@
 			"Cyber",
 			"Consumes [2] [Aluminum]",
 			"Can carry [8] [Missile] units",
-			"[100]% chance to intercept air attacks",
+			"[95]% chance to intercept air attacks",
 			"[3] extra interceptions may be made per turn",
 			"[+100]% Strength <vs [Air] units>",
 			"[+100]% Strength <vs [Helicopter] units>",
@@ -1216,7 +1216,8 @@
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
-			"Indirect Fire"
+			"Indirect Fire",
+			"Sentry"
 		],
 		"attackSound": "shipguns"
 	},
@@ -1438,6 +1439,253 @@
 			"Blast radius [1]"
 		],
 		"attackSound": "nuke"
+	},
+	{
+		"name": "Great War Bomber",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 50,
+		"rangedStrength": 50,
+		"range": 6,
+		"cost": 1200,
+		"upgradesTo": "Bomber",
+		"obsoleteTech": "Radar",
+		"requiredResource": "Oil",
+		"uniques": [
+			"Only available <if [GP-Great War] is constructed>",
+			"Only available <after discovering [Flight]>"
+		],
+		"attackSound": "bombing"
+	},
+	{
+		"name": "Bomber",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 65,
+		"rangedStrength": 65,
+		"range": 10,
+		"cost": 4000,
+		"requiredTech": "Radar",
+		"upgradesTo": "Jet Bomber",
+		"obsoleteTech": "Computers",
+		"requiredResource": "Oil",
+		"attackSound": "bombing"
+	},
+	{
+		"name": "B17",
+		"uniqueTo": "America",
+		"replaces": "Bomber",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 70,
+		"rangedStrength": 70,
+		"range": 10,
+		"cost": 3750,
+		"requiredTech": "Radar",
+		"upgradesTo": "Jet Bomber",
+		"obsoleteTech": "Computers",
+		"requiredResource": "Oil",
+		"promotions": [
+			"Evasion",
+			"Siege I"
+		],
+		"attackSound": "bombing"
+	},
+	{
+		"name": "Jet Bomber",
+		"unitType": "Bomber",
+		"movement": 2,
+		"strength": 90,
+		"rangedStrength": 90,
+		"range": 14,
+		"cost": 6000,
+		"requiredTech": "Computers",
+		"upgradesTo": "Stealth Bomber",
+		"obsoleteTech": "Stealth",
+		"requiredResource": "Oil",
+		"uniques": [
+			"Cyber",
+			"Consumes [1] [Aluminum]"
+		],
+		"attackSound": "bombing"
+	},
+	{
+		"name": "Stealth Bomber",
+		"unitType": "Bomber",
+		"movement": 2,
+		"strength": 100,
+		"rangedStrength": 100,
+		"range": 14,
+		"cost": 9000,
+		"requiredTech": "Stealth",
+		"upgradesTo": "Orbital Bomber",
+		"obsoleteTech": "Spaceflight",
+		"requiredResource": "Oil",
+		"uniques": [
+			"Cyber",
+			"Consumes [2] [Aluminum]",
+			"Damage taken from interception reduced by [50]%",
+			"Cannot be carried by [Carrier] units"
+		],
+		"promotions": [
+			"Stealth"
+		],
+		"attackSound": "bombing"
+	},
+	{
+		"name": "Orbital Bomber",
+		"unitType": "Bomber",
+		"movement": 2,
+		"strength": 120,
+		"rangedStrength": 120,
+		"range": 200,
+		"cost": 15000,
+		"requiredTech": "Spaceflight",
+		"requiredResource": "Oil",
+		"uniques": [
+			"Cyber",
+			"Space",
+			"Consumes [4] [Composites]"
+		],
+		"promotions": [
+			"Stealth"
+		],
+		"attackSound": "bombing"
+	},
+	{
+		"name": "Biplane",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 25,
+		"rangedStrength": 25,
+		"range": 4,
+		"interceptRange": 4,
+		"cost": 800,
+		"requiredTech": "Flight",
+		"upgradesTo": "Fighter",
+		"obsoleteTech": "Radar",
+		"requiredResource": "Oil",
+		"uniques": [
+			"[50]% chance to intercept air attacks",
+			"[+100]% Strength <vs [Observation Balloon] units>",
+			"[+100]% Strength <vs [Bomber] units>",
+			"[+50]% Strength <vs [Helicopter] units>"
+		],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Triplane",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 30,
+		"rangedStrength": 30,
+		"range": 5,
+		"interceptRange": 5,
+		"cost": 900,
+		"upgradesTo": "Fighter",
+		"requiredResource": "Oil",
+		"uniques": [
+			"[50]% chance to intercept air attacks",
+			"[+100]% Strength <vs [Observation Balloon] units>",
+			"[+100]% Strength <vs [Bomber] units>",
+			"[+50]% Strength <vs [Helicopter] units>",
+			"Only available <if [EP-Early Vehicles] is constructed>",
+			"Only available <after discovering [Flight]>"
+		],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Fighter",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 45,
+		"rangedStrength": 45,
+		"range": 8,
+		"interceptRange": 8,
+		"cost": 2000,
+		"requiredTech": "Radar",
+		"upgradesTo": "Jet Fighter",
+		"obsoleteTech": "Computers",
+		"requiredResource": "Oil",
+		"uniques": [
+			"[75]% chance to intercept air attacks",
+			"[+150]% Strength <vs [Bomber] units>",
+			"[+100]% Strength <vs [Helicopter] units>"
+		],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Zero",
+		"unitType": "Fighter",
+		"replaces": "Fighter",
+		"uniqueTo": "Japan",
+		"movement": 1,
+		"strength": 50,
+		"rangedStrength": 50,
+		"range": 8,
+		"interceptRange": 8,
+		"cost": 2000,
+		"requiredTech": "Radar",
+		"upgradesTo": "Jet Fighter",
+		"obsoleteTech": "Computers",
+		"uniques": [
+			"[80]% chance to intercept air attacks",
+			"[+150]% Strength <vs [Bomber] units>",
+			"[+100]% Strength <vs [Helicopter] units>"
+		],
+		"promotions": [
+			"[Zero] ability"
+		],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Jet Fighter",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 75,
+		"rangedStrength": 75,
+		"range": 10,
+		"interceptRange": 10,
+		"cost": 5000,
+		"requiredTech": "Computers",
+		"upgradesTo": "Orbital Fighter",
+		"obsoleteTech": "Spaceflight",
+		"requiredResource": "Oil",
+		"uniques": [
+			"Cyber",
+			"Consumes [1] [Aluminum]",
+			"[90]% chance to intercept air attacks",
+			"[+200]% Strength <vs [Bomber] units>",
+			"[+200]% Strength <vs [Helicopter] units>"
+		],
+		"attackSound": "jetgun"
+	},
+	{
+		"name": "Orbital Fighter",
+		"unitType": "Fighter",
+		"movement": 2,
+		"strength": 90,
+		"rangedStrength": 90,
+		"range": 200,
+		"interceptRange": 200,
+		"cost": 19000,
+		"requiredTech": "Spaceflight",
+		"requiredResource": "Oil",
+		"uniques": [
+			"Cyber",
+			"Space",
+			"Consumes [2] [Composites]",
+			"[95]% chance to intercept air attacks",
+			"[+200]% Strength <vs [Bomber] units>",
+			"[+200]% Strength <vs [Helicopter] units>",
+			"[+5000]% Strength <vs [Missile] units>",
+			"[+5000]% Strength <vs [Big Missile] units>"
+		],
+		"promotions": [
+			"Stealth",
+			"Heat Sensor"
+		],
+		"attackSound": "jetgun"
 	},
 	{
 		"name": "Chariot Archer",
@@ -1967,253 +2215,6 @@
 			"Gravity Generator"
 		],
 		"attackSound": "gdrAttack"
-	},
-	{
-		"name": "Great War Bomber",
-		"unitType": "Bomber",
-		"movement": 1,
-		"strength": 50,
-		"rangedStrength": 50,
-		"range": 6,
-		"cost": 1200,
-		"upgradesTo": "Bomber",
-		"obsoleteTech": "Radar",
-		"requiredResource": "Oil",
-		"uniques": [
-			"Only available <if [GP-Great War] is constructed>",
-			"Only available <after discovering [Flight]>"
-		],
-		"attackSound": "bombing"
-	},
-	{
-		"name": "Bomber",
-		"unitType": "Bomber",
-		"movement": 1,
-		"strength": 65,
-		"rangedStrength": 65,
-		"range": 10,
-		"cost": 4000,
-		"requiredTech": "Radar",
-		"upgradesTo": "Jet Bomber",
-		"obsoleteTech": "Computers",
-		"requiredResource": "Oil",
-		"attackSound": "bombing"
-	},
-	{
-		"name": "B17",
-		"uniqueTo": "America",
-		"replaces": "Bomber",
-		"unitType": "Bomber",
-		"movement": 1,
-		"strength": 70,
-		"rangedStrength": 70,
-		"range": 10,
-		"cost": 3750,
-		"requiredTech": "Radar",
-		"upgradesTo": "Jet Bomber",
-		"obsoleteTech": "Computers",
-		"requiredResource": "Oil",
-		"promotions": [
-			"Evasion",
-			"Siege I"
-		],
-		"attackSound": "bombing"
-	},
-	{
-		"name": "Jet Bomber",
-		"unitType": "Bomber",
-		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 90,
-		"range": 14,
-		"cost": 6000,
-		"requiredTech": "Computers",
-		"upgradesTo": "Stealth Bomber",
-		"obsoleteTech": "Stealth",
-		"requiredResource": "Oil",
-		"uniques": [
-			"Cyber",
-			"Consumes [1] [Aluminum]"
-		],
-		"attackSound": "bombing"
-	},
-	{
-		"name": "Stealth Bomber",
-		"unitType": "Bomber",
-		"movement": 2,
-		"strength": 100,
-		"rangedStrength": 100,
-		"range": 14,
-		"cost": 9000,
-		"requiredTech": "Stealth",
-		"upgradesTo": "Orbital Bomber",
-		"obsoleteTech": "Spaceflight",
-		"requiredResource": "Oil",
-		"uniques": [
-			"Cyber",
-			"Consumes [2] [Aluminum]",
-			"Damage taken from interception reduced by [50]%",
-			"Cannot be carried by [Carrier] units"
-		],
-		"promotions": [
-			"Stealth"
-		],
-		"attackSound": "bombing"
-	},
-	{
-		"name": "Orbital Bomber",
-		"unitType": "Bomber",
-		"movement": 2,
-		"strength": 120,
-		"rangedStrength": 120,
-		"range": 200,
-		"cost": 15000,
-		"requiredTech": "Spaceflight",
-		"requiredResource": "Oil",
-		"uniques": [
-			"Cyber",
-			"Space",
-			"Consumes [4] [Composites]"
-		],
-		"promotions": [
-			"Stealth"
-		],
-		"attackSound": "bombing"
-	},
-	{
-		"name": "Biplane",
-		"unitType": "Fighter",
-		"movement": 1,
-		"strength": 25,
-		"rangedStrength": 25,
-		"range": 4,
-		"interceptRange": 4,
-		"cost": 800,
-		"requiredTech": "Flight",
-		"upgradesTo": "Fighter",
-		"obsoleteTech": "Radar",
-		"requiredResource": "Oil",
-		"uniques": [
-			"[50]% chance to intercept air attacks",
-			"[+100]% Strength <vs [Observation Balloon] units>",
-			"[+100]% Strength <vs [Bomber] units>",
-			"[+50]% Strength <vs [Helicopter] units>"
-		],
-		"attackSound": "machinegun"
-	},
-	{
-		"name": "Triplane",
-		"unitType": "Fighter",
-		"movement": 1,
-		"strength": 30,
-		"rangedStrength": 30,
-		"range": 5,
-		"interceptRange": 5,
-		"cost": 900,
-		"upgradesTo": "Fighter",
-		"requiredResource": "Oil",
-		"uniques": [
-			"[50]% chance to intercept air attacks",
-			"[+100]% Strength <vs [Observation Balloon] units>",
-			"[+100]% Strength <vs [Bomber] units>",
-			"[+50]% Strength <vs [Helicopter] units>",
-			"Only available <if [EP-Early Vehicles] is constructed>",
-			"Only available <after discovering [Flight]>"
-		],
-		"attackSound": "machinegun"
-	},
-	{
-		"name": "Fighter",
-		"unitType": "Fighter",
-		"movement": 1,
-		"strength": 45,
-		"rangedStrength": 45,
-		"range": 8,
-		"interceptRange": 8,
-		"cost": 2000,
-		"requiredTech": "Radar",
-		"upgradesTo": "Jet Fighter",
-		"obsoleteTech": "Computers",
-		"requiredResource": "Oil",
-		"uniques": [
-			"[100]% chance to intercept air attacks",
-			"[+150]% Strength <vs [Bomber] units>",
-			"[+100]% Strength <vs [Helicopter] units>"
-		],
-		"attackSound": "machinegun"
-	},
-	{
-		"name": "Zero",
-		"unitType": "Fighter",
-		"replaces": "Fighter",
-		"uniqueTo": "Japan",
-		"movement": 1,
-		"strength": 50,
-		"rangedStrength": 50,
-		"range": 8,
-		"interceptRange": 8,
-		"cost": 2000,
-		"requiredTech": "Radar",
-		"upgradesTo": "Jet Fighter",
-		"obsoleteTech": "Computers",
-		"uniques": [
-			"[100]% chance to intercept air attacks",
-			"[+150]% Strength <vs [Bomber] units>",
-			"[+100]% Strength <vs [Helicopter] units>"
-		],
-		"promotions": [
-			"[Zero] ability"
-		],
-		"attackSound": "machinegun"
-	},
-	{
-		"name": "Jet Fighter",
-		"unitType": "Fighter",
-		"movement": 1,
-		"strength": 75,
-		"rangedStrength": 75,
-		"range": 10,
-		"interceptRange": 10,
-		"cost": 5000,
-		"requiredTech": "Computers",
-		"upgradesTo": "Orbital Jet",
-		"obsoleteTech": "Spaceflight",
-		"requiredResource": "Oil",
-		"uniques": [
-			"Cyber",
-			"Consumes [1] [Aluminum]",
-			"[100]% chance to intercept air attacks",
-			"[+200]% Strength <vs [Bomber] units>",
-			"[+200]% Strength <vs [Helicopter] units>"
-		],
-		"attackSound": "jetgun"
-	},
-	{
-		"name": "Orbital Jet",
-		"unitType": "Fighter",
-		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 90,
-		"range": 200,
-		"interceptRange": 200,
-		"cost": 19000,
-		"requiredTech": "Spaceflight",
-		"requiredResource": "Oil",
-		"uniques": [
-			"Cyber",
-			"Space",
-			"Consumes [2] [Composites]",
-			"[100]% chance to intercept air attacks",
-			"[+200]% Strength <vs [Bomber] units>",
-			"[+200]% Strength <vs [Helicopter] units>",
-			"[+5000]% Strength <vs [Missile] units>",
-			"[+5000]% Strength <vs [Big Missile] units>"
-		],
-		"promotions": [
-			"Stealth",
-			"Heat Sensor"
-		],
-		"attackSound": "jetgun"
 	},
 	{
 		"name": "Warrior",
