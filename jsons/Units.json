@@ -1275,8 +1275,9 @@
 		"upgradesTo": "Nuclear Submarine",
 		"requiredResource": "Oil",
 		"uniques": [
-			"[+300]% Strength <when attacking>",
-			"Can carry [6] [Missile] units"
+			"[+250]% Strength <when attacking>",
+			"Can carry [6] [Missile] units",
+			"[-1] Sight"
 		],
 		"attackSound": "torpedo"
 	},
@@ -1291,10 +1292,9 @@
 		"requiredTech": "Telecommunications",
 		"requiredResource": "Uranium",
 		"uniques": [
-			"[+300]% Strength <when attacking>",
+			"[+200]% Strength <when attacking>",
 			"Can move after attacking",
-			"Can carry [8] [Big Missile] units",
-			"[+1] Sight"
+			"Can carry [8] [Big Missile] units"
 		],
 		"attackSound": "torpedo"
 	},
