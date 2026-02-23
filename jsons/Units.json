@@ -1176,10 +1176,11 @@
 		"uniques": [
 			"Consumes [2] [Iron]",
 			"Consumes [4] [Composites] <after discovering [Nuclear Fusion]>",
-			"Can carry [2] [Missile] units <after discovering [Lasers]>",
+			"Can carry [2] [Missile] units",
 			"[75]% chance to intercept air attacks <after discovering [Ballistics]>",
+			"[1] additional attacks per turn",
 			"[+5] Range <after discovering [Nuclear Fusion]>",
-			"[+500]% Strength <vs [non-[Air]] units> <after discovering [Nuclear Fusion]>",
+			"[+150]% Strength <vs [non-[Air]] units> <after discovering [Nuclear Fusion]>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
@@ -1210,7 +1211,6 @@
 			"[+5000]% Strength <vs [Big Missile] units>",
 			"[+3] Range <after discovering [Nuclear Fusion]>",
 			"[+100]% Strength <after discovering [Lasers]>",
-			"[+100]% Strength <vs [non-[Air]] units> <after discovering [Nuclear Fusion]>",
 			"Can see invisible [Submarine] units",
 			"[+100]% Strength <vs [Submarine] units>",
 			"Never appears as a Barbarian unit"
@@ -1269,12 +1269,13 @@
 		"movement": 5,
 		"strength": 35,
 		"rangedStrength": 60,
+		"range": 2,
 		"cost": 3300,
 		"requiredTech": "Refrigeration",
 		"upgradesTo": "Nuclear Submarine",
 		"requiredResource": "Oil",
 		"uniques": [
-			"[+75]% Strength <when attacking>",
+			"[+300]% Strength <when attacking>",
 			"Can carry [6] [Missile] units"
 		],
 		"attackSound": "torpedo"
@@ -1284,13 +1285,13 @@
 		"unitType": "Submarine",
 		"movement": 6,
 		"strength": 65,
-		"range": 3,
 		"rangedStrength": 100,
+		"range": 3,
 		"cost": 8000,
 		"requiredTech": "Telecommunications",
 		"requiredResource": "Uranium",
 		"uniques": [
-			"[+100]% Strength <when attacking>",
+			"[+300]% Strength <when attacking>",
 			"Can move after attacking",
 			"Can carry [8] [Big Missile] units",
 			"[+1] Sight"
