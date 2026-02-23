@@ -45,7 +45,6 @@
 		"uniques": [
 			"Can be built outside your borders",
 			"Turn this tile into a [Coast] tile",
-			"Cannot be built on [Hill] tiles",
 			"Can only be built on [Coastal] tiles"
 		]
 	},
