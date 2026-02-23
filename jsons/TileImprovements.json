@@ -33,7 +33,7 @@
 	},
 	{
 		"name": "Dig Coast",
-		"turnsToBuild": 1,
+		"turnsToBuild": 20,
 		"terrainsCanBeBuiltOn": [
 			"Plains",
 			"Grassland",
@@ -41,6 +41,7 @@
 			"Tundra",
 			"Snow"
 		],
+		"techRequired": "Mining",
 		"uniques": [
 			"Can be built outside your borders",
 			"Turn this tile into a [Coast] tile",
