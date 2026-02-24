@@ -1397,7 +1397,7 @@
 			"Only available <if [Nuclear Testing Site] is constructed>",
 			"Nuclear weapon of Strength [2]",
 			"Blast radius [2]",
-			"[+188] Range <after discovering [Spaceflight]>"
+			"[+186] Range <after discovering [Spaceflight]>"
 		],
 		"attackSound": "nuke"
 	},
