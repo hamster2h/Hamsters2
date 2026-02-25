@@ -1124,6 +1124,22 @@
 		],
         "requiredTech": "Masonry"
     },
+	{
+		"name": "Stone Works",
+		"happiness": 1,
+		"production": 1,
+		"maintenance": 1,
+		"requiredNearbyImprovedResources": [
+			"Marble",
+			"Stone"
+		],
+		"uniques": [
+			"[+1 Production] from [Stone] tiles [in this city]",
+			"[+1 Production] from [Marble] tiles [in this city]"
+		],
+		"hurryCostModifier": 0,
+		"requiredTech": "Calendar"
+	},
     {
         "name": "Desalination Plant",
         "cost": 150,
