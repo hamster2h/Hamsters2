@@ -226,7 +226,7 @@
 		"obsoleteTech": "Rifling",
 		"uniques": [
 			"Ignores Zone of Control",
-			"[-75]% maintenance costs",
+			"[-90]% maintenance costs",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
@@ -250,7 +250,7 @@
 			"Ignores Zone of Control",
 			"Gain [20] [Gold] <upon discovering a [Ancient ruins] tile>",
 			"Gain [10] [Culture] <upon discovering a [Ancient ruins] tile>",
-			"[-75]% maintenance costs",
+			"[-90]% maintenance costs",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
@@ -2224,7 +2224,7 @@
 		"upgradesTo": "Swordsman",
 		"obsoleteTech": "Metal Casting",
 		"uniques": [
-			"[-50]% maintenance costs"
+			"[-75]% maintenance costs"
 		],
 		"attackSound": "nonmetalhit",
         "civilopediaText": [
@@ -2245,7 +2245,7 @@
 		"upgradesTo": "Swordsman",
 		"obsoleteTech": "Metal Casting",
 		"uniques": [
-			"[-50]% maintenance costs"
+			"[-75]% maintenance costs"
 		],
 		"promotions": [
 			"Haka War Dance"
@@ -2264,7 +2264,7 @@
 		"upgradesTo": "Swordsman",
 		"obsoleteTech": "Metal Casting",
 		"uniques": [
-			"[-50]% maintenance costs"
+			"[-75]% maintenance costs"
 		],
 		"promotions": [
 			"[Jaguar] ability",
