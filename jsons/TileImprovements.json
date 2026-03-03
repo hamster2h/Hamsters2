@@ -39,7 +39,9 @@
 			"Grassland",
 			"Desert",
 			"Tundra",
-			"Snow"
+			"Snow",
+			"Hill",
+			"Mountain"
 		],
 		"techRequired": "Mining",
 		"uniques": [
