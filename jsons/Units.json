@@ -635,8 +635,6 @@
 			"[1] extra interceptions may be made per turn",
 			"[+300]% Strength <vs [Air] units>",
 			"[+300]% Strength <vs [Helicopter] units>",
-			"[+5000]% Strength <vs [Missile] units>",
-			"[+5000]% Strength <vs [Big Missile] units>",
 			"Can only attack [Helicopter] units",
 			"Never appears as a Barbarian unit"
 		]
@@ -1206,8 +1204,6 @@
 			"[3] extra interceptions may be made per turn",
 			"[+100]% Strength <vs [Air] units>",
 			"[+100]% Strength <vs [Helicopter] units>",
-			"[+5000]% Strength <vs [Missile] units>",
-			"[+5000]% Strength <vs [Big Missile] units>",
 			"[+3] Range <after discovering [Nuclear Fusion]>",
 			"[+100]% Strength <after discovering [Lasers]>",
 			"Can see invisible [Submarine] units",
@@ -1674,9 +1670,7 @@
 			"Consumes [2] [Composites]",
 			"[95]% chance to intercept air attacks",
 			"[+200]% Strength <vs [Bomber] units>",
-			"[+200]% Strength <vs [Helicopter] units>",
-			"[+5000]% Strength <vs [Missile] units>",
-			"[+5000]% Strength <vs [Big Missile] units>"
+			"[+200]% Strength <vs [Helicopter] units>"
 		],
 		"promotions": [
 			"Stealth",
