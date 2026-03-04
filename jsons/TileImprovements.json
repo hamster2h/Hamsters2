@@ -52,11 +52,9 @@
 	},
 	{
 		"name": "Remove Ice",
-		"turnsToBuild": 14,
 		"terrainsCanBeBuiltOn": [
 			"Ice"
 		],
-		"techRequired": "Steam Power",
 		"uniques": [
 			"Can be built outside your borders"
 		]
