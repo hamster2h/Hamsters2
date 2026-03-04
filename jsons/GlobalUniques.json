@@ -8,13 +8,13 @@
         "[-33]% Strength <for [All] units> <when below [-20] [Happiness]>",
         "[-1] Unit Supply per [3] population [in all cities]",
         
-        "[+1 Gold] per every [400] [Gold] <during a Golden Age> <after discovering [Banking]>",
-        "[+1 Gold] per every [400] [Gold] <during a Golden Age> <after discovering [Economics]>",
-        "[+1 Gold] per every [400] [Gold] <during a Golden Age> <starting from the [Industrial era]>",
-        "[+1 Gold] per every [400] [Gold] <during a Golden Age> <starting from the [Modern era]>",
-        "[+1 Gold] per every [400] [Gold] <during a Golden Age> <starting from the [Atomic era]>",
-        "[+1 Gold] per every [400] [Gold] <during a Golden Age> <starting from the [Information era]>",
-        "[+1 Gold] per every [400] [Gold] <during a Golden Age> <starting from the [Future era]>",
-        "[+1 Gold] per every [400] [Gold] <during a Golden Age> <starting from the [Beyond the Future]>"
+        "[+1 Gold] per every [500] [Gold] <during a Golden Age> <after discovering [Banking]>",
+        "[+1 Gold] per every [500] [Gold] <during a Golden Age> <after discovering [Economics]>",
+        "[+1 Gold] per every [500] [Gold] <during a Golden Age> <starting from the [Industrial era]>",
+        "[+1 Gold] per every [500] [Gold] <during a Golden Age> <starting from the [Modern era]>",
+        "[+1 Gold] per every [500] [Gold] <during a Golden Age> <starting from the [Atomic era]>",
+        "[+1 Gold] per every [500] [Gold] <during a Golden Age> <starting from the [Information era]>",
+        "[+1 Gold] per every [500] [Gold] <during a Golden Age> <starting from the [Future era]>",
+        "[+1 Gold] per every [500] [Gold] <during a Golden Age> <starting from the [Beyond the Future]>"
     ]
 }
