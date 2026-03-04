@@ -861,10 +861,10 @@
 			{
 				"name": "Military Tax",
 				"uniques": [
-					"[+10]% [Gold] from every [Walls]",
-					"[+10]% [Gold] from every [Castle]",
-					"[+10]% [Gold] from every [Arsenal]",
-					"[+10]% [Gold] from every [Military Base]"
+					"[+5]% [Gold] from every [Walls]",
+					"[+5]% [Gold] from every [Castle]",
+					"[+5]% [Gold] from every [Arsenal]",
+					"[+5]% [Gold] from every [Military Base]"
 				],
 				"requires": [
 					"Coalition"
