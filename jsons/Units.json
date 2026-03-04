@@ -103,7 +103,6 @@
 			"Can enter ice tiles",
 			"May create improvements on water resources",
 			"Can instantly construct a [Offshore Wind Farm] improvement <by consuming this unit> <after discovering [Terraforming]>",
-			"Can instantly construct a [Remove Ice] improvement <by consuming this unit> <after discovering [Steam Power]>",
 			"Uncapturable"
 		]
 	},
