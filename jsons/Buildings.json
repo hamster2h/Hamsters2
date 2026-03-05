@@ -2220,8 +2220,8 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Information Perk]",
-			"[+10]% [Culture] from every [Public School]",
-			"[+5]% [Culture] from every [Foreign Center]",
+			"[+10 Culture] from all [Foreign Center] buildings",
+			"[+5]% [Culture] from every [Public School]",
 			"Only available <starting from the [Information era]>",
 			"Consumes [1] [Artist Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
