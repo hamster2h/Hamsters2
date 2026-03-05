@@ -1727,21 +1727,20 @@
 	{
 		"name": "Recycling Center",
 		"requiredTech": "Ecology",
-		"cost": 1200,
-		"production": 2,
-		"happiness": -4,
-		"maintenance": 8,
+		"cost": 1400,
+		"happiness": -6,
+		"maintenance": 20,
 		"uniques": [
-			"Consumes [2] [Power]",
+			"Consumes [10] [Power]",
 			"Provides [2] [Aluminum]",
-			"Provides [1] [Oil]",
-			"[+1 Production] per [4] population [in this city]",
-			"Limited to [5] per Civilization"
+			"Provides [1] [Oil]"
 		]
 	},
 	{
 		"name": "Foreign Center",
+		"cost": 750,
 		"culture": 5,
+		"maintenance": 4,
 		"specialistSlots": {
 			"Artist": 1
 		},
@@ -1749,15 +1748,13 @@
 			"culture": 25
 		},
 		"requiredBuilding": "Broadcast Tower",
-		"maintenance": 4,
-		"hurryCostModifier": 0,
-		"requiredTech": "Globalization",
-		"cost": 750,
 		"uniques": [
 			"Consumes [2] [Power]",
 			"Unsellable",
 			"Destroyed when the city is captured"
-		]
+		],
+		"hurryCostModifier": 0,
+		"requiredTech": "Globalization"
 	},
 	{
 		"name": "Branch Office",
@@ -1774,7 +1771,7 @@
 		"cost": 750,
 		"gold": 4,
 		"percentStatBonus": {
-			"gold": 10
+			"gold": 5
 		},
 		"specialistSlots": {
 			"Merchant": 1
@@ -2497,8 +2494,8 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Information Perk]",
-			"[+10]% [Gold] from every [Entrepeneur Venue]",
-			"[+10]% [Gold] from every [Stock Exchange]",
+			"[+5]% [Gold] from every [Entrepeneur Venue]",
+			"[+5]% [Gold] from every [Stock Exchange]",
 			"Only available <starting from the [Information era]>",
 			"Consumes [1] [Merchant Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
@@ -2510,7 +2507,7 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Information Perk]",
-			"[+2 Gold, +4 Culture] per [1] population [in all cities]",
+			"[+1 Gold, +2 Culture] per [1] population [in all cities]",
 			"Only available <starting from the [Information era]>",
 			"Consumes [2] [Merchant Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
@@ -2536,8 +2533,8 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Future Perk]",
-			"[+10]% [Gold] [in all cities]",
-			"[+25]% [Gold] [in all cities] <during a Golden Age>",
+			"[+10 Gold] [in all cities]",
+			"[+25 Gold] [in all cities] <during a Golden Age>",
 			"Production to [Gold] conversion in cities changed by [+25]%",
 			"Only available <starting from the [Future era]>",
 			"Consumes [2] [Merchant Perk]",
@@ -2602,7 +2599,7 @@
 		"uniques": [
 			"Comment [Atomic Perk]",
 			"[Faith] cost of purchasing items in cities [-25]% <during the [Atomic era]>",
-			"[+2 Culture] from all [Faith] buildings",
+			"[+1 Culture] from all [Faith] buildings",
 			"Only available <starting from the [Atomic era]>",
 			"Consumes [1] [Prophet Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
@@ -2771,6 +2768,8 @@
 		"uniques": [
 			"Comment [Information Perk]",
 			"Provides [8] [Aluminum]",
+			"All newly-trained [Future Soldier] units [in all cities] receive the [Stealth] promotion",
+			"All newly-trained [Energy Infantry] units [in all cities] receive the [Stealth] promotion",
 			"All newly-trained [Missile Cruiser] units [in all cities] receive the [Stealth] promotion",
 			"Only available <starting from the [Information era]>",
 			"Consumes [1] [General Perk]",
@@ -2812,6 +2811,7 @@
 			"All newly-trained [Missile Cruiser] units [in all cities] receive the [Energy Weapons] promotion",
 			"All newly-trained [Guided Missile] units [in all cities] receive the [Energy Weapons] promotion",
 			"All newly-trained [LR Missile] units [in all cities] receive the [Energy Weapons] promotion",
+			"All newly-trained [SSLR Missile] units [in all cities] receive the [Energy Weapons] promotion",
 			"All newly-trained [Orbital Missile] units [in all cities] receive the [Energy Weapons] promotion",
 			"All newly-trained [Nuclear Missile] units [in all cities] receive the [Energy Weapons] promotion",
 			"All newly-trained [Orbital Strike] units [in all cities] receive the [Energy Weapons] promotion",
