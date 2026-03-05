@@ -118,7 +118,7 @@
             {
                 "name": "Representation",
                 "uniques": [
-					"[+1 Production, +1 Culture] [in all cities]",
+					"[+2 Production, +2 Culture] [in all cities]",
                     "Empire enters golden age"
                 ],
                 "requires": ["Citizenship"],
