@@ -1508,37 +1508,6 @@
 		"requiredTech": "Metal Casting"
 	},
 	{
-		"name": "Museum",
-		"culture": 5,
-		"maintenance": 5,
-		"specialistSlots": {
-			"Artist": 2
-		},
-		"requiredBuilding": "Opera House",
-		"uniques": [
-			"[+5]% [Culture] [in this city] <with [Power]>",
-			"Destroyed when the city is captured"
-		],
-		"hurryCostModifier": 0,
-		"requiredTech": "Archaeology"
-	},
-	{
-		"name": "History Museum",
-		"cost": 800,
-		"culture": 4,
-		"maintenance": 6,
-		"percentStatBonus": {
-			"culture": 25
-		},
-		"uniques": [
-			"Only available <if [AP-Museum Host] is constructed>",
-			"Consumes [2] [Fossil]",
-			"Consumes [1] [Power]",
-			"[+10 Gold] from [Excavation Site] tiles [in all cities]",
-			"[+50]% Yield from every [Excavation Site]"
-		]
-	},
-	{
 		"name": "Public School",
 		"science": 2,
 		"maintenance": 4,
@@ -1614,10 +1583,40 @@
 		"hurryCostModifier": 15
 	},
 	{
+		"name": "Museum",
+		"culture": 5,
+		"maintenance": 5,
+		"specialistSlots": {
+			"Artist": 2
+		},
+		"requiredBuilding": "Opera House",
+		"uniques": [
+			"Destroyed when the city is captured"
+		],
+		"hurryCostModifier": 0,
+		"requiredTech": "Archaeology"
+	},
+	{
+		"name": "History Museum",
+		"cost": 800,
+		"culture": 4,
+		"maintenance": 6,
+		"percentStatBonus": {
+			"culture": 25
+		},
+		"uniques": [
+			"Only available <if [AP-Museum Host] is constructed>",
+			"Consumes [2] [Fossil]",
+			"Consumes [1] [Power]",
+			"[+10 Gold] from [Excavation Site] tiles [in all cities]",
+			"[+50]% Yield from every [Excavation Site]"
+		]
+	},
+	{
 		"name": "Broadcast Tower",
 		"culture": 3,
 		"percentStatBonus": {
-			"culture": 33
+			"culture": 25
 		},
 		"requiredBuilding": "Museum",
 		"maintenance": 3,
@@ -1626,6 +1625,25 @@
 			"Consumes [1] [Power]",
 			"Destroyed when the city is captured"
 		]
+	},
+	{
+		"name": "Foreign Center",
+		"cost": 750,
+		"culture": 5,
+		"maintenance": 4,
+		"specialistSlots": {
+			"Artist": 1
+		},
+		"percentStatBonus": {
+			"culture": 10
+		},
+		"requiredBuilding": "Broadcast Tower",
+		"uniques": [
+			"Consumes [2] [Power]",
+			"Destroyed when the city is captured"
+		],
+		"hurryCostModifier": 0,
+		"requiredTech": "Globalization"
 	},
 	{
 		"name": "Medical Lab",
@@ -1723,26 +1741,6 @@
 			"Provides [2] [Aluminum]",
 			"Provides [1] [Oil]"
 		]
-	},
-	{
-		"name": "Foreign Center",
-		"cost": 750,
-		"culture": 5,
-		"maintenance": 4,
-		"specialistSlots": {
-			"Artist": 1
-		},
-		"percentStatBonus": {
-			"culture": 25
-		},
-		"requiredBuilding": "Broadcast Tower",
-		"uniques": [
-			"Consumes [2] [Power]",
-			"Unsellable",
-			"Destroyed when the city is captured"
-		],
-		"hurryCostModifier": 0,
-		"requiredTech": "Globalization"
 	},
 	{
 		"name": "Branch Office",
@@ -2222,8 +2220,8 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Information Perk]",
-			"[+10]% [Culture] from every [Foreign Center]",
 			"[+10]% [Culture] from every [Public School]",
+			"[+5]% [Culture] from every [Foreign Center]",
 			"Only available <starting from the [Information era]>",
 			"Consumes [1] [Artist Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
@@ -2236,7 +2234,7 @@
 		"uniques": [
 			"Comment [Information Perk]",
 			"[+2 Happiness, +4 Gold] from [Concert Venue] tiles [in all cities]",
-			"[+4 Faith, +1 Happiness] from all [Culture] buildings",
+			"[+2 Faith, +1 Happiness] from all [Culture] buildings",
 			"[10]% of excess happiness converted to [Culture]",
 			"Only available <starting from the [Information era]>",
 			"Consumes [2] [Artist Perk]",
@@ -2249,7 +2247,7 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Future Perk]",
-			"[+3 Culture, +3 Faith] from every [Wonder]",
+			"[+2 Culture, +2 Faith] from every [Wonder]",
 			"[+1 Culture] per [2] population [in all cities]",
 			"Only available <starting from the [Future era]>",
 			"Consumes [2] [Artist Perk]",
