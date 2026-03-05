@@ -1614,18 +1614,6 @@
 		"hurryCostModifier": 15
 	},
 	{
-		"name": "Stadium",
-		"happiness": 4,
-		"cost": 500,
-		"requiredBuilding": "Theatre",
-		"requiredTech": "Refrigeration",
-		"maintenance": 4,
-		"uniques": [
-			"Consumes [1] [Power]",
-			"[+1 Happiness] per [6] population [in this city]"
-		]
-	},
-	{
 		"name": "Broadcast Tower",
 		"culture": 3,
 		"percentStatBonus": {
@@ -1804,6 +1792,17 @@
 		]
 	},
 	{
+		"name": "Stadium",
+		"happiness": 4,
+		"cost": 500,
+		"requiredTech": "Refrigeration",
+		"maintenance": 6,
+		"uniques": [
+			"Consumes [2] [Power]",
+			"[+1 Happiness] per [8] population [in this city]"
+		]
+	},
+	{
 		"name": "Virtual Space",
 		"happiness": 2,
 		"maintenance": 4,
@@ -1811,7 +1810,7 @@
 		"cost": 850,
 		"uniques": [
 			"Consumes [4] [Power]",
-			"[+1 Happiness] per [6] population [in this city]",
+			"[+1 Happiness] per [8] population [in this city]",
 			"Unsellable"
 		]
 	},
