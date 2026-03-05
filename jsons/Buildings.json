@@ -1534,7 +1534,7 @@
 			"Only available <if [AP-Museum Host] is constructed>",
 			"Consumes [2] [Fossil]",
 			"Consumes [1] [Power]",
-			"[+20 Gold] from [Excavation Site] tiles [in all cities]",
+			"[+10 Gold] from [Excavation Site] tiles [in all cities]",
 			"[+50]% Yield from every [Excavation Site]"
 		]
 	},
@@ -1924,7 +1924,7 @@
 		"percentStatBonus": {
 			"culture": 10,
 			"science": 10,
-			"gold": 10
+			"gold": 5
 		},
 		"specialistSlots": {
 			"Spacefarer": 2
@@ -1942,7 +1942,7 @@
 		"percentStatBonus": {
 			"culture": 20,
 			"science": 20,
-			"gold": 20
+			"gold": 10
 		},
 		"specialistSlots": {
 			"Spacefarer": 2
