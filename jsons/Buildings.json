@@ -2141,9 +2141,9 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Industrial Perk]",
-			"[+50]% Production when constructing [Archaeologist] units [in all cities]",
+			"[+25]% Production when constructing [Archaeologist] units [in all cities]",
 			"[Gold] cost of purchasing [Archaeologist] units [-25]%",
-			"[+10]% [Culture] from every [Museum]",
+			"[+5 Culture] from every [Museum]",
 			"Only available <starting from the [Industrial era]>",
 			"Consumes [1] [Artist Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
@@ -2171,7 +2171,7 @@
 			"Comment [Enables construction of History Museum]",
 			"Provides [1] [Fossil]",
 			"Only available <starting from the [Modern era]>",
-			"Consumes [1] [Artist Perk]",
+			"Consumes [2] [Artist Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
 	},
@@ -2210,7 +2210,7 @@
 			"Comment [Atomic Perk]",
 			"[+25]% [Culture] <in cities with a [Stadium]> <when not at war>",
 			"Only available <starting from the [Atomic era]>",
-			"Consumes [1] [Artist Perk]",
+			"Consumes [2] [Artist Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
 	},
