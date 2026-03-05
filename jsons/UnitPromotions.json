@@ -120,6 +120,25 @@
         "row": 3
 	},
 	{
+		"name": "Indirect Fire",
+		"prerequisites": [
+			"Accuracy III",
+			"Barrage III",
+			"Bombardment II",
+			"Targeting II"
+		],
+		"uniques": [
+			"Ranged attacks may be performed over obstacles"
+		],
+		"unitTypes": [
+			"Archery",
+			"Siege",
+			"Ranged Water"
+		],
+        "column": 3,
+        "row": 4
+	},
+	{
         "name": "Exploration",
         "uniques": [
             "[This Unit] gains [1] XP <with [25]% chance> <upon discovering a [All] tile>",
@@ -805,4 +824,5 @@
 		]
 	}
 ]
+
 
