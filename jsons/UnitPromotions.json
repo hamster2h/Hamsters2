@@ -112,7 +112,9 @@
 			"Helicopter",
 			"Siege",
 			"Ranged Water",
-			"Submarine"
+			"Submarine",
+			"Missile",
+			"Big Missile"
 		],
         "column": 3,
         "row": 3
@@ -803,3 +805,4 @@
 		]
 	}
 ]
+
