@@ -431,7 +431,8 @@
             {
                 "name": "Protectionism",
                 "uniques": [
-					"[+25]% [Gold] [in all cities]",
+					"[+10]% [Gold] [in all cities]",
+					"[+25 Gold] [in all cities]",
 					"[+10]% [Production] [in all cities]",
 					"[+1] Happiness from each type of luxury resource"
 				],
@@ -567,7 +568,8 @@
             {
                 "name": "Free Speech",
                 "uniques": [
-					"[+25]% [Gold] [in all cities]"
+					"[+10]% [Gold] [in all cities]",
+					"[+25 Gold] [in all cities]"
 				],
                 "requires": ["Constitution"],
                 "row": 2,
