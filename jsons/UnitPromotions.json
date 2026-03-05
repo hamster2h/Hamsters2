@@ -483,6 +483,154 @@
         "row": 1
 	},
 	{
+		"name": "Siege I",
+		"uniques": [
+			"[+33]% Strength <vs cities>",
+			"[-100]% weight to this choice for AI decisions"
+		],
+		"unitTypes": [
+			"Bomber",
+			"Missile",
+			"Big Missile"
+		],
+        "column": 17,
+        "row": 1
+	},
+	{
+		"name": "Bombardment I",
+		"uniques": [
+			"[+33]% Strength <vs [Land] units>"
+		],
+		"unitTypes": [
+			"Ranged Water",
+			"Fighter",
+			"Bomber",
+			"Missile",
+			"Big Missile"
+		],
+        "column": 26,
+        "row": 1
+	},
+	{
+		"name": "Bombardment II",
+		"prerequisites": ["Bombardment I"],
+		"uniques": [
+			"[+33]% Strength <vs [Land] units>"
+		],
+		"unitTypes": [
+			"Ranged Water",
+			"Fighter",
+			"Bomber",
+			"Missile",
+			"Big Missile"
+		],
+        "column": 26,
+        "row": 2
+	},
+	{
+		"name": "Bombardment III",
+		"prerequisites": ["Bombardment II"],
+		"uniques": [
+			"[+34]% Strength <vs [Land] units>"
+		],
+		"unitTypes": [
+			"Ranged Water",
+			"Fighter",
+			"Bomber",
+			"Missile",
+			"Big Missile"
+		],
+        "column": 26,
+        "row": 3
+	},
+	{
+		"name": "Siege II",
+		"prerequisites": ["Siege I"],
+		"uniques": [
+			"[+33]% Strength <vs cities>"
+		],
+		"unitTypes": [
+			"Bomber",
+			"Missile",
+			"Big Missile"
+		],
+        "column": 17,
+        "row": 2
+	},
+	{
+		"name": "Siege III",
+		"prerequisites": ["Siege II"],
+		"uniques": [
+			"[+34]% Strength <vs cities>"
+		],
+		"unitTypes": [
+			"Bomber",
+			"Missile",
+			"Big Missile"
+		],
+        "column": 17,
+        "row": 3
+	},
+	{
+		"name": "Air Targeting I",
+		"prerequisites": [
+			"Interception I",
+			"Siege I",
+			"Bombardment I",
+			"Dogfighting I"
+		],
+		"uniques": [
+			"[+33]% Strength <vs [Water] units>",
+			"[-100]% weight to this choice for AI decisions"
+		],
+		"unitTypes": [
+			"Fighter",
+			"Bomber",
+			"Missile",
+			"Big Missile"
+		],
+        "column": 20,
+        "row": 1
+	},
+	{
+		"name": "Air Targeting II",
+		"prerequisites": [
+			"Air Targeting I"
+		],
+		"uniques": [
+			"[+33]% Strength <vs [Water] units>"
+		],
+		"unitTypes": [
+			"Fighter",
+			"Bomber",
+			"Missile",
+			"Big Missile"
+		],
+        "column": 20,
+        "row": 2
+	},
+	{
+		"name": "Operational Range",
+		"prerequisites": [
+			"Interception I",
+			"Dogfighting I",
+			"Siege I",
+			"Bombardment I"
+		],
+		"uniques": [
+			"[+2] Range",
+			"[-90]% weight to this choice for AI decisions"
+		],
+		"unitTypes": [
+			"Fighter",
+			"Bomber",
+			"Missile",
+			"Big Missile"
+		],
+        "column": 21,
+        "row": 1
+	},
+	{
 		"name": "Home Sweet Home",
 		"uniques": [
 			"[+50]% Strength decreasing with distance from the capital"
@@ -655,6 +803,3 @@
 		]
 	}
 ]
-
-
-
