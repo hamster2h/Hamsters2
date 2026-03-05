@@ -90,48 +90,43 @@
         "row": 5
 	},
 	{
-		"name": "Anti-Armor I",
-		"uniques": [
-			"[+75]% Strength <vs [Armored] units> <when attacking>"
-		],
-		"unitTypes": [
-			"Helicopter"
-		],
-        "column": 23,
-        "row": 1
-	},
-	{
-		"name": "Anti-Armor II",
-		"prerequisites": ["Anti-Armor I"],
-		"uniques": [
-			"[+75]% Strength <vs [Armored] units> <when attacking>"
-		],
-		"unitTypes": [
-			"Helicopter"
-		],
-        "column": 23,
-        "row": 2
-	},
-	{
-		"name": "Charge",
+		"name": "Extended Range",
 		"prerequisites": [
+			"Accuracy II",
+			"Barrage II",
+			"Targeting II",
+			"Bombardment II", 
+			"Wolfpack II",
 			"Shock II",
 			"Drill II",
 			"Mobility II",
 			"Anti-Armor II"
 		],
 		"uniques": [
-			"[+33]% Strength <vs [Wounded] units>",
-			"[+200]% weight to this choice for AI decisions"
+			"[+1] Range"
 		],
 		"unitTypes": [
-			"Mounted",
+			"Archery",
+			"Ranged Gunpowder",
 			"Armored",
-			"Helicopter"
+			"Helicopter",
+			"Siege",
+			"Ranged Water",
+			"Submarine"
 		],
-        "column": 6,
-        "row": 2
+        "column": 3,
+        "row": 3
 	},
+	{
+        "name": "Exploration",
+        "uniques": [
+            "[This Unit] gains [1] XP <with [25]% chance> <upon discovering a [All] tile>",
+            "[This Unit] gains [10] XP <upon discovering a [Natural Wonder] tile>"
+        ],
+        "unitTypes": [
+			"Scout"
+		]
+    },
 	{
 		"name": "Amphibious",
 		"uniques": [
@@ -220,6 +215,49 @@
 		"uniques": [
 			"Withdraws before melee combat <with [33]% chance>"
 		]
+	},
+	{
+		"name": "Anti-Armor I",
+		"uniques": [
+			"[+75]% Strength <vs [Armored] units> <when attacking>"
+		],
+		"unitTypes": [
+			"Helicopter"
+		],
+        "column": 23,
+        "row": 1
+	},
+	{
+		"name": "Anti-Armor II",
+		"prerequisites": ["Anti-Armor I"],
+		"uniques": [
+			"[+75]% Strength <vs [Armored] units> <when attacking>"
+		],
+		"unitTypes": [
+			"Helicopter"
+		],
+        "column": 23,
+        "row": 2
+	},
+	{
+		"name": "Charge",
+		"prerequisites": [
+			"Shock II",
+			"Drill II",
+			"Mobility II",
+			"Anti-Armor II"
+		],
+		"uniques": [
+			"[+33]% Strength <vs [Wounded] units>",
+			"[+200]% weight to this choice for AI decisions"
+		],
+		"unitTypes": [
+			"Mounted",
+			"Armored",
+			"Helicopter"
+		],
+        "column": 6,
+        "row": 2
 	},
 	{
 		"name": "Armor Plating I",
@@ -323,34 +361,6 @@
         "row": 3
 	},
 	{
-		"name": "Extended Range",
-		"prerequisites": [
-			"Accuracy II",
-			"Barrage II",
-			"Targeting II",
-			"Bombardment II", 
-			"Wolfpack II",
-			"Shock II",
-			"Drill II",
-			"Mobility II",
-			"Anti-Armor II"
-		],
-		"uniques": [
-			"[+1] Range"
-		],
-		"unitTypes": [
-			"Archery",
-			"Ranged Gunpowder",
-			"Armored",
-			"Helicopter",
-			"Siege",
-			"Ranged Water",
-			"Submarine"
-		],
-        "column": 3,
-        "row": 3
-	},
-	{
 		"name": "Ambush I",
 		"uniques": [
 			"[+33]% Strength <vs [Armored] units>",
@@ -417,16 +427,6 @@
         "row": 3
 	},
 	{
-        "name": "Exploration",
-        "uniques": [
-            "[This Unit] gains [1] XP <with [25]% chance> <upon discovering a [All] tile>",
-            "[This Unit] gains [10] XP <upon discovering a [Natural Wonder] tile>"
-        ],
-        "unitTypes": [
-			"Scout"
-		]
-    },
-	{
 		"name": "Medic",
 		"prerequisites": [
 			"Shock I",
@@ -483,20 +483,6 @@
         "row": 1
 	},
 	{
-		"name": "Siege I",
-		"uniques": [
-			"[+33]% Strength <vs cities>",
-			"[-100]% weight to this choice for AI decisions"
-		],
-		"unitTypes": [
-			"Bomber",
-			"Missile",
-			"Big Missile"
-		],
-        "column": 17,
-        "row": 1
-	},
-	{
 		"name": "Bombardment I",
 		"uniques": [
 			"[+33]% Strength <vs [Land] units>"
@@ -542,6 +528,20 @@
 		],
         "column": 26,
         "row": 3
+	},
+	{
+		"name": "Siege I",
+		"uniques": [
+			"[+33]% Strength <vs cities>",
+			"[-100]% weight to this choice for AI decisions"
+		],
+		"unitTypes": [
+			"Bomber",
+			"Missile",
+			"Big Missile"
+		],
+        "column": 17,
+        "row": 1
 	},
 	{
 		"name": "Siege II",
