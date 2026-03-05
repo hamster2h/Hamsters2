@@ -936,9 +936,9 @@
 			{
 				"name": "Interplanetary Research",
 				"uniques": [
-					"[+10]% [Gold] from every [Space Station]",
+					"[+10]% [Culture] from every [Space Station]",
 					"[+10]% [Science] from every [Space Station]",
-					"[+10]% [Culture] from every [Space Station]"
+					"[+5]% [Gold] from every [Space Station]"
 				],
 				"requires": [
 					"Futurism"
@@ -973,7 +973,7 @@
 			{
 				"name": "Discovery",
 				"uniques": [
-					"[+1 Happiness, +2 Gold, +2 Science, +2 Culture] from all [Science] buildings"
+					"[+1 Gold, +2 Science] from all [Science] buildings"
 				],
 				"requires": [
 					"Joint Projects"
@@ -1020,7 +1020,7 @@
 				{
 					"name": "Battlefield Experiments",
 					"uniques": [
-						"[+20]% City Strength from defensive buildings",
+						"[+25]% City Strength from defensive buildings",
 						"Earn [100]% of killed [Military] unit's [Strength] as [Science]"
 					],
 					"requires": [
@@ -1043,8 +1043,7 @@
 				{
 					"name": "Drone Surveillance",
 					"uniques": [
-						"[+2 Culture] from all [Science] buildings",
-						"[+1 Happiness] from all [Food] buildings"
+						"[-2 Culture, -4 Happiness] from all [Science] buildings"
 					],
 					"requires": [
 						"Battlefield Experiments"
