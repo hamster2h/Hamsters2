@@ -2741,10 +2741,6 @@
 		"upgradesTo": "Future Soldier",
 		"obsoleteTech": "Lasers",
 		"uniques": [
-			"[1] Movement point cost to disembark",
-			"[1] Movement point cost to embark",
-			"[+1] Sight <when [Embarked]>",
-			"[+100]% Strength <when defending> <when [Embarked]>",
 			"Can pass through impassable tiles",
 			"May enter foreign tiles without open borders"
 		],
@@ -2781,10 +2777,6 @@
 		"requiredTech": "Lasers",
 		"upgradesTo": "Energy Infantry",
 		"uniques": [
-			"[1] Movement point cost to disembark",
-			"[1] Movement point cost to embark",
-			"[+1] Sight <when [Embarked]>",
-			"[+100]% Strength <when defending> <when [Embarked]>",
 			"May Paradrop to [Land] tiles up to [16] tiles away <in [{Friendly} {Land}] tiles>",
 			"Can pass through impassable tiles",
 			"May enter foreign tiles without open borders",
@@ -2807,10 +2799,6 @@
 		"requiredTech": "Nuclear Fusion",
 		"requiredResource": "Composites",
 		"uniques": [
-			"[1] Movement point cost to disembark",
-			"[1] Movement point cost to embark",
-			"[+1] Sight <when [Embarked]>",
-			"[+100]% Strength <when defending> <when [Embarked]>",
 			"May Paradrop to [Land] tiles up to [16] tiles away",
 			"Can pass through impassable tiles",
 			"May enter foreign tiles without open borders",
