@@ -343,8 +343,9 @@
 		"favoredReligion": "Islam",
 		"uniqueName": "Ingenuity",
 		"uniques": [
-			"Free [Great Scientist] appears <upon entering a new era> <after turn number [3]> <hidden from users>",
 			"Free [Great Scientist] appears <upon discovering [Writing] technology>",
+			"Gain a free [University] [in all cities] <upon discovering [Education] technology>",
+			"Gain a free [Factory] [in all cities] <upon discovering [Industrialization] technology>",
 			"[Great Scientist] is earned [100]% faster"
 		],
 		"cities": [
