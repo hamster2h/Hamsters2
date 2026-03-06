@@ -151,8 +151,10 @@
 	{
 		"name": "Amphibious",
 		"uniques": [
-			"[+1] Sight <for [Embarked] units>",
-			"[+100]% Strength <when defending> <when [Embarked]>"
+			"[1] Movement point cost to disembark",
+			"[1] Movement point cost to embark",
+			"[+2] Sight <when [Embarked]>",
+			"[+200]% Strength <when defending> <when [Embarked]>"
 		]
 	},
 	{
@@ -824,5 +826,6 @@
 		]
 	}
 ]
+
 
 
