@@ -2083,7 +2083,7 @@ UnitIcons/Entropy Phaser
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Future Copter
+UnitIcons/Stealth Helicopter
   rotate: false
   xy: 112, 256
   size: 100, 100
