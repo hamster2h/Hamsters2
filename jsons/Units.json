@@ -927,7 +927,7 @@
 		"rangedStrength": 70,
 		"cost": 5000,
 		"requiredTech": "Computers",
-		"upgradesTo": "Future Copter",
+		"upgradesTo": "Stealth Helicopter",
 		"obsoleteTech": "Clean Energy",
 		"requiredResource": "Oil",
 		"uniques": [
@@ -941,7 +941,7 @@
 		"attackSound": "machinegun"
 	},
 	{
-		"name": "Future Copter",
+		"name": "Stealth Helicopter",
 		"unitType": "Helicopter",
 		"movement": 12,
 		"range": 4,
@@ -956,7 +956,8 @@
 			"[+200]% Strength <vs [Armored] units> <when attacking>"
 		],
 		"promotions": [
-			"Hovering"
+			"Hovering",
+			"Stealth"
 		],
 		"attackSound": "energyshot"
 	},
