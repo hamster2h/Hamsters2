@@ -2866,7 +2866,7 @@
 		"strength": 13,
 		"rangedStrength": 18,
 		"cost": 150,
-		"requiredTech": "Machinery",
+		"requiredTech": "Guilds",
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
 		"promotions": [
