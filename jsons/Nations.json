@@ -661,7 +661,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Viking Fury",
 		"uniques": [
-			"[+2] Movement <for [Embarked] units>",
+			"[+1] Movement <for [Embarked] units>",
 			"[1] Movement point cost to disembark <for [All] units>",
 			"No movement cost to pillage <for [Melee] units>"
 		],
