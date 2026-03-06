@@ -2534,7 +2534,7 @@
 		"replaces": "Rifleman",
 		"unitType": "Gunpowder",
 		"movement": 2,
-		"strength": 34,
+		"strength": 50,
 		"cost": 350,
 		"requiredTech": "Rifling",
 		"upgradesTo": "Infantry",
