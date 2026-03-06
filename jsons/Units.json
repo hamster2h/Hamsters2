@@ -724,7 +724,7 @@
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 12,
-		"cost": 18,
+		"cost": 22,
 		"requiredTech": "Bronze Working",
 		"upgradesTo": "Pikeman",
 		"obsoleteTech": "Civil Service",
