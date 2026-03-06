@@ -569,10 +569,11 @@
 		"replaces": "National College",
 		"isNationalWonder": false,
 		"cost": 475,
-		"culture": 2,
+		"culture": 3,
 		"science": 4,
 		"percentStatBonus": {
-			"science": 25
+			"science": 25,
+			"culture": 10
 		},
 		"requiredBuilding": "University",
 		"uniques": [
