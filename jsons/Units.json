@@ -1576,6 +1576,7 @@
 		"interceptRange": 5,
 		"cost": 900,
 		"upgradesTo": "Fighter",
+		"obsoleteTech": "Radar",
 		"requiredResource": "Oil",
 		"uniques": [
 			"[50]% chance to intercept air attacks",
@@ -2067,6 +2068,7 @@
 		"range": 1,
 		"cost": 1400,
 		"upgradesTo": "Tank",
+		"obsoleteTech": "Combustion",
 		"requiredResource": "Iron",
 		"uniques": [
 			"Consumes [1] [Oil]",
