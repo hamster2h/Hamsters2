@@ -430,7 +430,8 @@
 		"innerColor": [63,106,64],
 		"uniqueName": "Carnival",
 		"uniques": [
-			"[+6 Culture] from [Landmark] tiles [in all cities]"
+			"[+6 Culture] from [Landmark] tiles [in all cities]",
+			"[+2 Culture, +2 Gold] [in all cities]"
 		],
 		"cities": [
 			"Rio de Janeiro","Sao Paulo","Salvador","Brasilia","Fortaleza","Belo Horizonte","Manaus","Curitiba","Recife","Porto Alegre",
