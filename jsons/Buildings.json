@@ -111,6 +111,8 @@
 		"name": "Maple Farm",
 		"uniqueTo": "Canada",
 		"gold": 4,
+		"culture": 1,
+		"happiness": 2,
 		"maintenance": 1,
 		"uniques": [
 			"[+1 Gold] from [Forest] tiles [in this city]",
