@@ -1558,7 +1558,7 @@ TileSets/FantasyHex/Units/Energy Infantry
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Future Copter
+TileSets/FantasyHex/Units/Stealth Helicopter
   rotate: false
   xy: 1518, 1256
   size: 32, 32
