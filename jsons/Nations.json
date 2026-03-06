@@ -348,6 +348,7 @@
 			"Gain a free [University] [in all cities] <upon discovering [Education] technology>",
 			"Gain a free [Factory] [in all cities] <upon discovering [Industrialization] technology>",
 			"Gain a free [Manufacturing Plant] [in all cities] <upon discovering [Infrastructure] technology>",
+			"[12] free [Future Soldier] units appear <upon discovering [Lasers] technology>",
 			"[Great Scientist] is earned [100]% faster"
 		],
 		"cities": [
