@@ -2194,8 +2194,9 @@
 		"strength": 200,
 		"rangedStrength": 200,
 		"range": 3,
-		"cost": 16000,
+		"cost": 18000,
 		"requiredTech": "Nuclear Fusion",
+		"requiredResource": "Uranium",
 		"uniques": [
 			"Cyber",
 			"Consumes [4] [Composites]",
