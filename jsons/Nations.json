@@ -344,7 +344,6 @@
 		"uniqueName": "Ingenuity",
 		"uniques": [
 			"Free [Great Scientist] appears <upon discovering [Writing] technology>",
-			"Gain a free [National College] [in capital] <upon discovering [Philosophy] technology>",
 			"Gain a free [University] [in all cities] <upon discovering [Education] technology>",
 			"Gain a free [Factory] [in all cities] <upon discovering [Industrialization] technology>",
 			"Gain a free [Manufacturing Plant] [in all cities] <upon discovering [Infrastructure] technology>",
