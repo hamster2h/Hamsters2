@@ -235,6 +235,17 @@
 		"requiredTech": "Philosophy"
 	},
 	{
+		"name": "Mud Pyramid Mosque",
+		"uniqueTo": "Songhai",
+		"replaces": "Temple",
+		"maintenance": 0,
+		"culture": 3,
+		"faith": 2,
+		"requiredBuilding": "Shrine",
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy"
+	},
+	{
 		"name": "Ziggurat",
 		"uniqueTo": "Sumeria",
 		"replaces": "Temple",
