@@ -1256,8 +1256,8 @@
 		"leaderName": "Nzinga Mbande",
 		"adjective": ["Kongo"],
 		"startBias": [
-			"Avoid [Coast]",
-			"Jungle"
+			"Jungle",
+			"Avoid [Coast]"
 		],
 		"preferredVictoryType": "Cultural",
 		"personality": "Nzinga Mbande",
