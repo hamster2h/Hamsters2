@@ -388,6 +388,7 @@
                 "uniques": [
                     "[+1] Movement <for [{Military} {Water}] units>",
                     "[+1] Sight <for [{Military} {Water}] units>",
+					"[+10] Strength <for [{Military} {Water}] units>",
                     "Free [Great Admiral] appears",
                     "[+2] Movement <for [Great Admiral] units>",
                 ],
@@ -420,11 +421,10 @@
                 "name": "Mercantilism",
                 "uniques": [
                     "[Gold] cost of purchasing items in cities [-25]%",
-                    "[+1]% [Science] from every [Mint]",
-                    "[+1]% [Science] from every [Market]",
-                    "[+1]% [Science] from every [Bank]",
-                    "[+1]% [Science] from every [Stock Exchange]",
-					"[+1]% [Science] from every [Entrepeneur Venue]"
+                    "[+2 Gold] from every [Mint]",
+                    "[+1 Food, +1 Production] from every [Market]",
+                    "[+5]% [Science] from every [Bank]",
+                    "[+2]% [Gold] from every [Stock Exchange]"
                 ],
                 "requires": ["Trade Unions"],
                 "row": 2,
