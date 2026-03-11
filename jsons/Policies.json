@@ -311,7 +311,8 @@
         },
         "uniques": [
             "[-25]% City-State Influence degradation",
-            "[-100]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [2]>"
+			"Free [Archaeologist] appears",
+            "[-100]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [4]>"
         ],
         "policies": [
             {
@@ -540,6 +541,7 @@
         },
         "uniques": [
             "[+25]% Great Person generation [in all cities]",
+			"[+10]% Strength <for [All] units>",
             "Only available <before adopting [Autocracy]>"
         ],
         "policies": [
@@ -608,7 +610,8 @@
             "Scientific": 5
         },
         "uniques": [
-            "[-33]% maintenance costs <for [All] units>",
+			"Free [Great General] appears",
+            "[-33]% maintenance costs <for [Military] units>",
             "Upon capturing a city, receive [20] times its [Culture] production as [Culture] immediately",
             "Only available <before adopting [Order]>",
             "Only available <before adopting [Freedom]>"
