@@ -886,7 +886,7 @@
 					"Comment [Doubles the Healing bonus from Medics and Tactical Supplier units]"
 				],
 				"requires": [
-					"Propaganda"
+					"Military Tax"
 				],
 				"row": 2,
 				"column": 3
@@ -898,7 +898,7 @@
 					"[+50]% [Science] [in all cities]"
 				],
 				"requires": [
-					"Military Tax"
+					"Propaganda"
 				],
 				"row": 2,
 				"column": 5
