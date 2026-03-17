@@ -672,7 +672,7 @@
                 "name": "Autocracy Complete",
                 "uniques": [
                     "[+25]% Strength <when attacking> <for [Military] units>",
-					"Free [Great General] appears",
+					"[-33]% [Gold] [in all cities]",
                     "Get the leader title of [[leaderName] the Terrible]"
                 ]
             }
