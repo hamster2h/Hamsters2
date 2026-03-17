@@ -654,7 +654,7 @@
                     "[+300]% Production when constructing [Courthouse] buildings [in all cities]",
                     "[-25]% enemy spy effectiveness [in all cities]"
                 ],
-                "requires": ["Militarism"],
+                "requires": ["Populism", "Militarism"],
                 "row": 2,
                 "column": 4
             },
