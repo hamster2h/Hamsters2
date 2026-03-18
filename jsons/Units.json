@@ -2747,7 +2747,8 @@
 			"May enter foreign tiles without open borders"
 		],
 		"promotions": [
-			"Amphibious"
+			"Amphibious",
+			"Stealth"
 		],
 		"attackSound": "shot"
 	},
