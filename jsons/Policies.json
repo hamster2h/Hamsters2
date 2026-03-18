@@ -817,9 +817,9 @@
 			{
 				"name": "E-Commerce",
 				"uniques": [
-					"[25]% of excess happiness converted to [Gold]",
-					"[+2 Production] from all [Food] buildings",
 					"[+25]% Production when constructing [Cyber] units [in all cities]",
+					"[25]% of excess happiness converted to [Gold]",
+					"[+2 Production] from all [Food] buildings"
 				],
 				"requires": [
 					"Startups"
