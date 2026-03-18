@@ -549,7 +549,7 @@
             {
                 "name": "Constitution",
                 "uniques": [
-					"[+5] Strength <for [Gunpowder] units>",
+					"[+15] Strength <for [Gunpowder] units>",
 					"[+4 Culture] from every [Wonder]"
 				],
                 "row": 1,
