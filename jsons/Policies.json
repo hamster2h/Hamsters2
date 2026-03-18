@@ -549,6 +549,7 @@
             {
                 "name": "Constitution",
                 "uniques": [
+					"[+5] Strength <for [Gunpowder] units>",
 					"[+4 Culture] from every [Wonder]"
 				],
                 "row": 1,
@@ -557,7 +558,8 @@
             {
                 "name": "Universal Suffrage",
                 "uniques": [
-					"[+33]% Strength for cities <when defending>"
+					"[+33]% Strength for cities <when defending>",
+					"Empire enters golden age"
 				],
                 "row": 1,
                 "column": 3
@@ -565,7 +567,8 @@
             {
                 "name": "Civil Society",
                 "uniques": [
-                    "[-25]% Food consumption by [Specialists] [in all cities]"
+                    "[-25]% Food consumption by [Specialists] [in all cities]",
+					"[2] Free Social Policies"
                 ],
                 "row": 1,
                 "column": 5
@@ -583,7 +586,9 @@
             {
                 "name": "Democracy",
                 "uniques": [
-                    "[-25]% Unhappiness from [Specialists] [in all cities]"
+                    "[-25]% Unhappiness from [Specialists] [in all cities]",
+					"[Gold] cost of purchasing [Gunpowder] units [-10]%",
+					"Gain an extra spy"
                 ],
                 "requires": ["Civil Society"],
                 "row": 2,
