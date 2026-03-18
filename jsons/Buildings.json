@@ -1916,6 +1916,17 @@
 		"hurryCostModifier": 25
 	},
 	{
+		"name": "Bomb Shelter",
+		"cost": 200,
+		"maintenance": 1,
+		"requiredTech": "Atomic Theory",
+		"uniques": [
+			"Population loss from nuclear attacks [-25]% [in this city]",
+			"Damage to garrison from nuclear attacks [-25]% [in this city]",
+			"Only available <when nuclear weapons are enabled> <hidden from users>"
+		]
+	},
+	{
 		"name": "Energy Barrier",
 		"cost": 3000,
 		"cityStrength": 12,
