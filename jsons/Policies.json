@@ -779,7 +779,8 @@
 				"name": "Cryptography",
 				"uniques": [
 					"[Great Scientist] is earned [100]% faster",
-					"[+2 Gold] from all [Science] buildings"
+					"[+2 Gold] from all [Science] buildings",
+					"Gain an extra spy"
 				],
 				"requires": [
 					"Digitalization"
@@ -791,6 +792,7 @@
 				"name": "Startups",
 				"uniques": [
 					"Comment [Doubles the adjacency bonuses of Industry tiles]",
+					"Gain a free [Entrepeneur Venue] [in all cities]",
 					"Free [Corporate] appears"
 				],
 				"requires": [
@@ -803,6 +805,7 @@
 				"name": "Talent Agencies",
 				"uniques": [
 					"Comment [Doubles the adjacency bonuses of Concert Venue tiles]",
+					"[+100]% Yield from every [Concert Venue]",
 					"Free [Musician] appears"
 				],
 				"requires": [
@@ -815,7 +818,8 @@
 				"name": "E-Commerce",
 				"uniques": [
 					"[25]% of excess happiness converted to [Gold]",
-					"[+2 Production] from all [Food] buildings"
+					"[+2 Production] from all [Food] buildings",
+					"[+25]% Production when constructing [Cyber] units [in all cities]",
 				],
 				"requires": [
 					"Startups"
@@ -826,7 +830,8 @@
 			{
 				"name": "Safety Checks",
 				"uniques": [
-					"Comment [Doubles the adjacency bonuses of Infrastructure tiles]"
+					"Comment [Doubles the adjacency bonuses of Infrastructure tiles]",
+					"[+100]% Yield from every [Industry]"
 				],
 				"requires": [
 					"Talent Agencies",
@@ -838,7 +843,8 @@
 			{
 				"name": "Digitalization Complete",
 				"uniques": [
-					"[-20]% maintenance costs"
+					"[-20]% maintenance costs",
+					"Free Technology"
 				]
 			}
 		]
