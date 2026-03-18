@@ -898,7 +898,12 @@
 				"uniques": [
 					"[+25]% Strength <for [Support] units> <when defending>",
 					"Comment [Doubles the Healing bonus from Medics and Tactical Supplier units]",
-					"Provides [6] [Oil]"
+					"[+1] Range <for [Armored] units>",
+					"[+1] Movement <for [Armored] units>",
+					"[+1] Range <for [Siege] units>",
+					"[+10]% Strength <for [Siege] units>",
+					"[+4] Range <for [Air] units>",
+					"[+25]% Strength <for [Air] units>"
 				],
 				"requires": [
 					"Military Tax"
@@ -925,7 +930,7 @@
 					"All newly-trained [relevant] units [in all cities] receive the [Logistics] promotion",
 					"All newly-trained [relevant] units [in all cities] receive the [Blitz] promotion",
 					"All newly-trained [non-[Air]] units [in all cities] receive the [Mobility] promotion",
-					"[2] free [Nuclear Missile] units appear"
+					"[8] free [Nuclear Missile] units appear"
 				],
 				"requires": [
 					"Censor",
