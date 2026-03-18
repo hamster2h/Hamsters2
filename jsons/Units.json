@@ -2738,7 +2738,7 @@
 		"unitType": "Gunpowder",
 		"movement": 3,
 		"strength": 65,
-		"cost": 1500,
+		"cost": 1600,
 		"requiredTech": "Pharmaceuticals",
 		"upgradesTo": "Future Soldier",
 		"obsoleteTech": "Lasers",
