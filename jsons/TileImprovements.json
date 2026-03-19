@@ -404,7 +404,6 @@
 		"terrainsCanBeBuiltOn": [
 			"Land"
 		],
-		"food": -1,
 		"gold": 6,
 		"culture": 5,
 		"uniques": [
