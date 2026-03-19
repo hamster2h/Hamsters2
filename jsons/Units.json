@@ -2744,7 +2744,7 @@
 		"obsoleteTech": "Lasers",
 		"uniques": [
 			"Can pass through impassable tiles",
-			"May enter foreign tiles without open borders"
+			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
 			"Amphibious",
