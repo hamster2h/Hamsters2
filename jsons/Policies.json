@@ -140,7 +140,8 @@
             {
                 "name": "Liberty Complete",
                 "uniques": [
-					"[+2 Production, +2 Culture] [in all cities]",
+					"[+2 Production, +2 Culture] [in all cities with a garrison]",
+					"[+50]% Strength for cities <with a garrison> <when defending>",
                     "Free Great Person",
                     "Get the leader title of [Consul [leaderName]]"
                 ]
