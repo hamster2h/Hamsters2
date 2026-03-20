@@ -140,9 +140,9 @@
             {
                 "name": "Liberty Complete",
                 "uniques": [
-					"[+2 Production, +2 Culture] [in all cities with a garrison]",
-					"[+50]% Strength for cities <with a garrison> <when defending>",
-                    "Free Great Person",
+					"[+2 Food, +2 Science] [in all cities]",
+					"[+1] Range <for [Archery] units>",
+					"[+1] Range <for [Ranged Gunpowder] units>",
                     "Get the leader title of [Consul [leaderName]]"
                 ]
             }
@@ -169,6 +169,7 @@
                 "name": "Warrior Code",
                 "uniques": [
                     "[+15]% Production when constructing [Melee] units [in all cities]",
+					"[+50]% Strength for cities <with a garrison> <when defending>",
                     "Free [Great General] appears"
                 ],
                 "row": 1,
@@ -287,7 +288,8 @@
             {
                 "name": "Free Religion",
                 "uniques": [
-					"[-5]% Culture cost of adopting new Policies"
+					"[-5]% Culture cost of adopting new Policies",
+					"Free Great Person"
 				],
                 "requires": ["Mandate Of Heaven", "Reformation"],
                 "row": 3,
