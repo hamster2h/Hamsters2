@@ -37,7 +37,8 @@
                 "name": "Oligarchy",
                 "uniques": [
                     "Gain a free [Walls] [in all cities]",
-                    "[+50]% Strength for cities <with a garrison> <when attacking>"
+                    "[+50]% Strength for cities <with a garrison> <when attacking>",
+					"[-50]% weight to this choice for AI decisions"
                 ],
                 "row": 1,
                 "column": 5
@@ -139,6 +140,7 @@
             {
                 "name": "Liberty Complete",
                 "uniques": [
+					"[+2 Production, +2 Culture] [in all cities]",
                     "Free Great Person",
                     "Get the leader title of [Consul [leaderName]]"
                 ]
@@ -157,8 +159,8 @@
         },
         "uniques": [
             "[+50]% Strength <vs [Barbarian] units>",
+			"Notified of new Barbarian encampments",
             "Earn [200]% of killed [Military] unit's [Strength] as [Culture]",
-            "Notified of new Barbarian encampments",
 			"[+1 Production] from [Lumber mill] tiles [in all cities]"
         ],
         "policies": [
@@ -447,6 +449,7 @@
             {
                 "name": "Commerce Complete",
                 "uniques": [
+					"[+1 Production] from all [Gold] buildings",
                     "[+1 Gold] from every [Trading post]",
                     "May buy [Great Merchant] units for [800] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([400])",
                     "Get the leader title of [Doge [leaderName]]"
@@ -644,7 +647,7 @@
             {
                 "name": "Fascism",
                 "uniques": [
-					"[+5 Food, +5 Science] [in capital]",
+					"[+10 Food, +10 Science] [in capital]",
                     "[+100]% [Strategic] resource production",
                     "[+2] Movement <for [Great General] units>"
                 ],
@@ -678,6 +681,7 @@
                 "name": "Autocracy Complete",
                 "uniques": [
                     "[+25]% Strength <when attacking> <for [Military] units>",
+					"Provides [4] [General Perk]",
 					"[-33]% [Gold] [in all cities]",
                     "Get the leader title of [[leaderName] the Terrible]"
                 ]
@@ -695,7 +699,7 @@
             "Scientific": 5
         },
         "uniques": [
-            "[+1 Happiness] [in all cities]",
+			"[+4 Production, +4 Science] [in all cities]",
             "Only available <before adopting [Autocracy]>"
         ],
         "policies": [
@@ -703,7 +707,8 @@
                 "name": "United Front",
                 "uniques": [
                     "Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
-					"[-100]% weight to this choice for AI decisions"
+					"Provides [2] [General Perk]",
+					"[-50]% weight to this choice for AI decisions"
                 ],
                 "row": 1,
                 "column": 1
@@ -752,9 +757,9 @@
             {
                 "name": "Order Complete",
                 "uniques": [
-                    "[+2 Food, +2 Production, +2 Science, +2 Gold, +2 Culture] [in all cities]",
-					"[Gold] cost of purchasing [Missile] units [-25]%",
                     "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500])",
+					"[Gold] cost of purchasing [Missile] units [-25]%",
+					"Provides [2] [Engineer Perk]",
                     "Get the leader title of [Chairman [leaderName]]"
                 ]
             }
