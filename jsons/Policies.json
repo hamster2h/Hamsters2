@@ -396,7 +396,7 @@
                 "uniques": [
                     "[+2] Movement <for [{Military} {Water}] units>",
                     "[+1] Sight <for [{Military} {Water}] units>",
-					"[+10]% Strength <for [{Military} {Water}] units>",
+					"[+10] Strength <for [{Military} {Water}] units>",
                     "Free [Great Admiral] appears",
                     "[+2] Movement <for [Great Admiral] units>",
                 ],
