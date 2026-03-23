@@ -396,7 +396,7 @@
                 "uniques": [
                     "[+2] Movement <for [{Military} {Water}] units>",
                     "[+1] Sight <for [{Military} {Water}] units>",
-					"[+10] Strength <for [{Military} {Water}] units>",
+					"[+10]% Strength <for [{Military} {Water}] units>",
                     "Free [Great Admiral] appears",
                     "[+2] Movement <for [Great Admiral] units>",
                 ],
@@ -509,7 +509,7 @@
             {
                 "name": "Sovereignty",
                 "uniques": [
-					"[+2 Production] from all [Science] buildings"
+					"[+2 Science] from all [Science] buildings"
 				],
                 "requires": ["Humanism"],
                 "row": 2,
@@ -555,7 +555,7 @@
             {
                 "name": "Constitution",
                 "uniques": [
-					"[+15] Strength <for [Gunpowder] units>",
+					"[+15]% Strength <for [Gunpowder] units>",
 					"[+4 Culture] from every [Wonder]"
 				],
                 "row": 1,
