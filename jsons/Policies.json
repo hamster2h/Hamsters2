@@ -650,7 +650,7 @@
             {
                 "name": "Fascism",
                 "uniques": [
-					"[+10 Food, +10 Production, +10 Science] [in all cities]",
+					"[+5 Food, +5 Production, +5 Science] [in all cities]",
                     "[+100]% [Strategic] resource production",
                     "[+2] Movement <for [Great General] units>"
                 ],
