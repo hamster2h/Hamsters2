@@ -143,6 +143,7 @@
 					"[+2 Food, +1 Science] [in all cities]",
 					"[+1] Range <for [Archery] units>",
 					"[+1] Range <for [Ranged Gunpowder] units>",
+					"[+1] Range <for [Siege] units>",
                     "Get the leader title of [Consul [leaderName]]"
                 ]
             }
