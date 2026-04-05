@@ -733,7 +733,8 @@
 				"name": "Mobile Tactics",
 				"row": 4,
 				"prerequisites": [
-					"Nuclear Fission"
+					"Nuclear Fission",
+					"Advanced Ballistics"
 				],
 				"quote": "'All men can see these tactics whereby I conquer, but what none can see is the strategy out of which victory is evolved.' - Sun Tzu"
 			},
