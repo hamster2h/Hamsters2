@@ -29,6 +29,7 @@
 		"uniqueName": "High Underground",
         "uniques": [
 			"[+1 Food, +3 Production] from [{non-[Natural Wonder]} {Mountain}] tiles [in all cities]",
+			"[+1 Food] from [Forest] tiles [in all cities]",
 			"Comment [\"Borrows\" city names from Korea]"
 		],
 		"cities": [
