@@ -1072,6 +1072,7 @@
 				{
 					"name": "Predictive Algorithms",
 					"uniques": [
+						"[+25]% Strength <for [All] units>",
 						"[+50]% XP gained from combat <for [Military] units>"
 					],
 					"requires": [
@@ -1108,6 +1109,7 @@
 					"name": "Self-Assembly",
 					"uniques": [
 						"[+5 Production] [in all cities]",
+						"Gain a free [Nano-Factory] [in all cities]",
 						"[+100]% Production when constructing [Production] buildings [in all cities]"
 					],
 					"requires": [
@@ -1120,7 +1122,8 @@
 				{
 					"name": "Technocracy Complete",
 					"uniques": [
-						"[+1 Production, +1 Culture, +1 Gold] from all [Science] buildings"
+						"[+1 Production, +1 Culture, +1 Gold] from all [Science] buildings",
+						"[12] free [Giant Death Robot] units appear"
 					]
 				}
 			]
@@ -1143,7 +1146,8 @@
 				{
 					"name": "Cloning",
 					"uniques": [
-						"Gain a free [Cloning Facility] [in all cities]"
+						"Gain a free [Cloning Facility] [in all cities]",
+						"[+25]% Production when constructing [Gunpowder] units [in all cities]"
 					],
 					"requires": [
 						"Transhumanism"
@@ -1166,7 +1170,7 @@
 				{
 					"name": "Mind Control",
 					"uniques": [
-						"[+1 Happiness] from all [Food] buildings"
+						"[+1 Happiness, +1 Culture] from all [Food] buildings"
 					],
 					"requires": [
 						"Cloning"
@@ -1189,6 +1193,7 @@
 				{
 					"name": "Lifeform Upgrade",
 					"uniques": [
+						"[+25]% Strength <for [Gunpowder] units>",
 						"[+1] Movement <for [Gunpowder] units>",
 						"[+3 Food] from every [Research Lab]"
 					],
@@ -1202,7 +1207,8 @@
 				{
 					"name": "Transhumanism Complete",
 					"uniques": [
-						"[+1 Production, +1 Culture, +1 Gold] from all [Food] buildings"
+						"[+1 Production, +1 Culture, +1 Gold] from all [Food] buildings",
+						"[12] free [Energy Infantry] units appear"
 					]
 				}
 			]
