@@ -1132,7 +1132,7 @@
 			"name": "Transhumanism",
 			"era": "Future era",
 			"uniques": [
-				"[+25]% growth [in capital]",
+				"[+25]% growth [in all cities]",
 				"[+10]% Strength <for [Gunpowder] units>"
 			],
 			"priorities": {
@@ -1193,8 +1193,8 @@
 				{
 					"name": "Lifeform Upgrade",
 					"uniques": [
-						"[+25]% Strength <for [Gunpowder] units>",
 						"[+1] Movement <for [Gunpowder] units>",
+						"[+25]% Strength <for [Gunpowder] units>",
 						"[+3 Food] from every [Research Lab]"
 					],
 					"requires": [
