@@ -1047,7 +1047,7 @@
 		"era": "Future era",
 			"uniques": [
 				"[+10]% [Production] [in all cities]",
-				"[2] Free Technologies"
+				"Free Technology"
 			],
 			"priorities": {
 				"Neutral": 40,
