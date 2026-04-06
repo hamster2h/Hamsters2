@@ -1013,7 +1013,7 @@
 				"name": "Discovery",
 				"uniques": [
 					"[+1 Gold, +2 Science, +2 Faith] from all [Science] buildings",
-					"[4] free [Orbital Fighter] units appear"
+					"[4] Free Technologies"
 				],
 				"requires": [
 					"Joint Projects"
@@ -1025,8 +1025,8 @@
 				"name": "Revolutionism",
 				"uniques": [
 					"[+5 Gold, +5 Culture, +5 Science] from all [Space] buildings",
-					"Empire enters golden age",
-					"[2] Free Technologies"
+					"[6] free [Orbital Fighter] units appear",
+					"Empire enters golden age"
 				],
 				"requires": [
 					"Joint Projects"
