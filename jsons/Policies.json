@@ -84,8 +84,7 @@
             "Scientific": 10
         },
         "uniques": [
-			"[+2 Culture, +2 Gold] [in all cities]",
-			"[+200 Production] per [1] population [in foreign cities]"
+			"[+2 Culture, +2 Gold] [in all cities]"
 		],
         "policies": [
             {
