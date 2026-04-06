@@ -2169,7 +2169,7 @@
         "uniques": [
             "[-50]% maintenance costs <for [Melee] units>",
 			"[-50]% maintenance costs <for [Gunpowder] units>",
-            "[25]% XP gained from combat <for [Military] units>"
+            "[+25]% XP gained from combat <for [Military] units>"
         ],
         "cities": [
             "Ulundi","Umgungundlovu","Nobamba","Bulawayo","KwaDukuza","Nongoma","oNdini","Nodwengu","Ndonakusuka","Babanango","Khangela",
