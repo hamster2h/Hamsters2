@@ -1297,15 +1297,25 @@
     {
         "name": "Small Park",
         "cost": 50,
-        "happiness": 2,
-        "maintenance": 1,
+        "happiness": 1,
+		"culture": 2,
+        "maintenance": 4,
         "requiredTech": "Horseback Riding"
     },
 	{
         "name": "Medium Park",
         "cost": 200,
+        "happiness": 2,
+		"culture": 4,
+        "maintenance": 6,
+        "requiredTech": "Horseback Riding"
+    },
+	{
+        "name": "Large Park",
+        "cost": 600,
         "happiness": 4,
-        "maintenance": 2,
+		"culture": 12,
+        "maintenance": 10,
         "requiredTech": "Horseback Riding"
     },
     {
