@@ -139,6 +139,31 @@
         "row": 4
 	},
 	{
+		"name": "Mobility I",
+		"uniques": [
+			"[+1] Movement"
+		],
+		"unitTypes": [
+			"Helicopter",
+			"Aircraft Carrier"
+		],
+        "column": 22,
+        "row": 1
+	},
+	{
+		"name": "Mobility II",
+		"prerequisites": ["Mobility I"],
+		"uniques": [
+			"[+1] Movement"
+		],
+		"unitTypes": [
+			"Helicopter",
+			"Aircraft Carrier"
+		],
+        "column": 22,
+        "row": 2
+	},
+	{
         "name": "Exploration",
         "uniques": [
             "[This Unit] gains [1] XP <with [25]% chance> <upon discovering a [All] tile>",
