@@ -85,7 +85,7 @@
         },
         "uniques": [
 			"[+2 Culture, +2 Gold] [in all cities]",
-			"[-10 Happiness] [in foreign cities]"
+			"[+200 Production] per [1] population [in foreign cities]"
 		],
         "policies": [
             {
