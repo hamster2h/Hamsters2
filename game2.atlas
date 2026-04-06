@@ -143,6 +143,13 @@ BuildingIcons/Medium Park
   orig: 200, 200
   offset: 0, 0
   index: -1
+BuildingIcons/Large Park
+  rotate: false
+  xy: 628, 270
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 BuildingIcons/Planetarium
   rotate: false
   xy: 1576, 54
