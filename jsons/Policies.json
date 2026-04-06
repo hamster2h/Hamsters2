@@ -741,7 +741,8 @@
                 "requires": ["Planned Economy"],
                 "uniques": [
 					"[-10]% maintenance cost for [all] buildings [in all cities]",
-					"[+1 Production, +1 Happiness] per [2] population [in all cities]"
+					"[+1 Production, +1 Happiness] per [2] population [in all cities]",
+					"[+25]% Production when constructing [Military] units [in all cities]"
                 ],
                 "row": 2,
                 "column": 3
@@ -753,7 +754,8 @@
                     "[-10 Happiness] [in all cities]",
 					"[-25]% [Culture] [in all cities]",
                     "[-25]% enemy spy effectiveness [in all cities]",
-					"[+25]% Production when constructing [Military] units [in all cities]"
+					"[+1] Range <for [Siege] units>",
+					"[+10]% Strength <for [Siege] units>"
                 ],
                 "row": 3,
                 "column": 3
@@ -909,8 +911,8 @@
 					"Comment [Doubles the Healing bonus from Medics and Tactical Supplier units]",
 					"[+1] Range <for [Armored] units>",
 					"[+1] Movement <for [Armored] units>",
-					"[+1] Range <for [Siege] units>",
-					"[+10]% Strength <for [Siege] units>",
+					"[+1] Range <for [Ranged Water] units>",
+					"[+10]% Strength <for [Ranged Water] units>",
 					"[+4] Range <for [Air] units>",
 					"[+25]% Strength <for [Air] units>"
 				],
