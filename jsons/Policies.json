@@ -776,11 +776,11 @@
 		"era": "Atomic era",
 		"uniques": [
 			"[-25]% Gold cost of upgrading <for [Worker] units>",
-			"[+200]% Yield from every [Water Tower]",
-			"[+200]% Yield from every [Industrial Complex]",
-			"[+200]% Yield from every [Residential]",
-			"[+200]% Yield from every [Supply Route]",
-			"[+200]% Yield from every [Power Plante]"
+			"[+100]% Yield from every [Water Tower]",
+			"[+100]% Yield from every [Industrial Complex]",
+			"[+100]% Yield from every [Residential]",
+			"[+100]% Yield from every [Supply Route]",
+			"[+100]% Yield from every [Power Plant]"
 		],
 		"priorities": {
 			"Neutral": 50,
