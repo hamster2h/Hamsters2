@@ -775,8 +775,12 @@
 		"name": "Digitalization",
 		"era": "Atomic era",
 		"uniques": [
-			"[+10]% Production when constructing [Civilian] units [in all cities]",
-			"[-25]% Gold cost of upgrading <for [Worker] units>"
+			"[-25]% Gold cost of upgrading <for [Worker] units>",
+			"[+200]% Yield from every [Water Tower]",
+			"[+200]% Yield from every [Industrial Complex]",
+			"[+200]% Yield from every [Residential]",
+			"[+200]% Yield from every [Supply Route]",
+			"[+200]% Yield from every [Power Plante]"
 		],
 		"priorities": {
 			"Neutral": 50,
@@ -854,7 +858,8 @@
 			{
 				"name": "Digitalization Complete",
 				"uniques": [
-					"[-20]% maintenance costs",
+					"[2] Free Social Policies",
+					"Adopt [Technocracy]",
 					"Free Technology"
 				]
 			}
