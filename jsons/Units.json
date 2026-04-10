@@ -3219,7 +3219,7 @@
 		"unitType": "Gunpowder",
 		"movement": 3,
 		"strength": 140,
-		"cost": 720,
+		"cost": 7200,
 		"requiredTech": "Enhancing",
 		"uniques": [
 			"Only available <if [Monolith Portal] is constructed>",
