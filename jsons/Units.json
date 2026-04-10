@@ -3238,7 +3238,6 @@
 		"replaces": "Hacker",
 		"unitType": "Support",
 		"movement": 2,
-		"interceptRange": 5,
 		"strength": 140,
 		"cost": 400,
 		"requiredTech": "Automation",
@@ -3248,10 +3247,7 @@
 			"Comment [25% chance for adjacent units to capture killed Cyber Units]",
 			"Can see invisible [All] units",
 			"Invisible to non-adjacent units",
-			"[50]% chance to intercept air attacks",
-			"May capture killed [Land] units <with [75]% chance>",
-			"[+50]% Strength <vs [Cyber] units>",
-			"[+50]% Strength <vs [Land] units> <when attacking>"
+			"[+50]% Strength <vs [Cyber] units>"
 		],
 		"promotions": [
 			"Support Unit"
@@ -3262,10 +3258,8 @@
 		"name": "Monolith Brainiac",
 		"unitType": "Support",
 		"movement": 2,
-		"interceptRange": 5,
-		"range": 3,
 		"strength": 140,
-		"cost": 800,
+		"cost": 8000,
 		"requiredTech": "Nanotechnology",
 		"uniques": [
 			"Hacker",
@@ -3274,10 +3268,7 @@
 			"Comment [25% chance for adjacent units to capture killed Cyber Units]",
 			"Can see invisible [All] units",
 			"Invisible to non-adjacent units",
-			"[50]% chance to intercept air attacks",
-			"May capture killed [Land] units <with [30]% chance>",
 			"[+50]% Strength <vs [Cyber] units>",
-			"[+25]% Strength <vs [Land] units> <when attacking>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
@@ -3319,7 +3310,7 @@
 		"strength": 185,
 		"rangedStrength": 185,
 		"range": 2,
-		"cost": 8000,
+		"cost": 20000,
 		"requiredTech": "Nanotechnology",
 		"uniques": [
 			"Cyber",
