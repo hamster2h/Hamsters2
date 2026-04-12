@@ -585,8 +585,7 @@
 		"culture": 3,
 		"science": 4,
 		"percentStatBonus": {
-			"science": 25,
-			"culture": 10
+			"science": 25
 		},
 		"requiredBuilding": "University",
 		"uniques": [
