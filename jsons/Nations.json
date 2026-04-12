@@ -221,7 +221,7 @@
 		"uniques": [
 			"[+1 Faith] from [Desert] tiles without [Flood plains] [in all cities]",
 			"[+5 Faith] from [Natural Wonder] tiles [in all cities]",
-			"Gain [20] [Faith] <upon discovering a Natural Wonder>"
+			"Gain [200] [Faith] <upon discovering a Natural Wonder>"
 		],
 		"cities": [
 			"Canberra","Sydney","Melbourne","Brisbane","Gold Coast","Adelaide","Perth","Newcastle","Sunshine Coast","Wollongong",
