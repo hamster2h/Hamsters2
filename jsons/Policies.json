@@ -1033,8 +1033,8 @@
 				"uniques": [
 					"[+5 Gold, +5 Culture, +5 Science] from all [Space] buildings",
 					"[6] free [Orbital Fighter] units appear",
-					"Provides [6] [Oil]",
 					"Provides [12] [Composites]",
+					"Provides [6] [Oil]",
 					"Empire enters golden age"
 				],
 				"requires": [
