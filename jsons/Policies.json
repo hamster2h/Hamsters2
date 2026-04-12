@@ -1096,7 +1096,8 @@
 					"name": "Drone Surveillance",
 					"uniques": [
 						"[-2 Culture, -4 Happiness] from all [Science] buildings",
-						"All newly-trained [relevant] units [in all cities] receive the [Sentry] promotion"
+						"All newly-trained [relevant] units [in all cities] receive the [Sentry] promotion",
+						"[+100]% Strength <for [Helicopter] units>"
 					],
 					"requires": [
 						"Battlefield Experiments"
