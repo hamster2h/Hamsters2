@@ -114,7 +114,7 @@
 			"[+1 Gold] from each Trade Route",
 			"[+10]% Spread Religion Strength",
 			"[+300]% [Oil] resource production",
-			"Provides [4] [Oil]"
+			"Starts with [Monarchy] adopted"
 		],
 		"cities": [
 			"Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
@@ -222,7 +222,8 @@
 		"uniques": [
 			"[+1 Faith] from [Desert] tiles without [Flood plains] [in all cities]",
 			"[+5 Faith] from [Natural Wonder] tiles [in all cities]",
-			"Gain [200] [Faith] <upon discovering a Natural Wonder>"
+			"Gain [200] [Faith] <upon discovering a Natural Wonder>",
+			"[+300]% [Iron] resource production"
 		],
 		"cities": [
 			"Canberra","Sydney","Melbourne","Brisbane","Gold Coast","Adelaide","Perth","Newcastle","Sunshine Coast","Wollongong",
