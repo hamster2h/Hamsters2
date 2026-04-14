@@ -1785,10 +1785,11 @@
 		"favoredReligion": "Buddhism",
 		"uniqueName": "Father Governs Children",
 		"uniques": [
-			"[+50]% [Food] from City-States",
-			"[+50]% [Culture] from City-States",
-			"[+50]% [Faith] from City-States",
-			"Military Units gifted from City-States start with [+15] XP"
+			"[+100]% [Food] from City-States",
+			"[+100]% [Culture] from City-States",
+			"[+100]% [Faith] from City-States",
+			"Military Units gifted from City-States start with [+15] XP",
+			"Starts with [Educated Elite] adopted"
 		],
 		"cities": [
 			"Sukhothai","Si Satchanalai","Muang Saluang","Lampang","Phitsanulok","Kamphaeng Pet","Nakhom Chum","Vientiane",
