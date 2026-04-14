@@ -2337,7 +2337,7 @@
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 15,
-		"cost": 60,
+		"cost": 50,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Gunpowder",
