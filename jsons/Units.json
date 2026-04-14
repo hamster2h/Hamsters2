@@ -715,6 +715,9 @@
 		"uniques": [
 			"[+50]% Strength <vs [Mounted] units>"
 		],
+		"promotions":[
+			"Heroism"
+		],
 		"attackSound": "metalhit"
 	},
 	{
