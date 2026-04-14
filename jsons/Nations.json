@@ -508,7 +508,9 @@
 		"innerColor": [245, 222, 153],
 		"uniqueName": "Canadian Fur Trade",
 		"uniques": [
-			"[+4 Gold] from [Tundra] tiles [in all cities] <after discovering [Guilds]>"
+			"[+2 Gold] from [Tundra] tiles [in all cities] <after discovering [Guilds]>",
+			"Reveals the entire map",
+			"Free Technology"
 		],
 		"cities": [
 			"Ottawa","Toronto","Montreal","Vancouver","Calgary","Edmonton","Quebec City","Winnipeg","Mississauga","Halifax",
