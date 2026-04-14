@@ -20,7 +20,7 @@
 		"uniqueTo": "Austria",
 		"cost": 150,
 		"gold": 4,
-		"culture": 4,
+		"culture": 12,
 		"maintenance": 1,
 		"percentStatBonus": {
 			"production": 5
