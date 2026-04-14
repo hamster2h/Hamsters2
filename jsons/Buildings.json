@@ -125,7 +125,7 @@
 	{
 		"name": "Cloves",
 		"uniqueTo": "Indonesia",
-		"cost": 100,
+		"cost": 1,
 		"uniques": [
 			"Provides [2] [Cloves]",
 			"Destroyed when the city is captured",
