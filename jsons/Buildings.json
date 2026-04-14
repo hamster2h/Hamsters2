@@ -603,7 +603,7 @@
 	{
 		"name": "Longhouse",
 		"uniqueTo": "Iroquois",
-		"cost": 200,
+		"cost": 400,
 		"maintenance": 8,
 		"production": 2,
 		"uniques": [
