@@ -1283,6 +1283,7 @@
 		"innerColor": [96,11,99],
 		"uniqueName": "Heart of Africa",
 		"uniques": [
+			"Gain a free [Barracks] [in all cities]",
 			"[+3 Culture] from [Jungle] tiles [in all cities]"
 		],
 		"cities": [
