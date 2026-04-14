@@ -389,7 +389,7 @@
 		},
 		"requiredBuilding": "Market",
 		"uniques": [
-			"[+25]% Production when constructing [Military] units [in this city]"
+			"[+50]% Production when constructing [Military] units [in this city]"
 		],
 		"hurryCostModifier": 15,
 		"requiredTech": "Banking"
@@ -554,7 +554,7 @@
 			"[+1 Production] from [Cattle] tiles [in this city]",
 			"[+1 Production] from [Horses] tiles [in this city]",
 			"[+1 Production] from [Sheep] tiles [in this city]",
-			"Provides [1] [Horses]"
+			"Provides [2] [Horses]"
 		],
 		"hurryCostModifier": 25,
 		"requiredTech": "Horseback Riding"
