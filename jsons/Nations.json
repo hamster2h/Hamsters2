@@ -758,8 +758,8 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Sun Never Sets",
 		"uniques": [
-			"Starts with [Naval Tradition] adopted",
 			"Gain an extra spy <upon entering the [Renaissance era]>",
+			"Starts with [Naval Tradition] adopted",
 			"Gain a free [Big Ben] [in capital]"
 		],
 		"cities": [
