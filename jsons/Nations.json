@@ -1129,6 +1129,8 @@
 		"innerColor": [65,143,35],
 		"uniqueName": "August Destiny",
 		"uniques": [
+			"All newly-trained [Sword] units [in all cities] receive the [Stealth] promotion",
+			"All newly-trained [Gunpowder] units [in all cities] receive the [Stealth] promotion",
 			"[+2 Happiness] from every [National Wonder]"
 		],
 		"cities": [
@@ -1670,7 +1672,8 @@
 			"[+100]% [Horses] resource production",
 			"[+100]% [Iron] resource production",
 			"[+100]% [Oil] resource production",
-			"[+100]% [Uranium] resource production"
+			"[+100]% [Uranium] resource production",
+			"Gain a free [Kremlin] [in capital]"
 		],
 		"cities": [
 			"Moscow","St. Petersburg","Novgorod","Rostov","Yaroslavl","Yekaterinburg","Yakutsk","Vladivostok","Smolensk","Orenburg",
