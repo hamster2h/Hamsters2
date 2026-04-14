@@ -564,7 +564,7 @@
 		"uniqueTo": "Hamsters",
 		"replaces": "Heroic Epic",
 		"isNationalWonder": false,
-		"cost": 475,
+		"cost": 650,
 		"culture": 2,
 		"requiredBuilding": "Barracks",
 		"uniques": [
@@ -581,7 +581,7 @@
 		"uniqueTo": "Hamsters",
 		"replaces": "National College",
 		"isNationalWonder": false,
-		"cost": 475,
+		"cost": 650,
 		"culture": 3,
 		"science": 4,
 		"percentStatBonus": {
