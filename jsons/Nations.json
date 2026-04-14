@@ -758,9 +758,9 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Sun Never Sets",
 		"uniques": [
-			"[+2] Movement <for [Water] units>",
+			"Starts with [Naval Tradition] adopted",
 			"Gain an extra spy <upon entering the [Renaissance era]>",
-			"Gain a free [Bank] [in capital]"
+			"Gain a free [Big Ben] [in capital]"
 		],
 		"cities": [
 			"London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
@@ -1594,7 +1594,7 @@
         "uniques": [
             "[+3 Gold] from every [Luxury resource]",
 			"[+400]% Gold from Great Merchant trade missions",
-			"Reveals the entire map"
+			"Starts with [Merchant Navy] adopted"
         ],
         "cities": [
             "Lisbon","Porto","Braga","Coimbra","Funchal","Leiria","Goa","Vila Nova de Gaia","Aveiro","Luanda",
