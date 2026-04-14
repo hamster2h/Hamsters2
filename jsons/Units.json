@@ -1871,7 +1871,7 @@
 		"cost": 170,
 		"requiredTech": "Chivalry",
 		"upgradesTo": "Tank",
-		"obsoleteTech": "Military Science",
+		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
 		"uniques": [
 			"Can move after attacking",
