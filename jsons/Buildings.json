@@ -20,6 +20,7 @@
 		"uniqueTo": "Austria",
 		"cost": 150,
 		"gold": 4,
+		"culture": 4,
 		"maintenance": 1,
 		"percentStatBonus": {
 			"production": 5
@@ -551,10 +552,10 @@
 		],
 		"uniques": [
 			"[+15]% Production when constructing [Mounted] units [in this city]",
-			"[+1 Production] from [Cattle] tiles [in this city]",
-			"[+1 Production] from [Horses] tiles [in this city]",
-			"[+1 Production] from [Sheep] tiles [in this city]",
-			"Provides [2] [Horses]"
+			"[+2 Production] from [Cattle] tiles [in this city]",
+			"[+2 Production] from [Horses] tiles [in this city]",
+			"[+2 Production] from [Sheep] tiles [in this city]",
+			"Provides [1] [Horses]"
 		],
 		"hurryCostModifier": 25,
 		"requiredTech": "Horseback Riding"
