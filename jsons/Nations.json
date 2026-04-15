@@ -1058,7 +1058,7 @@
 			"[+2 Food] from [Farm] tiles [in all cities]",
 			"[+100]% unhappiness from the number of cities",
 			"[-50]% Unhappiness from [Population] [in all cities]",
-			"[+1] Movement <for [Civilian] units>",
+			"[+1] Movement <for [Civilian] units>"
 		],
 		"cities": [
 			"Delhi","Mumbai","Vijayanagara","Pataliputra","Varanasi","Agra","Calcutta","Lahore",
