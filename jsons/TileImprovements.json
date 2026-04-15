@@ -60,6 +60,27 @@
 		]
 	},
 	{
+		"name": "Fort",
+		"terrainsCanBeBuiltOn": [
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Hill",
+			"Mountain",
+			"Tundra",
+			"Snow",
+			"Forest",
+			"Jungle"
+		],
+		"turnsToBuild": 6,
+		"techRequired": "Engineering",
+		"uniques": [
+			"Can be built outside your borders",
+			"Gives a defensive bonus of [75]%"
+		],
+		"shortcutKey": "O"
+	},
+	{
 		"name": "Farm",
 		"terrainsCanBeBuiltOn": [
 			"Plains",
@@ -693,7 +714,7 @@
 		"uniques": [
 			"Great Improvement",
 			"Provides [1] [General Perk] <starting from the [Industrial era]>",
-			"Gives a defensive bonus of [100]%",
+			"Gives a defensive bonus of [125]%",
 			"Adjacent enemy units ending their turn take [30] damage",
 			"Can be built outside your borders",
 			"Gain control over [all] tiles in a [2]-tile radius",
