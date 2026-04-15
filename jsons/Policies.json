@@ -676,7 +676,7 @@
                 "name": "Total War",
                 "uniques": [
                     "[+100]% Production when constructing [Military] units [in all cities]",
-                    "New [Military] units start with [15] XP [in all cities]"
+                    "New [Military] units start with [30] XP [in all cities]"
                 ],
                 "requires": ["Police State", "Fascism"],
                 "row": 3,
@@ -756,7 +756,7 @@
 					"[-25]% [Culture] [in all cities]",
                     "[-25]% enemy spy effectiveness [in all cities]",
 					"[+1] Range <for [Siege] units>",
-					"[+10]% Strength <for [Siege] units>"
+					"[+25]% Strength <for [Siege] units>"
                 ],
                 "row": 3,
                 "column": 3
