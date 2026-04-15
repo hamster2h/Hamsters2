@@ -480,8 +480,9 @@
             {
                 "name": "Secularism",
                 "uniques": [
-                    "[+2 Science] from every specialist [in all cities]",
-					"[+2 Science] from all [Science] buildings"
+					"Gain a free [Public School] [in all cities]",
+					"[+2 Science] from all [Science] buildings",
+					"[+4 Science] from every [Scientist]"
                 ],
                 "row": 1,
                 "column": 2
@@ -512,7 +513,9 @@
             {
                 "name": "Sovereignty",
                 "uniques": [
-					
+					"[+25]% Production when constructing [Gunpowder] units [in all cities]",
+					"Gain a free [Police Station] [in all cities]",
+					"[+2 Production] from every [Scientist]"
 				],
                 "requires": ["Humanism"],
                 "row": 2,
@@ -578,6 +581,7 @@
                 "name": "Civil Society",
                 "uniques": [
                     "[-25]% Food consumption by [Specialists] [in all cities]",
+					"[+2 Production, +2 Happiness] [in all cities]",
 					"[2] Free Social Policies"
                 ],
                 "row": 1,
