@@ -35,8 +35,11 @@
 		"culture": 4,
 		"gold": 10,
 		"overrideStats": true,
-		"occursOn": ["Plains"],
-		"turnsInto": "Plains",
+		"occursOn": [
+			"Grassland",
+			"Plains"
+		],
+		"turnsInto": "Grassland",
 		"impassable": true,
 		"unbuildable": true,
 		"uniques": [
