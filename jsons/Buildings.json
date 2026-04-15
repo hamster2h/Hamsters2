@@ -2882,13 +2882,5 @@
 			"Unbuildable",
 			"Unsellable"
 		]
-	},
-	{
-		"name": "Solar Plant",
-		"uniques": [
-			"Comment [Future Expansion has no Solar Plant]",
-			"Unbuildable",
-			"Will not be displayed in Civilopedia"
-		]
 	}
 ]
