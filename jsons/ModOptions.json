@@ -4,9 +4,14 @@
     "constants": {
         "cityWorkRange": 5,
         "cityExpandRange": 8,
+        "cityAirUnitCapacity": 8,
         "minimalCityDistance": 2,
-        "minimalCityDistanceOnDifferentContinents": 1
+        "minimalCityDistanceOnDifferentContinents": 1,
+        "naturalWonderCountMultiplier": 0.15
     },
+    "buildingsToRemove": [
+        "Solar Plant"
+    ]
     "uniques": [
         "Allow raze capital",
         "Allow raze holy city",
