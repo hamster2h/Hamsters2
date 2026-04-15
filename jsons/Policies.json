@@ -567,6 +567,7 @@
                 "name": "Universal Suffrage",
                 "uniques": [
 					"[+33]% Strength for cities <when defending>",
+					"[+1 Culture] from all [Happiness] buildings",
 					"Empire enters golden age"
 				],
                 "row": 1,
@@ -584,6 +585,7 @@
             {
                 "name": "Free Speech",
                 "uniques": [
+					"[+25]% [Culture] [in all cities]",
 					"[+10]% [Gold] [in all cities]",
 					"[+5 Gold] [in all cities]"
 				],
