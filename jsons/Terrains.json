@@ -39,7 +39,6 @@
 			"Grassland",
 			"Plains"
 		],
-		"turnsInto": "Grassland",
 		"impassable": true,
 		"unbuildable": true,
 		"uniques": [
