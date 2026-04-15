@@ -624,7 +624,7 @@
             "Scientific": 5
         },
         "uniques": [
-			"Provides [1] [General Perk]",
+			"Free [Great General] appears",
             "[-33]% maintenance costs <for [Military] units>",
             "Upon capturing a city, receive [20] times its [Culture] production as [Culture] immediately",
             "Only available <before adopting [Order]>",
@@ -715,8 +715,8 @@
                 "name": "United Front",
                 "uniques": [
                     "Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
-					"Provides [2] [General Perk]",
-					"[-50]% weight to this choice for AI decisions"
+					"All newly-trained [{non-[Air]} {Military}] units [in all cities] receive the [Invulnerability] promotion",
+					"Provides [2] [General Perk]"
                 ],
                 "row": 1,
                 "column": 1
