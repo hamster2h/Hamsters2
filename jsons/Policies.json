@@ -480,7 +480,8 @@
             {
                 "name": "Secularism",
                 "uniques": [
-                    "[+2 Science] from every specialist [in all cities]"
+                    "[+2 Science] from every specialist [in all cities]",
+					"[+2 Science] from all [Science] buildings"
                 ],
                 "row": 1,
                 "column": 2
@@ -511,7 +512,7 @@
             {
                 "name": "Sovereignty",
                 "uniques": [
-					"[+2 Science] from all [Science] buildings"
+					
 				],
                 "requires": ["Humanism"],
                 "row": 2,
@@ -596,8 +597,8 @@
             {
                 "name": "Democracy",
                 "uniques": [
+					"[-25]% Unhappiness from [Specialists] [in all cities]",
 					"[Gold] cost of purchasing [Gunpowder] units [-10]%",
-                    "[-25]% Unhappiness from [Specialists] [in all cities]",
 					"Gain an extra spy"
                 ],
                 "requires": ["Civil Society"],
