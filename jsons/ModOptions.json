@@ -7,7 +7,7 @@
         "cityAirUnitCapacity": 8,
         "minimalCityDistance": 2,
         "minimalCityDistanceOnDifferentContinents": 1,
-        "naturalWonderCountMultiplier": 0.4
+        "naturalWonderCountMultiplier": 0.3
     },
     "buildingsToRemove": [
         "Solar Plant"
