@@ -624,7 +624,7 @@
             "Scientific": 5
         },
         "uniques": [
-			"Free [Great General] appears",
+			"Provides [1] [General Perk]",
             "[-33]% maintenance costs <for [Military] units>",
             "Upon capturing a city, receive [20] times its [Culture] production as [Culture] immediately",
             "Only available <before adopting [Order]>",
@@ -635,7 +635,8 @@
                 "name": "Populism",
                 "uniques": [
 					"[+25]% Strength <for [Wounded] units>",
-					"[+10]% Strength <for [All] units>"
+					"[+10]% Strength <for [All] units>",
+					"Provides [1] [Engineer Perk]"
 				],
                 "row": 1,
                 "column": 2
@@ -644,7 +645,8 @@
                 "name": "Militarism",
                 "uniques": [
 					"[Gold] cost of purchasing [All] units [-33]%",
-					"New [Military] units start with [15] XP [in all cities]"
+					"New [Military] units start with [15] XP [in all cities]",
+					"All newly-trained [{non-[Air]} {Military}] units [in all cities] receive the [Ambition] promotion"
 				],
                 "row": 1,
                 "column": 4
@@ -676,7 +678,8 @@
                 "name": "Total War",
                 "uniques": [
                     "[+100]% Production when constructing [Military] units [in all cities]",
-                    "New [Military] units start with [30] XP [in all cities]"
+                    "New [Military] units start with [15] XP [in all cities]",
+					"[+25]% Strength <for [All] units>"
                 ],
                 "requires": ["Police State", "Fascism"],
                 "row": 3,
@@ -686,7 +689,7 @@
                 "name": "Autocracy Complete",
                 "uniques": [
                     "[+25]% Strength <when attacking> <for [Military] units>",
-					"Provides [4] [General Perk]",
+					"Provides [2] [General Perk]",
 					"[-33]% [Gold] [in all cities]",
                     "Get the leader title of [[leaderName] the Terrible]"
                 ]
