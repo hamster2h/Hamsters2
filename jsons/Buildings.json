@@ -196,6 +196,20 @@
 		"hurryCostModifier": 40
 	},
 	{
+		"name": "Ceilidh Hall",
+		"uniqueTo": "Celts",
+		"replaces": "Opera House",
+		"culture": 3,
+		"happiness": 2,
+		"maintenance": 2,
+		"requiredBuilding": "Amphitheater",
+		"uniques": [
+			"Destroyed when the city is captured"
+		],
+		"hurryCostModifier": 10,
+		"requiredTech": "Acoustics"
+	},
+	{
 		"name": "Scottish Ceilidh Hall",
 		"uniqueTo": "Scotland",
 		"replaces": "Opera House",
