@@ -724,7 +724,7 @@
                 "uniques": [
                     "Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
 					"All newly-trained [{non-[Air]} {Military}] units [in all cities] receive the [Invulnerability] promotion",
-					"Provides [1] [General Perk]"
+					"Provides [2] [General Perk]"
                 ],
                 "row": 1,
                 "column": 1
@@ -733,7 +733,8 @@
                 "name": "Planned Economy",
                 "uniques": [
                     "[+25]% [Production] from every [Factory]",
-                    "[+50]% Production when constructing [Factory] buildings [in all cities]"
+                    "[+50]% Production when constructing [Factory] buildings [in all cities]",
+					"[+25]% Production when constructing [Siege] units [in all cities]"
                 ],
                 "row": 1,
                 "column": 3
