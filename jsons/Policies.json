@@ -996,7 +996,8 @@
 				"uniques": [
 					"[+10]% [Culture] from every [Space Station]",
 					"[+10]% [Science] from every [Space Station]",
-					"[+5]% [Gold] from every [Space Station]"
+					"[+5]% [Gold] from every [Space Station]",
+					"[+25]% Strength <for [Missile] units>"
 				],
 				"requires": [
 					"Futurism"
@@ -1008,7 +1009,8 @@
 				"name": "Determination",
 				"uniques": [
 					"[Gold] cost of purchasing [Missile] units [-25]%",
-					"[+25]% Strength <for [Wounded] units>"
+					"[+25]% Strength <for [Wounded] units>",
+					"[+10]% Strength <when defending>",
 				],
 				"requires": [
 					"Futurism"
