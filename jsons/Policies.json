@@ -715,6 +715,8 @@
             "Scientific": 5
         },
         "uniques": [
+			"[+1] Movement <for [{Military} {Land}] units>",
+			"All newly-trained [Fighter] units [in all cities] receive the [Sortie] promotion",
             "Only available <before adopting [Autocracy]>"
         ],
         "policies": [
