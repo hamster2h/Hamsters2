@@ -1019,6 +1019,7 @@
 			{
 				"name": "Joint Projects",
 				"uniques": [
+					"[+10]% Strength <for [Military] units> <when adjacent to a [Military] unit>",
 					"[+1 Food, +1 Production] from every specialist [in all cities]"
 				],
 				"requires": [
