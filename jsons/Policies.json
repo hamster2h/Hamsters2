@@ -1197,8 +1197,8 @@
 				{
 					"name": "Mind Control",
 					"uniques": [
-						"[+1 Happiness, +1 Culture] from all [Food] buildings",
-						"New [Gunpowder] units start with [15] XP [in all cities]"
+						"New [Gunpowder] units start with [15] XP [in all cities]",
+						"[+1 Happiness, +1 Culture] from all [Food] buildings"
 					],
 					"requires": [
 						"Cloning"
