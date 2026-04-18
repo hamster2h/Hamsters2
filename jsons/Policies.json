@@ -1019,8 +1019,8 @@
 			{
 				"name": "Joint Projects",
 				"uniques": [
-					"[+10]% Strength <for [Military] units> <when adjacent to a [Military] unit>",
-					"[+1 Food, +1 Production] from every specialist [in all cities]"
+					"[+1 Food, +1 Production] from every specialist [in all cities]",
+					"[+10]% Strength <for [Military] units> <when adjacent to a [Military] unit>"
 				],
 				"requires": [
 					"Interplanetary Research",
@@ -1197,7 +1197,8 @@
 				{
 					"name": "Mind Control",
 					"uniques": [
-						"[+1 Happiness, +1 Culture] from all [Food] buildings"
+						"[+1 Happiness, +1 Culture] from all [Food] buildings",
+						"New [Gunpowder] units start with [15] XP [in all cities]"
 					],
 					"requires": [
 						"Cloning"
