@@ -715,7 +715,6 @@
             "Scientific": 5
         },
         "uniques": [
-			"[+4 Production, +4 Science] [in all cities]",
             "Only available <before adopting [Autocracy]>"
         ],
         "policies": [
@@ -732,9 +731,9 @@
             {
                 "name": "Planned Economy",
                 "uniques": [
+					"[+2 Food, +2 Production, +2 Science] [in all cities]",
                     "[+25]% [Production] from every [Factory]",
-                    "[+50]% Production when constructing [Factory] buildings [in all cities]",
-					"[+25]% Production when constructing [Siege] units [in all cities]"
+                    "[+50]% Production when constructing [Factory] buildings [in all cities]"
                 ],
                 "row": 1,
                 "column": 3
