@@ -858,7 +858,8 @@
 				"name": "Safety Checks",
 				"uniques": [
 					"Comment [Doubles the adjacency bonuses of Infrastructure tiles]",
-					"[+100]% Yield from every [Industry]"
+					"[+100]% Yield from every [Industry]",
+					"[+1] Movement <for [Civilian] units>"
 				],
 				"requires": [
 					"Talent Agencies",
