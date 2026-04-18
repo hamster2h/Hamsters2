@@ -1121,7 +1121,8 @@
 				{
 					"name": "Automatic Targeting",
 					"uniques": [
-						"[+15]% Strength <for [Air] units> <vs [Land] units>",
+						"New [Air] units start with [15] XP [in all cities]",
+						"[+25]% Strength <for [Air] units> <vs [Land] units>",
 						"[+15]% Strength <for [Ranged] units> <vs [Melee] units>"
 					],
 					"requires": [
