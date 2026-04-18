@@ -733,7 +733,8 @@
                 "name": "Planned Economy",
                 "uniques": [
                     "[+25]% [Production] from every [Factory]",
-                    "[+50]% Production when constructing [Factory] buildings [in all cities]"
+                    "[+50]% Production when constructing [Factory] buildings [in all cities]",
+					"Provides [2] [Engineer Perk]"
                 ],
                 "row": 1,
                 "column": 3
@@ -775,9 +776,8 @@
             {
                 "name": "Order Complete",
                 "uniques": [
-                    "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500])",
 					"[Gold] cost of purchasing [Missile] units [-25]%",
-					"Provides [2] [Engineer Perk]",
+                    "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500])",
                     "Get the leader title of [Chairman [leaderName]]"
                 ]
             }
