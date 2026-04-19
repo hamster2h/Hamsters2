@@ -733,9 +733,9 @@
             {
                 "name": "Planned Economy",
                 "uniques": [
-					"[+2 Food, +2 Production, +2 Science] [in all cities]",
                     "[+25]% [Production] from every [Factory]",
-                    "[+50]% Production when constructing [Factory] buildings [in all cities]"
+                    "[+50]% Production when constructing [Factory] buildings [in all cities]",
+					"[+2 Food, +2 Production, +2 Science] [in all cities]"
                 ],
                 "row": 1,
                 "column": 3
