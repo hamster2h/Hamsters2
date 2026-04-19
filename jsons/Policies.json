@@ -164,8 +164,7 @@
 			"Notified of new Barbarian encampments",
             "Earn [200]% of killed [Military] unit's [Strength] as [Culture]",
 			"[+1 Production] from [Lumber mill] tiles [in all cities]",
-			"[+1 Production] from [Brazilwood Camp] tiles [in all cities]",
-			"Only available <before adopting [Patronage]>"
+			"[+1 Production] from [Brazilwood Camp] tiles [in all cities]"
         ],
         "policies": [
             {
@@ -321,10 +320,7 @@
         "uniques": [
             "[-25]% City-State Influence degradation",
 			"Free [Archaeologist] appears",
-            "[-100]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [4]>",
-			"Only available <before adopting [Honor]>",
-			"Only available <before adopting [Autocracy]>",
-			"Only available <before adopting [Coalition]>"
+            "[-100]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [4]>"
         ],
         "policies": [
             {
@@ -559,8 +555,7 @@
         "uniques": [
             "[+25]% Great Person generation [in all cities]",
 			"[+10]% Strength <for [All] units>",
-            "Only available <before adopting [Autocracy]>",
-			"Only available <after adopting [Liberty Complete]>"
+			"Only available <before adopting [Autocracy]>"
         ],
         "policies": [
             {
@@ -641,8 +636,7 @@
             "[-33]% maintenance costs <for [Military] units>",
             "Upon capturing a city, receive [20] times its [Culture] production as [Culture] immediately",
             "Only available <before adopting [Order]>",
-            "Only available <before adopting [Freedom]>",
-			"Only available <after adopting [Honor Complete]>"
+            "Only available <before adopting [Freedom]>"
         ],
         "policies": [
             {
@@ -723,8 +717,7 @@
         "uniques": [
 			"[+1] Movement <for [{Military} {Land}] units>",
 			"All newly-trained [Fighter] units [in all cities] receive the [Sortie] promotion",
-            "Only available <before adopting [Autocracy]>",
-			"Only available <after adopting [Commerce Complete]>"
+            "Only available <before adopting [Autocracy]>"
         ],
         "policies": [
             {
@@ -880,6 +873,7 @@
 				"name": "Digitalization Complete",
 				"uniques": [
 					"[2] Free Social Policies",
+					"Adopt [Technocracy]",
 					"Free Technology"
 				]
 			}
@@ -892,9 +886,7 @@
 			"[+10]% [Production] from every [Military Academy]",
 			"[+10]% [Production] from every [Electrical Grid]",
 			"[+10]% [Production] from every [Research Lab]",
-			"City-State territory always counts as friendly territory",
-			"Only available <before adopting [Patronage]>",
-			"Only available <after adopting [Honor Complete]>"
+			"City-State territory always counts as friendly territory"
 		],
 		"priorities": {
 			"Neutral": 40,
@@ -991,8 +983,7 @@
 		"era": "Future era",
 		"uniques": [
 			"Provides [8] [Corporation Slot]",
-			"All newly-trained [{non-[Air]} {Military}] units [in all cities] receive the [Restlessness] promotion",
-			"Only available <after adopting [Digitalization Complete]>"
+			"All newly-trained [{non-[Air]} {Military}] units [in all cities] receive the [Restlessness] promotion"
 		],
 		"priorities": {
 			"Neutral": 70,
@@ -1084,7 +1075,7 @@
 		"era": "Future era",
 			"uniques": [
 				"[+10]% [Production] [in all cities]",
-				"Only available <after adopting [Digitalization Complete]>"
+				"Free Technology"
 			],
 			"priorities": {
 				"Neutral": 40,
@@ -1174,8 +1165,7 @@
 			"era": "Future era",
 			"uniques": [
 				"[+25]% growth [in all cities]",
-				"[+10]% Strength <for [Gunpowder] units>",
-				"Only available <after adopting [Digitalization Complete]>"
+				"[+10]% Strength <for [Gunpowder] units>"
 			],
 			"priorities": {
 				"Neutral": 20,
