@@ -280,7 +280,7 @@
             {
                 "name": "Reformation",
                 "uniques": [
-                    "[+33]% [Culture] [in all cities with a world wonder]",
+                    "[+33]% [Culture] [<in cities with a [World Wonder]>",
 					"[+10]% [Culture] <in cities without a [World Wonder]>",
                     "Empire enters golden age"
                 ],
