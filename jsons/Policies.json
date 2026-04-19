@@ -164,7 +164,8 @@
 			"Notified of new Barbarian encampments",
             "Earn [200]% of killed [Military] unit's [Strength] as [Culture]",
 			"[+1 Production] from [Lumber mill] tiles [in all cities]",
-			"[+1 Production] from [Brazilwood Camp] tiles [in all cities]"
+			"[+1 Production] from [Brazilwood Camp] tiles [in all cities]",
+			"Only available <before adopting [Patronage]>"
         ],
         "policies": [
             {
@@ -321,6 +322,7 @@
             "[-25]% City-State Influence degradation",
 			"Free [Archaeologist] appears",
             "[-100]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [4]>",
+			"Only available <before adopting [Honor]>",
 			"Only available <before adopting [Coalition]>"
         ],
         "policies": [
