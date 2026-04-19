@@ -323,6 +323,7 @@
 			"Free [Archaeologist] appears",
             "[-100]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [4]>",
 			"Only available <before adopting [Honor]>",
+			"Only available <before adopting [Autocracy]>",
 			"Only available <before adopting [Coalition]>"
         ],
         "policies": [
@@ -558,7 +559,8 @@
         "uniques": [
             "[+25]% Great Person generation [in all cities]",
 			"[+10]% Strength <for [All] units>",
-            "Only available <before adopting [Autocracy]>"
+            "Only available <before adopting [Autocracy]>",
+			"Only available <after adopting [Liberty Complete]>"
         ],
         "policies": [
             {
@@ -639,7 +641,8 @@
             "[-33]% maintenance costs <for [Military] units>",
             "Upon capturing a city, receive [20] times its [Culture] production as [Culture] immediately",
             "Only available <before adopting [Order]>",
-            "Only available <before adopting [Freedom]>"
+            "Only available <before adopting [Freedom]>",
+			"Only available <after adopting [Honor Complete]>"
         ],
         "policies": [
             {
