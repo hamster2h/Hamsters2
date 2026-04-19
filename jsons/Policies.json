@@ -778,6 +778,7 @@
                 "uniques": [
                     "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500])",
                     "[Gold] cost of purchasing [Missile] units [-25]%",
+					"[Gold] cost of purchasing [Big Missile] units [-25]%",
 					"Get the leader title of [Chairman [leaderName]]"
                 ]
             }
@@ -998,7 +999,8 @@
 					"[+10]% [Culture] from every [Space Station]",
 					"[+10]% [Science] from every [Space Station]",
 					"[+5]% [Gold] from every [Space Station]",
-					"[+25]% Strength <for [Missile] units>"
+					"[+25]% Strength <for [Missile] units>",
+					"[+25]% Strength <for [Big Missile] units>"
 				],
 				"requires": [
 					"Futurism"
@@ -1010,6 +1012,7 @@
 				"name": "Determination",
 				"uniques": [
 					"[Gold] cost of purchasing [Missile] units [-25]%",
+					"[Gold] cost of purchasing [Big Missile] units [-25]%",
 					"[+25]% Strength <for [All] units> <when defending>",
 					"[+10]% Strength <for [Wounded] units>"
 				],
