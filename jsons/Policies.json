@@ -635,8 +635,8 @@
 			"Free [Great General] appears",
             "[-33]% maintenance costs <for [Military] units>",
             "Upon capturing a city, receive [20] times its [Culture] production as [Culture] immediately",
-            "Only available <before adopting [Order]>",
-            "Only available <before adopting [Freedom]>"
+            "Only available <before adopting [Freedom]>",
+            "Only available <before adopting [Order]>"
         ],
         "policies": [
             {
