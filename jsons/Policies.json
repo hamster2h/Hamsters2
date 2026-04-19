@@ -986,7 +986,8 @@
 		"era": "Future era",
 		"uniques": [
 			"Provides [8] [Corporation Slot]",
-			"All newly-trained [{non-[Air]} {Military}] units [in all cities] receive the [Restlessness] promotion"
+			"All newly-trained [{non-[Air]} {Military}] units [in all cities] receive the [Restlessness] promotion",
+			"Only available <after adopting [Digitalization Complete]>"
 		],
 		"priorities": {
 			"Neutral": 70,
@@ -1168,7 +1169,8 @@
 			"era": "Future era",
 			"uniques": [
 				"[+25]% growth [in all cities]",
-				"[+10]% Strength <for [Gunpowder] units>"
+				"[+10]% Strength <for [Gunpowder] units>",
+				"Only available <after adopting [Digitalization Complete]>"
 			],
 			"priorities": {
 				"Neutral": 20,
