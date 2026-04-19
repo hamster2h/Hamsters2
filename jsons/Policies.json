@@ -875,7 +875,6 @@
 				"name": "Digitalization Complete",
 				"uniques": [
 					"[2] Free Social Policies",
-					"Adopt [Technocracy]",
 					"Free Technology"
 				]
 			}
@@ -1079,7 +1078,7 @@
 		"era": "Future era",
 			"uniques": [
 				"[+10]% [Production] [in all cities]",
-				"Free Technology"
+				"Only available <after adopting [Digitalization Complete]>"
 			],
 			"priorities": {
 				"Neutral": 40,
