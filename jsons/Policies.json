@@ -720,7 +720,8 @@
         "uniques": [
 			"[+1] Movement <for [{Military} {Land}] units>",
 			"All newly-trained [Fighter] units [in all cities] receive the [Sortie] promotion",
-            "Only available <before adopting [Autocracy]>"
+            "Only available <before adopting [Autocracy]>",
+			"Only available <after adopting [Commerce Complete]>"
         ],
         "policies": [
             {
