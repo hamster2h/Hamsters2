@@ -1011,10 +1011,10 @@
 			{
 				"name": "Determination",
 				"uniques": [
-					"[Gold] cost of purchasing [Missile] units [-25]%",
-					"[Gold] cost of purchasing [Big Missile] units [-25]%",
+					"[+10]% Strength <for [Wounded] units>",
 					"[+25]% Strength <for [All] units> <when defending>",
-					"[+10]% Strength <for [Wounded] units>"
+					"[Gold] cost of purchasing [Missile] units [-25]%",
+					"[Gold] cost of purchasing [Big Missile] units [-25]%"
 				],
 				"requires": [
 					"Futurism"
