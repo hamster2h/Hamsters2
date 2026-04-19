@@ -281,7 +281,7 @@
                 "name": "Reformation",
                 "uniques": [
                     "[+33]% [Culture] [in all cities with a world wonder]",
-					"[+10]% [Culture] [in all cities without a world wonder]",
+					"[+10]% [Culture] <in cities without a [World Wonder]>",
                     "Empire enters golden age"
                 ],
                 "requires": ["Organized Religion"],
