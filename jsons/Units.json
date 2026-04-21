@@ -2829,6 +2829,23 @@
 		"attackSound": "energyshot"
 	},
 	{
+		"name": "Atlatlist",
+		"uniqueTo": "The Maya",
+		"replaces": "Archer",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 5,
+		"rangedStrength": 7,
+		"cost": 36,
+		"requiredTech": "Agriculture",
+		"upgradesTo": "Composite Bowman",
+		"obsoleteTech": "Construction",
+		"promotions": [
+			"Extended Range"
+		],
+		"attackSound": "arrow"
+	},
+	{
 		"name": "Composite Bowman",
 		"unitType": "Archery",
 		"movement": 2,
