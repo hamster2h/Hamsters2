@@ -2841,7 +2841,7 @@
 		"upgradesTo": "Composite Bowman",
 		"obsoleteTech": "Construction",
 		"promotions": [
-			"Extended Range"
+			"Woodsman"
 		],
 		"attackSound": "arrow"
 	},
