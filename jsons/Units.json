@@ -2301,7 +2301,7 @@
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 22,
-		"cost": 40,
+		"cost": 90,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
