@@ -1056,9 +1056,9 @@
 		"uniqueName": "Population Growth",
 		"uniques": [
 			"[+2 Food] from [Farm] tiles [in all cities]",
-			"[+100]% unhappiness from the number of cities",
-			"[-25]% Unhappiness from [Population] [in all cities]",
-			"[+1] Movement <for [Civilian] units>"
+			"[-50]% Unhappiness from [Population] [in all cities]",
+			"[-6 Happiness] [in all cities]",
+			"[+1] Movement <for [Worker] units>"
 		],
 		"cities": [
 			"Delhi","Mumbai","Vijayanagara","Pataliputra","Varanasi","Agra","Calcutta","Lahore",
