@@ -1141,9 +1141,8 @@
 				{
 					"name": "Self-Assembly",
 					"uniques": [
-						"[+5 Production] [in all cities]",
-						"Gain a free [Nano-Factory] [in all cities]",
-						"[+100]% Production when constructing [Production] buildings [in all cities]"
+						"[+25]% [Production] [in all cities]",
+						"[+10]% Strength <for [All] units>"
 					],
 					"requires": [
 						"Automatic Targeting",
