@@ -11,6 +11,7 @@
 		"happiness": 1,
 		"improvement": "Resort",
 		"improvementStats": {
+			"happiness": 2,
 			"gold": 10
 		},
 		"uniques": [
