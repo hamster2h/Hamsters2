@@ -1055,9 +1055,9 @@
 		"favoredReligion": "Hinduism",
 		"uniqueName": "Population Growth",
 		"uniques": [
+			"[-6 Happiness] [in all cities]",
 			"[+2 Food] from [Farm] tiles [in all cities]",
 			"[-50]% Unhappiness from [Population] [in all cities]",
-			"[-6 Happiness] [in all cities]",
 			"[+1] Movement <for [Worker] units>"
 		],
 		"cities": [
