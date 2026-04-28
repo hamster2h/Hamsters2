@@ -1142,7 +1142,8 @@
 					"name": "Self-Assembly",
 					"uniques": [
 						"[+25]% [Production] [in all cities]",
-						"[+10]% Strength <for [All] units>"
+						"[+10]% Strength <for [All] units>",
+						"[+100]% Strength <for [All] units>"
 					],
 					"requires": [
 						"Automatic Targeting",
