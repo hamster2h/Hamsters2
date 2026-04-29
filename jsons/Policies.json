@@ -1143,7 +1143,7 @@
 					"uniques": [
 						"[+25]% [Production] [in all cities]",
 						"[+10]% Strength <for [All] units>",
-						"[+100]% Yield from every [Improvement] <after adopting [Digitalization Complete]>"
+						"[+100]% Yield from every [Improvement]"
 					],
 					"requires": [
 						"Automatic Targeting",
