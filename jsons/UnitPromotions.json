@@ -376,6 +376,7 @@
 	{
 		"name": "Wolfpack I",
 		"uniques": [
+			"[+1] Movement",
 			"[+50]% Strength <when attacking>"
 		],
 		"unitTypes": [
@@ -388,6 +389,7 @@
 		"name": "Wolfpack II",
 		"prerequisites": ["Wolfpack I"],
 		"uniques": [
+			"[+1] Movement",
 			"[+50]% Strength <when attacking>"
 		],
 		"unitTypes": [
@@ -400,6 +402,7 @@
 		"name": "Wolfpack III",
 		"prerequisites": ["Wolfpack II"],
 		"uniques": [
+			"[+2] Movement",
 			"[+50]% Strength <when attacking>"
 		],
 		"unitTypes": [
@@ -522,7 +525,7 @@
 			"Barrage I"
 		],
 		"uniques": [
-			"[+150]% Strength <vs cities>"
+			"[+100]% Strength <vs cities>"
 		],
 		"unitTypes": [
 			"Siege"
@@ -773,7 +776,7 @@
     {
         "name": "Sneak Attack",
         "uniques": [
-            "[+50]% to Flank Attack bonuses",
+            "[+100]% to Flank Attack bonuses",
             "Only available <for units without [Ambition]>",
             "Only available <for units without [Invulnerability]>",
             "Only available <for units without [Restlessness]>",
