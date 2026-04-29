@@ -364,7 +364,7 @@
 		"upgradesTo": "Trebuchet",
 		"obsoleteTech": "Physics",
 		"uniques": [
-			"[+600]% Strength <vs cities> <when attacking>",
+			"[+400]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"Must set up to ranged attack",
 			"[-1] Sight",
@@ -387,7 +387,7 @@
 		"upgradesTo": "Trebuchet",
 		"obsoleteTech": "Physics",
 		"uniques": [
-			"[+600]% Strength <vs cities> <when attacking>",
+			"[+400]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"[-1] Sight"
 		],
@@ -449,7 +449,7 @@
 		"upgradesTo": "Cannon",
 		"obsoleteTech": "Chemistry",
 		"uniques": [
-			"[+600]% Strength <vs cities> <when attacking>",
+			"[+400]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"Must set up to ranged attack",
 			"[-1] Sight",
@@ -510,7 +510,7 @@
 		"obsoleteTech": "Dynamite",
 		"requiredResource": "Iron",
 		"uniques": [
-			"[+700]% Strength <vs cities> <when attacking>",
+			"[+500]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"Must set up to ranged attack",
 			"[-1] Sight",
@@ -534,7 +534,7 @@
 		"obsoleteTech": "Rocketry",
 		"requiredResource": "Iron",
 		"uniques": [
-			"[+800]% Strength <vs cities> <when attacking>",
+			"[+500]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"Must set up to ranged attack",
 			"[-1] Sight",
@@ -559,7 +559,7 @@
 		"requiredResource": "Oil",
 		"uniques": [
 			"Cyber",
-			"[+800]% Strength <vs cities> <when attacking>",
+			"[+500]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"[+1] Range <after discovering [Advanced Ballistics]>",
 			"Never appears as a Barbarian unit"
@@ -582,8 +582,9 @@
 		"uniques": [
 			"Cyber",
 			"Consumes [1] [Composites]",
-			"[+800]% Strength <vs cities> <when attacking>",
-			"[+15] Strength <after discovering [Nuclear Fusion]>",
+			"[+500]% Strength <vs cities> <when attacking>",
+			"[+25]% Strength <after discovering [Nuclear Fusion]>",
+			"[+6] Range <after discovering [Nuclear Fusion]>",
 			"No defensive terrain bonus",
 			"Never appears as a Barbarian unit"
 		],
