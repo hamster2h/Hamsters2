@@ -3265,8 +3265,8 @@
 		"requiredTech": "Automation",
 		"uniques": [
 			"Hacker",
-			"Comment [+33% Strength for adjacent Non-Air Units vs Cyber Units]",
-			"Comment [25% chance for adjacent units to capture killed Cyber Units]",
+			"Comment [+33% Strength for some adjacent Units vs Cyber Units]",
+			"Comment [25% chance for some adjacent units to capture killed Cyber Units]",
 			"Can see invisible [All] units",
 			"Invisible to non-adjacent units",
 			"[+50]% Strength <vs [Cyber] units>"
@@ -3286,8 +3286,8 @@
 		"uniques": [
 			"Hacker",
 			"Only available <if [Monolith Portal] is constructed>",
-			"Comment [+33% Strength for adjacent Non-Air Units vs Cyber Units]",
-			"Comment [25% chance for adjacent units to capture killed Cyber Units]",
+			"Comment [+33% Strength for some adjacent Units vs Cyber Units]",
+			"Comment [25% chance for some adjacent units to capture killed Cyber Units]",
 			"Can see invisible [All] units",
 			"Invisible to non-adjacent units",
 			"[+50]% Strength <vs [Cyber] units>",
