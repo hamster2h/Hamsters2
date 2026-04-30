@@ -573,10 +573,10 @@
 		"name": "Hovertillery",
 		"unitType": "Siege",
 		"movement": 5,
-		"strength": 60,
-		"rangedStrength": 70,
+		"strength": 80,
+		"rangedStrength": 100,
 		"range": 6,
-		"cost": 6000,
+		"cost": 9000,
 		"requiredTech": "Terraforming",
 		"requiredResource": "Oil",
 		"uniques": [
