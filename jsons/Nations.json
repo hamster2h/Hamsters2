@@ -1885,7 +1885,7 @@
         "leaderName": "Gilgamesh",
         "adjective": ["Sumer"],
         "startBias": [
-			"Avoid [Coast]"
+			"Flood plains"
 		],
         "preferredVictoryType": "Scientific",
         "personality": "Gilgamesh",
@@ -1903,7 +1903,8 @@
         "innerColor": [229,118,95],
         "uniqueName": "Cradle of Civilization",
         "uniques": [
-			"[+6 Culture, +6 Science] [in all cities]"
+			"[2] Free Technologies",
+			"[+1 Food, +1 Production] from [Flood plains] tiles [in all cities]"
 		],
         "cities": [
             "Ur","Kish","Uruk","Eridu","Umma","Lagash","Akshak","Larak","Bad-Tibira","Larsa",
