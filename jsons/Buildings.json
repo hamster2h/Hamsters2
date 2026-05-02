@@ -266,7 +266,7 @@
 		"faith": 4,
 		"maintenance": 2,
 		"percentStatBonus": {
-			"culture": 25
+			"science": 25
 		},
 		"requiredBuilding": "Shrine",
 		"uniques":[
