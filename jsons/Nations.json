@@ -940,8 +940,8 @@
 		"leaderName": "Matthias Corvinus",
 		"adjective": ["Hungarian"],
 		"startBias": [
-			"Hill",
 			"Plains",
+			"Hill",
 			"Avoid [Coast]"
 		],
 		"preferredVictoryType": "Diplomatic",
