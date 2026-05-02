@@ -964,7 +964,7 @@
 					"All newly-trained [relevant] units [in all cities] receive the [Logistics] promotion",
 					"All newly-trained [relevant] units [in all cities] receive the [Blitz] promotion",
 					"All newly-trained [non-[Air]] units [in all cities] receive the [Mobility] promotion",
-					"All newly-trained [{non-[Air]} {Military}] units [in all cities] receive the [Recruitment] promotion"
+					"All newly-trained [{Military} {Land}] units [in all cities] receive the [Recruitment] promotion"
 				],
 				"requires": [
 					"Censor",
