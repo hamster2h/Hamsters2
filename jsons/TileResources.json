@@ -106,9 +106,10 @@
 		"name": "Marble",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Desert","Plains","Hill","Grassland"],
+		"gold": 1,
 		"improvement": "Quarry",
 		"improvementStats": {
-			"gold": 2,
+			"gold": 1,
 			"production": 1
 		},
 		"uniques": [
