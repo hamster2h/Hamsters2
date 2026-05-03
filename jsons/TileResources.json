@@ -103,6 +103,21 @@
 		]
 	},
 	{
+		"name": "Marble",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Desert","Plains","Hill","Grassland"],
+		"improvement": "Quarry",
+		"improvementStats": {
+			"gold": 2,
+			"production": 1
+		},
+		"uniques": [
+			"[+15]% Production when constructing [All] wonders [in this city]",
+			"Special placement during map generation",
+			"Doesn't generate naturally <in [{Grassland} {Fresh Water}] tiles>"
+		]
+	},
+	{
 		"name": "Gold Ore",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Desert","Hill","Forest","Jungle"],
