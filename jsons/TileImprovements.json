@@ -176,7 +176,7 @@
 		"terrainsCanBeBuiltOn": [
 			"Hill"
 		],
-		"production": 1,
+		"production": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Mining",
 		"uniques": [
