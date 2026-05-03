@@ -138,6 +138,8 @@
 	{
 		"name": "Mountain",
 		"type": "Land",
+		"food": 1,
+		"production": 2,
 		"impassable": true,
 		"defenceBonus": 0.5,
 		"RGB": [102, 102, 102],
@@ -170,9 +172,9 @@
 	{
 		"name": "Hill",
 		"type": "TerrainFeature",
-		"production": 2,
+		"production": 1,
 		"movementCost": 2,
-		"overrideStats": true,
+		"overrideStats": false,
 		"defenceBonus": 0.25,
 		"RGB": [105,125,72],
 		"occursOn": [
