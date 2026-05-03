@@ -86,6 +86,23 @@
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
 	{
+		"name": "Gems",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle","Forest","Hill"],
+		"gold": 1,
+		"improvement": "Mine",
+		"improvementStats": {"gold": 2},
+		"uniques": [
+			"Generated with weight [5] <in [Tundra] Regions>",
+			"Generated with weight [20] <in [Jungle] Regions>",
+			"Generated with weight [15] <in [Hill] Regions>",
+			"Generated with weight [5] <in [Grassland] Regions>",
+			"Generated with weight [5] <in [Hybrid] Regions>",
+			"Generated near City States with weight [10]",
+			"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]>"
+		]
+	},
+	{
 		"name": "Gold Ore",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Desert","Hill","Forest","Jungle"],
