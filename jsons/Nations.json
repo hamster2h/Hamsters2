@@ -304,7 +304,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Sacrificial Captives",
 		"uniques": [
-			"Earn [200]% of killed [Military] unit's [Strength] as [Culture]",
+			"Earn [25]% of killed [Military] unit's [Cost] as [Culture]",
 			"Starts with [Warrior Code] adopted"
 		],
 		"cities": [
