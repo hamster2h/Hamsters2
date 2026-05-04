@@ -204,7 +204,7 @@
 		"production": 1,
 		"movementCost": 2,
 		"overrideStats": false,
-		"unbuildable": false,
+		"unbuildable": true,
 		"defenceBonus": 0.25,
 		"occursOn": [
 			"Tundra",
@@ -419,23 +419,5 @@
 			"Must be adjacent to [0] to [4] [Elevated] tiles"
 		],
 		"weight": 10
-	},
-	{
-		"name": "King Solomon's Mines",
-		"type": "NaturalWonder",
-		"production": 6,
-		"overrideStats": true,
-		"occursOn": [
-			"Plains",
-			"Desert"
-		],
-		"uniques": [
-			"Must be adjacent to [0] [Coast] tiles",
-			"Must be adjacent to [0] to [2] [Mountain] tiles"
-		],
-		"turnsInto": "Plains",
-		"impassable": true,
-		"unbuildable": true,
-		"weight": 4
 	}
 ]
