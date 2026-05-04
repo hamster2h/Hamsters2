@@ -204,7 +204,7 @@
 		"production": 1,
 		"movementCost": 2,
 		"overrideStats": false,
-		"unbuildable": true,
+		"unbuildable": false,
 		"defenceBonus": 0.25,
 		"occursOn": [
 			"Tundra",
@@ -352,11 +352,12 @@
 			"Desert",
 			"Plains"
 		],
+		"turnsInto": "Desert",
+		"impassable": true,
+		"unbuildable": true,
 		"uniques": [
 			"Must be adjacent to [1] to [5] [Desert] tiles"
 		],
-		"impassable": true,
-		"unbuildable": true,
 		"weight": 3
 	},
 	{
@@ -378,5 +379,63 @@
 			"Grants [+500 Gold] to the first civilization to discover it"
 		],
 		"weight": 2
+	},
+	{
+		"name": "Fountain of Youth",
+		"type": "NaturalWonder",
+		"happiness": 10,
+		"overrideStats": true,
+		"occursOn": [
+			"Grassland",
+			"Plains"
+		],
+		"turnsInto": "Grassland",
+		"impassable": true,
+		"unbuildable": true,
+		"uniques": [
+			"Must be adjacent to [0] [Coast] tiles",
+			"Grants [Rejuvenation] ([all healing effects doubled]) to adjacent [{Military} {Land}] units for the rest of the game",
+			"Tile provides yield without assigned population"
+		],
+		"weight": 1
+	},
+	{
+		"name": "Barringer Crater",
+		"type": "NaturalWonder",
+		"gold": 2,
+		"science": 3,
+		"occursOn": [
+			"Desert",
+			"Tundra",
+			"Plains"
+		],
+		"turnsInto": "Desert",
+		"impassable": true,
+		"unbuildable": true,
+		"uniques": [
+			"Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [0] [Grassland] tiles",
+			"Must be adjacent to [0] to [2] [Mountain] tiles",
+			"Must be adjacent to [0] to [4] [Elevated] tiles"
+		],
+		"weight": 10
+	},
+	{
+		"name": "King Solomon's Mines",
+		"type": "NaturalWonder",
+		"production": 6,
+		"overrideStats": true,
+		"occursOn": [
+			"Plains",
+			"Desert"
+		],
+		"uniques": [
+			"Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [0] to [2] [Mountain] tiles"
+		],
+		"turnsInto": "Plains",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 4
 	}
 ]
