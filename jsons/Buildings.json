@@ -770,6 +770,22 @@
 		"quote": "'The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.' - Antonio da Magdalena"
 	},
 	{
+		"name": "Hagia Sophia",
+		"culture": 3,
+		"faith": 3,
+		"greatPersonPoints": {
+			"Great Artist": 1
+		},
+		"isWonder": true,
+		"uniques": [
+			"Gain a free [Temple] [in this city]",
+			"Free [Great Prophet] appears",
+			"Only available <when religion is enabled>"
+		],
+		"requiredTech": "Theology",
+		"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
+	},
+	{
 		"name": "Great Mosque of Djenne",
 		"culture": 1,
 		"faith": 3,
