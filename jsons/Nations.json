@@ -760,7 +760,8 @@
 		"uniques": [
 			"Gain an extra spy <upon entering the [Renaissance era]>",
 			"Starts with [Naval Tradition] adopted",
-			"Gain a free [Big Ben] [in capital]"
+			"Starts with [Autocracy] adopted",
+			"Gain a free [Factory] [in all cities]"
 		],
 		"cities": [
 			"London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
