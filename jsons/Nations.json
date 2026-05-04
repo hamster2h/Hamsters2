@@ -470,9 +470,9 @@
 		"uniqueName": "Patriarchate of Constantinople",
 		"uniques": [
 			"[+25]% [Faith] [in capital]",
-			"Gain a free [Cathedral] [in capital]",
+			"Gain a free [Hagia Sophia] [in capital]",
 			"May choose [1] additional belief(s) of any type when [founding] a religion",
-			"May buy [Legion] units for [3] [Gold] [in all cities]"
+			"[+3 Gold] from every [Merchant]"
 		],
 		"cities": [
 			"Constantinople", "Adrianople", "Nicaea", "Antioch", "Varna", "Ohrid", "Nicomedia", "Trebizond", "Cherson", "Sardica",
