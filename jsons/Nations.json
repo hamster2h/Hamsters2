@@ -718,7 +718,7 @@
 		"favoredReligion": "Islam",
 		"uniqueName": "Monument Builders",
 		"uniques": [
-			"[+20]% Production when constructing [All] wonders [in all cities]",
+			"[+25]% Production when constructing [All] wonders [in all cities]",
 			"Gain a free [The Pyramids] [in capital]"
 		],
 		"cities": [
