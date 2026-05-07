@@ -212,7 +212,7 @@
                 "uniques": [
 					"New [Military] units start with [15] XP [in all cities]",
 					"[-25]% Production when constructing [Military] units [in all cities]",
-                    "[-33]% Gold cost of upgrading <for [Military] units>",
+                    "[-25]% Gold cost of upgrading <for [Military] units>",
                     "[+1 Happiness] from every [Walls]",
                     "[+1 Happiness] from every [Castle]",
                     "[+1 Happiness] from every [Arsenal]",
@@ -653,7 +653,7 @@
             {
                 "name": "Militarism",
                 "uniques": [
-					"[Gold] cost of purchasing [All] units [-33]%",
+					"[Gold] cost of purchasing [All] units [-20]%",
 					"New [Military] units start with [15] XP [in all cities]",
 					"All newly-trained [{non-[Air]} {Military}] units [in all cities] receive the [Ambition] promotion"
 				],
@@ -778,8 +778,8 @@
                 "name": "Order Complete",
                 "uniques": [
                     "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500])",
-                    "[Gold] cost of purchasing [Missile] units [-25]%",
-					"[Gold] cost of purchasing [Big Missile] units [-25]%",
+                    "[Gold] cost of purchasing [Missile] units [-10]%",
+					"[Gold] cost of purchasing [Big Missile] units [-10]%",
 					"Get the leader title of [Chairman [leaderName]]"
                 ]
             }
@@ -1018,8 +1018,8 @@
 				"uniques": [
 					"[+25]% Strength <for [All] units> <when defending>",
 					"[+10]% Strength <for [Wounded] units>",
-					"[Gold] cost of purchasing [Missile] units [-25]%",
-					"[Gold] cost of purchasing [Big Missile] units [-25]%"
+					"[Gold] cost of purchasing [Missile] units [-10]%",
+					"[Gold] cost of purchasing [Big Missile] units [-10]%"
 				],
 				"requires": [
 					"Futurism"
