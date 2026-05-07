@@ -831,7 +831,7 @@
 		],
         "production": 1,
 		"food": 1,
-        "turnsToBuild": 7,
+        "turnsToBuild": 10,
         "techRequired": "Bronze Working",
         "uniques": [
 			"Cannot be built on [resource] tiles",
