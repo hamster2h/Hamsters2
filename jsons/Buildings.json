@@ -2409,7 +2409,7 @@
 			"Comment [Atomic Perk]",
 			"[+50]% Production when constructing [All] wonders [in all cities] <during the [Atomic era]>",
 			"[+100]% Production when constructing [Architect] units [in all cities] <during the [Atomic era]>",
-			"[Gold] cost of purchasing items in cities [-25]% <during the [Atomic era]>",
+			"[Gold] cost of purchasing items in cities [-10]% <during the [Atomic era]>",
 			"Only available <during the [Atomic era]>",
 			"Consumes [1] [Engineer Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
@@ -2504,8 +2504,8 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Modern Perk]",
-			"Gain [20] Influence with a [Military] gift to a City-State",
-			"[Gold] cost of purchasing [Military] units [-10]%",
+			"Gain [40] Influence with a [Military] gift to a City-State",
+			"[Gold] cost of purchasing [Military] units [-5]%",
 			"Only available <starting from the [Modern era]>",
 			"Consumes [1] [Merchant Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
@@ -2781,7 +2781,6 @@
 			"Comment [Modern Perk]",
 			"[+25]% Strength <for [{Military} {Water}] units>",
 			"[+25]% Production when constructing [{Military} {Water}] units [in all cities]",
-			"[Gold] cost of purchasing [{Military} {Water}] units [-10]%",
 			"Only available <starting from the [Modern era]>",
 			"Consumes [1] [General Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
@@ -2808,7 +2807,6 @@
 			"Comment [Atomic Perk]",
 			"[+25]% Strength <for [{Military} {Air}] units>",
 			"[+25]% Production when constructing [{Military} {Air}] units [in all cities]",
-			"[Gold] cost of purchasing [{Military} {Air}] units [-10]%",
 			"Only available <starting from the [Atomic era]>",
 			"Consumes [1] [General Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
