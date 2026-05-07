@@ -304,7 +304,7 @@
                 "name": "Piety Complete",
                 "uniques": [
 					"[+25]% [Faith] [in all cities]",
-					"[+10]% [Culture] [in all cities]",
+					"All newly-trained [Military] units [in all cities] receive the [Rejuvenation] promotion",
                     "[+3 Gold, +3 Culture] from every [Holy site]",
                     "Get the leader title of [[leaderName] the Pious]"
                 ]
