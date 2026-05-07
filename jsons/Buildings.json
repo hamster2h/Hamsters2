@@ -2205,8 +2205,9 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Industrial Perk]",
-			"[+25]% Production when constructing [Archaeologist] units [in all cities]",
-			"[Gold] cost of purchasing [Archaeologist] units [-25]%",
+			"[+100]% Production when constructing [Archaeologist] units [in all cities]",
+			"[Gold] cost of purchasing [Archaeologist] units [-50]%",
+			"[+1 Culture] from every [Wonder]",
 			"[+5 Culture] from every [Museum]",
 			"Only available <starting from the [Industrial era]>",
 			"Consumes [1] [Artist Perk]",
@@ -2219,8 +2220,8 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Industrial Perk]",
-			"[+30]% [Culture] <when below [0] [Happiness]> <during the [Industrial era]>",
-			"[+15]% [Culture] <while the empire is happy> <during the [Industrial era]>",
+			"[+100]% [Culture] <when below [0] [Happiness]> <during the [Industrial era]>",
+			"[+20]% [Culture] <while the empire is happy> <during the [Industrial era]>",
 			"Only available <during the [Industrial era]>",
 			"Consumes [1] [Artist Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
@@ -2260,7 +2261,7 @@
 		"uniques": [
 			"Comment [Atomic Perk]",
 			"Comment [Enables construction of International Pass]",
-			"[+100]% Yield from every [Concert Venue]",
+			"[+200]% Yield from every [Concert Venue]",
 			"Only available <starting from the [Atomic era]>",
 			"Consumes [2] [Artist Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
@@ -2390,8 +2391,8 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Atomic Perk]",
-			"[+100]% Production when constructing [Recycling Center] buildings [in all cities]",
-			"Provides [4] [Power]",
+			"[+7 Happiness] [in all cities]",
+			"Gain a free [Recycling Center] [in all cities]",
 			"Only available <starting from the [Atomic era]>",
 			"Consumes [1] [Engineer Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
@@ -2404,8 +2405,8 @@
 		"uniques": [
 			"Comment [Atomic Perk]",
 			"[+50]% Production when constructing [All] wonders [in all cities] <during the [Atomic era]>",
-			"[+50]% Production when constructing [Architect] units [in all cities] <during the [Atomic era]>",
-			"[Gold] cost of purchasing [Architect] units [-25]% <during the [Atomic era]>",
+			"[+100]% Production when constructing [Architect] units [in all cities] <during the [Atomic era]>",
+			"[Gold] cost of purchasing items in cities [-25]% <during the [Atomic era]>",
 			"Only available <during the [Atomic era]>",
 			"Consumes [1] [Engineer Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
@@ -2609,7 +2610,7 @@
 		"uniques": [
 			"Comment [Industrial Perk]",
 			"[+25]% [Faith] from City-States",
-			"[+10]% [Faith] from every [Hospital]",
+			"[+4] [Faith] from every [Hospital]",
 			"Only available <starting from the [Industrial era]>",
 			"Consumes [1] [Prophet Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
@@ -2633,8 +2634,8 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Modern Perk]",
-			"[+5]% [Gold] from every [Shrine]",
-			"[+5]% [Gold] from every [Temple]",
+			"[+2 Gold] from every [Shrine]",
+			"[+4 Gold] from every [Temple]",
 			"Only available <starting from the [Modern era]>",
 			"Consumes [1] [Prophet Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
@@ -2775,8 +2776,9 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Modern Perk]",
-			"[+25]% Production when constructing [{Water} {Military}] units [in all cities]",
-			"[Gold] cost of purchasing [{Water} {Military}] units [-10]%",
+			"[+25]% Strength <for [{Military} {Water}] units>",
+			"[+25]% Production when constructing [{Military} {Water}] units [in all cities]",
+			"[Gold] cost of purchasing [{Military} {Water}] units [-10]%",
 			"Only available <starting from the [Modern era]>",
 			"Consumes [1] [General Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
@@ -2801,8 +2803,9 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Atomic Perk]",
-			"[+25]% Production when constructing [{Air} {Military}] units [in all cities]",
-			"[Gold] cost of purchasing [{Air} {Military}] units [-10]%",
+			"[+25]% Strength <for [{Military} {Air}] units>",
+			"[+25]% Production when constructing [{Military} {Air}] units [in all cities]",
+			"[Gold] cost of purchasing [{Military} {Air}] units [-10]%",
 			"Only available <starting from the [Atomic era]>",
 			"Consumes [1] [General Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
