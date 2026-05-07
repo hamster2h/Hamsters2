@@ -66,8 +66,9 @@
             {
                 "name": "Tradition Complete",
                 "uniques": [
-                    "[+20]% growth [in all cities]",
-					"Gain a free [Aqueduct] [in all cities]",
+                    "[+25]% growth [in all cities]",
+					"[+10]% [Culture] [in all cities]",
+					"[+100]% Strength for cities <with a garrison>",
                     "Get the leader title of [Lord [leaderName]]"
                 ]
             }
