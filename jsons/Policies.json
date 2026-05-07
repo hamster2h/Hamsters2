@@ -271,8 +271,9 @@
             {
                 "name": "Theocracy",
                 "uniques": [
-					"[+5]% [Gold] from every [Shrine]",
-					"[+5]% [Gold] from every [Temple]"
+					"[+2 Gold] from every [Shrine]",
+					"[+2 Gold] from every [Temple]",
+					"[+10]% [Gold] from every [Grand Temple]"
 				],
                 "requires": ["Organized Religion"],
                 "row": 2,
