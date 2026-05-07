@@ -763,8 +763,8 @@
 		},
 		"isWonder": true,
 		"uniques": [
-			"[-50]% Culture cost of natural border growth [in all cities]",
-			"[-50]% Gold cost of acquiring tiles [in all cities]"
+			"[-25]% Culture cost of natural border growth [in all cities]",
+			"[-25]% Gold cost of acquiring tiles [in all cities]"
 		],
 		"requiredTech": "Education",
 		"quote": "'The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.' - Antonio da Magdalena"
@@ -855,8 +855,7 @@
 			"culture": 25
 		},
 		"uniques": [
-			"[+10]% [Culture] [in all cities]",
-			"[-10]% Culture cost of adopting new Policies"
+			"[+10]% [Culture] [in all cities]"
 		],
 		"requiredTech": "Plastics",
 		"quote": "'Come to me, all who labor and are heavy burdened, and I will give you rest.' - New Testament, Matthew 11:28"
@@ -1095,7 +1094,7 @@
 		"requiredTech": "Corporations",
 		"uniques": [
 			"Provides [4] [Holy Stock]",
-			"[Faith] cost of purchasing [All] units [-35]%"
+			"[+35]% [Faith] [in all cities]"
 		]
 	},
 	{
@@ -2209,7 +2208,7 @@
 		"uniques": [
 			"Comment [Industrial Perk]",
 			"[+100]% Production when constructing [Archaeologist] units [in all cities]",
-			"[Gold] cost of purchasing [Archaeologist] units [-50]%",
+			"[Gold] cost of purchasing [Archaeologist] units [-25]%",
 			"[+1 Culture] from every [Wonder]",
 			"[+5 Culture] from every [Museum]",
 			"Only available <starting from the [Industrial era]>",
@@ -2678,7 +2677,7 @@
 			"Comment [Atomic Perk]",
 			"[+250]% Spread Religion Strength <for [Missionary] units> <during the [Atomic era]>",
 			"[+250]% Spread Religion Strength <for [Great Prophet] units> <during the [Atomic era]>",
-			"[Faith] cost of purchasing [Inquisitor] units [-50]% <during the [Atomic era]>",
+			"[Faith] cost of purchasing [Inquisitor] units [-25]% <during the [Atomic era]>",
 			"Only available <during the [Atomic era]>",
 			"Consumes [1] [Prophet Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
