@@ -301,7 +301,8 @@
             {
                 "name": "Piety Complete",
                 "uniques": [
-                    "[Faith] cost of purchasing items in cities [-10]%",
+					"[+25]% [Faith] [in all cities]",
+					"[+10]% [Culture] [in all cities]",
                     "[+3 Gold, +3 Culture] from every [Holy site]",
                     "Get the leader title of [[leaderName] the Pious]"
                 ]
@@ -604,7 +605,7 @@
                 "name": "Democracy",
                 "uniques": [
 					"[-25]% Unhappiness from [Specialists] [in all cities]",
-					"[Gold] cost of purchasing [Gunpowder] units [-10]%",
+					"[+10]% Production when constructing [Gunpowder] units [in all cities]",
 					"Gain an extra spy"
                 ],
                 "requires": ["Civil Society"],
@@ -653,7 +654,7 @@
             {
                 "name": "Militarism",
                 "uniques": [
-					"[Gold] cost of purchasing [All] units [-20]%",
+					"[Gold] cost of purchasing [Military] units [-20]%",
 					"New [Military] units start with [15] XP [in all cities]",
 					"All newly-trained [{non-[Air]} {Military}] units [in all cities] receive the [Ambition] promotion"
 				],
