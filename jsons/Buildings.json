@@ -2087,10 +2087,10 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Industrial Perk]",
-			"[+4 Science] from [River] tiles [in all cities] <during the [Industrial era]>",
-			"[+2 Science] from [Coast] tiles [in all cities] <during the [Industrial era]>",
-			"[+2 Science] from [Ocean] tiles [in all cities] <during the [Industrial era]>",
-			"Only available <during the [Industrial era]>",
+			"[+4 Science] from [River] tiles [in all cities]",
+			"[+2 Science] from [Coast] tiles [in all cities]",
+			"[+2 Science] from [Ocean] tiles [in all cities]",
+			"Only available <starting from the [Industrial era]>",
 			"Consumes [1] [Scientist Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
@@ -2127,8 +2127,8 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Atomic Perk]",
-			"[+10]% [Science] from every [Medical Lab]",
-			"[+5]% [Science] from every [Hospital]",
+			"[+4 Science] from every [Medical Lab]",
+			"[+2 Science] from every [Hospital]",
 			"Only available <starting from the [Atomic era]>",
 			"Consumes [1] [Scientist Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
@@ -2140,9 +2140,12 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Atomic Perk]",
-			"[+100]% Production when constructing [Atomic Bomb] units [in all cities]",
-			"[Gold] cost of purchasing [Atomic Bomb] units [-25]%",
-			"Only available <during the [Atomic era]>",
+			"[+25]% Production when constructing [Nuclear Submarine] units [in all cities]",
+			"[+100]% Production when constructing [Nuclear Missile] units [in all cities]",
+			"[+100]% Production when constructing [Orbital Strike] units [in all cities]",
+			"[Gold] cost of purchasing [Missile] units [-10]%",
+			"[Gold] cost of purchasing [Big Missile] units [-10]%",
+			"Only available <starting from the [Atomic era]>",
 			"Consumes [1] [Scientist Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
@@ -2834,6 +2837,7 @@
 			"Provides [8] [Aluminum]",
 			"All newly-trained [Future Soldier] units [in all cities] receive the [Stealth] promotion",
 			"All newly-trained [Energy Infantry] units [in all cities] receive the [Stealth] promotion",
+			"All newly-trained [Helicopter Gunship] units [in all cities] receive the [Stealth] promotion",
 			"All newly-trained [Missile Cruiser] units [in all cities] receive the [Stealth] promotion",
 			"Only available <starting from the [Information era]>",
 			"Consumes [1] [General Perk]",
