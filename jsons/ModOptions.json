@@ -5,6 +5,7 @@
     "constants": {
         "cityWorkRange": 5,
         "cityExpandRange": 8,
+        "unitSupplyPerPopulation": 0.4,
         "cityAirUnitCapacity": 8,
         "minimalCityDistance": 2,
         "minimalCityDistanceOnDifferentContinents": 1,
