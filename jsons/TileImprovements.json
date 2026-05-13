@@ -859,8 +859,8 @@
 		"terrainsCanBeBuiltOn": [
 			"Land"
 		],
-		"happiness": 2,
-		"culture": 6,
+		"gold": 1,
+		"culture": 4,
 		"uniques": [
 			"Unpillagable",
 			"Unbuildable"
