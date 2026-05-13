@@ -860,7 +860,7 @@
 			"Land"
 		],
 		"gold": 1,
-		"culture": 4,
+		"culture": 3,
 		"uniques": [
 			"Unpillagable",
 			"Unbuildable"
