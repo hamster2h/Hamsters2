@@ -856,7 +856,15 @@
     },
 	{
 		"name": "City ruins",
-		"terrainsCanBeBuiltOn": ["Land"],
+		"terrainsCanBeBuiltOn": [
+			"Land"
+		],
+		"happiness": 2,
+		"culture": 6,
+		"uniques": [
+			"Unpillagable",
+			"Unbuildable"
+		],
         "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
 	},
 ]
