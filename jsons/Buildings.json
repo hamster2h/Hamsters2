@@ -1797,7 +1797,7 @@
 	},
 	{
 		"name": "Branch Office",
-		"cost": 400,
+		"cost": 800,
 		"uniques": [
 			"Only available <if [MP-Branch Companies] is constructed>",
 			"Consumes [1] [Power]",
