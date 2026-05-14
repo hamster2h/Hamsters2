@@ -2406,8 +2406,8 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Atomic Perk]",
-			"[+50]% Production when constructing [All] wonders [in all cities] <during the [Atomic era]>",
-			"[+100]% Production when constructing [Architect] units [in all cities] <during the [Atomic era]>",
+			"[+25]% Production when constructing [All] wonders [in all cities] <during the [Atomic era]>",
+			"[+50]% Production when constructing [Architect] units [in all cities] <during the [Atomic era]>",
 			"[Gold] cost of purchasing items in cities [-10]% <during the [Atomic era]>",
 			"Only available <during the [Atomic era]>",
 			"Consumes [1] [Engineer Perk]",
