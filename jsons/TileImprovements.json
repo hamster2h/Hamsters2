@@ -484,7 +484,7 @@
 			"[+1 Production, +1 Culture] <within [1] tiles of a [Industrial Complex]> <if [Tourism Agency] is constructed>",
 			"[+4 Gold, +4 Culture] <within [1] tiles of a [Resort]>",
 			"[+4 Gold, +4 Culture] <within [1] tiles of a [Resort]> <if [Tourism Agency] is constructed>",
-			"[+4 Gold, +4 Culture] <within [1] tiles of a [Residential]>",
+			"[+4 Gold, +2 Culture] <within [1] tiles of a [Residential]>",
 			"[+4 Gold, +2 Culture] <within [1] tiles of a [Residential]> <after adopting [Safety Checks]>",
 			"[+4 Gold, +2 Culture] <within [1] tiles of a [Residential]> <if [Tourism Agency] is constructed>",
 			"[+4 Gold, +2 Culture] <within [1] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
