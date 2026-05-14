@@ -561,7 +561,7 @@
 		"terrainsCanBeBuiltOn": [
 			"Land"
 		],
-		"food": 1,
+		"food": 2,
 		"uniques": [
 			"Comment [Infrastructure]",
 			"Removes removable features when built",
@@ -575,7 +575,7 @@
 		"terrainsCanBeBuiltOn": [
 			"Land"
 		],
-		"production": 1,
+		"production": 8,
 		"uniques": [
 			"Comment [Infrastructure]",
 			"Removes removable features when built",
@@ -586,7 +586,9 @@
 	},
 	{
 		"name": "Residential",
+		"food": 4,
 		"gold": 2,
+		"production": 2,
 		"terrainsCanBeBuiltOn": [
 			"Land"
 		],
