@@ -81,7 +81,7 @@
 		"name": "Architect",
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost": 540,
+		"cost": 720,
 		"requiredTech": "Infrastructure",
 		"uniques": [
 			"Can build [Land] improvements on tiles",
@@ -111,7 +111,7 @@
 		"unitType": "Civilian",
 		"requiredTech": "Radio",
 		"movement": 2,
-		"cost": 500,
+		"cost": 800,
 		"uniques": [
 			"Can instantly construct a [Concert Venue] improvement <by consuming this unit>",
 			"Uncapturable"
@@ -122,7 +122,7 @@
 		"unitType": "Civilian",
 		"requiredTech": "Corporations",
 		"movement": 2,
-		"cost": 500,
+		"cost": 2000,
 		"uniques": [
 			"Can instantly construct a [Industry] improvement <by consuming this unit>",
 			"Uncapturable"
@@ -137,7 +137,7 @@
 		"name": "Supply Agent",
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost": 500,
+		"cost": 1300,
 		"requiredTech": "Combustion",
 		"uniques": [
 			"Can instantly construct a [Supply Route] improvement <by consuming this unit>",
@@ -145,14 +145,14 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "Construct Supply Routes on Strategic Resources your empire no longer uses."
+				"text": "Construct Supply Routes on Strategic and Bonus Resources your empire no longer uses."
 			}
 		]
 	},
 	{
 		"name": "Archaeologist",
 		"unitType": "Civilian",
-		"cost": 375,
+		"cost": 450,
 		"movement": 2,
 		"requiredTech": "Archaeology",
 		"uniques": [
