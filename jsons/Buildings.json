@@ -2248,9 +2248,9 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Modern Perk]",
-			"[+100]% Production when constructing [Musician] units [in all cities]",
-			"[Gold] cost of purchasing [Musician] units [-25]%",
-			"[+10]% [Culture] from every [Public School]",
+			"[+10]% Production when constructing [Musician] units [in all cities]",
+			"[Gold] cost of purchasing [Musician] units [-10]%",
+			"[+4 Culture] from every [Public School]",
 			"Only available <starting from the [Modern era]>",
 			"Consumes [1] [Artist Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
