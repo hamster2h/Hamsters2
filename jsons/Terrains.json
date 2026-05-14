@@ -10,7 +10,7 @@
 	{
 		"name": "Coast",
 		"type": "Water",
-		"food": 1,
+		"food": 2,
         "gold": 1,
 		"movementCost": 1,
 		"RGB": [70, 138, 216],
