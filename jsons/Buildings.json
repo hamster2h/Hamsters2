@@ -432,13 +432,14 @@
 	{
 		"name": "Harbor",
 		"cost": 120,
-		"maintenance": 3,
-		"hurryCostModifier": 25,
+		"maintenance": 5,
 		"uniques": [
 			"Connects trade routes over water",
 			"Must be next to [Coast]",
+			"[+1 Food] from [Ocean] tiles [in this city]",
 			"[+1 Production] from [Water resource] tiles [in this city]"
 		],
+		"hurryCostModifier": 25,
 		"requiredTech": "Compass"
 	},
 	{
@@ -446,12 +447,12 @@
 		"uniqueTo": "Portugal",
 		"replaces": "Harbor",
 		"cost": 120,
-		"maintenance": 2,
+		"maintenance": 3,
 		"uniques": [
 			"Connects trade routes over water",
 			"Must be next to [Coast]",
-			"[+1 Production] from [Water resource] tiles [in this city]",
-			"[+3 Gold] from [Water resource] tiles [in this city]",
+			"[+1 Food] from [Ocean] tiles [in this city]",
+			"[+1 Production, +3 Gold] from [Water resource] tiles [in this city]",
 			"New [Water] units start with [15] XP [in this city]"
 		],
 		"hurryCostModifier": 25,
