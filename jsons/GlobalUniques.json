@@ -6,7 +6,9 @@
         "[-50]% [Science] [in all cities] <when between [-10] and [-6] [Happiness]>",
         "[-100]% [Science] [in all cities] <when below [-10] [Happiness]>",
         "[-33]% Strength <for [All] units> <when below [-20] [Happiness]>",
-        "[+25]% Culture cost of adopting new Policies",
+        "[-25]% [Culture] [in all cities]",
+        "[-10]% [Gold] [in all cities] <starting from the [Medieval era]>",
+        "[-5]% [Gold] [in all cities] <starting from the [Renaissance era]>",
         
         "[+1 Gold] per every [400] [Gold] <after discovering [Banking]>",
         "[+1 Gold] per every [800] [Gold] <after discovering [Economics]>",
