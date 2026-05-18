@@ -56,7 +56,7 @@
             {
                 "name": "Monarchy",
                 "uniques": [
-					"Each city founded increases culture cost of policies [20]% less than normal",
+					"Each city founded increases culture cost of policies [15]% less than normal",
                     "[+1 Gold, +1 Happiness] per [2] population [in capital]"
                 ],
                 "requires": ["Legalism"],
@@ -91,7 +91,7 @@
             {
                 "name": "Republic",
                 "uniques": [
-					"Each city founded increases culture cost of policies [20]% less than normal",
+					"Each city founded increases culture cost of policies [15]% less than normal",
 					"Free [Settler] appears"
                 ],
                 "row": 1,
@@ -110,7 +110,7 @@
             {
                 "name": "Collective Rule",
                 "uniques": [
-                    "[+50]% Production when constructing [Settler] units [in all cities]",
+                    "[+100]% Production when constructing [Settler] units [in all cities]",
                     "[+5]% Production when constructing [All] buildings [in all cities]"
                 ],
                 "requires": ["Republic"],
