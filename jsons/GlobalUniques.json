@@ -6,15 +6,16 @@
         "[-50]% [Science] [in all cities] <when between [-10] and [-6] [Happiness]>",
         "[-100]% [Science] [in all cities] <when below [-10] [Happiness]>",
         "[-33]% Strength <for [All] units> <when below [-20] [Happiness]>",
+        "[+25]% Culture cost of adopting new Policies",
         
-        "[+1 Gold] per every [500] [Gold] <after discovering [Banking]>",
-        "[+1 Gold] per every [1000] [Gold] <after discovering [Economics]>",
+        "[+1 Gold] per every [400] [Gold] <after discovering [Banking]>",
+        "[+1 Gold] per every [800] [Gold] <after discovering [Economics]>",
         
-        "[+1]% [Gold] [in all cities] <during a Golden Age> <starting from the [Industrial era]>",
-        "[+1]% [Gold] [in all cities] <during a Golden Age> <starting from the [Modern era]>",
-        "[+1]% [Gold] [in all cities] <during a Golden Age> <starting from the [Atomic era]>",
-        "[+1]% [Gold] [in all cities] <during a Golden Age> <starting from the [Information era]>",
-        "[+1]% [Gold] [in all cities] <during a Golden Age> <starting from the [Future era]>",
-        "[+1]% [Gold] [in all cities] <during a Golden Age> <starting from the [Beyond the Future]>"
+        "[+5]% [Gold] [in all cities] <during a Golden Age> <starting from the [Industrial era]>",
+        "[+5]% [Gold] [in all cities] <during a Golden Age> <starting from the [Modern era]>",
+        "[+5]% [Gold] [in all cities] <during a Golden Age> <starting from the [Atomic era]>",
+        "[+5]% [Gold] [in all cities] <during a Golden Age> <starting from the [Information era]>",
+        "[+5]% [Gold] [in all cities] <during a Golden Age> <starting from the [Future era]>",
+        "[+5]% [Gold] [in all cities] <during a Golden Age> <starting from the [Beyond the Future]>"
     ]
 }
