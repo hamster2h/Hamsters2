@@ -426,7 +426,7 @@
 			"Land"
 		],
 		"culture": 2,
-		"science": 6,
+		"science": 8,
 		"uniques": [
 			"Can only be built to improve a resource",
 			"Removes removable features when built",
