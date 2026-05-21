@@ -154,6 +154,7 @@
 	},
 	{
 		"name": "Plantation",
+		"gold": 1,
 		"turnsToBuild": 6,
 		"techRequired": "Calendar",
 		"uniques": [
