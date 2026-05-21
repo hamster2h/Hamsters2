@@ -425,8 +425,8 @@
 		"terrainsCanBeBuiltOn": [
 			"Land"
 		],
-		"gold": 2,
-		"culture": 6,
+		"gold": 6,
+		"culture": 10,
 		"science": 10,
 		"uniques": [
 			"Can only be built to improve a resource",
