@@ -155,7 +155,6 @@
 	{
 		"name": "Plantation",
 		"turnsToBuild": 6,
-		"gold": 1,
 		"techRequired": "Calendar",
 		"uniques": [
 			"Can only be built to improve a resource",
