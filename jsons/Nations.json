@@ -1712,7 +1712,7 @@
         "innerColor": [201,214,217],
         "uniqueName": "Last of the Free",
         "uniques": [
-			"[+2 Food, +2 Production, +4 Culture] from [{non-[Natural Wonder]} {Mountain}] tiles [in all cities]",
+			"[+1 Food, +1 Production, +4 Culture] from [{non-[Natural Wonder]} {Mountain}] tiles [in all cities]",
             "[+4 Culture] from [Hill] tiles without [Improvement] [in all cities]",
 			"Gain a free [Stonehenge] [in capital]"
         ],
