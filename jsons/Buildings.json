@@ -1046,6 +1046,7 @@
 			"Provides [4] [Tourism Stock]",
 			"Comment [Doubles the adjacency bonuses of Concert Venue tiles]",
 			"[+100]% Yield from every [Excavation Site]",
+			"[+100]% Yield from every [City ruins]",
 			"[+100]% [Culture] from every [History Museum]"
 		]
 	},
@@ -1674,8 +1675,10 @@
 			"Only available <if [AP-Museum Host] is constructed>",
 			"Consumes [2] [Fossil]",
 			"Consumes [1] [Power]",
-			"[+4 Gold] from [Excavation Site] tiles [in all cities]",
-			"[+50]% Yield from every [Excavation Site]"
+			"[+2 Gold, +2 Culture] from [Excavation Site] tiles [in all cities]",
+			"[+1 Gold, +4 Culture] from [City ruins] tiles [in all cities]",
+			"[+50]% Yield from every [Excavation Site]",
+			"[+50]% Yield from every [City ruins]"
 		]
 	},
 	{
