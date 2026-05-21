@@ -425,6 +425,7 @@
 		"terrainsCanBeBuiltOn": [
 			"Land"
 		],
+		"gold": 1,
 		"culture": 2,
 		"science": 8,
 		"uniques": [
