@@ -238,7 +238,8 @@
 		"resourceType": "Strategic",
 		"revealedBy": "Mining",
 		"terrainsCanBeFoundOn": ["Plains","Grassland","Desert","Hill"],
-		"culture": 2,
+		"gold": 1,
+		"culture": 1,
 		"science": 2,
 		"improvement": "Excavation Site",
 		"uniques": [
