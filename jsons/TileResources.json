@@ -238,7 +238,7 @@
 		"resourceType": "Strategic",
 		"revealedBy": "Mining",
 		"terrainsCanBeFoundOn": ["Plains","Grassland","Desert","Hill"],
-		"culture": 1,
+		"culture": 2,
 		"science": 2,
 		"improvement": "Excavation Site",
 		"uniques": [
