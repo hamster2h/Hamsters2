@@ -278,7 +278,7 @@
 		"terrainsCanBeFoundOn": ["Grassland","Flood plains"],
 		"gold": 1,
 		"improvement": "Plantation",
-		"improvementStats": {"gold": 1},
+		"improvementStats": {"gold": 2},
 		"uniques": [
 			"Generated with weight [15] <in [Desert] Regions>",
 			"Generated with weight [30] <in [Grassland] Regions>",
@@ -293,7 +293,7 @@
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Marsh"],
 		"gold": 1,
 		"improvement": "Plantation",
-		"improvementStats": {"gold": 1},
+		"improvementStats": {"gold": 2},
 		"uniques": [
 			"Generated with weight [5] <in [Tundra] Regions>",
 			"Generated with weight [5] <in [Jungle] Regions>",
@@ -308,7 +308,10 @@
 		"terrainsCanBeFoundOn": ["Plains","Desert","Flood plains"],
 		"gold": 1,
 		"improvement": "Plantation",
-		"improvementStats": {"gold": 1},
+		"improvementStats": {
+			"happiness": 1,
+			"gold": 1
+		},
 		"uniques": [
 			"Generated with weight [35] <in [Desert] Regions>",
 			"Generated with weight [10] <in [Plains] Regions>",
@@ -322,7 +325,7 @@
 		"terrainsCanBeFoundOn": ["Forest","Jungle"],
 		"gold": 1,
 		"improvement": "Plantation",
-		"improvementStats": {"gold": 2},
+		"improvementStats": {"gold": 3},
 		"uniques": [
 			"Generated with weight [5] <in [Jungle] Regions>",
 			"Generated with weight [30] <in [Forest] Regions>",
@@ -337,7 +340,7 @@
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Marsh"],
 		"gold": 1,
 		"improvement": "Plantation",
-		"improvementStats": {"gold": 1},
+		"improvementStats": {"gold": 3},
 		"uniques": [
 			"Generated with weight [30] <in [Jungle] Regions>",
 			"Generated with weight [10] <in [Forest] Regions>",
@@ -355,7 +358,7 @@
 		"terrainsCanBeFoundOn": ["Grassland","Plains"],
 		"gold": 1,
 		"improvement": "Plantation",
-		"improvementStats": {"gold": 1},
+		"improvementStats": {"gold": 2},
 		"uniques": [
 			"Generated with weight [35] <in [Plains] Regions>",
 			"Generated with weight [15] <in [Hybrid] Regions>",
