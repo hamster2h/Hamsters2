@@ -238,7 +238,8 @@
 		"resourceType": "Strategic",
 		"revealedBy": "Mining",
 		"terrainsCanBeFoundOn": ["Plains","Grassland","Desert","Hill"],
-		"production": 1,
+		"culture": 1,
+		"science": 2,
 		"improvement": "Excavation Site",
 		"uniques": [
 			"Guaranteed with Strategic Balance resource option",
