@@ -174,6 +174,47 @@
 		]
     },
 	{
+		"name": "Survivalism I",
+		"uniques": [
+			"[+5] HP when healing <in [Foreign Land] tiles>",
+			"[+20]% Strength <when defending>"
+		],
+		"unitTypes": [
+			"Scout",
+			"Helicopter"
+		],
+        "column": 9,
+        "row": 1
+	},
+	{
+		"name": "Survivalism II",
+		"prerequisites": ["Survivalism I"],
+		"uniques": [
+			"[+5] HP when healing <in [Foreign Land] tiles>",
+			"[+20]% Strength <when defending>"
+		],
+		"unitTypes": [
+			"Scout",
+			"Helicopter"
+		],
+        "column": 9,
+        "row": 2
+	},
+	{
+		"name": "Survivalism III",
+		"prerequisites": ["Survivalism II"],
+		"uniques": [
+			"Unit will heal every turn, even if it performs an action",
+			"[+20]% Strength <when defending>"
+		],
+		"unitTypes": [
+			"Scout",
+			"Helicopter"
+		],
+        "column": 9,
+        "row": 3
+	},
+	{
 		"name": "Amphibious",
 		"uniques": [
 			"[1] Movement point cost to disembark",
