@@ -795,7 +795,6 @@
 		"name": "Digitalization",
 		"era": "Atomic era",
 		"uniques": [
-			"[-25]% Gold cost of upgrading <for [Worker] units>",
 			"[+100]% Yield from every [Water Tower]",
 			"[+100]% Yield from every [Industrial Complex]",
 			"[+100]% Yield from every [Residential]",
@@ -955,7 +954,7 @@
 				"uniques": [
 					"[-25]% Strength for cities",
 					"[-25]% [Culture] [in all cities]",
-					"[+50]% [Science] [in all cities]",
+					"[+100]% [Science] [in all cities]",
 					"May buy items in puppet cities"
 				],
 				"requires": [
