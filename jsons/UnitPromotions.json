@@ -234,6 +234,24 @@
 		]
 	},
 	{
+		"name": "Air Repair",
+		"prerequisites": [
+			"Interception II",
+			"Dogfighting II",
+			"Siege II",
+			"Bombardment II"
+		],
+		"uniques": [
+			"Unit will heal every turn, even if it performs an action"
+		],
+		"unitTypes": [
+			"Fighter",
+			"Bomber"
+		],
+        "column": 21,
+        "row": 3
+	},
+	{
 		"name": "Rocket Launcher",
 		"uniques": [
 			"[+35]% Strength <vs [Cyber] units>",
