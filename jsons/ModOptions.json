@@ -3,8 +3,8 @@
     "defaultBranch": "master",
     "author": "hamster2h",
     "constants": {
-        "cityWorkRange": 8,
-        "cityExpandRange": 8,
+        "cityWorkRange": 6,
+        "cityExpandRange": 6,
         "unitSupplyPerPopulation": 0.4,
         "cityAirUnitCapacity": 8,
         "minimalCityDistance": 2,
