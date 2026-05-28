@@ -2346,6 +2346,10 @@
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Gunpowder",
+		"uniques": [
+			"Can build [Road] improvements on tiles",
+			"Can build [Lumber mill] improvements on tiles"
+		],
 		"promotions": [
 			"[Mohawk Warrior] ability"
 		],
