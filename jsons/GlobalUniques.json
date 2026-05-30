@@ -8,6 +8,9 @@
         "[-33]% Strength <for [All] units> <when below [-20] [Happiness]>",
         "[-33]% [Culture] [in all cities]",
         "[-20]% [Gold] [in all cities]",
+
+        "[-1 Happiness] [in all cities] <when at war>",
+        "[-1 Happiness] per [3] population [in all cities] <when at war>",
         
         "[+1 Gold] per every [500] [Gold] <after discovering [Banking]>",
         "[+1 Gold] per every [1000] [Gold] <after discovering [Economics]>",
