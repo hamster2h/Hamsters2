@@ -173,7 +173,6 @@
                 "uniques": [
                     "[+15]% Production when constructing [Melee] units [in all cities]",
 					"[+50]% Strength for cities <with a garrison> <when defending>",
-					"[+1 Happiness] per [3] population [in all cities] <when at war>",
                     "Free [Great General] appears"
                 ],
                 "row": 1,
@@ -184,7 +183,7 @@
                 "uniques": [
                     "[+25]% Strength <for [Military] units> <when adjacent to a [Military] unit>",
 					"[+2 Production, +2 Science, +2 Culture] [in all cities]",
-					"[+1 Happiness] per [3] population [in all cities] <when at war>"
+					"[+2 Happiness] [in all cities] <when at war>"
 				],
                 "row": 1,
                 "column": 4
