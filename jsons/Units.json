@@ -1187,6 +1187,7 @@
 			"Can carry [2] [Missile] units",
 			"[75]% chance to intercept air attacks <after discovering [Ballistics]>",
 			"[1] additional attacks per turn",
+			"Can move after attacking",
 			"[+5] Range <after discovering [Nuclear Fusion]>",
 			"[+150]% Strength <vs [non-[Air]] units> <after discovering [Nuclear Fusion]>",
 			"Never appears as a Barbarian unit"
