@@ -1114,12 +1114,12 @@
 	{
 		"name": "Palace",
 		"isNationalWonder": true,
+		"cost": 1,
 		"production": 3,
-		"science": 3,
-		"gold": 3,
+		"science": 2,
+		"gold": 4,
 		"culture": 2,
 		"cityStrength": 2,
-		"cost": 1,
 		"uniques": [
 			"Indicates the capital city",
 			"Provides [1] [Corporation Slot] <after discovering [Corporations]>"
@@ -1132,8 +1132,8 @@
 		"isNationalWonder": false,
 		"cost": 200,
 		"production": 4,
-		"science": 4,
-		"gold": 4,
+		"science": 2,
+		"gold": 5,
 		"culture": 2,
 		"cityStrength": 3,
 		"requiredTech": "Mathematics",
