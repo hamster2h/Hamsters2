@@ -1893,8 +1893,8 @@
 		"uniqueTo": "Songhai",
 		"replaces": "Knight",
 		"unitType": "Mounted",
-		"movement": 4,
-		"strength": 20,
+		"movement": 5,
+		"strength": 22,
 		"cost": 120,
 		"requiredTech": "Chivalry",
 		"upgradesTo": "Cavalry",
@@ -1902,7 +1902,11 @@
 		"requiredResource": "Horses",
 		"uniques": [
 			"Can move after attacking",
-			"No defensive terrain bonus"
+			"No defensive terrain bonus",
+			"Ignores Zone of Control"
+		],
+		"promotions": [
+			"Blitz"
 		],
 		"attackSound": "horse"
 	},
