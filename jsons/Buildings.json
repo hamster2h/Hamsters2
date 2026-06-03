@@ -528,6 +528,21 @@
 		"requiredTech": "Military Science"
 	},
 	{
+		"name": "Stable",
+		"maintenance": 1,
+		"requiredNearbyImprovedResources": [
+			"Horses",
+			"Sheep",
+			"Cattle"
+		],
+		"uniques": [
+			"[+15]% Production when constructing [Mounted] units [in this city]",
+			"[+1 Production] from [Pasture] tiles [in this city]"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Horseback Riding"
+	},
+	{
 		"name": "Ducal Stable",
 		"uniqueTo": "Poland",
 		"replaces": "Stable",
@@ -539,9 +554,7 @@
 		],
 		"uniques": [
 			"[+15]% Production when constructing [Mounted] units [in this city]",
-			"[+1 Production, +1 Gold] from [Cattle] tiles [in this city]",
-			"[+1 Production, +1 Gold] from [Horses] tiles [in this city]",
-			"[+1 Production, +1 Gold] from [Sheep] tiles [in this city]",
+			"[+1 Production, +1 Gold] from [Pasture] tiles [in this city]",
 			"New [Mounted] units start with [15] XP [in this city]"
 		],
 		"hurryCostModifier": 25,
@@ -559,9 +572,7 @@
 		],
 		"uniques": [
 			"[+15]% Production when constructing [Mounted] units [in this city]",
-			"[+1 Production, +1 Food] from [Cattle] tiles [in this city]",
-			"[+1 Production, +1 Food] from [Horses] tiles [in this city]",
-			"[+1 Production, +1 Food] from [Sheep] tiles [in this city]"
+			"[+1 Production, +1 Food] from [Pasture] tiles [in this city]"
 		],
 		"hurryCostModifier": 25,
 		"requiredTech": "Horseback Riding"
@@ -578,9 +589,7 @@
 		],
 		"uniques": [
 			"[+15]% Production when constructing [Mounted] units [in this city]",
-			"[+2 Production] from [Cattle] tiles [in this city]",
-			"[+2 Production] from [Horses] tiles [in this city]",
-			"[+2 Production] from [Sheep] tiles [in this city]",
+			"[+2 Production] from [Pasture] tiles [in this city]",
 			"Provides [1] [Horses]"
 		],
 		"hurryCostModifier": 25,
