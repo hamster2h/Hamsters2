@@ -2069,6 +2069,8 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Dutch East India Company",
 		"uniques": [
+			"[+33]% [Gold] <in cities with a [Palace]>",
+			"[+10]% [Gold] <in cities without a [Palace]>",
 			"Retain [50]% of the happiness from a luxury after the last copy has been traded away",
 			"[+1 Production] from [River] tiles [in all cities]"
 		],
