@@ -19,11 +19,11 @@
 		"name": "Coffee House",
 		"uniqueTo": "Austria",
 		"cost": 100,
-		"gold": 2,
-		"culture": 4,
+		"gold": 1,
+		"culture": 3,
 		"maintenance": 1,
 		"percentStatBonus": {
-			"production": 5
+			"production": 10
 		},
 		"uniques": [
 			"[+25]% Great Person generation [in this city]"
