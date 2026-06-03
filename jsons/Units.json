@@ -839,7 +839,7 @@
 		"replaces": "Lancer",
 		"unitType": "Mounted",
 		"movement": 6,
-		"strength": 25,
+		"strength": 30,
 		"cost": 200,
 		"requiredTech": "Acoustics",
 		"upgradesTo": "Anti-Tank Gun",
@@ -1238,7 +1238,7 @@
 		"upgradesTo": "Destroyer",
 		"obsoleteTech": "Combustion",
 		"uniques": [
-			"May enter foreign tiles without open borders"
+			"[+50]% Strength <when attacking>"
 		],
 		"promotions": [
 			"Coastal Raider I",
@@ -1259,7 +1259,6 @@
 		"upgradesTo": "Destroyer",
 		"obsoleteTech": "Combustion",
 		"uniques": [
-			"May enter foreign tiles without open borders",
 			"Double movement in [Ocean]"
 		],
 		"promotions": [
