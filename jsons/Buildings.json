@@ -1157,6 +1157,19 @@
         "requiredBuilding": "Small Park",
         "requiredTech": "Biology"
     },
+	{
+		"name": "Granary",
+		"food": 2,
+		"maintenance": 1,
+		"uniques": [
+			"[+1 Food] from [Farm] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Deer] tiles [in this city]"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Pottery"
+	},
     {
         "name": "Bakery",
         "cost": 100,
