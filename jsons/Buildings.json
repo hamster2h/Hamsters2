@@ -1130,7 +1130,7 @@
 		"uniqueTo": "Hungary",
 		"replaces": "Palace",
 		"isNationalWonder": false,
-		"cost": 200,
+		"cost": 250,
 		"production": 4,
 		"science": 2,
 		"gold": 5,
@@ -1139,8 +1139,7 @@
 		"requiredTech": "Mathematics",
 		"uniques": [
 			"[+25]% Production when constructing [All] buildings [in this city]",
-			"Indicates the capital city",
-			"Limited to [2] per Civilization"
+			"Indicates the capital city"
 		]
 	},
     {
