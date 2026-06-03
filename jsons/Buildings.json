@@ -18,9 +18,9 @@
 	{
 		"name": "Coffee House",
 		"uniqueTo": "Austria",
-		"cost": 150,
-		"gold": 4,
-		"culture": 12,
+		"cost": 100,
+		"gold": 2,
+		"culture": 4,
 		"maintenance": 1,
 		"percentStatBonus": {
 			"production": 5
@@ -29,7 +29,7 @@
 			"[+25]% Great Person generation [in this city]"
 		],
 		"hurryCostModifier": 25,
-		"requiredTech": "Education"
+		"requiredTech": "Guilds"
 	},
 	{
 		"name": "Stave Church",
