@@ -1438,8 +1438,9 @@
         "innerColor": [238,180,0],
         "uniqueName": "Nordic Bounty",
         "uniques": [
-			"[+1 Food] from [Snow] tiles [in all cities]",
-            "[+1 Production] from [Tundra] tiles [in all cities] <after discovering [Optics]>"
+			"[+1 Food, +1 Happiness] from [Snow] tiles [in all cities]",
+            "[+1 Production] from [Tundra] tiles [in all cities] <after discovering [Optics]>",
+			"Gain an extra spy <after discovering [Writing]>"
         ],
         "cities": [
             "Oslo","Bergen","Trondheim","Stavanger","Tromso","Sarpsborg","Kristiansand","Fredrikstad","Tunsberg","Sandefjord",
