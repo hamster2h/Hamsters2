@@ -263,6 +263,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Diplomatic Marriage",
 		"uniques": [
+			"Starts with [Patronage] adopted",
 			"Can spend Gold to annex or puppet a City-State that has been your Ally for [5] turns",
 			"May buy items in puppet cities"
 		],
