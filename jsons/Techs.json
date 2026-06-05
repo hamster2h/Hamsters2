@@ -277,7 +277,7 @@
 	{
 		"columnNumber": 7,
 		"era": "Renaissance era",
-		"techCost": 1170,
+		"techCost": 1290,
 		"buildingCost": 200,
 		"wonderCost": 500,
 		"techs": [
@@ -321,7 +321,7 @@
 	{
 		"columnNumber": 8,
 		"era": "Renaissance era",
-		"techCost": 1700,
+		"techCost": 1870,
 		"buildingCost": 300,
 		"wonderCost": 625,
 		"techs": [
@@ -363,7 +363,7 @@
 	{
 		"columnNumber": 9,
 		"era": "Industrial era",
-		"techCost": 2400,
+		"techCost": 2760,
 		"buildingCost": 350,
 		"wonderCost": 750,
 		"techs": [
@@ -413,7 +413,7 @@
 	{
 		"columnNumber": 10,
 		"era": "Industrial era",
-		"techCost": 2500,
+		"techCost": 2875,
 		"buildingCost": 400,
 		"wonderCost": 900,
 		"techs": [
@@ -449,7 +449,7 @@
 	{
 		"columnNumber": 11,
 		"era": "Modern era",
-		"techCost": 6400,
+		"techCost": 7680,
 		"buildingCost": 500,
 		"wonderCost": 1060,
 		"techs": [
@@ -492,7 +492,7 @@
 	{
 		"columnNumber": 12,
 		"era": "Modern era",
-		"techCost": 6900,
+		"techCost": 8280,
 		"buildingCost": 500,
 		"wonderCost": 1250,
 		"techs": [
@@ -544,7 +544,7 @@
 	{
 		"columnNumber": 13,
 		"era": "Atomic era",
-		"techCost": 10350,
+		"techCost": 13000,
 		"buildingCost": 500,
 		"wonderCost": 1360,
 		"techs": [
@@ -599,7 +599,7 @@
 	{
 		"columnNumber": 14,
 		"era": "Atomic era",
-		"techCost": 12200,
+		"techCost": 15250,
 		"buildingCost": 600,
 		"wonderCost": 1480,
 		"techs": [
@@ -644,7 +644,7 @@
 	{
 		"columnNumber": 15,
 		"era": "Information era",
-		"techCost": 15450,
+		"techCost": 20000,
 		"buildingCost": 750,
 		"wonderCost": 1710,
 		"techs": [
@@ -707,7 +707,7 @@
 	{
 		"columnNumber": 16,
 		"era": "Information era",
-		"techCost": 17700,
+		"techCost": 23000,
 		"buildingCost": 850,
 		"wonderCost": 1890,
 		"techs": [
@@ -761,7 +761,7 @@
 	{
 		"columnNumber": 17,
 		"era": "Future era",
-		"techCost": 30000,
+		"techCost": 40500,
 		"buildingCost": 1000,
 		"wonderCost": 2020,
 		"techs": [
@@ -806,7 +806,7 @@
 	{
 		"columnNumber": 18,
 		"era": "Future era",
-		"techCost": 45000,
+		"techCost": 60750,
 		"buildingCost": 1120,
 		"wonderCost": 2360,
 		"techs": [
@@ -862,7 +862,7 @@
 	{
 		"columnNumber": 19,
 		"era": "Beyond the Future",
-		"techCost": 60000,
+		"techCost": 81000,
 		"buildingCost": 2000,
 		"wonderCost": 3120,
 		"techs": [
@@ -889,7 +889,7 @@
 	{
 		"columnNumber": 20,
 		"era": "Beyond the Future",
-		"techCost": 80000,
+		"techCost": 112000,
 		"buildingCost": 2000,
 		"wonderCost": 3120,
 		"techs": [
