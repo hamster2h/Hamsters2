@@ -228,6 +228,7 @@
                 "name": "Honor Complete",
                 "uniques": [
 					"Earn [50]% of killed [Military] unit's [Cost] as [Gold]",
+					"[+1 Happiness] per [6] population [in all cities] <when at war>",
 					"May buy [Great General] units for [2000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500])",
 					"Get the leader title of [[leaderName] the Great]"
                 ]
