@@ -451,11 +451,11 @@
 			"Tundra",
 			"Desert"
 		],
+		"gold": 6,
 		"happiness": 2,
-		"turnsToBuild": 7,
+		"turnsToBuild": 14,
 		"techRequired": "Radio",
 		"uniques": [
-			"Consumes [1] [Power]",
 			"[+1 Food] <within [1] tiles of a [Water Tower]>",
 			"[+1 Food] <within [1] tiles of a [Water Tower]> <after adopting [Safety Checks]>",
 			"[+1 Production] <within [1] tiles of a [Industrial Complex]>",
