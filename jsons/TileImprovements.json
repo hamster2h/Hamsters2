@@ -452,6 +452,8 @@
 			"Desert"
 		],
 		"gold": 6,
+		"production": 1,
+		"culture": 1,
 		"happiness": 2,
 		"turnsToBuild": 14,
 		"techRequired": "Radio",
