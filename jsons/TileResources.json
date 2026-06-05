@@ -6,8 +6,8 @@
 		"happiness": 1,
 		"improvement": "Resort",
 		"improvementStats": {
-			"happiness": 2,
-			"gold": 10
+			"happiness": 1,
+			"gold": 4
 		},
 		"uniques": [
 			"Generated on every [50] tiles <in [{Featureless} {Grassland}] tiles>",
