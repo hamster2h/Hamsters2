@@ -595,7 +595,7 @@
 			"Gain a free [Ceilidh Hall] [in all cities]",
 			"[+1 Faith] [in all cities] <with [1] to [2] neighboring [{unimproved} {Forest}] tiles>",
 			"[+2 Faith] [in all cities] <with [3] to [6] neighboring [{unimproved} {Forest}] tiles>",
-			"[+1 Happiness] per [3] population [in all cities] <when at war>",
+			"[+1 Happiness] per [6] population [in all cities] <when at war>",
 			"[+20]% [Happiness] <when at war>"
 		],
 		"cities": [
@@ -1401,8 +1401,8 @@
 		"favoredReligion": "Tengriism",
 		"uniqueName": "Mongol Terror",
 		"uniques": [
-			"[+10]% [Production] [in all cities] <when at war>",
-			"[+1 Happiness] per [3] population [in all cities] <when at war>",
+			"[+25]% [Production] [in all cities] <when at war>",
+			"[+1 Happiness] per [6] population [in all cities] <when at war>",
 			"[+2] Movement <for [Mounted] units>",
 			"[+25]% Strength <for [Mounted] units>",
 			"Unable to capture cities"
