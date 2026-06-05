@@ -467,7 +467,7 @@
 					"[+4 Production, +2 Gold] from every [Industry]",
 					"[+5 Food, +5 Science] from every [Supply Route]",
 					"[+4 Culture, +1 Gold, +1 Happiness] from every [Concert Venue]",
-					"[+10 Culture, +4 Gold] from every [Resort]",
+					"[+1 Culture, +1 Production, +2 Gold] from every [Resort]",
                     "May buy [Great Merchant] units for [800] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([400])",
                     "Get the leader title of [Doge [leaderName]]"
                 ]
