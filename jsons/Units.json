@@ -1686,7 +1686,8 @@
 			"[+200]% Strength <vs [Bomber] units>",
 			"[+200]% Strength <vs [Helicopter] units>",
 			"[+5000]% Strength <vs [Missile] units>",
-			"[+5000]% Strength <vs [Big Missile] units>"
+			"[+5000]% Strength <vs [Big Missile] units>",
+			"[1] additional attacks per turn <when stacked with a [Aircraft Carrier] unit>"
 		],
 		"promotions": [
 			"Stealth",
