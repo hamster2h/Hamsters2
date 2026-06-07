@@ -1380,7 +1380,7 @@
 		"movement": 1,
 		"strength": 200,
 		"rangedStrength": 200,
-		"range": 1000,
+		"range": 200,
 		"cost": 5000,
 		"requiredTech": "Spaceflight",
 		"uniques": [
@@ -1405,7 +1405,7 @@
 			"Only available <if [Nuclear Testing Site] is constructed>",
 			"Nuclear weapon of Strength [2]",
 			"Blast radius [2]",
-			"[+986] Range <after discovering [Spaceflight]>"
+			"[+186] Range <after discovering [Spaceflight]>"
 		],
 		"attackSound": "nuke"
 	},
@@ -1415,7 +1415,7 @@
 		"movement": 1,
 		"strength": 500,
 		"rangedStrength": 500,
-		"range": 1000,
+		"range": 200,
 		"cost": 14000,
 		"requiredTech": "Spaceflight",
 		"uniques": [
@@ -1544,7 +1544,7 @@
 		"movement": 2,
 		"strength": 120,
 		"rangedStrength": 120,
-		"range": 1000,
+		"range": 200,
 		"cost": 15000,
 		"requiredTech": "Spaceflight",
 		"requiredResource": "Oil",
@@ -1678,8 +1678,8 @@
 		"movement": 2,
 		"strength": 90,
 		"rangedStrength": 90,
-		"range": 1000,
-		"interceptRange": 1000,
+		"range": 200,
+		"interceptRange": 200,
 		"cost": 19000,
 		"requiredTech": "Spaceflight",
 		"requiredResource": "Oil",
