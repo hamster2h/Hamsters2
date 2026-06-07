@@ -1575,8 +1575,7 @@
 			"[50]% chance to intercept air attacks",
 			"[+100]% Strength <vs [Observation Balloon] units>",
 			"[+100]% Strength <vs [Bomber] units>",
-			"[+50]% Strength <vs [Helicopter] units>",
-			"[1] additional attacks per turn <when stacked with a [Aircraft Carrier] unit>"
+			"[+50]% Strength <vs [Helicopter] units>"
 		],
 		"attackSound": "machinegun"
 	},
@@ -1597,7 +1596,6 @@
 			"[+100]% Strength <vs [Observation Balloon] units>",
 			"[+100]% Strength <vs [Bomber] units>",
 			"[+50]% Strength <vs [Helicopter] units>",
-			"[1] additional attacks per turn <when stacked with a [Aircraft Carrier] unit>",
 			"Only available <if [EP-Early Vehicles] is constructed>",
 			"Only available <after discovering [Flight]>"
 		],
@@ -1619,8 +1617,7 @@
 		"uniques": [
 			"[75]% chance to intercept air attacks",
 			"[+150]% Strength <vs [Bomber] units>",
-			"[+100]% Strength <vs [Helicopter] units>",
-			"[1] additional attacks per turn <when stacked with a [Aircraft Carrier] unit>"
+			"[+100]% Strength <vs [Helicopter] units>"
 		],
 		"attackSound": "machinegun"
 	},
@@ -1641,8 +1638,7 @@
 		"uniques": [
 			"[80]% chance to intercept air attacks",
 			"[+150]% Strength <vs [Bomber] units>",
-			"[+100]% Strength <vs [Helicopter] units>",
-			"[1] additional attacks per turn <when stacked with a [Aircraft Carrier] unit>"
+			"[+100]% Strength <vs [Helicopter] units>"
 		],
 		"promotions": [
 			"[Zero] ability"
@@ -1667,8 +1663,7 @@
 			"Consumes [1] [Aluminum]",
 			"[95]% chance to intercept air attacks",
 			"[+200]% Strength <vs [Bomber] units>",
-			"[+200]% Strength <vs [Helicopter] units>",
-			"[1] additional attacks per turn <when stacked with a [Aircraft Carrier] unit>"
+			"[+200]% Strength <vs [Helicopter] units>"
 		],
 		"attackSound": "jetgun"
 	},
@@ -1691,8 +1686,7 @@
 			"[+200]% Strength <vs [Bomber] units>",
 			"[+200]% Strength <vs [Helicopter] units>",
 			"[+5000]% Strength <vs [Missile] units>",
-			"[+5000]% Strength <vs [Big Missile] units>",
-			"[1] additional attacks per turn <when stacked with a [Aircraft Carrier] unit>"
+			"[+5000]% Strength <vs [Big Missile] units>"
 		],
 		"promotions": [
 			"Stealth",
