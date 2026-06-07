@@ -1660,7 +1660,7 @@
 		"cost": 5000,
 		"requiredTech": "Computers",
 		"upgradesTo": "Orbital Fighter",
-		//"obsoleteTech": "Spaceflight",
+		"obsoleteTech": "Spaceflight",
 		"requiredResource": "Oil",
 		"uniques": [
 			"Cyber",
@@ -1678,7 +1678,7 @@
 		"movement": 2,
 		"strength": 90,
 		"rangedStrength": 90,
-		"range": 200,
+		"range": 1000,
 		"interceptRange": 1000,
 		"cost": 19000,
 		"requiredTech": "Spaceflight",
