@@ -781,7 +781,8 @@
 				"name": "Nanotechnology",
 				"row": 4,
 				"prerequisites": [
-					"Mobile Tactics"
+					"Mobile Tactics",
+					"Genetics"
 				],
 				"quote": "'Nanotechnology will let us build computers that are incredibly powerful. We'll have more power in the volume of a sugar cube than exists in the entire world today.' - Ralph Merkle"
 			},
