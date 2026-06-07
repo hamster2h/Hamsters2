@@ -1575,7 +1575,8 @@
 			"[50]% chance to intercept air attacks",
 			"[+100]% Strength <vs [Observation Balloon] units>",
 			"[+100]% Strength <vs [Bomber] units>",
-			"[+50]% Strength <vs [Helicopter] units>"
+			"[+50]% Strength <vs [Helicopter] units>",
+			"[1] additional attacks per turn <when stacked with a [Aircraft Carrier] unit>"
 		],
 		"attackSound": "machinegun"
 	},
@@ -1596,6 +1597,7 @@
 			"[+100]% Strength <vs [Observation Balloon] units>",
 			"[+100]% Strength <vs [Bomber] units>",
 			"[+50]% Strength <vs [Helicopter] units>",
+			"[1] additional attacks per turn <when stacked with a [Aircraft Carrier] unit>",
 			"Only available <if [EP-Early Vehicles] is constructed>",
 			"Only available <after discovering [Flight]>"
 		],
@@ -1617,7 +1619,8 @@
 		"uniques": [
 			"[75]% chance to intercept air attacks",
 			"[+150]% Strength <vs [Bomber] units>",
-			"[+100]% Strength <vs [Helicopter] units>"
+			"[+100]% Strength <vs [Helicopter] units>",
+			"[1] additional attacks per turn <when stacked with a [Aircraft Carrier] unit>"
 		],
 		"attackSound": "machinegun"
 	},
@@ -1638,7 +1641,8 @@
 		"uniques": [
 			"[80]% chance to intercept air attacks",
 			"[+150]% Strength <vs [Bomber] units>",
-			"[+100]% Strength <vs [Helicopter] units>"
+			"[+100]% Strength <vs [Helicopter] units>",
+			"[1] additional attacks per turn <when stacked with a [Aircraft Carrier] unit>"
 		],
 		"promotions": [
 			"[Zero] ability"
@@ -1656,14 +1660,15 @@
 		"cost": 5000,
 		"requiredTech": "Computers",
 		"upgradesTo": "Orbital Fighter",
-		"obsoleteTech": "Spaceflight",
+		//"obsoleteTech": "Spaceflight",
 		"requiredResource": "Oil",
 		"uniques": [
 			"Cyber",
 			"Consumes [1] [Aluminum]",
 			"[95]% chance to intercept air attacks",
 			"[+200]% Strength <vs [Bomber] units>",
-			"[+200]% Strength <vs [Helicopter] units>"
+			"[+200]% Strength <vs [Helicopter] units>",
+			"[1] additional attacks per turn <when stacked with a [Aircraft Carrier] unit>"
 		],
 		"attackSound": "jetgun"
 	},
