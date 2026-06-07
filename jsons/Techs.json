@@ -670,7 +670,8 @@
 				"row": 5,
 				"prerequisites": [
 					"Nuclear Fission",
-					"Rocketry"
+					"Rocketry",
+					"Computers"
 				],
 				"quote": "'Our scientific power has outrun our spiritual power, we have guided missiles and misguided men.' – Martin Luther King Jr."
 			},
@@ -678,7 +679,8 @@
 				"name": "Satellites",
 				"row": 6,
 				"prerequisites": [
-					"Rocketry"
+					"Rocketry",
+					"Computers"
 				],
 				"uniques": [
 					"Reveals the entire map"
@@ -733,7 +735,8 @@
 				"name": "Mobile Tactics",
 				"row": 4,
 				"prerequisites": [
-					"Nuclear Fission"
+					"Nuclear Fission",
+					"Advanced Ballistics"
 				],
 				"quote": "'All men can see these tactics whereby I conquer, but what none can see is the strategy out of which victory is evolved.' - Sun Tzu"
 			},
