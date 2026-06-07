@@ -123,7 +123,8 @@
             "Aircraft",
             "[+4] Sight",
             "Can see over obstacles",
-            "Can perform Air Sweep"
+            "Can perform Air Sweep",
+			"[1] additional attacks per turn <when stacked with a [Aircraft Carrier] unit>"
         ]
     },
     {
