@@ -2170,7 +2170,7 @@
 	{
 		"name": "Modern Armor",
 		"unitType": "Armored",
-		"movement": 6,
+		"movement": 5,
 		"strength": 100,
 		"rangedStrength": 100,
 		"range": 2,
@@ -2196,7 +2196,7 @@
 	{
 		"name": "Hovertank",
 		"unitType": "Armored",
-		"movement": 6,
+		"movement": 5,
 		"strength": 140,
 		"rangedStrength": 140,
 		"range": 2,
