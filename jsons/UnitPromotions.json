@@ -497,6 +497,18 @@
 		]
 	},
 	{
+		"name": "Missile Barrage I",
+		"uniques": [
+			"Can carry [2] extra [Missile] units"
+		]
+	},
+	{
+		"name": "Missile Barrage II",
+		"uniques": [
+			"Can carry [2] extra [Missile] units"
+		]
+	},
+	{
 		"name": "Wolfpack I",
 		"uniques": [
 			"[+50]% Strength <when attacking>"
