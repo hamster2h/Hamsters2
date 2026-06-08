@@ -1397,7 +1397,7 @@
 		"strength": 150,
 		"rangedStrength": 150,
 		"range": 10,
-		"cost": 4000,
+		"cost": 6000,
 		"requiredTech": "Advanced Ballistics",
 		"requiredResource": "Uranium",
 		"uniques": [
@@ -1405,7 +1405,8 @@
 			"Only available <if [Nuclear Testing Site] is constructed>",
 			"Nuclear weapon of Strength [1]",
 			"Blast radius [1]",
-			"[+5] Range <after discovering [Lasers]>",
+			"[+2] Range <after discovering [Lasers]>",
+			"Cannot be intercepted"
 		],
 		"attackSound": "nuke"
 	},
@@ -1416,7 +1417,7 @@
 		"strength": 250,
 		"rangedStrength": 250,
 		"range": 14,
-		"cost": 8000,
+		"cost": 12000,
 		"requiredTech": "Advanced Ballistics",
 		"requiredResource": "Uranium",
 		"uniques": [
@@ -1435,7 +1436,7 @@
 		"strength": 500,
 		"rangedStrength": 500,
 		"range": 200,
-		"cost": 14000,
+		"cost": 28000,
 		"requiredTech": "Spaceflight",
 		"uniques": [
 			"Space",
