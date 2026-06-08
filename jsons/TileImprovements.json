@@ -451,10 +451,10 @@
 			"Tundra",
 			"Desert"
 		],
-		"gold": 6,
+		"gold": 4,
 		"production": 1,
 		"culture": 1,
-		"happiness": 2,
+		"happiness": 1,
 		"turnsToBuild": 14,
 		"techRequired": "Radio",
 		"uniques": [
