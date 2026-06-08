@@ -2215,7 +2215,7 @@
 			"Consumes [1] [Oil]",
 			"[+50]% Strength <vs [Land] units>",
 			"[+50]% Strength <vs [Armored] units> <when attacking>",
-			"Never appears as a Barbarian unit",
+			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
 			"Armor Plating I",
@@ -3344,7 +3344,7 @@
 			"Cyber",
 			"Uncapturable",
 			"May capture killed [Land] units <with [55]% chance>",
-			"[+100]% Strength <vs [Air] units>",
+			"[+100]% Strength <vs [Air] units>"
 		],
 		"promotions": [
 			"Armor Plating I",
