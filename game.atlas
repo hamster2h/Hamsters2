@@ -2223,6 +2223,13 @@ UnitIcons/Orbital Strike
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Tactical Nuke
+  rotate: false
+  xy: 328, 464
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Orbital Missile
   rotate: false
   xy: 669, 450
