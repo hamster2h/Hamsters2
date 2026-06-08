@@ -28,6 +28,9 @@
 		"uniques": [
 			"Invisible to non-adjacent units",
 			"May enter foreign tiles without open borders"
+		],
+		"unitTypes": [
+			"Helicopter"
 		]
 	},
 	{
