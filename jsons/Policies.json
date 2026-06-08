@@ -729,7 +729,7 @@
             "Scientific": 5
         },
         "uniques": [
-			"[+1] Movement <for [{Military} {Land}] units>",
+			"[+1] Movement <for [Support] units>",
 			"All newly-trained [Fighter] units [in all cities] receive the [Sortie] promotion",
             "Only available <before adopting [Autocracy]>"
         ],
@@ -976,7 +976,6 @@
 					"All newly-trained [relevant] units [in all cities] receive the [Logistics] promotion",
 					"All newly-trained [relevant] units [in all cities] receive the [Fighter Logistics I] promotion",
 					"All newly-trained [relevant] units [in all cities] receive the [Blitz] promotion",
-					"All newly-trained [non-[Air]] units [in all cities] receive the [Mobility] promotion",
 					"All newly-trained [{Military} {Land}] units [in all cities] receive the [Recruitment] promotion"
 				],
 				"requires": [
