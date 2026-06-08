@@ -1553,9 +1553,6 @@
 			"Damage taken from interception reduced by [50]%",
 			"Cannot be carried by [Carrier] units"
 		],
-		"promotions": [
-			"Stealth"
-		],
 		"attackSound": "bombing"
 	},
 	{
@@ -1572,9 +1569,6 @@
 			"Cyber",
 			"Space",
 			"Consumes [4] [Composites]"
-		],
-		"promotions": [
-			"Stealth"
 		],
 		"attackSound": "bombing"
 	},
@@ -1709,7 +1703,6 @@
 			"[+5000]% Strength <vs [Big Missile] units>"
 		],
 		"promotions": [
-			"Stealth",
 			"Heat Sensor"
 		],
 		"attackSound": "jetgun"
