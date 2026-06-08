@@ -639,13 +639,12 @@
 	{
 		"name": "Longhouse",
 		"uniqueTo": "Iroquois",
-		"cost": 300,
+		"cost": 400,
 		"maintenance": 8,
 		"production": 2,
 		"uniques": [
 			"[+1 Production] from [Forest] tiles [in all cities]",
-			"[+1 Production] from [Jungle] tiles [in all cities]",
-			"Cost increases by [85] per owned city"
+			"[+1 Production] from [Jungle] tiles [in all cities]"
 		],
 		"hurryCostModifier": 25,
 		"requiredTech": "Iron Working"
