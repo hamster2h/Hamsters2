@@ -908,8 +908,8 @@
 		},
 		"uniques": [
 			"New [Military] units start with [45] XP [in all cities]",
-			"[+300]% Gold cost of upgrading <for [Military] units>",
-			"[Gold] cost of purchasing [Military] units [+300]%"
+			"[+100]% Gold cost of upgrading <for [Military] units>",
+			"[Gold] cost of purchasing [Military] units [+100]%"
 		],
 		"requiredTech": "Combined Arms",
 		"quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.' - Dwight D. Eisenhower"
@@ -1068,8 +1068,8 @@
 		"uniques": [
 			"Provides [4] [Defense Force Stock]",
 			"New [Military] units start with [45] XP [in all cities]",
-			"[+100]% Gold cost of upgrading <for [Military] units>",
-			"[Gold] cost of purchasing [Military] units [+100]%"
+			"[+50]% Gold cost of upgrading <for [Military] units>",
+			"[Gold] cost of purchasing [Military] units [+50]%"
 		]
 	},
 	{
