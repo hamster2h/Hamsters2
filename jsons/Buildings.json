@@ -2886,12 +2886,9 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Future Perk]",
-			"All newly-trained [Hovertank] units [in all cities] receive the [Mobility I] promotion",
-			"All newly-trained [Hovertank] units [in all cities] receive the [Mobility II] promotion",
-			"All newly-trained [Hovertillery] units [in all cities] receive the [Mobility I] promotion",
-			"All newly-trained [Hovertillery] units [in all cities] receive the [Mobility II] promotion",
-			"All newly-trained [Hover-SAM] units [in all cities] receive the [Mobility I] promotion",
-			"All newly-trained [Hover-SAM] units [in all cities] receive the [Mobility II] promotion",
+			"All newly-trained [Hovertank] units [in all cities] receive the [Shock I] promotion",
+			"All newly-trained [Hovertillery] units [in all cities] receive the [Volley] promotion",
+			"All newly-trained [Hover-SAM] units [in all cities] receive the [Scan Visor] promotion",
 			"Only available <starting from the [Future era]>",
 			"Consumes [1] [General Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
