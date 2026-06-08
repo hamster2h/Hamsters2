@@ -65,7 +65,7 @@
         "row": 5
 	},
 	{
-		"name": "Fighter Logistics",
+		"name": "Fighter Logistics I",
 		"prerequisites": [
 			"Bombardment III",
 			"Air Targeting II"
@@ -79,6 +79,21 @@
 		],
         "column": 23,
         "row": 5
+	},
+	{
+		"name": "Fighter Logistics II",
+		"prerequisites": [
+			"Fighter Logistics I"
+		],
+		"uniques": [
+			"[1] additional attacks per turn",
+			"[1] additional attacks per turn <when stacked with a [Aircraft Carrier] unit>"
+		],
+		"unitTypes": [
+			"Fighter"
+		],
+        "column": 23,
+        "row": 6
 	},
 	{
 		"name": "Blitz",
