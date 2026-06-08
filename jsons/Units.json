@@ -1396,7 +1396,7 @@
 		"movement": 1,
 		"strength": 150,
 		"rangedStrength": 150,
-		"range": 8,
+		"range": 10,
 		"cost": 4000,
 		"requiredTech": "Advanced Ballistics",
 		"requiredResource": "Uranium",
@@ -1405,7 +1405,7 @@
 			"Only available <if [Nuclear Testing Site] is constructed>",
 			"Nuclear weapon of Strength [1]",
 			"Blast radius [1]",
-			"[+4] Range <after discovering [Lasers]>",
+			"[+5] Range <after discovering [Lasers]>",
 		],
 		"attackSound": "nuke"
 	},
