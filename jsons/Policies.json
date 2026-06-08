@@ -710,8 +710,8 @@
             {
                 "name": "Autocracy Complete",
                 "uniques": [
+					"All newly-trained [Gunpowder] units [in all cities] receive the [Charge] promotion",
                     "[+25]% Strength <when attacking> <for [Military] units>",
-					"Provides [2] [General Perk]",
 					"[+1 Happiness] per [6] population [in all cities] <when at war>",
                     "Get the leader title of [[leaderName] the Terrible]"
                 ]
@@ -791,7 +791,6 @@
                 "name": "Order Complete",
                 "uniques": [
                     "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500])",
-                    "All newly-trained [Gunpowder] units [in all cities] receive the [Charge] promotion",
 					"[Gold] cost of purchasing [Missile] units [-10]%",
 					"[Gold] cost of purchasing [Big Missile] units [-10]%",
 					"Get the leader title of [Chairman [leaderName]]"
