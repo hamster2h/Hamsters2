@@ -1086,7 +1086,7 @@
 		"cost": 4500,
 		"requiredTech": "Combustion",
 		"upgradesTo": "Missile Cruiser",
-		"obsoleteTech": "Robotics",
+		//"obsoleteTech": "Robotics",
 		"requiredResource": "Oil",
 		"uniques": [
 			"Consumes [1] [Iron]",
