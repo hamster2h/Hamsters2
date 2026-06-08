@@ -453,7 +453,6 @@
 		],
 		"gold": 4,
 		"production": 1,
-		"culture": 1,
 		"happiness": 1,
 		"turnsToBuild": 14,
 		"techRequired": "Radio",
