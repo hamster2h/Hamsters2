@@ -1391,6 +1391,25 @@
 		"attackSound": "missile"
 	},
 	{
+		"name": "Tactical Nuke",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 150,
+		"rangedStrength": 150,
+		"range": 8,
+		"cost": 4000,
+		"requiredTech": "Advanced Ballistics",
+		"requiredResource": "Uranium",
+		"uniques": [
+			"Space",
+			"Only available <if [Nuclear Testing Site] is constructed>",
+			"Nuclear weapon of Strength [1]",
+			"Blast radius [1]",
+			"[+4] Range <after discovering [Lasers]>",
+		],
+		"attackSound": "nuke"
+	},
+	{
 		"name": "Nuclear Missile",
 		"unitType": "Big Missile",
 		"movement": 1,
