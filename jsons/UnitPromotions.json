@@ -499,7 +499,6 @@
 	{
 		"name": "Wolfpack I",
 		"uniques": [
-			"[+1] Movement",
 			"[+50]% Strength <when attacking>"
 		],
 		"unitTypes": [
@@ -512,7 +511,6 @@
 		"name": "Wolfpack II",
 		"prerequisites": ["Wolfpack I"],
 		"uniques": [
-			"[+1] Movement",
 			"[+50]% Strength <when attacking>"
 		],
 		"unitTypes": [
@@ -525,7 +523,6 @@
 		"name": "Wolfpack III",
 		"prerequisites": ["Wolfpack II"],
 		"uniques": [
-			"[+2] Movement",
 			"[+50]% Strength <when attacking>"
 		],
 		"unitTypes": [
