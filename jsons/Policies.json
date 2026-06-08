@@ -729,7 +729,9 @@
             "Scientific": 5
         },
         "uniques": [
-			"All newly-trained [Destroyer] units [in all cities] receive the [Missile Barrage I] promotion",
+			"All newly-trained [Missile Cruiser] units [in all cities] receive the [Missile Barrage I] promotion",
+			"All newly-trained [Missile Cruiser] units [in all cities] receive the [Missile Barrage II] promotion",
+			"All newly-trained [Battleship] units [in all cities] receive the [Missile Barrage I] promotion",
 			"All newly-trained [Fighter] units [in all cities] receive the [Sortie] promotion",
             "Only available <before adopting [Autocracy]>"
         ],
