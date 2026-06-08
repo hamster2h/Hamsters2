@@ -1432,15 +1432,15 @@
 		"name": "Orbital Strike",
 		"unitType": "Big Missile",
 		"movement": 1,
-		"strength": 500,
-		"rangedStrength": 500,
+		"strength": 400,
+		"rangedStrength": 400,
 		"range": 200,
 		"cost": 14000,
 		"requiredTech": "Spaceflight",
 		"uniques": [
 			"Space",
 			"[-100]% maintenance costs",
-			"Nuclear weapon of Strength [2]",
+			"Nuclear weapon of Strength [3]",
 			"Blast radius [1]"
 		],
 		"attackSound": "nuke"
