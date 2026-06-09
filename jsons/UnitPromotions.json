@@ -209,6 +209,23 @@
         "row": 3
 	},
 	{
+		"name": "Evasion",
+		"prerequisites": [
+			"Siege II",
+			"Bombardment II",
+			"Air Targeting II"
+		],
+		"uniques": [
+			"Damage taken from interception reduced by [25]%",
+			"[+200]% weight to this choice for AI decisions"
+		],
+		"unitTypes": [
+			"Bomber"
+		],
+        "column": 17,
+        "row": 4
+	},
+	{
 		"name": "Indirect Fire",
 		"prerequisites": [
 			"Accuracy III",
@@ -357,7 +374,7 @@
 	{
 		"name": "Heat Sensor",
 		"uniques": [
-			"[+200]% Strength <vs [Stealth Bomber] units>"
+			"[+100]% Strength <vs [Stealth Bomber] units>"
 		]
 	},
 	{
@@ -972,6 +989,3 @@
 		]
 	}
 ]
-
-
-
