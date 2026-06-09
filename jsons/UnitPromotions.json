@@ -67,8 +67,7 @@
 	{
 		"name": "Fighter Logistics I",
 		"prerequisites": [
-			"Bombardment III",
-			"Air Targeting II"
+			"Bombardment I"
 		],
 		"uniques": [
 			"[1] additional attacks per turn",
@@ -78,7 +77,7 @@
 			"Fighter"
 		],
         "column": 23,
-        "row": 5
+        "row": 2
 	},
 	{
 		"name": "Fighter Logistics II",
@@ -93,7 +92,7 @@
 			"Fighter"
 		],
         "column": 23,
-        "row": 6
+        "row": 3
 	},
 	{
 		"name": "Blitz",
@@ -155,6 +154,27 @@
         "row": 5
 	},
 	{
+		"name": "Operational Range",
+		"prerequisites": [
+			"Interception I",
+			"Dogfighting I",
+			"Siege I",
+			"Bombardment I"
+		],
+		"uniques": [
+			"[+2] Range",
+			"[-90]% weight to this choice for AI decisions"
+		],
+		"unitTypes": [
+			"Fighter",
+			"Bomber",
+			"Missile",
+			"Big Missile"
+		],
+        "column": 21,
+        "row": 1
+	},
+	{
 		"name": "Extended Range",
 		"prerequisites": [
 			"Accuracy II",
@@ -162,6 +182,7 @@
 			"Targeting II",
 			"Bombardment II",
 			"Siege II",
+			"Operational Range",
 			"Wolfpack II",
 			"Shock II",
 			"Drill II",
@@ -780,27 +801,6 @@
 		],
         "column": 20,
         "row": 2
-	},
-	{
-		"name": "Operational Range",
-		"prerequisites": [
-			"Interception I",
-			"Dogfighting I",
-			"Siege I",
-			"Bombardment I"
-		],
-		"uniques": [
-			"[+2] Range",
-			"[-90]% weight to this choice for AI decisions"
-		],
-		"unitTypes": [
-			"Fighter",
-			"Bomber",
-			"Missile",
-			"Big Missile"
-		],
-        "column": 21,
-        "row": 1
 	},
 	{
 		"name": "Home Sweet Home",
