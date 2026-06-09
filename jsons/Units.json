@@ -1552,7 +1552,7 @@
 		"uniques": [
 			"Cyber",
 			"Consumes [2] [Aluminum]",
-			"Damage taken from interception reduced by [50]%",
+			"Damage taken from interception reduced by [25]%",
 			"Cannot be carried by [Carrier] units"
 		],
 		"attackSound": "bombing"
