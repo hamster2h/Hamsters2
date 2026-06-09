@@ -216,7 +216,7 @@
 			"Air Targeting II"
 		],
 		"uniques": [
-			"Damage taken from interception reduced by [25]%",
+			"Damage taken from interception reduced by [50]%",
 			"[+200]% weight to this choice for AI decisions"
 		],
 		"unitTypes": [
@@ -374,7 +374,8 @@
 	{
 		"name": "Heat Sensor",
 		"uniques": [
-			"[+100]% Strength <vs [Stealth Bomber] units>"
+			"[+100]% Strength <vs [Stealth Bomber] units>",
+			"[+100]% Strength <vs [Orbital Bomber] units>"
 		]
 	},
 	{
