@@ -1058,7 +1058,7 @@
 	{
 		"name": "Ironclad",
 		"unitType": "Ranged Water",
-		"movement": 3,
+		"movement": 4,
 		"strength": 45,
 		"rangedStrength": 45,
 		"range": 3,
