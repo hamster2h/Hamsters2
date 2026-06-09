@@ -68,7 +68,7 @@
 		"name": "Fighter Logistics I",
 		"prerequisites": [
 			"Bombardment II",
-			"Air Targeting I"
+			"Air Targeting II"
 		],
 		"uniques": [
 			"[1] additional attacks per turn",
@@ -327,7 +327,8 @@
 			"Interception II",
 			"Dogfighting II",
 			"Siege II",
-			"Bombardment II"
+			"Bombardment II",
+			"Air Targeting II"
 		],
 		"uniques": [
 			"Unit will heal every turn, even if it performs an action"
