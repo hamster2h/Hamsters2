@@ -1058,7 +1058,7 @@
 	{
 		"name": "Ironclad",
 		"unitType": "Ranged Water",
-		"movement": 4,
+		"movement": 5,
 		"strength": 45,
 		"rangedStrength": 45,
 		"range": 3,
@@ -1172,7 +1172,7 @@
 	{
 		"name": "Battleship",
 		"unitType": "Ranged Water",
-		"movement": 5,
+		"movement": 6,
 		"strength": 130,
 		"rangedStrength": 130,
 		"range": 5,
