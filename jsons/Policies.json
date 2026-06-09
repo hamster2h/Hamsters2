@@ -402,7 +402,7 @@
             {
                 "name": "Naval Tradition",
                 "uniques": [
-                    "[+1] Movement <for [{Military} {Water}] units>",
+                    "[+2] Movement <for [{Military} {Water}] units>",
                     "[+1] Sight <for [{Military} {Water}] units>",
 					"[+25]% Strength <for [{Military} {Water}] units>",
                     "Free [Great Admiral] appears",
