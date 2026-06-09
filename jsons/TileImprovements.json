@@ -451,7 +451,7 @@
 			"Tundra",
 			"Desert"
 		],
-		"gold": 4,
+		"gold": 3,
 		"production": 1,
 		"happiness": 1,
 		"turnsToBuild": 14,
