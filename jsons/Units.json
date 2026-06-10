@@ -1328,6 +1328,29 @@
 		]
 	},
 	{
+		"name": "AM Missile",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 100,
+		"rangedStrength": 100,
+		"range": 4,
+		"interceptRange": 4,
+		"cost": 4000,
+		"requiredTech": "Advanced Ballistics",
+		"uniques": [
+			"[+300]% maintenance costs",
+			"[100]% chance to intercept air attacks",
+			"[+5000]% Strength <vs [Missile] units>",
+			"[+5000]% Strength <vs [Big Missile] units>",
+			"[-5000]% Strength <vs [Fighter] units>",
+			"[-5000]% Strength <vs [Bomber] units>",
+			"[-5000]% Strength <vs [Atomic Bomber] units>",
+			"Cannot be carried by [Submarine] units",
+			"Cannot attack"
+		],
+		"attackSound": "missile"
+	},
+	{
 		"name": "Guided Missile",
 		"unitType": "Missile",
 		"movement": 1,
