@@ -181,7 +181,7 @@
             {
                 "name": "Discipline",
                 "uniques": [
-                    "[+25]% Strength <for [Military] units> <when adjacent to a [Military] unit>",
+                    "[+25]% Strength <for [All] units> <when adjacent to a [Military] unit>",
 					"[+2 Production, +2 Science, +2 Culture] [in all cities]",
 					"[+2 Happiness] [in all cities] <when at war>"
 				],
@@ -711,7 +711,7 @@
                 "name": "Autocracy Complete",
                 "uniques": [
 					"All newly-trained [Gunpowder] units [in all cities] receive the [Charge] promotion",
-                    "[+25]% Strength <when attacking> <for [Military] units>",
+                    "[+25]% Strength <for [All] units> <when attacking>",
 					"[+1 Happiness] per [6] population [in all cities] <when at war>",
                     "Get the leader title of [[leaderName] the Terrible]"
                 ]
