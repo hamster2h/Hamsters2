@@ -2237,6 +2237,13 @@ UnitIcons/Orbital Missile
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/AM Missile
+  rotate: false
+  xy: 669, 450
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/LR Missile
   rotate: false
   xy: 669, 450
