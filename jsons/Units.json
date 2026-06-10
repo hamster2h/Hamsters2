@@ -1332,7 +1332,7 @@
 		"range": 4,
 		"interceptRange": 4,
 		"cost": 6000,
-		"requiredTech": "Advanced Ballistics",
+		"requiredTech": "Artificial Intelligence",
 		"uniques": [
 			"[+900]% maintenance costs",
 			"[98]% chance to intercept air attacks",
@@ -1355,7 +1355,7 @@
 		"rangedStrength": 80,
 		"range": 8,
 		"cost": 1000,
-		"requiredTech": "Advanced Ballistics",
+		"requiredTech": "Stealth",
 		"uniques": [
 			"[-100]% maintenance costs",
 			"[+150]% Strength <after discovering [Lasers]>",
@@ -1420,7 +1420,7 @@
 		"rangedStrength": 150,
 		"range": 10,
 		"cost": 6000,
-		"requiredTech": "Advanced Ballistics",
+		"requiredTech": "Stealth",
 		"requiredResource": "Uranium",
 		"uniques": [
 			"Space",
