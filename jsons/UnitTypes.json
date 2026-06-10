@@ -175,6 +175,10 @@
     },
     {
         "name": "Support",
-        "movementType": "Land"
+        "movementType": "Land",
+		"uniques": [
+            "Cannot intercept [Missile] units",
+			"Cannot intercept [Big Missile] units"
+        ]
     }
 ]
