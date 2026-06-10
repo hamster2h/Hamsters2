@@ -191,7 +191,7 @@
             {
                 "name": "Military Tradition",
                 "uniques": [
-					"New [Military] units start with [15] XP [in all cities]",
+					"[+25]% Strength <for [All] units>",
                     "[+50]% XP gained from combat <for [Military] units>",
 					"[Great General] is earned [+25]% faster"
                 ],
