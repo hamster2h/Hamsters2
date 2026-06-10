@@ -295,7 +295,7 @@
             {
                 "name": "Free Religion",
                 "uniques": [
-					"[-5]% Culture cost of adopting new Policies",
+					"[-10]% Culture cost of adopting new Policies",
 					"Free Great Person"
 				],
                 "requires": ["Mandate Of Heaven", "Reformation"],
