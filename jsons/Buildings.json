@@ -2687,7 +2687,7 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Modern Perk]",
-			"[+10]% Strength <for [Military] units> <when defending>",
+			"[+10]% Strength <for [All] units> <when defending>",
 			"May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <during the [Modern era]>",
 			"Only available <starting from the [Modern era]>",
 			"Consumes [1] [Prophet Perk]",
@@ -2790,8 +2790,8 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Industrial Perk]",
-			"[+10]% Strength <for [Military] units>",
-			"[+25]% Strength <for [Military] units> <vs cities>",
+			"[+10]% Strength <for [All] units>",
+			"[+25]% Strength <for [All] units> <vs cities>",
 			"Only available <starting from the [Industrial era]>",
 			"Consumes [1] [General Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
@@ -2804,7 +2804,7 @@
 		"uniques": [
 			"Comment [Modern Perk]",
 			"Comment [Enables construction of Great War Infantry and Great War Bombers]",
-			"[+10]% Strength <for [Military] units>",
+			"[+10]% Strength <for [All] units>",
 			"Only available <starting from the [Modern era]>",
 			"Consumes [1] [General Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
