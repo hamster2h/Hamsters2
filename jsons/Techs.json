@@ -753,6 +753,7 @@
 				"name": "Stealth",
 				"row": 7,
 				"prerequisites": [
+					"Advanced Ballistics",
 					"Robotics",
 					"The Internet"
 				],
