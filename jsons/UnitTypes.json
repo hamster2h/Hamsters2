@@ -149,9 +149,7 @@
     {
         "name": "Missile",
         "movementType": "Air",
-        "uniques": [
-            "Self-destructs when attacking"
-        ]
+        "uniques": [ ]
     },
     {
         "name": "Big Missile",
