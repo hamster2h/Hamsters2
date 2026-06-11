@@ -1977,14 +1977,14 @@
 		"hurryCostModifier": 0
 	},
 	{
-		"name": "Stealth Composite Factory",
+		"name": "SM Composite Factory",
 		"cost": 1000,
 		"maintenance": 8,
 		"requiredTech": "Stealth",
 		"uniques": [
 			"Consumes [12] [Power]",
 			"Consumes [4] [Coal]",
-			"Provides [1] [Stealth Composites]",
+			"Provides [1] [SM Composites]",
 			"Destroyed when the city is captured"
 		],
 		"hurryCostModifier": 0
