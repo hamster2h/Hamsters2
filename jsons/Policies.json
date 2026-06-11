@@ -946,7 +946,7 @@
 					"[+1] Movement <for [Armored] units>",
 					"[+1] Range <for [Ranged Water] units>",
 					"[+10]% Strength <for [Ranged Water] units>",
-					"[+4] Range <for [Air] units>",
+					"[+2] Range <for [Air] units>",
 					"[+25]% Strength <for [Air] units>"
 				],
 				"requires": [
