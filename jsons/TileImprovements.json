@@ -501,7 +501,7 @@
 		"terrainsCanBeBuiltOn": [
 			"Land"
 		],
-		"gold": 8,
+		"gold": 6,
 		"production": 4,
 		"uniques": [
 			"[+4 Happiness, +2 Production] <in [Luxury resource] tiles>",
