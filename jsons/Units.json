@@ -1372,6 +1372,7 @@
 		"range": 8,
 		"cost": 2000,
 		"requiredTech": "Stealth",
+		"requiredResource": "SM Composites",
 		"uniques": [
 			"[-100]% maintenance costs",
 			"[+150]% Strength <after discovering [Lasers]>",
@@ -1405,6 +1406,7 @@
 		"range": 9,
 		"cost": 2250,
 		"requiredTech": "Stealth",
+		"requiredResource": "SM Composites",
 		"uniques": [
 			"[-100]% maintenance costs",
 			"[+150]% Strength <after discovering [Lasers]>",
@@ -1438,6 +1440,7 @@
 		"range": 200,
 		"cost": 8000,
 		"requiredTech": "Spaceflight",
+		"requiredResource": "SM Composites",
 		"uniques": [
 			"Space",
 			"[-100]% maintenance costs",
@@ -1457,6 +1460,7 @@
 		"requiredResource": "Uranium",
 		"uniques": [
 			"Space",
+			"Consumes [1] [SM Composites]",
 			"Only available <if [Nuclear Testing Site] is constructed>",
 			"Nuclear weapon of Strength [1]",
 			"Blast radius [1]",
