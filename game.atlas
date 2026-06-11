@@ -123,7 +123,7 @@ BuildingIcons/Composite Factory
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Stealth Composite Factory
+BuildingIcons/SM Composite Factory
   rotate: false
   xy: 1268, 1836
   size: 100, 100
@@ -1173,7 +1173,7 @@ ResourceIcons/Composites
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Stealth Composites
+ResourceIcons/SM Composites
   rotate: false
   xy: 1376, 1944
   size: 100, 100
