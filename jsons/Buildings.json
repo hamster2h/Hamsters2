@@ -1752,7 +1752,7 @@
 		"cost": 600,
 		"uniques": [
 			"Only available <if [AP-World Tour] is constructed>",
-			"[+12 Culture, +6 Gold] from [Concert Venue] tiles [in this city]",
+			"[+6 Culture, +2 Gold] from [Concert Venue] tiles [in this city]",
 			"Must have an owned [Concert Venue] within [3] tiles"
 		]
 	},
@@ -1838,7 +1838,7 @@
 		"uniques": [
 			"Only available <if [MP-Branch Companies] is constructed>",
 			"Consumes [1] [Power]",
-			"[+8 Gold, +8 Production] from [Industry] tiles [in this city]",
+			"[+2 Gold, +2 Production] from [Industry] tiles [in this city]",
 			"Must have an owned [Industry] within [3] tiles"
 		]
 	},
