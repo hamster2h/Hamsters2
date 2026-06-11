@@ -781,7 +781,6 @@
                     "[-10 Happiness] [in all cities]",
 					"[-25]% [Culture] [in all cities]",
                     "[-25]% enemy spy effectiveness [in all cities]",
-					"[+1] Range <for [Siege] units>",
 					"[+25]% Strength <for [Siege] units>"
                 ],
                 "row": 3,
