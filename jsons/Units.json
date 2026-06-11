@@ -1300,7 +1300,7 @@
 		"uniques": [
 			"[+200]% Strength <when attacking>",
 			"Can move after attacking",
-			"Can carry [8] [Big Missile] units"
+			"Can carry [10] [Big Missile] units"
 		],
 		"attackSound": "torpedo"
 	},
