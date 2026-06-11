@@ -123,6 +123,13 @@ BuildingIcons/Composite Factory
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Stealth Composite Factory
+  rotate: false
+  xy: 1268, 1836
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Defense Complex
   rotate: false
   xy: 1376, 1728
