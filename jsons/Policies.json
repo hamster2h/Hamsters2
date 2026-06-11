@@ -295,7 +295,7 @@
             {
                 "name": "Free Religion",
                 "uniques": [
-					"[-10]% Culture cost of adopting new Policies",
+					"[-5]% Culture cost of adopting new Policies",
 					"Free Great Person"
 				],
                 "requires": ["Mandate Of Heaven", "Reformation"],
@@ -729,7 +729,7 @@
             "Scientific": 5
         },
         "uniques": [
-			"Comment [Battleships and Missile Cruisers can have more Missiles]",
+			"Comment [Battleships and Missile Cruisers can carry more Missiles]",
 			"All newly-trained [Fighter] units [in all cities] receive the [Sortie] promotion",
             "Only available <before adopting [Autocracy]>"
         ],
