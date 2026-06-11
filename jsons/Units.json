@@ -1359,7 +1359,6 @@
 		"requiredTech": "Advanced Ballistics",
 		"uniques": [
 			"[-100]% maintenance costs",
-			"[+150]% Strength <after discovering [Lasers]>",
 			"[+3] Range <after discovering [Lasers]>"
 		],
 		"attackSound": "missile"
@@ -1376,7 +1375,6 @@
 		"requiredResource": "SM Composites",
 		"uniques": [
 			"[-100]% maintenance costs",
-			"[+150]% Strength <after discovering [Lasers]>",
 			"[+4] Range <after discovering [Lasers]>",
 			"Cannot be intercepted"
 		],
@@ -1393,7 +1391,6 @@
 		"requiredTech": "Advanced Ballistics",
 		"uniques": [
 			"[-100]% maintenance costs",
-			"[+150]% Strength <after discovering [Lasers]>",
 			"[+6] Range <after discovering [Lasers]>"
 		],
 		"attackSound": "missile"
@@ -1410,7 +1407,6 @@
 		"requiredResource": "SM Composites",
 		"uniques": [
 			"[-100]% maintenance costs",
-			"[+150]% Strength <after discovering [Lasers]>",
 			"[+5] Range <after discovering [Lasers]>",
 			"Cannot be intercepted"
 		],
@@ -1427,7 +1423,6 @@
 		"requiredTech": "Advanced Ballistics",
 		"uniques": [
 			"[-100]% maintenance costs",
-			"[+150]% Strength <after discovering [Lasers]>",
 			"[+4] Range <after discovering [Lasers]>"
 		],
 		"attackSound": "missile"
