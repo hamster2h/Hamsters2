@@ -1360,7 +1360,8 @@
 		"uniques": [
 			"[-100]% maintenance costs",
 			"[+150]% Strength <after discovering [Lasers]>",
-			"[+3] Range <after discovering [Lasers]>"
+			"[+3] Range <after discovering [Lasers]>",
+			"Self-destructs when attacking"
 		],
 		"attackSound": "missile"
 	},
@@ -1378,7 +1379,8 @@
 			"[-100]% maintenance costs",
 			"[+150]% Strength <after discovering [Lasers]>",
 			"[+4] Range <after discovering [Lasers]>",
-			"Cannot be intercepted"
+			"Cannot be intercepted",
+			"Self-destructs when attacking"
 		],
 		"attackSound": "missile"
 	},
@@ -1394,7 +1396,8 @@
 		"uniques": [
 			"[-100]% maintenance costs",
 			"[+150]% Strength <after discovering [Lasers]>",
-			"[+6] Range <after discovering [Lasers]>"
+			"[+6] Range <after discovering [Lasers]>",
+			"Self-destructs when attacking"
 		],
 		"attackSound": "missile"
 	},
@@ -1466,7 +1469,8 @@
 			"Nuclear weapon of Strength [1]",
 			"Blast radius [1]",
 			"[+2] Range <after discovering [Lasers]>",
-			"Cannot be intercepted"
+			"Cannot be intercepted",
+			"Self-destructs when attacking"
 		],
 		"attackSound": "nuke"
 	},
