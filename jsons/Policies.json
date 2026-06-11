@@ -729,6 +729,7 @@
             "Scientific": 5
         },
         "uniques": [
+			"Comment [Battleships and Missile Cruisers can have more Missiles]",
 			"All newly-trained [Fighter] units [in all cities] receive the [Sortie] promotion",
             "Only available <before adopting [Autocracy]>"
         ],
