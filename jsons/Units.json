@@ -949,7 +949,7 @@
 		"range": 4,
 		"strength": 110,
 		"rangedStrength": 110,
-		"cost": 10000,
+		"cost": 12000,
 		"requiredTech": "Clean Energy",
 		"requiredResource": "Oil",
 		"uniques": [
@@ -1316,7 +1316,7 @@
 			"Cyber",
 			"Consumes [2] [Iron]",
 			"Can carry [4] [Aircraft] units",
-			"Limited to [4] per Civilization",
+			"Unavailable <for [AI player] Civilizations> <hidden from users>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
@@ -1331,7 +1331,7 @@
 		"rangedStrength": 100,
 		"range": 4,
 		"interceptRange": 4,
-		"cost": 6000,
+		"cost": 8000,
 		"requiredTech": "Artificial Intelligence",
 		"uniques": [
 			"[+900]% maintenance costs",
