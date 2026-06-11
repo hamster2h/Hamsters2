@@ -1166,6 +1166,13 @@ ResourceIcons/Composites
   orig: 100, 100
   offset: 0, 0
   index: -1
+ResourceIcons/Stealth Composites
+  rotate: false
+  xy: 1376, 1944
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ResourceIcons/Corporation Slot
   rotate: false
   xy: 1376, 1836
