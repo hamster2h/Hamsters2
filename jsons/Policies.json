@@ -463,11 +463,11 @@
                 "name": "Commerce Complete",
                 "uniques": [
 					"[+1 Production] from all [Gold] buildings",
-                    "[+2 Gold] from every [Trading post]",
-					"[+4 Production, +2 Gold] from every [Industry]",
-					"[+5 Food, +5 Science] from every [Supply Route]",
+                    "[+1 Gold] from every [Trading post]",
+					"[+2 Production, +1 Gold] from every [Industry]",
+					"[+2 Food, +2 Science] from every [Supply Route]",
 					"[+4 Culture, +1 Gold, +1 Happiness] from every [Concert Venue]",
-					"[+1 Culture, +1 Production, +2 Gold] from every [Resort]",
+					"[+1 Culture, +1 Production] from every [Resort]",
                     "May buy [Great Merchant] units for [800] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([400])",
                     "Get the leader title of [Doge [leaderName]]"
                 ]
@@ -548,6 +548,7 @@
             {
                 "name": "Rationalism Complete",
                 "uniques": [
+					"[-25]% [Gold] [in all cities]",
 					"[2] Free Technologies",
 					"Gain a free [Research Lab] [in all cities]",
                     "May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500])",
