@@ -2245,7 +2245,7 @@ UnitIcons/Tactical Nuke
   index: -1
 UnitIcons/Orbital Missile
   rotate: false
-  xy: 1420, 450
+  xy: 1419, 450
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -2280,7 +2280,7 @@ UnitIcons/SS Missile
   index: -1
 UnitIcons/SSLR Missile
   rotate: false
-  xy: 669, 450
+  xy: 1533, 450
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
