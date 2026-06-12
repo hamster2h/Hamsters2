@@ -1054,9 +1054,9 @@
 		"uniques": [
 			"Provides [4] [Tourism Stock]",
 			"Comment [Doubles the adjacency bonuses of Concert Venue tiles]",
-			"[+100]% Yield from every [Excavation Site]",
 			"[+100]% Yield from every [City ruins]",
-			"[+100]% [Culture] from every [History Museum]"
+			"[+50]% Yield from every [Excavation Site]",
+			"[+1 Culture] from all [Culture] buildings"
 		]
 	},
 	{
@@ -1093,7 +1093,7 @@
 			"Provides [4] [World Delivery Stock]",
 			"[+4 Gold, +2 Production, +2 Food] from each Trade Route",
 			"Comment [Doubles the adjacency bonuses of Industry tiles]",
-			"[+100]% Yield from every [Supply Route]"
+			"[+50]% Yield from every [Supply Route]"
 		]
 	},
 	{
@@ -1612,6 +1612,7 @@
 	{
 		"name": "Research Lab",
 		"science": 4,
+		"maintenance": 5,
 		"percentStatBonus": {
 			"science": 25
 		},
@@ -1619,7 +1620,6 @@
 			"Scientist": 1
 		},
 		"requiredBuilding": "Public School",
-		"maintenance": 5,
 		"requiredTech": "Plastics",
 		"uniques": [
 			"Consumes [1] [Power]"
@@ -1629,6 +1629,7 @@
 		"name": "Factory",
 		"cost": 420,
 		"production": 2,
+		"maintenance": 4,
 		"percentStatBonus": {
 			"production": 10
 		},
@@ -1636,8 +1637,6 @@
 			"Engineer": 2
 		},
 		"requiredBuilding": "Workshop",
-		"maintenance": 4,
-		"hurryCostModifier": 0,
 		"requiredTech": "Industrialization",
 		"uniques": [
 			"[+10]% [Production] [in this city] <with [Power]>"
@@ -1646,9 +1645,8 @@
 	{
 		"name": "Hospital",
 		"food": 3,
-		"requiredBuilding": "Aqueduct",
 		"maintenance": 10,
-		"hurryCostModifier": 0,
+		"requiredBuilding": "Aqueduct",
 		"requiredTech": "Biology",
 		"uniques": [
 			"[+5]% [Food] [in this city] <with [Power]>"
@@ -1678,11 +1676,10 @@
 			"Artist": 2
 		},
 		"requiredBuilding": "Opera House",
+		"requiredTech": "Archaeology",
 		"uniques": [
 			"Destroyed when the city is captured"
-		],
-		"hurryCostModifier": 0,
-		"requiredTech": "Archaeology"
+		]
 	},
 	{
 		"name": "History Museum",
@@ -1705,11 +1702,11 @@
 	{
 		"name": "Broadcast Tower",
 		"culture": 3,
+		"maintenance": 3,
 		"percentStatBonus": {
 			"culture": 25
 		},
 		"requiredBuilding": "Museum",
-		"maintenance": 3,
 		"requiredTech": "Radio",
 		"uniques": [
 			"Consumes [1] [Power]",
@@ -1728,19 +1725,18 @@
 			"culture": 10
 		},
 		"requiredBuilding": "Broadcast Tower",
+		"requiredTech": "Globalization",
 		"uniques": [
 			"Consumes [2] [Power]",
 			"Destroyed when the city is captured"
-		],
-		"hurryCostModifier": 0,
-		"requiredTech": "Globalization"
+		]
 	},
 	{
 		"name": "Medical Lab",
-		"requiredBuilding": "Hospital",
-		"requiredTech": "Pharmaceuticals",
 		"maintenance": 3,
 		"cost": 500,
+		"requiredBuilding": "Hospital",
+		"requiredTech": "Pharmaceuticals",
 		"uniques": [
 			"[+1 Food] from every specialist [in this city]",
 			"[10]% Food is carried over after population increases [in this city]",
@@ -1752,7 +1748,7 @@
 		"cost": 600,
 		"uniques": [
 			"Only available <if [AP-World Tour] is constructed>",
-			"[+6 Culture, +2 Gold] from [Concert Venue] tiles [in this city]",
+			"[+3 Culture, +1 Gold] from [Concert Venue] tiles [in this city]",
 			"Must have an owned [Concert Venue] within [3] tiles"
 		]
 	},
@@ -1760,14 +1756,13 @@
 		"name": "Hydro Plant",
 		"cost": 360,
 		"requiredTech": "Electricity",
-		"hurryCostModifier": 0,
 		"maintenance": 3,
 		"uniques": [
 			"Must be on [River]",
 			"Provides [3] [Power]",
 			"Provides [3] [Power] <after discovering [Clean Energy]>",
-			"[+1 Production] from [River] tiles [in this city]",
-			"Provides [3] [Power] <if [Electrical Corporation] is constructed>"
+			"Provides [3] [Power] <if [Electrical Corporation] is constructed>",
+			"[+1 Production] from [River] tiles [in this city]"
 		]
 	},
 	{
@@ -1779,7 +1774,7 @@
 			"Provides [4] [Power]",
 			"Provides [1] [Power] <after discovering [Clean Energy]>",
 			"Provides [1] [Power] <if [Electrical Corporation] is constructed>",
-			"Must have an owned [Power Plant] within [3] tiles",
+			"Must have an owned [Power Plant] within [4] tiles",
 			"Destroyed when the city is captured"
 		]
 	},
@@ -1883,8 +1878,8 @@
 		"name": "Stadium",
 		"happiness": 4,
 		"cost": 500,
-		"requiredTech": "Refrigeration",
 		"maintenance": 6,
+		"requiredTech": "Refrigeration",
 		"uniques": [
 			"Consumes [2] [Power]",
 			"[+1 Happiness] per [8] population [in this city]"
@@ -1937,14 +1932,13 @@
 			"food": 10
 		},
 		"cost": 1000,
-		"hurryCostModifier": 15,
 		"uniques": [
 			"Consumes [1] [Power]",
 			"Only available <if [EP-Genetic Engineering] is constructed>",
 			"Provides [1] [Composites]",
-			"[10]% Food is carried over after population increases [in this city]",
 			"Destroyed when the city is captured"
-		]
+		],
+		"hurryCostModifier": 15
 	},
 	{
 		"name": "Nano-Factory",
@@ -1952,15 +1946,15 @@
 		"percentStatBonus": {
 			"production": 25
 		},
-		"requiredBuilding": "Factory",
 		"maintenance": 6,
-		"hurryCostModifier": 0,
 		"requiredTech": "Nanotechnology",
+		"requiredBuilding": "Factory",
 		"uniques": [
 			"Consumes [4] [Power]",
 			"Provides [1] [Composites]",
 			"Destroyed when the city is captured"
-		]
+		],
+		"hurryCostModifier": 0
 	},
 	{
 		"name": "Composite Factory",
@@ -2018,9 +2012,9 @@
 	{
 		"name": "Energy Barrier",
 		"cost": 3000,
-		"cityStrength": 12,
-		"cityHealth": 75,
-		"maintenance": 6,
+		"cityStrength": 24,
+		"cityHealth": 150,
+		"maintenance": 12,
 		"uniques": [
 			"Consumes [12] [Power]",
 			"Only available <if [SP-Future Power] is constructed>",
@@ -2150,8 +2144,8 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Modern Perk]",
-			"[+2 Gold] from [Strategic resource] tiles [in all cities]",
-			"[+4 Science] from [Supply Route] tiles [in all cities]",
+			"[+1 Gold] from [Strategic resource] tiles [in all cities]",
+			"[+2 Science] from [Supply Route] tiles [in all cities]",
 			"Only available <starting from the [Modern era]>",
 			"Consumes [1] [Scientist Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
@@ -2163,8 +2157,8 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Modern Perk]",
-			"[+2 Production] from [Luxury resource] tiles [in all cities]",
-			"[+4 Science] from [Industry] tiles [in all cities]",
+			"[+1 Production] from [Luxury resource] tiles [in all cities]",
+			"[+2 Science] from [Industry] tiles [in all cities]",
 			"Only available <starting from the [Modern era]>",
 			"Consumes [1] [Scientist Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
@@ -2189,10 +2183,10 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Atomic Perk]",
-			"[+25]% Production when constructing [Nuclear Submarine] units [in all cities]",
-			"[+100]% Production when constructing [Tactical Nuke] units [in all cities]",
-			"[+100]% Production when constructing [Nuclear Missile] units [in all cities]",
-			"[+100]% Production when constructing [Orbital Strike] units [in all cities]",
+			"[+10]% Production when constructing [Nuclear Submarine] units [in all cities]",
+			"[+25]% Production when constructing [Tactical Nuke] units [in all cities]",
+			"[+25]% Production when constructing [Nuclear Missile] units [in all cities]",
+			"[+25]% Production when constructing [Orbital Strike] units [in all cities]",
 			"[Gold] cost of purchasing [Missile] units [-10]%",
 			"[Gold] cost of purchasing [Big Missile] units [-10]%",
 			"Only available <starting from the [Atomic era]>",
@@ -2206,7 +2200,6 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Information Perk]",
-			"[+1 Food] from every [Great Improvement]",
 			"[+5]% [Food] from every [Hospital]",
 			"[+5]% [Food] from every [Medical Lab]",
 			"Only available <starting from the [Information era]>",
@@ -2261,7 +2254,7 @@
 			"[+100]% Production when constructing [Archaeologist] units [in all cities]",
 			"[Gold] cost of purchasing [Archaeologist] units [-25]%",
 			"[+1 Culture] from every [Wonder]",
-			"[+5 Culture] from every [Museum]",
+			"[+4 Culture] from every [Museum]",
 			"Only available <starting from the [Industrial era]>",
 			"Consumes [1] [Artist Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
@@ -2301,7 +2294,7 @@
 			"Comment [Modern Perk]",
 			"[+10]% Production when constructing [Musician] units [in all cities]",
 			"[Gold] cost of purchasing [Musician] units [-10]%",
-			"[+4 Culture] from every [Public School]",
+			"[+2 Culture] from every [Public School]",
 			"Only available <starting from the [Modern era]>",
 			"Consumes [1] [Artist Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
@@ -2314,7 +2307,7 @@
 		"uniques": [
 			"Comment [Atomic Perk]",
 			"Comment [Enables construction of International Pass]",
-			"[+200]% Yield from every [Concert Venue]",
+			"[+100]% Yield from every [Concert Venue]",
 			"Only available <starting from the [Atomic era]>",
 			"Consumes [2] [Artist Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
@@ -2351,7 +2344,7 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Information Perk]",
-			"[+2 Happiness, +4 Gold] from [Concert Venue] tiles [in all cities]",
+			"[+1 Happiness, +2 Gold] from [Concert Venue] tiles [in all cities]",
 			"[+2 Faith, +1 Happiness] from all [Culture] buildings",
 			"[10]% of excess happiness converted to [Culture]",
 			"Only available <starting from the [Information era]>",
@@ -2380,7 +2373,6 @@
 			"Comment [Information Perk]",
 			"[+2 Culture] from every specialist [in all cities]",
 			"New [Air] units start with [15] XP [in all cities]",
-			"All newly-trained [relevant] units [in all cities] receive the [Extended Range] promotion",
 			"Only available <starting from the [Future era]>",
 			"Consumes [2] [Artist Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
@@ -2444,8 +2436,7 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Atomic Perk]",
-			"[+7 Happiness] [in all cities]",
-			"Gain a free [Recycling Center] [in all cities]",
+			"[+6 Happiness, +2 Gold] from every [Recycling Center]",
 			"Only available <starting from the [Atomic era]>",
 			"Consumes [1] [Engineer Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
@@ -2527,7 +2518,7 @@
 			"[+50]% Production when constructing [Settler] units [in all cities]",
 			"[Gold] cost of purchasing [Settler] units [-25]%",
 			"[-50]% Gold cost of acquiring tiles [in all cities]",
-			"Only available <starting from the [Industrial era]>",
+			"Only available <during the [Industrial era]>",
 			"Consumes [1] [Merchant Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
@@ -2567,9 +2558,9 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Modern Perk]",
-			"[+5]% [Gold] from every [Colosseum]",
-			"[+5]% [Gold] from every [Theatre]",
-			"[+5]% [Gold] from every [Stadium]",
+			"[+2 Gold] from every [Colosseum]",
+			"[+2 Gold] from every [Theatre]",
+			"[+2 Gold] from every [Stadium]",
 			"Only available <starting from the [Modern era]>",
 			"Consumes [1] [Merchant Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
@@ -2583,7 +2574,7 @@
 			"Comment [Atomic Perk]",
 			"Comment [Enables construction of [Branch Office]]",
 			"[+25]% Production when constructing [Corporate] units [in all cities]",
-			"[Gold] cost of purchasing [Corporate] units [-25]%",
+			"[Gold] cost of purchasing [Corporate] units [-10]%",
 			"Only available <starting from the [Atomic era]>",
 			"Consumes [1] [Merchant Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
@@ -2635,8 +2626,8 @@
 		"uniques": [
 			"Comment [Future Perk]",
 			"Comment [Enables construction of [Adaptive Base]]",
-			"[+2 Food, +1 Gold] from every [Coast]",
-			"[+2 Food, +1 Gold] from every [Ocean]",
+			"[+2 Food, -1 Gold] from every [Coast]",
+			"[+2 Food, -1 Gold] from every [Ocean]",
 			"Only available <starting from the [Future era]>",
 			"Consumes [2] [Merchant Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
@@ -2687,8 +2678,8 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Modern Perk]",
-			"[+2 Gold] from every [Shrine]",
-			"[+4 Gold] from every [Temple]",
+			"[+1 Gold] from every [Shrine]",
+			"[+2 Gold] from every [Temple]",
 			"Only available <starting from the [Modern era]>",
 			"Consumes [1] [Prophet Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
@@ -2922,6 +2913,8 @@
 			"All newly-trained [Stealth Helicopter] units [in all cities] receive the [Energy Weapons] promotion",
 			"All newly-trained [Battleship] units [in all cities] receive the [Energy Weapons] promotion",
 			"All newly-trained [Missile Cruiser] units [in all cities] receive the [Energy Weapons] promotion",
+			"All newly-trained [Orbital Fighter] units [in all cities] receive the [Energy Weapons] promotion",
+			"All newly-trained [Orbital Bomber] units [in all cities] receive the [Energy Weapons] promotion",
 			"All newly-trained [Missile] units [in all cities] receive the [Energy Weapons] promotion",
 			"All newly-trained [Big Missile] units [in all cities] receive the [Energy Weapons] promotion",
 			"Only available <starting from the [Future era]>",
