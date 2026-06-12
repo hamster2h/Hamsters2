@@ -12,16 +12,16 @@
         "[-20]% [Gold] [in all cities]",
 
         "[-1 Happiness] [in all cities] <when at war>",
-        "[-1 Happiness] per [3] population [in all cities] <when at war>",
+        "[-1 Happiness] per [3] population [in all cities] <when at war>"
         
-        "[+1 Gold] per every [500] [Gold] <after discovering [Banking]>",
-        "[+1 Gold] per every [1000] [Gold] <after discovering [Economics]>",
+        //"[+1 Gold] per every [500] [Gold] <after discovering [Banking]>",
+        //"[+1 Gold] per every [1000] [Gold] <after discovering [Economics]>",
         
-        "[+4]% [Gold] [in all cities] <during a Golden Age> <starting from the [Industrial era]>",
-        "[+4]% [Gold] [in all cities] <during a Golden Age> <starting from the [Modern era]>",
-        "[+4]% [Gold] [in all cities] <during a Golden Age> <starting from the [Atomic era]>",
-        "[+4]% [Gold] [in all cities] <during a Golden Age> <starting from the [Information era]>",
-        "[+4]% [Gold] [in all cities] <during a Golden Age> <starting from the [Future era]>",
-        "[+4]% [Gold] [in all cities] <during a Golden Age> <starting from the [Beyond the Future]>"
+        //"[+4]% [Gold] [in all cities] <during a Golden Age> <starting from the [Industrial era]>",
+        //"[+4]% [Gold] [in all cities] <during a Golden Age> <starting from the [Modern era]>",
+        //"[+4]% [Gold] [in all cities] <during a Golden Age> <starting from the [Atomic era]>",
+        //"[+4]% [Gold] [in all cities] <during a Golden Age> <starting from the [Information era]>",
+        //"[+4]% [Gold] [in all cities] <during a Golden Age> <starting from the [Future era]>",
+        //"[+4]% [Gold] [in all cities] <during a Golden Age> <starting from the [Beyond the Future]>"
     ]
 }
