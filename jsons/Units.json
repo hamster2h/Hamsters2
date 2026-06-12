@@ -1320,7 +1320,7 @@
 		]
 	},
 	{
-		"name": "AM Missile",
+		"name": "AM Missiles",
 		"unitType": "Missile",
 		"movement": 1,
 		"strength": 100,
