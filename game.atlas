@@ -2259,7 +2259,7 @@ UnitIcons/AM Missiles
   index: -1
 UnitIcons/Stealth Missile
   rotate: false
-  xy: 1190, 453
+  xy: 1188, 452
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
