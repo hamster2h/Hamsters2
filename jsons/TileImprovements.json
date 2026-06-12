@@ -501,8 +501,8 @@
 		"terrainsCanBeBuiltOn": [
 			"Land"
 		],
-		"gold": 6,
-		"production": 4,
+		"gold": 5,
+		"production": 3,
 		"uniques": [
 			"[+4 Happiness, +2 Production] <in [Luxury resource] tiles>",
 			"Removes removable features when built",
@@ -531,7 +531,7 @@
 		],
 		"production": 1,
 		"uniques": [
-			"Provides [2] [Power]",
+			"Provides [6] [Power]",
 			"Comment [Infrastructure]",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+100 Gold]",
@@ -546,8 +546,8 @@
 		"food": 1,
 		"gold": 1,
 		"uniques": [
-			"[+5 Food, +5 Gold] <in [Strategic resource] tiles>",
-			"[+5 Food, +5 Gold] <in [Bonus resource] tiles>",
+			"[+4 Food, +4 Gold] <in [Strategic resource] tiles>",
+			"[+4 Food, +4 Gold] <in [Bonus resource] tiles>",
 			"Removes removable features when built",
 			"[+2 Food, +1 Gold] <within [1] tiles of a [Water Tower]>",
 			"[+2 Food, +1 Gold] <within [1] tiles of a [Water Tower]> <after adopting [Safety Checks]>",
@@ -785,7 +785,7 @@
 			"Hill"
 		],
 		"food": 3,
-		"turnsToBuild": 7,
+		"turnsToBuild": 5,
 		"uniques": [
 			"Cannot be built on [Bonus resource] tiles",
 			"[+1 Food] for each adjacent [Mountain]",
@@ -811,7 +811,7 @@
 			"Marsh",
 			"Flood plains"
 		],
-		"turnsToBuild": 7,
+		"turnsToBuild": 5,
 		"uniques": [
 			"[+1 Production, +2 Gold] <after discovering [Economics]>",
 			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
