@@ -51,7 +51,7 @@
 		]
 	},
 	{
-		"name": "Break Ice",
+		"name": "Remove Ice",
 		"terrainsCanBeBuiltOn": [
 			"Ice"
 		],
