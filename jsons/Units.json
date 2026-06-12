@@ -1427,16 +1427,14 @@
 		"name": "Orbital Missile",
 		"unitType": "Big Missile",
 		"movement": 1,
-		"strength": 160,
-		"rangedStrength": 160,
+		"strength": 120,
+		"rangedStrength": 120,
 		"range": 200,
 		"cost": 8000,
 		"requiredTech": "Spaceflight",
-		"requiredResource": "SM Composites",
 		"uniques": [
 			"Space",
-			"[-100]% maintenance costs",
-			"Cannot be intercepted"
+			"[-100]% maintenance costs"
 		],
 		"attackSound": "missile"
 	},
