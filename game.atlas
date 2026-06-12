@@ -2280,7 +2280,7 @@ UnitIcons/SS Missile
   index: -1
 UnitIcons/SSLR Missile
   rotate: false
-  xy: 1532, 450
+  xy: 1534, 450
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
