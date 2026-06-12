@@ -2245,14 +2245,14 @@ UnitIcons/Tactical Nuke
   index: -1
 UnitIcons/Orbital Missile
   rotate: false
-  xy: 669, 450
+  xy: 1450, 450
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/AM Missiles
   rotate: false
-  xy: 1649, 450
+  xy: 1648, 450
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
