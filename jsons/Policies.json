@@ -802,11 +802,11 @@
 		"name": "Digitalization",
 		"era": "Atomic era",
 		"uniques": [
-			"[+100]% Yield from every [Water Tower]",
-			"[+100]% Yield from every [Industrial Complex]",
-			"[+100]% Yield from every [Residential]",
-			"[+100]% Yield from every [Supply Route]",
-			"[+100]% Yield from every [Power Plant]"
+			"[+50]% Yield from every [Water Tower]",
+			"[+50]% Yield from every [Industrial Complex]",
+			"[+50]% Yield from every [Residential]",
+			"[+50]% Yield from every [Supply Route]",
+			"[+50]% Yield from every [Power Plant]"
 		],
 		"priorities": {
 			"Neutral": 50,
@@ -820,7 +820,7 @@
 				"name": "Cryptography",
 				"uniques": [
 					"[Great Scientist] is earned [100]% faster",
-					"[+2 Gold] from all [Science] buildings",
+					"[+1 Gold] from all [Science] buildings",
 					"Gain an extra spy"
 				],
 				"requires": [
@@ -846,7 +846,7 @@
 				"name": "Talent Agencies",
 				"uniques": [
 					"Comment [Doubles the adjacency bonuses of Concert Venue tiles]",
-					"[+100]% Yield from every [Concert Venue]",
+					"[+50]% Yield from every [Concert Venue]",
 					"Free [Musician] appears"
 				],
 				"requires": [
@@ -860,7 +860,7 @@
 				"uniques": [
 					"[+25]% Production when constructing [Cyber] units [in all cities]",
 					"[25]% of excess happiness converted to [Gold]",
-					"[+2 Production] from all [Food] buildings"
+					"[+1 Production] from all [Food] buildings"
 				],
 				"requires": [
 					"Startups"
@@ -872,7 +872,7 @@
 				"name": "Safety Checks",
 				"uniques": [
 					"Comment [Doubles the adjacency bonuses of Infrastructure tiles]",
-					"[+100]% Yield from every [Industry]",
+					"[+50]% Yield from every [Industry]",
 					"[+1] Movement <for [Civilian] units>"
 				],
 				"requires": [
