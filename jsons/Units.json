@@ -1179,7 +1179,6 @@
 		"requiredResource": "Oil",
 		"uniques": [
 			"Consumes [2] [Iron]",
-			"Consumes [4] [Composites] <after discovering [Nuclear Fusion]>",
 			"Can carry [2] [Missile] units",
 			"Can carry [2] extra [Missile] units <after adopting [Order]>",
 			"[75]% chance to intercept air attacks <after discovering [Ballistics]>",
