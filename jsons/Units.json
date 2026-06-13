@@ -1320,6 +1320,33 @@
 		]
 	},
 	{
+		"name": "Nuclear Carrier",
+		"uniqueTo": "America",
+		"replaces": "Carrier",
+		"unitType": "Aircraft Carrier",
+		"movement": 7,
+		"strength": 80,
+		"cost": 7000,
+		"requiredTech": "Nuclear Fission",
+		"requiredResource": "Uranium",
+		"uniques": [
+			"Cyber",
+			"Consumes [4] [Iron]",
+			"Can carry [8] [Aircraft] units",
+			"[+2] Sight",
+			"Can see invisible [All] units",
+			"Double movement in [Ocean]",
+			"Unavailable <for [AI player] Civilizations> <hidden from users>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Medic",
+			"Medic II",
+			"Armor Plating I",
+			"Supply"
+		]
+	},
+	{
 		"name": "AM Missiles",
 		"unitType": "Missile",
 		"movement": 1,
