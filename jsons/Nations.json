@@ -1423,7 +1423,7 @@
         "adjective": ["Norwegian"],
         "startBias": [
 			"Coast",
-			"Tundra"
+			"Ice"
 		],
         "preferredVictoryType": "Domination",
         "personality": "Harald Hardrada",
@@ -1736,8 +1736,8 @@
         "leaderName": "Pocatello",
         "adjective": ["Shoshone"],
         "startBias": [
-			"Avoid [Coast]",
-			"Forest"
+			"Forest",
+			"Avoid [Coast]"
 		],
         "preferredVictoryType": "Diplomatic",
         "personality": "Pocatello",
