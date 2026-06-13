@@ -1325,7 +1325,7 @@
 		"replaces": "Carrier",
 		"unitType": "Aircraft Carrier",
 		"movement": 7,
-		"strength": 80,
+		"strength": 90,
 		"cost": 7000,
 		"requiredTech": "Nuclear Fission",
 		"requiredResource": "Uranium",
