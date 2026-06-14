@@ -1785,6 +1785,9 @@
 			"[+200]% Strength <vs [Bomber] units>",
 			"[+200]% Strength <vs [Helicopter] units>"
 		],
+		"promotions": [
+			"Evasion"
+		],
 		"attackSound": "jetgun"
 	},
 	{
