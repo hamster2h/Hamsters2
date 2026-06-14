@@ -2208,7 +2208,7 @@ UnitIcons/Observation Balloon
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Orbital Bomber
+UnitIcons/Aurora Bomber
   rotate: false
   xy: 328, 788
   size: 100, 100
@@ -2229,7 +2229,14 @@ UnitIcons/Nuclear Carrier
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Orbital Fighter
+UnitIcons/Stealth Fighter
+  rotate: false
+  xy: 880, 552
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Hypersonic Fighter
   rotate: false
   xy: 328, 572
   size: 100, 100
