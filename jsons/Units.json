@@ -1835,7 +1835,8 @@
 		],
 		"promotions": [
 			"Heat Sensor",
-			"Evasion"
+			"Evasion",
+			"Air Repair"
 		],
 		"attackSound": "jetgun"
 	},
