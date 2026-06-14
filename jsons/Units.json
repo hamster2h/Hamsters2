@@ -1596,7 +1596,7 @@
 	{
 		"name": "Jet Bomber",
 		"unitType": "Bomber",
-		"movement": 2,
+		"movement": 1,
 		"strength": 100,
 		"rangedStrength": 100,
 		"range": 14,
@@ -1614,7 +1614,7 @@
 	{
 		"name": "Stealth Bomber",
 		"unitType": "Bomber",
-		"movement": 2,
+		"movement": 1,
 		"strength": 110,
 		"rangedStrength": 110,
 		"range": 14,
@@ -1634,9 +1634,9 @@
 		"attackSound": "bombing"
 	},
 	{
-		"name": "Aurora Bomber",
+		"name": "Aurora",
 		"unitType": "Bomber",
-		"movement": 2,
+		"movement": 1,
 		"strength": 160,
 		"rangedStrength": 160,
 		"range": 18,
@@ -1791,9 +1791,9 @@
 		"attackSound": "jetgun"
 	},
 	{
-		"name": "Hypersonic Fighter",
+		"name": "Darkstar",
 		"unitType": "Fighter",
-		"movement": 2,
+		"movement": 1,
 		"strength": 110,
 		"rangedStrength": 110,
 		"range": 16,
@@ -1806,6 +1806,30 @@
 			"Space",
 			"Consumes [2] [Composites]",
 			"[99]% chance to intercept air attacks",
+			"[+200]% Strength <vs [Bomber] units>",
+			"[+200]% Strength <vs [Helicopter] units>"
+		],
+		"promotions": [
+			"Heat Sensor",
+			"Evasion"
+		],
+		"attackSound": "jetgun"
+	},
+	{
+		"name": "Raven",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 140,
+		"rangedStrength": 140,
+		"range": 12,
+		"interceptRange": 12,
+		"cost": 19000,
+		"requiredTech": "Particle Physics",
+		"requiredResource": "Oil",
+		"uniques": [
+			"Cyber",
+			"Consumes [2] [Composites]",
+			"[100]% chance to intercept air attacks",
 			"[+200]% Strength <vs [Bomber] units>",
 			"[+200]% Strength <vs [Helicopter] units>"
 		],
