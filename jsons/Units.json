@@ -1620,7 +1620,7 @@
 		"range": 14,
 		"cost": 9000,
 		"requiredTech": "Stealth",
-		"upgradesTo": "Aurora",
+		"upgradesTo": "Aurora Bomber",
 		"obsoleteTech": "Spaceflight",
 		"requiredResource": "Oil",
 		"uniques": [
@@ -1634,7 +1634,7 @@
 		"attackSound": "bombing"
 	},
 	{
-		"name": "Aurora",
+		"name": "Aurora Bomber",
 		"unitType": "Bomber",
 		"movement": 1,
 		"strength": 160,
@@ -1775,7 +1775,7 @@
 		"interceptRange": 12,
 		"cost": 8000,
 		"requiredTech": "Stealth",
-		"upgradesTo": "Darkstar",
+		"upgradesTo": "Hypersonic Fighter",
 		"obsoleteTech": "Spaceflight",
 		"requiredResource": "Oil",
 		"uniques": [
@@ -1791,7 +1791,7 @@
 		"attackSound": "jetgun"
 	},
 	{
-		"name": "Darkstar",
+		"name": "Hypersonic Fighter",
 		"unitType": "Fighter",
 		"movement": 1,
 		"strength": 110,
@@ -1800,12 +1800,14 @@
 		"interceptRange": 16,
 		"cost": 19000,
 		"requiredTech": "Spaceflight",
+		"upgradesTo": "Raven",
+		"obsoleteTech": "Particle Physics",
 		"requiredResource": "Oil",
 		"uniques": [
 			"Cyber",
 			"Space",
 			"Consumes [2] [Composites]",
-			"[99]% chance to intercept air attacks",
+			"[98]% chance to intercept air attacks",
 			"[+200]% Strength <vs [Bomber] units>",
 			"[+200]% Strength <vs [Helicopter] units>"
 		],
@@ -1829,7 +1831,7 @@
 		"uniques": [
 			"Cyber",
 			"Consumes [2] [Composites]",
-			"[100]% chance to intercept air attacks",
+			"[98]% chance to intercept air attacks",
 			"[+200]% Strength <vs [Bomber] units>",
 			"[+200]% Strength <vs [Helicopter] units>"
 		],
