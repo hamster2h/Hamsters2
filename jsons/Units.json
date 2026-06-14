@@ -1620,7 +1620,7 @@
 		"range": 14,
 		"cost": 9000,
 		"requiredTech": "Stealth",
-		"upgradesTo": "Aurora Bomber",
+		"upgradesTo": "Aurora",
 		"obsoleteTech": "Spaceflight",
 		"requiredResource": "Oil",
 		"uniques": [
@@ -1775,7 +1775,7 @@
 		"interceptRange": 12,
 		"cost": 8000,
 		"requiredTech": "Stealth",
-		"upgradesTo": "Hypersonic Fighter",
+		"upgradesTo": "Darkstar",
 		"obsoleteTech": "Spaceflight",
 		"requiredResource": "Oil",
 		"uniques": [
