@@ -1651,9 +1651,6 @@
 			"Nuclear weapon of Strength [1]",
 			"Blast radius [1]"
 		],
-		"promotions": [
-			"Evasion"
-		],
 		"attackSound": "bombing"
 	},
 	{
