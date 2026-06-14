@@ -1620,7 +1620,7 @@
 		"range": 14,
 		"cost": 9000,
 		"requiredTech": "Stealth",
-		"upgradesTo": "Orbital Bomber",
+		"upgradesTo": "Aurora Bomber",
 		"obsoleteTech": "Spaceflight",
 		"requiredResource": "Oil",
 		"uniques": [
@@ -1634,19 +1634,22 @@
 		"attackSound": "bombing"
 	},
 	{
-		"name": "Orbital Bomber",
+		"name": "Aurora Bomber",
 		"unitType": "Bomber",
 		"movement": 2,
-		"strength": 140,
-		"rangedStrength": 140,
-		"range": 200,
+		"strength": 160,
+		"rangedStrength": 160,
+		"range": 18,
 		"cost": 15000,
 		"requiredTech": "Spaceflight",
 		"requiredResource": "Oil",
 		"uniques": [
 			"Cyber",
 			"Space",
-			"Consumes [4] [Composites]"
+			"Consumes [1] [Uranium]",
+			"Consumes [6] [Composites]",
+			"Nuclear weapon of Strength [1]",
+			"Blast radius [1]"
 		],
 		"promotions": [
 			"Evasion"
@@ -1750,7 +1753,7 @@
 		"interceptRange": 10,
 		"cost": 5000,
 		"requiredTech": "Computers",
-		"upgradesTo": "Orbital Fighter",
+		"upgradesTo": "Stealth Fighter",
 		"obsoleteTech": "Spaceflight",
 		"requiredResource": "Oil",
 		"uniques": [
@@ -1763,13 +1766,35 @@
 		"attackSound": "jetgun"
 	},
 	{
-		"name": "Orbital Fighter",
+		"name": "Stealth Fighter",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 90,
+		"rangedStrength": 90,
+		"range": 12,
+		"interceptRange": 12,
+		"cost": 8000,
+		"requiredTech": "Stealth",
+		"upgradesTo": "Hypersonic Fighter",
+		"obsoleteTech": "Spaceflight",
+		"requiredResource": "Oil",
+		"uniques": [
+			"Cyber",
+			"Consumes [1] [Aluminum]",
+			"[98]% chance to intercept air attacks",
+			"[+200]% Strength <vs [Bomber] units>",
+			"[+200]% Strength <vs [Helicopter] units>"
+		],
+		"attackSound": "jetgun"
+	},
+	{
+		"name": "Hypersonic Fighter",
 		"unitType": "Fighter",
 		"movement": 2,
 		"strength": 110,
 		"rangedStrength": 110,
-		"range": 200,
-		"interceptRange": 200,
+		"range": 16,
+		"interceptRange": 16,
 		"cost": 19000,
 		"requiredTech": "Spaceflight",
 		"requiredResource": "Oil",
@@ -1777,7 +1802,7 @@
 			"Cyber",
 			"Space",
 			"Consumes [2] [Composites]",
-			"[95]% chance to intercept air attacks",
+			"[99]% chance to intercept air attacks",
 			"[+200]% Strength <vs [Bomber] units>",
 			"[+200]% Strength <vs [Helicopter] units>"
 		],
