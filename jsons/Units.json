@@ -1649,8 +1649,10 @@
 			"Consumes [1] [Uranium]",
 			"Consumes [6] [Composites]",
 			"Nuclear weapon of Strength [1]",
-			"Blast radius [1]",
-			"[1] additional attacks per turn"
+			"Blast radius [1]"
+		],
+		"promotions": [
+			"Evasion"
 		],
 		"attackSound": "nuke"
 	},
@@ -1808,7 +1810,8 @@
 			"[+200]% Strength <vs [Helicopter] units>"
 		],
 		"promotions": [
-			"Heat Sensor"
+			"Heat Sensor",
+			"Evasion"
 		],
 		"attackSound": "jetgun"
 	},
