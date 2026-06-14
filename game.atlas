@@ -2245,9 +2245,9 @@ UnitIcons/Darkstar
   index: -1
 UnitIcons/Raven
   rotate: false
-  xy: 940, 652
-  size: 110, 110
-  orig: 110, 110
+  xy: 937, 652
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Orbital Strike
