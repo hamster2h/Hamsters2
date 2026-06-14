@@ -2233,7 +2233,7 @@ UnitIcons/Stealth Fighter
   rotate: false
   xy: 792, 652
   size: 100, 100
-  orig: 80, 80
+  orig: 90, 50
   offset: 0, 0
   index: -1
 UnitIcons/Hypersonic Fighter
