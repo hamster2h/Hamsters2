@@ -1273,7 +1273,6 @@
 		"range": 3,
 		"cost": 3300,
 		"requiredTech": "Refrigeration",
-		"upgradesTo": "Nuclear Submarine",
 		"requiredResource": "Oil",
 		"uniques": [
 			"[+250]% Strength <when attacking>",
