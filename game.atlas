@@ -2231,7 +2231,7 @@ UnitIcons/Nuclear Carrier
   index: -1
 UnitIcons/Stealth Fighter
   rotate: false
-  xy: 780, 652
+  xy: 784, 650
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
