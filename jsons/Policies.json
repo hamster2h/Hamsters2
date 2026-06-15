@@ -944,8 +944,9 @@
 					"[+25]% Strength <for [Support] units> <when defending>",
 					"Comment [Doubles the Healing bonus from Medics and Tactical Supplier units]",
 					"[+1] Movement <for [Armored] units>",
-					"[+10]% Strength <for [Ranged Water] units>",
+					"[+25]% Strength <for [Water] units>",
 					"[+2] Range <for [Fighter] units>",
+					"[+2] Air Interception Range <for [Fighter] units>",
 					"[+2] Range <for [Bomber] units>",
 					"[+2] Range <for [Atomic Bomber] units>"
 				],
