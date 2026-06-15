@@ -215,8 +215,8 @@
 			"Damage taken from interception reduced by [50]%",
 			"[+200]% weight to this choice for AI decisions"
 		],
-        "column": 17,
-        "row": 4
+        "column": 30,
+        "row": 1
 	},
 	{
 		"name": "Indirect Fire",
