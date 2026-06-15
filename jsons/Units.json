@@ -1476,7 +1476,6 @@
 		"requiredTech": "Stealth",
 		"requiredResource": "Uranium",
 		"uniques": [
-			"Space",
 			"Consumes [1] [SM Composites]",
 			"Only available <if [Nuclear Testing Site] is constructed>",
 			"Nuclear weapon of Strength [1]",
@@ -1620,12 +1619,11 @@
 		"range": 15,
 		"cost": 9000,
 		"requiredTech": "Stealth",
-		"upgradesTo": "Aurora Bomber",
-		"obsoleteTech": "Spaceflight",
 		"requiredResource": "Oil",
 		"uniques": [
 			"Cyber",
 			"Consumes [2] [Aluminum]",
+			"[+25]% Strength <vs [Land] units>",
 			"Cannot be carried by [Carrier] units"
 		],
 		"promotions": [
@@ -1714,6 +1712,7 @@
 		"requiredResource": "Oil",
 		"uniques": [
 			"[75]% chance to intercept air attacks",
+			"[+25]% Strength <vs [Fighter] units>",
 			"[+150]% Strength <vs [Bomber] units>",
 			"[+100]% Strength <vs [Helicopter] units>"
 		],
@@ -1735,6 +1734,7 @@
 		"obsoleteTech": "Computers",
 		"uniques": [
 			"[80]% chance to intercept air attacks",
+			"[+25]% Strength <vs [Fighter] units>",
 			"[+150]% Strength <vs [Bomber] units>",
 			"[+100]% Strength <vs [Helicopter] units>"
 		],
@@ -1760,6 +1760,7 @@
 			"Cyber",
 			"Consumes [1] [Aluminum]",
 			"[95]% chance to intercept air attacks",
+			"[+50]% Strength <vs [Fighter] units>",
 			"[+200]% Strength <vs [Bomber] units>",
 			"[+200]% Strength <vs [Helicopter] units>"
 		],
@@ -1782,6 +1783,7 @@
 			"Cyber",
 			"Consumes [1] [Aluminum]",
 			"[98]% chance to intercept air attacks",
+			"[+100]% Strength <vs [Fighter] units>",
 			"[+200]% Strength <vs [Bomber] units>",
 			"[+200]% Strength <vs [Helicopter] units>"
 		],
@@ -1798,7 +1800,7 @@
 		"rangedStrength": 110,
 		"range": 16,
 		"interceptRange": 16,
-		"cost": 19000,
+		"cost": 11000,
 		"requiredTech": "Spaceflight",
 		"upgradesTo": "Raven Fighter",
 		"obsoleteTech": "Particle Physics",
@@ -1808,6 +1810,7 @@
 			"Space",
 			"Consumes [2] [Composites]",
 			"[98]% chance to intercept air attacks",
+			"[+100]% Strength <vs [Fighter] units>",
 			"[+200]% Strength <vs [Bomber] units>",
 			"[+200]% Strength <vs [Helicopter] units>"
 		],
@@ -1825,12 +1828,13 @@
 		"rangedStrength": 140,
 		"range": 14,
 		"interceptRange": 14,
-		"cost": 19000,
+		"cost": 15000,
 		"requiredTech": "Particle Physics",
 		"uniques": [
 			"Cyber",
 			"Consumes [2] [Composites]",
 			"[99]% chance to intercept air attacks",
+			"[+200]% Strength <vs [Fighter] units>",
 			"[+200]% Strength <vs [Bomber] units>",
 			"[+200]% Strength <vs [Helicopter] units>"
 		],
