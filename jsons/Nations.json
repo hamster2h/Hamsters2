@@ -490,8 +490,8 @@
 		"leaderName": "Wilfrid Laurier",
 		"adjective": ["Canadian"],
 		"startBias": [
-			"Avoid [Coast]",
-			"Tundra"
+			"Tundra",
+			"Avoid [Coast]"
 		],
 		"preferredVictoryType": "Diplomatic",
 		"personality": "Wilfrid Laurier",
