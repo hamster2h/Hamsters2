@@ -2250,7 +2250,7 @@ UnitIcons/Raven Fighter
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/SSKE Strike
+UnitIcons/SSKE Missile
   rotate: false
   xy: 328, 464
   size: 100, 100
