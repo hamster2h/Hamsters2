@@ -2208,7 +2208,7 @@ UnitIcons/Observation Balloon
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Aurora
+UnitIcons/Aurora Bomber
   rotate: false
   xy: 328, 788
   size: 100, 100
@@ -2236,21 +2236,21 @@ UnitIcons/Stealth Fighter
   orig: 100, 100
   offset: 0, 3
   index: -1
-UnitIcons/Darkstar
+UnitIcons/Hypersonic Fighter
   rotate: false
   xy: 328, 572
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Raven
+UnitIcons/Raven Fighter
   rotate: false
   xy: 937, 652
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Orbital Strike
+UnitIcons/SSKE Strike
   rotate: false
   xy: 328, 464
   size: 100, 100
