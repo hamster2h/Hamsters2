@@ -1451,21 +1451,6 @@
 		"attackSound": "missile"
 	},
 	{
-		"name": "Orbital Missile",
-		"unitType": "Big Missile",
-		"movement": 1,
-		"strength": 120,
-		"rangedStrength": 120,
-		"range": 200,
-		"cost": 8000,
-		"requiredTech": "Spaceflight",
-		"uniques": [
-			"Space",
-			"[-100]% maintenance costs"
-		],
-		"attackSound": "missile"
-	},
-	{
 		"name": "Tactical Nuke",
 		"unitType": "Missile",
 		"movement": 1,
@@ -1520,6 +1505,23 @@
 			"Blast radius [1]"
 		],
 		"attackSound": "nuke"
+	},
+	{
+		"name": "SSKE Rain",
+		"unitType": "Big Missile",
+		"movement": 1,
+		"strength": 400,
+		"rangedStrength": 400,
+		"range": 22,
+		"cost": 40000,
+		"requiredTech": "Spaceflight",
+		"uniques": [
+			"Space",
+			"[-100]% maintenance costs",
+			"Nuclear weapon of Strength [1]",
+			"Blast radius [4]"
+		],
+		"attackSound": "missile"
 	},
 	{
 		"name": "Atomic Bomb",
