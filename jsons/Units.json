@@ -1639,7 +1639,7 @@
 		"movement": 1,
 		"strength": 160,
 		"rangedStrength": 160,
-		"range": 18,
+		"range": 20,
 		"cost": 15000,
 		"requiredTech": "Spaceflight",
 		"requiredResource": "Oil",
@@ -1800,7 +1800,7 @@
 		"interceptRange": 16,
 		"cost": 19000,
 		"requiredTech": "Spaceflight",
-		"upgradesTo": "Raven",
+		"upgradesTo": "Raven Fighter",
 		"obsoleteTech": "Particle Physics",
 		"requiredResource": "Oil",
 		"uniques": [
@@ -1818,20 +1818,19 @@
 		"attackSound": "jetgun"
 	},
 	{
-		"name": "Raven",
+		"name": "Raven Fighter",
 		"unitType": "Fighter",
 		"movement": 1,
 		"strength": 140,
 		"rangedStrength": 140,
-		"range": 12,
-		"interceptRange": 12,
+		"range": 14,
+		"interceptRange": 14,
 		"cost": 19000,
 		"requiredTech": "Particle Physics",
-		"requiredResource": "Oil",
 		"uniques": [
 			"Cyber",
 			"Consumes [2] [Composites]",
-			"[98]% chance to intercept air attacks",
+			"[99]% chance to intercept air attacks",
 			"[+200]% Strength <vs [Bomber] units>",
 			"[+200]% Strength <vs [Helicopter] units>"
 		],
