@@ -1506,7 +1506,7 @@
 		"attackSound": "nuke"
 	},
 	{
-		"name": "SSKE Strike",
+		"name": "SSKE Missile",
 		"unitType": "Big Missile",
 		"movement": 1,
 		"strength": 500,
