@@ -1350,8 +1350,8 @@
 		"movement": 1,
 		"strength": 100,
 		"rangedStrength": 100,
-		"range": 4,
-		"interceptRange": 4,
+		"range": 2,
+		"interceptRange": 2,
 		"cost": 8000,
 		"requiredTech": "Artificial Intelligence",
 		"uniques": [
