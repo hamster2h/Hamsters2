@@ -1798,7 +1798,7 @@
 		"movement": 1,
 		"strength": 110,
 		"rangedStrength": 110,
-		"range": 16,
+		"range": 17,
 		"interceptRange": 17,
 		"cost": 11000,
 		"requiredTech": "Spaceflight",
