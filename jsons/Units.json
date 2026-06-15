@@ -1513,7 +1513,7 @@
 		"strength": 400,
 		"rangedStrength": 400,
 		"range": 22,
-		"cost": 40000,
+		"cost": 25000,
 		"requiredTech": "Spaceflight",
 		"uniques": [
 			"Space",
