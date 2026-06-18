@@ -1210,7 +1210,7 @@
 			"Can carry [4] extra [Missile] units <after adopting [Order]>",
 			"[95]% chance to intercept air attacks",
 			"[3] extra interceptions may be made per turn",
-			"[+100]% Strength <vs [Air] units>",
+			"[+100]% Strength <vs [Aircraft] units>",
 			"[+100]% Strength <vs [Helicopter] units>",
 			"[+4] Range <after discovering [Nuclear Fusion]>",
 			"Can see invisible [Submarine] units",
@@ -1360,8 +1360,7 @@
 			"[1] extra interceptions may be made per turn",
 			"[+5000]% Strength <vs [Missile] units>",
 			"[+5000]% Strength <vs [Big Missile] units>",
-			"Cannot intercept [Fighter] units",
-			"Cannot intercept [Bomber] units",
+			"Cannot intercept [Aircraft] units",
 			"Cannot be carried by [Battleship] units",
 			"Cannot be carried by [Submarine] units",
 			"Cannot attack"
