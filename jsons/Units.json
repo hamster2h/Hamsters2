@@ -1275,7 +1275,7 @@
 		"requiredTech": "Refrigeration",
 		"requiredResource": "Oil",
 		"uniques": [
-			"[+250]% Strength <when attacking>",
+			"[+500]% Strength <when attacking>",
 			"Can carry [6] [Missile] units",
 			"[-1] Sight"
 		],
@@ -1292,7 +1292,7 @@
 		"requiredTech": "Telecommunications",
 		"requiredResource": "Uranium",
 		"uniques": [
-			"[+200]% Strength <when attacking>",
+			"[+400]% Strength <when attacking>",
 			"Can move after attacking",
 			"Can carry [10] [Big Missile] units"
 		],
