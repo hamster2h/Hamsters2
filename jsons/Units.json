@@ -1621,6 +1621,7 @@
 		"range": 10,
 		"cost": 6000,
 		"requiredTech": "Nuclear Fission",
+		"upgradesTo": "Nuclear Missile",
 		"obsoleteTech": "Advanced Ballistics",
 		"requiredResource": "Oil",
 		"uniques": [
