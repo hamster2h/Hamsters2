@@ -108,6 +108,13 @@ BuildingIcons/Corporate Slot
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Future discovery
+  rotate: false
+  xy: 1268, 1944
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Coal Plant
   rotate: false
   xy: 212, 1844
