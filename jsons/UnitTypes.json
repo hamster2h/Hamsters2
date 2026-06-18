@@ -83,7 +83,8 @@
         "name": "Melee Water",
         "movementType": "Water",
         "uniques": [
-			"May enter foreign tiles without open borders"
+			"May enter foreign tiles without open borders",
+			"Can only be built <in cities with a [Shipyard]>"
 		]
     },
     {
@@ -94,7 +95,8 @@
             "[+1] Range <when adjacent to a [Intel] unit>",
             "[+2] Range <when adjacent to a [Intel2] unit>",
 			"Cannot intercept [Missile] units",
-			"Cannot intercept [Big Missile] units"
+			"Cannot intercept [Big Missile] units",
+			"Can only be built <in cities with a [Shipyard]>"
         ]
     },
     {
@@ -108,14 +110,16 @@
             "Can see invisible [Submarine] units",
             "Can only attack [Water] tiles",
 			"Can instantly construct a [Remove Ice] improvement <after discovering [Steam Power]>",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+			"Can only be built <in cities with a [Shipyard]>"
         ]
     },
     {
         "name": "Aircraft Carrier",
         "movementType": "Water",
         "uniques": [
-			"May enter foreign tiles without open borders"
+			"May enter foreign tiles without open borders",
+			"Can only be built <in cities with a [Shipyard]>"
 		]
     },
     {
