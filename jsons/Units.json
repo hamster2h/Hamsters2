@@ -1362,7 +1362,6 @@
 			"[+5000]% Strength <vs [Big Missile] units>",
 			"Cannot intercept [Fighter] units",
 			"Cannot intercept [Bomber] units",
-			"Cannot intercept [Atomic Bomber] units",
 			"Cannot be carried by [Battleship] units",
 			"Cannot be carried by [Submarine] units",
 			"Cannot attack"
@@ -1525,7 +1524,7 @@
 	},
 	{
 		"name": "Atomic Bomb",
-		"unitType": "Atomic Bomber",
+		"unitType": "Bomber",
 		"movement": 1,
 		"strength": 150,
 		"rangedStrength": 150,
@@ -1539,7 +1538,8 @@
 			"Consumes [1] [Uranium]",
 			"Only available <if [Nuclear Testing Site] is constructed>",
 			"Nuclear weapon of Strength [1]",
-			"Blast radius [1]"
+			"Blast radius [1]",
+			"Self-destructs when attacking"
 		],
 		"attackSound": "nuke"
 	},
