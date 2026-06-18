@@ -133,14 +133,16 @@
             "Can perform Air Sweep",
 			"Cannot intercept [Missile] units",
 			"Cannot intercept [Big Missile] units",
-			"[1] additional attacks per turn <when stacked with a [Aircraft Carrier] unit>"
+			"[1] additional attacks per turn <when stacked with a [Aircraft Carrier] unit>",
+			"Can only be built <in cities with a [Factory]>"
         ]
     },
     {
         "name": "Bomber",
         "movementType": "Air",
         "uniques": [
-            "Aircraft"
+            "Aircraft",
+			"Can only be built <in cities with a [Factory]>"
         ]
     },
     {
