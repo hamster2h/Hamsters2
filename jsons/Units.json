@@ -1522,27 +1522,6 @@
 		"attackSound": "missile"
 	},
 	{
-		"name": "Atomic Bomb",
-		"unitType": "Bomber",
-		"movement": 1,
-		"strength": 150,
-		"rangedStrength": 150,
-		"range": 10,
-		"cost": 6000,
-		"requiredTech": "Nuclear Fission",
-		"upgradesTo": "Nuclear Missile",
-		"obsoleteTech": "Advanced Ballistics",
-		"requiredResource": "Oil",
-		"uniques": [
-			"Consumes [1] [Uranium]",
-			"Only available <if [Nuclear Testing Site] is constructed>",
-			"Nuclear weapon of Strength [1]",
-			"Blast radius [1]",
-			"Self-destructs when attacking"
-		],
-		"attackSound": "nuke"
-	},
-	{
 		"name": "Great War Bomber",
 		"unitType": "Bomber",
 		"movement": 1,
@@ -1607,7 +1586,8 @@
 		"requiredResource": "Oil",
 		"uniques": [
 			"Cyber",
-			"Consumes [1] [Aluminum]"
+			"Consumes [1] [Aluminum]",
+			"[+25]% Strength <vs [Land] units>"
 		],
 		"attackSound": "bombing"
 	},
@@ -1624,13 +1604,34 @@
 		"uniques": [
 			"Cyber",
 			"Consumes [2] [Aluminum]",
-			"[+25]% Strength <vs [Land] units>",
+			"[+50]% Strength <vs [Land] units>",
 			"Cannot be carried by [Carrier] units"
 		],
 		"promotions": [
 			"Evasion"
 		],
 		"attackSound": "bombing"
+	},
+	{
+		"name": "Atomic Bomb",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 150,
+		"rangedStrength": 150,
+		"range": 10,
+		"cost": 6000,
+		"requiredTech": "Nuclear Fission",
+		"upgradesTo": "Aurora Bombe",
+		"obsoleteTech": "Advanced Ballistics",
+		"requiredResource": "Oil",
+		"uniques": [
+			"Consumes [1] [Uranium]",
+			"Only available <if [Nuclear Testing Site] is constructed>",
+			"Nuclear weapon of Strength [1]",
+			"Blast radius [1]",
+			"Self-destructs when attacking"
+		],
+		"attackSound": "nuke"
 	},
 	{
 		"name": "Aurora Bomber",
