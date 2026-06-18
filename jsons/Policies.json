@@ -945,10 +945,8 @@
 					"Comment [Doubles the Healing bonus from Medics and Tactical Supplier units]",
 					"[+1] Movement <for [Armored] units>",
 					"[+25]% Strength <for [{Military} {Water}] units>",
-					"[+2] Range <for [Fighter] units>",
-					"[+2] Air Interception Range <for [Fighter] units>",
-					"[+2] Range <for [Bomber] units>",
-					"[+2] Range <for [Atomic Bomber] units>"
+					"[+2] Range <for [Aircraft] units>",
+					"[+2] Air Interception Range <for [Fighter] units>"
 				],
 				"requires": [
 					"Military Tax"
