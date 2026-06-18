@@ -447,6 +447,16 @@
 		"gold": 2
 	},
 	{
+        "name": "Future discovery",
+        "resourceType": "Strategic",
+		"revealedBy": "Future Tech"
+        "uniques": [
+			"Cannot be traded",
+			"Stockpiled",
+			"Not shown on world screen"
+		]
+    },
+	{
 		"name": "Pralines",
 		"gold": 1,
 		"resourceType": "Luxury"
