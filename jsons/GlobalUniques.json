@@ -21,6 +21,7 @@
         "[+5] HP when healing <in [Fort] tiles> <for [All] units>",
 		"[+10] HP when healing <in [Citadel] tiles> <for [All] units>",
 
+		"Science gained from research agreements [+200]% <during the [Medieval era]>",
         "Science gained from research agreements [+144]% <during the [Renaissance era]>",
 		"Science gained from research agreements [+100]% <during the [Industrial era]>",
 		"Science gained from research agreements [+64]% <during the [Modern era]>",
