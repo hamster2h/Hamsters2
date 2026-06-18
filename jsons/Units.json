@@ -1621,7 +1621,7 @@
 		"range": 10,
 		"cost": 6000,
 		"requiredTech": "Nuclear Fission",
-		"upgradesTo": "Aurora Bombe",
+		"upgradesTo": "Aurora Bomber",
 		"obsoleteTech": "Advanced Ballistics",
 		"requiredResource": "Oil",
 		"uniques": [
