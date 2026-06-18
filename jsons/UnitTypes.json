@@ -139,14 +139,6 @@
         ]
     },
     {
-        "name": "Atomic Bomber",
-        "movementType": "Air",
-        "uniques": [
-            "Aircraft",
-			"Self-destructs when attacking"
-        ]
-    },
-    {
         "name": "Missile",
         "movementType": "Air",
         "uniques": [
