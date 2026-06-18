@@ -16,6 +16,8 @@
 
         "[+5]% Strength <for [All] units> <for every [Future discovery]>",
         "[-10]% Gold cost of upgrading <for [Military] units>",
+		"[2] Movement point cost to embark <for [All] units>",
+		"[2] Movement point cost to disembark <for [All] units>",
         "[+5] HP when healing <in [Fort] tiles> <for [All] units>",
 		"[+10] HP when healing <in [Citadel] tiles> <for [All] units>",
 
@@ -24,7 +26,7 @@
 		"Science gained from research agreements [+64]% <during the [Modern era]>",
 		"Science gained from research agreements [+36]% <during the [Atomic era]>",
 		"Science gained from research agreements [+25]% <during the [Information era]>",
-		"Science gained from research agreements [+16]% <during the [Future era]>",
+		"Science gained from research agreements [+16]% <during the [Future era]>"
         
         //"[+1 Gold] per every [500] [Gold] <after discovering [Banking]>",
         //"[+1 Gold] per every [1000] [Gold] <after discovering [Economics]>",
