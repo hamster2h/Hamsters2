@@ -1019,7 +1019,10 @@
 		"requiredTech": "Particle Physics",
 		"uniques": [
 			"All newly-trained [Giant Death Robot] units [in all cities] receive the [Teleportation] promotion",
-			"All newly-trained [Stealth Helicopter] units [in all cities] receive the [Teleportation] promotion"
+			"All newly-trained [Stealth Helicopter] units [in all cities] receive the [Teleportation] promotion",
+			"All newly-trained [Battleship] units [in all cities] receive the [Sea Teleportation] promotion",
+			"All newly-trained [Missile Cruise] units [in all cities] receive the [Sea Teleportation] promotion",
+			"All newly-trained [Carrier] units [in all cities] receive the [Sea Teleportation] promotion"
 		],
 		"quote": "'If I could teleport, I'd probably still be late.' - Anonymous"
 	},
