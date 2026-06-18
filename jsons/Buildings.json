@@ -1562,11 +1562,11 @@
     },
     {
         "name": "Shipyard",
-        "cost": 500,
-        "maintenance": 4,
+        "cost": 400,
+		"production": 2,
+        "maintenance": 8,
         "requiredTech": "Sailing",
         "uniques": [
-			"[+25]% Production when constructing [Water] units [in this city]",
 			"Must be next to [Coast]"
 		]
     },
