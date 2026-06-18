@@ -63,7 +63,8 @@
 			"No defensive terrain bonus",
 			"Ignores Zone of Control",
             "[+33]% Strength <vs [Air] units> <when adjacent to a [Anti-Air] unit>",
-            "[+33]% Strength <vs [Cyber] units> <when adjacent to a [Hacker] unit>"
+            "[+33]% Strength <vs [Cyber] units> <when adjacent to a [Hacker] unit>",
+			"Can only be built <in cities with a [Factory]>"
         ]
     },
     {
@@ -146,14 +147,16 @@
         "name": "Missile",
         "movementType": "Air",
         "uniques": [
-			"Self-destructs when attacking"
+			"Self-destructs when attacking",
+			"Can only be built <in cities with a [Factory]>"
 		]
     },
     {
         "name": "Big Missile",
         "movementType": "Air",
         "uniques": [
-            "Self-destructs when attacking"
+            "Self-destructs when attacking",
+			"Can only be built <in cities with a [Factory]>"
         ]
     },
     {
@@ -167,7 +170,8 @@
 			"Ignores Zone of Control",
 			"Unable to capture cities",
 			"[+5000]% Strength <vs [Submarine] units>",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+			"Can only be built <in cities with a [Factory]>"
         ]
     },
     {
