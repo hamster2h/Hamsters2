@@ -3443,7 +3443,7 @@
 	{
 		"name": "Body Snatcher",
 		"uniqueTo": "Barbarians",
-		"replaces": "Energy Infantry",
+		"replaces": "Energy Infantry - SPECTRE",
 		"unitType": "Gunpowder",
 		"movement": 3,
 		"strength": 140,
