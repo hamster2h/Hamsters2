@@ -1562,9 +1562,9 @@
     },
     {
         "name": "Shipyard",
-        "cost": 400,
-		"production": 2,
-        "maintenance": 8,
+        "cost": 200,
+		"production": 4,
+        "maintenance": 12,
         "requiredTech": "Sailing",
         "uniques": [
 			"Must be next to [Coast]"
