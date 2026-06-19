@@ -262,7 +262,7 @@
 			"Jungle",
 			"Flood plains"
 		],
-		"gold": 1,
+		"gold": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Guilds",
 		"uniques": [
