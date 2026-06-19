@@ -1515,6 +1515,7 @@
 			"[-100]% maintenance costs",
 			"Nuclear weapon of Strength [3]",
 			"Blast radius [1]",
+			"Can transform to [SSKE Rain]",
 			"Can only be built <in cities with a [Spaceship Factory]>"
 		],
 		"attackSound": "nuke"
@@ -1523,16 +1524,17 @@
 		"name": "SSKE Rain",
 		"unitType": "Big Missile",
 		"movement": 1,
-		"strength": 400,
-		"rangedStrength": 400,
+		"strength": 500,
+		"rangedStrength": 500,
 		"range": 22,
-		"cost": 25000,
+		"cost": 28000,
 		"requiredTech": "Spaceflight",
 		"uniques": [
 			"Space",
 			"[-100]% maintenance costs",
 			"Nuclear weapon of Strength [1]",
 			"Blast radius [4]",
+			"Can transform to [SSKE Strike]",
 			"Can only be built <in cities with a [Spaceship Factory]>"
 		],
 		"attackSound": "missile"
@@ -2988,7 +2990,7 @@
 		"attackSound": "energyshot"
 	},
 	{
-		"name": "Energy Infantry",
+		"name": "Energy Infantry - SPECTRE",
 		"unitType": "Gunpowder",
 		"movement": 4,
 		"strength": 120,
@@ -3000,6 +3002,36 @@
 			"Can pass through impassable tiles",
 			"May enter foreign tiles without open borders",
 			"No movement cost to pillage",
+			"Can build [Citadel] improvements on tiles",
+			"Can transform to [Energy Infantry - GHOST]",
+			"Never appears as a Barbarian unit",
+			"Can only be built <in cities with a [Nano-Factory]>"
+		],
+		"promotions": [
+			"Armor Plating I",
+			"Amphibious",
+			"Skirmish",
+			"Rocket Launcher",
+			"Energy Weapons",
+			"Blitz"
+		],
+		"attackSound": "energyshot"
+	},
+	{
+		"name": "Energy Infantry - GHOST",
+		"unitType": "Gunpowder",
+		"movement": 4,
+		"strength": 120,
+		"cost": 6000,
+		"requiredTech": "Nuclear Fusion",
+		"requiredResource": "Composites",
+		"uniques": [
+			"Hacker",
+			"May Paradrop to [Land] tiles up to [24] tiles away",
+			"Can pass through impassable tiles",
+			"May enter foreign tiles without open borders",
+			"No movement cost to pillage",
+			"Can transform to [Energy Infantry - SPECTRE]",
 			"Never appears as a Barbarian unit",
 			"Can only be built <in cities with a [Nano-Factory]>"
 		],
