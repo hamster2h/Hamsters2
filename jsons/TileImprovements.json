@@ -160,6 +160,7 @@
 		"techRequired": "Calendar",
 		"uniques": [
 			"Can only be built to improve a resource",
+			"[+1 Gold] <after discovering [Guilds]>",
 			"[+1 Food] <after discovering [Fertilizer]>",
 			"[+1 Food] <within [1] tiles of a [Water Tower]>",
 			"[+1 Food] <within [1] tiles of a [Water Tower]> <after adopting [Safety Checks]>",
@@ -322,7 +323,6 @@
 		"terrainsCanBeBuiltOn": [
 			"Coast"
 		],
-		"food": 1,
 		"techRequired": "Sailing",
 		"uniques": [
 			"Can only be built to improve a resource",
