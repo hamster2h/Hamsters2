@@ -946,7 +946,8 @@
     {
         "name": "Heroism",
         "uniques": [
-			"[+10]% Strength bonus for [{Military} {Land}] units within [2] tiles",
+			"[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles <before adopting [Propaganda]>",
+			"[+30]% Strength bonus for [{Military} {Land}] units within [2] tiles <after adopting [Propaganda]>",
 			"[+25]% Strength <when adjacent to a [Heroism] unit>",
             "Only available <for units without [Ambition]>",
             "Only available <for units without [Invulnerability]>",
