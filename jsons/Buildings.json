@@ -962,7 +962,7 @@
 		"isWonder": true,
 		"uniques": [
 			"[+25]% Strength <for [Cyber] units>",
-			"[+25]% Strength <for [Energy Infantry] units>",
+			"[+25]% Strength <for units with [Energy Weapons]>",
 			"[+10]% Production when constructing [Cyber] units [in all cities]",
 			"[+10]% [Science] from every [Composite Factory]"
 		],
