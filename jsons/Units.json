@@ -3001,7 +3001,7 @@
 			"May enter foreign tiles without open borders",
 			"No movement cost to pillage",
 			"Never appears as a Barbarian unit",
-			"Can only be built <in cities with a [Factory]>"
+			"Can only be built <in cities with a [Nano-Factory]>"
 		],
 		"promotions": [
 			"Armor Plating I",
