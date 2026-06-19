@@ -402,6 +402,92 @@
 		]
 	},
 	{
+		"name": "Deer",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": [
+			"Forest",
+			"Tundra"
+		],
+		"food": 1,
+		"improvement": "Camp",
+		"improvementStats": {
+			"production": 1,
+			"food": 2
+		},
+		"uniques": [
+			"Generated on every [8] tiles <in [{Tundra} {Forest}] tiles>",
+			"Generated on every [12] tiles <in [{Featureless} {Tundra}] tiles>",
+			"Generated on every [25] tiles <in [{Plains} {Forest}] tiles> <in tiles without [Hill]>",
+			"Generated on every [25] tiles <in [{Grassland} {Forest}] tiles> <in tiles without [Hill]>",
+			"Generated on every [16] tiles <in [{Featureless} {Tundra}] tiles> <in [Hill] Regions>",
+			"Generated on every [28] tiles <in [Forest] tiles> <in [Hill] Regions>"
+		]
+	},
+	{
+		"name": "Furs",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": [
+			"Forest",
+			"Tundra"
+		],
+		"gold": 1,
+		"improvement": "Camp",
+		"improvementStats": {
+			"gold": 2,
+			"food": 1
+		},
+		"uniques": [
+			"Generated with weight [40] <in [Tundra] Regions>",
+			"Generated with weight [10] <in [Forest] Regions>",
+			"Generated near City States with weight [15]"
+		]
+	},
+	{
+		"name": "Ivory",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": [
+			"Plains",
+			"Grassland"
+		],
+		"gold": 1,
+		"improvement": "Camp",
+		"improvementStats": {
+			"gold": 2,
+			"production": 1
+		},
+		"uniques": [
+			"Generated with weight [35] <in [Plains] Regions>",
+			"Generated with weight [15] <in [Hybrid] Regions>",
+			"Generated near City States with weight [10]",
+			"Doesn't generate naturally <in [{Grassland} {Fresh Water}] tiles>"
+		]
+	},
+	{
+		"name": "Truffles",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": [
+			"Forest",
+			"Marsh",
+			"Jungle"
+		],
+		"food": 1,
+		"improvement": "Camp",
+		"improvementStats": {
+			"gold": 2,
+			"food": 1
+		},
+		"uniques": [
+			"Generated with weight [5] <in [Jungle] Regions>",
+			"Generated with weight [30] <in [Forest] Regions>",
+			"Generated with weight [5] <in [Plains] Regions>",
+			"Generated with weight [5] <in [Grassland] Regions>",
+			"Generated with weight [10] <in [Hybrid] Regions>",
+			"Generated near City States with weight [15]",
+			"Doesn't generate naturally <in [{Forest} {Hill}] tiles>",
+			"Doesn't generate naturally <in [{Tundra} {Forest}] tiles>"
+		]
+	}
+	{
 		"name": "Corporation Slot",
 		"resourceType": "Strategic",
 		"revealedBy": "Corporations"
