@@ -721,7 +721,6 @@
 		"terrainsCanBeBuiltOn": [
 			"Land"
 		],
-		"turnsToBuild": 15,
 		"uniques": [
 			"Great Improvement",
 			"Provides [1] [General Perk] <starting from the [Industrial era]>",
