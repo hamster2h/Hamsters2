@@ -125,6 +125,7 @@
 		"cost": 2000,
 		"uniques": [
 			"Can instantly construct a [Industry] improvement <by consuming this unit>",
+			"Can only be built <in cities with a [Factory]>",
 			"Uncapturable"
 		],
 		"civilopediaText": [
@@ -141,6 +142,7 @@
 		"requiredTech": "Combustion",
 		"uniques": [
 			"Can instantly construct a [Supply Route] improvement <by consuming this unit>",
+			"Can only be built <in cities with a [Factory]>",
 			"Uncapturable"
 		],
 		"civilopediaText": [
@@ -169,31 +171,33 @@
 		"requiredTech": "Biology",
 		"upgradesTo": "Tactical Supplier",
 		"obsoleteTech": "Pharmaceuticals",
-		"promotions": [
-			"Support Unit"
-		],
 		"uniques": [
 			"All adjacent units heal [+10] HP when healing <before adopting [Collectivization]>",
 			"All adjacent units heal [+20] HP when healing <after adopting [Collectivization]>",
+			"Can only be built <in cities with a [Hospital]>",
 			"Uncapturable",
 			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Support Unit"
 		]
 	},
 	{
 		"name": "Tactical Supplier",
 		"unitType": "Support",
-		"requiredTech": "Pharmaceuticals",
 		"movement": 4,
 		"strength": 20,
 		"cost": 1400,
-		"promotions": [
-			"Support Unit"
-		],
+		"requiredTech": "Pharmaceuticals",
 		"uniques": [
 			"All adjacent units heal [+15] HP when healing <before adopting [Collectivization]>",
 			"All adjacent units heal [+30] HP when healing <after adopting [Collectivization]>",
+			"Can only be built <in cities with a [Hospital]>",
 			"Uncapturable",
 			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Support Unit"
 		]
 	},
 	{
@@ -296,7 +300,8 @@
 			"Heals [25] damage if it kills a unit",
 			"[+200]% Strength <after discovering [Metagenetics]>",
 			"[-50]% maintenance costs",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+			"Can only be built <in cities with a [Factory]>"
 		],
 		"promotions": [
 			"Exploration",
@@ -345,7 +350,8 @@
 			"[+2] Sight",
 			"No defensive terrain bonus",
 			"Ignores Zone of Control",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+			"Can only be built <in cities with a [Factory]>"
 		],
 		"promotions": [
 			"Support Unit",
@@ -514,7 +520,8 @@
 			"No defensive terrain bonus",
 			"Must set up to ranged attack",
 			"[-1] Sight",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+			"Can only be built <in cities with a [Powder Mill]>"
 		],
 		"promotions": [
 			"Indirect Fire"
@@ -538,7 +545,8 @@
 			"No defensive terrain bonus",
 			"Must set up to ranged attack",
 			"[-1] Sight",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+			"Can only be built <in cities with a [Factory]>"
 		],
 		"promotions": [
 			"Indirect Fire"
@@ -562,7 +570,8 @@
 			"[+200]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"[+1] Range <after discovering [Advanced Ballistics]>",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+			"Can only be built <in cities with a [Factory]>"
 		],
 		"promotions": [
 			"Indirect Fire"
@@ -584,7 +593,8 @@
 			"Consumes [1] [Composites]",
 			"[+200]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+			"Can only be built <in cities with a [Factory]>"
 		],
 		"promotions": [
 			"Indirect Fire",
@@ -610,7 +620,8 @@
 			"[+300]% Strength <vs [Aircraft] units>",
 			"[+300]% Strength <vs [Helicopter] units>",
 			"Can only attack [Helicopter] units",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+			"Can only be built <in cities with a [Factory]>"
 		]
 	},
 	{
@@ -635,7 +646,8 @@
 			"[+300]% Strength <vs [Aircraft] units>",
 			"[+300]% Strength <vs [Helicopter] units>",
 			"Can only attack [Helicopter] units",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+			"Can only be built <in cities with a [Factory]>"
 		]
 	},
 	{
@@ -659,7 +671,8 @@
 			"[+300]% Strength <vs [Aircraft] units>",
 			"[+300]% Strength <vs [Helicopter] units>",
 			"Can only attack [Helicopter] units",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+			"Can only be built <in cities with a [Factory]>"
 		],
 		"promotions": [
 			"Hovering",
@@ -914,7 +927,8 @@
 		"upgradesTo": "Helicopter Gunship",
 		"uniques": [
 			"[+200]% Strength <vs [Armored] units> <when attacking>",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+			"Can only be built <in cities with a [Factory]>"
 		],
 		"attackSound": "machinegun"
 	},
@@ -1500,7 +1514,8 @@
 			"Space",
 			"[-100]% maintenance costs",
 			"Nuclear weapon of Strength [3]",
-			"Blast radius [1]"
+			"Blast radius [1]",
+			"Can only be built <in cities with a [Spaceship Factory]>"
 		],
 		"attackSound": "nuke"
 	},
@@ -1517,7 +1532,8 @@
 			"Space",
 			"[-100]% maintenance costs",
 			"Nuclear weapon of Strength [1]",
-			"Blast radius [4]"
+			"Blast radius [4]",
+			"Can only be built <in cities with a [Spaceship Factory]>"
 		],
 		"attackSound": "missile"
 	},
@@ -2900,7 +2916,8 @@
 		"upgradesTo": "Energy Infantry",
 		"requiredResource": "Oil",
 		"uniques": [
-			"Cyber"
+			"Cyber",
+			"Can only be built <in cities with a [Factory]>"
 		],
 		"promotions": [
 			"Armor Plating I",
@@ -2960,7 +2977,8 @@
 			"Can pass through impassable tiles",
 			"May enter foreign tiles without open borders",
 			"No movement cost to pillage",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+			"Can only be built <in cities with a [Factory]>"
 		],
 		"promotions": [
 			"Amphibious",
@@ -2982,7 +3000,8 @@
 			"Can pass through impassable tiles",
 			"May enter foreign tiles without open borders",
 			"No movement cost to pillage",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+			"Can only be built <in cities with a [Factory]>"
 		],
 		"promotions": [
 			"Armor Plating I",
@@ -3109,7 +3128,8 @@
 			"Cyber",
 			"Can move immediately once bought",
 			"[+100]% Strength <when defending>",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+			"Can only be built <in cities with a [Factory]>"
 		],
 		"attackSound": "machinegun"
 	},
@@ -3410,6 +3430,7 @@
 		"requiredTech": "Enhancing",
 		"uniques": [
 			"Only available <if [Monolith Portal] is constructed>",
+			"Can only be built <in cities with a [Factory]>",
 			"Heals [25] damage if it kills a unit",
 			"May capture killed [Land] units <with [44]% chance>",
 			"Never appears as a Barbarian unit"
@@ -3451,6 +3472,7 @@
 		"uniques": [
 			"Hacker",
 			"Only available <if [Monolith Portal] is constructed>",
+			"Can only be built <in cities with a [Factory]>",
 			"Comment [+33% Strength for some adjacent Units vs Cyber Units]",
 			"Comment [25% chance for some adjacent units to capture killed Cyber Units]",
 			"Can see invisible [All] units",
@@ -3502,6 +3524,7 @@
 		"uniques": [
 			"Cyber",
 			"Only available <if [Monolith Portal] is constructed>",
+			"Can only be built <in cities with a [Spaceship Factory]>",
 			"Uncapturable",
 			"May capture killed [Land] units <with [22]% chance>",
 			"[+100]% Strength <vs [Air] units>",
