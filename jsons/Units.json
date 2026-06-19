@@ -2994,7 +2994,7 @@
 		"unitType": "Gunpowder",
 		"movement": 4,
 		"strength": 140,
-		"cost": 9000,
+		"cost": 11000,
 		"requiredTech": "Nuclear Fusion",
 		"requiredResource": "Composites",
 		"uniques": [
@@ -3023,7 +3023,7 @@
 		"strength": 100,
 		"rangedStrength": 120,
 		"range": 2,
-		"cost": 9000,
+		"cost": 11000,
 		"requiredTech": "Nuclear Fusion",
 		"requiredResource": "Composites",
 		"uniques": [
