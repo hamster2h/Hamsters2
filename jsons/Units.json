@@ -3524,7 +3524,7 @@
 		"uniques": [
 			"Cyber",
 			"Only available <if [Monolith Portal] is constructed>",
-			"Can only be built <in cities with a [Spaceship Factory]>",
+			"Can only be built <in cities with a [Nano-Factory]>",
 			"Uncapturable",
 			"May capture killed [Land] units <with [22]% chance>",
 			"[+100]% Strength <vs [Air] units>",
