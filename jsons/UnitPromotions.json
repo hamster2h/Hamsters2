@@ -946,7 +946,7 @@
     {
         "name": "Heroism",
         "uniques": [
-			"[+25]% Strength for enemy [Heroism] units in adjacent [All] tiles",
+			"[+25]% Strength <when adjacent to a [Heroism] unit>",
             "Only available <for units without [Ambition]>",
             "Only available <for units without [Invulnerability]>",
             "Only available <for units without [Restlessness]>",
