@@ -2998,6 +2998,7 @@
 		"requiredTech": "Nuclear Fusion",
 		"requiredResource": "Composites",
 		"uniques": [
+			"Can build [Citadel] improvements on tiles",
 			"May Paradrop to [All] tiles up to [18] tiles away",
 			"Can pass through impassable tiles",
 			"May enter foreign tiles without open borders",
