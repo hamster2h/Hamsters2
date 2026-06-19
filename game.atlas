@@ -1564,7 +1564,14 @@ TileSets/FantasyHex/Units/Drone
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Energy Infantry
+TileSets/FantasyHex/Units/Energy Infantry - SPECTRE
+  rotate: false
+  xy: 1438, 1256
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Energy Infantry - GHOST
   rotate: false
   xy: 1438, 1256
   size: 32, 32
@@ -2082,7 +2089,14 @@ UnitIcons/Drone
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Energy Infantry
+UnitIcons/Energy Infantry - SPECTRE
+  rotate: false
+  xy: 1700, 1728
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Energy Infantry - GHOST
   rotate: false
   xy: 1700, 1728
   size: 100, 100
