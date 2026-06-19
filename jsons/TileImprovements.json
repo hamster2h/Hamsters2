@@ -89,7 +89,7 @@
 			"Desert",
 			"Flood plains"
 		],
-		"food": 1,
+		"food": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
 		"uniques": [
@@ -200,6 +200,7 @@
 	},
 	{
 		"name": "Quarry",
+		"production": 2,
 		"turnsToBuild": 8,
 		"techRequired": "Masonry",
 		"uniques": [
