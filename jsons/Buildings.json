@@ -1390,7 +1390,7 @@
         "cost": 300,
         "science": 2,
         "happiness": 2,
-        "maintenance": 1,
+        "maintenance": 2,
         "requiredTech": "Astronomy"
     },
     {
@@ -1398,7 +1398,7 @@
         "cost": 150,
         "production": 3,
         "gold": 2,
-        "maintenance": 2,
+        "maintenance": 3,
         "percentStatBonus": {
 			"production": 5
 		},
@@ -1436,7 +1436,7 @@
         "name": "Seaside Resort",
         "cost": 100,
         "happiness": 2,
-        "maintenance": 1,
+        "maintenance": 3,
         "uniques": [
 			"Must be next to [Coast]"
 		],
@@ -1446,7 +1446,7 @@
         "name": "Spa Resort",
         "cost": 200,
         "happiness": 2,
-        "maintenance": 1,
+        "maintenance": 3,
         "uniques": [
 			"Must be next to [Coast]",
 			"Must be next to [Mountain]"
@@ -1457,7 +1457,7 @@
         "name": "Golf Resort",
         "cost": 300,
         "happiness": 2,
-        "maintenance": 2,
+        "maintenance": 4,
         "uniques": [
 			"Must be next to [Plains]",
 			"Must be next to [Grassland]"
@@ -1477,20 +1477,20 @@
     {
         "name": "Mushroom Farm",
         "cost": 200,
+		"maintenance": 2,
         "uniques": [
 			"[+1 Food] from [Mountain] tiles [in this city]",
 			"[+1 Food] from [Hill] tiles [in this city] <after discovering [Engineering]>",
 			"[+1 Food] from [Forest] tiles [in this city] <after discovering [Civil Service]>",
 			"[+1 Food] from [Jungle] tiles [in this city] <after discovering [Education]>"
 		],
-        "maintenance": 7,
         "requiredTech": "Mining"
     },
     {
         "name": "Slaughterhouse",
         "cost": 100,
         "food": 2,
-        "maintenance": 1,
+        "maintenance": 2,
         "requiredNearbyImprovedResources": [
 			"Sheep",
 			"Deer",
@@ -1521,7 +1521,7 @@
     {
         "name": "Icehouse",
         "cost": 200,
-        "maintenance": 1,
+        "maintenance": 2,
         "percentStatBonus": {
 			"food": 5
 		},
