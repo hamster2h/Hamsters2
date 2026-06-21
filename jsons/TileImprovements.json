@@ -655,7 +655,7 @@
 			"[+1 Food, +1 Production] <within [2] tiles of a [Water Tower]> <after adopting [Safety Checks]>",
 			"[+2 Production] <within [2] tiles of a [Industrial Complex]>",
 			"[+2 Production] <within [2] tiles of a [Industrial Complex]> <after adopting [Safety Checks]>",
-			"[+2 Production] <within 21] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
+			"[+2 Production] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
 			"[+2 Gold, +1 Production] <within [2] tiles of a [Residential]>",
 			"[+2 Gold, +1 Production] <within [2] tiles of a [Residential]> <after adopting [Safety Checks]>",
 			"Pillaging this improvement yields approximately [+20 Gold]",
