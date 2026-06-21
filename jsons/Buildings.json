@@ -1215,8 +1215,7 @@
 			"Stone"
 		],
 		"uniques": [
-			"[+1 Production] from [Stone] tiles [in this city]",
-			"[+1 Production] from [Marble] tiles [in this city]"
+			"[+1 Production] from [Quarry] tiles [in this city]"
 		],
 		"hurryCostModifier": 0,
 		"requiredTech": "Calendar"
