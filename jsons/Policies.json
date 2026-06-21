@@ -986,7 +986,7 @@
 			{
 				"name": "Coalition Complete",
 				"uniques": [
-					"Comment [Citadels provide adjacency bonuses as if they were Infrastructure Improvements]",
+					"Comment [Doubles the adjacency bonuses of Citadel tiles]",
 					"Can spend Gold to annex or puppet a City-State that has been your Ally for [10] turns",
 					"Population loss from nuclear attacks [-25]% [in all cities]"
 				]
