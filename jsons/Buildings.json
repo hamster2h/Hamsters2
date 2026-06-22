@@ -1045,7 +1045,7 @@
 		"requiredTech": "Corporations",
 		"uniques": [
 			"Provides [4] [Engineering Stock]",
-			"Comment [Production Improvements have their adjacency bonuses doubled]"
+			"Comment [Production Improvements have their adjacency bonuses increased]"
 		]
 	},
 	{
@@ -1056,7 +1056,7 @@
 		"requiredTech": "Corporations",
 		"uniques": [
 			"Provides [4] [Tourism Stock]",
-			"Comment [Doubles the adjacency bonuses of Concert Venue tiles]",
+			"Comment [Increases the adjacency bonuses of Concert Venue tiles]",
 			"[+100]% Yield from every [City ruins]",
 			"[+50]% Yield from every [Excavation Site]",
 			"[+1 Culture] from all [Culture] buildings"
@@ -1095,7 +1095,7 @@
 		"uniques": [
 			"Provides [4] [World Delivery Stock]",
 			"[+4 Gold, +2 Production, +2 Food] from each Trade Route",
-			"Comment [Doubles the adjacency bonuses of Industry tiles]",
+			"Comment [Increases the adjacency bonuses of Industry tiles]",
 			"[+50]% Yield from every [Supply Route]"
 		]
 	},
