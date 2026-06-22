@@ -1404,8 +1404,7 @@
 			"[+25]% [Production] [in all cities] <when at war>",
 			"[+1 Happiness] per [6] population [in all cities] <when at war>",
 			"[+2] Movement <for [Mounted] units>",
-			"[+25]% Strength <for [Mounted] units>",
-			"Unable to capture cities"
+			"[+25]% Strength <for [Mounted] units>"
 		],
 		"cities": [
 			"Karakorum","Beshbalik","Turfan","Hsia","Old Sarai","New Sarai","Tabriz","Tiflis","Otrar","Sanchu","Kazan",
