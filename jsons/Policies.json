@@ -832,7 +832,7 @@
 			{
 				"name": "Startups",
 				"uniques": [
-					"Comment [Doubles the adjacency bonuses of Industry tiles]",
+					"Comment [Increases the adjacency bonuses of Industry tiles]",
 					"Gain a free [Entrepeneur Venue] [in all cities]",
 					"Free [Corporate] appears"
 				],
@@ -845,7 +845,7 @@
 			{
 				"name": "Talent Agencies",
 				"uniques": [
-					"Comment [Doubles the adjacency bonuses of Concert Venue tiles]",
+					"Comment [Increases the adjacency bonuses of Concert Venue tiles]",
 					"[+50]% Yield from every [Concert Venue]",
 					"Free [Musician] appears"
 				],
@@ -871,7 +871,7 @@
 			{
 				"name": "Safety Checks",
 				"uniques": [
-					"Comment [Doubles the adjacency bonuses of Infrastructure tiles]",
+					"Comment [Increases the adjacency bonuses of Infrastructure tiles]",
 					"[+50]% Yield from every [Industry]",
 					"[+1] Movement <for [Civilian] units>"
 				],
@@ -986,7 +986,7 @@
 			{
 				"name": "Coalition Complete",
 				"uniques": [
-					"Comment [Doubles the adjacency bonuses of Citadel tiles]",
+					"Comment [Increases the adjacency bonuses of Citadel tiles]",
 					"Can spend Gold to annex or puppet a City-State that has been your Ally for [10] turns",
 					"Population loss from nuclear attacks [-25]% [in all cities]"
 				]
