@@ -1045,7 +1045,7 @@
 		"requiredTech": "Corporations",
 		"uniques": [
 			"Provides [4] [Engineering Stock]",
-			"Comment [Production Improvements have their adjacency bonuses increased]"
+			"Comment [Increases the adjacency bonuses of Production Improvements]"
 		]
 	},
 	{
