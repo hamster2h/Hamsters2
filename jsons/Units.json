@@ -268,14 +268,14 @@
 		"name": "Recon",
 		"unitType": "Scout",
 		"movement": 3,
-		"strength": 12,
+		"strength": 24,
 		"cost": 300,
 		"requiredTech": "Rifling",
 		"upgradesTo": "Seeker",
 		"obsoleteTech": "Metagenetics",
 		"uniques": [
 			"Ignores Zone of Control",
-			"[+100]% Strength <after discovering [Rifling]>",
+			"[-50]% Strength <before discovering [Rifling]>",
 			"[-50]% maintenance costs",
 			"Never appears as a Barbarian unit"
 		],
@@ -290,15 +290,15 @@
 		"name": "Seeker",
 		"unitType": "Scout",
 		"movement": 4,
-		"strength": 40,
-		"cost": 3000,
+		"strength": 120,
+		"cost": 6000,
 		"requiredTech": "Enhancing",
 		"uniques": [
 			"Can see invisible [Wounded] units",
 			"Ignores Zone of Control",
 			"Can move after attacking",
 			"Heals [25] damage if it kills a unit",
-			"[+200]% Strength <after discovering [Metagenetics]>",
+			"[-66]% Strength <before discovering [Metagenetics]>",
 			"[-50]% maintenance costs",
 			"Never appears as a Barbarian unit",
 			"Can only be built <in cities with a [Factory]>"
@@ -3002,6 +3002,7 @@
 			"Can pass through impassable tiles",
 			"May enter foreign tiles without open borders",
 			"No movement cost to pillage",
+			"Ignores Zone of Control",
 			"Can transform to [Energy Infantry - GHOST]",
 			"Never appears as a Barbarian unit",
 			"Can only be built <in cities with a [Nano-Factory]>"
@@ -3032,6 +3033,7 @@
 			"Can pass through impassable tiles",
 			"May enter foreign tiles without open borders",
 			"No movement cost to pillage",
+			"Ignores Zone of Control",
 			"Can transform to [Energy Infantry - SPECTRE]",
 			"Never appears as a Barbarian unit",
 			"Can only be built <in cities with a [Nano-Factory]>"
