@@ -634,7 +634,6 @@
 		"uniques": [
 			"Great Improvement",
 			"Provides [1] [Scientist Perk] <starting from the [Industrial era]>",
-			"Removes removable features when built",
 			"[+1 Food, +1 Science] <within [2] tiles of a [Water Tower]>",
 			"[+1 Food, +1 Science] <within [2] tiles of a [Water Tower]> <after adopting [Safety Checks]>",
 			"[+1 Production, +1 Science] <within [2] tiles of a [Industrial Complex]>",
@@ -643,6 +642,7 @@
 			"[+2 Science] <within [2] tiles of a [Residential]> <after adopting [Safety Checks]>",
 			"[+2 Science] <within [2] tiles of a [Citadel]>",
 			"[+2 Science] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
+			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+20 Gold]",
 			"Tile provides yield without assigned population",
 			"Will not be replaced by automated units"
@@ -657,8 +657,6 @@
 		"uniques": [
 			"Great Improvement",
 			"Provides [1] [Artist Perk] <starting from the [Industrial era]>",
-			"Removes removable features when built",
-			"Gain control over [all] tiles in a [1]-tile radius",
 			"[+1 Gold, +1 Culture] <within [2] tiles of a [Water Tower]>",
 			"[+1 Gold, +1 Culture] <within [2] tiles of a [Water Tower]> <after adopting [Safety Checks]>",
 			"[+2 Culture] <within [2] tiles of a [Industrial Complex]>",
@@ -667,6 +665,8 @@
 			"[+1 Gold, +1 Culture] <within [2] tiles of a [Residential]> <after adopting [Safety Checks]>",
 			"[+1 Gold, +1 Culture] <within [2] tiles of a [Citadel]>",
 			"[+1 Gold, +1 Culture] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
+			"Removes removable features when built",
+			"Gain control over [all] tiles in a [1]-tile radius",
 			"Pillaging this improvement yields approximately [+20 Gold]",
 			"Tile provides yield without assigned population",
 			"Will not be replaced by automated units"
@@ -681,7 +681,6 @@
 		"uniques": [
 			"Great Improvement",
 			"Provides [1] [Engineer Perk] <starting from the [Industrial era]>",
-			"Removes removable features when built",
 			"[+1 Production] <after discovering [Chemistry]>",
 			"[+1 Production] <after discovering [Industrialization]>",
 			"[+1 Food, +1 Production] <within [2] tiles of a [Water Tower]>",
@@ -696,6 +695,7 @@
 			"[+2 Production] <within [2] tiles of a [Citadel]>",
 			"[+2 Production] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
 			"[+2 Production] <within [2] tiles of a [Citadel]> <if [Engineering Corporation] is constructed>",
+			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+20 Gold]",
 			"Tile provides yield without assigned population",
 			"Will not be replaced by automated units"
@@ -709,10 +709,9 @@
 		"gold": 4,
 		"uniques": [
 			"Great Improvement",
+			"Provides [1] [Merchant Perk] <starting from the [Industrial era]>",
 			"[+2 Gold] <after discovering [Economics]>",
 			"[+2 Gold] <after discovering [Scientific Theory]>",
-			"Provides [1] [Merchant Perk] <starting from the [Industrial era]>",
-			"Removes removable features when built",
 			"[+1 Food, +1 Gold] <within [2] tiles of a [Water Tower]>",
 			"[+1 Food, +1 Gold] <within [2] tiles of a [Water Tower]> <after adopting [Safety Checks]>",
 			"[+1 Production, +1 Gold] <within [2] tiles of a [Industrial Complex]>",
@@ -721,6 +720,7 @@
 			"[+2 Gold] <within [2] tiles of a [Residential]> <after adopting [Safety Checks]>",
 			"[+2 Gold] <within [2] tiles of a [Citadel]>",
 			"[+2 Gold] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
+			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+20 Gold]",
 			"Tile provides yield without assigned population",
 			"Will not be replaced by automated units"
@@ -735,7 +735,6 @@
 		"uniques": [
 			"Great Improvement",
 			"Provides [1] [Prophet Perk] <starting from the [Industrial era]>",
-			"Removes removable features when built",
 			"[+1 Food, +1 Faith] <within [2] tiles of a [Water Tower]>",
 			"[+1 Food, +1 Faith] <within [2] tiles of a [Water Tower]> <after adopting [Safety Checks]>",
 			"[+1 Production, +1 Faith] <within [2] tiles of a [Industrial Complex]>",
@@ -744,6 +743,7 @@
 			"[+1 Gold, +1 Faith] <within [2] tiles of a [Residential]> <after adopting [Safety Checks]>",
 			"[+1 Gold, +1 Faith] <within [2] tiles of a [Citadel]>",
 			"[+1 Gold, +1 Faith] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
+			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+20 Gold]",
 			"Tile provides yield without assigned population",
 			"Will not be replaced by automated units"
@@ -760,11 +760,11 @@
 			"Provides [1] [General Perk] <starting from the [Industrial era]>",
 			"[+1 Happiness, +1 Production] <after discovering [Metal Casting]>",
 			"[+2 Gold] <after discovering [Banking]>",
-			"Gives a defensive bonus of [125]%",
-			"Adjacent enemy units ending their turn take [30] damage",
+			"Removes removable features when built",
 			"Can be built outside your borders",
 			"Gain control over [all] tiles in a [2]-tile radius",
-			"Removes removable features when built",
+			"Gives a defensive bonus of [125]%",
+			"Adjacent enemy units ending their turn take [30] damage",
 			"Pillaging this improvement yields approximately [+20 Gold]",
 			"Tile provides yield without assigned population",
 			"Will not be replaced by automated units"
