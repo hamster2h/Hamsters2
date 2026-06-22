@@ -537,6 +537,8 @@
 			"[+2 Gold] <within [2] tiles of a [Residential]> <if [World Delivery Company] is constructed>",
 			"[+2 Gold] <within [2] tiles of a [Citadel]>",
 			"[+2 Gold] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
+			"[+2 Gold] <within [2] tiles of a [Citadel]> <after adopting [Startups]>",
+			"[+2 Gold] <within [2] tiles of a [Citadel]> <if [World Delivery Company] is constructed>",
 			"Pillaging this improvement yields approximately [+100 Gold]",
 			"Will not be replaced by automated units"
 		],
