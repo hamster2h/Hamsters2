@@ -754,13 +754,13 @@
 		"terrainsCanBeBuiltOn": [
 			"Land"
 		],
-		"production": 2,
+		"production": 3,
 		"uniques": [
 			"Great Improvement",
 			"Provides [1] [General Perk] <starting from the [Industrial era]>",
 			"Gives a defensive bonus of [125]%",
-			"[+1 Gold] <after discovering [Banking]>",
-			"[+1 Gold] <after discovering [Guilds]>",
+			"[+1 Happiness, +1 Production] <after discovering [Metal Casting]>",
+			"[+2 Gold] <after discovering [Banking]>",
 			"Adjacent enemy units ending their turn take [30] damage",
 			"Can be built outside your borders",
 			"Gain control over [all] tiles in a [2]-tile radius",
