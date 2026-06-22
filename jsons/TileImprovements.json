@@ -789,8 +789,8 @@
 			"[+1 Culture, +1 Science] <within [2] tiles of a [Residential]> <after adopting [Safety Checks]>",
 			"[+1 Production, +1 Science] <within [2] tiles of a [Citadel]>",
 			"[+1 Production, +1 Science] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
-			"Pillaging this improvement yields approximately [+40 Gold]",
 			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+40 Gold]",
 			"Tile provides yield without assigned population",
 			"Will not be replaced by automated units"
 		]
