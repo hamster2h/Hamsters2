@@ -911,7 +911,7 @@
 			"Land"
 		],
 		"uniques": [
-			"Ensures a minimum tile yield of [+3 Food, +1 Production]",
+			"Ensures a minimum tile yield of [+3 Food, +2 Production]",
             "Unpillagable",
 			"Irremovable",
 			"Unbuildable",
