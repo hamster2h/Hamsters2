@@ -363,9 +363,9 @@
 	{
 		"name": "Swarm Drone",
 		"unitType": "Helicopter",
-		"movement": 12,
+		"movement": 8,
 		"strength": 90,
-		"cost": 2000,
+		"cost": 1500,
 		"requiredTech": "World Alliance",
 		"uniques": [
 			"Cyber",
