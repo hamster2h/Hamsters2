@@ -344,10 +344,12 @@
 		"cost": 2500,
 		"requiredTech": "Computers",
 		"uniques": [
+			"Cyber",
 			"Intel2",
+			"[+2] Sight",
 			"Comment [+2 Range to adjacent Siege and Ranged Water Units]",
 			"[+33]% Strength bonus for [Siege] units within [1] tiles",
-			"[+2] Sight",
+			"Can carry [4] [Guided Missile] units",
 			"No defensive terrain bonus",
 			"Ignores Zone of Control",
 			"Never appears as a Barbarian unit",
@@ -357,6 +359,28 @@
 			"Support Unit",
 			"Hovering"
 		]
+	},
+	{
+		"name": "Swarm Drone",
+		"unitType": "Helicopter",
+		"movement": 12,
+		"strength": 90,
+		"cost": 2000,
+		"requiredTech": "World Alliance",
+		"uniques": [
+			"Cyber",
+			"Intel",
+			"[+1] Sight",
+			"Can only attack [Land] tiles",
+			"Self-destructs when attacking",
+			"Can move immediately once bought",
+			"[+100]% Strength <vs [Gunpowder] units> <when attacking>",
+			"Can only be built <in cities with a [Nano-Factory]>"
+		],
+		"promotions": [
+			"Hovering"
+		],
+		"attackSound": "tankshot"
 	},
 	{
 		"name": "Catapult",
@@ -1537,7 +1561,26 @@
 			"Can transform to [SSKE Strike]",
 			"Can only be built <in cities with a [Spaceship Factory]>"
 		],
-		"attackSound": "missile"
+		"attackSound": "nuke"
+	},
+	{
+		"name": "World Ender",
+		"unitType": "Big Missile",
+		"movement": 1,
+		"strength": 1000,
+		"rangedStrength": 1000,
+		"range": 14,
+		"cost": 500000,
+		"requiredTech": "Particle Physics",
+		"uniques": [
+			"Space",
+			"[-100]% maintenance costs",
+			"Nuclear weapon of Strength [4]",
+			"Blast radius [200]",
+			"Unavailable <for [AI player] Civilizations> <hidden from users>",
+			"Can only be built <in cities with a [Spaceship Factory]>"
+		],
+		"attackSound": "nuke"
 	},
 	{
 		"name": "Great War Bomber",
