@@ -2096,13 +2096,6 @@ UnitIcons/Drone
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Swarm Drone
-  rotate: false
-  xy: 4, 1428
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
 UnitIcons/Energy Infantry - SPECTRE
   rotate: false
   xy: 1700, 1728
@@ -2377,6 +2370,13 @@ UnitIcons/Supply Agent
   offset: 0, 0
   index: -1
 UnitIcons/Synthethic Plant
+  rotate: false
+  xy: 436, 1104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Swarm Drone
   rotate: false
   xy: 436, 1104
   size: 100, 100
