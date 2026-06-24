@@ -371,7 +371,7 @@
 			"Can only attack [Land] tiles",
 			"Self-destructs when attacking",
 			"Can move immediately once bought",
-			"[+100]% Strength <vs [Gunpowder] units> <when attacking>",
+			"[+25]% Strength <when adjacent to a [Bio Drone] unit>",
 			"Can only be built <in cities with a [Bio Facility]>"
 		],
 		"promotions": [
