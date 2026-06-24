@@ -1575,8 +1575,8 @@
 		"uniques": [
 			"Space",
 			"[-100]% maintenance costs",
-			"Nuclear weapon of Strength [3]",
-			"Blast radius [3]",
+			"Nuclear weapon of Strength [4]",
+			"Blast radius [200]",
 			"Unavailable <for [AI player] Civilizations> <hidden from users>",
 			"Can only be built <in cities with a [Spaceship Factory]>"
 		],
