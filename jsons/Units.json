@@ -368,9 +368,6 @@
 		"cost": 1500,
 		"requiredTech": "Metagenetics",
 		"uniques": [
-			"Cyber",
-			"Intel",
-			"[+1] Sight",
 			"Can only attack [Land] tiles",
 			"Self-destructs when attacking",
 			"Can move immediately once bought",
