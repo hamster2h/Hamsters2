@@ -2271,6 +2271,13 @@ UnitIcons/Raven Fighter
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/World Ender
+  rotate: false
+  xy: 328, 464
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/SSKE Strike
   rotate: false
   xy: 328, 464
