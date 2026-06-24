@@ -1557,13 +1557,6 @@ TileSets/FantasyHex/Units/Drone
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Swarm Drone
-  rotate: false
-  xy: 4, 4
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
 TileSets/FantasyHex/Units/Energy Infantry - SPECTRE
   rotate: false
   xy: 1438, 1256
@@ -1583,6 +1576,13 @@ TileSets/FantasyHex/Units/Stealth Helicopter
   xy: 1518, 1256
   size: 32, 32
   orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Bio Drone
+  rotate: false
+  xy: 4, 4
+  size: 32, 28
+  orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Future Soldier
@@ -1719,6 +1719,13 @@ TileSets/FantasyHex/Units/Supply Agent
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Synthethic Plant
+  rotate: false
+  xy: 1438, 1216
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Swarm Drone
   rotate: false
   xy: 1438, 1216
   size: 32, 32
