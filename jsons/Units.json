@@ -361,12 +361,12 @@
 		]
 	},
 	{
-		"name": "Swarm Drone",
+		"name": "Bio Drone",
 		"unitType": "Helicopter",
 		"movement": 8,
 		"strength": 90,
 		"cost": 1500,
-		"requiredTech": "World Alliance",
+		"requiredTech": "Metagenetics",
 		"uniques": [
 			"Cyber",
 			"Intel",
@@ -375,7 +375,7 @@
 			"Self-destructs when attacking",
 			"Can move immediately once bought",
 			"[+100]% Strength <vs [Gunpowder] units> <when attacking>",
-			"Can only be built <in cities with a [Nano-Factory]>"
+			"Can only be built <in cities with a [Bio Facility]>"
 		],
 		"promotions": [
 			"Hovering"
