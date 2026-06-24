@@ -1725,7 +1725,7 @@ TileSets/FantasyHex/Units/Synthethic Plant
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Swarm Drone
+TileSets/FantasyHex/Units/Bio Drone
   rotate: false
   xy: 1438, 1216
   size: 32, 32
@@ -2376,7 +2376,7 @@ UnitIcons/Synthethic Plant
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Swarm Drone
+UnitIcons/Bio Drone
   rotate: false
   xy: 436, 1104
   size: 100, 100
