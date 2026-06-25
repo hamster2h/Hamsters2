@@ -167,8 +167,8 @@
 		"leaderName": "Ashurbanipal",
 		"adjective": ["Assyrian"],
 		"startBias": [
-			"Avoid [Coast]",
-			"Avoid [Tundra]"
+			"Avoid [Tundra]",
+			"Avoid [Coast]"
 		],
 		"preferredVictoryType": "Domination",
 		"personality": "Ashurbanipal",
@@ -203,8 +203,8 @@
 		"leaderName": "Henry Parkes",
 		"adjective": ["Australian"],
 		"startBias": [
-			"Coast",
-			"Desert"
+			"Desert",
+			"Coast"
 		],
 		"preferredVictoryType": "Cultural",
 		"personality" :"Henry Parkes",
@@ -225,7 +225,8 @@
 			"[+1 Faith] from [Desert] tiles without [Flood plains] [in all cities]",
 			"[+5 Faith] from [Natural Wonder] tiles [in all cities]",
 			"Gain [200] [Faith] <upon discovering a Natural Wonder>",
-			"[+300]% [Iron] resource production"
+			"[+300]% [Iron] resource production",
+			"[+2 Gold] from [Mine] tiles [in all cities]"
 		],
 		"cities": [
 			"Canberra","Sydney","Melbourne","Brisbane","Gold Coast","Adelaide","Perth","Newcastle","Sunshine Coast","Wollongong",
