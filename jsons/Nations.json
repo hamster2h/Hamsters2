@@ -1291,7 +1291,8 @@
 		"uniqueName": "Heart of Africa",
 		"uniques": [
 			"[+3 Culture] from [Jungle] tiles [in all cities]",
-			"Gain a free [Slave Market] [in all cities]"
+			"Gain a free [Barracks] [in all cities]",
+			"All newly-trained [Land] units [in all cities] receive the [Ngao Kongo] promotion"
 		],
 		"cities": [
 			"M'banza-Kongo","M'banza-Ngungu","M'banza-Nsundi","M'banza-Mbata","M'banza-Bakwanga","M'banza-Mpangu","M'banza-Wembo","M'banza-Lovata","M'banza-Mbumbi","M'banza-Mbamba",
