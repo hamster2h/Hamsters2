@@ -927,6 +927,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Furor Teutonicus",
 		"uniques": [
+			"Adopt [Fascism] <upon entering the [Industrial era]>",
 			"When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [67]% chance>",
 			"[-25]% maintenance costs <for [Land] units>",
 			"[+1 Production] from every specialist [in all cities]"
@@ -2158,7 +2159,8 @@
         "uniqueName": "Tam Giao",
         "uniques": [
             "[+3 Food] from [Marsh] tiles [in all cities]",
-			"[+1 Food, +3 Faith] from [Jungle] tiles [in all cities]"
+			"[+1 Food, +3 Faith] from [Jungle] tiles [in all cities]",
+			"[+1 Production] from [Farm] tiles [in all cities]"
         ],
         "cities": [
             "Hà Noi","Thành Pho Ho Chí Minh","Hai Phòng","Thành Pho Hue","Can Tho","Dà Nang","Biên Hòa","Phan Rang","Quang Ngãi","Quang Ninh",
