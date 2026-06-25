@@ -2557,6 +2557,7 @@
 	{
 		"name": "Ngao Mbeba",
 		"uniqueTo": "Kongo",
+		"replaces": "Swordsman",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 16,
