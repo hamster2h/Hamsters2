@@ -306,9 +306,9 @@
 		"requiredResource": "Coal",
 		"uniques": [
 			"Intel",
+			"[+1] Sight",
 			"Comment [+1 Range to adjacent Siege and Ranged Water Units]",
 			"[+20]% Strength bonus for [Siege] units within [1] tiles",
-			"[+1] Sight",
 			"No defensive terrain bonus",
 			"Ignores Zone of Control",
 			"Never appears as a Barbarian unit"
@@ -1245,6 +1245,7 @@
 		"uniques": [
 			"Cyber",
 			"Consumes [2] [Aluminum]",
+			"[+2] Sight",
 			"Can carry [8] [Missile] units",
 			"Can carry [4] extra [Missile] units <after adopting [Order]>",
 			"[95]% chance to intercept air attacks",
@@ -1258,8 +1259,7 @@
 		],
 		"promotions": [
 			"Armor Plating I",
-			"Indirect Fire",
-			"Sentry"
+			"Indirect Fire"
 		],
 		"attackSound": "shipguns"
 	},
