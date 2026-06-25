@@ -1561,25 +1561,6 @@
 		"attackSound": "nuke"
 	},
 	{
-		"name": "World Ender",
-		"unitType": "Big Missile",
-		"movement": 1,
-		"strength": 1000,
-		"rangedStrength": 1000,
-		"range": 14,
-		"cost": 500000,
-		"requiredTech": "Particle Physics",
-		"uniques": [
-			"Space",
-			"[-100]% maintenance costs",
-			"Nuclear weapon of Strength [4]",
-			"Blast radius [200]",
-			"Unavailable <for [AI player] Civilizations> <hidden from users>",
-			"Can only be built <in cities with a [Spaceship Factory]>"
-		],
-		"attackSound": "nuke"
-	},
-	{
 		"name": "Great War Bomber",
 		"unitType": "Bomber",
 		"movement": 1,
