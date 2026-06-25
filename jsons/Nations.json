@@ -379,8 +379,8 @@
 		"leaderName": "Leopold II",
 		"adjective": ["Belgian"],
 		"startBias": [
-			"Avoid [Coast]",
-			"Grassland"
+			"Grassland",
+			"Avoid [Coast]"
 		],
 		"preferredVictoryType": "Diplomatic",
 		"personality": "Leopold II",
@@ -416,8 +416,8 @@
 		"leaderName": "Pedro II",
 		"adjective": ["Brazilian"],
 		"startBias": [
-			"Avoid [Coast]",
-			"Jungle"
+			"Jungle",
+			"Avoid [Coast]"
 		],
 		"preferredVictoryType": "Cultural",
 		"personality": "Pedro II",
@@ -1117,8 +1117,8 @@
 		"leaderName": "Michael Collins",
 		"adjective": ["Irish"],
 		"startBias": [
-			"Avoid [Coast]",
-			"Hill"
+			"Hill",
+			"Avoid [Coast]"
 		],
 		"preferredVictoryType": "Diplomatic",
 		"personality": "Michael Collins",
@@ -1505,8 +1505,8 @@
         "leaderName": "Casimir III",
         "adjective": ["Polish"],
         "startBias": [
-			"Avoid [Coast]",
-			"Plains"
+			"Plains",
+			"Avoid [Coast]"
 		],
         "preferredVictoryType": "Domination",
         "personality": "Casimir III",
