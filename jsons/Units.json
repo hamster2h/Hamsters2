@@ -2071,12 +2071,12 @@
 		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
 		"uniques": [
+			"[+2] Sight",
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[+100]% Strength <vs cities> <when attacking>",
 			"[+60]% Strength <after discovering [Military Science]>",
-			"Founds a new city <on foreign continents>",
-			"[+2] Sight"
+			"Founds a new city <on foreign continents>"
 		],
 		"promotions": [
 			"[Conquistador] ability"
