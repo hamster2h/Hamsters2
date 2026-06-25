@@ -111,9 +111,9 @@
 		"favoredReligion": "Islam",
 		"uniqueName": "Trade Caravans",
 		"uniques": [
-			"[+1 Gold] from each Trade Route",
-			"[+10]% Spread Religion Strength",
-			"[+300]% [Oil] resource production",
+			"[+2 Gold] from each Trade Route",
+			"[+25]% Spread Religion Strength",
+			"[+1500]% [Oil] resource production",
 			"Starts with [Monarchy] adopted"
 		],
 		"cities": [
