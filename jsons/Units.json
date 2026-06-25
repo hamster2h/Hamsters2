@@ -18,24 +18,7 @@
 		"promotions": [
 			"Great Generals II"
 		],
-		"hurryCostModifier": 20,
 		"attackSound": "elephant"
-	},
-	{
-		"name": "Turtle Ship",
-		"uniqueTo": "Korea",
-		"unitType": "Melee Water",
-		"movement": 4,
-		"strength": 36,
-		"cost": 300,
-		"requiredTech": "Astronomy",
-		"upgradesTo": "Ironclad",
-		"obsoleteTech": "Combustion",
-		"uniques": [
-			"Cannot enter ocean tiles"
-		],
-		"hurryCostModifier": 30,
-		"attackSound": "cannon"
 	},
 	{
 		"name": "Settler",
@@ -47,8 +30,7 @@
 			"Founds a new city <by consuming this unit>",
 			"Excess Food converted to Production when under construction",
 			"Requires at least [2] population"
-		],
-		"hurryCostModifier": 20
+		]
 	},
 	{
 		"name": "Worker",
@@ -207,15 +189,15 @@
 		"strength": 10,
 		"cost": 1500,
 		"requiredTech": "The Internet",
-		"promotions": [
-			"Support Unit"
-		],
 		"uniques": [
 			"Cyber",
 			"Hacker",
 			"Comment [+33% Strength for some adjacent Units vs Cyber Units]",
 			"Comment [25% chance for some adjacent units to capture killed Cyber Units]",
 			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Support Unit"
 		]
 	},
 	{
@@ -391,13 +373,12 @@
 		"upgradesTo": "Trebuchet",
 		"obsoleteTech": "Physics",
 		"uniques": [
-			"[+400]% Strength <vs cities> <when attacking>",
-			"No defensive terrain bonus",
-			"Must set up to ranged attack",
 			"[-1] Sight",
+			"[+400]% Strength <vs cities> <when attacking>",
+			"Must set up to ranged attack",
+			"No defensive terrain bonus",
 			"Never appears as a Barbarian unit"
 		],
-		"hurryCostModifier": 20,
 		"attackSound": "throw"
 	},
 	{
@@ -414,11 +395,10 @@
 		"upgradesTo": "Trebuchet",
 		"obsoleteTech": "Physics",
 		"uniques": [
+			"[-1] Sight",
 			"[+400]% Strength <vs cities> <when attacking>",
-			"No defensive terrain bonus",
-			"[-1] Sight"
+			"No defensive terrain bonus"
 		],
-		"hurryCostModifier": 20,
 		"attackSound": "crossbow"
 	},
 	{
@@ -432,11 +412,11 @@
 		"upgradesTo": "Trebuchet",
 		"obsoleteTech": "Physics",
 		"uniques": [
-			"[+350]% Strength <vs cities> <when attacking>",
-			"No defensive terrain bonus",
-			"[-33]% Strength <when defending>",
 			"[-1] Sight",
-			"Can only attack [City] units"
+			"[-33]% Strength <when defending>",
+			"[+350]% Strength <vs cities> <when attacking>",
+			"Can only attack [City] units",
+			"No defensive terrain bonus"
 		],
 		"promotions":  [
 			"Cover I"
@@ -454,14 +434,13 @@
 		"upgradesTo": "Trebuchet",
 		"obsoleteTech": "Physics",
 		"uniques": [
-			"[+350]% Strength <vs cities> <when attacking>",
 			"[-1] Sight",
+			"[+350]% Strength <vs cities> <when attacking>",
 			"Can only attack [City] units"
 		],
 		"promotions": [
 			"Cover I"
 		],
-		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
 	{
@@ -476,10 +455,10 @@
 		"upgradesTo": "Cannon",
 		"obsoleteTech": "Chemistry",
 		"uniques": [
-			"[+400]% Strength <vs cities> <when attacking>",
-			"No defensive terrain bonus",
-			"Must set up to ranged attack",
 			"[-1] Sight",
+			"[+400]% Strength <vs cities> <when attacking>",
+			"Must set up to ranged attack",
+			"No defensive terrain bonus",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "throw"
@@ -497,8 +476,8 @@
 		"upgradesTo": "Cannon",
 		"obsoleteTech": "Chemistry",
 		"uniques": [
-			"No defensive terrain bonus",
-			"Must set up to ranged attack"
+			"Must set up to ranged attack",
+			"No defensive terrain bonus"
 		],
 		"attackSound": "throw"
 	},
@@ -537,10 +516,10 @@
 		"obsoleteTech": "Dynamite",
 		"requiredResource": "Iron",
 		"uniques": [
-			"[+300]% Strength <vs cities> <when attacking>",
-			"No defensive terrain bonus",
-			"Must set up to ranged attack",
 			"[-1] Sight",
+			"[+300]% Strength <vs cities> <when attacking>",
+			"Must set up to ranged attack",
+			"No defensive terrain bonus",
 			"Never appears as a Barbarian unit",
 			"Can only be built <in cities with a [Powder Mill]>"
 		],
@@ -562,10 +541,10 @@
 		"obsoleteTech": "Rocketry",
 		"requiredResource": "Iron",
 		"uniques": [
-			"[+200]% Strength <vs cities> <when attacking>",
-			"No defensive terrain bonus",
-			"Must set up to ranged attack",
 			"[-1] Sight",
+			"[+200]% Strength <vs cities> <when attacking>",
+			"Must set up to ranged attack",
+			"No defensive terrain bonus",
 			"Never appears as a Barbarian unit",
 			"Can only be built <in cities with a [Factory]>"
 		],
@@ -589,8 +568,8 @@
 		"uniques": [
 			"Cyber",
 			"[+200]% Strength <vs cities> <when attacking>",
-			"No defensive terrain bonus",
 			"[+1] Range <after discovering [Advanced Ballistics]>",
+			"No defensive terrain bonus",
 			"Never appears as a Barbarian unit",
 			"Can only be built <in cities with a [Factory]>"
 		],
@@ -1064,7 +1043,6 @@
 			"[+1] Sight",
 			"Withdraws before melee combat <with [80]% chance>"
 		],
-		"hurryCostModifier": 30,
 		"attackSound": "cannon"
 	},
 	{
@@ -1086,7 +1064,24 @@
 			"Withdraws before melee combat <with [80]% chance>",
 			"Can move after attacking"
 		],
-		"hurryCostModifier": 30,
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Turtle Ship",
+		"uniqueTo": "Korea",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 36,
+		"cost": 300,
+		"requiredTech": "Astronomy",
+		"upgradesTo": "Ironclad",
+		"obsoleteTech": "Combustion",
+		"uniques": [
+			"Cannot enter ocean tiles"
+		],
+		"promotions": [
+			"Armor Plating I"
+		],
 		"attackSound": "cannon"
 	},
 	{
@@ -1106,6 +1101,9 @@
 			"[+33]% Strength <vs cities>",
 			"Double movement in [Coast]",
 			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Armor Plating I"
 		],
 		"attackSound": "shipguns"
 	},
@@ -1130,6 +1128,8 @@
 			"[+100]% Strength <vs [Submarine] units>"
 		],
 		"promotions": [
+			"Armor Plating I",
+			"Armor Plating II",
 			"Indirect Fire"
 		],
 		"attackSound": "shipguns"
@@ -1180,7 +1180,6 @@
 		"upgradesTo": "Battleship",
 		"obsoleteTech": "Electronics",
 		"requiredResource": "Iron",
-		"hurryCostModifier": 20,
 		"attackSound": "shipCannonVolley"
 	},
 	{
@@ -1200,15 +1199,14 @@
 		"uniques": [
 			"[+2] Sight"
 		],
-		"hurryCostModifier": 20,
 		"attackSound": "shipCannonVolley"
 	},
 	{
 		"name": "Battleship",
 		"unitType": "Ranged Water",
 		"movement": 6,
-		"strength": 130,
-		"rangedStrength": 130,
+		"strength": 140,
+		"rangedStrength": 140,
 		"range": 5,
 		"interceptRange": 1,
 		"cost": 6250,
@@ -1222,10 +1220,13 @@
 			"[75]% chance to intercept air attacks <after discovering [Ballistics]>",
 			"[1] additional attacks per turn",
 			"Can move after attacking",
-			"[+5] Range <after discovering [Nuclear Fusion]>",
+			"[+7] Range <after discovering [Nuclear Fusion]>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
+			"Armor Plating I",
+			"Armor Plating II",
+			"Armor Plating III",
 			"Indirect Fire"
 		],
 		"attackSound": "shipguns"
@@ -1256,6 +1257,7 @@
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
+			"Armor Plating I",
 			"Indirect Fire",
 			"Sentry"
 		],
@@ -1348,10 +1350,10 @@
 			"Cyber",
 			"Consumes [2] [Iron]",
 			"Can carry [4] [Aircraft] units",
-			"Unavailable <for [AI player] Civilizations> <hidden from users>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
+			"Armor Plating I",
 			"Medic"
 		]
 	},
@@ -1360,7 +1362,7 @@
 		"uniqueTo": "America",
 		"replaces": "Carrier",
 		"unitType": "Aircraft Carrier",
-		"movement": 7,
+		"movement": 6,
 		"strength": 90,
 		"cost": 7000,
 		"requiredTech": "Nuclear Fission",
@@ -1372,13 +1374,13 @@
 			"[+2] Sight",
 			"Can see invisible [All] units",
 			"Double movement in [Ocean]",
-			"Unavailable <for [AI player] Civilizations> <hidden from users>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
+			"Armor Plating I",
+			"Armor Plating II",
 			"Medic",
 			"Medic II",
-			"Armor Plating I",
 			"Supply"
 		]
 	},
@@ -1977,7 +1979,6 @@
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities> <when attacking>"
 		],
-		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
 	{
@@ -2000,7 +2001,6 @@
 		"promotions": [
 			"Great Generals I"
 		],
-		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
 	{
@@ -2019,7 +2019,6 @@
 			"Can move after attacking",
 			"[-25]% Strength <vs cities> <when attacking>"
 		],
-		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
 	{
@@ -2495,7 +2494,6 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
 		"requiredResource": "Iron",
-		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
 	{
@@ -2518,7 +2516,6 @@
 			"Besiege",
 			"March"
 		],
-		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
 	{
@@ -2535,7 +2532,6 @@
 		"promotions": [
 			"Mystic Blade"
 		],
-		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
 	{
@@ -2556,7 +2552,6 @@
 		"promotions": [
 			"[Mohawk Warrior] ability"
 		],
-		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
 	{
@@ -2574,7 +2569,6 @@
 			"[+100]% Strength <when defending> <vs [Ranged] units>",
 			"Cannot attack"
 		],
-		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
 	{
@@ -2608,7 +2602,6 @@
 			"Woodsman",
 			"Besiege"
 		],
-		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
 	{
