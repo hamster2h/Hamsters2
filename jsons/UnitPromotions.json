@@ -997,7 +997,6 @@
 	{
 		"name": "Ngao Kongo",
 		"uniques": [
-			"May enter foreign tiles without open borders",
 			"Invisible to others <when [Wounded]>",
 			"Cannot attack <when [Wounded]>"
 		]
