@@ -129,7 +129,9 @@
 		"name": "Argentina", 
 		"leaderName": "Eva Peron",
 		"adjective": ["Argentine"],
-		"startBias": ["Avoid [Coast]"],
+		"startBias": [
+			"Avoid [Coast]"
+		],
 		"preferredVictoryType": "Scientific",
 		"personality": "Eva Peron",
 
@@ -760,6 +762,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Sun Never Sets",
 		"uniques": [
+			"[+2 Food, +1 Happiness] from [Marsh] tiles [in all cities]",
 			"Gain an extra spy <upon entering the [Renaissance era]>",
 			"Starts with [Naval Tradition] adopted",
 			"Starts with [Autocracy] adopted",
@@ -1698,8 +1701,8 @@
         "leaderName": "Robert the Bruce",
         "adjective": ["Scottish"],
         "startBias": [
-			"Avoid [Coast]",
-			"Hill"
+			"Hill",
+			"Avoid [Coast]"
 		],
         "preferredVictoryType": "Cultural",
         "personality": "Robert the Bruce",
@@ -2134,9 +2137,9 @@
         "leaderName": "Le Loi",
         "adjective": ["Vietnamese"],
         "startBias": [
-			"Avoid [Coast]",
 			"Marsh",
-			"Jungle"
+			"Jungle",
+			"Avoid [Coast]"
 		],
         "preferredVictoryType": "Cultural",
         "personality": "Le Loi",
