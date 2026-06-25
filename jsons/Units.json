@@ -984,10 +984,9 @@
 		"range": 4,
 		"cost": 12000,
 		"requiredTech": "Clean Energy",
-		"requiredResource": "Oil",
+		"requiredResource": "Aluminum",
 		"uniques": [
 			"Cyber",
-			"Consumes [1] [Aluminum]",
 			"[+200]% Strength <vs [Armored] units> <when attacking>"
 		],
 		"promotions": [
