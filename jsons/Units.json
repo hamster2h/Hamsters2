@@ -661,6 +661,7 @@
 		"uniques": [
 			"Cyber",
 			"Anti-Air",
+			"Can carry [1] [AM Missiles] units",
 			"Comment [+33% Strength to adjacent Land Units vs Air Units]",
 			"[90]% chance to intercept air attacks",
 			"[1] extra interceptions may be made per turn",
@@ -686,6 +687,7 @@
 			"Cyber",
 			"Anti-Air",
 			"Consumes [1] [Composites]",
+			"Can carry [1] [AM Missiles] units",
 			"Comment [+33% Strength to adjacent Land Units vs Air Units]",
 			"[95]% chance to intercept air attacks",
 			"[1] extra interceptions may be made per turn",
