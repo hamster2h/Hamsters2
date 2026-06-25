@@ -179,10 +179,11 @@
 		"terrainsCanBeBuiltOn": [
 			"Hill"
 		],
-		"production": 2,
+		"production": 1,
 		"turnsToBuild": 10,
 		"techRequired": "Mining",
 		"uniques": [
+			"[+1 Production] <after discovering [Iron Working]>",
 			"[+1 Production] <after discovering [Chemistry]>",
 			"[+1 Production] <after discovering [Industrialization]>",
 			"[+1 Production, +1 Gold] <within [2] tiles of a [Water Tower]>",
