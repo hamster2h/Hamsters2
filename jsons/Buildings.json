@@ -1175,8 +1175,8 @@
 		"maintenance": 1,
 		"uniques": [
 			"[+1 Food] from [Farm] tiles [in this city]",
-			"[+1 Food] from [{improved} {Bananas}] tiles [in this city]",
-			"[+1 Food] from [{improved} {Deer}] tiles [in this city]"
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Deer] tiles [in this city]"
 		],
 		"hurryCostModifier": 25,
 		"requiredTech": "Pottery"
@@ -1511,7 +1511,7 @@
 			"Scientist": 1
 		},
         "uniques": [
-			"[+2 Happiness] from [{improved} {Citrus}] tiles [in this city]"
+			"[+2 Happiness] from [Citrus] tiles [in this city]"
 		],
         "requiredBuilding": "Small Park",
         "requiredTech": "Biology"
