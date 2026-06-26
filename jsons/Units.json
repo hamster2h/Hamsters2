@@ -2589,7 +2589,7 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
 		"uniques": [
-			"[+100]% Strength <when defending> <vs [Ranged] units>",
+			"[+100]% Strength <vs [Ranged] units>",
 			"Cannot attack"
 		],
 		"attackSound": "metalhit"
