@@ -348,7 +348,7 @@
 		},
 		"uniques": [
 			"Provides 1 extra copy of each improved luxury resource near this City",
-			"[+8 Gold] from [{improved} {Oil}] tiles [in this city]",
+			"[+8 Gold] from [Oil] tiles [in this city]",
 			"[+2 Gold] from [Oasis] tiles [in this city]"
 		],
 		"hurryCostModifier": 25,
@@ -1249,10 +1249,10 @@
         "cost": 100,
         "maintenance": 2,
         "uniques": [
-			"[+1 Food] from [{improved} {Sheep}] tiles [in this city]",
-			"[+1 Food] from [{improved} {Cattle}] tiles [in this city]",
-			"[+1 Food] from [{improved} {Deer}] tiles [in this city]",
-			"[+1 Food] from [{improved} {Horses}] tiles [in this city]"
+			"[+1 Food] from [Sheep] tiles [in this city]",
+			"[+1 Food] from [Cattle] tiles [in this city]",
+			"[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Horses] tiles [in this city]"
 		],
         "requiredBuilding": "Slaughterhouse",
         "requiredNearbyImprovedResources": [
@@ -1307,7 +1307,7 @@
 		},
         "maintenance": 2,
 		"uniques": [
-			"[+2 Gold, +1 Food] from [{improved} {Sugar}] tiles [in this city]"
+			"[+2 Gold, +1 Food] from [Sugar] tiles [in this city]"
 		],
         "requiredBuilding": "Workshop",
         "requiredTech": "Industrialization"
@@ -1321,8 +1321,8 @@
         "uniques": [
 			"Must have an owned [Forest] within [2] tiles",
 			"Must have an owned [Jungle] within [2] tiles",
-			"[+2 Science] from [{improved} {Wine}] tiles [in this city]",
-			"[+2 Science] from [{improved} {Spices}] tiles [in this city]",
+			"[+2 Science] from [Wine] tiles [in this city]",
+			"[+2 Science] from [Spices] tiles [in this city]",
 			"All newly-trained [Melee] units [in this city] receive the [Organic Remedies] promotion"
 		]
     },
@@ -1397,11 +1397,11 @@
 		"production": 4,
 		"maintenance": 3,
 		"uniques": [
-			"[+2 Production] from [{improved} {Iron}] tiles [in this city]",
-			"[+2 Production] from [{improved} {Aluminum}] tiles [in this city]",
-			"[+1 Production, +1 Gold] from [{improved} {Gold Ore}] tiles [in this city]",
-			"[+1 Production, +1 Gold] from [{improved} {Silver}] tiles [in this city]",
-			"[+2 Production] from [{improved} {Copper}] tiles [in this city]"
+			"[+2 Production] from [Iron] tiles [in this city]",
+			"[+2 Production] from [Aluminum] tiles [in this city]",
+			"[+1 Production, +1 Gold] from [Gold Ore] tiles [in this city]",
+			"[+1 Production, +1 Gold] from [Silver] tiles [in this city]",
+			"[+2 Production] from [Copper] tiles [in this city]"
 		],
 		"requiredTech": "Metal Casting"
 	},
