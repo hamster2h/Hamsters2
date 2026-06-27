@@ -84,9 +84,8 @@
 	{
 		"name": "Farm",
 		"terrainsCanBeBuiltOn": [
-			"Plains",
 			"Grassland",
-			"Desert",
+			"Plains",
 			"Flood plains"
 		],
 		"food": 1,
