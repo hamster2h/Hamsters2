@@ -89,13 +89,13 @@
 			"Desert",
 			"Flood plains"
 		],
-		"food": 2,
+		"food": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
 		"uniques": [
 			"Can also be built on tiles adjacent to fresh water",
-			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
-			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+			"[+1 Food] from [Fresh water] tiles",
+			"[+1 Food] <after discovering [Fertilizer]>",
 			"[+2 Food] <within [2] tiles of a [Water Tower]>",
 			"[+2 Food] <within [2] tiles of a [Water Tower]> <after adopting [Safety Checks]>",
 			"[+1 Food, +1 Production] <within [2] tiles of a [Industrial Complex]>",
@@ -206,9 +206,9 @@
 		"turnsToBuild": 8,
 		"techRequired": "Masonry",
 		"uniques": [
+			"Can only be built to improve a resource",
 			"[+1 Production] <after discovering [Chemistry]>",
 			"[+1 Production] <after discovering [Industrialization]>",
-			"Can only be built to improve a resource",
 			"[+1 Production, +1 Gold] <within [2] tiles of a [Water Tower]>",
 			"[+1 Production, +1 Gold] <within [2] tiles of a [Water Tower]> <after adopting [Safety Checks]>",
 			"[+1 Production, +1 Gold] <within [2] tiles of a [Water Tower]> <if [Engineering Corporation] is constructed>",
