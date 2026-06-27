@@ -927,7 +927,7 @@
 		"production": 1,
 		"food": 3,
 		"uniques": [
-			"Can only be built on [non-{resource}] tiles",
+			"Can only be built on [non-[resource]] tiles",
             "Unpillagable",
 			"Irremovable",
 			"Unbuildable",
