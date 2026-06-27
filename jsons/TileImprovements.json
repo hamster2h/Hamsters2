@@ -255,14 +255,14 @@
 	{
 		"name": "Trading post",
 		"terrainsCanBeBuiltOn": [
-			"Plains",
 			"Grassland",
-			"Desert",
-			"Hill",
+			"Plains",
 			"Tundra",
+			"Desert",
+			"Flood plains",
 			"Forest",
 			"Jungle",
-			"Flood plains"
+			"Hill"
 		],
 		"gold": 2,
 		"turnsToBuild": 7,
@@ -339,8 +339,8 @@
 	{
 		"name": "Solar Farm",
 		"terrainsCanBeBuiltOn": [
-			"Plains",
 			"Grassland",
+			"Plains",
 			"Desert",
 			"Tundra",
 			"Snow"
@@ -373,7 +373,6 @@
 		"terrainsCanBeBuiltOn": [
 			"Hill",
 			"Tundra",
-			"Flood plains",
 			"Forest",
 			"Jungle"
 		],
@@ -925,8 +924,10 @@
 		"terrainsCanBeBuiltOn": [
 			"Land"
 		],
+		"production": 1,
+		"food": 3,
 		"uniques": [
-			"Ensures a minimum tile yield of [+3 Food, +1 Production]",
+			"Can only be built on [non-{resource}] tiles",
             "Unpillagable",
 			"Irremovable",
 			"Unbuildable",
