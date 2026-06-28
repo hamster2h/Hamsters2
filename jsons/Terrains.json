@@ -353,6 +353,31 @@
 		]
 	},
 	{
+		"name": "Fallout",
+		"type": "TerrainFeature",
+		"movementCost": 2,
+		"unbuildable": true,
+		"occursOn": [
+			"Grassland",
+			"Plains",
+			"Desert",
+			"Tundra",
+			"Snow",
+			"Forest",
+			"Jungle",
+			"Hill",
+			"Flood plains",
+			"Marsh",
+			"Oasis"
+		],
+		"uniques": [
+			"Nullifies all other stats this tile provides",
+			"Doesn't generate naturally",
+			"Units ending their turn on this terrain take [75] damage"
+		],
+		"defenceBonus": -0.15
+	},
+	{
 		"name": "Alien Monolith",
 		"type": "NaturalWonder",
 		"culture": 4,
