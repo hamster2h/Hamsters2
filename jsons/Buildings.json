@@ -1657,19 +1657,20 @@
 		"name": "Research City",
 		"maintenance": 200,
 		"percentStatBonus": {
-			"science": 200,
-			"gold": -100,
-			"culture": -100,
-			"production": -100
+			"science": 100
 		},
 		"specialistSlots": {
-			"Scientist": 10
+			"Scientist": 8
 		},
 		"requiredBuilding": "University",
 		"requiredTech": "Scientific Theory",
 		"uniques": [
 			"Consumes [30] [Power]",
-			"[+2 Science] per [1] population [in this city]"
+			"[+2 Science] per [1] population [in this city]",
+			"Nullifies [Gold] [in this city]",
+			"Nullifies [Production] [in this city]",
+			"Nullifies [Culture] [in this city]",
+			"Unavailable <for [AI player] Civilizations>"
 		]
 	},
 	{
