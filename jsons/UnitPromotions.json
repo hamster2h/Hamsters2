@@ -791,7 +791,7 @@
 	{
 		"name": "Air Targeting I",
 		"uniques": [
-			"[+33]% Strength <vs [Water] units>",
+			"[+50]% Strength <vs [Water] units>",
 			"[-100]% weight to this choice for AI decisions"
 		],
 		"unitTypes": [
@@ -809,7 +809,7 @@
 			"Air Targeting I"
 		],
 		"uniques": [
-			"[+33]% Strength <vs [Water] units>"
+			"[+50]% Strength <vs [Water] units>"
 		],
 		"unitTypes": [
 			"Fighter",
