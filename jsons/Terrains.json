@@ -319,7 +319,8 @@
 		"uniques": [
 			"Always Fertility [5] for Map Generation",
 			"Considered [Food] when determining start locations",
-			"Considered [Desirable] when determining start locations"
+			"Considered [Desirable] when determining start locations",
+			"Units ending their turn on this terrain take [-33] damage"
 		]
 	},
 	{
