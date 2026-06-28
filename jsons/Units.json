@@ -1579,6 +1579,7 @@
 			"[-100]% maintenance costs",
 			"Nuclear weapon of Strength [4]",
 			"Blast radius [200]",
+			"Triggers a global alert upon build start",
 			"Can only be built <in cities with a [Spaceship Factory]>"
 		],
 		"attackSound": "nuke"
