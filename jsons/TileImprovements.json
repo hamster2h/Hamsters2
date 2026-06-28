@@ -67,7 +67,6 @@
 			"Grassland",
 			"Desert",
 			"Hill",
-			"Mountain",
 			"Tundra",
 			"Snow",
 			"Forest",
@@ -926,6 +925,7 @@
 		"production": 1,
 		"food": 3,
 		"uniques": [
+			"Turn this tile into a [Plains] tile",
             "Unpillagable",
 			"Irremovable",
 			"Unbuildable",
@@ -935,5 +935,20 @@
 			{"text":"Marks the center of a city"},
 			{"text":"Appearance changes with the technological era of the owning civilization"}
 		]
+	},
+	{
+		"name": "Barbarian encampment",
+		"terrainsCanBeBuiltOn": [
+			"Grassland",
+			"Plains",
+			"Flood plains"
+		],
+		"uniques": [
+			"Unpillagable",
+			"Unbuildable",
+			"Excluded from map editor",
+			"Marks a barbarian camp"
+		],
+        "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
 	}
 ]
