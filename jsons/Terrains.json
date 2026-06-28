@@ -94,7 +94,8 @@
             "Considered [Food] when determining start locations <in [Tundra] Regions>",
             "Considered [Desirable] when determining start locations <in [Tundra] Regions>",
             "Becomes [Plains] when adjacent to [River]",
-            "Every [16] tiles with this terrain will receive a major deposit of a strategic resource."
+            "Every [16] tiles with this terrain will receive a major deposit of a strategic resource.",
+			"Units ending their turn on this terrain take [25] damage"
 		]
 	},
 	{
@@ -112,7 +113,8 @@
             "A Region is formed with at least [25]% [Desert] tiles, with priority [4]",
             "Becomes [Flood plains] when adjacent to [River]",
             "Considered [Undesirable] when determining start locations <in all except [Desert] Regions>",
-            "Every [13] tiles with this terrain will receive a major deposit of a strategic resource."
+            "Every [13] tiles with this terrain will receive a major deposit of a strategic resource.",
+			"Units ending their turn on this terrain take [33] damage"
 		]
 	},
 	{
@@ -148,7 +150,8 @@
             "Has an elevation of [2] for visibility calculations",
             "Occurs in chains at high elevations",
             "Always Fertility [-2] for Map Generation",
-            "Considered [Undesirable] when determining start locations"
+            "Considered [Undesirable] when determining start locations",
+			"Units ending their turn on this terrain take [10] damage"
 		]
 	},
 	{
@@ -166,7 +169,8 @@
             "Considered [Undesirable] when determining start locations",
             "Becomes [Tundra] when adjacent to [River]",
             "Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
-            "Never receives any resources <in [Hill] tiles>"
+            "Never receives any resources <in [Hill] tiles>",
+			"Units ending their turn on this terrain take [50] damage"
 		]
 	},
 	{
@@ -252,7 +256,8 @@
 			"A Region can not contain more [Forest] tiles than [Jungle] tiles",
 			"Considered [Food] when determining start locations <in all except [Grassland] Regions>",
 			"Considered [Desirable] when determining start locations <in all except [Grassland] Regions>",
-			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
+			"Units ending their turn on this terrain take [10] damage"
 		]
 	},
 	{
@@ -269,7 +274,8 @@
 			"Rare feature",
 			"Vegetation",
 			"[-2] to Fertility for Map Generation",
-			"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."
+			"Every [9] tiles with this terrain will receive a major deposit of a strategic resource.",
+			"Units ending their turn on this terrain take [20] damage"
 		],
 		"civilopediaText": [{"text":"Only Polders can be built here", "link":"Improvement/Polder"}]
 	},
@@ -328,7 +334,8 @@
 		"uniques": [
 			"Occurs at temperature between [-1] and [-0.8] and humidity between [0] and [1]",
 			"[-1] to Fertility for Map Generation",
-			"Considered [Undesirable] when determining start locations"
+			"Considered [Undesirable] when determining start locations",
+			"Units ending their turn on this terrain take [50] damage"
 		]
 	},
 	{
