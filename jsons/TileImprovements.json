@@ -76,7 +76,8 @@
 		"techRequired": "Engineering",
 		"uniques": [
 			"Can be built outside your borders",
-			"Gives a defensive bonus of [75]%"
+			"Gives a defensive bonus of [75]%",
+			"Destroyed when pillaged"
 		],
 		"shortcutKey": "O"
 	},
@@ -276,7 +277,8 @@
 			"[+2 Gold] <within [2] tiles of a [Residential]> <after adopting [Safety Checks]>",
 			"[+2 Gold] <within [2] tiles of a [Citadel]>",
 			"[+2 Gold] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
-			"Pillaging this improvement yields approximately [+20 Gold]"
+			"Pillaging this improvement yields approximately [+20 Gold]",
+			"Destroyed when pillaged"
 		],
 		"shortcutKey": "T"
 	},
@@ -300,7 +302,8 @@
 			"[+2 Gold] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
 			"[+2 Gold] <within [2] tiles of a [Citadel]> <if [Engineering Corporation] is constructed>",
 			"Pillaging this improvement yields approximately [+20 Gold]",
-			"Will not be replaced by automated units"
+			"Will not be replaced by automated units",
+			"Destroyed when pillaged"
 		],
 		"shortcutKey": "O"
 	},
@@ -362,7 +365,8 @@
 			"[+2 Production] <within [2] tiles of a [Citadel]>",
 			"[+2 Production] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
 			"[+2 Production] <within [2] tiles of a [Citadel]> <if [Engineering Corporation] is constructed>",
-			"Pillaging this improvement yields approximately [+30 Gold]"
+			"Pillaging this improvement yields approximately [+30 Gold]",
+			"Destroyed when pillaged"
 		],
 		"shortcutKey": "S"
 	},
@@ -393,7 +397,8 @@
 			"[+2 Production] <within [2] tiles of a [Citadel]>",
 			"[+2 Production] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
 			"[+2 Production] <within [2] tiles of a [Citadel]> <if [Engineering Corporation] is constructed>",
-			"Pillaging this improvement yields approximately [+30 Gold]"
+			"Pillaging this improvement yields approximately [+30 Gold]",
+			"Destroyed when pillaged"
 		],
 		"shortcutKey": "W"
 	},
@@ -467,7 +472,8 @@
 			"[+2 Gold] <within [2] tiles of a [Concert Venue]>",
 			"[+2 Gold] <within [2] tiles of a [Concert Venue]> <after adopting [Talent Agencies]>",
 			"[+2 Gold] <within [2] tiles of a [Concert Venue]> <if [Tourism Agency] is constructed>",
-			"Pillaging this improvement yields approximately [+30 Gold]"
+			"Pillaging this improvement yields approximately [+30 Gold]",
+			"Destroyed when pillaged"
 		],
 		"shortcutKey": "H"
 	},
@@ -501,7 +507,8 @@
 			"[+1 Gold, +1 Culture] <within [2] tiles of a [Resort]> <after adopting [Talent Agencies]>",
 			"[+1 Gold, +1 Culture] <within [2] tiles of a [Resort]> <if [Tourism Agency] is constructed>",
 			"Pillaging this improvement yields approximately [+100 Gold]",
-			"Will not be replaced by automated units"
+			"Will not be replaced by automated units",
+			"Destroyed when pillaged"
 		],
 		"shortcutKey": "O"
 	},
@@ -536,7 +543,8 @@
 			"[+2 Gold] <within [2] tiles of a [Citadel]> <if [Engineering Corporation] is constructed>",
 			"[+2 Gold] <within [2] tiles of a [Citadel]> <if [World Delivery Company] is constructed>",
 			"Pillaging this improvement yields approximately [+100 Gold]",
-			"Will not be replaced by automated units"
+			"Will not be replaced by automated units",
+			"Destroyed when pillaged"
 		],
 		"shortcutKey": "O"
 	},
@@ -551,7 +559,8 @@
 			"Comment [Infrastructure]",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+100 Gold]",
-			"Will not be replaced by automated units"
+			"Will not be replaced by automated units",
+			"Destroyed when pillaged"
 		]
 	},
 	{
@@ -574,7 +583,8 @@
 			"[+2 Gold] <within [2] tiles of a [Citadel]>",
 			"[+2 Gold] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
 			"Pillaging this improvement yields approximately [+100 Gold]",
-			"Will not be replaced by automated units"
+			"Will not be replaced by automated units",
+			"Destroyed when pillaged"
 		]
 	},
 	{
@@ -587,7 +597,8 @@
 			"Comment [Infrastructure]",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+100 Gold]",
-			"Will not be replaced by automated units"
+			"Will not be replaced by automated units",
+			"Destroyed when pillaged"
 		],
 		"shortcutKey": "W"
 	},
@@ -601,7 +612,8 @@
 			"Comment [Infrastructure]",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+100 Gold]",
-			"Will not be replaced by automated units"
+			"Will not be replaced by automated units",
+			"Destroyed when pillaged"
 		],
 		"shortcutKey": "I"
 	},
@@ -617,7 +629,8 @@
 			"Comment [Infrastructure]",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+100 Gold]",
-			"Will not be replaced by automated units"
+			"Will not be replaced by automated units",
+			"Destroyed when pillaged"
 		],
 		"shortcutKey": "R"
 	},
@@ -641,7 +654,8 @@
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+20 Gold]",
 			"Tile provides yield without assigned population",
-			"Will not be replaced by automated units"
+			"Will not be replaced by automated units",
+			"Destroyed when pillaged"
 		]
 	},
 	{
@@ -665,7 +679,8 @@
 			"Gain control over [all] tiles in a [1]-tile radius",
 			"Pillaging this improvement yields approximately [+20 Gold]",
 			"Tile provides yield without assigned population",
-			"Will not be replaced by automated units"
+			"Will not be replaced by automated units",
+			"Destroyed when pillaged"
 		]
 	},
 	{
@@ -694,7 +709,8 @@
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+20 Gold]",
 			"Tile provides yield without assigned population",
-			"Will not be replaced by automated units"
+			"Will not be replaced by automated units",
+			"Destroyed when pillaged"
 		]
 	},
 	{
@@ -719,7 +735,8 @@
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+20 Gold]",
 			"Tile provides yield without assigned population",
-			"Will not be replaced by automated units"
+			"Will not be replaced by automated units",
+			"Destroyed when pillaged"
 		]
 	},
 	{
@@ -742,7 +759,8 @@
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+20 Gold]",
 			"Tile provides yield without assigned population",
-			"Will not be replaced by automated units"
+			"Will not be replaced by automated units",
+			"Destroyed when pillaged"
 		]
 	},
 	{
@@ -763,7 +781,8 @@
 			"Adjacent enemy units ending their turn take [30] damage",
 			"Pillaging this improvement yields approximately [+20 Gold]",
 			"Tile provides yield without assigned population",
-			"Will not be replaced by automated units"
+			"Will not be replaced by automated units",
+			"Destroyed when pillaged"
 		]
 	},
 	{
@@ -788,7 +807,8 @@
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+40 Gold]",
 			"Tile provides yield without assigned population",
-			"Will not be replaced by automated units"
+			"Will not be replaced by automated units",
+			"Destroyed when pillaged"
 		]
 	},
 	{
@@ -813,7 +833,8 @@
 			"[+1 Production, +1 Culture] <within [2] tiles of a [Citadel]>",
 			"[+1 Production, +1 Culture] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
 			"Pillaging this improvement yields approximately [+10 Gold]",
-			"Tile provides yield without assigned population"
+			"Tile provides yield without assigned population",
+			"Destroyed when pillaged"
 		],
 		"techRequired": "Masonry",
 		"shortcutKey": "M"
