@@ -1221,6 +1221,7 @@
 			"[1] additional attacks per turn",
 			"Can move after attacking",
 			"[+7] Range <after discovering [Nuclear Fusion]>",
+			"[+20] Strength <after discovering [Robotics]>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
