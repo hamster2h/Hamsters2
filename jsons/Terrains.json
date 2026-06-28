@@ -114,7 +114,7 @@
             "Becomes [Flood plains] when adjacent to [River]",
             "Considered [Undesirable] when determining start locations <in all except [Desert] Regions>",
             "Every [13] tiles with this terrain will receive a major deposit of a strategic resource.",
-			"Units ending their turn on this terrain take [33] damage"
+			"Units ending their turn on this terrain take [34] damage"
 		]
 	},
 	{
