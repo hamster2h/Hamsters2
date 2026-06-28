@@ -946,7 +946,6 @@
 		"production": 1,
 		"food": 3,
 		"uniques": [
-			"Turn this tile into a [Plains] tile",
             "Unpillagable",
 			"Irremovable",
 			"Unbuildable",
