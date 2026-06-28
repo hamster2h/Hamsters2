@@ -257,7 +257,7 @@
 			"Considered [Food] when determining start locations <in all except [Grassland] Regions>",
 			"Considered [Desirable] when determining start locations <in all except [Grassland] Regions>",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
-			"Units ending their turn on this terrain take [10] damage"
+			"Units ending their turn on this terrain take [25] damage"
 		]
 	},
 	{
