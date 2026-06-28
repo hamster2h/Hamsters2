@@ -1654,6 +1654,25 @@
 		]
 	},
 	{
+		"name": "Research City",
+		"maintenance": 200,
+		"percentStatBonus": {
+			"science": 200,
+			"gold": -100,
+			"culture": -100,
+			"production": -100
+		},
+		"specialistSlots": {
+			"Scientist": 400
+		},
+		"requiredBuilding": "University",
+		"requiredTech": "Scientific Theory",
+		"uniques": [
+			"Consumes [30] [Power]",
+			"[+2 Science] per [1] population [in this city]"
+		]
+	},
+	{
 		"name": "Hospital",
 		"food": 3,
 		"maintenance": 10,
