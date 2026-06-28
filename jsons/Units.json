@@ -1217,11 +1217,11 @@
 			"Consumes [2] [Iron]",
 			"Can carry [2] [Missile] units",
 			"Can carry [2] extra [Missile] units <after adopting [Order]>",
+			//"[+20] Strength <after adopting [Order]>",
 			"[75]% chance to intercept air attacks <after discovering [Ballistics]>",
 			"[1] additional attacks per turn",
 			"Can move after attacking",
 			"[+7] Range <after discovering [Nuclear Fusion]>",
-			"[+20] Strength <after discovering [Robotics]>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
