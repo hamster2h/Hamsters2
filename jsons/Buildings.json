@@ -1663,7 +1663,7 @@
 			"production": -100
 		},
 		"specialistSlots": {
-			"Scientist": 400
+			"Scientist": 10
 		},
 		"requiredBuilding": "University",
 		"requiredTech": "Scientific Theory",
