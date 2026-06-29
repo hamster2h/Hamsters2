@@ -946,6 +946,7 @@
 		"production": 1,
 		"food": 3,
 		"uniques": [
+			"Safe Tile",
             "Unpillagable",
 			"Irremovable",
 			"Unbuildable",
@@ -964,6 +965,7 @@
 			"Flood plains"
 		],
 		"uniques": [
+			"Safe Tile",
 			"Unpillagable",
 			"Unbuildable",
 			"Excluded from map editor",
