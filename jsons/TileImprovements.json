@@ -1005,8 +1005,8 @@
 		"terrainsCanBeBuiltOn": [
 			"Land"
 		],
-		"gold": 1,
-		"culture": 3,
+		"gold": 2,
+		"culture": 5,
 		"uniques": [
 			"Tile provides yield without assigned population",
 			"Unbuildable",
