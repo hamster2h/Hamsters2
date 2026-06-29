@@ -83,7 +83,8 @@
 			"[This Unit] takes [50] damage <upon ending a turn in a [Ice] tile>",
             "[+33]% Strength <vs [Air] units> <when adjacent to a [Anti-Air] unit>",
             "[+33]% Strength <vs [Cyber] units> <when adjacent to a [Hacker] unit>",
-            "May capture killed [Cyber] units <with [25]% chance> <when adjacent to a [Hacker] unit>"
+            "May capture killed [Cyber] units <with [25]% chance> <when adjacent to a [Hacker] unit>",
+			"Can pass through impassable tiles"
         ]
     },
     {
@@ -244,6 +245,14 @@
         "name": "Support",
         "movementType": "Land",
 		"uniques": [
+			"[This Unit] takes [25] damage <upon ending a turn in a [Mountain] tile>",
+			"[This Unit] takes [25] damage <upon ending a turn in a [Jungle] tile>",
+			"[This Unit] takes [25] damage <upon ending a turn in a [Marsh] tile>",
+			"[This Unit] takes [34] damage <upon ending a turn in a [{non-[Safe Tile]} {Desert}] tile>",
+			"[This Unit] heals [34] HP <upon ending a turn in a [{non-[Safe Tile]} {Flood plains}] tile>",
+			"[This Unit] takes [25] damage <upon ending a turn in a [{non-[Safe Tile]} {Tundra}] tile>",
+			"[This Unit] takes [50] damage <upon ending a turn in a [{non-[Safe Tile]} {Snow}] tile>",
+			"[This Unit] takes [50] damage <upon ending a turn in a [Ice] tile>",
             "Cannot intercept [Missile] units",
 			"Cannot intercept [Big Missile] units"
         ]
