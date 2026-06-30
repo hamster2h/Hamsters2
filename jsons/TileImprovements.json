@@ -75,7 +75,6 @@
 		"turnsToBuild": 6,
 		"techRequired": "Engineering",
 		"uniques": [
-			"Safe Tile",
 			"Can be built outside your borders",
 			"Gives a defensive bonus of [75]%",
 			"Destroyed when pillaged"
@@ -93,7 +92,6 @@
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
 		"uniques": [
-			"Safe Tile",
 			"Can also be built on tiles adjacent to fresh water",
 			"[+1 Food] from [Fresh water] tiles",
 			"[+1 Food] <after discovering [Fertilizer]>",
@@ -115,7 +113,6 @@
 		"turnsToBuild": 8,
 		"techRequired": "Animal Husbandry",
 		"uniques": [
-			"Safe Tile",
 			"Can only be built to improve a resource",
 			"[+1 Food] <after discovering [Fertilizer]>",
 			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
@@ -139,7 +136,6 @@
 		"turnsToBuild": 7,
 		"techRequired": "Trapping",
 		"uniques": [
-			"Safe Tile",
 			"Can only be built to improve a resource",
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
@@ -164,7 +160,6 @@
 		"turnsToBuild": 6,
 		"techRequired": "Calendar",
 		"uniques": [
-			"Safe Tile",
 			"Can only be built to improve a resource",
 			"[+1 Gold] <after discovering [Guilds]>",
 			"[+1 Food] <after discovering [Fertilizer]>",
@@ -190,7 +185,6 @@
 		"turnsToBuild": 10,
 		"techRequired": "Mining",
 		"uniques": [
-			"Safe Tile",
 			"[+1 Production] <after discovering [Chemistry]>",
 			"[+1 Production] <after discovering [Industrialization]>",
 			"[+1 Production, +1 Gold] <within [2] tiles of a [Water Tower]>",
@@ -216,7 +210,6 @@
 		"turnsToBuild": 8,
 		"techRequired": "Masonry",
 		"uniques": [
-			"Safe Tile",
 			"Can only be built to improve a resource",
 			"[+1 Production] <after discovering [Chemistry]>",
 			"[+1 Production] <after discovering [Industrialization]>",
@@ -247,7 +240,6 @@
 		"turnsToBuild": 10,
 		"techRequired": "Construction",
 		"uniques": [
-			"Safe Tile",
 			"[+1 Production] <after discovering [Scientific Theory]>",
 			"[+1 Food] <after discovering [Ecology]>",
 			"[+1 Production, +1 Food] <within [2] tiles of a [Water Tower]>",
@@ -282,7 +274,6 @@
 		"turnsToBuild": 7,
 		"techRequired": "Guilds",
 		"uniques": [
-			"Safe Tile",
 			"[+1 Gold] <after discovering [Economics]>",
 			"[+1 Gold] <after discovering [Scientific Theory]>",
 			"[+1 Food, +1 Gold] <within [2] tiles of a [Water Tower]>",
@@ -303,7 +294,6 @@
 		"turnsToBuild": 9,
 		"techRequired": "Biology",
 		"uniques": [
-			"Safe Tile",
 			"Can only be built to improve a resource",
 			"Cannot be built on [Water] tiles",
 			"[+1 Production, +1 Gold] <within [2] tiles of a [Water Tower]>",
@@ -368,7 +358,6 @@
 		"turnsToBuild": 14,
 		"techRequired": "Urbanization",
 		"uniques": [
-			"Safe Tile",
 			"Provides [1] [Power]",
 			"Provides [2] [Power] <if [SP-Green Energy] is constructed>",
 			"[+2 Gold] <within [2] tiles of a [Water Tower]>",
@@ -401,7 +390,6 @@
 		"turnsToBuild": 14,
 		"techRequired": "Genetics",
 		"uniques": [
-			"Safe Tile",
 			"Provides [1] [Power]",
 			"Provides [2] [Power] <if [SP-Green Energy] is constructed>",
 			"[+2 Gold] <within [2] tiles of a [Water Tower]>",
@@ -451,7 +439,6 @@
 		"culture": 2,
 		"science": 8,
 		"uniques": [
-			"Safe Tile",
 			"Can only be built to improve a resource",
 			"Removes removable features when built",
 			"[+1 Science, +1 Culture] <within [2] tiles of a [Water Tower]>",
@@ -482,7 +469,6 @@
 		"turnsToBuild": 14,
 		"techRequired": "Radio",
 		"uniques": [
-			"Safe Tile",
 			"[+1 Food, +1 Gold] <within [2] tiles of a [Water Tower]>",
 			"[+1 Food, +1 Gold] <within [2] tiles of a [Water Tower]> <after adopting [Safety Checks]>",
 			"[+1 Production, +1 Culture] <within [2] tiles of a [Industrial Complex]>",
@@ -508,7 +494,6 @@
 		"gold": 2,
 		"happiness": 2,
 		"uniques": [
-			"Safe Tile",
 			"Removes removable features when built",
 			"[+1 Gold, +1 Culture] <within [2] tiles of a [Water Tower]>",
 			"[+1 Gold, +1 Culture] <within [2] tiles of a [Water Tower]> <after adopting [Safety Checks]>",
@@ -543,7 +528,6 @@
 		"gold": 5,
 		"production": 3,
 		"uniques": [
-			"Safe Tile",
 			"[+4 Happiness, +2 Production] <in [Luxury resource] tiles>",
 			"Removes removable features when built",
 			"[+1 Production, +1 Food] <within [2] tiles of a [Water Tower]>",
@@ -579,7 +563,6 @@
 		],
 		"production": 2,
 		"uniques": [
-			"Safe Tile",
 			"Provides [6] [Power]",
 			"Comment [Infrastructure]",
 			"Removes removable features when built",
@@ -596,7 +579,6 @@
 		"food": 1,
 		"gold": 1,
 		"uniques": [
-			"Safe Tile",
 			"[+4 Food, +4 Gold] <in [Strategic resource] tiles>",
 			"[+4 Food, +4 Gold] <in [Bonus resource] tiles>",
 			"Removes removable features when built",
@@ -620,7 +602,6 @@
 		],
 		"food": 6,
 		"uniques": [
-			"Safe Tile",
 			"Comment [Infrastructure]",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+100 Gold]",
@@ -636,7 +617,6 @@
 		],
 		"production": 6,
 		"uniques": [
-			"Safe Tile",
 			"Comment [Infrastructure]",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+100 Gold]",
@@ -654,7 +634,6 @@
 			"Land"
 		],
 		"uniques": [
-			"Safe Tile",
 			"Comment [Infrastructure]",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+100 Gold]",
@@ -670,7 +649,6 @@
 		],
 		"science": 8,
 		"uniques": [
-			"Safe Tile",
 			"Great Improvement",
 			"Provides [1] [Scientist Perk] <starting from the [Industrial era]>",
 			"[+1 Food, +1 Science] <within [2] tiles of a [Water Tower]>",
@@ -695,7 +673,6 @@
 		],
 		"culture": 6,
 		"uniques": [
-			"Safe Tile",
 			"Great Improvement",
 			"Provides [1] [Artist Perk] <starting from the [Industrial era]>",
 			"[+1 Gold, +1 Culture] <within [2] tiles of a [Water Tower]>",
@@ -721,7 +698,6 @@
 		],
 		"production": 4,
 		"uniques": [
-			"Safe Tile",
 			"Great Improvement",
 			"Provides [1] [Engineer Perk] <starting from the [Industrial era]>",
 			"[+1 Production] <after discovering [Chemistry]>",
@@ -752,7 +728,6 @@
 		],
 		"gold": 4,
 		"uniques": [
-			"Safe Tile",
 			"Great Improvement",
 			"Provides [1] [Merchant Perk] <starting from the [Industrial era]>",
 			"[+2 Gold] <after discovering [Economics]>",
@@ -779,7 +754,6 @@
 		],
 		"faith": 6,
 		"uniques": [
-			"Safe Tile",
 			"Great Improvement",
 			"Provides [1] [Prophet Perk] <starting from the [Industrial era]>",
 			"[+1 Food, +1 Faith] <within [2] tiles of a [Water Tower]>",
@@ -804,7 +778,6 @@
 		],
 		"production": 3,
 		"uniques": [
-			"Safe Tile",
 			"Great Improvement",
 			"Provides [1] [General Perk] <starting from the [Industrial era]>",
 			"[+1 Happiness, +1 Production] <after discovering [Metal Casting]>",
@@ -828,7 +801,6 @@
 		"science": 6,
 		"culture": 6,
 		"uniques": [
-			"Safe Tile",
 			"Great Improvement",
 			"Provides [1] [Scientist Perk] <starting from the [Industrial era]>",
 			"Provides [1] [Artist Perk] <starting from the [Industrial era]>",
@@ -857,7 +829,6 @@
 		"happiness": 1,
 		"turnsToBuild": 4,
 		"uniques": [
-			"Safe Tile",
 			"Can only be built on [Coastal] tiles",
 			"[+3 Culture, +2 Gold] for each adjacent [Moai]",
 			"[+1 Gold] <after discovering [Flight]>",
@@ -885,7 +856,6 @@
 		"food": 3,
 		"turnsToBuild": 6,
 		"uniques": [
-			"Safe Tile",
 			"Cannot be built on [Bonus resource] tiles",
 			"[+1 Food] for each adjacent [Mountain]",
 			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
@@ -914,7 +884,6 @@
 		],
 		"turnsToBuild": 6,
 		"uniques": [
-			"Safe Tile",
 			"[+1 Production, +2 Gold] <after discovering [Economics]>",
 			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
 			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
@@ -944,7 +913,6 @@
         "turnsToBuild": 10,
         "techRequired": "Bronze Working",
         "uniques": [
-			"Safe Tile",
 			"Cannot be built on [resource] tiles",
             "[+1 Gold] <after discovering [Machinery]>",
             "[+1 Culture] <after discovering [Acoustics]>",
@@ -1023,7 +991,6 @@
 		"production": 1,
 		"food": 3,
 		"uniques": [
-			"Safe Tile",
             "Unpillagable",
 			"Irremovable",
 			"Unbuildable",
@@ -1040,7 +1007,6 @@
 			"Land"
 		],
 		"uniques": [
-			"Safe Tile",
 			"Unpillagable",
 			"Unbuildable",
 			"Excluded from map editor",
