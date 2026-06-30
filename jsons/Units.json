@@ -1209,7 +1209,7 @@
 		"rangedStrength": 140,
 		"range": 5,
 		"interceptRange": 1,
-		"cost": 6250,
+		"cost": 8000,
 		"requiredTech": "Electronics",
 		"upgradesTo": "Missile Cruiser",
 		"requiredResource": "Oil",
