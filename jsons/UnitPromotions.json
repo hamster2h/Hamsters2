@@ -165,7 +165,6 @@
 		],
 		"uniques": [
 			"[+2] Range",
-			"[+2] Air Interception Range",
 			"[-90]% weight to this choice for AI decisions"
 		],
 		"unitTypes": [
