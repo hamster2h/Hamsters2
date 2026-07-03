@@ -372,7 +372,7 @@
 	{
 		"name": "Alien Monolith",
 		"type": "NaturalWonder",
-		"science": 12,
+		"science": 16,
 		"occursOn": [
 			"Desert",
 			"Plains"
@@ -672,8 +672,8 @@
 		"name": "Uluru",
 		"type": "NaturalWonder",
 		"food": 2,
-		"faith": 9,
-		"gold" 1,
+		"faith": 6,
+		"happiness": 4,
 		"occursOn": [
 			"Plains",
 			"Desert"
