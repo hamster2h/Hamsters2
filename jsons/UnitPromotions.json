@@ -34,6 +34,26 @@
 		]
 	},
 	{
+		"name" : "Supply",
+		"prerequisites": [
+			"Bombardment III",
+			"Targeting III",
+			"Boarding Party III",
+			"Coastal Raider III",
+			"Flight Deck III"
+		],
+		"uniques": [
+			"May heal outside of friendly territory"
+		],
+		"unitTypes": [
+			"Melee Water",
+			"Ranged Water",
+			"Aircraft Carrier"
+		],
+        "column": 16,
+        "row": 4
+	},
+	{
 		"name": "Logistics",
 		"prerequisites": [
 			"Accuracy III",
@@ -833,7 +853,7 @@
             "Double movement in [Snow]",
             "Double movement in [Tundra]",
             "Double movement in [Hill]",
-            "[+10]% Strength <when fighting in [Hill] tiles>"
+            "[+25]% Strength <when fighting in [Hill] tiles>"
         ]
     },
     {
@@ -856,7 +876,9 @@
 	},
 	{
 		"name": "[Hussar] ability",
-		"uniques": ["[+100]% to Flank Attack bonuses"]
+		"uniques": [
+			"[+100]% to Flank Attack bonuses"
+		]
 	},
     {
         "name": "Mystic Blade",
@@ -883,7 +905,7 @@
     {
         "name": "Invulnerability",
         "uniques": [
-            "[+20] HP when healing",
+            "[+10] HP when healing",
             "[+30]% Strength <when defending>",
             "Only available <for units without [Ambition]>",
             "Only available <for units without [Invulnerability]>",
@@ -931,8 +953,8 @@
     {
         "name": "Recruitment",
         "uniques": [
-            "[This Unit] heals [50] HP <upon defeating a [Major] unit>",
-            "[This Unit] heals [50] HP <upon defeating a [City-State] unit>",
+            "[This Unit] heals [25] HP <upon defeating a [Major] unit>",
+            "[This Unit] heals [25] HP <upon defeating a [City-State] unit>",
             "Only available <for units without [Ambition]>",
             "Only available <for units without [Invulnerability]>",
             "Only available <for units without [Restlessness]>",
