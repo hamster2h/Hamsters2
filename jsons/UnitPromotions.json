@@ -165,7 +165,8 @@
 		],
 		"uniques": [
 			"[+2] Range",
-			"[-90]% weight to this choice for AI decisions"
+			"[+2] Air Interception Range <for [Fighter] units>",
+			"[+2] Air Interception Range <for [AM Missiles] units>"
 		],
 		"unitTypes": [
 			"Fighter",
@@ -193,7 +194,8 @@
 			"Anti-Armor II"
 		],
 		"uniques": [
-			"[+1] Range"
+			"[+1] Range",
+			"[+1] Air Interception Range <for [AM Missiles] units>"
 		],
 		"unitTypes": [
 			"Archery",
