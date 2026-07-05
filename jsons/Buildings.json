@@ -640,7 +640,7 @@
 		"name": "Longhouse",
 		"uniqueTo": "Iroquois",
 		"cost": 400,
-		"maintenance": 8,
+		"maintenance": 1,
 		"production": 2,
 		"uniques": [
 			"[+1 Production] from [Forest] tiles [in all cities]",
