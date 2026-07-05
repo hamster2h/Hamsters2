@@ -124,19 +124,6 @@
 		"requiredTech": "Bronze Working"
 	},
 	{
-		"name": "Cloves",
-		"uniqueTo": "Indonesia",
-		"cost": 1,
-		"uniques": [
-			"Provides [2] [Cloves]",
-			"Destroyed when the city is captured",
-			"Unsellable",
-			"Must be next to [Coast]",
-			"Limited to [2] per Civilization"
-		],
-		"requiredTech": "Optics"
-	},
-	{
 		"name": "Irish Pub",
 		"uniqueTo": "Ireland",
 		"cost": 75,
