@@ -1762,7 +1762,7 @@
         "innerColor": [78,244,234],
         "uniqueName": "Great Expanse",
         "uniques": [
-			"[+15]% Strength <for [Military] units> <in [Friendly Land] tiles>",
+			"[+25]% Strength <for [Military] units> <in [Friendly Land] tiles>",
 			"Gain control over [All] tiles in a [4]-tile radius <upon founding a city> <in this city>"
 		],
         "cities": [
