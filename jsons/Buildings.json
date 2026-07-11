@@ -1648,7 +1648,7 @@
 		"percentStatBonus": {
 			"science": 100,
 			"production": -50,
-			"culture": -80,
+			"culture": -50,
 		},
 		"specialistSlots": {
 			"Scientist": 8
