@@ -492,9 +492,9 @@
             {
                 "name": "Secularism",
                 "uniques": [
-					"[-25]% [Faith] [in all cities]",
 					"[+2 Science] from all [Science] buildings",
-					"[+4 Science] from every [Scientist]"
+					"[+4 Science] from every [Scientist]",
+					"[-25]% [Faith] [in all cities]"
                 ],
                 "row": 1,
                 "column": 2
@@ -502,8 +502,8 @@
             {
                 "name": "Humanism",
                 "uniques": [
-					"[+25]% Great Person generation [in all cities]",
 					"[+1 Science] per [4] population [in all cities]",
+					"[+25]% Great Person generation [in all cities]",
 					"[+1 Happiness] from every [Public School]",
                     "[+1 Happiness] from every [University]"
                 ],
