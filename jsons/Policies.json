@@ -492,7 +492,7 @@
             {
                 "name": "Secularism",
                 "uniques": [
-					"Gain a free [Public School] [in all cities]",
+					"[+1 Science] per [4] population [in all cities]",
 					"[+2 Science] from all [Science] buildings",
 					"[+4 Science] from every [Scientist]"
                 ],
@@ -549,8 +549,7 @@
                 "name": "Rationalism Complete",
                 "uniques": [
 					"[-25]% [Gold] [in all cities]",
-					"[2] Free Technologies",
-					"Gain a free [Research Lab] [in all cities]",
+					"Comment [Enables construction of Research City]",
                     "May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500])",
                     "Get the leader title of [[leaderName] the Wise]"
                 ]
