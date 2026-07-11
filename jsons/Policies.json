@@ -492,7 +492,7 @@
             {
                 "name": "Secularism",
                 "uniques": [
-					"[+1 Science] per [4] population [in all cities]",
+					"[-25]% [Faith] [in all cities]",
 					"[+2 Science] from all [Science] buildings",
 					"[+4 Science] from every [Scientist]"
                 ],
@@ -502,11 +502,10 @@
             {
                 "name": "Humanism",
                 "uniques": [
-					"Free Great Person",
-                    "[+1 Happiness] from every [University]",
-                    "[+1 Happiness] from every [Observatory]",
-                    "[+1 Happiness] from every [Public School]",
-					"[-25]% [Faith] [in all cities]"
+					"[+25]% Great Person generation [in all cities]",
+					"[+1 Science] per [4] population [in all cities]",
+					"[+1 Happiness] from every [Public School]",
+                    "[+1 Happiness] from every [University]"
                 ],
                 "row": 1,
                 "column": 4
@@ -537,7 +536,7 @@
             {
                 "name": "Scientific Revolution",
                 "uniques": [
-					"Science gained from research agreements [+50]%",
+					"Science gained from research agreements [+100]%",
 					"[+25]% [Science] [in all cities]",
 					"[+10]% [Production] [in all cities]"
 				],
