@@ -630,8 +630,6 @@
 		"production": 2,
 		"maintenance": 2,
 		"uniques": [
-			"Must have an owned [Forest] within [3] tiles",
-			"Must have an owned [Jungle] within [3] tiles",
 			"[+1 Production] from [Forest] tiles [in all cities]",
 			"[+1 Production] from [Jungle] tiles [in all cities]"
 		],
