@@ -27,8 +27,8 @@
             {
                 "name": "Legalism",
                 "uniques": [
-					"Enables conversion of city production to [Culture]",
-					"Provides the cheapest [Culture] building in your first [4] cities for free"
+					"Provides the cheapest [Culture] building in your first [4] cities for free",
+					"Enables conversion of city production to [Culture]"
                 ],
                 "row": 1,
                 "column": 3
@@ -85,8 +85,8 @@
             "Scientific": 10
         },
         "uniques": [
-			"[+2 Culture, +2 Gold] [in all cities]",
-			"[+2 Culture] per [1] social policies adopted"
+			"[+2 Culture] per [1] social policies adopted",
+			"[+2 Culture, +2 Gold] [in all cities]"
 		],
         "policies": [
             {
