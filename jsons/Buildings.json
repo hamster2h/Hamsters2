@@ -1644,6 +1644,7 @@
 	},
 	{
 		"name": "Research City",
+		"cost": 800,
 		"maintenance": 200,
 		"percentStatBonus": {
 			"science": 100,
