@@ -297,7 +297,6 @@
 				"row": 4,
 				"prerequisites": ["Education"],
                 "uniques": [
-					"Enables conversion of city production to [Culture]",
 					"[+100]% weight to this choice for AI decisions"
 				],
 				"quote": "'Their rising all at once was as the sound of thunder heard remote' - Milton"
