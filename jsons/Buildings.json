@@ -1646,7 +1646,9 @@
 		"name": "Research City",
 		"maintenance": 200,
 		"percentStatBonus": {
-			"science": 100
+			"science": 100,
+			"production": -50,
+			"culture": -80,
 		},
 		"specialistSlots": {
 			"Scientist": 8
@@ -1656,8 +1658,6 @@
 		"uniques": [
 			"[+2 Science] per [1] population [in this city]",
 			"Nullifies [Gold] [in this city]",
-			"Nullifies [Production] [in this city]",
-			"Nullifies [Culture] [in this city]",
 			"Only available <after adopting [Rationalism Complete]>",
 			"Unavailable <for [AI player] Civilizations>"
 		]
