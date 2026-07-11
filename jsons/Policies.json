@@ -27,8 +27,8 @@
             {
                 "name": "Legalism",
                 "uniques": [
-                    "Provides the cheapest [Culture] building in your first [4] cities for free",
-					"Free [Settler] appears"
+                    "[+2 Culture] per [1] social policies adopted",
+					"Enables conversion of city production to [Culture]"
                 ],
                 "row": 1,
                 "column": 3
@@ -92,7 +92,7 @@
                 "name": "Republic",
                 "uniques": [
 					"Each city founded increases culture cost of policies [15]% less than normal",
-					"Free [Settler] appears"
+					"[+100]% Production when constructing [Settler] units [in all cities]"
                 ],
                 "row": 1,
                 "column": 1
@@ -110,7 +110,7 @@
             {
                 "name": "Collective Rule",
                 "uniques": [
-                    "[+100]% Production when constructing [Settler] units [in all cities]",
+                    "[+1 Happiness, +2 Production] [in all cities]",
                     "[+5]% Production when constructing [All] buildings [in all cities]"
                 ],
                 "requires": ["Republic"],
