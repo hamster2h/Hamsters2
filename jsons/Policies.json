@@ -28,7 +28,7 @@
                 "name": "Legalism",
                 "uniques": [
 					"Enables conversion of city production to [Culture]",
-					"[+2 Culture] per [1] social policies adopted"
+					"[+1 Culture] per [1] social policies adopted"
                 ],
                 "row": 1,
                 "column": 3
