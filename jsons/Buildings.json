@@ -1654,11 +1654,11 @@
 		"requiredBuilding": "University",
 		"requiredTech": "Scientific Theory",
 		"uniques": [
-			"Consumes [30] [Power]",
 			"[+2 Science] per [1] population [in this city]",
 			"Nullifies [Gold] [in this city]",
 			"Nullifies [Production] [in this city]",
 			"Nullifies [Culture] [in this city]",
+			"Only available <after adopting [Rationalism Complete]>",
 			"Unavailable <for [AI player] Civilizations>"
 		]
 	},
