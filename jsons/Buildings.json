@@ -1650,6 +1650,7 @@
 			"science": 100,
 			"production": -50,
 			"culture": -50,
+			"gold": -50
 		},
 		"specialistSlots": {
 			"Scientist": 8
@@ -1658,7 +1659,6 @@
 		"requiredTech": "Scientific Theory",
 		"uniques": [
 			"[+2 Science] per [1] population [in this city]",
-			"Nullifies [Gold] [in this city]",
 			"Only available <after adopting [Rationalism Complete]>",
 			"Unavailable <for [AI player] Civilizations>"
 		]
