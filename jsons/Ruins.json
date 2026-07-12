@@ -9,6 +9,33 @@
 		"color": "#cf8ff7"
 	},
 	{
+		"name": "discover free speech",
+		"notification": "We have discovered Free Speech!",
+		"uniques": [
+			"Adopt [Free Speech]",
+			"Play [policy] sound"
+		],
+		"color": "#cf8ff7"
+	},
+	{
+		"name": "discover fascism",
+		"notification": "We have discovered Fascism!",
+		"uniques": [
+			"Adopt [Fascism]",
+			"Play [policy] sound"
+		],
+		"color": "#cf8ff7"
+	},
+	{
+		"name": "discover communism",
+		"notification": "We have discovered Communism!",
+		"uniques": [
+			"Adopt [Communism]",
+			"Play [policy] sound"
+		],
+		"color": "#cf8ff7"
+	},
+	{
 		"name": "discover a musician",
 		"notification": "A [Musician] has joined us!",
 		"uniques": [
@@ -93,6 +120,21 @@
 			"Play [wagon] sound"
 		],
 		"color": "#81c784"
+	},
+	{
+		"name": "trigger a dissaster",
+		"notification": "We used ancient technology in the ruins!",
+		"uniques": [
+			"[-3] population [in all cities]"
+		],
+		"color": "#81c784"
+	},
+	{
+		"name": "discover an ancient weapon",
+		"notification": "We found an ancient weapon!",
+		"uniques": [
+			"Free [World Ender] found in the ruins"
+		]
 	},
 	{
 		"name": "a stash of gold",
