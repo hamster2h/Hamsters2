@@ -9,6 +9,15 @@
 		"color": "#cf8ff7"
 	},
 	{
+		"name": "discover a musician",
+		"notification": "A [Musician] has joined us!",
+		"uniques": [
+			"Free [Musician] found in the ruins",
+			"Play [policy] sound"
+		],
+		"color": "#cf8ff7"
+	},
+	{
 		"name": "squatters willing to work for you",
 		"notification": "A [Worker] has joined us!",
 		"uniques": [
@@ -24,6 +33,20 @@
 		]
 	},
 	{
+		"name": "squatters willing to explore for you",
+		"notification": "A [Scout] has joined us!",
+		"uniques": [
+			"Free [Scout] found in the ruins"
+		]
+	},
+	{
+		"name": "squatters willing to fight for you",
+		"notification": "A [Warrior] has joined us!",
+		"uniques": [
+			"Free [Warrior] found in the ruins"
+		]
+	},
+	{
 		"name": "your exploring unit receives training",
 		"notification": "An ancient tribe trained us in their ways of combat!",
 		"uniques": [
@@ -33,10 +56,40 @@
 		]
 	},
 	{
+		"name": "your exploring unit receives poison",
+		"notification": "An ancient tribe poisoned us!",
+		"uniques": [
+			"[This Unit] takes [33] damage"
+		]
+	},
+	{
+		"name": "your exploring unit receives a strong poison",
+		"notification": "An ancient tribe poisoned us!",
+		"uniques": [
+			"[This Unit] takes [66] damage"
+		]
+	},
+	{
+		"name": "your exploring unit is killed",
+		"notification": "An ancient tribe killed us!",
+		"uniques": [
+			"[This Unit] is destroyed"
+		]
+	},
+	{
 		"name": "survivors (adds population to a city)",
 		"notification": "We have found survivors in the ruins! Population added to [cityName].",
 		"uniques": [
 			"[+1] population in a random city",
+			"Play [wagon] sound"
+		],
+		"color": "#81c784"
+	},
+	{
+		"name": "many survivors (adds population to a city)",
+		"notification": "We have found survivors in the ruins! Population added to [cityName].",
+		"uniques": [
+			"[+3] population in a random city",
 			"Play [wagon] sound"
 		],
 		"color": "#81c784"
@@ -51,10 +104,36 @@
 		"color": "#ffeb7f"
 	},
 	{
+		"name": "a large stash of gold",
+		"notification": "",
+		"uniques": [
+			"Gain [200]-[600] [Gold] <(modified by game speed)>",
+			"Play [coin] sound"
+		],
+		"color": "#ffeb7f"
+	},
+	{
+		"name": "discover a corporate",
+		"notification": "A [Corporate] has joined us!",
+		"uniques": [
+			"Free [Corporate] found in the ruins",
+			"Play [coin] sound"
+		],
+		"color": "#ffeb7f"
+	},
+	{
 		"name": "discover a lost technology",
 		"notification": "We have discovered the lost technology of [techName] in the ruins!",
 		"uniques": [
 			"[1] free random researchable Tech(s) from the [Ancient era]"
+		],
+		"color": "#7f7fff"
+	},
+	{
+		"name": "discover a technology",
+		"notification": "We have discovered a technology in the ruins!",
+		"uniques": [
+			"Free Technology"
 		],
 		"color": "#7f7fff"
 	},
@@ -77,6 +156,13 @@
 		"notification": "We have found a crudely-drawn map in the ruins!",
 		"uniques": [
 			"From a randomly chosen tile [4] tiles away from the ruins, reveal tiles up to [4] tiles away with [80]% chance"
+		]
+	},
+	{
+		"name": "find a map",
+		"notification": "We have found a map in the ruins!",
+		"uniques": [
+			"Reveals the entire map"
 		]
 	},
 	{
