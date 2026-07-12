@@ -84,8 +84,7 @@
 			"Cannot enter ocean tiles <before discovering [Astronomy]>",
 			"Can enter ice tiles",
 			"May create improvements on water resources",
-			"Can instantly construct a [Offshore Wind Farm] improvement <by consuming this unit> <after discovering [Terraforming]>",
-			"Uncapturable"
+			"Can instantly construct a [Offshore Wind Farm] improvement <by consuming this unit> <after discovering [Terraforming]>"
 		]
 	},
 	{
@@ -95,8 +94,7 @@
 		"movement": 2,
 		"cost": 800,
 		"uniques": [
-			"Can instantly construct a [Concert Venue] improvement <by consuming this unit>",
-			"Uncapturable"
+			"Can instantly construct a [Concert Venue] improvement <by consuming this unit>"
 		]
 	},
 	{
@@ -107,8 +105,7 @@
 		"cost": 2000,
 		"uniques": [
 			"Can instantly construct a [Industry] improvement <by consuming this unit>",
-			"Can only be built <in cities with a [Factory]>",
-			"Uncapturable"
+			"Can only be built <in cities with a [Factory]>"
 		],
 		"civilopediaText": [
 			{
@@ -124,8 +121,7 @@
 		"requiredTech": "Combustion",
 		"uniques": [
 			"Can instantly construct a [Supply Route] improvement <by consuming this unit>",
-			"Can only be built <in cities with a [Factory]>",
-			"Uncapturable"
+			"Can only be built <in cities with a [Factory]>"
 		],
 		"civilopediaText": [
 			{
@@ -140,8 +136,7 @@
 		"movement": 2,
 		"requiredTech": "Archaeology",
 		"uniques": [
-			"Can instantly construct a [Excavation Site] improvement <by consuming this unit>",
-			"Uncapturable"
+			"Can instantly construct a [Excavation Site] improvement <by consuming this unit>"
 		]
 	},
 	{
@@ -157,7 +152,6 @@
 			"All adjacent units heal [+10] HP when healing <before adopting [Collectivization]>",
 			"All adjacent units heal [+20] HP when healing <after adopting [Collectivization]>",
 			"Can only be built <in cities with a [Hospital]>",
-			"Uncapturable",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
@@ -175,7 +169,6 @@
 			"All adjacent units heal [+15] HP when healing <before adopting [Collectivization]>",
 			"All adjacent units heal [+30] HP when healing <after adopting [Collectivization]>",
 			"Can only be built <in cities with a [Hospital]>",
-			"Uncapturable",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
