@@ -112,13 +112,6 @@
 		"color": "#81c784"
 	},
 	{
-		"name": "discover an ancient weapon",
-		"notification": "We found an ancient weapon!",
-		"uniques": [
-			"Free [World Ender] found in the ruins"
-		]
-	},
-	{
 		"name": "a stash of gold",
 		"notification": "",
 		"uniques": [
