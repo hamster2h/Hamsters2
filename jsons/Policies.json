@@ -85,7 +85,7 @@
             "Scientific": 10
         },
         "uniques": [
-			"[+2 Culture] per [1] social policies adopted",
+			"[+1 Culture] per [1] social policies adopted",
 			"[+2 Culture, +2 Gold] [in all cities]"
 		],
         "policies": [
