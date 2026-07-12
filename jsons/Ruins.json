@@ -9,10 +9,10 @@
 		"color": "#cf8ff7"
 	},
 	{
-		"name": "discover free speech",
-		"notification": "We have discovered Free Speech!",
+		"name": "discover democracy",
+		"notification": "We have discovered Democracy!",
 		"uniques": [
-			"Adopt [Free Speech]",
+			"Adopt [Democracy]",
 			"Play [policy] sound"
 		],
 		"color": "#cf8ff7"
@@ -27,10 +27,10 @@
 		"color": "#cf8ff7"
 	},
 	{
-		"name": "discover communism",
-		"notification": "We have discovered Communism!",
+		"name": "discover socialism",
+		"notification": "We have discovered Socialism!",
 		"uniques": [
-			"Adopt [Communism]",
+			"Adopt [Socialism]",
 			"Play [policy] sound"
 		],
 		"color": "#cf8ff7"
