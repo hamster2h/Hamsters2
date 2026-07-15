@@ -4,55 +4,60 @@
         "name": "Ancestor Worship",
         "type": "Pantheon",
         "uniques": [
-            "[+2 Culture] from every [Shrine]"
+            "[+3 Culture, +1 Gold] from every [Shrine]",
+            "[+1 Faith] from every [Temple]"
         ]
     },
     {
         "name": "Dance of the Aurora",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Faith] from [Tundra] tiles [in all cities]"
+            "[+1 Faith, +1 Culture] from [Tundra] tiles [in all cities]"
         ]
     },
     {
         "name": "Desert Folklore",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Faith] from [Desert] tiles [in all cities]"
+            "[+2 Faith] from [Desert] tiles [in all cities]"
         ]
     },
     {
         "name": "Faith Healers",
         "type": "Pantheon",
         "uniques": [
-            "[All] Units adjacent to this city heal [+30] HP per turn when healing"
+            "[All] Units adjacent to this city heal [+20] HP per turn when healing",
+            "All newly-trained [relevant] units [in all cities] receive the [Medic] promotion"
         ]
     },
     {
         "name": "Fertility Rites",
         "type": "Pantheon",
         "uniques": [
-            "[+20]% growth [in this city]"
+            "[+25]% growth [in all cities]"
         ]
     },
     {
         "name": "God of Craftsman",
         "type": "Pantheon",
         "uniques": [
-            "[+2 Production] [in cities following this religion] <in cities with at least [3] [Population]>"
+            "[+4 Production] [in cities following this religion] <in cities with at least [3] [Population]>"
         ]
     },
     {
         "name": "God of the Open Sky",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Culture] from every [Pasture]"
+            "[+1 Happiness] from [All] tiles without [Improvement] [in all cities]",
+            "[+1 Culture, +1 Faith] from every [Pasture]"
         ]
     },
     {
         "name": "God of the Sea",
         "type": "Pantheon",
         "uniques": [
+            "[+1 Culture, +1 Gold] from [Coast] tiles [in all coastal cities]",
+			"[+1 Culture, +1 Gold] from [Ocean] tiles [in all coastal cities]",
             "[+1 Production] from every [Fishing Boats]"
         ]
     },
@@ -60,6 +65,7 @@
         "name": "God of War",
         "type": "Pantheon",
         "uniques": [
+            "[+1 Happiness, +2 Production] per [6] population [in all cities] <when at war>",
             "Earn [100]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"
         ]
     },
@@ -67,6 +73,7 @@
         "name": "Goddess of Festivals",
         "type": "Pantheon",
         "uniques": [
+            "[+4 Culture, -2 Gold] [in cities following this religion] <while the empire is happy>",
             "[+2 Culture, +1 Faith] from every [Wine]",
             "[+1 Culture, +2 Faith] from every [Incense]"
         ]
@@ -75,6 +82,7 @@
         "name": "Goddess of Love",
         "type": "Pantheon",
         "uniques": [
+            "[+1 Happiness] [in cities following this religion] <in cities with at least [3] [Population]>",
             "[+1 Happiness] [in cities following this religion] <in cities with at least [6] [Population]>"
         ]
     },
@@ -82,20 +90,22 @@
         "name": "Goddess of Protection",
         "type": "Pantheon",
         "uniques": [
-            "[+50]% Strength for cities <when attacking>"
+            "[+2 Faith, +2 Production] [in all cities with a garrison]",
+            "[+100]% Strength for cities"
         ]
     },
     {
         "name": "Goddess of the Hunt",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Food] from every [Camp]"
+            "[+2 Food] from every [Camp]"
         ]
     },
     {
         "name": "Messenger of the Gods",
         "type": "Pantheon",
         "uniques": [
+            "[+4 Science] [in cities following this religion]",
             "[+2 Science] from each Trade Route"
         ]
     },
@@ -103,21 +113,23 @@
         "name": "Monument to the Gods",
         "type": "Pantheon",
         "uniques": [
-            "[+20]% Production when constructing [Ancient era] wonders [in cities following this religion]",
-            "[+20]% Production when constructing [Classical era] wonders [in cities following this religion]"
+            "[+25]% Production when constructing [All] wonders [in cities following this religion]",
+            "[+25]% Production when constructing [Ancient era] wonders [in cities following this religion]",
+            "[+25]% Production when constructing [Classical era] wonders [in cities following this religion]"
         ]
     },
     {
         "name": "One with Nature",
         "type": "Pantheon",
         "uniques": [
-            "[+4 Faith] from every [Natural Wonder]"
+            "[+4 Faith, +4 Happiness] from every [Natural Wonder]"
         ]
     },
     {
         "name": "Oral Tradition",
         "type": "Pantheon",
         "uniques": [
+            "[+1 Culture] from all [Culture] buildings",
             "[+2 Culture] from every [Plantation]"
         ]
     },
@@ -125,21 +137,25 @@
         "name": "Religious Idols",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Culture, +1 Faith] from every [Gold Ore]",
-            "[+1 Culture, +1 Faith] from every [Silver]"
+            "[+25]% [Gold] [in cities following this religion]",
+            "[+2 Culture, +2 Faith] from every [Gold Ore]",
+            "[+2 Culture, +2 Faith] from every [Silver]"
         ]
     },
     {
         "name": "Religious Settlements",
         "type": "Pantheon",
         "uniques": [
-            "[-25]% Culture cost of natural border growth [in cities following this religion]"
+            "[+100]% Production when constructing [Settler] units [in cities following this religion]",
+            "[-25]% Culture cost of natural border growth [in cities following this religion]",
+            "[+2 Faith, +1 Happiness, +1 Production] [in cities following this religion]"
         ]
     },
     {
         "name": "Sacred Path",
         "type": "Pantheon",
         "uniques": [
+            "[+2 Culture] from every [Forest]",
             "[+2 Culture] from every [Jungle]"
         ]
     },
@@ -147,14 +163,16 @@
         "name": "Sacred Waters",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Happiness] in cities on [River] tiles"
+            "[+1 Happiness] from [River] tiles [in cities following this religion]"
         ]
     },
     {
         "name": "Stone Circles",
         "type": "Pantheon",
         "uniques": [
-            "[+3 Faith] from every [Quarry]"
+            "[+3 Faith, +1 Gold] from [Quarry] tiles [in cities following this religion]",
+            "[+1 Faith] from every [Shrine]",
+            "[+1 Faith] from every [Temple]"
         ]
     },
 ///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
