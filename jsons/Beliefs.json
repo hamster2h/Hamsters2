@@ -84,7 +84,8 @@
         "type": "Pantheon",
         "uniques": [
             "[+1 Happiness] [in cities following this religion] <in cities with at least [3] [Population]>",
-            "[+1 Happiness] [in cities following this religion] <in cities with at least [6] [Population]>"
+            "[+1 Happiness] [in cities following this religion] <in cities with at least [6] [Population]>",
+			"[+1 Faith] per [2] population [in cities following this religion]"
         ]
     },
     {
@@ -139,8 +140,8 @@
         "type": "Pantheon",
         "uniques": [
             "[+25]% [Gold] [in cities following this religion]",
-            "[+2 Culture, +2 Faith] from every [Gold Ore]",
-            "[+2 Culture, +2 Faith] from every [Silver]"
+            "[+1 Culture, +1 Faith] from every [Gold Ore]",
+            "[+1 Culture, +1 Faith] from every [Silver]"
         ]
     },
     {
