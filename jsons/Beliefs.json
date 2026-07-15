@@ -12,14 +12,14 @@
         "name": "Dance of the Aurora",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Faith, +1 Culture] from [Tundra] tiles [in all cities]"
+            "[+1 Faith, +1 Culture] from [Tundra] tiles [in cities following this religion]"
         ]
     },
     {
         "name": "Desert Folklore",
         "type": "Pantheon",
         "uniques": [
-            "[+2 Faith] from [Desert] tiles [in all cities]"
+            "[+2 Faith] from [Desert] tiles [in cities following this religion]"
         ]
     },
     {
@@ -27,14 +27,14 @@
         "type": "Pantheon",
         "uniques": [
             "[All] Units adjacent to this city heal [+20] HP per turn when healing",
-            "All newly-trained [relevant] units [in all cities] receive the [Medic] promotion"
+            "All newly-trained [relevant] units [in cities following this religion] receive the [Medic] promotion"
         ]
     },
     {
         "name": "Fertility Rites",
         "type": "Pantheon",
         "uniques": [
-            "[+25]% growth [in all cities]"
+            "[+25]% growth [in cities following this religion]"
         ]
     },
     {
