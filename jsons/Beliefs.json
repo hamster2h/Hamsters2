@@ -99,8 +99,8 @@
         "name": "Goddess of the Hunt",
         "type": "Pantheon",
         "uniques": [
-			"New [Military] units start with [15] XP [in cities following this religion]",
-			"[+3 Food, +1 Faith] from [Camp] tiles [in cities following this religion]"
+			"[+3 Food, +1 Faith] from [Camp] tiles [in cities following this religion]",
+			"New [Military] units start with [15] XP [in cities following this religion]"
         ]
     },
     {
