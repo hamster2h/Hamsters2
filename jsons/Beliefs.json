@@ -48,7 +48,7 @@
         "name": "God of the Open Sky",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Happiness] from [All] tiles without [Improvement] [in all cities]",
+            "[+1 Happiness] from [All] tiles without [Improvement] [in cities following this religion]",
             "[+1 Culture, +1 Faith] from every [Pasture]"
         ]
     },
@@ -65,7 +65,7 @@
         "name": "God of War",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Happiness, +2 Production] per [6] population [in all cities] <when at war>",
+            "[+1 Happiness, +2 Production] per [6] population [in cities following this religion] <when at war>",
             "Earn [100]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"
         ]
     },
