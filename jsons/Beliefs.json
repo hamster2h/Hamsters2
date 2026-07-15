@@ -139,8 +139,8 @@
         "type": "Pantheon",
         "uniques": [
             "[+6 Gold] [in cities following this religion]",
-            "[+1 Culture, +1 Faith] from every [Gold Ore]",
-            "[+1 Culture, +1 Faith] from every [Silver]"
+			"[+1 Culture, +1 Faith] from [Gold Ore] tiles [in cities following this religion]",
+			"[+1 Culture, +1 Faith] from [Silver] tiles [in cities following this religion]"
         ]
     },
     {
