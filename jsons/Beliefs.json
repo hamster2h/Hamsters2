@@ -203,7 +203,7 @@
         "name": "Divine inspiration",
         "type": "Follower",
         "uniques": [
-            "[+2 Faith] from every [Wonder]"
+            "[+2 Science] from every [Wonder]"
         ]
     },
     {
@@ -288,7 +288,7 @@
         "name": "Swords into Ploughshares",
         "type": "Follower",
         "uniques": [
-            "[+15]% growth [in this city] <when not at war>"
+            "[+10]% growth [in cities following this religion] <when not at war>"
         ]
     },
 ///////////////////////////////////////// Founder beliefs //////////////////////////////////////////
