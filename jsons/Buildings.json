@@ -1179,6 +1179,21 @@
 		],
 		"requiredTech": "Metal Casting"
 	},
+	{
+		"name": "Workshop",
+		"production": 2,
+		"maintenance": 2,
+		"specialistSlots": {
+			"Engineer": 1
+		},
+		"percentStatBonus": {
+			"production": 10
+		},
+		"uniques": [
+			"[+1 Production] from [Lumber mill] tiles [in this city]"
+		],
+		"requiredTech": "Metal Casting"
+	},
     {
         "name": "Foundry",
         "cost": 200,
@@ -1657,8 +1672,7 @@
 		"requiredTech": "Scientific Theory",
 		"uniques": [
 			"[+2 Science] per [1] population [in this city]",
-			"Only available <after adopting [Rationalism Complete]>",
-			"Unavailable <for [AI player] Civilizations>"
+			"Only available <after adopting [Rationalism Complete]>"
 		]
 	},
 	{
