@@ -82,7 +82,7 @@
         "name": "Goddess of Love",
         "type": "Pantheon",
         "uniques": [
-			"[+2 Faith] per [1] population [in cities following this religion]",
+			"[+1 Faith] per [1] population [in cities following this religion]",
             "[+1 Happiness] [in cities following this religion] <in cities with at least [3] [Population]>",
             "[+1 Happiness] [in cities following this religion] <in cities with at least [6] [Population]>"
         ]
