@@ -123,7 +123,7 @@
         "name": "One with Nature",
         "type": "Pantheon",
         "uniques": [
-            "[+4 Faith, +4 Happiness] from every [Natural Wonder]"
+			"[+4 Faith, +4 Happiness] from [Natural Wonder] tiles [in cities following this religion]"
         ]
     },
     {
@@ -131,7 +131,7 @@
         "type": "Pantheon",
         "uniques": [
             "[+1 Culture] from all [Culture] buildings",
-            "[+2 Culture] from every [Plantation]"
+			"[+2 Culture] from [Plantation] tiles [in cities following this religion]"
         ]
     },
     {
@@ -156,8 +156,8 @@
         "name": "Sacred Path",
         "type": "Pantheon",
         "uniques": [
-            "[+2 Culture] from every [Forest]",
-            "[+2 Culture] from every [Jungle]"
+			"[+2 Culture] from [Forest] tiles [in cities following this religion]",
+			"[+2 Culture] from [Jungle] tiles [in cities following this religion]"
         ]
     },
     {
