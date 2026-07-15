@@ -11,14 +11,14 @@
         "name": "Dance of the Aurora",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Faith, +1 Culture] from [Tundra] tiles [in cities following this religion]"
+            "[+1 Faith, +2 Culture] from [Tundra] tiles [in cities following this religion]"
         ]
     },
     {
         "name": "Desert Folklore",
         "type": "Pantheon",
         "uniques": [
-            "[+2 Faith] from [Desert] tiles [in cities following this religion]"
+            "[+2 Faith, +1 Happiness] from [Desert] tiles [in cities following this religion]"
         ]
     },
     {
@@ -115,8 +115,8 @@
         "type": "Pantheon",
         "uniques": [
             "[+25]% Production when constructing [All] wonders [in cities following this religion]",
-            "[+25]% Production when constructing [Ancient era] wonders [in cities following this religion]",
-            "[+25]% Production when constructing [Classical era] wonders [in cities following this religion]"
+            "[+10]% Production when constructing [Ancient era] wonders [in cities following this religion]",
+            "[+10]% Production when constructing [Classical era] wonders [in cities following this religion]"
         ]
     },
     {
@@ -138,7 +138,7 @@
         "name": "Religious Idols",
         "type": "Pantheon",
         "uniques": [
-            "[+25]% [Gold] [in cities following this religion]",
+            "[+6 Gold] [in cities following this religion]",
             "[+1 Culture, +1 Faith] from every [Gold Ore]",
             "[+1 Culture, +1 Faith] from every [Silver]"
         ]
