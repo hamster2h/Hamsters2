@@ -40,8 +40,8 @@
         "name": "God of Craftsman",
         "type": "Pantheon",
         "uniques": [
-			"[+2 Production] [in cities following this religion]",
-            "[+4 Production] [in cities following this religion] <in cities with at least [3] [Population]>"
+			"[+1 Production] from [Lumber mill] tiles [in cities following this religion]",
+			"[+4 Production] [in cities following this religion] <in cities with at least [3] [Population]>"
         ]
     },
     {
@@ -49,7 +49,7 @@
         "type": "Pantheon",
         "uniques": [
             "[+1 Happiness] from [All] tiles without [Improvement] [in cities following this religion]",
-            "[+1 Culture, +1 Faith] from every [Pasture]"
+			"[+1 Culture, +1 Faith] from [Pasture] tiles [in cities following this religion]"
         ]
     },
     {
@@ -58,7 +58,7 @@
         "uniques": [
             "[+1 Culture, +1 Gold] from [Coast] tiles [in all coastal cities]",
 			"[+1 Culture, +1 Gold] from [Ocean] tiles [in all coastal cities]",
-            "[+1 Production] from every [Fishing Boats]"
+			"[+1 Production] from [Fishing Boats] tiles [in cities following this religion]"
         ]
     },
     {
@@ -74,8 +74,8 @@
         "type": "Pantheon",
         "uniques": [
             "[+4 Culture, -2 Gold] [in cities following this religion] <while the empire is happy>",
-            "[+2 Culture, +1 Faith] from every [Wine]",
-            "[+1 Culture, +2 Faith] from every [Incense]"
+			"[+2 Culture, +1 Faith] from [Wine] tiles [in cities following this religion]",
+			"[+1 Culture, +2 Faith] from [Incense] tiles [in cities following this religion]"
         ]
     },
     {
@@ -99,14 +99,14 @@
         "name": "Goddess of the Hunt",
         "type": "Pantheon",
         "uniques": [
-            "[+3 Food, +1 Faith] from every [Camp]"
+			"[+3 Food, +1 Faith] from [Camp] tiles [in cities following this religion]"
         ]
     },
     {
         "name": "Messenger of the Gods",
         "type": "Pantheon",
         "uniques": [
-            "[+4 Science] [in cities following this religion]",
+            "[+6 Science] [in cities following this religion]",
             "[+2 Science] from each Trade Route"
         ]
     },
