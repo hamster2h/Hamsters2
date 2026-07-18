@@ -548,7 +548,7 @@
             {
                 "name": "Rationalism Complete",
                 "uniques": [
-					"[-25]% [Faith] [in all cities]",
+					"Gain an extra spy",
 					"Comment [Enables construction of Research City]",
                     "May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500])",
                     "Get the leader title of [[leaderName] the Wise]"
