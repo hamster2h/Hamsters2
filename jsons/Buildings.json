@@ -847,7 +847,7 @@
 		"uniques": [
 			"[+2] population [in all cities]",
 			"[+1 Happiness] [in all cities]",
-			"Gain a free [Broadcast Tower] [in all cities]"
+			"Gain a free [Foreign Center] [in all cities]"
 		],
 		"requiredTech": "Telecommunications",
 		"quote": "'Nothing travels faster than light with the possible exception of bad news, which obeys its own special rules.' - Douglas Adams"
