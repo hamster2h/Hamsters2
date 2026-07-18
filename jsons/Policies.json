@@ -596,7 +596,7 @@
                 "name": "Civil Society",
                 "uniques": [
                     "[-25]% Food consumption by [Specialists] [in all cities]",
-					"[+2 Production, +2 Happiness] [in all cities]",
+					"[+2 Gold] per [1] social policies adopted",
 					"[2] Free Social Policies"
                 ],
                 "row": 1,
@@ -768,7 +768,7 @@
                 "requires": ["Planned Economy"],
                 "uniques": [
 					"[-10]% maintenance cost for [all] buildings [in all cities]",
-					"[+1 Production, +1 Happiness] per [2] population [in all cities]",
+					"[+2 Production, +1 Happiness] per [4] population [in all cities]",
 					"[+25]% Production when constructing [Military] units [in all cities]"
                 ],
                 "row": 2,
