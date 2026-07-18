@@ -57,7 +57,7 @@
                 "name": "Monarchy",
                 "uniques": [
 					"Each city founded increases culture cost of policies [15]% less than normal",
-                    "[+1 Gold, +1 Happiness] per [2] population [in capital]"
+                    "[+2 Gold, +1 Happiness] per [4] population [in capital]"
                 ],
                 "requires": ["Legalism"],
                 "row": 2,
@@ -85,7 +85,7 @@
             "Scientific": 10
         },
         "uniques": [
-			"[+1 Culture] per [1] social policies adopted",
+			"[+2 Culture] per [3] social policies adopted",
 			"[+2 Culture, +2 Gold] [in all cities]"
 		],
         "policies": [
