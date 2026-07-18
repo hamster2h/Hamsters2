@@ -112,7 +112,7 @@
                 "name": "Collective Rule",
                 "uniques": [
                     "[+5]% Production when constructing [All] buildings [in all cities]",
-					"[+1 Happiness, +2 Production] [in all cities]"
+					"[+4 Production] [in all cities]"
                 ],
                 "requires": ["Republic"],
                 "row": 2,
