@@ -2583,8 +2583,7 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
 		"uniques": [
-			"[+100]% Strength <vs [Ranged] units>",
-			"Cannot attack"
+			"[+100]% Strength <vs [Ranged] units>"
 		],
 		"attackSound": "metalhit"
 	},
@@ -2883,7 +2882,7 @@
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
 		"uniques": [
-			"[+20]% Strength <in [Friendly Land] tiles>",
+			"[+50]% Strength <in [Friendly Land] tiles>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
