@@ -1748,7 +1748,7 @@ TileSets/FantasyHex/Units/Worker-Modern era
   index: -1
 TileSets/HexaRealm/Tiles/Alien Monolith
   rotate: false
-  xy: 544, 249
+  xy: 544, 248
   size: 66, 64
   orig: 66, 64
   offset: 0, 0
