@@ -1328,7 +1328,7 @@ TechIcons/World Alliance
   index: -1
 TileSets/FantasyHex/Tiles/Alien Monolith
   rotate: false
-  xy: 942, 1029
+  xy: 942, 1028
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
