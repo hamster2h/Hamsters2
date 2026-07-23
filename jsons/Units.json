@@ -203,7 +203,6 @@
 		"obsoleteTech": "Rifling",
 		"uniques": [
 			"Ignores Zone of Control",
-			"Can see invisible [Ngao Kongo] units",
 			"[-90]% maintenance costs",
 			"Never appears as a Barbarian unit"
 		],
@@ -226,7 +225,6 @@
 		"obsoleteTech": "Rifling",
 		"uniques": [
 			"Ignores Zone of Control",
-			"Can see invisible [Ngao Kongo] units",
 			"Gain [20] [Gold] <upon discovering a [Ancient ruins] tile>",
 			"Gain [10] [Culture] <upon discovering a [Ancient ruins] tile>",
 			"[-90]% maintenance costs",
@@ -252,7 +250,6 @@
 		"obsoleteTech": "Metagenetics",
 		"uniques": [
 			"Ignores Zone of Control",
-			"Can see invisible [Ngao Kongo] units",
 			"[-50]% Strength <before discovering [Rifling]>",
 			"[-50]% maintenance costs",
 			"Never appears as a Barbarian unit"
