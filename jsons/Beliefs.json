@@ -158,9 +158,9 @@
         "name": "Sacred Path",
         "type": "Pantheon",
         "uniques": [
+			"All newly-trained [Land] units [in cities following this religion] receive the [Mobility] promotion",
 			"[+2 Culture] from [Forest] tiles [in cities following this religion]",
-			"[+2 Culture] from [Jungle] tiles [in cities following this religion]",
-			"[+1] Movement <for [Land] units>",
+			"[+2 Culture] from [Jungle] tiles [in cities following this religion]"
         ]
     },
     {
