@@ -1126,7 +1126,6 @@
 		"uniques": [
 			"[+1 Production] from [Quarry] tiles [in this city]"
 		],
-		"hurryCostModifier": 0,
 		"requiredTech": "Calendar"
 	},
 	{
@@ -1262,7 +1261,6 @@
 			"[+1 Food] from [Bananas] tiles [in this city]",
 			"[+1 Food] from [Deer] tiles [in this city]"
 		],
-		"hurryCostModifier": 25,
 		"requiredTech": "Pottery"
 	},
     {
@@ -1599,7 +1597,6 @@
 		"uniques": [
 			"[+1 Science] per [2] population [in this city]"
 		],
-		"hurryCostModifier": 0,
 		"requiredTech": "Scientific Theory"
 	},
 	{
@@ -1661,8 +1658,7 @@
 		"requiredTech": "Electricity",
 		"uniques": [
 			"[+10]% [Gold] [in this city] <with [Power]>"
-		],
-		"hurryCostModifier": 15
+		]
 	},
 	{
 		"name": "Museum",
@@ -1751,7 +1747,6 @@
 	},
 	{
 		"name": "Electrical Grid",
-		"hurryCostModifier": 15,
 		"requiredTech": "Infrastructure",
 		"cost": 500,
 		"uniques": [
@@ -1837,8 +1832,7 @@
 			"Consumes [1] [Power]",
 			"Unsellable",
 			"Destroyed when the city is captured"
-		],
-		"hurryCostModifier": 15,
+		]
 	},
 	{
 		"name": "Spaceship Factory",
@@ -1901,10 +1895,9 @@
 		"name": "Defense Complex",
 		"cityStrength": 24,
 		"cityHealth": 50,
-		"hurryCostModifier": 25,
+		"cost": 850,
 		"requiredBuilding": "Military Base",
 		"requiredTech": "Combined Arms",
-		"cost": 850,
 		"requiredResource": "Power",
 		"uniques": [
 			"Destroyed when the city is captured"
@@ -1912,17 +1905,16 @@
 	},
 	{
 		"name": "Bio Facility",
+		"cost": 1000,
 		"percentStatBonus": {
 			"food": 10
 		},
-		"cost": 1000,
 		"uniques": [
 			"Consumes [1] [Power]",
 			"Only available <if [EP-Genetic Engineering] is constructed>",
 			"Provides [1] [Composites]",
 			"Destroyed when the city is captured"
-		],
-		"hurryCostModifier": 15
+		]
 	},
 	{
 		"name": "Nano-Factory",
@@ -1937,8 +1929,7 @@
 			"Consumes [4] [Power]",
 			"Provides [1] [Composites]",
 			"Destroyed when the city is captured"
-		],
-		"hurryCostModifier": 0
+		]
 	},
 	{
 		"name": "Composite Factory",
@@ -1951,8 +1942,7 @@
 			"[+10]% Production when constructing [Cyber] units [in this city]",
 			"Destroyed when the city is captured",
 			"Only available <if [EP-Cyber Engineering] is constructed>"
-		],
-		"hurryCostModifier": 0
+		]
 	},
 	{
 		"name": "SM Composite Factory",
@@ -1964,8 +1954,7 @@
 			"Consumes [4] [Coal]",
 			"Provides [1] [SM Composites]",
 			"Destroyed when the city is captured"
-		],
-		"hurryCostModifier": 0
+		]
 	},
 	{
 		"name": "Adaptive Base",
@@ -1979,8 +1968,7 @@
 			"[+10]% Production when constructing [Gunpowder] units [in this city]",
 			"[+15]% growth [in this city]",
 			"Destroyed when the city is captured"
-		],
-		"hurryCostModifier": 25
+		]
 	},
 	{
 		"name": "Bomb Shelter",
@@ -2005,8 +1993,7 @@
 			"Population loss from nuclear attacks [-25]% [in this city]",
 			"All newly-trained [Military] units [in this city] receive the [Energy Shield] promotion",
 			"Destroyed when the city is captured"
-		],
-		"hurryCostModifier": 0
+		]
 	},
 	{
 		"name": "Space Station",
