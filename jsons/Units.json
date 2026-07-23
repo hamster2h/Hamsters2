@@ -1817,7 +1817,7 @@
 		"cost": 5000,
 		"requiredTech": "Computers",
 		"upgradesTo": "Stealth Fighter",
-		"obsoleteTech": "Spaceflight",
+		"obsoleteTech": "Stealth",
 		"requiredResource": "Oil",
 		"uniques": [
 			"Cyber",
