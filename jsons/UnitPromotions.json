@@ -1021,7 +1021,7 @@
 		"name": "Ngao Kongo",
 		"uniques": [
 			"Invisible to others <when [Wounded]>",
-			"[-50]% Strength <when [Wounded]>"
+			"[-25]% Strength <when [Wounded]>"
 		]
 	}
 ]
