@@ -371,7 +371,8 @@
 		},
 		"requiredBuilding": "Market",
 		"uniques": [
-			"[+25]% Production when constructing [Military] units [in this city]"
+			"[+25]% Production when constructing [Military] units [in this city]",
+			"[+1 Food, +1 Gold, +1 Culture] from each Trade Route"
 		],
 		"hurryCostModifier": 15,
 		"requiredTech": "Banking"
