@@ -637,7 +637,7 @@
 		"uniques": [
 			"All newly-trained [relevant] units [in all cities] receive the [March] promotion",
 			"Great General provides double combat bonus",
-			"[Great General] is earned [50]% faster"
+			"[Great General] is earned [25]% faster"
 		],
 		"cities": [
 			"Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
@@ -1061,7 +1061,7 @@
 		"favoredReligion": "Hinduism",
 		"uniqueName": "Population Growth",
 		"uniques": [
-			"[+2 Food] from [Farm] tiles [in all cities]",
+			"[+1 Food] from [Farm] tiles [in all cities]",
 			"[+100]% unhappiness from the number of cities",
 			"[-50]% Unhappiness from [Population] [in all cities]",
 			"[+1] Movement <for [Worker] units>"
@@ -1290,7 +1290,7 @@
 		"innerColor": [96,11,99],
 		"uniqueName": "Heart of Africa",
 		"uniques": [
-			"[+3 Culture] from [Jungle] tiles [in all cities]",
+			"[+2 Culture] from [Jungle] tiles [in all cities]",
 			"Gain a free [Barracks] [in all cities]",
 			"All newly-trained [Sword] units [in all cities] receive the [Ngao Kongo] promotion",
 			"All newly-trained [Gunpowder] units [in all cities] receive the [Ngao Kongo] promotion"
@@ -1723,8 +1723,8 @@
         "innerColor": [201,214,217],
         "uniqueName": "Last of the Free",
         "uniques": [
-			"[+1 Food, +1 Production, +4 Culture] from [{non-[Natural Wonder]} {Mountain}] tiles [in all cities]",
-            "[+4 Culture] from [Hill] tiles without [Improvement] [in all cities]",
+			"[+1 Food, +1 Production, +3 Culture] from [{non-[Natural Wonder]} {Mountain}] tiles [in all cities]",
+            "[+3 Culture] from [Hill] tiles without [Improvement] [in all cities]",
 			"Gain a free [Stonehenge] [in capital]"
         ],
         "cities": [
@@ -1881,7 +1881,7 @@
 		"uniques": [
 			"[+200 Gold] for discovering a Natural Wonder (bonus enhanced to [+600 Gold] if first to discover it)",
 			"[+1 Happiness] for every known Natural Wonder",
-			"[+300]% Yield from every [Natural Wonder]"
+			"[+100]% Yield from every [Natural Wonder]"
 		],
 		"cities": [
 			"Madrid","Barcelona","Seville","Cordoba","Toledo","Santiago","Salamanca","Murcia","Valencia","Zaragoza","Pamplona",
@@ -1941,13 +1941,11 @@
 
         "startIntroPart1": "All hail Great King Gustavus Adolphus, founder of the Swedish Empire, and one of the most famous military tacticians. In the early 17th century, Sweden emerged as a great power in Europe under your reign, thanks to your wisdom, both in diplomacy and warfare. As king, you decided to reform Swedish laws to bring economic stability and prosperity to your people. Your allies, and also your enemies, called you the 'Lion of the North', witnessing your modern vision of warfare, and the prowess of your armies on the battlefield. As you triumphed in the Thirty Years' War, your name will be forever remembered as one of history's greatest generals.",
         "startIntroPart2": "O noble King, will you lend your leadership and brilliant ideas to Sweden once again, to conceive strategies never seen before? Will your new empire shine through the ages of history?",
-
         "declaringWar": "The Hakkapeliittas will ride again and your men will fall just at the sight of my cavalry! God with us!",
 		"attacked": "Ha ha ha, captain Gars will be very glad to head out to war again.",
 		"defeated": "I am Sweden's king. You can take my lands, my people, my kingdom, but you will never reach the House of Vasa.",
 		"denounced": "You actually seem sharper than what I had originally thought.",
 		"introduction": "Stranger, welcome to the Snow King's kingdom! I am Gustavus Adolphus, member of the esteemed House of Vasa",
-
 		"neutralHello": "Oh, welcome!",
 		"hateHello": "Oh, it is you.",
 		"tradeRequest": "My friend, it is my belief that this settlement can benefit both our peoples.",
@@ -1984,7 +1982,6 @@
 
         "startIntroPart1": "Great Attila, mighty warrior and leader of the Hunnic empire, your men bow down before you. During the 5th century, you and your brother Bleda have conquered many lands, forged a mighty empire and commanded the most powerful and frightening force of antiquity. You inspired fear to the Roman Emperors themselves, who called you 'Flagellum Dei', the 'Scourge of God', as you took kingdom after kingdom in the Balkans, invaded Eastern Roman Empire, into Gaul and Northern Italy, and planned to conquer Rome itself. Your empire didn't survive long after your death, but your name and your legend have, for millenia to come.",
         "startIntroPart2": "Fearsome General, your mighty hordes are at your command, waiting to crush your foes once again and to conquer all the riches the world has to offer! Will your new empire shine through the ages of history?",
-
         "declaringWar": "I grow tired of this throne. I think I should like to have yours instead.",
 		"defeated": "My people will mourn me not with tears, but with human blood.",
 		"denounced": "Do you know who you're dealing with?",
@@ -1993,10 +1990,8 @@
 		"neutralHello": "Good day to you.",
 		"hateHello": "What do you want?",
 		"tradeRequest": "This is better than you deserve, but let it not be said that I am an unfair man.",
-
         "outerColor": [180, 178, 164],
         "innerColor": [70, 0, 4],
-
         "favoredReligion": "Tengriism",
 		"uniqueName": "Scourge of God",
 		"uniques": [
@@ -2025,13 +2020,11 @@
 
         "startIntroPart1": "Kneel before King Pacal the Great, son of the gods and protector of the Palenque domain! After your kingdom has been harassed for years by neighboring rivals, you struck back at the enemies of your people, defeating each of them and sacrificing their leaders as a retribution to the insults made to your ancestors. Your wisdom and hard will not only restored the glory of Palenque, but turned it into a magnificient city, as your people built the greatest monuments and architecture the world has ever known.",
         "startIntroPart2": "Absolute King, your people need you to save the great Mayan culture and knowledge. Will you be able to read the movement of the stars, and find in the heavens the power to repel any foes? Will your new empire shine through the ages of history?",
-
         "declaringWar": "A sacrifice unlike all others must be made!",
 		"attacked": "Muahahahahahaha!",
 		"defeated": "Today comes a great searing pain. With you comes the path to the black storm.",
 		"introduction": "Greetings, wayward one. I am known as Pacal.",
 		"tradeRequest": "Friend, I believe I may have found a way to save us all! Look, look and accept my offering!",
-
 		"neutralHello": "A fine day, it helps you.",
 		"outerColor": [198, 141, 99],
 		"innerColor": [24, 63, 66],
@@ -2065,7 +2058,6 @@
 
         "startIntroPart1": "Greetings to the wise and brave Prince William of Orange, who freed the Netherlands and gave strength to the Dutch people. In 1568, you led a rebellion against Spanish dominion, to gain freedom for your people, and therefore starting the Eighty Years' War. Your actions were all aimed to create one of Europe's first modern republics, the Seven United Provinces. The rebellion was the meaning of your very life and death, as it was also the cause of your assassination in 1584. But your death has given even more pride and courage to your people, to fight for liberty against any oppressors. Carved in history as the 'Father of the Fatherland', your name is a symbol of Dutch independence for eternity.",
         "startIntroPart2": "Brave Prince, your people ask for your wisdom to gain its freedom once more, and to illuminate the world with progressive and modern ideas. Will your new empire shine through the ages of history?",
-
         "declaringWar": "As much as I despise war, I consider it a, hahaha, contribution to the common cause to erase your existence.",
 		"attacked": "You call yourself an exalted ruler, but I see nothing more than a smartly dressed barbarian!",
 		"defeated": "My God, be merciful to my soul. My God, feel pity for this... my poor people!",
@@ -2106,7 +2098,6 @@
 
         "startIntroPart1": "O Great Sultan Suleiman, may the God bless you! You are revered for your power, wealth and generosity, and you truly deserves to be called the 'Magnificent'! The Ottoman Empire was born in Bithynia, starting as a small country in Eastern Anatolia in 12th century, then expanded to west into Anatolia. Over the next century, your people vanquished the empire of Byzantium, annexing Turkey and the Balkans, and smartly assimilating all wonders and knowledge of the Byzantine civilization. In the mid 15th century, the Ottomans added Constantinople to their empire, establishing a strategic link between Europe and the Middle East. The Empire would continue to expand for centuries reaching North Africa, Middle East and Eastern Europe at its height, but brutally disappeared in the chaos of the first world war, in early 20th century.",
         "startIntroPart2": "Mighty Caliph, your people ask you to build again the Empire, to the level of power and glory it once achieved, and beyond! Will you revive the Ottoman golden age? Will your new empire shine through the ages of history?",
-
         "declaringWar": "Your continued insolence and failure to recognize our preeminence leads us to war.",
 		"attacked": "Good. The world shall witness the incontestable might of my armies and the glory of the Empire.",
 		"defeated": "Ruin! Ruin! Istanbul becomes Iram of the Pillars, remembered only by the melancholy poets.",
@@ -2114,10 +2105,8 @@
 		"neutralHello": "Greetings!",
 		"hateHello": "What do you want?",
 		"tradeRequest": "Let us do business! Would you be interested?",
-
         "outerColor": [245,248,185],
         "innerColor": [18,84,30],
-
 		"favoredReligion": "Islam",
 		"uniqueName": "Barbary Corsairs",
 		"uniques": [
