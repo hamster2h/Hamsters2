@@ -57,7 +57,7 @@
         "uniques": [
             "[+1 Culture, +1 Gold] from [Coast] tiles [in all coastal cities]",
 			"[+1 Culture, +1 Gold] from [Ocean] tiles [in all coastal cities]",
-			"[+1 Production] from [Fishing Boats] tiles [in cities following this religion]"
+			"[+2 Food] from [Fishing Boats] tiles [in cities following this religion]"
         ]
     },
     {
@@ -65,7 +65,7 @@
         "type": "Pantheon",
         "uniques": [
             "[+1 Happiness, +2 Production] per [6] population [in cities following this religion] <when at war>",
-            "Earn [200]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"
+            "Earn [100]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"
         ]
     },
     {
@@ -114,14 +114,17 @@
         "name": "Monument to the Gods",
         "type": "Pantheon",
         "uniques": [
-			"Free Technology <upon constructing [World Wonder] [in cities following this religion]>"
+			"Free Technology <upon constructing [World Wonder] [in cities following this religion]>",
+			"[-6 Production] [in cities following this religion] <in cities with at least [4] [Population]>"
         ]
     },
     {
         "name": "One with Nature",
         "type": "Pantheon",
         "uniques": [
-			"[+4 Faith, +4 Happiness] from [Natural Wonder] tiles [in cities following this religion]"
+			"[+4 Faith, +1 Happiness] from [Natural Wonder] tiles [in cities following this religion]",
+			"[+1 Food] from [Forest] tiles [in cities following this religion]",
+			"[+1 Food] from [Jungle] tiles [in cities following this religion]"
         ]
     },
     {
@@ -129,6 +132,7 @@
         "type": "Pantheon",
         "uniques": [
             "[+1 Culture] from all [Culture] buildings",
+			"[+1 Culture] from all [Happiness] buildings",
 			"[+2 Culture] from [Plantation] tiles [in cities following this religion]"
         ]
     },
@@ -136,7 +140,7 @@
         "name": "Religious Idols",
         "type": "Pantheon",
         "uniques": [
-            "[+6 Gold] [in cities following this religion]",
+            "[+8 Gold] [in cities following this religion]",
 			"[+1 Culture, +1 Faith] from [Gold Ore] tiles [in cities following this religion]",
 			"[+1 Culture, +1 Faith] from [Silver] tiles [in cities following this religion]"
         ]
@@ -155,14 +159,15 @@
         "type": "Pantheon",
         "uniques": [
 			"[+2 Culture] from [Forest] tiles [in cities following this religion]",
-			"[+2 Culture] from [Jungle] tiles [in cities following this religion]"
+			"[+2 Culture] from [Jungle] tiles [in cities following this religion]",
+			"[+1] Movement <for [Land] units>",
         ]
     },
     {
         "name": "Sacred Waters",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Happiness] from [River] tiles [in cities following this religion]"
+            "[+2 Happiness, +1 Faith] from [River] tiles [in cities following this religion]"
         ]
     },
     {
