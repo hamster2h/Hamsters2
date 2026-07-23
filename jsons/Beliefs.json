@@ -115,7 +115,7 @@
         "type": "Pantheon",
         "uniques": [
 			"Free Technology <upon constructing [World Wonder] [in cities following this religion]>",
-			"[-6 Production] [in cities following this religion] <in cities with at least [4] [Population]>"
+			"[-25]% [Production] [in cities following this religion] <in cities with at least [4] [Population]>"
         ]
     },
     {
