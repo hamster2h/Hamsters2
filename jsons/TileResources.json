@@ -101,7 +101,6 @@
 		},
 		"uniques": [
 			"[+15]% Production when constructing [All] wonders [in this city]",
-			"Special placement during map generation",
 			"Doesn't generate naturally <in [{Grassland} {Fresh Water}] tiles>"
 		]
 	},
