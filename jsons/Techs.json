@@ -577,6 +577,7 @@
 				"name": "Infrastructure",
 				"row": 5,
 				"prerequisites": [
+					"Corporations",
 					"Electronics"
 				],
 				"quote": "'As an architect, you design for the present, with an awareness of the past, for a future which is essentially unknown.' - Norman Foster"
