@@ -18,6 +18,9 @@
         "Allow raze capital",
         "Allow raze holy city",
         "Can trade civilization introductions for [200] Gold",
-        "Cannot be used as permanent audiovisual mod"
+        "Cannot be used as permanent audiovisual mod",
+        "Mod requires [Civ V - Gods & Kings]",
+        "Mod is incompatible with [Thin Bubbly Borders]",
+        "Mod is incompatible with [Total Domination]"
     ]
 }
