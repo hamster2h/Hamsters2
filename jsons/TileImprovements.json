@@ -234,7 +234,7 @@
 		"techRequired": "Construction",
 		"uniques": [
 			"[+1 Production] <after discovering [Scientific Theory]>",
-			"[+1 Food] <after discovering [Ecology]>",
+			"[+2 Food] <after discovering [Ecology]>",
 			"[+1 Production, +1 Food] <within [2] tiles of a [Water Tower]>",
 			"[+1 Production, +1 Food] <within [2] tiles of a [Water Tower]> <after adopting [Safety Checks]>",
 			"[+1 Production, +1 Food] <within [2] tiles of a [Water Tower]> <if [Engineering Corporation] is constructed>",
@@ -894,7 +894,7 @@
             "[+1 Culture] <after discovering [Acoustics]>",
 			"[+1 Gold] <after discovering [Economics]>",
 			"[+1 Production, +1 Gold] <after discovering [Scientific Theory]>",
-			"[+1 Food] <after discovering [Ecology]>",
+			"[+2 Food] <after discovering [Ecology]>",
 			"[+1 Production, +1 Food] <within [2] tiles of a [Water Tower]>",
 			"[+1 Production, +1 Food] <within [2] tiles of a [Water Tower]> <after adopting [Safety Checks]>",
 			"[+1 Production, +1 Food] <within [2] tiles of a [Water Tower]> <if [Engineering Corporation] is constructed>",
