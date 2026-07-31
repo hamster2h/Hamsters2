@@ -42,6 +42,7 @@
         "type": "Pantheon",
         "uniques": [
 			"[+1 Production] from [Lumber mill] tiles [in cities following this religion]",
+			"[+1 Production] from [Brazilwood Camp] tiles [in cities following this religion]",
 			"[+4 Production] [in cities following this religion] <in cities with at least [3] [Population]>"
         ]
     },
