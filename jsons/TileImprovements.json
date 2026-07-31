@@ -343,9 +343,9 @@
 			"Tundra",
 			"Snow"
 		],
-		"food": 1,
-		"gold": 2,
-		"production": 1,
+		"food": 2,
+		"gold": 3,
+		"production": 2,
 		"turnsToBuild": 18,
 		"techRequired": "Urbanization",
 		"uniques": [
@@ -377,8 +377,8 @@
 			"Forest",
 			"Jungle"
 		],
-		"food": 2,
-		"production": 3,
+		"food": 3,
+		"production": 4,
 		"turnsToBuild": 18,
 		"techRequired": "Genetics",
 		"uniques": [
@@ -408,8 +408,8 @@
 			"Coast",
 			"Ocean"
 		],
-		"food": 2,
-		"production": 3,
+		"food": 3,
+		"production": 4,
 		"turnsToBuild": 18,
 		"techRequired": "Terraforming",
 		"uniques": [
