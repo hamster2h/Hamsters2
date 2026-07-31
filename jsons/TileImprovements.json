@@ -633,10 +633,12 @@
 		"terrainsCanBeBuiltOn": [
 			"Land"
 		],
-		"science": 8,
+		"science": 6,
 		"uniques": [
 			"Great Improvement",
 			"Provides [1] [Scientist Perk] <starting from the [Industrial era]>",
+			"[+3 Science] <after discovering [Astronomy]>",
+			"[+3 Science] <after discovering [Scientific Theory]>",
 			"[+1 Food, +1 Science] <within [2] tiles of a [Water Tower]>",
 			"[+1 Food, +1 Science] <within [2] tiles of a [Water Tower]> <after adopting [Safety Checks]>",
 			"[+1 Production, +1 Science] <within [2] tiles of a [Industrial Complex]>",
@@ -660,6 +662,8 @@
 		"uniques": [
 			"Great Improvement",
 			"Provides [1] [Artist Perk] <starting from the [Industrial era]>",
+			"[+3 Culture] <after discovering [Acoustics]>",
+			"[+3 Culture] <after discovering [Archaeology]>",
 			"[+1 Gold, +1 Culture] <within [2] tiles of a [Water Tower]>",
 			"[+1 Gold, +1 Culture] <within [2] tiles of a [Water Tower]> <after adopting [Safety Checks]>",
 			"[+2 Culture] <within [2] tiles of a [Industrial Complex]>",
@@ -714,7 +718,7 @@
 			"Great Improvement",
 			"Provides [1] [Merchant Perk] <starting from the [Industrial era]>",
 			"[+3 Gold] <after discovering [Economics]>",
-			"[+3 Gold] <after discovering [Scientific Theory]>",
+			"[+3 Gold] <after discovering [Steam Power]>",
 			"[+1 Food, +1 Gold] <within [2] tiles of a [Water Tower]>",
 			"[+1 Food, +1 Gold] <within [2] tiles of a [Water Tower]> <after adopting [Safety Checks]>",
 			"[+1 Production, +1 Gold] <within [2] tiles of a [Industrial Complex]>",
@@ -738,6 +742,8 @@
 		"uniques": [
 			"Great Improvement",
 			"Provides [1] [Prophet Perk] <starting from the [Industrial era]>",
+			"[+3 Faith] <after discovering [Theology]>",
+			"[+3 Faith] <after discovering [Printing Press]>",
 			"[+1 Food, +1 Faith] <within [2] tiles of a [Water Tower]>",
 			"[+1 Food, +1 Faith] <within [2] tiles of a [Water Tower]> <after adopting [Safety Checks]>",
 			"[+1 Production, +1 Faith] <within [2] tiles of a [Industrial Complex]>",
