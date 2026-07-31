@@ -1152,7 +1152,8 @@
 			"production": 10
 		},
 		"uniques": [
-			"[+1 Production] from [Lumber mill] tiles [in this city]"
+			"[+1 Production] from [Lumber mill] tiles [in this city]",
+			"[+1 Production] from [Brazilwood Camp] tiles [in this city]"
 		],
 		"requiredTech": "Metal Casting"
 	},
