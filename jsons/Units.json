@@ -1564,17 +1564,14 @@
 		"movement": 1,
 		"strength": 1000,
 		"rangedStrength": 1000,
-		"range": 16,
-		"cost": 80000,
+		"range": 40,
+		"cost": 350000,
 		"requiredTech": "Particle Physics",
 		"uniques": [
 			"Space",
 			"[-100]% maintenance costs",
 			"Nuclear weapon of Strength [4]",
-			"Blast radius [200]",
-			"Cannot be purchased",
-			"Triggers a global alert upon build start",
-			"Triggers a global alert upon completion",
+			"Blast radius [12]",
 			"Can only be built <in cities with a [Spaceship Factory]>"
 		],
 		"attackSound": "nuke"
