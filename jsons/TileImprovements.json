@@ -409,7 +409,7 @@
 			"Ocean"
 		],
 		"food": 3,
-		"production": 2,
+		"production": 4,
 		"turnsToBuild": 18,
 		"techRequired": "Terraforming",
 		"uniques": [
