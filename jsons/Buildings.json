@@ -1740,7 +1740,6 @@
 		"uniques": [
 			"Must be on [River]",
 			"Provides [3] [Power]",
-			"Provides [3] [Power] <after discovering [Clean Energy]>",
 			"Provides [3] [Power] <if [Electrical Corporation] is constructed>",
 			"[+1 Production] from [River] tiles [in this city]"
 		]
@@ -1751,7 +1750,6 @@
 		"cost": 500,
 		"uniques": [
 			"Provides [4] [Power]",
-			"Provides [1] [Power] <after discovering [Clean Energy]>",
 			"Provides [1] [Power] <if [Electrical Corporation] is constructed>",
 			"Must have an owned [Power Plant] within [4] tiles",
 			"Destroyed when the city is captured"
@@ -1766,7 +1764,6 @@
 		"requiredTech": "Electricity",
 		"uniques": [
 			"Provides [5] [Power]",
-			"Provides [3] [Power] <after discovering [Clean Energy]>",
 			"Provides [5] [Power] <if [Electrical Corporation] is constructed>"
 		]
 	},
@@ -1778,7 +1775,6 @@
 		"requiredTech": "Nuclear Fission",
 		"uniques": [
 			"Provides [7] [Power]",
-			"Provides [3] [Power] <after discovering [Clean Energy]>",
 			"Provides [7] [Power] <if [Electrical Corporation] is constructed>"
 		]
 	},
@@ -1790,7 +1786,6 @@
 		"uniques": [
 			"Only available <if [SP-Future Power] is constructed>",
 			"Provides [20] [Power]",
-			"Provides [3] [Power] <after discovering [Clean Energy]>",
 			"Provides [20] [Power] <if [Electrical Corporation] is constructed>"
 		]
 	},
@@ -2184,7 +2179,10 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Information Perk]",
-			"Comment [+2 Power provided by Solar Farm, Wind Farm and Offshore Wind Farm]",
+			"Comment [+1 Power provided by Solar Farm, Wind Farm and Offshore Wind Farm]",
+			"[+1 Production, +1 Gold] from [Solar Farm] tiles [in all cities]",
+			"[+1 Production, +1 Food] from [Wind Farm] tiles [in all cities]",
+			"[+1 Production, +1 Gold] from [Offshore Wind Farm] tiles [in all cities]",
 			"Only available <starting from the [Information era]>",
 			"Consumes [2] [Scientist Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
