@@ -179,7 +179,8 @@
 		"name": "find a map",
 		"notification": "We have found a map in the ruins!",
 		"uniques": [
-			"Reveals the entire map"
+			"Reveals the entire map",
+			"Unavailable"
 		]
 	},
 	{
