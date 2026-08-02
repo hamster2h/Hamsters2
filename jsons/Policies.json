@@ -1090,8 +1090,8 @@
 		"name": "Technocracy",
 		"era": "Future era",
 			"uniques": [
-				"[+10]% [Production] [in all cities]",
-				"Free Technology"
+				"[+25]% [Science] [in all cities]",
+				"[+10]% [Production] [in all cities]"
 			],
 			"priorities": {
 				"Neutral": 40,
