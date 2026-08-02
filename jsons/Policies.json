@@ -36,9 +36,9 @@
             {
                 "name": "Oligarchy",
                 "uniques": [
-                    "Gain a free [Walls] [in all cities]",
+					"[+100]% Production when constructing [Walls] buildings [in all cities]",
                     "[+50]% Strength for cities <with a garrison> <when attacking>",
-					"[-50]% weight to this choice for AI decisions"
+					"[-75]% weight to this choice for AI decisions"
                 ],
                 "row": 1,
                 "column": 5
