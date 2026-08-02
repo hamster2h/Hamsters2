@@ -2795,7 +2795,7 @@
 			"Comment [Industrial Perk]",
 			"[+50]% Production when constructing [Settler] units [in all cities]",
 			"[Gold] cost of purchasing [Settler] units [-25]%",
-			"[-50]% Gold cost of acquiring tiles [in all cities]",
+			"[-25]% Gold cost of acquiring tiles [in all cities]",
 			"Only available <during the [Industrial era]>",
 			"Consumes [1] [Merchant Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
