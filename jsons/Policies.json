@@ -690,7 +690,7 @@
 					"[+1 Happiness] [in all cities]",
                     "[+3 Happiness] from every [Courthouse]",
                     "[+300]% Production when constructing [Courthouse] buildings [in all cities]",
-                    "[-25]% enemy spy effectiveness [in all cities]"
+                    "[-20]% enemy spy effectiveness [in all cities]"
                 ],
                 "requires": ["Populism", "Militarism"],
                 "row": 2,
@@ -758,7 +758,7 @@
                 "uniques": [
 					"[+15]% Strength <for [All] units>",
                     "[+10]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
-					"[-25]% enemy spy effectiveness [in all cities]"
+					"[-20]% enemy spy effectiveness [in all cities]"
                 ],
                 "row": 1,
                 "column": 5
@@ -780,7 +780,7 @@
                 "uniques": [
                     "[-10 Happiness] [in all cities]",
 					"[-25]% [Culture] [in all cities]",
-                    "[-25]% enemy spy effectiveness [in all cities]",
+                    "[-20]% enemy spy effectiveness [in all cities]",
 					"[+25]% Strength <for [Siege] units>"
                 ],
                 "row": 3,
