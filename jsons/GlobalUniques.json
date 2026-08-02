@@ -12,6 +12,12 @@
         "[-20]% [Gold] [in all cities]",
 		"[-20]% [Food] [in all cities]",
 
+		"[+20]% enemy spy effectiveness [in all cities] <when between [-5] and [-1] [Happiness]>",
+		"[+40]% enemy spy effectiveness [in all cities] <when between [-10] and [-6] [Happiness]>",
+		"[+80]% enemy spy effectiveness [in all cities] <when between [-15] and [-11] [Happiness]>",
+		"[+160]% enemy spy effectiveness [in all cities] <when between [-20] and [-16] [Happiness]>",
+		"[+320]% enemy spy effectiveness [in all cities] <when below [-20] [Happiness]>",
+
         "[-1 Happiness] [in all cities] <when at war>",
         "[-1 Happiness] per [3] population [in all cities] <when at war>",
 
