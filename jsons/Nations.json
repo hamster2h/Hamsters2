@@ -70,7 +70,7 @@
 			"[+25]% Strength <for [Aircraft] units>",
 			"[+1] Sight <for [{Military} {Land}] units>",
 			"[+1] Movement <for [{Military} {Land}] units>",
-			"[-50]% Gold cost of acquiring tiles [in all cities]",
+			"[-25]% Gold cost of acquiring tiles [in all cities]",
 			"Starts with [Freedom] adopted"
 		],
 		"cities": [
