@@ -612,18 +612,84 @@
 		"requiredTech": "Iron Working"
 	},
 	{
+		"name": "Mausoleum of Halicarnassus",
+		"isWonder": true,
+		"culture": 2,
+		"greatPersonPoints": {
+			"Great Merchant": 1
+		},
+		"requiredTech": "Masonry",
+		"uniques": [
+			"Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
+			"[+2 Gold] from [Marble] tiles [in all cities]",
+			"[+2 Gold] from [Stone] tiles [in all cities]"
+		],
+		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
+	},
+	{
+		"name": "Statue of Zeus",
+		"isWonder": true,
+		"culture": 2,
+		"requiredTech": "Bronze Working",
+		"uniques": [
+			"Free Social Policy",
+			"[+15]% Strength <for [All] units> <vs cities> <when attacking>"
+		],
+		"quote": "'He spoke, the son of Kronos, and nodded his head with the dark brows, and the immortally anointed hair of the great god swept from his divine head, and all Olympos was shaken' - The Iliad"
+	},
+	{
+		"name": "Stonehenge",
+		"isWonder": true,
+		"culture": 2,
+		"faith": 5,
+		"greatPersonPoints": {
+			"Great Engineer": 1
+		},
+		"requiredTech": "Calendar",
+		"quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
+	},
+	{
+		"name": "Temple of Artemis",
+		"isWonder": true,
+		"culture": 2,
+		"greatPersonPoints": {
+			"Great Engineer": 1
+		},
+		"requiredTech": "Archery",
+        "uniques": [
+			"[+10]% [Food] [in all cities]",
+			"[+15]% Production when constructing [Archery] units [in this city]",
+            "[+15]% Production when constructing [Ranged Gunpowder] units [in this city]"
+		],
+		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
+	},
+	{
 		"name": "The Great Library",
 		"isWonder": true,
+		"culture": 2,
 		"science": 5,
-		"culture": 1,
 		"greatPersonPoints": {
-			"Great Scientist": 2
+			"Great Scientist": 1
 		},
 		"requiredTech": "Writing",
 		"uniques": [
-			"Free Technology"
+			"[+1 Science] per [2] population [in this city]"
 		],
 		"quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"
+	},
+	{
+		"name": "The Pyramids",
+		"isWonder": true,
+		"culture": 2,
+		"greatPersonPoints": {
+			"Great Engineer": 1
+		},
+		"requiredTech": "Masonry",
+		"uniques": [
+			"Can build [all] improvements at a [+25]% rate",
+			"[2] free [Worker] units appear"
+		],
+		"quote": "'O, let not the pains of death which come upon thee enter into my body. I am the god Tem, and I am the foremost part of the sky, and the power which protecteth me is that which is with all the gods forever.' - The Book of the Dead, translated by Sir Ernest Alfred Wallis Budge"
 	},
 	{
 		"name": "Petra",
@@ -680,21 +746,6 @@
 		],
 		"requiredTech": "Chivalry",
 		"quote": "'Justice is an unassailable fortress, built on the brow of a mountain which cannot be overthrown by the violence of torrents, nor demolished by the force of armies.' - Joseph Addison"
-	},
-	{
-		"name": "Mausoleum of Halicarnassus",
-		"culture": 1,
-		"greatPersonPoints": {
-			"Great Merchant": 1
-		},
-		"isWonder": true,
-		"uniques": [
-			"Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
-			"[+2 Gold] from [Marble] tiles [in all cities]",
-			"[+2 Gold] from [Stone] tiles [in all cities]"
-		],
-		"requiredTech": "Masonry",
-		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
 	},
 	{
 		"name": "Kremlin",
@@ -785,17 +836,6 @@
 		],
 		"requiredTech": "Theology",
 		"quote": "'With the magnificence of eternity before us, let time, with all its fluctuations, dwindle into its own littleness.' - Thomas Chalmers"
-	},
-	{
-		"name": "Statue of Zeus",
-		"culture": 1,
-		"isWonder": true,
-		"uniques": [
-			"Free Social Policy",
-			"[+15]% Strength <for [All] units> <vs cities> <when attacking>"
-		],
-		"requiredTech": "Bronze Working",
-		"quote": "'He spoke, the son of Kronos, and nodded his head with the dark brows, and the immortally anointed hair of the great god swept from his divine head, and all Olympos was shaken' - The Iliad"
 	},
 	{
 		"name": "Sydney Opera House",
