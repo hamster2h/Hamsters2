@@ -612,6 +612,20 @@
 		"requiredTech": "Iron Working"
 	},
 	{
+		"name": "The Great Library",
+		"isWonder": true,
+		"science": 5,
+		"culture": 1,
+		"greatPersonPoints": {
+			"Great Scientist": 2
+		},
+		"requiredTech": "Writing",
+		"uniques": [
+			"Free Technology"
+		],
+		"quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"
+	},
+	{
 		"name": "Petra",
 		"culture": 1,
 		"isWonder": true,
