@@ -1427,7 +1427,7 @@
 		"requiredResource": "SM Composites",
 		"uniques": [
 			"[-100]% maintenance costs",
-			"[+500]% Strength <vs [Water] units>",
+			"[+600]% Strength <vs [Water] units>",
 			"[+4] Range <after discovering [Lasers]>",
 			"Cannot be intercepted"
 		],
@@ -1460,7 +1460,7 @@
 		"requiredResource": "SM Composites",
 		"uniques": [
 			"[-100]% maintenance costs",
-			"[+500]% Strength <vs [Water] units>",
+			"[+600]% Strength <vs [Water] units>",
 			"[+5] Range <after discovering [Lasers]>",
 			"Cannot be intercepted"
 		],
