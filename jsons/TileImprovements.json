@@ -896,9 +896,6 @@
         "techRequired": "Bronze Working",
         "uniques": [
 			"Cannot be built on [resource] tiles",
-            "[+1 Gold] <after discovering [Machinery]>",
-            "[+1 Culture] <after discovering [Acoustics]>",
-			"[+1 Gold] <after discovering [Economics]>",
 			"[+1 Production, +1 Gold] <after discovering [Scientific Theory]>",
 			"[+2 Food] <after discovering [Ecology]>",
 			"[+1 Production, +1 Food] <within [2] tiles of a [Water Tower]>",
