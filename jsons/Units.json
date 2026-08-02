@@ -314,7 +314,7 @@
 	{
 		"name": "Drone",
 		"unitType": "Support",
-		"movement": 3,
+		"movement": 5,
 		"strength": 20,
 		"cost": 2500,
 		"requiredTech": "Computers",
