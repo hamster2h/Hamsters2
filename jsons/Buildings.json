@@ -261,6 +261,16 @@
 		"requiredTech": "Writing"
 	},
 	{
+        "name": "Constabulary",
+        "cost": 160,
+        "maintenance": 1,
+		"requiredTech": "Banking",
+        "uniques": [
+			"Only available <when espionage is enabled>",
+			"[-20]% enemy spy effectiveness [in this city]"
+		]
+    },
+	{
 		"name": "Convict Penitentiary",
 		"uniqueTo": "Australia",
 		"replaces": "Constabulary",
@@ -270,11 +280,22 @@
 			"gold": 10,
 			"production": 10
 		},
+		"requiredTech": "Banking",
 		"uniques": [
-			"[-25]% enemy spy effectiveness [in this city]"
-		],
-		"requiredTech": "Banking"
+			"[-20]% enemy spy effectiveness [in this city]"
+		]
 	},
+	{
+        "name": "Police Station",
+        "cost": 300,
+        "maintenance": 1,
+		"requiredBuilding": "Constabulary",
+        "requiredTech": "Electricity",
+        "uniques": [
+			"Only available <when espionage is enabled>",
+			"[-20]% enemy spy effectiveness [in this city]"
+		]
+    },
 	{
 		"name": "Candi",
 		"uniqueTo": "Indonesia",
@@ -621,7 +642,6 @@
 			"Only available <when espionage is enabled>",
             "New spies start with [1] level(s)",
             "Promotes all spies [1] time(s)",
-            "Gain an extra spy",
 			"Cost increases by [30] per owned city"
 		]
     },
@@ -1129,8 +1149,8 @@
 		"requiredTech": "Computers",
         "uniques": [
 			"Only available <when espionage is enabled>",
-			"[-99]% enemy spy effectiveness [in this city]",
-            "[-25]% enemy spy effectiveness [in all cities]"
+			"[-20]% enemy spy effectiveness [in all cities]",
+			"Gain an extra spy"
 		],
         "quote": "'Distrust and caution are the parents of security.' - Benjamin Franklin"
     },
