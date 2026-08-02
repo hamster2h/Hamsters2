@@ -971,16 +971,44 @@
 	},
 	{
 		"name": "Sistine Chapel",
-		"culture": 1,
 		"isWonder": true,
+		"culture": 2,
 		"greatPersonPoints": {
 			"Great Artist": 2
 		},
+		"requiredTech": "Acoustics",
 		"uniques": [
 			"[+25]% [Culture] [in all cities]"
 		],
-		"requiredTech": "Acoustics",
 		"quote": "'I live and love in God's peculiar light.' - Michelangelo Buonarroti"
+	},
+	{
+		"name": "Taj Mahal",
+		"isWonder": true,
+		"culture": 2,
+		"happiness": 4,
+		"greatPersonPoints": {
+			"Great Artist": 2
+		},
+		"requiredTech": "Architecture",
+		"uniques": [
+			"Empire enters golden age"
+		],
+		"quote": "'The Taj Mahal rises above the banks of the river like a solitary tear suspended on the cheek of time.' - Rabindranath Tagore"
+	},
+	{
+		"name": "Big Ben",
+		"isWonder": true,
+		"culture": 2,
+		"gold": 4,
+		"greatPersonPoints": {
+			"Great Merchant": 2
+		},
+		"requiredTech": "Industrialization",
+		"uniques": [
+			"[Gold] cost of purchasing items in cities [-15]%"
+		],
+		"quote": "'To achieve great things, two things are needed: a plan, and not quite enough time.' - Leonard Bernstein"
 	},
 	{
 		"name": "Brandenburg Gate",
@@ -997,68 +1025,107 @@
 		"quote": "'Pale Death beats equally at the poor man's gate and at the palaces of kings.' - Horace"
 	},
 	{
+		"name": "The Louvre",
+		"isWonder": true,
+		"culture": 2,
+		"greatPersonPoints": {
+			"Great Artist": 3
+		},
+		"requiredTech": "Archaeology",
+		"uniques": [
+			"[2] free [Great Artist] units appear"
+		],
+		"quote": "'Every genuine work of art has as much reason for being as the earth and the sun' - Ralph Waldo Emerson"
+	},
+	{
+		"name": "Cristo Redentor",
+		"isWonder": true,
+		"culture": 2,
+		"percentStatBonus": {
+			"culture": 25
+		},
+		"greatPersonPoints": {
+			"Great Artist": 2
+		},
+		"requiredTech": "Plastics",
+		"uniques": [
+			"[+10]% [Culture] [in all cities]"
+		],
+		"quote": "'Come to me, all who labor and are heavy burdened, and I will give you rest.' - New Testament, Matthew 11:28"
+	},
+	{
+		"name": "Eiffel Tower",
+		"isWonder": true,
+		"culture": 2,
+		"happiness": 5,
+		"greatPersonPoints": {
+			"Great Merchant": 2
+		},
+		"requiredTech": "Radio",
+		"uniques": [
+			"[+1 Happiness] per [3] social policies adopted"
+		],
+		"quote": "'We live only to discover beauty, all else is a form of waiting' - Kahlil Gibran"
+	},
+	{
 		"name": "Neuschwanstein",
-		"culture": 8,
+		"isWonder": true,
+		"culture": 2,
 		"gold": 12,
 		"greatPersonPoints": {
 			"Great Merchant": 2
 		},
-		"isWonder": true,
-		"uniques": [
-			"[+8 Culture, +4 Gold] from every [Castle]",
-			"Must have an owned [{non-[Natural Wonder]} {Mountain}] within [3] tiles"
-		],
 		"requiredTech": "Railroads",
+		"uniques": [
+			"Must have an owned [{non-[Natural Wonder]} {Mountain}] within [3] tiles",
+			"[+8 Culture, +4 Gold] from every [Castle]"
+		],
 		"quote": "'...the location is one of the most beautiful to be found, holy and unapproachable, a worthy temple for the divine friend who has brought salvation and true blessing to the world.' - King Ludwig II of Bavaria"
 	},
 	{
-		"name": "Sydney Opera House",
+		"name": "Statue of Liberty",
 		"isWonder": true,
+		"culture": 2,
 		"greatPersonPoints": {
-			"Great Artist": 2
+			"Great Engineer": 2
 		},
-		"percentStatBonus": {
-			"culture": 50,
-			"gold": 25
-		},
+		"requiredTech": "Replaceable Parts",
 		"uniques": [
-			"Must be next to [Coast]"
+			"[+1 Production] from every specialist [in all cities]"
 		],
-		"requiredTech": "Ecology",
-		"quote": "'Those who lose dreaming are lost.' - Australian Aboriginal saying"
+		"quote": "'Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me, I lift my lamp beside the golden door!' - Emma Lazarus"
 	},
 	{
-		"name": "CN Tower",
+		"name": "Apollo Program",
 		"isWonder": true,
+		"culture": 2,
 		"greatPersonPoints": {
-			"Great Merchant": 1
+			"Great Spacefarer": 24
 		},
+		"requiredTech": "Rocketry",
 		"uniques": [
-			"[+2] population [in all cities]",
-			"[+1 Happiness] [in all cities]"
+			"Space",
+			"Free [Great Spacefarer] appears",
+			"[Great Spacefarer] is earned [100]% faster"
 		],
-		"requiredTech": "Telecommunications",
-		"quote": "'Nothing travels faster than light with the possible exception of bad news, which obeys its own special rules.' - Douglas Adams"
+		"quote": "'That's one small step for a man, one giant leap for mankind.' - Neil Armstrong"
 	},
 	{
-		"name": "Cristo Redentor",
-		"culture": 5,
-		"isWonder": true,
-		"greatPersonPoints": {
-			"Great Artist": 2
-		},
-		"percentStatBonus": {
-			"culture": 25
-		},
-		"uniques": [
-			"[+10]% [Culture] [in all cities]"
+        "name": "Great Firewall",
+        "isWonder": true,
+		"culture": 2,
+		"requiredTech": "Computers",
+        "uniques": [
+			"Only available <when espionage is enabled>",
+			"[-99]% enemy spy effectiveness [in this city]",
+            "[-25]% enemy spy effectiveness [in all cities]"
 		],
-		"requiredTech": "Plastics",
-		"quote": "'Come to me, all who labor and are heavy burdened, and I will give you rest.' - New Testament, Matthew 11:28"
-	},
+        "quote": "'Distrust and caution are the parents of security.' - Benjamin Franklin"
+    },
 	{
 		"name": "Manhattan Project",
 		"isWonder": true,
+		"culture": 2,
 		"requiredTech": "Atomic Theory",
 		"uniques": [
 			"Provides [2] [Uranium]",
@@ -1073,42 +1140,60 @@
 		"name": "Pentagon",
 		"isWonder": true,
 		"culture": 2,
-		"greatPersonPoints": {
-			"Great Engineer": 2
-		},
 		"percentStatBonus": {
 			"science": 50,
 			"culture": 25
 		},
+		"greatPersonPoints": {
+			"Great Engineer": 2
+		},
+		"requiredTech": "Combined Arms",
 		"uniques": [
 			"New [Military] units start with [45] XP [in all cities]",
 			"[+100]% Gold cost of upgrading <for [Military] units>",
 			"[Gold] cost of purchasing [Military] units [+100]%"
 		],
-		"requiredTech": "Combined Arms",
 		"quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.' - Dwight D. Eisenhower"
 	},
 	{
-		"name": "Apollo Program",
+		"name": "Sydney Opera House",
 		"isWonder": true,
-		"uniques": [
-			"Space",
-			"Free [Great Spacefarer] appears",
-			"[Great Spacefarer] is earned [100]% faster"
-		],
-		"greatPersonPoints": {
-			"Great Spacefarer": 24
+		"culture": 2,
+		"percentStatBonus": {
+			"culture": 50,
+			"gold": 25
 		},
-		"requiredTech": "Rocketry",
-		"quote": "'That's one small step for a man, one giant leap for mankind.' - Neil Armstrong"
+		"greatPersonPoints": {
+			"Great Artist": 2
+		},
+		"requiredTech": "Ecology",
+		"uniques": [
+			"Must be next to [Coast]"
+		],
+		"quote": "'Those who lose dreaming are lost.' - Australian Aboriginal saying"
+	},
+	{
+		"name": "CN Tower",
+		"isWonder": true,
+		"culture": 2,
+		"greatPersonPoints": {
+			"Great Merchant": 1
+		},
+		"requiredTech": "Telecommunications",
+		"uniques": [
+			"[+2] population [in all cities]",
+			"[+1 Happiness] [in all cities]"
+		],
+		"quote": "'Nothing travels faster than light with the possible exception of bad news, which obeys its own special rules.' - Douglas Adams"
 	},
 	{
 		"name": "Hubble Space Telescope",
 		"isWonder": true,
-		"requiredTech": "Satellites",
+		"culture": 2,
 		"greatPersonPoints": {
 			"Great Spacefarer": 2
 		},
+		"requiredTech": "Satellites",
 		"uniques": [
 			"Space",
 			"[2] free [Great Scientist] units appear",
@@ -1119,7 +1204,7 @@
 	{
 		"name": "United Nations",
 		"isWonder": true,
-		"culture": 1,
+		"culture": 2,
 		"greatPersonPoints": {
 			"Great Artist": 2
 		},
@@ -1132,9 +1217,9 @@
 	},
 	{
 		"name": "Fusion Reactor",
-		"cost": 2600,
-		"requiredTech": "Nuclear Fusion",
 		"isWonder": true,
+		"culture": 2,
+		"requiredTech": "Nuclear Fusion",
 		"uniques": [
 			"[+25]% Strength <for [Cyber] units>",
 			"[+25]% Strength <for units with [Energy Weapons]>",
@@ -1146,7 +1231,7 @@
 	{
 		"name": "Living Castle",
 		"isWonder": true,
-		"cost": 2600,
+		"culture": 2,
 		"requiredTech": "Metagenetics",
 		"uniques": [
 			"[+25]% Strength <for [Gunpowder] units>",
@@ -1158,11 +1243,11 @@
 	{
 		"name": "Space Elevator",
 		"isWonder": true,
-		"cost": 2600,
-		"requiredTech": "Spaceflight",
+		"culture": 2,
 		"greatPersonPoints": {
 			"Great Spacefarer": 2
 		},
+		"requiredTech": "Spaceflight",
 		"uniques": [
 			"Space",
 			"[+25]% Strength <for [Space] units>",
@@ -1173,9 +1258,23 @@
 		"quote": "'It takes a planet to explore the universe.' - Dylan Taylor"
 	},
 	{
+		"name": "Teleport Station",
+		"isWonder": true,
+		"culture": 2,
+		"requiredTech": "Particle Physics",
+		"uniques": [
+			"All newly-trained [Giant Death Robot] units [in all cities] receive the [Teleportation] promotion",
+			"All newly-trained [Stealth Helicopter] units [in all cities] receive the [Teleportation] promotion",
+			"All newly-trained [Battleship] units [in all cities] receive the [Sea Teleportation] promotion",
+			"All newly-trained [Missile Cruiser] units [in all cities] receive the [Sea Teleportation] promotion",
+			"All newly-trained [Carrier] units [in all cities] receive the [Sea Teleportation] promotion"
+		],
+		"quote": "'If I could teleport, I'd probably still be late.' - Anonymous"
+	},
+	{
 		"name": "World Alliance",
 		"isWonder": true,
-		"culture": 1,
+		"culture": 2,
 		"greatPersonPoints": {
 			"Great Merchant": 2
 		},
@@ -1186,20 +1285,6 @@
 			"Triggers a global alert upon completion"
 		],
 		"quote": "'Don't Cry Because it's Over, Smile Because It Happened'"
-	},
-	{
-		"name": "Teleport Station",
-		"isWonder": true,
-		"cost": 4000,
-		"requiredTech": "Particle Physics",
-		"uniques": [
-			"All newly-trained [Giant Death Robot] units [in all cities] receive the [Teleportation] promotion",
-			"All newly-trained [Stealth Helicopter] units [in all cities] receive the [Teleportation] promotion",
-			"All newly-trained [Battleship] units [in all cities] receive the [Sea Teleportation] promotion",
-			"All newly-trained [Missile Cruiser] units [in all cities] receive the [Sea Teleportation] promotion",
-			"All newly-trained [Carrier] units [in all cities] receive the [Sea Teleportation] promotion"
-		],
-		"quote": "'If I could teleport, I'd probably still be late.' - Anonymous"
 	},
 	{
 		"name": "Electrical Corporation",
