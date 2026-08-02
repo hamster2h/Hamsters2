@@ -724,7 +724,7 @@
 		"uniqueName": "Monument Builders",
 		"uniques": [
 			"[+25]% Production when constructing [All] wonders [in all cities]",
-			"Gain a free [The Pyramids] [in capital]"
+			"[+2 Food] from [River] tiles [in all cities]"
 		],
 		"cities": [
 			"Thebes","Memphis","Heliopolis","Elephantine","Alexandria","Pi-Ramesses","Giza","Byblos","Akhetaten",
