@@ -97,7 +97,8 @@
 		"notification": "An ancient tribe killed us!",
 		"uniques": [
 			"[This Unit] is destroyed"
-		]
+		],
+		"weight": 2
 	},
 	{
 		"name": "survivors (adds population to a city)",
@@ -122,7 +123,16 @@
 		"notification": "We used ancient technology in the ruins!",
 		"uniques": [
 			"[-3] population [in all cities]",
-			"Provides [1] [Future Discovery]"
+			"Gain [50]-[400] [Science] <(modified by game speed)>"
+		],
+		"color": "#81c784"
+	},
+	{
+		"name": "trigger a major dissaster",
+		"notification": "We used ancient technology in the ruins!",
+		"uniques": [
+			"[-5] population [in all cities]",
+			"[This Unit] is destroyed"
 		],
 		"color": "#81c784"
 	},
