@@ -8,7 +8,7 @@
         "[-200]% [Science] [in all cities] <when between [-20] and [-16] [Happiness]>",
         "[-400]% [Science] [in all cities] <when below [-20] [Happiness]>",
         "[-33]% Strength <for [All] units> <when below [-20] [Happiness]>",
-        "[-33]% [Culture] [in all cities]",
+        "[-40]% [Culture] [in all cities]",
         "[-20]% [Gold] [in all cities]",
 		"[-20]% [Food] [in all cities]",
 
