@@ -1948,7 +1948,7 @@
 		"uniques": [
 			"Consumes [12] [Power]",
 			"Consumes [4] [Coal]",
-			"Provides [1] [SM Composites]",
+			"Provides [2] [SM Composites]",
 			"Destroyed when the city is captured"
 		]
 	},
