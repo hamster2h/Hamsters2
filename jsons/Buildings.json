@@ -763,7 +763,6 @@
 		},
 		"isWonder": true,
 		"uniques": [
-			"Gain a free [Temple] [in this city]",
 			"Free [Great Prophet] appears",
 			"Only available <when religion is enabled>"
 		],
@@ -809,7 +808,6 @@
 			"gold": 25
 		},
 		"uniques": [
-			"Free Social Policy",
 			"Must be next to [Coast]"
 		],
 		"requiredTech": "Ecology",
@@ -823,8 +821,7 @@
 		},
 		"uniques": [
 			"[+2] population [in all cities]",
-			"[+1 Happiness] [in all cities]",
-			"Gain a free [Foreign Center] [in all cities]"
+			"[+1 Happiness] [in all cities]"
 		],
 		"requiredTech": "Telecommunications",
 		"quote": "'Nothing travels faster than light with the possible exception of bad news, which obeys its own special rules.' - Douglas Adams"
