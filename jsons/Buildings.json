@@ -692,20 +692,123 @@
 		"quote": "'O, let not the pains of death which come upon thee enter into my body. I am the god Tem, and I am the foremost part of the sky, and the power which protecteth me is that which is with all the gods forever.' - The Book of the Dead, translated by Sir Ernest Alfred Wallis Budge"
 	},
 	{
-		"name": "Petra",
-		"culture": 1,
+		"name": "Colossus",
 		"isWonder": true,
+		"culture": 2,
+		"gold": 5,
+		"greatPersonPoints": {
+			"Great Merchant": 1
+		},
+		"requiredTech": "Iron Working",
+		"uniques": [
+			"Must be next to [Coast]",
+			"[+1 Gold] from [Water] tiles [in this city]"
+		],
+		"quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
+	},
+	{
+		"name": "Great Wall",
+		"isWonder": true,
+		"culture": 2,
+		"greatPersonPoints": {
+			"Great Engineer": 1
+		},
+		"requiredTech": "Engineering",
+		"uniques": [
+			"Enemy [Land] units must spend [1] extra movement points when inside your territory <before discovering [Dynamite]> <Suppress warning [*contains a conditional on a unit movement unique*]>",
+			"[+25]% Strength for cities"
+		],
+		"quote": "'The art of war teaches us to rely not on the likelihood of the enemy's not attacking, but rather on the fact that we have made our position unassailable.' - Sun Tzu"
+	},
+	{
+		"name": "Hanging Gardens",
+		"isWonder": true,
+		"culture": 2,
+		"food": 6,
+		"greatPersonPoints": {
+			"Great Artist": 1
+		},
+		"requiredTech": "Mathematics",
+		"uniques": [
+			"Gain a free [Garden] [in this city]"
+		],
+		"quote": "'I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.' - F. Frankfort Moore"
+	},
+	{
+		"name": "Petra",
+		"isWonder": true,
+		"culture": 2,
 		"greatPersonPoints": {
 			"Great Engineer": 1,
 			"Great Merchant": 1
 		},
+		"requiredTech": "Currency",
 		"uniques": [
 			"Must be next to [Desert]",
 			"[+1 Food, +1 Production, +1 Gold] from [Desert] tiles without [Flood plains] [in all cities]",
 			"[+6 Culture] [in this city] <after discovering [Archaeology]>"
 		],
-		"requiredTech": "Currency",
 		"quote": "'...who drinks the water I shall give him, says the Lord, will have a spring inside him welling up for eternal life. Let them bring me to your holy mountain in the place where you dwell. Across the desert and through the mountain to the Canyon of the Crescent Moon...' - Indiana Jones"
+	},
+	{
+		"name": "Terracotta Army",
+		"isWonder": true,
+		"culture": 2,
+		"greatPersonPoints": {
+			"Great Artist": 1
+		},
+		"requiredTech": "Construction",
+		"uniques": [
+			"[+1 Culture] per [3] population [in this city]"
+		],
+		"quote": "'Regard your soldiers as your children, and they will follow you into the deepest valleys; look on them as your own beloved sons, and they will stand by you even unto death.' - Sun Tzu"
+	},
+	{
+		"name": "The Great Lighthouse",
+		"isWonder": true,
+		"culture": 2,
+		"greatPersonPoints": {
+			"Great Merchant": 1
+		},
+		"requiredTech": "Optics",
+		"uniques": [
+			"Must be next to [Coast]",
+			"[+1] Movement <for [{Military} {Water}] units>",
+			"[+1] Sight <for [{Military} {Water}] units>",
+			"Gain a free [Lighthouse] [in this city]"
+		],
+		"quote": "'They that go down to the sea in ships, that do business in great waters; these see the works of the Lord, and his wonders in the deep.' - The Bible, Psalms 107:23-24"
+	},
+	{
+		"name": "The Oracle",
+		"isWonder": true,
+		"culture": 2,
+		"greatPersonPoints": {
+			"Great Scientist": 1
+		},
+		"requiredTech": "Philosophy",
+		"uniques": [
+			"[+1 Science] [in all cities]",
+			"Free Social Policy"
+		],
+		"quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing' - Socrates"
+	},
+	{
+		"name": "Alhambra",
+		"isWonder": true,
+		"culture": 2,
+		"percentStatBonus": {
+			"culture": 10
+		},
+		"greatPersonPoints": {
+			"Great Artist": 1
+		},
+		"requiredTech": "Chivalry",
+		"uniques": [
+			"All newly-trained [relevant] units [in all cities] receive the [Drill I] promotion",
+			"Gain a free [Castle] [in this city]"
+		],
+		"quote": "'Justice is an unassailable fortress, built on the brow of a mountain which cannot be overthrown by the violence of torrents, nor demolished by the force of armies.' - Joseph Addison"
 	},
 	{
 		"name": "Machu Picchu",
@@ -733,19 +836,6 @@
 		],
 		"requiredTech": "Military Science",
 		"quote": "'Pale Death beats equally at the poor man's gate and at the palaces of kings.' - Horace"
-	},
-	{
-		"name": "Alhambra",
-		"culture": 1,
-		"greatPersonPoints": {"Great Artist": 1},
-		"isWonder": true,
-		"percentStatBonus": {"culture": 20},
-		"uniques": [
-			"All newly-trained [relevant] units [in all cities] receive the [Drill I] promotion",
-			"Gain a free [Castle] [in this city]"
-		],
-		"requiredTech": "Chivalry",
-		"quote": "'Justice is an unassailable fortress, built on the brow of a mountain which cannot be overthrown by the violence of torrents, nor demolished by the force of armies.' - Joseph Addison"
 	},
 	{
 		"name": "Kremlin",
