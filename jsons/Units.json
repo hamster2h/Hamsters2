@@ -2622,7 +2622,7 @@
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 24,
-		"cost": 140,
+		"cost": 180,
 		"requiredTech": "Steel",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
