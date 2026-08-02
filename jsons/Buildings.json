@@ -612,6 +612,20 @@
 		"requiredTech": "Iron Working"
 	},
 	{
+        "name": "National Intelligence Agency",
+        "isNationalWonder": true,
+		"cost": 120,
+        "culture": 1,
+		"requiredTech": "Radio"
+        "uniques": [
+			"Only available <when espionage is enabled>",
+            "New spies start with [1] level(s)",
+            "Promotes all spies [1] time(s)",
+            "Gain an extra spy",
+			"Cost increases by [30] per owned city"
+		]
+    },
+	{
 		"name": "Mausoleum of Halicarnassus",
 		"isWonder": true,
 		"culture": 2,
