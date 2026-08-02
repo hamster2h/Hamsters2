@@ -811,46 +811,190 @@
 		"quote": "'Justice is an unassailable fortress, built on the brow of a mountain which cannot be overthrown by the violence of torrents, nor demolished by the force of armies.' - Joseph Addison"
 	},
 	{
+		"name": "Angkor Wat",
+		"isWonder": true,
+		"culture": 2,
+		"greatPersonPoints": {
+			"Great Engineer": 1
+		},
+		"requiredTech": "Education",
+		"uniques": [
+			"[-25]% Culture cost of natural border growth [in all cities]",
+			"[-25]% Gold cost of acquiring tiles [in all cities]"
+		],
+		"quote": "'The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.' - Antonio da Magdalena"
+	},
+	{
+		"name": "Chichen Itza",
+		"isWonder": true,
+		"culture": 2,
+		"happiness": 4,
+		"greatPersonPoints": {
+			"Great Engineer": 1
+		},
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+25]% Golden Age length"
+		],
+		"quote": "'The katun is established at Chichen Itza. The settlement of the Itza shall take place there. The quetzal shall come, the green bird shall come. Ah Kantenal shall come. It is the word of God. The Itza shall come.' - The Books of Chilam Balam"
+	},
+	{
+		"name": "Great Mosque of Djenne",
+		"isWonder": true,
+		"culture": 2,
+		"faith": 3,
+		"greatPersonPoints": {
+			"Great Engineer": 1
+		},
+		"requiredTech": "Theology",
+		"uniques": [
+			"Only available <when religion is enabled>",
+            "All newly-trained [Missionary] units [in this city] receive the [Devout] promotion",
+            "All newly-trained [Great Prophet] units [in this city] receive the [Devout] promotion"
+		],
+		"quote": "'With the magnificence of eternity before us, let time, with all its fluctuations, dwindle into its own littleness.' - Thomas Chalmers"
+	},
+	{
+		"name": "Hagia Sophia",
+		"isWonder": true,
+		"culture": 2,
+		"faith": 4,
+		"greatPersonPoints": {
+			"Great Artist": 1
+		},
+		"requiredTech": "Theology",
+		"uniques": [
+			"Only available <when religion is enabled>",
+			"Free [Great Prophet] appears"
+		],
+		"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
+	},
+	{
 		"name": "Machu Picchu",
+		"isWonder": true,
+		"culture": 2,
 		"gold": 5,
 		"faith": 2,
 		"greatPersonPoints": {
 			"Great Merchant": 1
 		},
-		"isWonder": true,
+		"requiredTech": "Guilds",
 		"uniques": [
 			"[+25]% [Gold] from Trade Routes",
 			"Must have an owned [{non-[Natural Wonder]} {Mountain}] within [3] tiles"
 		],
-		"requiredTech": "Guilds",
 		"quote": "'Few romances can ever surpass that of the granite citadel on top of the beetling precipices of Machu Picchu, the crown of Inca Land.' - Hiram Bingham"
 	},
 	{
-		"name": "Brandenburg Gate",
-		"culture": 3,
-		"greatPersonPoints": {"Great Scientist": 2},
+		"name": "Notre Dame",
 		"isWonder": true,
+		"culture": 2,
+		"happiness": 10,
+		"faith": 4,
+		"greatPersonPoints": {
+			"Great Merchant": 1
+		},
+		"requiredTech": "Physics",
+		"quote": "'Architecture has recorded the great ideas of the human race. Not only every religious symbol, but every human thought has its page in that vast book.' - Victor Hugo"
+	},
+	{
+		"name": "Forbidden Palace",
+		"isWonder": true,
+		"culture": 2,
+		"greatPersonPoints": {
+			"Great Artist": 1
+		},
+		"requiredTech": "Banking",
 		"uniques": [
-			"Free [Great General] appears",
-			"New [Military] units start with [15] XP [in all cities]"
+			"[-10]% Unhappiness from [Population] [in all non-occupied cities]"
 		],
-		"requiredTech": "Military Science",
-		"quote": "'Pale Death beats equally at the poor man's gate and at the palaces of kings.' - Horace"
+		"quote": "'Most of us can, as we choose, make of this world either a palace or a prison' - John Lubbock"
+	},
+	{
+		"name": "Himeji Castle",
+		"isWonder": true,
+		"culture": 2,
+		"greatPersonPoints": {
+			"Great Engineer": 2,
+			"Great Artist": 2
+		},
+		"requiredTech": "Gunpowder",
+		"uniques": [
+			"[+20]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+			"Gain a free [Castle] [in all cities]"
+		],
+		"quote": "'Bushido is realized in the presence of death. This means choosing death whenever there is a choice between life and death. There is no other reasoning.' - Yamamoto Tsunetomo"
 	},
 	{
 		"name": "Kremlin",
-		"culture": 3,
+		"isWonder": true,
+		"culture": 2,
 		"cityStrength": 12,
         "greatPersonPoints": {
-			"Great Scientist": 1
+			"Great Scientist": 1,
+			"Great Artist": 1
 		},
-		"isWonder": true,
+		"requiredTech": "Metallurgy",
 		"uniques": [
 			"Free Social Policy",
 			"[+25]% City Strength from defensive buildings"
 		],
-		"requiredTech": "Metallurgy",
 		"quote": "'The Kremlin is constantly changing the rules of the game to suit its purposes. We are not playing chess, we're playing roulette.' - Garry Kasparov"
+	},
+	{
+		"name": "Leaning Tower of Pisa",
+		"isWonder": true,
+		"culture": 2,
+		"greatPersonPoints": {
+			"Great Artist": 1
+		},
+		"requiredTech": "Printing Press",
+		"uniques": [
+			"[+25]% Great Person generation [in all cities]",
+			"Free Great Person"
+		],
+		"quote": "'Don't clap too hard - it's a very old building.' - John Osbourne"
+	},
+	{
+		"name": "Porcelain Tower",
+		"isWonder": true,
+		"culture": 2,
+		"greatPersonPoints": {
+			"Great Scientist": 2
+		},
+		"requiredTech": "Architecture",
+		"uniques": [
+			"Free [Great Scientist] appears",
+			"Science gained from research agreements [+50]%"
+		],
+		"quote": "'Things always seem fairer when we look back at them, and it is out of that inaccessible tower of the past that Longing leans and beckons.' - James Russell Lowell"
+	},
+	{
+		"name": "Sistine Chapel",
+		"culture": 1,
+		"isWonder": true,
+		"greatPersonPoints": {
+			"Great Artist": 2
+		},
+		"uniques": [
+			"[+25]% [Culture] [in all cities]"
+		],
+		"requiredTech": "Acoustics",
+		"quote": "'I live and love in God's peculiar light.' - Michelangelo Buonarroti"
+	},
+	{
+		"name": "Brandenburg Gate",
+		"isWonder": true,
+		"culture": 2,
+		"greatPersonPoints": {
+			"Great Scientist": 2
+		},
+		"requiredTech": "Military Science",
+		"uniques": [
+			"Free [Great General] appears",
+			"New [Military] units start with [15] XP [in all cities]"
+		],
+		"quote": "'Pale Death beats equally at the poor man's gate and at the palaces of kings.' - Horace"
 	},
 	{
 		"name": "Neuschwanstein",
@@ -866,66 +1010,6 @@
 		],
 		"requiredTech": "Railroads",
 		"quote": "'...the location is one of the most beautiful to be found, holy and unapproachable, a worthy temple for the divine friend who has brought salvation and true blessing to the world.' - King Ludwig II of Bavaria"
-	},
-	{
-		"name": "Himeji Castle",
-		"culture": 4,
-		"isWonder": true,
-		"greatPersonPoints": {
-			"Great Engineer": 2
-		},
-		"uniques": [
-			"[+20]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
-			"Gain a free [Castle] [in all cities]"
-		],
-		"requiredTech": "Gunpowder",
-		"quote": "'Bushido is realized in the presence of death. This means choosing death whenever there is a choice between life and death. There is no other reasoning.' - Yamamoto Tsunetomo"
-	},
-	{
-		"name": "Angkor Wat",
-		"culture": 2,
-		"greatPersonPoints": {
-			"Great Engineer": 1
-		},
-		"isWonder": true,
-		"uniques": [
-			"[-25]% Culture cost of natural border growth [in all cities]",
-			"[-25]% Gold cost of acquiring tiles [in all cities]"
-		],
-		"requiredTech": "Education",
-		"quote": "'The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.' - Antonio da Magdalena"
-	},
-	{
-		"name": "Hagia Sophia",
-		"culture": 3,
-		"faith": 3,
-		"greatPersonPoints": {
-			"Great Artist": 1
-		},
-		"isWonder": true,
-		"uniques": [
-			"Free [Great Prophet] appears",
-			"Only available <when religion is enabled>"
-		],
-		"requiredTech": "Theology",
-		"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
-	},
-	{
-		"name": "Great Mosque of Djenne",
-		"culture": 1,
-		"faith": 3,
-		"greatPersonPoints": {
-			"Great Engineer": 1
-		},
-		"isWonder": true,
-		"uniques": [
-			"Gain a free [Mosque] [in all cities]",
-			"Only available <when religion is enabled>",
-            "All newly-trained [Missionary] units [in this city] receive the [Devout] promotion",
-            "All newly-trained [Great Prophet] units [in this city] receive the [Devout] promotion"
-		],
-		"requiredTech": "Theology",
-		"quote": "'With the magnificence of eternity before us, let time, with all its fluctuations, dwindle into its own littleness.' - Thomas Chalmers"
 	},
 	{
 		"name": "Sydney Opera House",
