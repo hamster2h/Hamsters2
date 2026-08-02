@@ -72,10 +72,24 @@
 		]
 	},
 	{
+		"name": "your exploring unit receives poison 2",
+		"notification": "An ancient tribe poisoned us!",
+		"uniques": [
+			"[This Unit] takes [50] damage"
+		]
+	},
+	{
 		"name": "your exploring unit receives a strong poison",
 		"notification": "An ancient tribe poisoned us!",
 		"uniques": [
 			"[This Unit] takes [66] damage"
+		]
+	},
+	{
+		"name": "your exploring unit receives a strong poison 2",
+		"notification": "An ancient tribe poisoned us!",
+		"uniques": [
+			"[This Unit] takes [75] damage"
 		]
 	},
 	{
@@ -107,7 +121,8 @@
 		"name": "trigger a dissaster",
 		"notification": "We used ancient technology in the ruins!",
 		"uniques": [
-			"[-3] population [in all cities]"
+			"[-3] population [in all cities]",
+			"Provides [1] [Future Discovery]"
 		],
 		"color": "#81c784"
 	},
@@ -179,8 +194,7 @@
 		"name": "find a map",
 		"notification": "We have found a map in the ruins!",
 		"uniques": [
-			"Reveals the entire map",
-			"Unavailable"
+			"Reveals the entire map"
 		]
 	},
 	{
