@@ -1037,7 +1037,7 @@
 		"isWonder": true,
 		"culture": 2,
 		"specialistSlots": {
-			"General": 2
+			"General": 1
 		},
 		"requiredTech": "Gunpowder",
 		"uniques": [
