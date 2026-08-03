@@ -749,6 +749,9 @@
 		"name": "Statue of Zeus",
 		"isWonder": true,
 		"culture": 2,
+		"specialistSlots": {
+			"General": 1
+		},
 		"requiredTech": "Bronze Working",
 		"uniques": [
 			"Free Social Policy",
@@ -1033,9 +1036,8 @@
 		"name": "Himeji Castle",
 		"isWonder": true,
 		"culture": 2,
-		"greatPersonPoints": {
-			"Great Engineer": 1,
-			"Great Artist": 1
+		"specialistSlots": {
+			"General": 2
 		},
 		"requiredTech": "Gunpowder",
 		"uniques": [
