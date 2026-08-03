@@ -577,7 +577,7 @@
                 "uniques": [
 					"[+15]% Strength <for [Gunpowder] units>",
 					"[+4 Culture] from every [Wonder]",
-					"Free Social Policy"
+					"[+2 Culture] from every [Artist]"
 				],
                 "row": 1,
                 "column": 1
@@ -597,7 +597,7 @@
                 "uniques": [
                     "[-25]% Food consumption by [Specialists] [in all cities]",
 					"[+2 Gold] per [1] social policies adopted",
-					"[2] Free Social Policies"
+					"[+2 Culture, +2 Gold] from every [Artist]"
                 ],
                 "row": 1,
                 "column": 5
