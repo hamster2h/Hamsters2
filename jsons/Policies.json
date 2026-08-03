@@ -429,7 +429,7 @@
 					"[+4 Gold, +2 Production] [in all coastal cities]",
 					"[+1 Production, +1 Food] from [Coast] tiles [in all coastal cities]",
 					"[+1 Production, +1 Food] from [Ocean] tiles [in all coastal cities]",
-					"Reveals the entire map"
+					"[+4 Gold] from every [Merchant]"
 				],
                 "requires": ["Naval Tradition"],
                 "row": 2,
@@ -596,8 +596,8 @@
                 "name": "Civil Society",
                 "uniques": [
                     "[-25]% Food consumption by [Specialists] [in all cities]",
-					"[+2 Gold] per [1] social policies adopted",
-					"[+2 Culture, +2 Gold] from every [Artist]"
+					"[+2 Culture, +2 Gold] from every [Artist]",
+					"[+2 Gold] per [1] social policies adopted"
                 ],
                 "row": 1,
                 "column": 5
@@ -884,9 +884,9 @@
 			{
 				"name": "Digitalization Complete",
 				"uniques": [
+					"[+2 Gold] from every [Merchant]",
 					"[2] Free Social Policies",
-					"Adopt [Technocracy]",
-					"Free Technology"
+					"Adopt [Technocracy]"
 				]
 			}
 		]
