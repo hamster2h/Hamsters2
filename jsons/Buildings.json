@@ -495,13 +495,16 @@
 	{
 		"name": "Military Academy",
 		"maintenance": 4,
+		"specialistSlots": {
+			"General": 1
+		},
 		"requiredBuilding": "Armory",
+		"requiredTech": "Military Science"
 		"uniques": [
 			"New [Military] units start with [15] XP [in this city]",
 			"[+25]% Production when constructing [Military] units [in this city]",
 			"Destroyed when the city is captured"
-		],
-		"requiredTech": "Military Science"
+		]
 	},
 	{
 		"name": "Stable",
