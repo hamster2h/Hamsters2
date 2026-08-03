@@ -768,7 +768,7 @@
                 "requires": ["Planned Economy"],
                 "uniques": [
 					"[-10]% maintenance cost for [all] buildings [in all cities]",
-					"[+2 Production, +1 Happiness] per [4] population [in all cities]",
+					"[+1 Production] per [2] population [in all cities]",
 					"[+25]% Production when constructing [Military] units [in all cities]"
                 ],
                 "row": 2,
@@ -778,8 +778,7 @@
                 "name": "Communism",
                 "requires": ["Socialism"],
                 "uniques": [
-                    "[-10 Happiness] [in all cities]",
-					"[-25]% [Culture] [in all cities]",
+                    "[+3 Production] from every [Engineer]",
                     "[-20]% enemy spy effectiveness [in all cities]",
 					"[+25]% Strength <for [Siege] units>"
                 ],
@@ -884,8 +883,8 @@
 			{
 				"name": "Digitalization Complete",
 				"uniques": [
+					"[+1 Production, +2 Science] from every [Engineer]",
 					"[+2 Gold] from every [Merchant]",
-					"[2] Free Social Policies",
 					"Adopt [Technocracy]"
 				]
 			}
