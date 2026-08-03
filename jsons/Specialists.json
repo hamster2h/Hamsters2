@@ -18,6 +18,16 @@
 		"color": [139,69,19]
 	},
 	{
+		"name": "General",
+		"production": 2,
+		"science": 2,
+		"greatPersonPoints": {
+			"Great General": 4,
+			"Great Admiral": 1
+		},
+		"color": [0,90,0]
+	},
+	{
 		"name": "Merchant",
 		"gold": 3,
 		"production": 1,
@@ -25,16 +35,6 @@
 			"Great Merchant": 5
 		},
 		"color": [255,215,0]
-	},
-	{
-		"name": "Scientist",
-		"science": 2,
-		"production": 1,
-		"gold": 1,
-		"greatPersonPoints": {
-			"Great Scientist": 5
-		},
-		"color": [0,0,255]
 	},
 	{
 		"name": "Prophet",
@@ -46,14 +46,14 @@
 		"color": [230,230,230]
 	},
 	{
-		"name": "General",
-		"production": 2,
+		"name": "Scientist",
 		"science": 2,
+		"production": 1,
+		"gold": 1,
 		"greatPersonPoints": {
-			"Great General": 4,
-			"Great Admiral": 1
+			"Great Scientist": 5
 		},
-		"color": [0,90,0]
+		"color": [0,0,255]
 	},
 	{
 		"name": "Spacefarer",
