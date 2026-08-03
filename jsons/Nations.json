@@ -552,7 +552,6 @@
 		"favoredReligion": "Islam",
 		"uniqueName": "Phoenician Heritage",
 		"uniques": [
-			"Gain a free [Harbor] [in all coastal cities]",
 			"Land units may cross [Mountain] tiles after the first [Great General] is earned",
 			"[+4 Gold] from [Coast] tiles [in all coastal cities]",
 			"[+2 Gold] from [Ocean] tiles [in all coastal cities]"
@@ -595,7 +594,6 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Druidic Lore",
 		"uniques": [
-			"Gain a free [Ceilidh Hall] [in all cities]",
 			"[+1 Faith] [in all cities] <with [1] to [2] neighboring [{unimproved} {Forest}] tiles>",
 			"[+2 Faith] [in all cities] <with [3] to [6] neighboring [{unimproved} {Forest}] tiles>",
 			"[+1 Happiness] per [6] population [in all cities] <when at war>",
