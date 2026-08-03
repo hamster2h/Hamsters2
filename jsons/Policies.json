@@ -1064,9 +1064,7 @@
 				"name": "Revolutionism",
 				"uniques": [
 					"[+5 Gold, +5 Culture, +5 Science] from all [Space] buildings",
-					"[6] free [Hypersonic Fighter] units appear",
-					"Provides [12] [Composites]",
-					"Provides [6] [Oil]",
+					"[+4 Science] from every [Spacefarer]",
 					"Empire enters golden age"
 				],
 				"requires": [
@@ -1168,9 +1166,8 @@
 					"name": "Technocracy Complete",
 					"uniques": [
 						"[+1 Production, +1 Culture, +1 Gold] from all [Science] buildings",
-						"[6] free [Giant Death Robot] units appear",
-						"Provides [24] [Composites]",
-						"Provides [6] [Uranium]"
+						"[+1 Science, +1 Production] from every specialist [in all cities]",
+						"[+2 Production] from every [Spacefarer]"
 					]
 				}
 			]
