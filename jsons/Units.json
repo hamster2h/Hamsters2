@@ -2620,7 +2620,7 @@
 		"uniqueTo": "Japan",
 		"replaces": "Longswordsman",
 		"unitType": "Sword",
-		"movement": 2,
+		"movement": 3,
 		"strength": 24,
 		"cost": 180,
 		"requiredTech": "Steel",
@@ -2633,8 +2633,6 @@
 		],
 		"promotions": [
 			"Blitz",
-			"March",
-			"Charge",
 			"Stealth"
 		],
 		"attackSound": "metalhit"
