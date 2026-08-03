@@ -516,6 +516,31 @@
 		]
 	},
 	{
+		"name": "Castle",
+		"cityStrength": 7,
+		"cityHealth": 25,
+		"requiredBuilding": "Walls",
+		"requiredTech": "Chivalry",
+		"uniques": [
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Mughal Fort",
+		"uniqueTo": "India",
+		"replaces": "Castle",
+		"cost": 150,
+		"cityStrength": 7,
+		"cityHealth": 25,
+		"culture": 2,
+		"requiredBuilding": "Walls",
+		"requiredTech": "Chivalry",
+		"uniques": [
+			"[+1 Gold] [in this city] <after discovering [Flight]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
 		"name": "Stable",
 		"maintenance": 1,
 		"requiredNearbyImprovedResources": [
