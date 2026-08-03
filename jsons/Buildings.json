@@ -704,6 +704,18 @@
 		]
 	},
 	{
+		"name": "Ironworks",
+		"isNationalWonder": true,
+		"cost": 125,
+		"production": 8,
+		"culture": 1,
+		"requiredTech": "Machinery",
+		"uniques": [
+			"Only available <if [Workshop] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city"
+		]
+	},
+	{
 		"name": "Heroic Epic",
 		"cost": 100,
 		"culture": 2,
@@ -769,6 +781,19 @@
 			"All newly-trained [Ranged Water] units [in this city] receive the [Stealth] promotion",
 			"All newly-trained [Aircraft Carrier] units [in this city] receive the [Stealth] promotion",
 			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Oxford University",
+		"isNationalWonder": true,
+		"cost": 125,
+		"science": 3,
+		"culture": 1,
+		"requiredTech": "Education",
+		"uniques": [
+			"Only available <if [University] is constructed in all [non-[Puppeted]] cities>",
+			"Free Technology",
+			"Cost increases by [30] per owned city"
 		]
 	},
 	{
