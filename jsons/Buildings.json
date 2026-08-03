@@ -7,12 +7,12 @@
 		"greatPersonPoints": {
 			"Great Artist": 6
 		},
+		"requiredTech": "Metal Casting",
 		"uniques": [
 			"[+1 Culture] from [Tundra] tiles [in this city]",
 			"[+1 Culture] from [Snow] tiles [in this city]",
 			"Destroyed when the city is captured"
-		],
-		"requiredTech": "Metal Casting"
+		]
 	},
 	{
 		"name": "Coffee House",
@@ -24,10 +24,10 @@
 		"percentStatBonus": {
 			"production": 10
 		},
+		"requiredTech": "Guilds",
 		"uniques": [
 			"[+25]% Great Person generation [in this city]"
-		],
-		"requiredTech": "Guilds"
+		]
 	},
 	{
 		"name": "Stave Church",
@@ -36,11 +36,11 @@
 		"faith": 2,
 		"maintenance": 2,
 		"requiredBuilding": "Shrine",
+		"requiredTech": "Philosophy",
 		"uniques": [
 			"[+1 Food] from [Snow] tiles [in this city]",
 			"Free Great Person <upon turn start> <every [40] turns>"
-		],
-		"requiredTech": "Philosophy"
+		]
 	},
 	{
 		"name": "Floating Gardens",
@@ -51,11 +51,11 @@
 		"percentStatBonus": {
 			"food": 15
 		},
+		"requiredTech": "The Wheel",
 		"uniques": [
 			"[+2 Food] from [Lakes] tiles [in this city]",
 			"Must be next to [Fresh water]"
-		],
-		"requiredTech": "The Wheel"
+		]
 	},
 	{
 		"name": "Burial Tomb",
@@ -64,10 +64,10 @@
 		"happiness": 2,
 		"maintenance": 0,
 		"requiredBuilding": "Shrine",
+		"requiredTech": "Philosophy",
 		"uniques": [
 			"[+100]% Gold given to enemy if city is captured <in this city>"
-		],
-		"requiredTech": "Philosophy"
+		]
 	},
 	{
 		"name": "Paper Maker",
@@ -77,10 +77,10 @@
 			"culture": 10,
 			"science": 25
 		},
+		"requiredTech": "Writing",
 		"uniques": [
 			"[+1 Culture] per [1] social policies adopted"
-		],
-		"requiredTech": "Writing"
+		]
 	},
 	{
 		"name": "Wat",
@@ -96,11 +96,11 @@
 			"Scientist": 1
 		},
 		"requiredBuilding": "Library",
+		"requiredTech": "Education",
 		"uniques": [
 			"[+1 Science] from [Jungle] tiles [in this city]",
 			"[+1 Science] from [Forest] tiles [in this city]"
-		],
-		"requiredTech": "Education"
+		]
 	},
 	{
 		"name": "Maple Farm",
@@ -109,11 +109,11 @@
 		"culture": 1,
 		"happiness": 2,
 		"maintenance": 1,
+		"requiredTech": "Bronze Working",
 		"uniques": [
 			"[+1 Gold] from [Forest] tiles [in this city]",
 			"Must have an owned [Forest] within [2] tiles"
-		],
-		"requiredTech": "Bronze Working"
+		]
 	},
 	{
 		"name": "Irish Pub",
@@ -131,11 +131,11 @@
 		"gold": 5,
 		"happiness": 2,
 		"maintenance": 1,
+		"requiredTech": "Guilds",
 		"uniques": [
 			"Provides [1] [Pralines]",
 			"Destroyed when the city is captured"
-		],
-		"requiredTech": "Guilds"
+		]
 	},
 	{
 		"name": "Slave Market",
@@ -144,10 +144,10 @@
 		"gold": 4,
 		"happiness": -4,
 		"maintenance": 1,
+		"requiredTech": "Construction",
 		"uniques": [
 			"[+2 Production, +3 Gold] <after discovering [Industrialization]>"
-		],
-		"requiredTech": "Construction"
+		]
 	},
 	{
 		"name": "Pyramid",
@@ -178,10 +178,10 @@
 		"happiness": 2,
 		"maintenance": 2,
 		"requiredBuilding": "Amphitheater",
+		"requiredTech": "Acoustics",
 		"uniques": [
 			"Destroyed when the city is captured"
-		],
-		"requiredTech": "Acoustics"
+		]
 	},
 	{
 		"name": "Scottish Ceilidh Hall",
@@ -194,31 +194,34 @@
 			"Artist": 1
 		},
 		"requiredBuilding": "Amphitheater",
+		"requiredTech": "Acoustics",
 		"uniques": [
 			"Destroyed when the city is captured"
-		],
-		"requiredTech": "Acoustics"
+		]
 	},
 	{
 		"name": "Shrine",
 		"cost": 50,
 		"faith": 1,
 		"maintenance": 1,
+		"requiredTech": "Pottery",
 		"uniques": [
 			"Only available <when religion is enabled>"
-		],
-		"requiredTech": "Pottery"
+		]
 	},
 	{
 		"name": "Temple",
 		"faith": 2,
 		"maintenance": 2,
+		"specialistSlots": {
+			"Prophet": 1
+		},
 		"requiredBuilding": "Shrine",
+		"requiredTech": "Philosophy",
 		"uniques": [
 			"Only available <when religion is enabled>",
 			"Destroyed when the city is captured"
-		],
-		"requiredTech": "Philosophy"
+		]
 	},
 	{
 		"name": "Mud Pyramid Mosque",
@@ -227,6 +230,9 @@
 		"maintenance": 0,
 		"culture": 3,
 		"faith": 2,
+		"specialistSlots": {
+			"Prophet": 2
+		},
 		"requiredBuilding": "Shrine",
 		"requiredTech": "Philosophy"
 	},
@@ -239,13 +245,16 @@
 		"percentStatBonus": {
 			"science": 25
 		},
+		"specialistSlots": {
+			"Prophet": 1
+		},
 		"requiredBuilding": "Shrine",
+		"requiredTech": "Philosophy",
 		"uniques":[
 			"Gain [20] [Faith] <upon discovering [Classical era] technology> <(modified by game speed)>",
 			"Gain [21] [Faith] <upon discovering [Medieval era] technology> <(modified by game speed)>",
 			"Destroyed when the city is captured"
-		],
-		"requiredTech": "Philosophy"
+		]
 	},
 	{
 		"name": "Royal Library",
@@ -254,11 +263,11 @@
 		"science": 2,
 		"culture": 2,
 		"maintenance": 2,
+		"requiredTech": "Writing",
 		"uniques": [
 			"[+2 Science] per [2] population [in this city]",
 			"New [Military] units start with [15] XP [in this city]"
-		],
-		"requiredTech": "Writing"
+		]
 	},
 	{
         "name": "Constabulary",
