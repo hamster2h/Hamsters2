@@ -653,23 +653,6 @@
 		"requiredTech": "Horseback Riding"
 	},
 	{
-		"name": "Hamster Epic",
-		"uniqueTo": "Hamsters",
-		"replaces": "Heroic Epic",
-		"isNationalWonder": false,
-		"cost": 475,
-		"culture": 2,
-		"requiredBuilding": "Barracks",
-		"uniques": [
-			"[+1 Science] per [2] population [in this city]",
-			"[+1 Production] per [2] population [in this city]",
-			"All newly-trained [{Military} {Water}] units [in this city] receive the [Supply] promotion",
-			"All newly-trained [non-[Air]] units [in this city] receive the [Morale] promotion",
-			"Destroyed when the city is captured"
-		],
-		"requiredTech": "Drama and Poetry"
-	},
-	{
 		"name": "Hamster College",
 		"uniqueTo": "Hamsters",
 		"replaces": "National College",
@@ -682,6 +665,7 @@
 			"culture": 10
 		},
 		"requiredBuilding": "University",
+		"requiredTech": "Education",
 		"uniques": [
 			"[+1 Gold] per [2] population [in this city]",
 			"All newly-trained [Gunpowder] units [in this city] receive the [Stealth] promotion",
@@ -690,8 +674,7 @@
 			"All newly-trained [Ranged Water] units [in this city] receive the [Stealth] promotion",
 			"All newly-trained [Aircraft Carrier] units [in this city] receive the [Stealth] promotion",
 			"Destroyed when the city is captured"
-		],
-		"requiredTech": "Education"
+		]
 	},
 	{
 		"name": "Longhouse",
@@ -699,11 +682,23 @@
 		"cost": 550,
 		"production": 2,
 		"maintenance": 2,
+		"requiredTech": "Iron Working",
 		"uniques": [
 			"[+1 Production] from [Forest] tiles [in all cities]",
 			"[+1 Production] from [Jungle] tiles [in all cities]"
-		],
-		"requiredTech": "Iron Working"
+		]
+	},
+	{
+		"name": "Circus Maximus",
+		"isNationalWonder": true,
+		"cost": 125,
+		"happiness": 5,
+		"culture": 1,
+		"requiredTech": "Horseback Riding",
+		"uniques": [
+			"Only available <if [Colosseum] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city"
+		]
 	},
 	{
 		"name": "Heroic Epic",
@@ -716,6 +711,23 @@
 			"Cost increases by [25] per owned city"
 		],
 		"requiredTech": "Iron Working"
+	},
+	{
+		"name": "Hamster Epic",
+		"uniqueTo": "Hamsters",
+		"replaces": "Heroic Epic",
+		"isNationalWonder": false,
+		"cost": 475,
+		"culture": 2,
+		"requiredBuilding": "Barracks",
+		"requiredTech": "Drama and Poetry",
+		"uniques": [
+			"[+1 Science] per [2] population [in this city]",
+			"[+1 Production] per [2] population [in this city]",
+			"All newly-trained [{Military} {Water}] units [in this city] receive the [Supply] promotion",
+			"All newly-trained [non-[Air]] units [in this city] receive the [Morale] promotion",
+			"Destroyed when the city is captured"
+		]
 	},
 	{
         "name": "National Intelligence Agency",
