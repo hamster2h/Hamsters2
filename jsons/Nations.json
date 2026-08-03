@@ -474,7 +474,8 @@
 		"uniqueName": "Patriarchate of Constantinople",
 		"uniques": [
 			"[+25]% [Faith] [in capital]",
-			"[+2 Faith, +4 Gold] from every [Prophet]",
+			"[+2 Faith] from every [Prophet]",
+			"[+3 Gold, +1 Food] from every [Merchant]",
 			"May choose [1] additional belief(s) of any type when [founding] a religion"
 		],
 		"cities": [
