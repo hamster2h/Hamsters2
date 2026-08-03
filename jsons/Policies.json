@@ -174,7 +174,7 @@
                 "uniques": [
                     "[+15]% Production when constructing [Melee] units [in all cities]",
 					"[+50]% Strength for cities <with a garrison> <when defending>",
-                    "Free [Great General] appears"
+                    "[+2 Production] from every [General]"
                 ],
                 "row": 1,
                 "column": 2
