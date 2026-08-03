@@ -1357,7 +1357,7 @@
 		"unitType": "Aircraft Carrier",
 		"movement": 6,
 		"strength": 90,
-		"cost": 8500,
+		"cost": 7000,
 		"requiredTech": "Nuclear Fission",
 		"requiredResource": "Uranium",
 		"uniques": [
