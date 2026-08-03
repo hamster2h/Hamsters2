@@ -730,16 +730,28 @@
 		]
 	},
 	{
+		"name": "National Epic",
+		"isNationalWonder": true,
+		"cost": 125,
+		"culture": 1,
+		"requiredTech": "Drama and Poetry",
+		"uniques": [
+			"Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>",
+			"[+25]% Great Person generation [in this city]",
+			"Cost increases by [30] per owned city"
+		]
+	},
+	{
 		"name": "Heroic Epic",
+		"isNationalWonder": true,
 		"cost": 100,
 		"culture": 2,
-		"isNationalWonder": true,
+		"requiredTech": "Iron Working",
 		"uniques": [
 			"Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>",
 			"All newly-trained [non-[Air]] units [in all cities] receive the [Morale] promotion",
 			"Cost increases by [25] per owned city"
-		],
-		"requiredTech": "Iron Working"
+		]
 	},
 	{
 		"name": "Hamster Epic",
