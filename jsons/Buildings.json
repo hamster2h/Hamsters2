@@ -716,6 +716,20 @@
 		]
 	},
 	{
+		"name": "Hermitage",
+		"isNationalWonder": true,
+		"cost": 125,
+		"culture": 5,
+		"percentStatBonus": {
+			"culture": 50
+		},
+		"requiredTech": "Architecture",
+		"uniques": [
+			"Only available <if [Opera House] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city"
+		]
+	},
+	{
 		"name": "Heroic Epic",
 		"cost": 100,
 		"culture": 2,
