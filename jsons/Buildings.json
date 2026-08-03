@@ -3232,7 +3232,7 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Atomic Perk]",
-			"[-10]% maintenance costs <for [Military] units>",
+			"[+2 Production] from every [General]",
 			"[+8 Gold] from [Citadel] tiles [in all cities]",
 			"Only available <starting from the [Atomic era]>",
 			"Consumes [1] [General Perk]",
