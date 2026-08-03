@@ -430,33 +430,43 @@
 		"replaces": "Harbor",
 		"cost": 120,
 		"maintenance": 3,
+		"requiredTech": "Compass",
 		"uniques": [
 			"Connects trade routes over water",
 			"Must be next to [Coast]",
 			"[+1 Food] from [Ocean] tiles [in this city]",
 			"[+1 Production, +3 Gold] from [Water resource] tiles [in this city]",
 			"New [Water] units start with [15] XP [in this city]"
-		],
-		"requiredTech": "Compass"
+		]
+	},
+	{
+		"name": "Barracks",
+		"maintenance": 1,
+		"requiredTech": "Bronze Working",
+		"uniques": [
+			"New [Military] units start with [15] XP [in this city]",
+			"Destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Ikanda",
 		"uniqueTo": "Zulu",
 		"replaces": "Barracks",
 		"maintenance": 1,
+		"requiredTech": "Bronze Working",
 		"uniques": [
 			"New [Military] units start with [15] XP [in this city]",
 			"Destroyed when the city is captured",
 			"All newly-trained [Sword] units [in this city] receive the [Buffalo Horns I] promotion",
 			"All newly-trained [Mounted] units [in this city] receive the [Buffalo Horns I] promotion"
-		],
-		"requiredTech": "Bronze Working"
+		]
 	},
 	{
 		"name": "Krepost",
 		"uniqueTo": "Russia",
 		"replaces": "Barracks",
 		"maintenance": 2,
+		"requiredTech": "Bronze Working",
 		"uniques": [
 			"[+1 Food] from [Tundra] tiles [in this city]",
 			"[+1 Food] from [Snow] tiles [in this city]",
@@ -464,33 +474,32 @@
 			"[-25]% Gold cost of acquiring tiles [in this city]",
 			"New [Military] units start with [15] XP [in this city]",
 			"Destroyed when the city is captured"
-		],
-		"requiredTech": "Bronze Working"
+		]
 	},
 	{
 		"name": "Vo Khi",
 		"uniqueTo": "Vietnam",
 		"replaces": "Barracks",
 		"maintenance": 1,
+		"requiredTech": "Bronze Working",
 		"uniques": [
 			"New [Military] units start with [15] XP [in this city]",
 			"All newly-trained [relevant] units [in this city] receive the [Woodsman] promotion",
 			"[+1 Production, +1 Culture] from [Marsh] tiles [in this city]",
 			"[+1 Culture] from [Jungle] tiles [in this city]",
 			"Destroyed when the city is captured"
-		],
-		"requiredTech": "Bronze Working"
+		]
 	},
 	{
 		"name": "Armory",
 		"maintenance": 2,
 		"requiredBuilding": "Barracks",
+		"requiredTech": "Steel",
 		"uniques": [
 			"New [Military] units start with [15] XP [in this city]",
 			"[+25]% Production when constructing [Military] units [in this city]",
 			"Destroyed when the city is captured"
-		],
-		"requiredTech": "Steel"
+		]
 	},
 	{
 		"name": "Military Academy",
