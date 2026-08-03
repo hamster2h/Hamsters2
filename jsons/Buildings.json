@@ -539,7 +539,10 @@
 	{
 		"name": "Castle",
 		"cityStrength": 7,
-		"cityHealth": 25,
+		"cityHealth": 30,
+		"specialistSlots": {
+			"General": 1
+		},
 		"requiredBuilding": "Walls",
 		"requiredTech": "Chivalry",
 		"uniques": [
@@ -552,12 +555,36 @@
 		"replaces": "Castle",
 		"cost": 150,
 		"cityStrength": 7,
-		"cityHealth": 25,
+		"cityHealth": 30,
 		"culture": 2,
+		"specialistSlots": {
+			"General": 1
+		},
 		"requiredBuilding": "Walls",
 		"requiredTech": "Chivalry",
 		"uniques": [
 			"[+1 Gold] [in this city] <after discovering [Flight]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Arsenal",
+		"cost": 300,
+		"cityStrength": 9,
+		"cityHealth": 30,
+		"requiredBuilding": "Castle",
+		"requiredTech": "Metallurgy",
+		"uniques": [
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Military Base",
+		"cityStrength": 12,
+		"cityHealth": 30,
+		"requiredBuilding": "Arsenal",
+		"requiredTech": "Replaceable Parts",
+		"uniques": [
 			"Destroyed when the city is captured"
 		]
 	},
