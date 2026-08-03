@@ -653,30 +653,6 @@
 		"requiredTech": "Horseback Riding"
 	},
 	{
-		"name": "Hamster College",
-		"uniqueTo": "Hamsters",
-		"replaces": "National College",
-		"isNationalWonder": false,
-		"cost": 625,
-		"culture": 3,
-		"science": 4,
-		"percentStatBonus": {
-			"science": 25,
-			"culture": 10
-		},
-		"requiredBuilding": "University",
-		"requiredTech": "Education",
-		"uniques": [
-			"[+1 Gold] per [2] population [in this city]",
-			"All newly-trained [Gunpowder] units [in this city] receive the [Stealth] promotion",
-			"All newly-trained [Armored] units [in this city] receive the [Stealth] promotion",
-			"All newly-trained [Helicopter] units [in this city] receive the [Stealth] promotion",
-			"All newly-trained [Ranged Water] units [in this city] receive the [Stealth] promotion",
-			"All newly-trained [Aircraft Carrier] units [in this city] receive the [Stealth] promotion",
-			"Destroyed when the city is captured"
-		]
-	},
-	{
 		"name": "Longhouse",
 		"uniqueTo": "Iroquois",
 		"cost": 550,
@@ -697,6 +673,33 @@
 		"requiredTech": "Horseback Riding",
 		"uniques": [
 			"Only available <if [Colosseum] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city"
+		]
+	},
+	{
+		"name": "Grand Temple",
+		"isNationalWonder": true,
+		"cost": 125,
+		"culture": 1,
+		"faith": 8,
+		"requiredTech": "Theology",
+		"uniques": [
+			"Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city",
+			"[+100]% Natural religion spread [in this city]",
+			"Only available <when religion is enabled>",
+			"Can only be built <in [Holy] cities>"
+		]
+	},
+	{
+		"name": "National Treasury",
+		"isNationalWonder": true,
+		"cost": 125,
+		"gold": 8,
+		"culture": 1,
+		"requiredTech": "Guilds",
+		"uniques": [
+			"Only available <if [Market] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city"
 		]
 	},
@@ -726,6 +729,45 @@
 			"[+1 Production] per [2] population [in this city]",
 			"All newly-trained [{Military} {Water}] units [in this city] receive the [Supply] promotion",
 			"All newly-trained [non-[Air]] units [in this city] receive the [Morale] promotion",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "National College",
+		"isNationalWonder": true,
+		"cost": 125,
+		"science": 3,
+		"culture": 1,
+		"percentStatBonus": {
+			"science": 50
+		},
+		"requiredTech": "Philosophy",
+		"uniques": [
+			"Only available <if [Library] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city"
+		]
+	},
+	{
+		"name": "Hamster College",
+		"uniqueTo": "Hamsters",
+		"replaces": "National College",
+		"isNationalWonder": false,
+		"cost": 625,
+		"culture": 3,
+		"science": 4,
+		"percentStatBonus": {
+			"science": 25,
+			"culture": 10
+		},
+		"requiredBuilding": "University",
+		"requiredTech": "Education",
+		"uniques": [
+			"[+1 Gold] per [2] population [in this city]",
+			"All newly-trained [Gunpowder] units [in this city] receive the [Stealth] promotion",
+			"All newly-trained [Armored] units [in this city] receive the [Stealth] promotion",
+			"All newly-trained [Helicopter] units [in this city] receive the [Stealth] promotion",
+			"All newly-trained [Ranged Water] units [in this city] receive the [Stealth] promotion",
+			"All newly-trained [Aircraft Carrier] units [in this city] receive the [Stealth] promotion",
 			"Destroyed when the city is captured"
 		]
 	},
