@@ -22,8 +22,7 @@
 		"production": 2,
 		"science": 2,
 		"greatPersonPoints": {
-			"Great General": 4,
-			"Great Admiral": 1
+			"Great General": 5
 		},
 		"color": [0,90,0]
 	},
