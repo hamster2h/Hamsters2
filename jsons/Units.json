@@ -892,7 +892,7 @@
 		"replaces": "Lancer",
 		"unitType": "Mounted",
 		"movement": 6,
-		"strength": 28,
+		"strength": 25,
 		"cost": 200,
 		"requiredTech": "Acoustics",
 		"upgradesTo": "Anti-Tank Gun",
