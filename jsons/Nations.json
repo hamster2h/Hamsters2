@@ -1331,8 +1331,7 @@
         "uniques": [
 			"[+2 Science] from every specialist [in all cities]",
 			"[+4 Science] from every [Great Improvement]",
-			"Receive a tech boost when scientific buildings/wonders are built in capital",
-			"Gain a free [Library] [in all cities]"
+			"Receive a tech boost when scientific buildings/wonders are built in capital"
 		],
 		"cities": [
 			"Seoul","Busan","Jeonju","Daegu","Pyongyang","Kaesong","Suwon","Gwangju","Gangneung","Hamhung","Wonju","Ulsan",
