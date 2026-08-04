@@ -1252,7 +1252,7 @@
 		"uniqueName": "Grand Baray of Angkor",
 		"uniques": [
 			"[+3 Science] per [3] population [in capital] <after discovering [Drama and Poetry]>",
-			"Gain a free [Angkor Wat] [in capital]",
+			"[+1 Faith] from [Farm] tiles [in all cities]",
 			"Gain a free [Baray] [in capital]"
 		],
 		"cities": [
