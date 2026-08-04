@@ -1719,8 +1719,7 @@
         "uniqueName": "Last of the Free",
         "uniques": [
 			"[+1 Food, +1 Production, +3 Culture] from [{non-[Natural Wonder]} {Mountain}] tiles [in all cities]",
-            "[+3 Culture] from [Hill] tiles without [Improvement] [in all cities]",
-			"Gain a free [Stonehenge] [in capital]"
+            "[+3 Culture] from [Hill] tiles without [Improvement] [in all cities]"
         ],
         "cities": [
             "Edinburgh","Glasgow","Stirling","Aberdeen","Dundee","Inverness","Perth","Dunfermline","Kilmarnock","Dumfries",
