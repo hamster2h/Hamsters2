@@ -2601,7 +2601,7 @@
 		"unitType": "Sword",
 		"movement": 3,
 		"strength": 26,
-		"cost": 80,
+		"cost": 100,
 		"requiredTech": "Metal Casting",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
@@ -2644,14 +2644,14 @@
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 24,
-		"cost": 120,
+		"cost": 140,
 		"requiredTech": "Steel",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
 		"requiredResource": "Iron",
 		"uniques":[
 			"[+50]% Strength <when defending>",
-			"[+30]% Strength <vs [Melee] units>"
+			"[+20]% Strength <vs [Melee] units>"
 		],
 		"promotions": [
 			"Ignore terrain cost"
