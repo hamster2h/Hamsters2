@@ -39,7 +39,7 @@
 		"requiredTech": "Philosophy",
 		"uniques": [
 			"[+1 Food] from [Snow] tiles [in this city]",
-			"Free Great Person <upon turn start> <every [40] turns>"
+			"Free Great Person <upon turn start> <every [80] turns>"
 		]
 	},
 	{
