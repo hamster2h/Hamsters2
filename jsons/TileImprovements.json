@@ -815,8 +815,8 @@
 		"turnsToBuild": 4,
 		"uniques": [
 			"Can only be built on [Coastal] tiles",
-			"[+3 Culture, +2 Gold] for each adjacent [Moai]",
-			"[+1 Gold] <after discovering [Flight]>",
+			"[+2 Culture, +1 Gold] for each adjacent [Moai]",
+			"[+1 Gold] <after discovering [Navigation]>",
 			"[+2 Gold] <within [2] tiles of a [Water Tower]>",
 			"[+2 Gold] <within [2] tiles of a [Water Tower]> <after adopting [Safety Checks]>",
 			"[+2 Culture] <within [2] tiles of a [Industrial Complex]>",
