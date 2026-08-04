@@ -50,7 +50,8 @@
         "name": "God of the Open Sky",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Happiness] from [All] tiles without [Improvement] [in cities following this religion]"
+            "[+1 Happiness] from [All] tiles without [Improvement] [in cities following this religion]",
+			"[-1 Production] from all [Production] buildings"
         ]
     },
     {
