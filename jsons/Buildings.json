@@ -399,7 +399,7 @@
 		"requiredBuilding": "Market",
 		"requiredTech": "Banking",
 		"uniques": [
-			"[+50]% Production when constructing [Military] units [in this city]"
+			"[+25]% Production when constructing [Military] units [in this city]"
 		]
 	},
 	{
