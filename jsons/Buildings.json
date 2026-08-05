@@ -2188,8 +2188,9 @@
 		"requiredBuilding": "University",
 		"requiredTech": "Scientific Theory",
 		"uniques": [
+			"Only available <after adopting [Rationalism Complete]>",
 			"[+2 Science] per [1] population [in this city]",
-			"Only available <after adopting [Rationalism Complete]>"
+			"Destroyed when the city is captured"
 		]
 	},
 	{
