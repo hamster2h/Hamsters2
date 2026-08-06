@@ -2190,12 +2190,15 @@
 		"uniques": [
 			"Only available <after adopting [Rationalism Complete]>",
 			"[+2 Science] per [1] population [in this city]",
-			"[+25]% [Production] [in this city] <during the [Atomic era]>",
-			"[+50]% [Production] [in this city] <starting from the [Information era]>",
+			"[+25]% [Production] [in this city] <during the [Modern era]>",
+			"[+50]% [Production] [in this city] <during the [Atomic era]>",
+			"[+75]% [Production] [in this city] <starting from the [Information era]>",
 			"[+25]% [Culture] [in this city] <during the [Atomic era]>",
-			"[+50]% [Culture] [in this city] <starting from the [Information era]>",
-			"[+25]% [Gold] [in this city] <during the [Atomic era]>",
-			"[+50]% [Gold] [in this city] <starting from the [Information era]>",
+			"[+50]% [Culture] [in this city] <during the [Information era]>",
+			"[+75]% [Culture] [in this city] <starting from the [Future era]>",
+			"[+25]% [Gold] [in this city] <during the [Modern era]>",
+			"[+50]% [Gold] [in this city] <during the [Atomic era]>",
+			"[+75]% [Gold] [in this city] <starting from the [Information era]>",
 			"Destroyed when the city is captured"
 		]
 	},
