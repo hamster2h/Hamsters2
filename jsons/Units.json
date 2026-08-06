@@ -1024,17 +1024,19 @@
 	{
 		"name": "Caravel",
 		"unitType": "Ranged Water",
-		"movement": 4,
+		"movement": 6,
 		"strength": 20,
 		"rangedStrength": 20,
 		"range": 2,
-		"cost": 300,
+		"cost": 325,
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
 		"uniques": [
 			"[+1] Sight",
-			"Withdraws before melee combat <with [80]% chance>"
+			"Withdraws before melee combat <with [80]% chance>",
+			"Invisible to non-adjacent units",
+			"Can move after attacking"
 		],
 		"attackSound": "cannon"
 	},
@@ -1047,7 +1049,7 @@
 		"strength": 20,
 		"rangedStrength": 20,
 		"range": 2,
-		"cost": 300,
+		"cost": 325,
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
@@ -1055,6 +1057,7 @@
 			"[+1] Sight",
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
 			"Withdraws before melee combat <with [80]% chance>",
+			"Invisible to non-adjacent units",
 			"Can move after attacking"
 		],
 		"attackSound": "cannon"
