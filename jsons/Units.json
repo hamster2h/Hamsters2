@@ -1028,15 +1028,14 @@
 		"strength": 20,
 		"rangedStrength": 20,
 		"range": 2,
-		"cost": 325,
+		"cost": 350,
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
 		"uniques": [
 			"[+1] Sight",
 			"Withdraws before melee combat <with [80]% chance>",
-			"Invisible to non-adjacent units",
-			"Can move after attacking"
+			"Invisible to non-adjacent units"
 		],
 		"attackSound": "cannon"
 	},
@@ -1049,7 +1048,7 @@
 		"strength": 20,
 		"rangedStrength": 20,
 		"range": 2,
-		"cost": 325,
+		"cost": 350,
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
