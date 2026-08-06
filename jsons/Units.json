@@ -1024,7 +1024,7 @@
 	{
 		"name": "Caravel",
 		"unitType": "Ranged Water",
-		"movement": 6,
+		"movement": 4,
 		"strength": 20,
 		"rangedStrength": 20,
 		"range": 2,
