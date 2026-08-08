@@ -1034,7 +1034,7 @@
 		"obsoleteTech": "Combustion",
 		"uniques": [
 			"[+1] Sight",
-			"Withdraws before melee combat <with [20]% chance>",
+			"Withdraws before melee combat <with [40]% chance>",
 			"Invisible to non-adjacent units"
 		],
 		"attackSound": "cannon"
