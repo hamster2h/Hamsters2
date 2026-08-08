@@ -77,21 +77,24 @@
 		"notification": "An ancient tribe poisoned us!",
 		"uniques": [
 			"[This Unit] takes [33] damage"
-		]
+		],
+		"weight": 2
 	},
 	{
 		"name": "your exploring unit receives poison 2",
 		"notification": "An ancient tribe poisoned us!",
 		"uniques": [
 			"[This Unit] takes [50] damage"
-		]
+		],
+		"weight": 2
 	},
 	{
 		"name": "your exploring unit receives a strong poison",
 		"notification": "An ancient tribe poisoned us!",
 		"uniques": [
 			"[This Unit] takes [66] damage"
-		]
+		],
+		"weight": 2
 	},
 	{
 		"name": "your exploring unit receives a strong poison 2",
