@@ -3481,7 +3481,8 @@
 		"requiredTech": "Enhancing",
 		"uniques": [
 			"Heals [25] damage if it kills a unit",
-			"May capture killed [Military] units <with [99]% chance>"
+			"May capture killed [Military] units <with [99]% chance>",
+			"Will not be displayed in Civilopedia"
 		],
 		"promotions": [
 			"Implants"
@@ -3500,7 +3501,8 @@
 			"Can only be built <in cities with a [Factory]>",
 			"Heals [25] damage if it kills a unit",
 			"May capture killed [Land] units <with [44]% chance>",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+			"Will not be displayed in Civilopedia"
 		],
 		"promotions": [
 			"Implants"
@@ -3522,7 +3524,8 @@
 			"Comment [25% chance for some adjacent units to capture killed Cyber Units]",
 			"Can see invisible [All] units",
 			"Invisible to non-adjacent units",
-			"[+50]% Strength <vs [Cyber] units>"
+			"[+50]% Strength <vs [Cyber] units>",
+			"Will not be displayed in Civilopedia"
 		],
 		"promotions": [
 			"Support Unit"
@@ -3545,7 +3548,8 @@
 			"Can see invisible [All] units",
 			"Invisible to non-adjacent units",
 			"[+50]% Strength <vs [Cyber] units>",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+			"Will not be displayed in Civilopedia"
 		],
 		"promotions": [
 			"Support Unit"
@@ -3567,7 +3571,8 @@
 			"Cyber",
 			"Uncapturable",
 			"May capture killed [Land] units <with [55]% chance>",
-			"[+100]% Strength <vs [Air] units>"
+			"[+100]% Strength <vs [Air] units>",
+			"Will not be displayed in Civilopedia"
 		],
 		"promotions": [
 			"Armor Plating I",
@@ -3595,7 +3600,8 @@
 			"Uncapturable",
 			"May capture killed [Land] units <with [22]% chance>",
 			"[+100]% Strength <vs [Air] units>",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+			"Will not be displayed in Civilopedia"
 		],
 		"promotions": [
 			"Armor Plating I",
