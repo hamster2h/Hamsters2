@@ -27,7 +27,7 @@
 			"Play [policy] sound"
 		],
 		"color": "#cf8ff7",
-		"weight": 2
+		"weight": 1
 	},
 	{
 		"name": "squatters willing to work for you",
@@ -35,7 +35,7 @@
 		"uniques": [
 			"Free [Worker] found in the ruins"
 		],
-		"weight": 3
+		"weight": 2
 	},
 	{
 		"name": "squatters wishing to settle under your rule",
@@ -60,7 +60,7 @@
 		"uniques": [
 			"Free [Warrior] found in the ruins"
 		],
-		"weight": 2
+		"weight": 1
 	},
 	{
 		"name": "your exploring unit receives training",
@@ -86,7 +86,7 @@
 		"uniques": [
 			"[This Unit] takes [50] damage"
 		],
-		"weight": 2
+		"weight": 1
 	},
 	{
 		"name": "your exploring unit receives a strong poison",
