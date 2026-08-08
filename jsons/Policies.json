@@ -712,6 +712,7 @@
                 "name": "Autocracy Complete",
                 "uniques": [
 					"All newly-trained [Gunpowder] units [in all cities] receive the [Charge] promotion",
+					"[+25]% Production when constructing [Submarine] units [in all cities]",
 					"[+1 Happiness] per [6] population [in all cities] <when at war>",
                     "Get the leader title of [[leaderName] the Terrible]"
                 ]
