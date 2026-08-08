@@ -657,8 +657,8 @@
             {
                 "name": "Populism",
                 "uniques": [
-					"[+25]% Strength <for [Wounded] units>",
-					"[+10]% Strength <for [All] units>",
+					"[+25]% Production when constructing [Military] units [in all cities]",
+					"[+10]% Strength <for [Wounded] units>",
 					"Provides [1] [Engineer Perk]"
 				],
                 "row": 1,
@@ -677,7 +677,7 @@
             {
                 "name": "Fascism",
                 "uniques": [
-					"[+5 Food, +5 Production, +5 Science] [in all cities]",
+					"Comment [Enables construction of Concentration Camp]",
                     "[+100]% [Strategic] resource production",
                     "[+2] Movement <for [Great General] units>"
                 ],
@@ -700,7 +700,7 @@
             {
                 "name": "Total War",
                 "uniques": [
-                    "[+100]% Production when constructing [Military] units [in all cities]",
+                    "[+25]% Production when constructing [Military] units [in all cities]",
                     "New [Military] units start with [15] XP [in all cities]",
 					"[+25]% Strength <for [All] units>"
                 ],
@@ -712,7 +712,6 @@
                 "name": "Autocracy Complete",
                 "uniques": [
 					"All newly-trained [Gunpowder] units [in all cities] receive the [Charge] promotion",
-                    "[+25]% Strength <for [All] units> <when attacking>",
 					"[+1 Happiness] per [6] population [in all cities] <when at war>",
                     "Get the leader title of [[leaderName] the Terrible]"
                 ]
