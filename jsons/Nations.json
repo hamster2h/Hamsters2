@@ -2143,7 +2143,7 @@
         "uniqueName": "Tam Giao",
         "uniques": [
             "[+3 Food] from [Marsh] tiles [in all cities]",
-			"[+1 Food, +3 Faith] from [Jungle] tiles [in all cities]",
+			"[+1 Food, +2 Faith] from [Jungle] tiles [in all cities]",
 			"[+1 Production] from [Farm] tiles [in all cities]"
         ],
         "cities": [
