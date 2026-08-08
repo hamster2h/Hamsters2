@@ -201,13 +201,6 @@
 		]
 	},
 	{
-		"name": "find a map",
-		"notification": "We have found a map in the ruins!",
-		"uniques": [
-			"Reveals the entire map"
-		]
-	},
-	{
 		"name": "discover holy symbols",
 		"notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion! (+[faithAmount] Faith)",
 		"uniques": [
