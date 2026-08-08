@@ -2144,7 +2144,7 @@
         "requiredTech": "Railroads"
     },
 	{
-		"name": "Underground Resort",
+		"name": "Concentration Camp",
 		"cost": 800,
 		"maintenance": 15,
 		"percentStatBonus": {
@@ -2156,8 +2156,7 @@
 		"uniques": [
 			"Only available <after adopting [Fascism]>",
 			"[-1 Happiness] per [10] population [in this city]",
-			"[-1] population [in this city] <upon turn end> <every [10] turns>",
-			"Will not be displayed in Civilopedia"
+			"[-1] population [in this city] <upon turn end> <every [10] turns>"
 		]
 	},
 	{
@@ -3485,8 +3484,7 @@
 		"uniques": [
 			"Destroyed when the city is captured",
 			"Unbuildable",
-			"Unsellable",
-			"Will not be displayed in Civilopedia"
+			"Unsellable"
 		]
 	},
 	{
@@ -3495,8 +3493,7 @@
 			"Provides [1] [Iron]",
 			"Destroyed when the city is captured",
 			"Unbuildable",
-			"Unsellable",
-			"Will not be displayed in Civilopedia"
+			"Unsellable"
 		]
 	},
 	{
@@ -3505,8 +3502,7 @@
 			"Provides [1] [Oil]",
 			"Destroyed when the city is captured",
 			"Unbuildable",
-			"Unsellable",
-			"Will not be displayed in Civilopedia"
+			"Unsellable"
 		]
 	},
 	{
@@ -3515,8 +3511,7 @@
 			"Provides [1] [Power]",
 			"Destroyed when the city is captured",
 			"Unbuildable",
-			"Unsellable",
-			"Will not be displayed in Civilopedia"
+			"Unsellable"
 		]
 	}
 ]
