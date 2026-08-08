@@ -94,14 +94,15 @@
 		"uniques": [
 			"[This Unit] takes [66] damage"
 		],
-		"weight": 2
+		"weight": 1
 	},
 	{
 		"name": "your exploring unit receives a strong poison 2",
 		"notification": "An ancient tribe poisoned us!",
 		"uniques": [
 			"[This Unit] takes [75] damage"
-		]
+		],
+		"weight": 1
 	},
 	{
 		"name": "your exploring unit is killed",
@@ -118,7 +119,8 @@
 			"[+1] population in a random city",
 			"Play [wagon] sound"
 		],
-		"color": "#81c784"
+		"color": "#81c784",
+		"weight": 2
 	},
 	{
 		"name": "many survivors (adds population to a city)",
@@ -127,7 +129,8 @@
 			"[+3] population in a random city",
 			"Play [wagon] sound"
 		],
-		"color": "#81c784"
+		"color": "#81c784",
+		"weight": 1
 	},
 	{
 		"name": "trigger a dissaster",
@@ -136,7 +139,8 @@
 			"[-3] population [in all cities]",
 			"Gain [50]-[400] [Science] <(modified by game speed)>"
 		],
-		"color": "#81c784"
+		"color": "#81c784",
+		"weight": 1
 	},
 	{
 		"name": "trigger a major dissaster",
@@ -145,7 +149,8 @@
 			"[-5] population [in all cities]",
 			"[This Unit] is destroyed"
 		],
-		"color": "#81c784"
+		"color": "#81c784",
+		"weight": 1
 	},
 	{
 		"name": "a stash of gold",
@@ -154,7 +159,8 @@
 			"Gain [50]-[200] [Gold] <(modified by game speed)>",
 			"Play [coin] sound"
 		],
-		"color": "#ffeb7f"
+		"color": "#ffeb7f",
+		"weight": 3
 	},
 	{
 		"name": "a large stash of gold",
@@ -163,7 +169,8 @@
 			"Gain [200]-[600] [Gold] <(modified by game speed)>",
 			"Play [coin] sound"
 		],
-		"color": "#ffeb7f"
+		"color": "#ffeb7f",
+		"weight": 2
 	},
 	{
 		"name": "discover a corporate",
@@ -172,7 +179,8 @@
 			"Free [Corporate] found in the ruins",
 			"Play [coin] sound"
 		],
-		"color": "#ffeb7f"
+		"color": "#ffeb7f",
+		"weight": 1
 	},
 	{
 		"name": "discover a lost technology",
@@ -180,7 +188,8 @@
 		"uniques": [
 			"[1] free random researchable Tech(s) from the [Ancient era]"
 		],
-		"color": "#7f7fff"
+		"color": "#7f7fff",
+		"weight": 2
 	},
 	{
 		"name": "discover a technology",
@@ -188,28 +197,32 @@
 		"uniques": [
 			"Free Technology"
 		],
-		"color": "#7f7fff"
+		"color": "#7f7fff",
+		"weight": 1
 	},
 	{
 		"name": "advanced weaponry for your explorer",
 		"notification": "Our unit finds advanced weaponry hidden in the ruins!",
 		"uniques": [
 			"[This Unit] upgrades for free including special upgrades"
-		]
+		],
+		"weight": 2
 	},
 	{
 		"name": "reveal nearby Barbarian camps",
 		"notification": "You find evidence of Barbarian activity. Nearby Barbarian camps are revealed!",
 		"uniques": [
 			"Reveal up to [All] [Barbarian encampment] within a [10] tile radius"
-		]
+		],
+		"weight": 2
 	},
 	{
 		"name": "find a crudely-drawn map",
 		"notification": "We have found a crudely-drawn map in the ruins!",
 		"uniques": [
 			"From a randomly chosen tile [4] tiles away from the ruins, reveal tiles up to [4] tiles away with [80]% chance"
-		]
+		],
+		"weight": 2
 	},
 	{
 		"name": "discover holy symbols",
@@ -221,7 +234,8 @@
 			"Only available <after turn number [20]>",
 			"Play [choir] sound"
 		],
-		"color": "#CDDDF4"
+		"color": "#CDDDF4",
+		"weight": 2
 	},
 	{
 		"name": "an ancient prophecy",
@@ -234,6 +248,7 @@
 			"Only available <after turn number [20]>",
 			"Play [choir] sound"
 		],
-		"color": "#CDDDF4"
+		"color": "#CDDDF4",
+		"weight": 2
 	}
 ]
