@@ -2144,6 +2144,23 @@
         "requiredTech": "Railroads"
     },
 	{
+		"name": "Underground Resort",
+		"cost": 800,
+		"maintenance": 15,
+		"percentStatBonus": {
+			"science": 10,
+			"production": 25,
+			"culture": 10,
+			"gold": 25
+		},
+		"uniques": [
+			"Only available <after adopting [Fascism]>",
+			"[-1 Happiness] per [10] population [in this city]",
+			"[-1] population [in this city] <upon turn end> <every [10] turns>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
 		"name": "Public School",
 		"science": 2,
 		"maintenance": 4,
@@ -2174,7 +2191,7 @@
 	},
 	{
 		"name": "Research City",
-		"cost": 800,
+		"cost": 1200,
 		"maintenance": 200,
 		"percentStatBonus": {
 			"science": 100,
