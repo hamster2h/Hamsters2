@@ -2658,7 +2658,8 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"Comment [Enables construction of Monolith Aliens]",
-			"Must have an owned [Alien Monolith] within [3] tiles"
+			"Must have an owned [Alien Monolith] within [3] tiles",
+			"Will not be displayed in Civilopedia"
 		]
 	},
 	{
@@ -3484,7 +3485,8 @@
 		"uniques": [
 			"Destroyed when the city is captured",
 			"Unbuildable",
-			"Unsellable"
+			"Unsellable",
+			"Will not be displayed in Civilopedia"
 		]
 	},
 	{
@@ -3493,7 +3495,8 @@
 			"Provides [1] [Iron]",
 			"Destroyed when the city is captured",
 			"Unbuildable",
-			"Unsellable"
+			"Unsellable",
+			"Will not be displayed in Civilopedia"
 		]
 	},
 	{
@@ -3502,7 +3505,8 @@
 			"Provides [1] [Oil]",
 			"Destroyed when the city is captured",
 			"Unbuildable",
-			"Unsellable"
+			"Unsellable",
+			"Will not be displayed in Civilopedia"
 		]
 	},
 	{
@@ -3511,7 +3515,8 @@
 			"Provides [1] [Power]",
 			"Destroyed when the city is captured",
 			"Unbuildable",
-			"Unsellable"
+			"Unsellable",
+			"Will not be displayed in Civilopedia"
 		]
 	}
 ]
