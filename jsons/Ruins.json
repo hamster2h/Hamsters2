@@ -6,7 +6,8 @@
 			"Gain [20] [Culture] <(modified by game speed)>",
 			"Play [policy] sound"
 		],
-		"color": "#cf8ff7"
+		"color": "#cf8ff7",
+		"weight": 3
 	},
 	{
 		"name": "discover many cultural artifacts",
@@ -15,7 +16,8 @@
 			"Gain [60] [Culture] <(modified by game speed)>",
 			"Play [policy] sound"
 		],
-		"color": "#cf8ff7"
+		"color": "#cf8ff7",
+		"weight": 3
 	},
 	{
 		"name": "discover a musician",
@@ -24,14 +26,16 @@
 			"Free [Musician] found in the ruins",
 			"Play [policy] sound"
 		],
-		"color": "#cf8ff7"
+		"color": "#cf8ff7",
+		"weight": 2
 	},
 	{
 		"name": "squatters willing to work for you",
 		"notification": "A [Worker] has joined us!",
 		"uniques": [
 			"Free [Worker] found in the ruins"
-		]
+		],
+		"weight": 3
 	},
 	{
 		"name": "squatters wishing to settle under your rule",
@@ -39,21 +43,24 @@
 		"uniques": [
 			"Free [Settler] found in the ruins",
 			"Play [wagon] sound"
-		]
+		],
+		"weight": 1
 	},
 	{
 		"name": "squatters willing to explore for you",
 		"notification": "A [Scout] has joined us!",
 		"uniques": [
 			"Free [Scout] found in the ruins"
-		]
+		],
+		"weight": 2
 	},
 	{
 		"name": "squatters willing to fight for you",
 		"notification": "A [Warrior] has joined us!",
 		"uniques": [
 			"Free [Warrior] found in the ruins"
-		]
+		],
+		"weight": 2
 	},
 	{
 		"name": "your exploring unit receives training",
@@ -62,7 +69,8 @@
 			"[This Unit] gains [10] XP",
 			"Only available <after turn number [10]>",
 			"Play [promote] sound"
-		]
+		],
+		"weight": 1
 	},
 	{
 		"name": "your exploring unit receives poison",
@@ -98,7 +106,7 @@
 		"uniques": [
 			"[This Unit] is destroyed"
 		],
-		"weight": 2
+		"weight": 1
 	},
 	{
 		"name": "survivors (adds population to a city)",
