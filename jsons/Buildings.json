@@ -172,6 +172,21 @@
 		]
 	},
 	{
+		"name": "Orchestra",
+		"uniqueTo": "Austria",
+		"replaces": "Opera House",
+		"culture": 7,
+		"maintenance": 2,
+		"specialistSlots": {
+			"Artist": 2
+		},
+		"requiredBuilding": "Amphitheater",
+		"requiredTech": "Acoustics",
+		"uniques": [
+			"Destroyed when the city is captured"
+		]
+	},
+	{
 		"name": "Ceilidh Hall",
 		"uniqueTo": "Celts",
 		"replaces": "Opera House",
