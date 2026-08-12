@@ -512,7 +512,7 @@
 		"innerColor": [245, 222, 153],
 		"uniqueName": "Canadian Fur Trade",
 		"uniques": [
-			"[+2 Gold] from [Tundra] tiles [in all cities] <after discovering [Guilds]>",
+			"[+2 Gold] from [Tundra] tiles [in all cities]",
 			"Reveals the entire map",
 			"Free Technology"
 		],
