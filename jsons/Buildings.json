@@ -1722,6 +1722,7 @@
 		"production": 2,
 		"maintenance": 1,
 		"uniques": [
+			"Can be continually purchased",
 			"[+1 Production] from [Iron] tiles [in this city]",
 			"[+1 Production] from [Copper] tiles [in this city]",
 			"[+1 Production] from [Aluminum] tiles [in this city]",
