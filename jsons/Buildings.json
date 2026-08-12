@@ -697,13 +697,31 @@
 		},
 		"requiredTech": "Theology",
 		"uniques": [
+			"Only available <when religion is enabled>",
+			"Can only be built <in [Holy] cities>",
 			"Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city",
-			"[+100]% Natural religion spread [in this city]",
-			"Only available <when religion is enabled>",
-			"Can only be built <in [Holy] cities>"
+			"[+100]% Natural religion spread [in this city]"
 		]
 	},
+	{
+        "name": "Holy Temple",
+		"isNationalWonder": true,
+		"cost": 250,
+		"culture": 2,
+        "faith": 6,
+		"specialistSlots": {
+			"Prophet": 1
+		},
+        "requiredTech": "Architecture",
+        "uniques": [
+            "Only available <when religion is enabled>",
+			"Can only be built <in [Holy] cities>",
+			"Cost increases by [40] per owned city",
+            "[+25]% [Faith]",
+            "[+10]% [Faith] [in cities following our religion]"
+		]
+    },
 	{
 		"name": "National Treasury",
 		"isNationalWonder": true,
@@ -783,6 +801,21 @@
 			"Destroyed when the city is captured"
 		]
 	},
+	{
+        "name": "Grand Knight School",
+		"isNationalWonder": true,
+		"cost": 180,
+		"science": 1,
+		"culture": 2,
+		"specialistSlots": {
+			"General": 1
+		},
+		"requiredBuilding": "Stable",
+        "requiredTech": "Iron Working",
+        "uniques": [
+            "All newly-trained [Mounted] units [in all cities] receive the [Shock I] promotion"
+		]
+    }
 	{
 		"name": "National College",
 		"isNationalWonder": true,
