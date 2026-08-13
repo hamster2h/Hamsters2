@@ -33,7 +33,7 @@
 	},
 	{
 		"name": "Dig Coast",
-		"turnsToBuild": 30,
+		"turnsToBuild": 24,
 		"terrainsCanBeBuiltOn": [
 			"Plains",
 			"Grassland",
