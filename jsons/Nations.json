@@ -2137,8 +2137,7 @@
         "uniqueName": "Tam Giao",
         "uniques": [
             "[+3 Food] from [Marsh] tiles [in all cities]",
-			"[+1 Food, +2 Faith] from [Jungle] tiles [in all cities]",
-			"[+1 Production] from [Farm] tiles [in all cities]"
+			"[+1 Food, +2 Faith] from [Jungle] tiles [in all cities]"
         ],
         "cities": [
             "Hà Noi","Thành Pho Ho Chí Minh","Hai Phòng","Thành Pho Hue","Can Tho","Dà Nang","Biên Hòa","Phan Rang","Quang Ngãi","Quang Ninh",
