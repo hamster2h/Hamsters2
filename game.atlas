@@ -1242,6 +1242,13 @@ UnitPromotionIcons/Energy Shield
   orig: 100, 100
   offset: 0, 0
   index: -1
+NationIcons/Hamsters
+  rotate: false
+  xy: 1052, 1728
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 TechIcons/Corporations
   rotate: false
   xy: 1484, 1944
