@@ -351,7 +351,8 @@
 			"Eliminates combat penalty for attacking across a coast",
 			"Eliminates combat penalty for attacking over a river",
 			"Ignores terrain cost",
-			"All tiles cost 1 movement"
+			"All tiles cost 1 movement",
+			"Cannot attack <in [Ocean] tiles>"
 		]
 	},
 	{
