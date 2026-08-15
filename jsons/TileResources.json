@@ -666,7 +666,7 @@
 			"Minor deposits generated with weight [20] <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
 			"Minor deposits generated with weight [30] <in [{Featureless} {Plains}] tiles>"
 		],
-		"majorDepositAmount": {"sparse": 4, "default": 4, "abundant": 6},
+		"majorDepositAmount": {"sparse": 2, "default": 4, "abundant": 6},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
 	{
