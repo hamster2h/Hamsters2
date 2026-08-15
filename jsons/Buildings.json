@@ -828,7 +828,8 @@
 		"requiredBuilding": "Stable",
         "requiredTech": "Iron Working",
         "uniques": [
-            "All newly-trained [Mounted] units [in all cities] receive the [Shock I] promotion"
+            "All newly-trained [Mounted] units [in all cities] receive the [Shock I] promotion",
+			"Provides [2] [Horses]"
 		]
     }
 	{
