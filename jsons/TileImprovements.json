@@ -64,18 +64,6 @@
 		]
 	},
 	{
-		"name": "Terraform Plains",
-		"turnsToBuild": 24,
-		"terrainsCanBeBuiltOn": [
-			"Tundra"
-		],
-		"techRequired": "Terraforming",
-		"uniques": [
-			"Can be built outside your borders",
-			"Turn this tile into a [Plains] tile"
-		]
-	},
-	{
 		"name": "Remove Ice",
 		"terrainsCanBeBuiltOn": [
 			"Ice"
