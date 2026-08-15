@@ -337,20 +337,18 @@
 	},
 	{
 		"name": "Bio Drone",
-		"unitType": "Helicopter",
+		"unitType": "Sword",
 		"movement": 8,
 		"strength": 90,
 		"cost": 1500,
 		"requiredTech": "Metagenetics",
 		"uniques": [
+			"Unable to capture cities",
 			"Can only attack [Land] tiles",
 			"Self-destructs when attacking",
 			"Can move immediately once bought",
 			"[+25]% Strength <when adjacent to a [Bio Drone] unit>",
 			"Can only be built <in cities with a [Bio Facility]>"
-		],
-		"promotions": [
-			"Hovering"
 		],
 		"attackSound": "tankshot"
 	},
