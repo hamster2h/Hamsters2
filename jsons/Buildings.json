@@ -2637,7 +2637,7 @@
 			"Consumes [8] [Power]",
 			"Space",
 			"[-10]% growth [in this city]",
-			"Destroyed when the city is captured"
+			"Never destroyed when the city is captured"
 		]
 	},
 	{
@@ -2656,7 +2656,7 @@
 			"Consumes [12] [Power]",
 			"Space",
 			"[-25]% growth [in this city]",
-			"Destroyed when the city is captured"
+			"Never destroyed when the city is captured"
 		]
 	},
 	{
