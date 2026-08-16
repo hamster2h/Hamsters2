@@ -1700,7 +1700,6 @@
 		"requiredResource": "Oil",
 		"uniques": [
 			"Cyber",
-			"Space",
 			"Consumes [1] [Uranium]",
 			"Consumes [6] [Composites]",
 			"Nuclear weapon of Strength [1]",
@@ -1864,7 +1863,6 @@
 		"requiredResource": "Oil",
 		"uniques": [
 			"Cyber",
-			"Space",
 			"Consumes [2] [Composites]",
 			"[98]% chance to intercept air attacks",
 			"[+150]% Strength <vs [Fighter] units>",
@@ -1889,7 +1887,6 @@
 		"requiredTech": "Particle Physics",
 		"uniques": [
 			"Cyber",
-			"Space",
 			"Consumes [2] [Composites]",
 			"[99]% chance to intercept air attacks",
 			"[+200]% Strength <vs [Aircraft] units>",
