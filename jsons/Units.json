@@ -1696,7 +1696,7 @@
 		"rangedStrength": 160,
 		"range": 20,
 		"cost": 25000,
-		"requiredTech": "Spaceflight",
+		"requiredTech": "World Alliance",
 		"requiredResource": "Oil",
 		"uniques": [
 			"Cyber",
