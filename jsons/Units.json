@@ -3510,7 +3510,7 @@
 		"replaces": "Hacker",
 		"unitType": "Support",
 		"movement": 2,
-		"strength": 140,
+		"strength": 100,
 		"cost": 400,
 		"requiredTech": "Automation",
 		"uniques": [
@@ -3521,16 +3521,13 @@
 			"Invisible to non-adjacent units",
 			"[+50]% Strength <vs [Cyber] units>"
 		],
-		"promotions": [
-			"Support Unit"
-		],
 		"attackSound": "Hacking"
 	},
 	{
 		"name": "Monolith Brainiac",
 		"unitType": "Support",
 		"movement": 2,
-		"strength": 140,
+		"strength": 100,
 		"cost": 8000,
 		"requiredTech": "Nanotechnology",
 		"uniques": [
@@ -3543,9 +3540,6 @@
 			"Invisible to non-adjacent units",
 			"[+50]% Strength <vs [Cyber] units>",
 			"Never appears as a Barbarian unit"
-		],
-		"promotions": [
-			"Support Unit"
 		],
 		"attackSound": "Hacking"
 	},
