@@ -2214,7 +2214,9 @@
 		"uniques": [
 			"Can move after attacking",
 			"No defensive terrain bonus",
-			"[-33]% Strength <vs cities> <when attacking>"
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Double movement in [Tundra]",
+			"Double movement in [Snow]"
 		],
 		"promotions": [
 			"[Cossack] ability"
