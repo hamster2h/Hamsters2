@@ -2706,8 +2706,7 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"Comment [Enables construction of Monolith Aliens]",
-			"Must have an owned [Alien Monolith] within [3] tiles",
-			"Will not be displayed in Civilopedia"
+			"Must have an owned [Alien Monolith] within [3] tiles"
 		]
 	},
 	{
