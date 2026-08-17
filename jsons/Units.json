@@ -1572,7 +1572,8 @@
 			"[-100]% maintenance costs",
 			"Nuclear weapon of Strength [4]",
 			"Blast radius [12]",
-			"Can only be built <in cities with a [Spaceship Factory]>"
+			"Can only be built <in cities with a [Spaceship Factory]>",
+			"Unbuildable"
 		],
 		"attackSound": "nuke"
 	},
