@@ -9,7 +9,8 @@
         "cityAirUnitCapacity": 8,
         "minimalCityDistance": 2,
         "minimalCityDistanceOnDifferentContinents": 1,
-        "naturalWonderCountMultiplier": 0.3
+        "naturalWonderCountMultiplier": 0.3,
+        "minimumWarDuration": 5
     },
     "buildingsToRemove": [
         "Solar Plant"
