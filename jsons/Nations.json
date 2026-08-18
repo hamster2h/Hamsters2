@@ -1677,7 +1677,7 @@
 			"[+100]% [Iron] resource production",
 			"[+100]% [Oil] resource production",
 			"[+100]% [Uranium] resource production",
-			"[+25]% Production when constructing [Land] units [in all cities]"
+			"[+25]% Production when constructing [{Military} {Land}] units [in all cities]"
 		],
 		"cities": [
 			"Moscow","St. Petersburg","Novgorod","Rostov","Yaroslavl","Yekaterinburg","Yakutsk","Vladivostok","Smolensk","Orenburg",
