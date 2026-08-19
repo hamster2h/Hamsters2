@@ -11,7 +11,7 @@
         },
         "uniques": [
 			"[+3 Culture] from every [Palace]",
-            "[-25]% Culture cost of natural border growth [in all cities]"
+            "[-20]% Culture cost of natural border growth [in all cities]"
         ],
         "policies": [
             {
