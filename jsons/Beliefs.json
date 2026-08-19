@@ -117,8 +117,7 @@
         "name": "Monument to the Gods",
         "type": "Pantheon",
         "uniques": [
-			"Free Technology <upon constructing [World Wonder] [in cities following this religion]>",
-			"[+50]% weight to this choice for AI decisions"
+			"Free Technology <upon constructing [World Wonder] [in cities following this religion]>"
         ]
     },
     {
