@@ -495,7 +495,7 @@
 		"uniques": [
 			"[+1 Food] from [Tundra] tiles [in this city]",
 			"[+1 Food] from [Snow] tiles [in this city]",
-			"[-25]% Culture cost of natural border growth [in this city]",
+			"[-20]% Culture cost of natural border growth [in this city]",
 			"[-25]% Gold cost of acquiring tiles [in this city]",
 			"New [Military] units start with [15] XP [in this city]",
 			"Destroyed when the city is captured"
@@ -1118,7 +1118,7 @@
 		},
 		"requiredTech": "Education",
 		"uniques": [
-			"[-25]% Culture cost of natural border growth [in all cities]",
+			"[-20]% Culture cost of natural border growth [in all cities]",
 			"[-25]% Gold cost of acquiring tiles [in all cities]"
 		],
 		"quote": "'The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.' - Antonio da Magdalena"
