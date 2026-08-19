@@ -657,7 +657,8 @@
 		"requiredTech": "Horseback Riding",
 		"uniques": [
 			"[+15]% Production when constructing [Mounted] units [in this city]",
-			"[+1 Production, +1 Food] from [Pasture] tiles [in this city]"
+			"[+1 Production, +1 Food] from [Pasture] tiles [in this city]",
+			"[+1 Production] from [Farm] tiles [in this city]"
 		]
 	},
 	{
