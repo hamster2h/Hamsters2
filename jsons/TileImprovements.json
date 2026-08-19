@@ -982,8 +982,8 @@
 			"Irremovable",
 			"Unbuildable",
 			"Excluded from map editor",
-			"[+1 Production, +1 Food, +2 Happiness] from [Fresh water] tiles",
-			"[+1 Production, +1 Food, +2 Happiness] from [Coastal] tiles"
+			"[+1 Production, +1 Food, +1 Happiness] from [Fresh water] tiles",
+			"[+1 Production, +1 Food, +1 Happiness] from [Coastal] tiles"
 		],
         "civilopediaText": [
 			{"text":"Marks the center of a city"},
