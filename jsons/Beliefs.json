@@ -117,8 +117,7 @@
         "name": "Monument to the Gods",
         "type": "Pantheon",
         "uniques": [
-			"Free Technology <upon constructing [World Wonder] [in cities following this religion]>",
-			"[-25]% [Production] [in cities following this religion] <in cities with at least [4] [Population]>"
+			"Free Technology <upon constructing [World Wonder] [in cities following this religion]>"
         ]
     },
     {
