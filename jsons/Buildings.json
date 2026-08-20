@@ -285,7 +285,7 @@
 		"uniqueTo": "Assyria",
 		"replaces": "Library",
 		"culture": 1,
-		"maintenance": 3,
+		"maintenance": 2,
 		"requiredTech": "Writing",
 		"uniques": [
 			"[+1 Science] per [1] population [in this city]",
