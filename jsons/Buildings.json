@@ -61,13 +61,13 @@
 		"uniqueTo": "Aztecs",
 		"food": 2,
 		"production": 2,
-		"maintenance": 1,
+		"maintenance": 2,
 		"percentStatBonus": {
 			"food": 15
 		},
 		"requiredTech": "The Wheel",
 		"uniques": [
-			"[+2 Food] from [Lakes] tiles [in this city]",
+			"[+1 Food] from [Lakes] tiles [in this city]",
 			"Must be next to [Fresh water]"
 		]
 	},
