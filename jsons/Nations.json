@@ -283,29 +283,26 @@
 		"startBias": [
 			"Jungle"
 		],
+		
 		"preferredVictoryType": "Domination",
 		"personality": "Montezuma I",
 
         "startIntroPart1": "O divine Montezuma, your people welcome you! May your magnificence inspire all living things! The mighty Aztecs were nomads until the 12th century, when they choose to settle in the mesa central, which would later be called Mexico. Wars were frequent with other tribes to control the rich land surrounding the sacred lakes of Texcoco, Xaltocan and Zampango. In some 200 years, double-sided alliances and martial prowess made of the Aztecs the dominant power in the Central American basin, forming a mighty empire stretching from sea to sea. Alas, the empire fell under the assault of foreign devils - the Spaniards and many curses they brought with them! Wars between tribes and weaponry of doom used by the invaders made the great Aztec civilization crumble in only a few decades.",
         "startIntroPart2": "O mighty King Montezuma, do you hear the call of your people seeking for revenge? Will you lead them to victory under the light of the Five Suns? Will your new empire shine through the ages of history?",
-
         "declaringWar": "Xi-miqa-can! Xi-miqa-can! Xi-miqa-can! (Die, die, die!)",
 		"attacked": "Excellent! Let the blood flow in raging torrents!",
 		"defeated": "Monster! Who are you to destroy my greatness?",
 		"introduction": "What do I see before me? Another beating heart for my sacrificial fire.",
-
 		"neutralHello": "Welcome, friend.",
 		"hateHello": "What do you want?",
 		"tradeRequest": "Accept this agreement or suffer the consequences.",
-
         "outerColor": [139,32,23],
         "innerColor": [134,238,214],
-
 		"favoredReligion": "Christianity",
 		"uniqueName": "Sacrificial Captives",
 		"uniques": [
 			"Earn [10]% of killed [Military] unit's [Cost] as [Culture]",
-			"[+200]% Yield from every [City ruins]",
+			"[+100]% Yield from every [City ruins]",
 			"Starts with [Warrior Code] adopted"
 		],
 		"cities": [
@@ -326,22 +323,19 @@
 		"startBias": [
 			"Avoid [Tundra]"
 		],
+		
 		"preferredVictoryType": "Scientific",
 		"personality": "Nebuchadnezzar II",
 
 		"startIntroPart1": "May the gods bless you, great Nebuchadnezzar, ruler of ancient Babylon! Built 5000 years ago, Babylon emerged as an empire in 1800 BC, thanks to godlike Hammurabi, The Giver of Law. Falling under the Kassites assaults then the Assyrian domination, Babylon was reborn from its ashes, gaining back its independance, and became the beacon for Arts and Learning in the ancient world. O Nebuchadnezzar, after your death, Babylon quickly fell, conquered by the mighty Persians, and then by the Greeks, until the great city disappeared forever in 141 BC.",
 		"startIntroPart2": "Great Nebuchadnezzar, Babylon's glory still lives through you and your people. Will you create a spark to enlighten the world again? Will your new empire shine through the ages of history?",
-
 		"declaringWar": "The demon wants the blood of soldiers!",
 		"attacked": "Oh well, I presume you know what you're doing.",
 		"defeated": "It is over. Perhaps now I shall have peace, at last.",
 		"introduction": "Are you real or a phantom?",
-
 		"neutralHello": "Greetings.",
 		"hateHello": "What do YOU want?!",
-
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
-
 		"outerColor": [27,53,63],
 		"innerColor": [213,249,255],
 		"favoredReligion": "Buddhism",
