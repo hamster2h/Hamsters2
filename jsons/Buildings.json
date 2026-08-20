@@ -555,6 +555,7 @@
 		"cost": 65,
 		"cityStrength": 6,
 		"cityHealth": 120,
+		"culture": 2,
 		"requiredTech": "Masonry",
 		"uniques": [
 			"Destroyed when the city is captured"
