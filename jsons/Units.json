@@ -2516,7 +2516,8 @@
 		"obsoleteTech": "Gunpowder",
 		"uniques": [
 			"Can build [Road] improvements on tiles",
-			"Can build [Fort] improvements on tiles"
+			"Can build [Fort] improvements on tiles",
+			"[+25]% Strength <after discovering [Steel]>"
 		],
 	 	"promotions": [
 			"Cover I",
