@@ -2068,7 +2068,7 @@
 		"uniqueTo": "Spain",
 		"replaces": "Knight",
 		"unitType": "Mounted",
-		"movement": 6,
+		"movement": 5,
 		"strength": 24,
 		"cost": 180,
 		"requiredTech": "Chivalry",
@@ -2076,7 +2076,6 @@
 		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
 		"uniques": [
-			"[+1] Sight",
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[+50]% Strength <after discovering [Military Science]>",
