@@ -267,7 +267,7 @@
 		"faith": 4,
 		"maintenance": 2,
 		"percentStatBonus": {
-			"science": 25
+			"science": 15
 		},
 		"specialistSlots": {
 			"Prophet": 1
