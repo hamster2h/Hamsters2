@@ -2206,11 +2206,11 @@
 		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
 		"uniques": [
+			"Ignores Zone of Control",
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities> <when attacking>",
-			"[+25]% Strength <in [Friendly Land] tiles>",
-			"Ignores Zone of Control"
+			"[+25]% Strength <in [Friendly Land] tiles>"
 		],
 		"promotions": [
 			"[Cossack] ability"
