@@ -87,6 +87,7 @@
 		"name": "Paper Maker",
 		"uniqueTo": "China",
 		"cost": 250,
+		"culture": 2,
 		"maintenance": 2,
 		"percentStatBonus": {
 			"science": 15
