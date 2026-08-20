@@ -804,7 +804,7 @@
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Acoustics",
 		"uniques": [
-			"[+50]% Strength <vs [Mounted] units>",
+			"[+25]% Strength <vs [Mounted] units>",
 			"[+25]% Strength <vs [Gunpowder] units>"
 		],
 		"promotions": [
@@ -2711,8 +2711,7 @@
 		"obsoleteTech": "Rifling",
 		"promotions": [
 			"[Janissary] ability",
-			"Formation I",
-			"Cover I"
+			"Formation I"
 		],
 		"attackSound": "shot"
 	},
@@ -2909,9 +2908,9 @@
 		"uniqueTo": "Vietnam",
 		"replaces": "Infantry",
 		"unitType": "Gunpowder",
-		"movement": 3,
+		"movement": 2,
 		"strength": 70,
-		"cost": 1200,
+		"cost": 1000,
 		"requiredTech": "Plastics",
 		"upgradesTo": "Mechanized Infantry",
 		"obsoleteTech": "Lasers",
@@ -2921,9 +2920,7 @@
 		],
 		"promotions": [
 			"Cover I",
-			"Cover II",
-			"Ambush I",
-			"Sentry"
+			"Ambush I"
 		],
 		"attackSound": "shot"
 	},
