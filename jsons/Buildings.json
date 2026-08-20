@@ -176,9 +176,9 @@
 	{
 		"name": "Pyramid",
 		"uniqueTo": "The Maya",
-		"faith": 2,
-		"science": 2,
-		"culture": 6,
+		"faith": 1,
+		"science": 1,
+		"culture": 4,
 		"cost": 60,
 		"maintenance": 1,
 		"requiredTech": "Pottery"
