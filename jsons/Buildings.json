@@ -284,12 +284,11 @@
 		"name": "Royal Library",
 		"uniqueTo": "Assyria",
 		"replaces": "Library",
-		"science": 2,
-		"culture": 2,
-		"maintenance": 2,
+		"culture": 1,
+		"maintenance": 3,
 		"requiredTech": "Writing",
 		"uniques": [
-			"[+2 Science] per [2] population [in this city]",
+			"[+1 Science] per [1] population [in this city]",
 			"New [Military] units start with [15] XP [in this city]"
 		]
 	},
