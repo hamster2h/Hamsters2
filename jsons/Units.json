@@ -2617,7 +2617,7 @@
 		"uniqueTo": "Japan",
 		"replaces": "Longswordsman",
 		"unitType": "Sword",
-		"movement": 3,
+		"movement": 2,
 		"strength": 24,
 		"cost": 180,
 		"requiredTech": "Steel",
