@@ -1355,7 +1355,7 @@
 		"uniqueTo": "America",
 		"replaces": "Carrier",
 		"unitType": "Aircraft Carrier",
-		"movement": 6,
+		"movement": 4,
 		"strength": 90,
 		"cost": 7000,
 		"requiredTech": "Nuclear Fission",
@@ -1365,9 +1365,7 @@
 			"Consumes [4] [Iron]",
 			"Can carry [8] [Aircraft] units",
 			"[+2] Sight",
-			"Can see invisible [All] units",
-			"Double movement in [Ocean]",
-			"Never appears as a Barbarian unit"
+			"Double movement in [Ocean]"
 		],
 		"promotions": [
 			"Armor Plating I",
