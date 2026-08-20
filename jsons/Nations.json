@@ -391,8 +391,8 @@
 		"uniqueName": "Colonialist Riches",
 		"uniques": [
 			"[+1 Production] from [Plantation] tiles [in all cities]",
-			"[+1 Gold] from every [Strategic resource]",
-			"[+1 Culture] from every [Artist]"
+			"[+2 Gold] from every [Strategic resource]",
+			"[+2 Culture] from every [Artist]"
 		],
 		"cities": [
 			"Brussels","Antwerp","Ghent","Liege","Bruges","Charleroi","Anderlecht","Schaerbeek","Namur","Leuven",
