@@ -2209,8 +2209,8 @@
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities> <when attacking>",
-			"Double movement in [Tundra]",
-			"Double movement in [Snow]"
+			"[+25]% Strength <in [Friendly Land] tiles>",
+			"Ignores Zone of Control"
 		],
 		"promotions": [
 			"[Cossack] ability"
