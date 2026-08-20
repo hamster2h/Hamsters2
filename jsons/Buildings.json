@@ -1703,7 +1703,7 @@
 		"cityStrength": 3,
 		"requiredTech": "Mathematics",
 		"uniques": [
-			"[+25]% Production when constructing [All] buildings [in this city]",
+			"[+20]% Production when constructing [All] buildings [in this city]",
 			"Indicates the capital city"
 		]
 	},
