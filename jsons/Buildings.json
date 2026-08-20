@@ -251,7 +251,7 @@
 		"name": "Mud Pyramid Mosque",
 		"uniqueTo": "Songhai",
 		"replaces": "Temple",
-		"maintenance": 0,
+		"maintenance": 1,
 		"culture": 3,
 		"faith": 2,
 		"specialistSlots": {
