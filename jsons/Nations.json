@@ -1358,8 +1358,8 @@
         "leaderName": "Harald Hardrada",
         "adjective": ["Norwegian"],
         "startBias": [
-			"Snow",
-			"Coast"
+			"Coast",
+			"Snow"
 		],
         "preferredVictoryType": "Domination",
         "personality": "Harald Hardrada",
