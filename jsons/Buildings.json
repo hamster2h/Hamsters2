@@ -132,7 +132,7 @@
 		"uniqueTo": "Ireland",
 		"cost": 75,
 		"happiness": 3,
-		"food": 2,
+		"gold": 2,
 		"culture": 4,
 		"maintenance": 2,
 		"requiredTech": "Construction"
