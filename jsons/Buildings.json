@@ -30,6 +30,20 @@
 		]
 	},
 	{
+		"name": "Orchestra",
+		"uniqueTo": "Austria",
+		"culture": 7,
+		"maintenance": 3,
+		"specialistSlots": {
+			"Artist": 2
+		},
+		"requiredBuilding": "Amphitheater",
+		"requiredTech": "Acoustics",
+		"uniques": [
+			"Destroyed when the city is captured"
+		]
+	},
+	{
 		"name": "Stave Church",
 		"uniqueTo": "Norway",
 		"cost": 100,
@@ -169,21 +183,6 @@
 		"maintenance": 1,
 		"uniques": [
 			"[+1 Faith] from each Trade Route"
-		]
-	},
-	{
-		"name": "Orchestra",
-		"uniqueTo": "Austria",
-		"replaces": "Opera House",
-		"culture": 7,
-		"maintenance": 2,
-		"specialistSlots": {
-			"Artist": 2
-		},
-		"requiredBuilding": "Amphitheater",
-		"requiredTech": "Acoustics",
-		"uniques": [
-			"Destroyed when the city is captured"
 		]
 	},
 	{
