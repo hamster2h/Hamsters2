@@ -5,13 +5,25 @@
 		"culture": 4,
 		"maintenance": 3,
 		"greatPersonPoints": {
-			"Great Artist": 6
+			"Great Artist": 2
 		},
 		"requiredTech": "Metal Casting",
 		"uniques": [
 			"[+1 Culture] from [Tundra] tiles [in this city]",
 			"[+1 Culture] from [Snow] tiles [in this city]",
 			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Longhouse",
+		"uniqueTo": "Iroquois",
+		"cost": 600,
+		"production": 2,
+		"maintenance": 2,
+		"requiredTech": "Iron Working",
+		"uniques": [
+			"[+1 Production] from [Forest] tiles [in all cities]",
+			"[+1 Production] from [Jungle] tiles [in all cities]"
 		]
 	},
 	{
@@ -673,18 +685,6 @@
 			"[+15]% Production when constructing [Mounted] units [in this city]",
 			"[+2 Production] from [Pasture] tiles [in this city]",
 			"Provides [1] [Horses]"
-		]
-	},
-	{
-		"name": "Longhouse",
-		"uniqueTo": "Iroquois",
-		"cost": 550,
-		"production": 2,
-		"maintenance": 2,
-		"requiredTech": "Iron Working",
-		"uniques": [
-			"[+1 Production] from [Forest] tiles [in all cities]",
-			"[+1 Production] from [Jungle] tiles [in all cities]"
 		]
 	},
 	{
