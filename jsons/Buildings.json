@@ -89,8 +89,7 @@
 		"cost": 250,
 		"maintenance": 2,
 		"percentStatBonus": {
-			"culture": 10,
-			"science": 25
+			"science": 15
 		},
 		"requiredTech": "Writing",
 		"uniques": [
