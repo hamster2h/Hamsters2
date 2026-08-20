@@ -21,9 +21,6 @@
 		"gold": 1,
 		"culture": 3,
 		"maintenance": 1,
-		"percentStatBonus": {
-			"production": 10
-		},
 		"requiredTech": "Guilds",
 		"uniques": [
 			"[+25]% Great Person generation [in this city]"
