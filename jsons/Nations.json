@@ -976,24 +976,21 @@
 		"startBias": [
 			"Hill"
 		],
+		
 		"preferredVictoryType": "Cultural",
 		"personality": "Pachacuti",
 
         "startIntroPart1": "King Pachacuti Sapa Inca, maker of the world and ruler of Tawantinsuyu and the Inca people, your loyal subjects greet you! In the beginning, the small state of Cusco already showed the Incans were promised for greatness. They won many wars against powerful enemies, relentlessly crushing any army that dared oppose them, and forged a mighty empire stretching from Ecuador to Chile, the greatest ever seen in pre-Columbian America. Not just undaunted soldiers, Inca people were accomplished builders and artists, their magnificient and unequalled culture still fascinating the world today.",
         "startIntroPart2": "O Emperor Pachacuti, honor your name of 'Earth Shaker'! Will you once again summon the power of the earth to unite all Incan people under the protection of Sapa Inca, the Son of the Sun? Will your new empire shine through the ages of history?",
-
         "declaringWar": "Resistance is futile! You cannot hope to stand against the mighty Incan empire. If you will not surrender immediately, then prepare for war!",
 		"attacked": "Declare war on me?!? You can't, because I declare war on you first!",
 		"defeated": "How did you darken the sun? I ruled with diligence and mercy—see that you do so as well.",
 		"introduction": "How are you? You stand before Pachacuti Inca Yupanqui.",
-
 		"neutralHello": "How are you doing?",
 		"hateHello": "What do you want now?",
 		"tradeRequest": "The Incan people offer this fair trade.",
-
         "outerColor": [255,184,33],
         "innerColor": [3,115,86],
-
 		"favoredReligion": "Christianity",
 		"uniqueName": "Great Andean Road",
 		"uniques": [
@@ -1018,12 +1015,12 @@
 		"startBias": [
 			"Grassland"
 		],
+		
 		"preferredVictoryType": "Cultural",
 		"personality": "Gandhi",
 
         "startIntroPart1": "Wise Mahatma Gandhi, great leader of India, we honor you! India is one of the oldest countries in the world with 10,000 years of history, built on spirit and religion, as three of the world's great religions - Hinduism, Buddhism and Jainism - appeared on this sacred land. Every aspect of India society reveres art, music and color, showing great wealth but also grinding poverty. For centuries, India was torn between local kingdoms fighting each other but also repelling invaders. In the 12th century AD, Muslim Turks tried to conquer India, then the Mongols took their place. In the early 17th century, India, still fragmented, was colonized by the English and their diplomacy and technological superiority. After two centuries of British dominion, Indian nationalism woke up, and you, Great Mahatma, have led a peaceful and victorious rebellion never seen anywhere in history!",
         "startIntroPart2": "Gandhi, your people ask again to be led on the path of freedom. Under protection of Ganesha and Surya, can India accomplish its great potential? Will your new empire shine through the ages of history?",
-
         "declaringWar": "I have just received a report that large numbers of my troops have crossed your borders.",
 		"attacked": "My attempts to avoid violence have failed. An eye for an eye only makes the world blind.",
 		"defeated": "You can chain me, you can torture me, you can even destroy this body, but you will never imprison my mind.",
@@ -1032,16 +1029,14 @@
 		"neutralHello": "I wish you peace.",
 		"hateHello": "What do you want?",
 		"tradeRequest": "My friend, are you interested in this arrangement?",
-
         "outerColor": [14, 113, 4],
         "innerColor": [255, 163, 71],
-
 		"favoredReligion": "Hinduism",
 		"uniqueName": "Population Growth",
 		"uniques": [
 			"[+1 Food] from [Farm] tiles [in all cities]",
 			"[+100]% unhappiness from the number of cities",
-			"[-50]% Unhappiness from [Population] [in all cities]",
+			"[-25]% Unhappiness from [Population] [in all cities]",
 			"[+1] Movement <for [Worker] units>"
 		],
 		"cities": [
@@ -1061,6 +1056,7 @@
 		"startBias": [
 			"Coast"
 		],
+		
 		"preferredVictoryType": "Cultural",
 		"personality": "Gajah Mada",
 
@@ -1098,6 +1094,7 @@
 			"Hill",
 			"Avoid [Coast]"
 		],
+		
 		"preferredVictoryType": "Diplomatic",
 		"personality": "Michael Collins",
 		
@@ -1135,12 +1132,12 @@
 		"startBias": [
 			"Forest"
 		],
+		
 		"preferredVictoryType": "Scientific",
 		"personality": "Hiawatha",
 
         "startIntroPart1": "Greetings, noble Hiawatha, leader of the mighty Iroquois nations! Your people lived near the great and holy lake Ontario since the ancient ages, on a land that will be later known as New York city. Long ago, the five peoples of Seneca, Onondaga, Mohawks, Cayugas and Oneida became one nation, the Haudenosaunee, the Iroquois. Although not having a written language, the wise Iroquois created the Great Law of Peace, which can be considered the first established constitution. For decades, your people fought powerful enemies, such as the Huron, and then the French and English colonists. With less warriors and inferior weaponry, the Iroquois still survived and walk on the path of peace and harmony, until their way of living faded away under the crush of the newborn United States nation.",
         "startIntroPart2": "Great Sachem Hiawatha, do you hear the complaints of your people? Can you light the path leading to the ancient Iroquois union? Will your new empire shine through the ages of history?",
-
         "declaringWar": "You are a plague upon Mother Earth! Prepare for battle!",
 		"attacked": "You evil creature! My braves will slaughter you!",
 		"defeated": "You have defeated us... but our spirits will never be vanquished! We shall return!",
@@ -1149,10 +1146,8 @@
 		"neutralHello": "Good day.",
 		"hateHello": "Oh, it's you.",
 		"tradeRequest": "Does this trade work for you, my friend?",
-
         "outerColor": [54,72,72],
         "innerColor": [246,205,137],
-
         "favoredReligion": "Christianity",
 		"uniqueName": "The Great Warpath",
 		"uniques": [
@@ -1176,12 +1171,12 @@
 		"startBias": [
 			"Coast"
 		],
+		
 		"preferredVictoryType": "Domination",
 		"personality": "Oda Nobunaga",
 
         "startIntroPart1": "Lord Oda Nobunaga, ruler of Japan, the land of the Rising Sun is at your command! Through history, Japanese people lived and died with honor, proud of their rich culture of arts and letters. Years of bloody civil wars, invasions of foreign powers, wealth but also great poverty, have never altered the strong will of the Rising Sun island, as the Bushido spirit has imbued the fields of battle and the Japanese society for millenia. At the end of the 19th century, under foreign influence, your people took the path of modernity, and in a few decades, made of Japan a land of technological innovation and powerful industry, with which only few nations can compete.",
         "startIntroPart2": "O great daimyo, will you take on your hands the Japan destiny, for the Rising Sun to light the world? Will your new empire shine through the ages of history?",
-
         "declaringWar": "I hereby inform you of our intention to wipe out your civilization from this world.",
 		"attacked": "Pitiful fool! Now we shall destroy you!",
 		"defeated": "You were much wiser than I thought.",
