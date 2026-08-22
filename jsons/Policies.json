@@ -28,7 +28,7 @@
                 "name": "Legalism",
                 "uniques": [
 					"Provides the cheapest [Culture] building in your first [4] cities for free",
-					"Enables conversion of city production to [Culture]"
+					"Each city founded increases culture cost of policies [15]% less than normal"
                 ],
                 "row": 1,
                 "column": 3
@@ -56,8 +56,8 @@
             {
                 "name": "Monarchy",
                 "uniques": [
-					"Each city founded increases culture cost of policies [15]% less than normal",
-                    "[+2 Gold, +1 Happiness] per [4] population [in capital]"
+                    "[+1 Gold, +1 Happiness] per [2] population [in capital]",
+					"Enables conversion of city production to [Culture]"
                 ],
                 "requires": ["Legalism"],
                 "row": 2,
