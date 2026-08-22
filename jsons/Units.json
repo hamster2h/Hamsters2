@@ -1321,8 +1321,8 @@
 		"range": 4,
 		"cost": 8000,
 		"requiredTech": "Telecommunications",
-		"requiredResource": "Uranium",
 		"uniques": [
+			"Consumes [1] [Uranium] <before discovering [Particle Physics]>",
 			"[+400]% Strength <when attacking>",
 			"Can move after attacking",
 			"Can carry [10] [Big Missile] units"
@@ -1357,9 +1357,9 @@
 		"strength": 90,
 		"cost": 7000,
 		"requiredTech": "Nuclear Fission",
-		"requiredResource": "Uranium",
 		"uniques": [
 			"Cyber",
+			"Consumes [1] [Uranium] <before discovering [Particle Physics]>",
 			"Consumes [4] [Iron]",
 			"Can carry [8] [Aircraft] units",
 			"[+2] Sight",
@@ -2414,9 +2414,9 @@
 		"range": 3,
 		"cost": 22000,
 		"requiredTech": "Nuclear Fusion",
-		"requiredResource": "Uranium",
 		"uniques": [
 			"Cyber",
+			"Consumes [1] [Uranium] <before discovering [Particle Physics]>",
 			"Consumes [4] [Composites]",
 			"Can move immediately once bought",
 			"[+50]% Strength <vs [Land] units>",
