@@ -5,8 +5,7 @@
 		"adjective": ["hamster"],
 		"startBias": [
 			"Coast",
-			"Avoid [Tundra]",
-			"Avoid [Snow]"
+			"Avoid [Tundra]"
 		],
 		"preferredVictoryType": "Domination",
 		"personality": "Hamsky",
