@@ -912,6 +912,15 @@
 		]
 	},
 	{
+		"name": "Monolith Portal",
+		"isNationalWonder": true,
+		"requiredTech": "Nanotechnology",
+		"uniques": [
+			"Comment [Enables construction of Monolith Aliens]",
+			"Must have an owned [Alien Monolith] within [3] tiles"
+		]
+	},
+	{
 		"name": "Time Machine Blueprints",
 		"isNationalWonder": true,
 		"cost": 32000,
@@ -1570,15 +1579,6 @@
 			"[+10]% [Food] from every [Adaptive Base]"
 		],
 		"quote": "'It's alive! It's alive!' - Víctor Frankenstein"
-	},
-	{
-		"name": "Monolith Portal",
-		"isWonder": true,
-		"requiredTech": "Nanotechnology",
-		"uniques": [
-			"Comment [Enables construction of Monolith Aliens]",
-			"Must have an owned [Alien Monolith] within [3] tiles"
-		]
 	},
 	{
 		"name": "Space Elevator",
