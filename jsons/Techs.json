@@ -370,8 +370,8 @@
 		"columnNumber": 9,
 		"era": "Industrial era",
 		"techCost": 2760,
-		"buildingCost": 350,
-		"wonderCost": 750,
+		"buildingCost": 385,
+		"wonderCost": 940,
 		"techs": [
 			{
 				"name": "Archaeology",
@@ -420,8 +420,8 @@
 		"columnNumber": 10,
 		"era": "Industrial era",
 		"techCost": 2875,
-		"buildingCost": 400,
-		"wonderCost": 900,
+		"buildingCost": 440,
+		"wonderCost": 1125,
 		"techs": [
 			{
 				"name": "Biology",
@@ -456,8 +456,8 @@
 		"columnNumber": 11,
 		"era": "Modern era",
 		"techCost": 7680,
-		"buildingCost": 500,
-		"wonderCost": 1060,
+		"buildingCost": 600,
+		"wonderCost": 1590,
 		"techs": [
 			{
 				"name": "Refrigeration",
@@ -499,8 +499,8 @@
 		"columnNumber": 12,
 		"era": "Modern era",
 		"techCost": 8280,
-		"buildingCost": 500,
-		"wonderCost": 1250,
+		"buildingCost": 600,
+		"wonderCost": 1875,
 		"techs": [
 			{
 				"name": "Plastics",
@@ -551,8 +551,8 @@
 		"columnNumber": 13,
 		"era": "Atomic era",
 		"techCost": 13000,
-		"buildingCost": 500,
-		"wonderCost": 1360,
+		"buildingCost": 780,
+		"wonderCost": 2040,
 		"techs": [
 			{
 				"name": "Pharmaceuticals",
@@ -607,8 +607,8 @@
 		"columnNumber": 14,
 		"era": "Atomic era",
 		"techCost": 15250,
-		"buildingCost": 600,
-		"wonderCost": 1480,
+		"buildingCost": 780,
+		"wonderCost": 2220,
 		"techs": [
 			{
 				"name": "Ecology",
@@ -652,8 +652,8 @@
 		"columnNumber": 15,
 		"era": "Information era",
 		"techCost": 20000,
-		"buildingCost": 750,
-		"wonderCost": 1710,
+		"buildingCost": 1050,
+		"wonderCost": 2565,
 		"techs": [
 			{
 				"name": "Telecommunications",
@@ -717,8 +717,8 @@
 		"columnNumber": 16,
 		"era": "Information era",
 		"techCost": 23000,
-		"buildingCost": 850,
-		"wonderCost": 1890,
+		"buildingCost": 1190,
+		"wonderCost": 2835,
 		"techs": [
 			{
 				"name": "Globalization",
@@ -772,8 +772,8 @@
 		"columnNumber": 17,
 		"era": "Future era",
 		"techCost": 40500,
-		"buildingCost": 1000,
-		"wonderCost": 2020,
+		"buildingCost": 1500,
+		"wonderCost": 3030,
 		"techs": [
 			{
 				"name": "Enhancing",
@@ -818,8 +818,8 @@
 		"columnNumber": 18,
 		"era": "Future era",
 		"techCost": 60750,
-		"buildingCost": 1120,
-		"wonderCost": 2360,
+		"buildingCost": 1680,
+		"wonderCost": 3540,
 		"techs": [
 			{
 				"name": "Metagenetics",
@@ -871,8 +871,8 @@
 		"columnNumber": 19,
 		"era": "Beyond the Future",
 		"techCost": 81000,
-		"buildingCost": 2000,
-		"wonderCost": 3120,
+		"buildingCost": 3000,
+		"wonderCost": 6000,
 		"techs": [
 			{
 				"name": "World Alliance",
@@ -898,8 +898,8 @@
 		"columnNumber": 20,
 		"era": "Beyond the Future",
 		"techCost": 112000,
-		"buildingCost": 2000,
-		"wonderCost": 3120,
+		"buildingCost": 3000,
+		"wonderCost": 6000,
 		"techs": [
 			{
 				"name": "Future Tech",
