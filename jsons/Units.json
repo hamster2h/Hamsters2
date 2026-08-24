@@ -3355,7 +3355,7 @@
 		"name": "Photon Generator",
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost": 1500,
+		"cost": 15000,
 		"uniques": [
 			"Comment [Time Machine part]",
 			"Cannot be purchased",
@@ -3369,7 +3369,7 @@
 		"name": "Causality Matrix",
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost": 1500,
+		"cost": 15000,
 		"uniques": [
 			"Comment [Time Machine part]",
 			"Cannot be purchased",
@@ -3383,7 +3383,7 @@
 		"name": "Dimensional Shifter",
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost": 1500,
+		"cost": 15000,
 		"uniques": [
 			"Comment [Time Machine part]",
 			"Cannot be purchased",
@@ -3397,7 +3397,7 @@
 		"name": "Entropy Phaser",
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost": 1500,
+		"cost": 15000,
 		"uniques": [
 			"Comment [Time Machine part]",
 			"Cannot be purchased",
