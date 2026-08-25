@@ -650,7 +650,7 @@
 			"[+15]% Production when constructing [Mounted] units [in this city]",
 			"[+1 Production, +1 Gold] from [Pasture] tiles [in this city]",
 			"New [Mounted] units start with [15] XP [in this city]"
-		],
+		]
 	},
 	{
 		"name": "Ocupada Estable",
@@ -828,7 +828,7 @@
             "All newly-trained [Mounted] units [in all cities] receive the [Shock I] promotion",
 			"Provides [2] [Horses]"
 		]
-    }
+    },
 	{
 		"name": "National College",
 		"isNationalWonder": true,
