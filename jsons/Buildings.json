@@ -2484,7 +2484,7 @@
 		"uniques": [
 			"Only available <if [MP-Branch Companies] is constructed>",
 			"Consumes [1] [Power]",
-			"[+2 Gold, +2 Production] from [Industry] tiles [in this city]",
+			"[+1 Gold, +3 Production] from [Industry] tiles [in this city]",
 			"Must have an owned [Industry] within [3] tiles"
 		]
 	},
@@ -2751,7 +2751,7 @@
 		"uniques": [
 			"Comment [Modern Perk]",
 			"[+1 Production] from [Luxury resource] tiles [in all cities]",
-			"[+2 Science] from [Industry] tiles [in all cities]",
+			"[+4 Science] from [Industry] tiles [in all cities]",
 			"Only available <starting from the [Modern era]>",
 			"Consumes [1] [Scientist Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
