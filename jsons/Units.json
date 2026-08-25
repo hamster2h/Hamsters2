@@ -1561,7 +1561,7 @@
 		"strength": 1000,
 		"rangedStrength": 1000,
 		"range": 40,
-		"cost": 350000,
+		"cost": 900000,
 		"requiredTech": "Particle Physics",
 		"uniques": [
 			"Space",
