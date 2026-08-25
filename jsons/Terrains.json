@@ -365,7 +365,7 @@
 		"uniques": [
 			"Nullifies all other stats this tile provides",
 			"Doesn't generate naturally",
-			"Units ending their turn on this terrain take [75] damage <hidden from users>"
+			"Units ending their turn on this terrain take [75] damage"
 		],
 		"defenceBonus": -0.15
 	},
@@ -427,7 +427,7 @@
 			"Must be adjacent to [0] to [3] [Desert] tiles",
 			"Must be adjacent to [0] to [3] [Tundra] tiles",
 			"Tile provides yield without assigned population",
-			"Units ending their turn on this terrain take [75] damage <hidden from users>"
+			"Units ending their turn on this terrain take [75] damage"
 		],
 		"turnsInto": "Mountain",
 		"impassable": true,
