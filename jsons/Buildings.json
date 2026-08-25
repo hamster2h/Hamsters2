@@ -894,6 +894,16 @@
 		]
     },
 	{
+        "name": "Great Firewall",
+        "isNationalWonder": true,
+		"requiredTech": "Computers",
+        "uniques": [
+			"Only available <when espionage is enabled>",
+			"[-20]% enemy spy effectiveness [in all cities]",
+			"Gain an extra spy"
+		]
+    },
+	{
 		"name": "Nuclear Testing Site",
 		"isNationalWonder": true,
 		"cost": 1000,
@@ -1450,18 +1460,6 @@
 		],
 		"quote": "'That's one small step for a man, one giant leap for mankind.' - Neil Armstrong"
 	},
-	{
-        "name": "Great Firewall",
-        "isWonder": true,
-		"culture": 2,
-		"requiredTech": "Computers",
-        "uniques": [
-			"Only available <when espionage is enabled>",
-			"[-20]% enemy spy effectiveness [in all cities]",
-			"Gain an extra spy"
-		],
-        "quote": "'Distrust and caution are the parents of security.' - Benjamin Franklin"
-    },
 	{
 		"name": "Manhattan Project",
 		"isWonder": true,
