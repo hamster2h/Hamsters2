@@ -871,7 +871,7 @@
 	{
 		"name": "Oxford University",
 		"isNationalWonder": true,
-		"cost": 125,
+		"cost": 200,
 		"science": 3,
 		"culture": 1,
 		"requiredTech": "Education",
@@ -884,18 +884,18 @@
 	{
         "name": "National Intelligence Agency",
         "isNationalWonder": true,
-		"cost": 120,
+		"cost": 1590,
 		"requiredTech": "Radio",
         "uniques": [
 			"Only available <when espionage is enabled>",
             "New spies start with [1] level(s)",
-            "Promotes all spies [1] time(s)",
-			"Cost increases by [30] per owned city"
+            "Promotes all spies [1] time(s)"
 		]
     },
 	{
         "name": "Great Firewall",
         "isNationalWonder": true,
+		"cost" 2220,
 		"requiredTech": "Computers",
         "uniques": [
 			"Only available <when espionage is enabled>",
@@ -906,7 +906,7 @@
 	{
 		"name": "Nuclear Testing Site",
 		"isNationalWonder": true,
-		"cost": 1000,
+		"cost": 4080,
 		"requiredTech": "Atomic Theory",
 		"uniques": [
 			"Comment [Enables nuclear weapon]",
@@ -916,6 +916,7 @@
 	{
 		"name": "Information Warfare",
 		"isNationalWonder": true,
+		"cost": 2835,
 		"requiredTech": "Artificial Intelligence",
 		"uniques": [
 			"[Support] units gain the [Firewall] promotion"
@@ -924,6 +925,7 @@
 	{
 		"name": "Monolith Portal",
 		"isNationalWonder": true,
+		"cost": 3030,
 		"requiredTech": "Nanotechnology",
 		"uniques": [
 			"Comment [Enables construction of Monolith Aliens]",
