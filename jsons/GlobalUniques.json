@@ -19,7 +19,7 @@
 		"[+160]% enemy spy effectiveness [in all cities] <when between [-20] and [-16] [Happiness]>",
 		"[+320]% enemy spy effectiveness [in all cities] <when below [-20] [Happiness]>",
 
-		"[-1 Happiness] per [4] population [non-[in all cities with a garrison]]",
+		"[-1 Happiness] per [10] population [non-[in all cities with a garrison]]",
         "[-1 Happiness] [in all cities] <when at war>",
         "[-1 Happiness] per [3] population [in all cities] <when at war>",
 
