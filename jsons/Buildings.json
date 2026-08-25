@@ -2484,7 +2484,7 @@
 		"uniques": [
 			"Only available <if [MP-Branch Companies] is constructed>",
 			"Consumes [1] [Power]",
-			"[+1 Gold, +3 Production] from [Industry] tiles [in this city]",
+			"[+2 Gold, +4 Production] from [Industry] tiles [in this city]",
 			"Must have an owned [Industry] within [3] tiles"
 		]
 	},
