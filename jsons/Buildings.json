@@ -895,7 +895,7 @@
 	{
         "name": "Great Firewall",
         "isNationalWonder": true,
-		"cost" 2220,
+		"cost": 2220,
 		"requiredTech": "Computers",
         "uniques": [
 			"Only available <when espionage is enabled>",
