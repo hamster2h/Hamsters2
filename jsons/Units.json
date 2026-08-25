@@ -92,7 +92,7 @@
 		"unitType": "Civilian",
 		"requiredTech": "Radio",
 		"movement": 2,
-		"cost": 800,
+		"cost": 1200,
 		"uniques": [
 			"Can instantly construct a [Concert Venue] improvement <by consuming this unit>"
 		]
@@ -102,7 +102,7 @@
 		"unitType": "Civilian",
 		"requiredTech": "Corporations",
 		"movement": 2,
-		"cost": 2000,
+		"cost": 2500,
 		"uniques": [
 			"Can instantly construct a [Industry] improvement <by consuming this unit>",
 			"Can only be built <in cities with a [Factory]>"
@@ -117,7 +117,7 @@
 		"name": "Supply Agent",
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost": 1300,
+		"cost": 1500,
 		"requiredTech": "Combustion",
 		"uniques": [
 			"Can instantly construct a [Supply Route] improvement <by consuming this unit>",
@@ -132,7 +132,7 @@
 	{
 		"name": "Archaeologist",
 		"unitType": "Civilian",
-		"cost": 450,
+		"cost": 600,
 		"movement": 2,
 		"requiredTech": "Archaeology",
 		"uniques": [
