@@ -2254,6 +2254,18 @@
 		]
 	},
 	{
+		"name": "Observatory",
+		"maintenance": 0,
+		"percentStatBonus": {
+			"science": 50
+		},
+		"requiredBuilding": "Library",
+		"requiredTech": "Astronomy",
+		"uniques": [
+			"Must have an owned [{non-[Natural Wonder]} {Mountain}] within [6] tiles"
+		]
+	},
+	{
 		"name": "Public School",
 		"science": 2,
 		"maintenance": 4,
