@@ -929,7 +929,7 @@
 		"requiredTech": "Nanotechnology",
 		"uniques": [
 			"Comment [Enables construction of Monolith Aliens]",
-			"Must have an owned [Alien Monolith] within [3] tiles"
+			"Must have an owned [Alien Monolith] within [6] tiles"
 		]
 	},
 	{
@@ -1236,7 +1236,7 @@
 		"requiredTech": "Guilds",
 		"uniques": [
 			"[+25]% [Gold] from Trade Routes",
-			"Must have an owned [{non-[Natural Wonder]} {Mountain}] within [3] tiles"
+			"Must have an owned [{non-[Natural Wonder]} {Mountain}] within [6] tiles"
 		],
 		"quote": "'Few romances can ever surpass that of the granite citadel on top of the beetling precipices of Machu Picchu, the crown of Inca Land.' - Hiram Bingham"
 	},
@@ -1429,7 +1429,7 @@
 		},
 		"requiredTech": "Railroads",
 		"uniques": [
-			"Must have an owned [{non-[Natural Wonder]} {Mountain}] within [3] tiles",
+			"Must have an owned [{non-[Natural Wonder]} {Mountain}] within [6] tiles",
 			"[+3 Culture, +1 Gold] from every [Castle]"
 		],
 		"quote": "'...the location is one of the most beautiful to be found, holy and unapproachable, a worthy temple for the divine friend who has brought salvation and true blessing to the world.' - King Ludwig II of Bavaria"
