@@ -2052,8 +2052,8 @@
         "maintenance": 2,
         "requiredTech": "Education",
         "uniques": [
-			"Must have an owned [Forest] within [2] tiles",
-			"Must have an owned [Jungle] within [2] tiles",
+			"Must have an owned [Forest] within [6] tiles",
+			"Must have an owned [Jungle] within [6] tiles",
 			"[+2 Science] from [Wine] tiles [in this city]",
 			"[+2 Science] from [Spices] tiles [in this city]",
 			"All newly-trained [Melee] units [in this city] receive the [Organic Remedies] promotion"
@@ -2440,7 +2440,7 @@
 		"uniques": [
 			"Provides [4] [Power]",
 			"Provides [1] [Power] <if [Electrical Corporation] is constructed>",
-			"Must have an owned [Power Plant] within [4] tiles",
+			"Must have an owned [Power Plant] within [6] tiles",
 			"Destroyed when the city is captured"
 		]
 	},
