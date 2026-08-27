@@ -136,7 +136,7 @@
 		"requiredTech": "Bronze Working",
 		"uniques": [
 			"[+1 Gold] from [Forest] tiles [in this city]",
-			"Must have an owned [Forest] within [2] tiles"
+			"Must have an owned [Forest] within [6] tiles"
 		]
 	},
 	{
@@ -2418,7 +2418,7 @@
 		"uniques": [
 			"Only available <if [AP-World Tour] is constructed>",
 			"[+3 Culture, +1 Gold] from [Concert Venue] tiles [in this city]",
-			"Must have an owned [Concert Venue] within [3] tiles"
+			"Must have an owned [Concert Venue] within [6] tiles"
 		]
 	},
 	{
@@ -2497,7 +2497,7 @@
 			"Only available <if [MP-Branch Companies] is constructed>",
 			"Consumes [1] [Power]",
 			"[+3 Production, +1 Gold] from [Industry] tiles [in this city]",
-			"Must have an owned [Industry] within [3] tiles"
+			"Must have an owned [Industry] within [6] tiles"
 		]
 	},
 	{
