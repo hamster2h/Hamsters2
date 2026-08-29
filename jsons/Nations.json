@@ -1000,7 +1000,7 @@
 		"uniques": [
 			"[+1 Food] from [Farm] tiles [in all cities]",
 			"[+100]% unhappiness from the number of cities",
-			"[-25]% Unhappiness from [Population] [in all cities]",
+			"[-50]% Unhappiness from [Population] [in all cities]",
 			"[+1] Movement <for [Worker] units>"
 		],
 		"cities": [
