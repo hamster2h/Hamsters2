@@ -1568,6 +1568,7 @@
 			"[-100]% maintenance costs",
 			"Nuclear weapon of Strength [4]",
 			"Blast radius [12]",
+			"Cannot be carried by [Nuclear Submarine] units",
 			"Unbuildable",
 			"Can be purchased with [Gold] [in all cities]",
 			"Unavailable <in cities without a [Spaceship Factory]>"
