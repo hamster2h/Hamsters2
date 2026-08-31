@@ -2656,6 +2656,8 @@
 	{
 		"name": "Bomb Shelter",
 		"cost": 200,
+		"cityStrength": 15,
+		"cityHealth": 30,
 		"maintenance": 1,
 		"requiredTech": "Atomic Theory",
 		"uniques": [
