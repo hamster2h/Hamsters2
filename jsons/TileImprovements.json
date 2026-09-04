@@ -469,12 +469,14 @@
 			"Tundra",
 			"Desert"
 		],
-		"gold": 3,
+		"gold": 10,
 		"production": 1,
-		"happiness": 1,
+		"culture": 1,
+		"happiness": 3,
 		"turnsToBuild": 18,
 		"techRequired": "Radio",
 		"uniques": [
+			"Can only be built to improve a resource",
 			"[+1 Food, +1 Gold] <within [2] tiles of a [Water Tower]>",
 			"[+1 Food, +1 Gold] <within [2] tiles of a [Water Tower]> <after adopting [Safety Checks]>",
 			"[+1 Production, +1 Culture] <within [2] tiles of a [Industrial Complex]>",
@@ -486,7 +488,8 @@
 			"[+4 Gold] for each adjacent [Concert Venue]",
 			"[+4 Gold] for each adjacent [Concert Venue] <after adopting [Talent Agencies]>",
 			"[+4 Gold] for each adjacent [Concert Venue] <if [Tourism Agency] is constructed>",
-			"Pillaging this improvement yields approximately [+30 Gold]"
+			"Pillaging this improvement yields approximately [+30 Gold]",
+			"Will not be replaced by automated units"
 		],
 		"shortcutKey": "H"
 	},
