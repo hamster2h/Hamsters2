@@ -2512,8 +2512,8 @@
 		"strength": 19,
 		"cost": 90,
 		"requiredTech": "Iron Working",
-		"upgradesTo": "Musketman",
-		"obsoleteTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
 		"uniques": [
 			"Can build [Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
