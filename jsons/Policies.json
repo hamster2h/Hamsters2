@@ -669,7 +669,7 @@
                 "name": "Militarism",
                 "uniques": [
 					"[Gold] cost of purchasing [Military] units [-20]%",
-					"New [Military] units start with [15] XP [in all cities]",
+					"[+25]% Strength <for [All] units>",
 					"All newly-trained [{non-[Air]} {Military}] units [in all cities] receive the [Ambition] promotion"
 				],
                 "row": 1,
