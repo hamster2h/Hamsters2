@@ -37,8 +37,7 @@
                 "name": "Oligarchy",
                 "uniques": [
 					"[+100]% Production when constructing [Walls] buildings [in all cities]",
-                    "[+50]% Strength for cities <with a garrison> <when attacking>",
-					"[-75]% weight to this choice for AI decisions"
+                    "[+50]% Strength for cities <with a garrison> <when attacking>"
                 ],
                 "row": 1,
                 "column": 5
@@ -134,7 +133,7 @@
                 "uniques": [
                     "[+1 Happiness] [in all cities connected to capital]",
                     "[-5]% Unhappiness from [Population] [in all non-occupied cities]",
-					"[+10]% [Gold] from Trade Routes"
+					"[+15]% [Gold] from Trade Routes"
                 ],
                 "requires": ["Citizenship"],
                 "row": 2,
