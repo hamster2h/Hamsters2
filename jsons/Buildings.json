@@ -2055,7 +2055,7 @@
 			"Must have an owned [Jungle] within [6] tiles",
 			"[+2 Science] from [Wine] tiles [in this city]",
 			"[+2 Science] from [Spices] tiles [in this city]",
-			"All newly-trained [Melee] units [in this city] receive the [Organic Remedies] promotion"
+			"All newly-trained [{Military} {Land}] units [in this city] receive the [Organic Remedies] promotion"
 		]
     },
     {
