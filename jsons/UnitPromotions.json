@@ -16,11 +16,13 @@
 			"[+5] HP when healing <in [Tundra] tiles>"
 		],
 		"unitTypes": [
-			"Melee",
+			"Civilian",
+			"Sword",
 			"Gunpowder",
-			"Mounted",
+			"Archery",
+			"Ranged Gunpowde",
 			"Scout",
-			"Ranged"
+			"Mounted"
 		]
 	},
 	{
