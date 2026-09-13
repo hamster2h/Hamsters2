@@ -937,7 +937,6 @@
 		"obsoleteTech": "Clean Energy",
 		"requiredResource": "Oil",
 		"uniques": [
-			"Cyber",
 			"Consumes [1] [Aluminum]",
 			"[+200]% Strength <vs [Armored] units> <when attacking>"
 		],
@@ -957,7 +956,6 @@
 		"requiredTech": "Clean Energy",
 		"requiredResource": "Oil",
 		"uniques": [
-			"Cyber",
 			"Consumes [1] [Aluminum]",
 			"Consumes [1] [Composites]",
 			"[+200]% Strength <vs [Armored] units> <when attacking>"
@@ -1306,7 +1304,6 @@
 		"requiredTech": "Refrigeration",
 		"requiredResource": "Oil",
 		"uniques": [
-			"Cyber",
 			"[+500]% Strength <when attacking>",
 			"Can carry [6] [Missile] units",
 			"[-1] Sight"
@@ -1323,7 +1320,6 @@
 		"cost": 8000,
 		"requiredTech": "Telecommunications",
 		"uniques": [
-			"Cyber",
 			"Consumes [1] [Uranium] <before discovering [Particle Physics]>",
 			"[+400]% Strength <when attacking>",
 			"Can move after attacking",
@@ -1340,7 +1336,6 @@
 		"requiredTech": "Electronics",
 		"requiredResource": "Oil",
 		"uniques": [
-			"Cyber",
 			"Consumes [2] [Iron]",
 			"Can carry [4] [Aircraft] units",
 			"Never appears as a Barbarian unit"
@@ -1360,7 +1355,6 @@
 		"cost": 7000,
 		"requiredTech": "Nuclear Fission",
 		"uniques": [
-			"Cyber",
 			"Consumes [1] [Uranium] <before discovering [Particle Physics]>",
 			"Consumes [4] [Iron]",
 			"Can carry [8] [Aircraft] units",
