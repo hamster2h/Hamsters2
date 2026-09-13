@@ -1306,6 +1306,7 @@
 		"requiredTech": "Refrigeration",
 		"requiredResource": "Oil",
 		"uniques": [
+			"Cyber",
 			"[+500]% Strength <when attacking>",
 			"Can carry [6] [Missile] units",
 			"[-1] Sight"
@@ -1322,6 +1323,7 @@
 		"cost": 8000,
 		"requiredTech": "Telecommunications",
 		"uniques": [
+			"Cyber",
 			"Consumes [1] [Uranium] <before discovering [Particle Physics]>",
 			"[+400]% Strength <when attacking>",
 			"Can move after attacking",
