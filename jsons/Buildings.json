@@ -2489,13 +2489,16 @@
 	{
 		"name": "Recycling Center",
 		"requiredTech": "Ecology",
-		"cost": 1400,
+		"production": 2,
 		"happiness": -6,
-		"maintenance": 20,
+		"maintenance": 2,
+		"percentStatBonus": {
+			"production": 5,
+		},
 		"uniques": [
-			"Consumes [10] [Power]",
-			"Provides [2] [Aluminum]",
-			"Provides [1] [Oil]"
+			"Consumes [2] [Power]",
+			"Provides [1] [Aluminum]",
+			"Provides [1] [Coal]"
 		]
 	},
 	{
@@ -2597,14 +2600,13 @@
 	},
 	{
 		"name": "Bio Facility",
-		"cost": 1000,
+		"cost": 2000,
 		"percentStatBonus": {
-			"food": 10
+			"food": 25
 		},
 		"uniques": [
 			"Consumes [1] [Power]",
 			"Only available <if [EP-Genetic Engineering] is constructed>",
-			"Provides [1] [Composites]",
 			"Destroyed when the city is captured"
 		]
 	},
@@ -2760,6 +2762,7 @@
 		"uniques": [
 			"Comment [Modern Perk]",
 			"[+1 Gold] from [Strategic resource] tiles [in all cities]",
+			"[+1 Gold] from [Railroad] tiles [in all cities]",
 			"[+2 Science] from [Supply Route] tiles [in all cities]",
 			"Only available <starting from the [Modern era]>",
 			"Consumes [1] [Scientist Perk]",
@@ -2773,7 +2776,7 @@
 		"uniques": [
 			"Comment [Modern Perk]",
 			"[+1 Production] from [Luxury resource] tiles [in all cities]",
-			"[+3 Science] from [Industry] tiles [in all cities]",
+			"[+3 Science, +1 Gold] from [Industry] tiles [in all cities]",
 			"Only available <starting from the [Modern era]>",
 			"Consumes [1] [Scientist Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
@@ -2785,8 +2788,8 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Atomic Perk]",
-			"[+4 Science] from every [Medical Lab]",
 			"[+2 Science] from every [Hospital]",
+			"[+4 Science] from every [Medical Lab]",
 			"Only available <starting from the [Atomic era]>",
 			"Consumes [1] [Scientist Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
@@ -2798,10 +2801,14 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Atomic Perk]",
-			"[+10]% Production when constructing [Aurora Bomber] units [in all cities]",
-			"[+10]% Production when constructing [Nuclear Submarine] units [in all cities]",
+			"[+25]% Production when constructing [Atomic Bomb] units [in all cities]",
 			"[+25]% Production when constructing [Tactical Nuke] units [in all cities]",
 			"[+25]% Production when constructing [Nuclear Missile] units [in all cities]",
+			"[+25]% Production when constructing [Aurora Bomber] units [in all cities]",
+			"[+10]% Production when constructing [Nuclear Submarine] units [in all cities] <before discovering [Particle Physics]>",
+			"[+10]% Production when constructing [Nuclear Carrier] units [in all cities] <before discovering [Particle Physics]>",
+			"[+10]% Production when constructing [Giant Death Robot] units [in all cities] <before discovering [Particle Physics]>",
+			"[+25]% Production when constructing [Nuclear Plant] units [in all cities] <before discovering [Particle Physics]>",
 			"[Gold] cost of purchasing [Missile] units [-10]%",
 			"[Gold] cost of purchasing [Big Missile] units [-10]%",
 			"Only available <starting from the [Atomic era]>",
@@ -2859,7 +2866,7 @@
 			"Comment [Future Perk]",
 			"Comment [Enables construction of [Energy Reactor] and [Energy Barrier]]",
 			"Only available <starting from the [Future era]>",
-			"Consumes [1] [Scientist Perk]",
+			"Consumes [2] [Scientist Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
 	},
@@ -2869,8 +2876,8 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Industrial Perk]",
-			"[+100]% Production when constructing [Archaeologist] units [in all cities]",
-			"[Gold] cost of purchasing [Archaeologist] units [-25]%",
+			"[+25]% Production when constructing [Archaeologist] units [in all cities]",
+			"[Gold] cost of purchasing [Archaeologist] units [-10]%",
 			"[+1 Culture] from every [Wonder]",
 			"[+4 Culture] from every [Museum]",
 			"Only available <starting from the [Industrial era]>",
@@ -2900,7 +2907,7 @@
 			"Comment [Enables construction of History Museum]",
 			"Provides [1] [Fossil]",
 			"Only available <starting from the [Modern era]>",
-			"Consumes [2] [Artist Perk]",
+			"Consumes [1] [Artist Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
 	},
@@ -2910,9 +2917,10 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Modern Perk]",
-			"[+10]% Production when constructing [Musician] units [in all cities]",
+			"[+25]% Production when constructing [Musician] units [in all cities]",
 			"[Gold] cost of purchasing [Musician] units [-10]%",
-			"[+2 Culture] from every [Public School]",
+			"[+1 Culture] from every [Public School]",
+			"[+2 Culture] from every [Opera House]",
 			"Only available <starting from the [Modern era]>",
 			"Consumes [1] [Artist Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
@@ -2962,7 +2970,7 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Information Perk]",
-			"[+1 Happiness, +2 Gold] from [Concert Venue] tiles [in all cities]",
+			"[+1 Happiness, +2 Gold, +2 Culture] from [Concert Venue] tiles [in all cities]",
 			"[+2 Faith, +1 Happiness] from all [Culture] buildings",
 			"[10]% of excess happiness converted to [Culture]",
 			"Only available <starting from the [Information era]>",
@@ -3016,6 +3024,7 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Industrial Perk]",
+			"[+2 Production] [in all cities]",
 			"Gain a free [Free Iron] [in all cities]",
 			"Only available <starting from the [Industrial era]>",
 			"Consumes [2] [Engineer Perk]",
@@ -3042,6 +3051,7 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Modern Perk]",
+			"[+2 Production] [in all cities]",
 			"Gain a free [Free Oil] [in all cities]",
 			"Only available <starting from the [Modern era]>",
 			"Consumes [2] [Engineer Perk]",
@@ -3054,7 +3064,8 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Atomic Perk]",
-			"[+6 Happiness, +2 Gold] from every [Recycling Center]",
+			"[+4 Happiness, +2 Gold] from every [Recycling Center]",
+			"[+5]% [Production] from every [Recycling Center]",
 			"Only available <starting from the [Atomic era]>",
 			"Consumes [1] [Engineer Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
@@ -3066,10 +3077,9 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Atomic Perk]",
-			"[+25]% Production when constructing [All] wonders [in all cities] <during the [Atomic era]>",
-			"[+50]% Production when constructing [Architect] units [in all cities] <during the [Atomic era]>",
-			"[Gold] cost of purchasing items in cities [-10]% <during the [Atomic era]>",
-			"Only available <during the [Atomic era]>",
+			"[+10]% growth [in all cities]",
+			"[+4 Production] [in all cities]",
+			"Only available <starting from the [Atomic era]>",
 			"Consumes [1] [Engineer Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
@@ -3083,7 +3093,6 @@
 			"[+1] Sight <for [Cyber] units>",
 			"[+25]% XP gained from combat <for [Cyber] units>",
 			"[+10]% Strength <for [Cyber] units>",
-			"Provides [2] [Aluminum]",
 			"Only available <starting from the [Information era]>",
 			"Consumes [1] [Engineer Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
@@ -3095,6 +3104,7 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Information Perk]",
+			"[+2 Production] [in all cities]",
 			"Gain a free [Free Power] [in all cities]",
 			"Only available <starting from the [Information era]>",
 			"Consumes [2] [Engineer Perk]",
@@ -3108,9 +3118,9 @@
 		"uniques": [
 			"Comment [Future Perk]",
 			"Comment [Enables construction of [Bio Facility]]",
-			"[+10]% [Food] [in all cities]",
+			"[+5]% [Gold] [in all cities]",
 			"Only available <starting from the [Future era]>",
-			"Consumes [1] [Engineer Perk]",
+			"Consumes [2] [Engineer Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
 	},
@@ -3123,7 +3133,7 @@
 			"Comment [Enables construction of [Composite Factory]]",
 			"[+10]% [Production] [in all cities]",
 			"Only available <starting from the [Future era]>",
-			"Consumes [1] [Engineer Perk]",
+			"Consumes [2] [Engineer Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
 	},
@@ -3133,7 +3143,7 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Industrial Perk]",
-			"[+50]% Production when constructing [Settler] units [in all cities]",
+			"[+25]% [Production] [in all cities] <in cities with less than [12] [Population]>",
 			"[Gold] cost of purchasing [Settler] units [-25]%",
 			"[-25]% Gold cost of acquiring tiles [in all cities]",
 			"Only available <during the [Industrial era]>",
@@ -3150,7 +3160,7 @@
 			"[+2 Gold, +2 Science] from each Trade Route",
 			"[+1] Movement <for [Civilian] units>",
 			"Only available <starting from the [Industrial era]>",
-			"Consumes [1] [Merchant Perk]",
+			"Consumes [2] [Merchant Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		],
 		"greatPersonPoints": {
@@ -3218,6 +3228,7 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Information Perk]",
+			"[+25]% [Science] [in all cities] <when at war>",
 			"[+5]% [Gold] from every [Entrepeneur Venue]",
 			"[+5]% [Gold] from every [Stock Exchange]",
 			"Only available <starting from the [Information era]>",
