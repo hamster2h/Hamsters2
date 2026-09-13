@@ -136,6 +136,7 @@
             "[+4] Sight",
             "Can see over obstacles",
             "Can perform Air Sweep",
+			"May heal outside of friendly territory",
 			"Cannot intercept [Missile] units",
 			"Cannot intercept [Big Missile] units",
 			"[1] additional attacks per turn <when stacked with a [Aircraft Carrier] unit>",
@@ -147,6 +148,7 @@
         "movementType": "Air",
         "uniques": [
             "Aircraft",
+			"May heal outside of friendly territory",
 			"Can only be built <in cities with a [Factory]>"
         ]
     },
