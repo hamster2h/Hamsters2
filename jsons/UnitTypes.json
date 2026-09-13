@@ -123,6 +123,7 @@
         "name": "Aircraft Carrier",
         "movementType": "Water",
         "uniques": [
+			"Cyber",
 			"May enter foreign tiles without open borders",
 			"Can only be built <in cities with a [Shipyard]>"
 		]
