@@ -2058,6 +2058,15 @@
 			"All newly-trained [relevant] units [in this city] receive the [Organic Remedies] promotion"
 		]
     },
+	{
+		"name": "Water Mill",
+		"maintenance": 2,
+		"requiredTech": "The Wheel",
+		"uniques": [
+			"Must be on [River]",
+			"[+1 Food, +1 Production] from [River] tiles [in this city]"
+		]
+	},
     {
         "name": "Warehouses",
         "cost": 100,
