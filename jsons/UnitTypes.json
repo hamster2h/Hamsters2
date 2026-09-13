@@ -107,6 +107,7 @@
         "name": "Submarine",
         "movementType": "Water",
         "uniques": [
+			"Cyber",
             "Can enter ice tiles",
             "Ignores Zone of Control",
             "Invisible to others",
@@ -152,6 +153,7 @@
         "name": "Missile",
         "movementType": "Air",
         "uniques": [
+			"Cyber",
 			"Self-destructs when attacking",
 			"Can only be built <in cities with a [Factory]>"
 		]
@@ -160,6 +162,7 @@
         "name": "Big Missile",
         "movementType": "Air",
         "uniques": [
+			"Cyber",
             "Self-destructs when attacking",
 			"Can only be built <in cities with a [Factory]>"
         ]
@@ -168,6 +171,7 @@
         "name": "Helicopter",
         "movementType": "Land",
         "uniques": [
+			"Cyber",
             "[+33]% Strength <vs [Air] units> <when adjacent to a [Anti-Air] unit>",
 			"Can pass through impassable tiles",
 			"No defensive terrain bonus",
