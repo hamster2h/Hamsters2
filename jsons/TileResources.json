@@ -718,8 +718,7 @@
         "resourceType": "Strategic",
         "uniques": [
 			"Cannot be traded",
-			"Stockpiled",
-			"Not shown on world screen"
+			"Stockpiled"
 		]
     },
 	{
