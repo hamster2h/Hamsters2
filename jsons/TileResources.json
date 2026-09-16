@@ -667,7 +667,11 @@
 	{
 		"name": "Corporation Slot",
 		"resourceType": "Strategic",
-		"revealedBy": "Corporations"
+		"revealedBy": "Corporations",
+		"uniques": [
+			"Cannot be traded",
+			"Not shown on world screen"
+		]
 	},
 	{
 		"name": "Electrical Stock",
