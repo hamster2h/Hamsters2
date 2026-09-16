@@ -24,7 +24,8 @@
         "[-1 Happiness] per [3] population [in all cities] <when at war>",
 		"[-1 Happiness] per [6] population [in all cities] <when number of [[Cities] / 4] is more than [[{Military} {Land}] Units]>",
 		"[-1 Happiness] per [6] population [in all cities] <when number of [[Cities] / 4] is more than [[{Military} {Land}] Units]> <when at war>",
-
+		"[-1 Happiness] per [2] population [in all cities] <when below [0] [Gold]>",
+		
         "[+1]% Strength <for [All] units> <for every [Future Discovery]>",
 		"[+1]% Strength for cities <for every [Future Discovery]>",
         "[+5] HP when healing <in [Fort] tiles> <for [All] units>",
