@@ -1053,7 +1053,7 @@
 				"name": "Discovery",
 				"uniques": [
 					"[+1 Gold, +2 Science, +2 Faith] from all [Science] buildings",
-					"Instantly provides [4] [Future Discovery]"
+					"Instantly provides [10] [Future Discovery]"
 				],
 				"requires": [
 					"Joint Projects"
