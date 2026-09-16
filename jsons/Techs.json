@@ -912,7 +912,8 @@
 				"uniques": [
 					"Comment [Go beyond the Future]",
 					"Can be continually researched",
-					"Instantly provides [1] [Future Discovery]"
+					//"Instantly provides [1] [Future Discovery]"
+					"Set [Future Discovery] to [0]"
 				],
 				"quote": "'But to understand the future. We have to go back in time' - Pitbull"
 			}
