@@ -555,9 +555,9 @@
 		"requiredTech": "Rocketry",
 		"upgradesTo": "Hovertillery",
 		"obsoleteTech": "Terraforming",
-		"requiredResource": "Oil",
 		"uniques": [
 			"Cyber",
+			"Consumes [1] [Oil] <before discovering [Particle Physics]>",
 			"[+200]% Strength <vs cities> <when attacking>",
 			"[+1] Range <after discovering [Advanced Ballistics]>",
 			"No defensive terrain bonus",
@@ -578,9 +578,9 @@
 		"rangedStrength": 75,
 		"cost": 6000,
 		"requiredTech": "Terraforming",
-		"requiredResource": "Oil",
 		"uniques": [
 			"Cyber",
+			"Consumes [1] [Oil] <before discovering [Particle Physics]>",
 			"Consumes [1] [Composites]",
 			"[+200]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
@@ -627,10 +627,10 @@
 		"requiredTech": "Rocketry",
 		"upgradesTo": "Hover-SAM",
 		"obsoleteTech": "Terraforming",
-		"requiredResource": "Oil",
 		"uniques": [
 			"Cyber",
 			"Anti-Air",
+			"Consumes [1] [Oil] <before discovering [Particle Physics]>",
 			"Can carry [1] [AM Missiles] units",
 			"Comment [+33% Strength to adjacent Land Units vs Air Units]",
 			"[90]% chance to intercept air attacks",
@@ -652,10 +652,10 @@
 		"range": 4,
 		"cost": 8000,
 		"requiredTech": "Terraforming",
-		"requiredResource": "Oil",
 		"uniques": [
 			"Cyber",
 			"Anti-Air",
+			"Consumes [1] [Oil] <before discovering [Particle Physics]>",
 			"Consumes [1] [Composites]",
 			"Can carry [1] [AM Missiles] units",
 			"Comment [+33% Strength to adjacent Land Units vs Air Units]",
@@ -935,8 +935,8 @@
 		"requiredTech": "Computers",
 		"upgradesTo": "Stealth Helicopter",
 		"obsoleteTech": "Clean Energy",
-		"requiredResource": "Oil",
 		"uniques": [
+			"Consumes [1] [Oil] <before discovering [Particle Physics]>",
 			"Consumes [1] [Aluminum]",
 			"[+200]% Strength <vs [Armored] units> <when attacking>"
 		],
@@ -954,8 +954,8 @@
 		"range": 4,
 		"cost": 12000,
 		"requiredTech": "Clean Energy",
-		"requiredResource": "Oil",
 		"uniques": [
+			"Consumes [1] [Oil] <before discovering [Particle Physics]>",
 			"Consumes [1] [Aluminum]",
 			"Consumes [1] [Composites]",
 			"[+200]% Strength <vs [Armored] units> <when attacking>"
@@ -1109,8 +1109,8 @@
 		"requiredTech": "Combustion",
 		"upgradesTo": "Missile Cruiser",
 		"obsoleteTech": "Robotics",
-		"requiredResource": "Oil",
 		"uniques": [
+			"Consumes [1] [Oil] <before discovering [Particle Physics]>",
 			"Consumes [1] [Iron]",
 			"[40]% chance to intercept air attacks <after discovering [Ballistics]>",
 			"Withdraws before melee combat <with [60]% chance>",
@@ -1202,8 +1202,8 @@
 		"cost": 8000,
 		"requiredTech": "Electronics",
 		"upgradesTo": "Missile Cruiser",
-		"requiredResource": "Oil",
 		"uniques": [
+			"Consumes [1] [Oil] <before discovering [Particle Physics]>",
 			"Consumes [2] [Iron]",
 			"Can carry [2] [Missile] units",
 			"Can carry [2] extra [Missile] units <after adopting [Order]>",
@@ -1231,9 +1231,9 @@
 		"interceptRange": 4,
 		"cost": 14000,
 		"requiredTech": "Robotics",
-		"requiredResource": "Oil",
 		"uniques": [
 			"Cyber",
+			"Consumes [1] [Oil] <before discovering [Particle Physics]>",
 			"Consumes [2] [Aluminum]",
 			"[+2] Sight",
 			"Can carry [8] [Missile] units",
@@ -1302,8 +1302,8 @@
 		"range": 3,
 		"cost": 3300,
 		"requiredTech": "Refrigeration",
-		"requiredResource": "Oil",
 		"uniques": [
+			"Consumes [1] [Oil] <before discovering [Particle Physics]>",
 			"[+500]% Strength <when attacking>",
 			"Can carry [6] [Missile] units",
 			"[-1] Sight"
@@ -1334,8 +1334,8 @@
 		"strength": 60,
 		"cost": 5000,
 		"requiredTech": "Electronics",
-		"requiredResource": "Oil",
 		"uniques": [
+			"Consumes [1] [Oil] <before discovering [Particle Physics]>",
 			"Consumes [2] [Iron]",
 			"Can carry [4] [Aircraft] units",
 			"Never appears as a Barbarian unit"
@@ -1649,9 +1649,9 @@
 		"range": 15,
 		"cost": 9000,
 		"requiredTech": "Stealth",
-		"requiredResource": "Oil",
 		"uniques": [
 			"Cyber",
+			"Consumes [1] [Oil] <before discovering [Particle Physics]>",
 			"Consumes [2] [Aluminum]",
 			"[+50]% Strength <vs [Land] units>",
 			"Cannot be carried by [Carrier] units"
@@ -1691,9 +1691,9 @@
 		"range": 20,
 		"cost": 25000,
 		"requiredTech": "World Alliance",
-		"requiredResource": "Oil",
 		"uniques": [
 			"Cyber",
+			"Consumes [1] [Oil] <before discovering [Particle Physics]>",
 			"Consumes [1] [Uranium]",
 			"Consumes [6] [Composites]",
 			"Nuclear weapon of Strength [1]",
@@ -1828,9 +1828,9 @@
 		"requiredTech": "Stealth",
 		"upgradesTo": "Hypersonic Fighter",
 		"obsoleteTech": "Spaceflight",
-		"requiredResource": "Oil",
 		"uniques": [
 			"Cyber",
+			"Consumes [1] [Oil] <before discovering [Particle Physics]>",
 			"Consumes [1] [Aluminum]",
 			"[98]% chance to intercept air attacks",
 			"[+100]% Strength <vs [Fighter] units>",
@@ -1854,9 +1854,9 @@
 		"requiredTech": "Spaceflight",
 		"upgradesTo": "Raven Fighter",
 		"obsoleteTech": "Particle Physics",
-		"requiredResource": "Oil",
 		"uniques": [
 			"Cyber",
+			"Consumes [1] [Oil] <before discovering [Particle Physics]>",
 			"Consumes [2] [Composites]",
 			"[98]% chance to intercept air attacks",
 			"[+150]% Strength <vs [Fighter] units>",
@@ -2364,7 +2364,7 @@
 		"requiredResource": "Iron",
 		"uniques": [
 			"Cyber",
-			"Consumes [1] [Oil]",
+			"Consumes [1] [Oil] <before discovering [Particle Physics]>",
 			"[+50]% Strength <vs [Land] units>",
 			"[+50]% Strength <vs [Armored] units> <when attacking>",
 			"Never appears as a Barbarian unit"
@@ -2388,7 +2388,7 @@
 		"requiredResource": "Composites",
 		"uniques": [
 			"Cyber",
-			"Consumes [1] [Oil]",
+			"Consumes [1] [Oil] <before discovering [Particle Physics]>",
 			"[+50]% Strength <vs [Land] units>",
 			"[+50]% Strength <vs [Armored] units> <when attacking>",
 			"Never appears as a Barbarian unit"
@@ -2930,9 +2930,9 @@
 		"cost": 3000,
 		"requiredTech": "Mobile Tactics",
 		"upgradesTo": "Energy Infantry - SPECTRE",
-		"requiredResource": "Oil",
 		"uniques": [
 			"Cyber",
+			"Consumes [1] [Oil] <before discovering [Particle Physics]>",
 			"Can only be built <in cities with a [Factory]>"
 		],
 		"promotions": [
