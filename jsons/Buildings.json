@@ -1806,6 +1806,18 @@
 		],
 		"requiredTech": "Metal Casting"
 	},
+	{
+		"name": "Windmill",
+		"production": 2,
+		"maintenance": 2,
+		"specialistSlots": {
+			"Engineer": 1
+		},
+		"requiredTech": "Economics",
+		"uniques": [
+			"[+10]% Production when constructing [All] buildings [in this city]"
+		]
+	},
     {
         "name": "Foundry",
         "cost": 200,
