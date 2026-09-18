@@ -2317,7 +2317,7 @@
 	{
 		"name": "Research City",
 		"cost": 1200,
-		"maintenance": 200,
+		"maintenance": 20,
 		"percentStatBonus": {
 			"science": 100,
 			"production": -50,
