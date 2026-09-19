@@ -200,7 +200,6 @@
 		"strength": 5,
 		"cost": 15,
 		"upgradesTo": "Recon",
-		"obsoleteTech": "Rifling",
 		"uniques": [
 			"Ignores Zone of Control",
 			"[-90]% maintenance costs",
