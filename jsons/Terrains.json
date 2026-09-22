@@ -795,6 +795,7 @@
         "uniques": [
             "Must be adjacent to [0] [Water] tiles",
             "Must be adjacent to [4] to [6] [Elevated] tiles",
+			"Grants [Heroism] ([increased strenght]) to adjacent [{Military} {Land}] units for the rest of the game",
 			"Tile provides yield without assigned population"
         ],
         "turnsInto": "Mountain",
