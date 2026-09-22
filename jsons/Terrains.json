@@ -773,11 +773,9 @@
 			"Grassland"
 		],
         "uniques": [
-            "Must be adjacent to [0] [Water] tiles",
             "Must be adjacent to [0] [Desert] tiles",
             "Must be adjacent to [0] [Tundra] tiles",
             "Must be adjacent to [0] [Snow] tiles",
-            "Neighboring tiles will convert to [Grassland] <in tiles without [Grassland]>",
             "Fresh water",
 			"Tile provides yield without assigned population"
         ],
