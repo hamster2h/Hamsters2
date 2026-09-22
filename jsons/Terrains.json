@@ -740,8 +740,8 @@
     {
         "name": "Garden of Hesperides",
         "type": "NaturalWonder",
-        "gold": 4,
-        "happiness": 2,
+        "gold": 8,
+        "happiness": 4,
         "occursOn": [
 			"Plains",
 			"Grassland"
@@ -763,8 +763,8 @@
     {
         "name": "Heavenly Peach Garden",
         "type": "NaturalWonder",
-        "culture": 4,
-        "happiness": 2,
+        "culture": 8,
+        "happiness": 4,
         "occursOn": [
 			"Plains",
 			"Grassland"
