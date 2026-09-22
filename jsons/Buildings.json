@@ -932,24 +932,6 @@
 		]
 	},
 	{
-        "name": "Shrine of Eden",
-		"isNationalWonder": true,
-		"cost": 125,
-        "uniques": [
-			"Must have an owned [Garden of Eden] within [6] tiles",
-            "[+2 Science] from [Plantation] tiles [in this city]"
-        ],
-    },
-    {
-        "name": "Shrine of Hesperides",
-		"isNationalWonder": true,
-		"cost": 125,
-        "uniques": [
-			"Must have an owned [Garden of Hesperides] within [6] tiles",
-            "Provides [1] [Golden Apple]"
-        ],
-    }
-	{
 		"name": "Time Machine Blueprints",
 		"isNationalWonder": true,
 		"cost": 32000,
