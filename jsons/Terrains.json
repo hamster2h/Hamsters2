@@ -715,8 +715,9 @@
     {
         "name": "Garden of Eden",
         "type": "NaturalWonder",
-        "faith": 2,
-        "culture": 2,
+		"food": 2,
+        "faith": 4,
+        "happiness": 8,
         "overrideStats": true,
         "occursOn": [
 			"Plains",
