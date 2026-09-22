@@ -718,7 +718,6 @@
 		"food": 2,
         "faith": 4,
         "happiness": 8,
-        "overrideStats": true,
         "occursOn": [
 			"Plains",
 			"Grassland"
@@ -741,7 +740,6 @@
         "type": "NaturalWonder",
         "gold": 4,
         "happiness": 2,
-        "overrideStats": true,
         "occursOn": [
 			"Plains",
 			"Grassland"
