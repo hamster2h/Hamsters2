@@ -932,6 +932,20 @@
 		]
 	},
 	{
+        "name": "Shrine of Hesperides",
+		"isNationalWonder": true,
+        "cost": 250,
+		"food": 2,
+		"culture": 4,
+		"percentStatBonus": {
+			"happiness": 25
+		},
+        "uniques": [
+			"Must have an owned [Garden of Hesperides] within [6] tiles",
+            "Provides [4] [Golden Apple]"
+        ],
+    }
+	{
 		"name": "Time Machine Blueprints",
 		"isNationalWonder": true,
 		"cost": 32000,
