@@ -705,7 +705,8 @@
         "uniques": [
             "Must be adjacent to [1] to [3] [Coast] tiles",
             "Must be adjacent to [6] [Water] tiles",
-            "Must be adjacent to [0] [Ice] tiles"
+            "Must be adjacent to [0] [Ice] tiles",
+			"Tile provides yield without assigned population"
         ],
         "turnsInto": "Ocean",
         "impassable": true,
@@ -728,7 +729,8 @@
             "Must be adjacent to [1] to [3] [Elevated] tiles",
             "Must be adjacent to [1] to [3] [Forest] tiles",
             "Occurs on latitudes from [0] to [30] percent of distance equator to pole",
-            "Fresh water"
+            "Fresh water",
+			"Tile provides yield without assigned population"
         ],
         "turnsInto": "Grassland",
         "impassable": true,
@@ -750,7 +752,8 @@
             "Must be adjacent to [1] to [3] [Elevated] tiles",
             "Must be adjacent to [1] to [3] [Forest] tiles",
             "Occurs on latitudes from [20] to [60] percent of distance equator to pole",
-            "Fresh water"
+            "Fresh water",
+			"Tile provides yield without assigned population"
         ],
         "turnsInto": "Grassland",
         "impassable": true,
@@ -770,7 +773,8 @@
             "Must be adjacent to [0] [Water] tiles",
             "Must be adjacent to [0] [Desert] tiles",
             "Neighboring tiles will convert to [Grassland] <in tiles without [Grassland]>",
-            "Fresh water"
+            "Fresh water",
+			"Tile provides yield without assigned population"
         ],
         "turnsInto": "Grassland",
         "impassable": true,
@@ -788,7 +792,8 @@
 		],
         "uniques": [
             "Must be adjacent to [0] [Water] tiles",
-            "Must be adjacent to [4] to [6] [Elevated] tiles"
+            "Must be adjacent to [4] to [6] [Elevated] tiles",
+			"Tile provides yield without assigned population"
         ],
         "turnsInto": "Mountain",
         "impassable": true,
@@ -807,7 +812,8 @@
 			"Must be adjacent to [0] [Desert] tiles",
             "Must be adjacent to [0] [Tundra] tiles",
             "Must be adjacent to [0] [Snow] tiles",
-            "Must be adjacent to [2] to [6] [Forest] tiles"
+            "Must be adjacent to [2] to [6] [Forest] tiles",
+			"Tile provides yield without assigned population"
         ],
         "turnsInto": "Grassland",
         "impassable": true,
