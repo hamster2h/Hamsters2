@@ -470,6 +470,7 @@
 			"Fresh water",
 			"Blocks line-of-sight from tiles at same elevation",
 			"Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [2] to [6] [Grassland] tiles",
 			"Grants [Rejuvenation] ([all healing effects doubled]) to adjacent [{Military} {Land}] units for the rest of the game",
 			"Tile provides yield without assigned population"
 		],
