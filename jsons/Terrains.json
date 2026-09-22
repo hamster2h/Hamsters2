@@ -698,7 +698,7 @@
         "type": "NaturalWonder",
         "culture": 2,
         "gold": 2,
-        "science": 2,
+        "science": 12,
         "occursOn": [
 			"Ocean"
 		],
