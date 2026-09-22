@@ -384,7 +384,7 @@
 		"turnsInto": "Desert",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 3
+		"weight": 1
 	},
 	{
 		"name": "Great Barrier Reef",
@@ -464,8 +464,7 @@
 		"happiness": 10,
 		"gold": 4,
 		"occursOn": [
-			"Grassland",
-			"Plains"
+			"Grassland"
 		],
 		"uniques": [
 			"Fresh water",
@@ -713,7 +712,7 @@
         "turnsInto": "Ocean",
         "impassable": true,
         "unbuildable": true,
-        "weight": 10
+        "weight": 2
     },
     {
         "name": "Garden of Eden",
@@ -736,7 +735,7 @@
         "turnsInto": "Grassland",
         "impassable": true,
         "unbuildable": true,
-        "weight": 10
+        "weight": 1
     },
     {
         "name": "Garden of Hesperides",
@@ -758,7 +757,7 @@
         "turnsInto": "Grassland",
         "impassable": true,
         "unbuildable": true,
-        "weight": 10
+        "weight": 3
     },
     {
         "name": "Heavenly Peach Garden",
@@ -779,7 +778,7 @@
         "turnsInto": "Grassland",
         "impassable": true,
         "unbuildable": true,
-        "weight": 10
+        "weight": 3
     },
     {
         "name": "Mount Olympus",
@@ -799,7 +798,7 @@
         "turnsInto": "Mountain",
         "impassable": true,
         "unbuildable": true,
-        "weight": 10
+        "weight": 3
     },
     {
         "name": "Yggdrasil",
@@ -818,6 +817,6 @@
         "turnsInto": "Grassland",
         "impassable": true,
         "unbuildable": true,
-        "weight": 10
+        "weight": 1
     }
 ]
