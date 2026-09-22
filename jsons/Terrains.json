@@ -722,7 +722,6 @@
         "faith": 4,
         "happiness": 8,
         "occursOn": [
-			"Plains",
 			"Grassland"
 		],
         "uniques": [
@@ -745,7 +744,6 @@
         "gold": 8,
         "happiness": 4,
         "occursOn": [
-			"Plains",
 			"Grassland"
 		],
         "uniques": [
@@ -769,7 +767,6 @@
 		"culture": 6,
 		"happiness": 4,
         "occursOn": [
-			"Plains",
 			"Grassland"
 		],
         "uniques": [
@@ -809,7 +806,6 @@
         "type": "NaturalWonder",
         "food": 12,
         "occursOn": [
-			"Plains",
 			"Grassland"
 		],
         "uniques": [
