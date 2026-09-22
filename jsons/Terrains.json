@@ -763,7 +763,6 @@
         "type": "NaturalWonder",
         "culture": 4,
         "happiness": 2,
-        "overrideStats": true,
         "occursOn": [
 			"Plains",
 			"Grassland"
@@ -783,7 +782,6 @@
         "name": "Mount Olympus",
         "type": "NaturalWonder",
         "faith": 6,
-        "overrideStats": true,
         "occursOn": [
 			"Plains",
 			"Grassland"
@@ -800,16 +798,15 @@
     {
         "name": "Yggdrasil",
         "type": "NaturalWonder",
-        "faith": 2,
-        "culture": 2,
-        "happiness": 2,
+        "food": 12,
         "occursOn": [
 			"Plains",
 			"Grassland"
 		],
         "uniques": [
-            "Must be adjacent to [0] [Water] tiles",
-            "Must be adjacent to [0] [Desert] tiles",
+			"Must be adjacent to [0] [Desert] tiles",
+            "Must be adjacent to [0] [Tundra] tiles",
+            "Must be adjacent to [0] [Snow] tiles",
             "Must be adjacent to [2] to [6] [Forest] tiles",
             "Grants [Sentry] ([[+1] Sight]) to adjacent [{Military} {Land}] units for the rest of the game"
         ],
