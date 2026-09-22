@@ -766,8 +766,8 @@
         "name": "Heavenly Peach Garden",
         "type": "NaturalWonder",
         "culture": 6,
-		"food": 4,
-        "happiness": 4,
+		"happiness": 4,
+		"food": 2,
         "occursOn": [
 			"Plains",
 			"Grassland"
