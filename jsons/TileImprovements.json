@@ -113,6 +113,7 @@
 			"[+1 Food, +1 Gold] <within [2] tiles of a [Residential]> <after adopting [Safety Checks]>",
 			"[+1 Happiness, +1 Production] <within [2] tiles of a [Citadel]>",
 			"[+1 Happiness, +1 Production] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
+			"[+3 Food, +1 Gold] <within [2] tiles of a [Heavenly Peach Garden]>",
 			"Pillaging this improvement yields approximately [+18 Gold]"
 		],
 		"shortcutKey": "F"
@@ -869,6 +870,7 @@
 			"[+1 Food, +1 Gold] <within [2] tiles of a [Residential]> <after adopting [Safety Checks]>",
 			"[+1 Happiness, +1 Food] <within [2] tiles of a [Citadel]>",
 			"[+1 Happiness, +1 Food] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
+			"[+3 Food, +1 Gold] <within [2] tiles of a [Heavenly Peach Garden]>",
 			"Pillaging this improvement yields approximately [+36 Gold]"
 		],
 		"techRequired": "Construction",
@@ -895,6 +897,7 @@
 			"[+2 Gold] <within [2] tiles of a [Residential]> <after adopting [Safety Checks]>",
 			"[+1 Food, +1 Gold] <within [2] tiles of a [Citadel]>",
 			"[+1 Food, +1 Gold] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
+			"[+3 Food, +1 Gold] <within [2] tiles of a [Heavenly Peach Garden]>",
 			"Pillaging this improvement yields approximately [+36 Gold]"
 		],
 		"techRequired": "Guilds",
