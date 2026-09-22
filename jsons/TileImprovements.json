@@ -179,6 +179,7 @@
 			"[+2 Gold] <within [2] tiles of a [Residential]> <after adopting [Safety Checks]>",
 			"[+1 Happiness, +1 Gold] <within [2] tiles of a [Citadel]>",
 			"[+1 Happiness, +1 Gold] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
+			"[+3 Science, +1 Food] <within [2] tiles of a [Garden of Eden]>",
 			"Will not be replaced by automated units"
 		],
 		"shortcutKey": "P"
