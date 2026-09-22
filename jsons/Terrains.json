@@ -709,7 +709,7 @@
             "Must be adjacent to [1] to [3] [Coast] tiles",
             "Must be adjacent to [6] [Water] tiles",
             "Must be adjacent to [0] [Ice] tiles",
-			"Grants [+500 Culture] to the first civilization to discover it",
+			"Grants [+150 Culture] to the first civilization to discover it",
 			"Tile provides yield without assigned population"
         ],
         "turnsInto": "Ocean",
