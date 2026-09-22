@@ -377,13 +377,13 @@
 			"Desert",
 			"Plains"
 		],
-		"turnsInto": "Desert",
-		"impassable": true,
-		"unbuildable": true,
 		"uniques": [
 			"Must be adjacent to [1] to [5] [Desert] tiles",
 			"Tile provides yield without assigned population"
 		],
+		"turnsInto": "Desert",
+		"impassable": true,
+		"unbuildable": true,
 		"weight": 3
 	},
 	{
@@ -439,14 +439,10 @@
 		"type": "NaturalWonder",
 		"culture": 4,
 		"gold": 10,
-		"overrideStats": true,
 		"occursOn": [
 			"Grassland",
 			"Plains"
 		],
-		"turnsInto": "Grassland",
-		"impassable": true,
-		"unbuildable": true,
 		"uniques": [
 			"Blocks line-of-sight from tiles at same elevation",
 			"Must be adjacent to [0] [Coast] tiles",
@@ -457,6 +453,9 @@
 			"Grants [+500 Gold] to the first civilization to discover it",
 			"Tile provides yield without assigned population"
 		],
+		"turnsInto": "Grassland",
+		"impassable": true,
+		"unbuildable": true,
 		"weight": 2
 	},
 	{
@@ -464,14 +463,10 @@
 		"type": "NaturalWonder",
 		"happiness": 10,
 		"gold": 4,
-		"overrideStats": true,
 		"occursOn": [
 			"Grassland",
 			"Plains"
 		],
-		"turnsInto": "Grassland",
-		"impassable": true,
-		"unbuildable": true,
 		"uniques": [
 			"Fresh water",
 			"Blocks line-of-sight from tiles at same elevation",
@@ -479,6 +474,9 @@
 			"Grants [Rejuvenation] ([all healing effects doubled]) to adjacent [{Military} {Land}] units for the rest of the game",
 			"Tile provides yield without assigned population"
 		],
+		"turnsInto": "Grassland",
+		"impassable": true,
+		"unbuildable": true,
 		"weight": 1
 	},
 	{
@@ -597,9 +595,6 @@
 			"Tundra",
 			"Plains"
 		],
-		"turnsInto": "Desert",
-		"impassable": true,
-		"unbuildable": true,
 		"uniques": [
 			"Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [0] [Grassland] tiles",
@@ -607,6 +602,9 @@
 			"Must be adjacent to [0] to [4] [Elevated] tiles",
 			"Tile provides yield without assigned population"
 		],
+		"turnsInto": "Desert",
+		"impassable": true,
+		"unbuildable": true,
 		"weight": 10
 	},
 	{
