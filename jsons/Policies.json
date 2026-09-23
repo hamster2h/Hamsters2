@@ -328,7 +328,6 @@
         "uniques": [
 			"[+1 Culture] from all [Culture] buildings",
             "[-25]% City-State Influence degradation",
-			"[Great Artist] is earned [25]% faster",
 			"Free [Archaeologist] appears"
         ],
         "policies": [
@@ -355,7 +354,7 @@
                 "name": "Scholasticism",
                 "uniques": [
                     "Allied City-States provide [Science] equal to [75]% of what they produce for themselves",
-					"[+50]% Production when constructing [Science] buildings [in all cities]",
+					"[+25]% Production when constructing [Science] buildings [in all cities]",
 					"[+2 Science] from all [Faith] buildings"
                 ],
                 "requires": ["Philantropy"],
