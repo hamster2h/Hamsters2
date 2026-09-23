@@ -344,8 +344,8 @@
             {
                 "name": "Aesthetics",
                 "uniques": [
-					"[+1 Culture] from all [All] buildings",
-                    "Resting point for Influence with City-States is increased by [20]"
+                    "Resting point for Influence with City-States is increased by [20]",
+					"[+1 Culture] from all [non-{Wonder}] buildings"
                 ],
                 "row": 1,
                 "column": 4
