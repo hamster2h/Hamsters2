@@ -372,7 +372,7 @@
             {
                 "name": "Educated Elite",
                 "uniques": [
-					"[+1 Science, +2 Production] from every specialist [in all cities]",
+					"[+1 Gold, +1 Production, +2 Science] from every specialist [in all cities]",
                     "Allied City-States will occasionally gift Great People"
                 ],
 				"requires": ["Scholasticism", "Aesthetics"],
