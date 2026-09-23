@@ -317,7 +317,7 @@
     },
     {
         "name": "Patronage",
-        "era": "Medieval era",
+        "era": "Classical era",
         "priorities": {
             "Neutral": 5,
             "Cultural": 5,
@@ -326,9 +326,9 @@
             "Scientific": 5
         },
         "uniques": [
+			"[+1 Culture] from all [Culture] buildings",
             "[-25]% City-State Influence degradation",
-			"Free [Archaeologist] appears",
-            "[-100]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [4]>"
+			"Free [Archaeologist] appears"
         ],
         "policies": [
             {
