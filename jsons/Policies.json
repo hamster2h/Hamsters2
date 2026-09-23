@@ -334,8 +334,9 @@
             {
                 "name": "Philantropy",
                 "uniques": [
-                    "Gifts of Gold to City-States generate [50]% more Influence",
-					"[+400]% Gold from Great Merchant trade missions",
+					"Gifts of Gold to City-States generate [100]% more Influence",
+					"[+1 Culture] per [5] population [in all cities]",
+					"[+2 Happiness] [in all cities]"
                 ],
                 "row": 1,
                 "column": 2
