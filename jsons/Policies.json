@@ -387,7 +387,7 @@
                 "name": "Patronage Complete",
                 "uniques": [
 					"[+1 Culture] from every [Improvement]",
-					"[+2 Gold] from all [Culture] buildings",
+					"[+1 Gold] from all [Culture] buildings",
                     "Get the leader title of [[leaderName] the Enlightened]"
                 ]
             }
