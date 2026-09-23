@@ -355,7 +355,8 @@
                 "name": "Scholasticism",
                 "uniques": [
                     "Allied City-States provide [Science] equal to [75]% of what they produce for themselves",
-					"Gain an extra spy"
+					"[+50]% Production when constructing [Science] buildings [in all cities]",
+					"[+2 Science] from all [Faith] buildings"
                 ],
                 "requires": ["Philantropy"],
                 "row": 2,
