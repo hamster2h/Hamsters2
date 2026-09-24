@@ -3333,8 +3333,8 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Modern Perk]",
-			"[+1 Gold, -1 Faith] from every [Shrine]",
-			"[+2 Gold, -1 Faith] from every [Temple]",
+			"[+1 Gold] from every [Shrine]",
+			"[+2 Gold] from every [Temple]",
 			"[+5]% [Gold] from every [Grand Temple]",
 			"Only available <starting from the [Modern era]>",
 			"Consumes [1] [Prophet Perk]",
