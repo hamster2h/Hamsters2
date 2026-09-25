@@ -681,7 +681,7 @@
                 "name": "Militarism",
                 "uniques": [
 					"[Gold] cost of purchasing [Military] units [-20]%",
-					"All newly-trained [{non-[Air]} {Military}] units [in all cities] receive the [Ambition] promotion",
+					"All newly-trained [Military] units [in all cities] receive the [Ambition] promotion",
 					"[+25]% Strength <for [All] units>"
 				],
                 "row": 1,
