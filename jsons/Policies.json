@@ -346,6 +346,7 @@
                 "name": "Aesthetics",
                 "uniques": [
                     "Resting point for Influence with City-States is increased by [20]",
+					"[+400]% [Science] [in all cities] <when below [-40] [Happiness]>",
 					"[+1 Culture] from all [non-[Wonder]] buildings"
                 ],
                 "row": 1,
