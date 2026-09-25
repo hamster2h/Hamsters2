@@ -367,7 +367,8 @@
                     "[+100]% resources gifted by City-States",
                     "[+50]% Happiness from luxury resources gifted by City-States",
 					"Influence of all other civilizations with all city-states degrades [33]% faster",
-					"Triggers the following global alert: [Our influence with City-States has started dropping faster!]"
+					"Triggers the following global alert: [Our influence with City-States has started dropping faster!]",
+					"[+25]% growth [in all cities]"
                 ],
                 "requires": ["Scholasticism"],
                 "row": 3,
