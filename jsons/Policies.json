@@ -410,7 +410,8 @@
         },
         "uniques": [
 			"[+25]% [Gold] from every [Palace]",
-			"[Great Merchant] is earned [25]% faster"
+			"[Great Merchant] is earned [25]% faster",
+			"Provides [2] [Merchant Perk]"
 		],
         "policies": [
             {
