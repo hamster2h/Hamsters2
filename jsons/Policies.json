@@ -390,9 +390,9 @@
             {
                 "name": "Patronage Complete",
                 "uniques": [
+					"[+25]% [Culture] [in all cities]",
 					"[+1 Culture] from every [Improvement]",
 					"[+1 Gold] from all [Culture] buildings",
-					"[+25]% [Culture] [in all cities]",
                     "Get the leader title of [[leaderName] the Enlightened]"
                 ]
             }
