@@ -326,8 +326,8 @@
             "Scientific": 5
         },
         "uniques": [
-			"[-25]% City-State Influence degradation",
 			"[+1 Culture] from all [Culture] buildings",
+			"[-25]% City-State Influence degradation",
 			"[Great Artist] is earned [25]% faster",
 			"Free [Archaeologist] appears"
         ],
