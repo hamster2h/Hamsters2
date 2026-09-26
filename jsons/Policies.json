@@ -1139,9 +1139,9 @@
 				{
 					"name": "Drone Surveillance",
 					"uniques": [
+						"[+100]% Strength for cities <with a garrison> <when defending>",
 						"All newly-trained [relevant] units [in all cities] receive the [Sentry] promotion",
-						"[+100]% Strength <for [Helicopter] units>",
-						"[+200]% Strength for cities"
+						"[+100]% Strength <for [Helicopter] units>"
 					],
 					"requires": [
 						"Battlefield Experiments"
