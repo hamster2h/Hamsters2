@@ -2649,13 +2649,13 @@
 		"requiredBuilding": "Factory",
 		"uniques": [
 			"Consumes [4] [Power]",
-			"Provides [1] [Composites]",
+			"Provides [2] [Composites]",
 			"Destroyed when the city is captured"
 		]
 	},
 	{
 		"name": "Composite Factory",
-		"cost": 1000,
+		"cost": 4000,
 		"production": 2,
 		"maintenance": 6,
 		"uniques": [
@@ -2667,7 +2667,7 @@
 	},
 	{
 		"name": "SM Composite Factory",
-		"cost": 1000,
+		"cost": 4000,
 		"production": 2,
 		"maintenance": 8,
 		"requiredTech": "Stealth",
@@ -2680,7 +2680,7 @@
 	},
 	{
 		"name": "SM Composite Factory 2",
-		"cost": 1000,
+		"cost": 4000,
 		"production": 2,
 		"maintenance": 8,
 		"requiredTech": "Stealth",
@@ -2693,7 +2693,7 @@
 	},
 	{
 		"name": "Adaptive Base",
-		"cost": 1120,
+		"cost": 2240,
 		"cityStrength": 25,
 		"cityHealth": 50,
 		"maintenance": 6,
@@ -2707,7 +2707,7 @@
 	},
 	{
 		"name": "Bomb Shelter",
-		"cost": 200,
+		"cost": 400,
 		"cityStrength": 30,
 		"cityHealth": 60,
 		"maintenance": 1,
