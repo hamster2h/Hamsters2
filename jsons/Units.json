@@ -3549,9 +3549,9 @@
 		"uniqueTo": "Barbarians",
 		"replaces": "Hacker",
 		"unitType": "Support",
-		"movement": 2,
-		"strength": 100,
-		"cost": 400,
+		"movement": 3,
+		"strength": 150,
+		"cost": 8000,
 		"requiredTech": "Automation",
 		"uniques": [
 			"Hacker",
@@ -3559,7 +3559,7 @@
 			"Comment [25% chance for some adjacent units to capture killed Cyber Units]",
 			"Can see invisible [All] units",
 			"Invisible to non-adjacent units",
-			"[+50]% Strength <vs [Cyber] units>"
+			"[+100]% Strength <vs [Cyber] units>"
 		],
 		"attackSound": "Hacking"
 	},
@@ -3588,11 +3588,11 @@
 		"uniqueTo": "Barbarians",
 		"replaces": "Hovertank",
 		"unitType": "Armored",
-		"movement": 5,
-		"strength": 80,
-		"rangedStrength": 185,
-		"range": 2,
-		"cost": 680,
+		"movement": 7,
+		"strength": 1400,
+		"rangedStrength": 260,
+		"range": 3,
+		"cost": 20000,
 		"requiredTech": "Nanotechnology",
 		"uniques": [
 			"Cyber",
