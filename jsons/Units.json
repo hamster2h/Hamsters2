@@ -3401,6 +3401,48 @@
 		]
 	},
 	{
+		"name": "Brute",
+		"uniqueTo": "Barbarians",
+		"unitType": "Sword",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength": 10,
+		"cost": 20,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Marauder",
+		"uniqueTo": "Barbarians",
+		"unitType": "Sword",
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 14,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": [
+			"[+50]% Strength <vs [Mounted] units>"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Skirmisher",
+		"uniqueTo": "Barbarians",
+		"unitType": "Archery",
+		"replaces": "Archer",
+		"movement": 2,
+		"strength": 6,
+		"rangedStrength": 9,
+		"cost": 40,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow"
+	},
+	{
 		"name": "Terrorist",
 		"uniqueTo": "Barbarians",
 		"replaces": "Infantry",
