@@ -3433,9 +3433,9 @@
 		"uniqueTo": "Barbarians",
 		"replaces": "Infantry",
 		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 65,
-		"cost": 240,
+		"movement": 3,
+		"strength": 90,
+		"cost": 1200,
 		"requiredTech": "Plastics",
 		"uniques": [
 			"[+75]% Strength <vs [Wounded] units>"
@@ -3447,7 +3447,7 @@
 		"uniqueTo": "Barbarians",
 		"replaces": "Archer",
 		"unitType": "Archery",
-		"movement": 2,
+		"movement": 3,
 		"strength": 6,
 		"rangedStrength": 9,
 		"cost": 40,
@@ -3465,7 +3465,7 @@
 		"strength": 120,
 		"rangedStrength": 160,
 		"range": 2,
-		"cost": 270,
+		"cost": 4500,
 		"requiredTech": "Mobile Tactics",
 		"uniques": [
 			"[+45]% Strength <vs [Wounded] units>"
@@ -3490,12 +3490,12 @@
 		"uniqueTo": "Barbarians",
 		"replaces": "Hacker",
 		"unitType": "Gunpowder",
-		"movement": 2,
-		"interceptRange": 2,
+		"movement": 3,
 		"strength": 65,
 		"rangedStrength": 85,
 		"range": 2,
-		"cost": 265,
+		"interceptRange": 2,
+		"cost": 1500,
 		"requiredTech": "The Internet",
 		"uniques": [
 			"Can only attack [Cyber] units",
