@@ -2660,7 +2660,7 @@
 		"maintenance": 6,
 		"uniques": [
 			"Consumes [4] [Power]",
-			"Provides [6] [Composites]",
+			"Provides [8] [Composites]",
 			"[+10]% Production when constructing [Cyber] units [in this city]",
 			"Destroyed when the city is captured",
 			"Only available <if [EP-Cyber Engineering] is constructed>"
@@ -3173,7 +3173,7 @@
 			"Comment [Enables construction of [Composite Factory]]",
 			"[+10]% [Production] [in all cities]",
 			"Only available <starting from the [Future era]>",
-			"Consumes [2] [Engineer Perk]",
+			"Consumes [1] [Engineer Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
 	},
