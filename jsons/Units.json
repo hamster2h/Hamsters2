@@ -1685,7 +1685,7 @@
 		"strength": 160,
 		"rangedStrength": 160,
 		"range": 20,
-		"cost": 25000,
+		"cost": 40000,
 		"requiredTech": "World Alliance",
 		"uniques": [
 			"Cyber",
