@@ -3589,7 +3589,7 @@
 		"replaces": "Hovertank",
 		"unitType": "Armored",
 		"movement": 7,
-		"strength": 1400,
+		"strength": 140,
 		"rangedStrength": 260,
 		"range": 3,
 		"cost": 20000,
