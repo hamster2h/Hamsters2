@@ -31,12 +31,12 @@
     {
         "name": "Mercantile",
         "friendBonusUniques": [
-            "[+1 Happiness] [in all cities]",
-            "[+2 Happiness] [in all cities] <starting from the [Medieval era]>"
+            "[+1 Happiness, +1 Gold] [in all cities]",
+            "[+1 Happiness, +2 Gold] [in all cities] <starting from the [Medieval era]>"
         ],
         "allyBonusUniques": [
-            "[+2 Happiness] [in all cities]",
-            "[+4 Happiness] [in all cities] <starting from the [Medieval era]>",
+            "[+2 Happiness, +2 Gold] [in all cities]",
+            "[+2 Happiness, +4 Gold] [in all cities] <starting from the [Medieval era]>",
             "Provides a unique luxury"
         ],
         "color": [255, 216, 0]
