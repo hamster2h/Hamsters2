@@ -1691,9 +1691,9 @@
 			"Cyber",
 			"Consumes [1] [Oil] <before discovering [Particle Physics]>",
 			"Consumes [1] [Uranium]",
-			"Consumes [6] [Composites]",
-			"Nuclear weapon of Strength [1]",
-			"Blast radius [2]",
+			"Consumes [4] [Composites]",
+			"Nuclear weapon of Strength [3]",
+			"Blast radius [3]",
 			"[1] additional attacks per turn"
 		],
 		"promotions": [
