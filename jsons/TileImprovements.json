@@ -35,13 +35,7 @@
 		"name": "Dig Coast",
 		"turnsToBuild": 24,
 		"terrainsCanBeBuiltOn": [
-			"Plains",
-			"Grassland",
-			"Desert",
-			"Tundra",
-			"Snow",
-			"Hill",
-			"Mountain"
+			"Land"
 		],
 		"techRequired": "Mining",
 		"uniques": [
@@ -70,26 +64,6 @@
 		"uniques": [
 			"Can be built outside your borders"
 		]
-	},
-	{
-		"name": "Fort",
-		"terrainsCanBeBuiltOn": [
-			"Plains",
-			"Grassland",
-			"Desert",
-			"Hill",
-			"Tundra",
-			"Snow",
-			"Forest",
-			"Jungle"
-		],
-		"turnsToBuild": 6,
-		"techRequired": "Engineering",
-		"uniques": [
-			"Can be built outside your borders",
-			"Gives a defensive bonus of [75]%"
-		],
-		"shortcutKey": "O"
 	},
 	{
 		"name": "Farm",
@@ -465,10 +439,7 @@
 	{
 		"name": "Resort",
 		"terrainsCanBeBuiltOn": [
-			"Grassland",
-			"Plains",
-			"Tundra",
-			"Desert"
+			"Land"
 		],
 		"gold": 10,
 		"production": 1,
@@ -497,7 +468,12 @@
 	{
 		"name": "Concert Venue",
 		"terrainsCanBeBuiltOn": [
-			"Land"
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Tundra",
+			"Snow",
+			"Hill"
 		],
 		"culture": 8,
 		"gold": 2,
@@ -531,7 +507,12 @@
 	{
 		"name": "Industry",
 		"terrainsCanBeBuiltOn": [
-			"Land"
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Tundra",
+			"Snow",
+			"Hill"
 		],
 		"gold": 5,
 		"production": 3,
@@ -568,7 +549,12 @@
 	{
 		"name": "Power Plant",
 		"terrainsCanBeBuiltOn": [
-			"Land"
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Tundra",
+			"Snow",
+			"Hill"
 		],
 		"production": 2,
 		"uniques": [
@@ -582,7 +568,12 @@
 	{
 		"name": "Supply Route",
 		"terrainsCanBeBuiltOn": [
-			"Land"
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Tundra",
+			"Snow",
+			"Hill"
 		],
 		"food": 1,
 		"gold": 1,
@@ -605,7 +596,12 @@
 	{
 		"name": "Water Tower",
 		"terrainsCanBeBuiltOn": [
-			"Land"
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Tundra",
+			"Snow",
+			"Hill"
 		],
 		"food": 6,
 		"uniques": [
@@ -619,7 +615,12 @@
 	{
 		"name": "Industrial Complex",
 		"terrainsCanBeBuiltOn": [
-			"Land"
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Tundra",
+			"Snow",
+			"Hill"
 		],
 		"production": 6,
 		"uniques": [
@@ -636,7 +637,12 @@
 		"gold": 1,
 		"production": 1,
 		"terrainsCanBeBuiltOn": [
-			"Land"
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Tundra",
+			"Snow",
+			"Hill"
 		],
 		"uniques": [
 			"Comment [Infrastructure]",
@@ -649,7 +655,12 @@
 	{
 		"name": "Academy",
 		"terrainsCanBeBuiltOn": [
-			"Land"
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Tundra",
+			"Snow",
+			"Hill"
 		],
 		"science": 6,
 		"uniques": [
@@ -674,7 +685,12 @@
 	{
 		"name": "Landmark",
 		"terrainsCanBeBuiltOn": [
-			"Land"
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Tundra",
+			"Snow",
+			"Hill"
 		],
 		"culture": 6,
 		"uniques": [
@@ -701,7 +717,12 @@
 	{
 		"name": "Manufactory",
 		"terrainsCanBeBuiltOn": [
-			"Land"
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Tundra",
+			"Snow",
+			"Hill"
 		],
 		"production": 4,
 		"uniques": [
@@ -730,7 +751,12 @@
 	{
 		"name": "Customs house",
 		"terrainsCanBeBuiltOn": [
-			"Land"
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Tundra",
+			"Snow",
+			"Hill"
 		],
 		"gold": 6,
 		"uniques": [
@@ -755,7 +781,12 @@
 	{
 		"name": "Holy site",
 		"terrainsCanBeBuiltOn": [
-			"Land"
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Tundra",
+			"Snow",
+			"Hill"
 		],
 		"faith": 6,
 		"uniques": [
@@ -778,9 +809,35 @@
 		]
 	},
 	{
+		"name": "Fort",
+		"terrainsCanBeBuiltOn": [
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Tundra",
+			"Snow",
+			"Hill",
+			"Forest",
+			"Jungle"
+		],
+		"turnsToBuild": 6,
+		"techRequired": "Engineering",
+		"uniques": [
+			"Can be built outside your borders",
+			"Gain control over [all] tiles in a [1]-tile radius",
+			"Gives a defensive bonus of [50]%"
+		],
+		"shortcutKey": "O"
+	},
+	{
 		"name": "Citadel",
 		"terrainsCanBeBuiltOn": [
-			"Land"
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Tundra",
+			"Snow",
+			"Hill"
 		],
 		"production": 3,
 		"uniques": [
@@ -791,7 +848,7 @@
 			"Removes removable features when built",
 			"Can be built outside your borders",
 			"Gain control over [all] tiles in a [2]-tile radius",
-			"Gives a defensive bonus of [125]%",
+			"Gives a defensive bonus of [100]%",
 			"Adjacent enemy units ending their turn take [35] damage",
 			"Pillaging this improvement yields approximately [+20 Gold]",
 			"Tile provides yield without assigned population",
@@ -801,7 +858,12 @@
 	{
 		"name": "Space Platform",
 		"terrainsCanBeBuiltOn": [
-			"Land"
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Tundra",
+			"Snow",
+			"Hill"
 		],
 		"science": 6,
 		"culture": 6,
@@ -827,7 +889,12 @@
 		"name": "Moai",
 		"uniqueTo": "Polynesia",
 		"terrainsCanBeBuiltOn": [
-			"Land"
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Tundra",
+			"Snow",
+			"Hill"
 		],
 		"culture": 2,
 		"happiness": 1,
@@ -936,7 +1003,9 @@
     },
 	{
 		"name": "Road",
-		"terrainsCanBeBuiltOn": ["Land"],
+		"terrainsCanBeBuiltOn": [
+			"Land"
+		],
 		"turnsToBuild": 4,
 		"techRequired": "The Wheel",
 		"uniques": [
@@ -952,7 +1021,9 @@
 	},
 	{
 		"name": "Railroad",
-		"terrainsCanBeBuiltOn": ["Land"],
+		"terrainsCanBeBuiltOn": [
+			"Land"
+		],
 		"turnsToBuild": 4,
 		"techRequired": "Railroads",
 		"uniques": [
