@@ -17,11 +17,13 @@
         "name": "Maritime",
         "friendBonusUniques": [
             "[+2 Food, +2 Gold] [in capital]",
-            "[+1 Food, +1 Gold] [in all cities]"
+            "[+1 Food, +1 Gold] [in all cities]",
+            "[+1 Food, +1 Gold] [in all cities] <starting from the [Renaissance era]>"
         ],
         "allyBonusUniques": [
             "[+4 Food, +4 Gold] [in capital]",
-            "[+2 Food, +2 Gold] [in all cities]"
+            "[+2 Food, +2 Gold] [in all cities]",
+            "[+2 Food, +2 Gold] [in all cities] <starting from the [Renaissance era]>"
         ],
         "uniques": [
             "Start bias [Coast]"
