@@ -2661,7 +2661,6 @@
 		"uniques": [
 			"Consumes [4] [Power]",
 			"Provides [8] [Composites]",
-			"[+10]% Production when constructing [Cyber] units [in this city]",
 			"Destroyed when the city is captured",
 			"Only available <if [EP-Cyber Engineering] is constructed>"
 		]
@@ -2669,6 +2668,7 @@
 	{
 		"name": "SM Composite Factory",
 		"cost": 1000,
+		"production": 2,
 		"maintenance": 8,
 		"requiredTech": "Stealth",
 		"uniques": [
@@ -2681,6 +2681,7 @@
 	{
 		"name": "SM Composite Factory 2",
 		"cost": 1000,
+		"production": 2,
 		"maintenance": 8,
 		"requiredTech": "Stealth",
 		"uniques": [
@@ -2707,8 +2708,8 @@
 	{
 		"name": "Bomb Shelter",
 		"cost": 200,
-		"cityStrength": 15,
-		"cityHealth": 30,
+		"cityStrength": 30,
+		"cityHealth": 60,
 		"maintenance": 1,
 		"requiredTech": "Atomic Theory",
 		"uniques": [
