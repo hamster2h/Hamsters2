@@ -3403,8 +3403,8 @@
 	{
 		"name": "Brute",
 		"uniqueTo": "Barbarians",
-		"unitType": "Sword",
 		"replaces": "Warrior",
+		"unitType": "Sword",
 		"movement": 2,
 		"strength": 10,
 		"cost": 20,
@@ -3415,10 +3415,10 @@
 	{
 		"name": "Marauder",
 		"uniqueTo": "Barbarians",
-		"unitType": "Sword",
 		"replaces": "Spearman",
+		"unitType": "Sword",
 		"movement": 2,
-		"strength": 14,
+		"strength": 16,
 		"cost": 56,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
@@ -3427,20 +3427,6 @@
 			"[+50]% Strength <vs [Mounted] units>"
 		],
 		"attackSound": "metalhit"
-	},
-	{
-		"name": "Skirmisher",
-		"uniqueTo": "Barbarians",
-		"unitType": "Archery",
-		"replaces": "Archer",
-		"movement": 2,
-		"strength": 6,
-		"rangedStrength": 9,
-		"cost": 40,
-		"requiredTech": "Archery",
-		"obsoleteTech": "Machinery",
-		"upgradesTo": "Crossbowman",
-		"attackSound": "arrow"
 	},
 	{
 		"name": "Terrorist",
@@ -3455,6 +3441,49 @@
 			"[+75]% Strength <vs [Wounded] units>"
 		],
 		"attackSound": "shot"
+	},
+	{
+		"name": "Skirmisher",
+		"uniqueTo": "Barbarians",
+		"replaces": "Archer",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 6,
+		"rangedStrength": 9,
+		"cost": 40,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Hit Squad",
+		"uniqueTo": "Barbarians",
+		"replaces": "Modern Armor",
+		"unitType": "Armored",
+		"movement": 5,
+		"strength": 120,
+		"rangedStrength": 160,
+		"range": 2,
+		"cost": 270,
+		"requiredTech": "Mobile Tactics",
+		"uniques": [
+			"[+45]% Strength <vs [Wounded] units>"
+		],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Galley",
+		"uniqueTo": "Barbarians",
+		"unitType": "Melee Water",
+		"movement": 5,
+		"strength": 14,
+		"cost": 70,
+		"obsoleteTech": "Astronomy",
+		"uniques": [
+			"Cannot enter ocean tiles"
+		],
+		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Outlaw",
@@ -3479,33 +3508,16 @@
 		"attackSound": "Hacking"
 	},
 	{
-		"name": "Hit Squad",
-		"uniqueTo": "Barbarians",
-		"replaces": "Modern Armor",
-		"unitType": "Armored",
-		"movement": 5,
-		"strength": 120,
-		"rangedStrength": 120,
-		"range": 2,
-		"cost": 270,
-		"requiredTech": "Mobile Tactics",
-		"uniques": [
-			"Cyber",
-			"[+45]% Strength <vs [Wounded] units>"
-		],
-		"attackSound": "tankshot"
-	},
-	{
 		"name": "Body Snatcher",
 		"uniqueTo": "Barbarians",
 		"replaces": "Spectre",
 		"unitType": "Gunpowder",
-		"movement": 3,
-		"strength": 140,
-		"cost": 390,
+		"movement": 4,
+		"strength": 200,
+		"cost": 7200,
 		"requiredTech": "Enhancing",
 		"uniques": [
-			"Heals [25] damage if it kills a unit",
+			"Heals [50] damage if it kills a unit",
 			"May capture killed [Military] units <with [99]% chance>"
 		],
 		"promotions": [
