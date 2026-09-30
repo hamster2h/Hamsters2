@@ -3423,8 +3423,8 @@
 		"strength": 16,
 		"cost": 56,
 		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
+		"obsoleteTech": "Civil Service",
 		"uniques": [
 			"[+50]% Strength <vs [Mounted] units>"
 		],
@@ -3454,8 +3454,8 @@
 		"rangedStrength": 9,
 		"cost": 40,
 		"requiredTech": "Archery",
-		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
+		"obsoleteTech": "Machinery",
 		"attackSound": "arrow"
 	},
 	{
