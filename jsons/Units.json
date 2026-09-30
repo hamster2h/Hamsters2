@@ -179,6 +179,8 @@
 		"strength": 10,
 		"cost": 1500,
 		"requiredTech": "The Internet",
+		"upgradesTo": "Ghost",
+		"obsoleteTech": "Nuclear Fusion",
 		"uniques": [
 			"Cyber",
 			"Hacker",
