@@ -468,12 +468,7 @@
 	{
 		"name": "Concert Venue",
 		"terrainsCanBeBuiltOn": [
-			"Plains",
-			"Grassland",
-			"Desert",
-			"Tundra",
-			"Snow",
-			"Hill"
+			"Land"
 		],
 		"culture": 8,
 		"gold": 2,
@@ -507,12 +502,7 @@
 	{
 		"name": "Industry",
 		"terrainsCanBeBuiltOn": [
-			"Plains",
-			"Grassland",
-			"Desert",
-			"Tundra",
-			"Snow",
-			"Hill"
+			"Land"
 		],
 		"gold": 5,
 		"production": 3,
@@ -549,12 +539,7 @@
 	{
 		"name": "Power Plant",
 		"terrainsCanBeBuiltOn": [
-			"Plains",
-			"Grassland",
-			"Desert",
-			"Tundra",
-			"Snow",
-			"Hill"
+			"Land"
 		],
 		"production": 2,
 		"uniques": [
@@ -568,12 +553,7 @@
 	{
 		"name": "Supply Route",
 		"terrainsCanBeBuiltOn": [
-			"Plains",
-			"Grassland",
-			"Desert",
-			"Tundra",
-			"Snow",
-			"Hill"
+			"Land"
 		],
 		"food": 1,
 		"gold": 1,
@@ -596,12 +576,7 @@
 	{
 		"name": "Water Tower",
 		"terrainsCanBeBuiltOn": [
-			"Plains",
-			"Grassland",
-			"Desert",
-			"Tundra",
-			"Snow",
-			"Hill"
+			"Land"
 		],
 		"food": 6,
 		"uniques": [
@@ -615,12 +590,7 @@
 	{
 		"name": "Industrial Complex",
 		"terrainsCanBeBuiltOn": [
-			"Plains",
-			"Grassland",
-			"Desert",
-			"Tundra",
-			"Snow",
-			"Hill"
+			"Land"
 		],
 		"production": 6,
 		"uniques": [
@@ -637,12 +607,7 @@
 		"gold": 1,
 		"production": 1,
 		"terrainsCanBeBuiltOn": [
-			"Plains",
-			"Grassland",
-			"Desert",
-			"Tundra",
-			"Snow",
-			"Hill"
+			"Land"
 		],
 		"uniques": [
 			"Comment [Infrastructure]",
@@ -655,12 +620,7 @@
 	{
 		"name": "Academy",
 		"terrainsCanBeBuiltOn": [
-			"Plains",
-			"Grassland",
-			"Desert",
-			"Tundra",
-			"Snow",
-			"Hill"
+			"Land"
 		],
 		"science": 6,
 		"uniques": [
@@ -685,12 +645,7 @@
 	{
 		"name": "Landmark",
 		"terrainsCanBeBuiltOn": [
-			"Plains",
-			"Grassland",
-			"Desert",
-			"Tundra",
-			"Snow",
-			"Hill"
+			"Land"
 		],
 		"culture": 6,
 		"uniques": [
@@ -717,12 +672,7 @@
 	{
 		"name": "Manufactory",
 		"terrainsCanBeBuiltOn": [
-			"Plains",
-			"Grassland",
-			"Desert",
-			"Tundra",
-			"Snow",
-			"Hill"
+			"Land"
 		],
 		"production": 4,
 		"uniques": [
@@ -751,12 +701,7 @@
 	{
 		"name": "Customs house",
 		"terrainsCanBeBuiltOn": [
-			"Plains",
-			"Grassland",
-			"Desert",
-			"Tundra",
-			"Snow",
-			"Hill"
+			"Land"
 		],
 		"gold": 6,
 		"uniques": [
@@ -781,12 +726,7 @@
 	{
 		"name": "Holy site",
 		"terrainsCanBeBuiltOn": [
-			"Plains",
-			"Grassland",
-			"Desert",
-			"Tundra",
-			"Snow",
-			"Hill"
+			"Land"
 		],
 		"faith": 6,
 		"uniques": [
@@ -832,12 +772,7 @@
 	{
 		"name": "Citadel",
 		"terrainsCanBeBuiltOn": [
-			"Plains",
-			"Grassland",
-			"Desert",
-			"Tundra",
-			"Snow",
-			"Hill"
+			"Land"
 		],
 		"production": 3,
 		"uniques": [
@@ -858,12 +793,7 @@
 	{
 		"name": "Space Platform",
 		"terrainsCanBeBuiltOn": [
-			"Plains",
-			"Grassland",
-			"Desert",
-			"Tundra",
-			"Snow",
-			"Hill"
+			"Land"
 		],
 		"science": 6,
 		"culture": 6,
@@ -889,12 +819,7 @@
 		"name": "Moai",
 		"uniqueTo": "Polynesia",
 		"terrainsCanBeBuiltOn": [
-			"Plains",
-			"Grassland",
-			"Desert",
-			"Tundra",
-			"Snow",
-			"Hill"
+			"Land"
 		],
 		"culture": 2,
 		"happiness": 1,
