@@ -818,8 +818,8 @@
 		"strength": 25,
 		"cost": 200,
 		"requiredTech": "Acoustics",
-		"upgradesTo": "Anti-Tank Gun",
-		"obsoleteTech": "Combined Arms",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
 		"requiredResource": "Horses",
 		"uniques": [
 			"Can move after attacking",
@@ -842,8 +842,8 @@
 		"strength": 30,
 		"cost": 200,
 		"requiredTech": "Acoustics",
-		"upgradesTo": "Anti-Tank Gun",
-		"obsoleteTech": "Combined Arms",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
 		"requiredResource": "Horses",
 		"uniques": [
 			"Can move after attacking",
@@ -867,8 +867,8 @@
 		"strength": 25,
 		"cost": 200,
 		"requiredTech": "Acoustics",
-		"upgradesTo": "Anti-Tank Gun",
-		"obsoleteTech": "Combined Arms",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
 		"requiredResource": "Horses",
 		"uniques": [
 			"Can move after attacking",
@@ -891,8 +891,8 @@
 		"strength": 25,
 		"cost": 200,
 		"requiredTech": "Acoustics",
-		"upgradesTo": "Anti-Tank Gun",
-		"obsoleteTech": "Combined Arms",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
 		"requiredResource": "Horses",
 		"uniques": [
 			"Can move after attacking",
