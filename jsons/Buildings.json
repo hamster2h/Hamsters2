@@ -2788,9 +2788,9 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Industrial Perk]",
-			"[+4 Science] from [River] tiles [in all cities]",
-			"[+2 Science] from [Coast] tiles [in all cities]",
-			"[+2 Science] from [Ocean] tiles [in all cities]",
+			"[+2 Science] from [River] tiles [in all cities]",
+			"[+1 Science] from [Coast] tiles [in all cities]",
+			"[+1 Science] from [Ocean] tiles [in all cities]",
 			"Only available <starting from the [Industrial era]>",
 			"Consumes [1] [Scientist Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
@@ -2829,8 +2829,8 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Atomic Perk]",
-			"[+2 Science] from every [Hospital]",
-			"[+4 Science] from every [Medical Lab]",
+			"[+1 Science, +1 Food] from every [Hospital]",
+			"[+2 Science, +2 Food] from every [Medical Lab]",
 			"Only available <starting from the [Atomic era]>",
 			"Consumes [1] [Scientist Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
