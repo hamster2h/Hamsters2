@@ -2182,6 +2182,7 @@
 		"uniques": [
 			"Can move after attacking",
 			"No defensive terrain bonus",
+			"[+25]% Strength <vs [Ranged] units> <when attacking>",
 			"[-33]% Strength <vs cities> <when attacking>",
 			"Never appears as a Barbarian unit"
 		],
@@ -2203,6 +2204,7 @@
 			"Ignores Zone of Control",
 			"Can move after attacking",
 			"No defensive terrain bonus",
+			"[+25]% Strength <vs [Ranged] units> <when attacking>",
 			"[-33]% Strength <vs cities> <when attacking>",
 			"[+25]% Strength <in [Friendly Land] tiles>"
 		],
@@ -2226,6 +2228,7 @@
 		"uniques": [
 			"Can move after attacking",
 			"No defensive terrain bonus",
+			"[+25]% Strength <vs [Ranged] units> <when attacking>",
 			"[-33]% Strength <vs cities> <when attacking>",
 			"Ignores Zone of Control",
 			"[+1] Sight"
@@ -2249,7 +2252,8 @@
 		"requiredResource": "Horses",
 		"uniques": [
 			"Can move after attacking",
-			"No defensive terrain bonus"
+			"No defensive terrain bonus",
+			"[+25]% Strength <vs [Ranged] units> <when attacking>"
 		],
 		"promotions": [
 			"Great Generals I"
@@ -2271,6 +2275,7 @@
 		"uniques": [
 			"Can move after attacking",
 			"No defensive terrain bonus",
+			"[+25]% Strength <vs [Ranged] units> <when attacking>",
 			"[-33]% Strength <vs cities> <when attacking>"
 		],
 		"attackSound": "horse"
