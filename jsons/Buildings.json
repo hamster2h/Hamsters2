@@ -2291,7 +2291,7 @@
 	},
 	{
 		"name": "Observatory",
-		"maintenance": 0,
+		"maintenance": 6,
 		"percentStatBonus": {
 			"science": 50
 		},
@@ -2303,11 +2303,7 @@
 	},
 	{
 		"name": "Public School",
-		"science": 2,
 		"maintenance": 4,
-		"specialistSlots": {
-			"Scientist": 1
-		},
 		"requiredBuilding": "University",
 		"uniques": [
 			"[+1 Science] per [2] population [in this city]"
@@ -2332,7 +2328,7 @@
 	},
 	{
 		"name": "Research City",
-		"cost": 1200,
+		"cost": 1500,
 		"maintenance": 20,
 		"percentStatBonus": {
 			"science": 100,
@@ -2347,7 +2343,7 @@
 		"requiredTech": "Scientific Theory",
 		"uniques": [
 			"Only available <after adopting [Rationalism Complete]>",
-			"[+2 Science] per [1] population [in this city]",
+			"[+1 Science] per [2] population [in this city]",
 			"[+25]% [Production] [in this city] <during the [Modern era]>",
 			"[+50]% [Production] [in this city] <during the [Atomic era]>",
 			"[+75]% [Production] [in this city] <starting from the [Information era]>",
