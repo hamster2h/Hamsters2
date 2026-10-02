@@ -2953,10 +2953,8 @@
 		"uniques": [
 			"May Paradrop to [Land] tiles up to [9] tiles away <in [{Friendly} {Land}] tiles>",
 			"Can pass through impassable tiles",
+			"Withdraws before melee combat <with [33]% chance>",
 			"Never appears as a Barbarian unit"
-		],
-		"promotions": [
-			"Skirmish"
 		],
 		"attackSound": "shot"
 	},
@@ -2973,12 +2971,12 @@
 			"Can pass through impassable tiles",
 			"May enter foreign tiles without open borders",
 			"No movement cost to pillage",
+			"Withdraws before melee combat <with [33]% chance>",
 			"Never appears as a Barbarian unit",
 			"Can only be built <in cities with a [Factory]>"
 		],
 		"promotions": [
 			"Amphibious",
-			"Skirmish",
 			"Rocket Launcher"
 		],
 		"attackSound": "energyshot"
@@ -2997,6 +2995,7 @@
 			"May enter foreign tiles without open borders",
 			"No movement cost to pillage",
 			"Ignores Zone of Control",
+			"Withdraws before melee combat <with [33]% chance>",
 			"Can transform to [Ghost]",
 			"Never appears as a Barbarian unit",
 			"Can only be built <in cities with a [Nano-Factory]>"
@@ -3004,7 +3003,6 @@
 		"promotions": [
 			"Armor Plating I",
 			"Amphibious",
-			"Skirmish",
 			"Rocket Launcher",
 			"Energy Weapons",
 			"Blitz"
@@ -3028,6 +3026,7 @@
 			"May enter foreign tiles without open borders",
 			"No movement cost to pillage",
 			"Ignores Zone of Control",
+			"Withdraws before melee combat <with [33]% chance>",
 			"Can transform to [Spectre]",
 			"Never appears as a Barbarian unit",
 			"Can only be built <in cities with a [Nano-Factory]>"
@@ -3035,7 +3034,6 @@
 		"promotions": [
 			"Armor Plating I",
 			"Amphibious",
-			"Skirmish",
 			"Rocket Launcher",
 			"Energy Weapons",
 			"Blitz"
