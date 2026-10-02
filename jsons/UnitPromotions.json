@@ -414,6 +414,17 @@
 		]
 	},
 	{
+		"name": "Landing Party",
+		"uniques": [
+			"Eliminates combat penalty for attacking across a coast"
+		],
+		"unitTypes": [
+			"Melee Water"
+		],
+        "column": 12,
+        "row": 5
+	},
+	{
 		"name": "Hovering",
 		"uniques": [
             "May travel on Water tiles without embarking",
@@ -923,6 +934,47 @@
 			"Melee Water"
 		],
         "column": 11,
+        "row": 3
+	},
+	{
+		"name": "Coastal Raider I",
+		"uniques": [
+			"[+20]% Strength <vs cities>",
+			"Earn [33]% of the damage done to [City] units as [Gold]"
+		],
+		"unitTypes": [
+			"Melee Water",
+			"Ranged Water"
+		],
+        "column": 12,
+        "row": 1
+	},
+	{
+		"name": "Coastal Raider II",
+		"prerequisites": ["Coastal Raider I"],
+		"uniques": [
+			"[+20]% Strength <vs cities>",
+			"Earn [33]% of the damage done to [City] units as [Gold]"
+		],
+		"unitTypes": [
+			"Melee Water",
+			"Ranged Water"
+		],
+        "column": 12,
+        "row": 2
+	},
+	{
+		"name": "Coastal Raider III",
+		"prerequisites": ["Coastal Raider II"],
+		"uniques": [
+			"[+20]% Strength <vs cities>",
+			"Earn [34]% of the damage done to [City] units as [Gold]"
+		],
+		"unitTypes": [
+			"Melee Water",
+			"Ranged Water"
+		],
+        "column": 12,
         "row": 3
 	},
 	{
