@@ -1400,12 +1400,6 @@
 		]
 	},
 	{
-		"name": "[Conquistador] ability",
-		"uniques": [
-			"[+100]% Strength <when defending> <when [Embarked]>"
-		]
-	},
-	{
 		"name": "[Hakkapeliitta] ability",
 		"uniques": [
 			"Transfer Movement to [Great General]",
@@ -1654,6 +1648,13 @@
 		"uniques": [
 			"[This Unit] heals [50] HP",
 			"Doing so will consume this opportunity to choose a Promotion",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "[Conquistador] ability",
+		"uniques": [
+			"[+100]% Strength <when defending> <when [Embarked]>",
 			"Will not be displayed in Civilopedia"
 		]
 	},
