@@ -1413,12 +1413,6 @@
 		]
 	},
 	{
-		"name": "[Privateer] ability",
-		"uniques": [
-			"May capture killed [Water] units"
-		]
-	},
-	{
 		"name": "Haka War Dance",
 		"uniques": [
 			"[-15]% Strength for enemy [Military] units in adjacent [All] tiles"
@@ -1655,6 +1649,13 @@
 		"name": "[Conquistador] ability",
 		"uniques": [
 			"[+100]% Strength <when defending> <when [Embarked]>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "[Privateer] ability",
+		"uniques": [
+			"May capture killed [Water] units",
 			"Will not be displayed in Civilopedia"
 		]
 	},
