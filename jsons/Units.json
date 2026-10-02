@@ -3643,8 +3643,7 @@
 			"Armor Plating II",
 			"Armor Plating III",
 			"Gravity Generator",
-			"Hovering",
-			"Firewall"
+			"Hovering"
 		],
 		"attackSound": "gdrAttack"
 	},
@@ -3671,8 +3670,7 @@
 			"Armor Plating II",
 			"Armor Plating III",
 			"Gravity Generator",
-			"Hovering",
-			"Firewall"
+			"Hovering"
 		],
 		"attackSound": "gdrAttack"
 	}
