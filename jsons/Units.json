@@ -3644,37 +3644,5 @@
 			"Firewall"
 		],
 		"attackSound": "gdrAttack"
-	},
-	{
-		"name": "SS Booster",
-		"unitType": "Civilian",
-		"uniques": [
-			"Unbuildable",
-			"Will not be displayed in Civilopedia"
-		]
-	},
-	{
-		"name": "SS Cockpit",
-		"unitType": "Civilian",
-		"uniques": [
-			"Unbuildable",
-			"Will not be displayed in Civilopedia"
-		]
-	},
-	{
-		"name": "SS Engine",
-		"unitType": "Civilian",
-		"uniques": [
-			"Unbuildable",
-			"Will not be displayed in Civilopedia"
-		]
-	},
-	{
-		"name": "SS Stasis Chamber",
-		"unitType": "Civilian",
-		"uniques": [
-			"Unbuildable",
-			"Will not be displayed in Civilopedia"
-		]
 	}
 ]
