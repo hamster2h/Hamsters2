@@ -130,10 +130,6 @@
 	},
 	{
 		"name": "Woodsman",
-		"prerequisites": [
-			"Shock III",
-			"Drill III"
-		],
 		"uniques": [
 			"Double movement in [Forest]",
 			"Double movement in [Jungle]",
@@ -142,11 +138,27 @@
 		],
 		"unitTypes": [
 			"Sword",
-			"Gunpowder"
-		],
-        "column": 6,
-        "row": 5
+			"Gunpowder",
+			"Archery",
+			"Ranged Gunpowder"
+		]
 	},
+	{
+		"name": "Altitude Training",
+		"uniques": [
+			"Can pass through impassable tiles",
+			"Double movement in [Hill]",
+			"Double movement in [Mountain]",
+			"[+25]% Strength <when fighting in [Snow] tiles>",
+            "[+25]% Strength <when fighting in [Tundra] tiles>"
+        ],
+		"unitTypes": [
+			"Sword",
+			"Gunpowder",
+			"Archery",
+			"Ranged Gunpowder"
+		]
+    },
 	{
 		"name": "Operational Range",
 		"prerequisites": [
@@ -1305,15 +1317,6 @@
 			"[+50]% Strength decreasing with distance from the capital"
 		]
 	},
-	{
-		"name": "Altitude Training",
-		"uniques": [
-            "Double movement in [Snow]",
-            "Double movement in [Tundra]",
-            "Double movement in [Hill]",
-            "[+25]% Strength <when fighting in [Hill] tiles>"
-        ]
-    },
     {
         "name": "Feared Elephant",
         "uniques": [
