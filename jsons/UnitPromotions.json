@@ -695,6 +695,65 @@
         "row": 3
 	},
 	{
+		"name": "Cover I",
+		"uniques": [
+			"[+33]% Strength <vs [Ranged] units> <when defending>"
+		],
+		"unitTypes": [
+			"Sword",
+			"Gunpowder",
+			"Archery",
+			"Ranged Gunpowder",
+			"Siege"
+		],
+        "column": 24,
+        "row": 1
+	},
+	{
+		"name": "Cover II",
+		"prerequisites": ["Cover I"],
+		"uniques": [
+			"[+33]% Strength <vs [Ranged] units> <when defending>"
+		],
+		"unitTypes": [
+			"Sword",
+			"Gunpowder",
+			"Archery",
+			"Ranged Gunpowder",
+			"Siege"
+		],
+        "column": 24,
+        "row": 2
+	},
+	{
+		"name": "Formation I",
+		"prerequisites": ["Shock II","Drill II"],
+		"uniques": [
+			"[+33]% Strength <vs [Mounted] units>"
+		],
+		"unitTypes": [
+			"Sword",
+			"Gunpowder",
+			"Mounted"
+		],
+        "column": 7,
+        "row": 2
+	},
+	{
+		"name": "Formation II",
+		"prerequisites": ["Formation I"],
+		"uniques": [
+			"[+33]% Strength <vs [Mounted] units>"
+		],
+		"unitTypes": [
+			"Sword",
+			"Gunpowder",
+			"Mounted"
+		],
+        "column": 7,
+        "row": 3
+	},
+	{
 		"name": "Anti-Armor I",
 		"uniques": [
 			"[+25]% Strength <vs [Armored] units> <when attacking>"
