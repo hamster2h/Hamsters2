@@ -459,6 +459,91 @@
 		]
 	},
 	{
+		"name": "Shock I",
+		"uniques": [
+			"[+15]% Strength <when fighting in [Open terrain] tiles>"
+		],
+		"unitTypes": [
+			"Sword",
+			"Gunpowder",
+			"Mounted",
+			"Armored"
+		],
+        "column": 4,
+        "row": 1
+	},
+	{
+		"name": "Shock II",
+		"prerequisites": ["Shock I"],
+		"uniques": [
+			"[+15]% Strength <when fighting in [Open terrain] tiles>"
+		],
+		"unitTypes": [
+			"Sword",
+			"Gunpowder",
+			"Mounted",
+			"Armored"
+		],
+        "column": 4,
+        "row": 2
+	},
+	{
+		"name": "Shock III",
+		"prerequisites": ["Shock II"],
+		"uniques": [
+			"[+15]% Strength <when fighting in [Open terrain] tiles>"
+		],
+		"unitTypes": [
+			"Sword",
+			"Gunpowder",
+			"Mounted",
+			"Armored"
+		],
+        "column": 4,
+        "row": 3
+	},
+	{
+		"name": "Accuracy I",
+		"uniques": [
+			"[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"
+		],
+		"unitTypes": [
+			"Siege",
+			"Archery",
+			"Ranged Gunpowder"
+		],
+        "column": 1,
+        "row": 1
+    },
+	{
+		"name": "Accuracy II",
+		"prerequisites": ["Accuracy I"],
+		"uniques": [
+			"[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"
+		],
+		"unitTypes": [
+			"Siege",
+			"Archery",
+			"Ranged Gunpowder"
+		],
+        "column": 1,
+        "row": 2
+    },
+	{
+		"name": "Accuracy III",
+		"prerequisites": ["Accuracy II"],
+		"uniques": [
+			"[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"
+		],
+		"unitTypes": [
+			"Siege",
+			"Archery",
+			"Ranged Gunpowder"
+		],
+        "column": 1,
+        "row": 3
+    },
+	{
 		"name": "Anti-Armor I",
 		"uniques": [
 			"[+25]% Strength <vs [Armored] units> <when attacking>"
