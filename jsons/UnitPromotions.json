@@ -478,12 +478,6 @@
 		]
 	},
 	{
-		"name": "Support Unit",
-		"uniques": [
-			"Cannot attack"
-		]
-	},
-	{
 		"name": "Skirmish",
 		"uniques": [
 			"Withdraws before melee combat <with [33]% chance>"
@@ -1651,6 +1645,12 @@
 		"name": "Ignore terrain cost",
 		"uniques": [
 			"Ignores terrain cost"
+		]
+	},
+	{
+		"name": "Support Unit",
+		"uniques": [
+			"Will not be displayed in Civilopedia"
 		]
 	},
 	{
