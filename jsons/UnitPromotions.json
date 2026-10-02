@@ -279,6 +279,30 @@
         "row": 4
 	},
 	{
+		"name": "Mobility",
+		"prerequisites": [
+			"Shock II",
+			"Drill II",
+			"Targeting I",
+			"Bombardment I",
+			"Boarding Party I",
+			"Coastal Raider I",
+			"Wolfpack I"
+		],
+		"uniques": [
+			"[+1] Movement"
+		],
+		"unitTypes": [
+			"Mounted",
+			"Armored",
+			"Melee Water",
+			"Ranged Water",
+			"Submarine"
+		],
+        "column": 24,
+        "row": 3
+	},
+	{
 		"name": "Mobility I",
 		"uniques": [
 			"[+1] Movement"
@@ -865,6 +889,41 @@
 		"unitTypes": [
 			"Aircraft Carrier"
 		]
+	},
+	{
+		"name": "Boarding Party I",
+		"uniques": [
+			"[+15]% Strength <vs [Water] units>"
+		],
+		"unitTypes": [
+			"Melee Water"
+		],
+        "column": 11,
+        "row": 1
+	},
+	{
+		"name": "Boarding Party II",
+		"prerequisites": ["Boarding Party I"],
+		"uniques": [
+			"[+15]% Strength <vs [Water] units>"
+		],
+		"unitTypes": [
+			"Melee Water"
+		],
+        "column": 11,
+        "row": 2
+	},
+	{
+		"name": "Boarding Party III",
+		"prerequisites": ["Boarding Party II"],
+		"uniques": [
+			"[+15]% Strength <vs [Water] units>"
+		],
+		"unitTypes": [
+			"Melee Water"
+		],
+        "column": 11,
+        "row": 3
 	},
 	{
 		"name": "Wolfpack I",
