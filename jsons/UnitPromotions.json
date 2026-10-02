@@ -1318,12 +1318,6 @@
 		]
 	},
     {
-        "name": "Feared Elephant",
-        "uniques": [
-            "[-20]% Strength for enemy [Military] units in adjacent [All] tiles"
-        ]
-    },
-    {
         "name": "Heavy Charge",
         "uniques": [
             "[+25]% Strength <when attacking>"
@@ -1379,13 +1373,6 @@
 		"uniques": [
 			"[1] additional attacks per turn",
 			"Can move after attacking"
-		]
-	},
-	{
-		"name": "[Hakkapeliitta] ability",
-		"uniques": [
-			"Transfer Movement to [Great General]",
-			"[+15]% Strength <when stacked with a [Great General] unit>"
 		]
 	},
 	{
@@ -1635,6 +1622,14 @@
 		]
 	},
 	{
+		"name": "[Hakkapeliitta] ability",
+		"uniques": [
+			"Transfer Movement to [Great General]",
+			"[+15]% Strength <when stacked with a [Great General] unit>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
 		"name": "[Hussar] ability",
 		"uniques": [
 			"[+100]% to Flank Attack bonuses",
@@ -1668,5 +1663,12 @@
 			"Withdraws before melee combat <with [80]% chance>",
 			"Will not be displayed in Civilopedia"
 		]
-	}
+	},
+	{
+        "name": "Feared Elephant",
+        "uniques": [
+            "[-20]% Strength for enemy [Military] units in adjacent [All] tiles",
+			"Will not be displayed in Civilopedia"
+        ]
+    }
 ]
