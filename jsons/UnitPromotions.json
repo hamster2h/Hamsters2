@@ -428,12 +428,6 @@
 		]
 	},
 	{
-		"name": "Firewall",
-		"uniques": [
-			"[+33]% Strength <when defending>"
-		]
-	},
-	{
 		"name": "Heat Sensor",
 		"uniques": [
 			"[+100]% Strength <vs [Stealth Bomber] units>",
@@ -1605,7 +1599,14 @@
 			"Unable to pillage tiles",
 			"Will not be displayed in Civilopedia"
 		]
-	}
+	},
+	{
+		"name": "Firewall",
+		"uniques": [
+			"[+33]% Strength <when defending>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
 	{
 		"name": "Heal Instantly",
 		"uniques": [
