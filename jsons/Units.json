@@ -474,11 +474,11 @@
 		"uniques": [
 			"[+150]% Strength <vs cities> <when attacking>",
 			"[+20]% Strength <vs [Mounted] units>",
+			"[-20]% Strength for enemy [Military] units in adjacent [All] tiles",
 			"No defensive terrain bonus"
 		],
 		"promotions": [
-			"Indirect Fire",
-			"Feared Elephant"
+			"Indirect Fire"
 		],
 		"attackSound": "throw"
 	},
