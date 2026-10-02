@@ -864,7 +864,9 @@
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[+50]% Strength <vs [Ranged] units> <when attacking>",
-			"[-33]% Strength <vs cities> <when attacking>"
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Transfer Movement to [Great General]",
+			"[+15]% Strength <when stacked with a [Great General] unit>"
 		],
 		"promotions": [
 			"[Hakkapeliitta] ability",
