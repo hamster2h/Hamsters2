@@ -1459,12 +1459,6 @@
 		]
 	},
 	{
-		"name": "Slinger Withdraw",
-		"uniques": [
-			"Withdraws before melee combat <with [80]% chance>"
-		]
-	},
-	{
 		"name": "Ngao Kongo",
 		"uniques": [
 			"Invisible to others <when [Wounded]>",
@@ -1650,6 +1644,7 @@
 	{
 		"name": "Support Unit",
 		"uniques": [
+			"Cannot attack",
 			"Will not be displayed in Civilopedia"
 		]
 	},
@@ -1665,6 +1660,13 @@
 		"uniques": [
 			"[This Unit] heals [50] HP",
 			"Doing so will consume this opportunity to choose a Promotion",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Slinger Withdraw",
+		"uniques": [
+			"Withdraws before melee combat <with [80]% chance>",
 			"Will not be displayed in Civilopedia"
 		]
 	}
