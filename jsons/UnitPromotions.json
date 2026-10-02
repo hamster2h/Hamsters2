@@ -1,13 +1,5 @@
 [
 	{
-		"name": "Heal Instantly",
-		"uniques": [
-			"[This Unit] heals [50] HP",
-			"Doing so will consume this opportunity to choose a Promotion",
-			"Will not be displayed in Civilopedia"
-		]
-	},
-	{
 		"name": "Organic Remedies",
 		"uniques": [
 			"[+10] HP when healing <in [Jungle] tiles>",
@@ -86,49 +78,6 @@
 		],
         "column": 24,
         "row": 5
-	},
-	{
-		"name": "Fighter Logistics I",
-		"prerequisites": [
-			"Bombardment II",
-			"Air Targeting II"
-		],
-		"uniques": [
-			"[1] additional attacks per turn",
-			"[1] additional attacks per turn <when stacked with a [Aircraft Carrier] unit>"
-		],
-		"unitTypes": [
-			"Fighter"
-		],
-        "column": 25,
-        "row": 3
-	},
-	{
-		"name": "Fighter Logistics II",
-		"prerequisites": [
-			"Fighter Logistics I"
-		],
-		"uniques": [
-			"[1] additional attacks per turn",
-			"[1] additional attacks per turn <when stacked with a [Aircraft Carrier] unit>"
-		],
-		"unitTypes": [
-			"Fighter"
-		],
-        "column": 25,
-        "row": 4
-	},
-	{
-		"name": "Sortie",
-		"prerequisites": ["Interception II", "Dogfighting II"],
-		"uniques": [
-			"[1] extra interceptions may be made per turn"
-		],
-		"unitTypes": [
-			"Fighter"
-		],
-        "column": 21,
-        "row": 2
 	},
 	{
 		"name": "Blitz",
@@ -1245,6 +1194,41 @@
         "row": 3
 	},
 	{
+		"name": "Interception I",
+		"uniques": [
+			"[+33]% Damage when intercepting"
+		],
+		"unitTypes": [
+			"Fighter"
+		],
+        "column": 18,
+        "row": 1
+	},
+	{
+		"name": "Interception II",
+		"prerequisites": ["Interception I"],
+		"uniques": [
+			"[+33]% Damage when intercepting"
+		],
+		"unitTypes": [
+			"Fighter"
+		],
+        "column": 18,
+        "row": 2
+	},
+	{
+		"name": "Interception III",
+		"prerequisites": ["Interception II"],
+		"uniques": [
+			"[+34]% Damage when intercepting"
+		],
+		"unitTypes": [
+			"Fighter"
+		],
+        "column": 18,
+        "row": 3
+	},
+	{
 		"name": "Dogfighting I",
 		"uniques": [
 			"[+33]% Strength when performing Air Sweep"
@@ -1310,6 +1294,49 @@
         "row": 2
 	},
 	{
+		"name": "Fighter Logistics I",
+		"prerequisites": [
+			"Bombardment II",
+			"Air Targeting II"
+		],
+		"uniques": [
+			"[1] additional attacks per turn",
+			"[1] additional attacks per turn <when stacked with a [Aircraft Carrier] unit>"
+		],
+		"unitTypes": [
+			"Fighter"
+		],
+        "column": 25,
+        "row": 3
+	},
+	{
+		"name": "Fighter Logistics II",
+		"prerequisites": [
+			"Fighter Logistics I"
+		],
+		"uniques": [
+			"[1] additional attacks per turn",
+			"[1] additional attacks per turn <when stacked with a [Aircraft Carrier] unit>"
+		],
+		"unitTypes": [
+			"Fighter"
+		],
+        "column": 25,
+        "row": 4
+	},
+	{
+		"name": "Sortie",
+		"prerequisites": ["Interception II", "Dogfighting II"],
+		"uniques": [
+			"[1] extra interceptions may be made per turn"
+		],
+		"unitTypes": [
+			"Fighter"
+		],
+        "column": 21,
+        "row": 2
+	},
+	{
 		"name": "Home Sweet Home",
 		"uniques": [
 			"[+50]% Strength decreasing with distance from the capital"
@@ -1337,15 +1364,98 @@
         ]
     },
 	{
+		"name": "[Mohawk Warrior] ability",
+		"uniques": [
+			"[+33]% Strength <when fighting in [Forest] tiles>",
+			"[+33]% Strength <when fighting in [Jungle] tiles>"
+		]
+	},
+	{
+		"name": "[Jaguar] ability",
+		"uniques": [
+			"[+33]% Strength <when fighting in [Forest] tiles>",
+			"[+33]% Strength <when fighting in [Jungle] tiles>",
+			"Heals [25] damage if it kills a unit"
+		]
+	},
+	{
+		"name": "[Persian Immortal] ability",
+		"uniques": [
+			"[+10] HP when healing"
+		]
+	},
+	{
+		"name": "[Janissary] ability",
+		"uniques": [
+			"Heals [50] damage if it kills a unit",
+			"[+25]% Strength <when attacking>"
+		]
+	},
+	{
 		"name": "[Foreign Legion] ability",
 		"uniques": [
 			"[+25]% Strength <when fighting in [Foreign Land] tiles>"
 		]
 	},
 	{
+		"name": "[Norwegian Ski Infantry] ability",
+		"uniques": [
+			"[+25]% Strength <when fighting in [Snow] tiles>",
+			"[+25]% Strength <when fighting in [Tundra] tiles>",
+			"[+25]% Strength <when fighting in [Hill] tiles>",
+			"Double movement in [Snow]",
+			"Double movement in [Tundra]",
+			"Double movement in [Hill]"
+		]
+	},
+	{
+		"name": "[Chu-Ko-Nu] ability",
+		"uniques": [
+			"[1] additional attacks per turn",
+			"Can move after attacking"
+		]
+	},
+	{
+		"name": "[Sipahi] ability",
+		"uniques": [
+			"No movement cost to pillage"
+		]
+	},
+	{
 		"name": "[Hussar] ability",
 		"uniques": [
 			"[+100]% to Flank Attack bonuses"
+		]
+	},
+	{
+		"name": "[Cossack] ability",
+		"uniques": [
+			"[+50]% Strength <vs [Wounded] units>"
+		]
+	},
+	{
+		"name": "[Conquistador] ability",
+		"uniques": [
+			"[+100]% Strength <when defending> <when [Embarked]>"
+		]
+	},
+	{
+		"name": "[Hakkapeliitta] ability",
+		"uniques": [
+			"Transfer Movement to [Great General]",
+			"[+15]% Strength <when stacked with a [Great General] unit>"
+		]
+	},
+	{
+		"name": "[Zero] ability",
+		"uniques": [
+			"[+33]% Strength <vs [Fighter] units>"
+		]
+	},
+	{
+		"name": "[Privateer] ability",
+		"uniques": [
+			"May capture killed [Water] units"
 		]
 	},
     {
@@ -1489,6 +1599,14 @@
 		"uniques": [
 			"Invisible to others <when [Wounded]>",
 			"[-10]% Strength <when [Wounded]>"
+		]
+	},
+	{
+		"name": "Heal Instantly",
+		"uniques": [
+			"[This Unit] heals [50] HP",
+			"Doing so will consume this opportunity to choose a Promotion",
+			"Will not be displayed in Civilopedia"
 		]
 	}
 ]
