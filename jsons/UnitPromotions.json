@@ -295,16 +295,6 @@
 	},
 	{
 		"name": "Sentry",
-		"prerequisites": [
-			"Accuracy I",
-			"Barrage I",
-			"Shock II",
-			"Drill II",
-			"Bombardment I",
-			"Targeting I",
-			"Boarding Party I",
-			"Coastal Raider I"
-		],
 		"uniques": [
 			"[+1] Sight"
 		],
@@ -315,20 +305,8 @@
 			"Ranged Water",
 			"Armored",
 			"Melee Water"
-		],
-        "column": 24,
-        "row": 4
-	},
-	{
-        "name": "Exploration",
-        "uniques": [
-            "[This Unit] gains [1] XP <with [25]% chance> <upon discovering a [All] tile>",
-            "[This Unit] gains [10] XP <upon discovering a [Natural Wonder] tile>"
-        ],
-        "unitTypes": [
-			"Scout"
 		]
-    },
+	},
 	{
 		"name": "Survivalism I",
 		"uniques": [
@@ -981,12 +959,6 @@
 	},
 	{
 		"name": "Medic",
-		"prerequisites": [
-			"Shock I",
-			"Drill I",
-			"Scouting II",
-			"Survivalism II"
-		],
 		"uniques": [
 			"All adjacent units heal [+5] HP when healing",
 			"[-50]% weight to this choice for AI decisions"
@@ -997,9 +969,7 @@
 			"Mounted",
 			"Scout",
 			"Aircraft Carrier"
-		],
-        "column": 10,
-        "row": 1
+		]
 	},
 	{
 		"name": "Medic II",
@@ -1016,9 +986,7 @@
 			"Mounted",
 			"Scout",
 			"Aircraft Carrier"
-		],
-        "column": 10,
-        "row": 2
+		]
 	},
 	{
 		"name": "Volley",
