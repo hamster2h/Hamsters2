@@ -19,16 +19,6 @@
 		]
 	},
 	{
-		"name": "Stealth",
-		"uniques": [
-			"Invisible to non-adjacent units",
-			"May enter foreign tiles without open borders"
-		],
-		"unitTypes": [
-			"Helicopter"
-		]
-	},
-	{
 		"name" : "Supply",
 		"prerequisites": [
 			"Bombardment III",
@@ -46,6 +36,25 @@
 			"Aircraft Carrier"
 		],
         "column": 16,
+        "row": 4
+	},
+	{
+		"name": "Blitz",
+		"prerequisites": [
+			"Shock III",
+			"Drill III"
+		],
+		"uniques": [
+			"[1] additional attacks per turn",
+			"Can move after attacking"
+		],
+		"unitTypes": [
+			"Sword",
+			"Gunpowder",
+			"Mounted",
+			"Armored"
+		],
+        "column": 6,
         "row": 4
 	},
 	{
@@ -78,22 +87,6 @@
 		],
         "column": 24,
         "row": 5
-	},
-	{
-		"name": "Blitz",
-		"prerequisites": ["Shock III","Drill III"],
-		"uniques": [
-			"[1] additional attacks per turn",
-			"Can move after attacking"
-		],
-		"unitTypes": [
-			"Sword",
-			"Gunpowder",
-			"Mounted",
-			"Armored"
-		],
-        "column": 6,
-        "row": 4
 	},
 	{
 		"name": "March",
@@ -830,39 +823,6 @@
 		]
 	},
 	{
-		"name": "Flight Deck I",
-		"uniques": [
-			"Can carry [1] extra [Aircraft] units"
-		],
-		"unitTypes": [
-			"Aircraft Carrier"
-		]
-	},
-	{
-		"name": "Flight Deck II",
-		"prerequisites": [
-			"Flight Deck I"
-		],
-		"uniques": [
-			"Can carry [1] extra [Aircraft] units"
-		],
-		"unitTypes": [
-			"Aircraft Carrier"
-		]
-	},
-	{
-		"name": "Flight Deck III",
-		"prerequisites": [
-			"Flight Deck II"
-		],
-		"uniques": [
-			"Can carry [2] extra [Aircraft] units"
-		],
-		"unitTypes": [
-			"Aircraft Carrier"
-		]
-	},
-	{
 		"name": "Boarding Party I",
 		"uniques": [
 			"[+15]% Strength <vs [Water] units>"
@@ -1194,6 +1154,39 @@
         "row": 3
 	},
 	{
+		"name": "Flight Deck I",
+		"uniques": [
+			"Can carry [1] extra [Aircraft] units"
+		],
+		"unitTypes": [
+			"Aircraft Carrier"
+		]
+	},
+	{
+		"name": "Flight Deck II",
+		"prerequisites": [
+			"Flight Deck I"
+		],
+		"uniques": [
+			"Can carry [1] extra [Aircraft] units"
+		],
+		"unitTypes": [
+			"Aircraft Carrier"
+		]
+	},
+	{
+		"name": "Flight Deck III",
+		"prerequisites": [
+			"Flight Deck II"
+		],
+		"uniques": [
+			"Can carry [2] extra [Aircraft] units"
+		],
+		"unitTypes": [
+			"Aircraft Carrier"
+		]
+	},
+	{
 		"name": "Interception I",
 		"uniques": [
 			"[+33]% Damage when intercepting"
@@ -1458,12 +1451,44 @@
 			"May capture killed [Water] units"
 		]
 	},
+	{
+		"name": "Haka War Dance",
+		"uniques": [
+			"[-15]% Strength for enemy [Military] units in adjacent [All] tiles"
+		]
+	},
+	{
+		"name": "Pictish Courage",
+		"uniques": [
+			"No movement cost to pillage",
+			"[+20]% Strength <when fighting in [Foreign Land] tiles>"
+		]
+	},
+	{
+		"name": "Slinger Withdraw",
+		"uniques": [
+			"Withdraws before melee combat <with [80]% chance>"
+		]
+	},
+	{
+		"name": "Ngao Kongo",
+		"uniques": [
+			"Invisible to others <when [Wounded]>",
+			"[-10]% Strength <when [Wounded]>"
+		]
+	},
     {
         "name": "Mystic Blade",
         "uniques": [
             "Comment [Access to special promotions]"
         ]
     },
+	{
+		"name": "Golden Age from Victories",
+		"uniques": [
+			"Earn [400]% of killed [Military] unit's [Strength] as [Golden Age points]"
+		]
+	},
     {
         "name": "Ambition",
         "uniques": [
@@ -1589,18 +1614,52 @@
         "unitTypes": ["Sword","Gunpowder"]
     },
 	{
-		"name": "Golden Age from Victories",
+		"name": "Great Generals I",
 		"uniques": [
-			"Earn [400]% of killed [Military] unit's [Strength] as [Golden Age points]"
+			"[Great General] is earned [50]% faster"
 		]
 	},
 	{
-		"name": "Ngao Kongo",
+		"name": "Great Generals II",
 		"uniques": [
-			"Invisible to others <when [Wounded]>",
-			"[-10]% Strength <when [Wounded]>"
+			"[Great General] is earned [100]% faster"
 		]
 	},
+	{
+		"name": "Quick Study",
+		"uniques": [
+			"[+50]% XP gained from combat"
+		]
+	},
+	{
+		"name": "Stealth",
+		"uniques": [
+			"Invisible to non-adjacent units",
+			"May enter foreign tiles without open borders"
+		],
+		"unitTypes": [
+			"Helicopter"
+		]
+	},
+	{
+        "name": "Devout",
+        "uniques": [
+			"Can Spread Religion <[1] additional time(s)>"
+		]
+    },
+	{
+		"name": "Ignore terrain cost",
+		"uniques": [
+			"Ignores terrain cost"
+		]
+	},
+	{
+		"name": "Unable to pillage tiles",
+		"uniques": [
+			"Unable to pillage tiles",
+			"Will not be displayed in Civilopedia"
+		]
+	}
 	{
 		"name": "Heal Instantly",
 		"uniques": [
