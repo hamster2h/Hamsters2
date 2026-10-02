@@ -1650,7 +1650,8 @@
 	{
 		"name": "Ignore terrain cost",
 		"uniques": [
-			"Ignores terrain cost"
+			"Ignores terrain cost",
+			"Will not be displayed in Civilopedia"
 		]
 	},
 	{
