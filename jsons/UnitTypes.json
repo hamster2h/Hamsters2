@@ -49,7 +49,8 @@
             "[This Unit] gains [10] XP <upon discovering a [Natural Wonder] tile>",
 			"Can pass through impassable tiles",
 			"Ignores terrain cost",
-			"Unable to capture cities"
+			"Unable to capture cities",
+			"Withdraws before melee combat <with [33]% chance>"
         ]
     },
     {
