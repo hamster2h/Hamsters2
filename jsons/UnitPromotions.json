@@ -462,12 +462,6 @@
 		]
 	},
 	{
-		"name": "Skirmish",
-		"uniques": [
-			"Withdraws before melee combat <with [33]% chance>"
-		]
-	},
-	{
 		"name": "Shock I",
 		"uniques": [
 			"[+15]% Strength <when fighting in [Open terrain] tiles>"
@@ -1575,6 +1569,13 @@
 		"uniques": [
 			"[This Unit] heals [50] HP",
 			"Doing so will consume this opportunity to choose a Promotion",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Skirmish",
+		"uniques": [
+			"Withdraws before melee combat <with [33]% chance>",
 			"Will not be displayed in Civilopedia"
 		]
 	},
