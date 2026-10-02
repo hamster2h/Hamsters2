@@ -206,8 +206,7 @@
 		],
 		"promotions": [
 			"Exploration",
-			"Skirmish",
-			"Ignore terrain cost"
+			"Skirmish"
 		],
 		"attackSound": "nonmetalhit"
 	},
@@ -231,7 +230,6 @@
 		"promotions": [
 			"Exploration",
 			"Skirmish",
-			"Ignore terrain cost",
 			"Mobility I",
 			"Mobility II"
 		],
@@ -254,8 +252,7 @@
 		],
 		"promotions": [
 			"Exploration",
-			"Skirmish",
-			"Ignore terrain cost"
+			"Skirmish"
 		],
 		"attackSound": "shot"
 	},
@@ -279,7 +276,6 @@
 		"promotions": [
 			"Exploration",
 			"Skirmish",
-			"Ignore terrain cost",
 			"Amphibious",
 			"Stealth"
 		],
