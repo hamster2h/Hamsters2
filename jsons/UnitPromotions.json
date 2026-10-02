@@ -1650,15 +1650,13 @@
 	{
 		"name": "Ignore terrain cost",
 		"uniques": [
-			"Ignores terrain cost",
-			"Will not be displayed in Civilopedia"
+			"Ignores terrain cost"
 		]
 	},
 	{
 		"name": "Unable to pillage tiles",
 		"uniques": [
-			"Unable to pillage tiles",
-			"Will not be displayed in Civilopedia"
+			"Unable to pillage tiles"
 		]
 	}
 	{
