@@ -146,13 +146,11 @@
 		"upgradesTo": "Tactical Supplier",
 		"obsoleteTech": "Pharmaceuticals",
 		"uniques": [
+			"Cannot attack",
 			"All adjacent units heal [+10] HP when healing <before adopting [Collectivization]>",
 			"All adjacent units heal [+20] HP when healing <after adopting [Collectivization]>",
 			"Can only be built <in cities with a [Hospital]>",
 			"Never appears as a Barbarian unit"
-		],
-		"promotions": [
-			"Support Unit"
 		]
 	},
 	{
@@ -163,13 +161,11 @@
 		"cost": 1400,
 		"requiredTech": "Pharmaceuticals",
 		"uniques": [
+			"Cannot attack",
 			"All adjacent units heal [+15] HP when healing <before adopting [Collectivization]>",
 			"All adjacent units heal [+30] HP when healing <after adopting [Collectivization]>",
 			"Can only be built <in cities with a [Hospital]>",
 			"Never appears as a Barbarian unit"
-		],
-		"promotions": [
-			"Support Unit"
 		]
 	},
 	{
@@ -184,12 +180,10 @@
 		"uniques": [
 			"Cyber",
 			"Hacker",
+			"Cannot attack",
 			"Comment [+33% Strength for some adjacent Units vs Cyber Units]",
 			"Comment [25% chance for some adjacent units to capture killed Cyber Units]",
 			"Never appears as a Barbarian unit"
-		],
-		"promotions": [
-			"Support Unit"
 		]
 	},
 	{
@@ -294,6 +288,7 @@
 		"uniques": [
 			"Intel",
 			"[+1] Sight",
+			"Cannot attack",
 			"Comment [+1 Range to adjacent Siege and Ranged Water Units]",
 			"[+20]% Strength bonus for [Siege] units within [1] tiles",
 			"No defensive terrain bonus",
@@ -301,7 +296,6 @@
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
-			"Support Unit",
 			"Hovering"
 		]
 	},
@@ -316,6 +310,7 @@
 			"Cyber",
 			"Intel2",
 			"[+2] Sight",
+			"Cannot attack",
 			"Comment [+2 Range to adjacent Siege and Ranged Water Units]",
 			"[+33]% Strength bonus for [Siege] units within [1] tiles",
 			"Can carry [2] [Guided Missile] units",
@@ -325,7 +320,6 @@
 			"Can only be built <in cities with a [Factory]>"
 		],
 		"promotions": [
-			"Support Unit",
 			"Hovering"
 		]
 	},
