@@ -913,15 +913,6 @@
 		]
 	},
 	{
-		"name": "Information Warfare",
-		"isNationalWonder": true,
-		"cost": 2835,
-		"requiredTech": "Artificial Intelligence",
-		"uniques": [
-			"[Support] units gain the [Firewall] promotion"
-		]
-	},
-	{
 		"name": "Monolith Portal",
 		"isNationalWonder": true,
 		"cost": 3030,
@@ -3626,6 +3617,15 @@
 			"Destroyed when the city is captured",
 			"Unbuildable",
 			"Unsellable"
+		]
+	},
+	{
+		"name": "Information Warfare",
+		"isNationalWonder": true,
+		"cost": 2835,
+		//"requiredTech": "Artificial Intelligence",
+		"uniques": [
+			"Will not be displayed in Civilopedia"
 		]
 	}
 ]
