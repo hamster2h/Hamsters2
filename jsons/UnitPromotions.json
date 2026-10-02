@@ -1656,7 +1656,8 @@
 	{
 		"name": "Unable to pillage tiles",
 		"uniques": [
-			"Unable to pillage tiles"
+			"Unable to pillage tiles",
+			"Will not be displayed in Civilopedia"
 		]
 	}
 	{
