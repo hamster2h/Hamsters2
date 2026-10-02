@@ -2068,9 +2068,6 @@
 			"[+50]% Strength <after discovering [Military Science]>",
 			"Founds a new city <on foreign continents>"
 		],
-		"promotions": [
-			"[Conquistador] ability"
-		],
 		"attackSound": "horse"
 	},
 	{
