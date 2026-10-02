@@ -464,6 +464,8 @@
 			"[+25]% Strength <vs [Armored] units> <when attacking>"
 		],
 		"unitTypes": [
+			"Sword",
+			"Gunpowder",
 			"Helicopter"
 		],
         "column": 23,
@@ -476,6 +478,8 @@
 			"[+25]% Strength <vs [Armored] units> <when attacking>"
 		],
 		"unitTypes": [
+			"Sword",
+			"Gunpowder",
 			"Helicopter"
 		],
         "column": 23,
@@ -609,8 +613,7 @@
 			"[-100]% weight to this choice for AI decisions"
 		],
 		"unitTypes": [
-			"Sword",
-			"Gunpowder"
+			
 		],
         "column": 25,
         "row": 1
@@ -622,8 +625,7 @@
 			"[+33]% Strength <vs [Armored] units>"
 		],
 		"unitTypes": [
-			"Sword",
-			"Gunpowder"
+			
 		],
         "column": 25,
         "row": 2
