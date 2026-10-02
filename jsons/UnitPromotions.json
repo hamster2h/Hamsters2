@@ -159,6 +159,22 @@
         "row": 3
 	},
 	{
+		"name": "Besiege",
+		"prerequisites": [
+			"Shock II",
+			"Drill II"
+		],
+		"uniques": [
+			"[+50]% Strength <vs cities>"
+		],
+		"unitTypes": [
+			"Sword",
+			"Gunpowder"
+		],
+        "column": 6,
+        "row": 3
+	},
+	{
 		"name": "Woodsman",
 		"prerequisites": [
 			"Shock III",
@@ -286,6 +302,32 @@
 		],
         "column": 22,
         "row": 2
+	},
+	{
+		"name": "Sentry",
+		"prerequisites": [
+			"Accuracy I",
+			"Barrage I",
+			"Shock II",
+			"Drill II",
+			"Bombardment I",
+			"Targeting I",
+			"Boarding Party I",
+			"Coastal Raider I"
+		],
+		"uniques": [
+			"[+1] Sight"
+		],
+		"unitTypes": [
+			"Sword",
+			"Gunpowder",
+			"Mounted",
+			"Ranged Water",
+			"Armored",
+			"Melee Water"
+		],
+        "column": 24,
+        "row": 4
 	},
 	{
         "name": "Exploration",
@@ -457,6 +499,30 @@
 		"uniques": [
 			"Withdraws before melee combat <with [33]% chance>"
 		]
+	},
+	{
+		"name": "Ambush I",
+		"uniques": [
+			"[+33]% Strength <vs [Armored] units>",
+			"[-100]% weight to this choice for AI decisions"
+		],
+		"unitTypes": [
+			
+		],
+        "column": 25,
+        "row": 1
+	},
+	{
+		"name": "Ambush II",
+		"prerequisites": ["Ambush I"],
+		"uniques": [
+			"[+33]% Strength <vs [Armored] units>"
+		],
+		"unitTypes": [
+			
+		],
+        "column": 25,
+        "row": 2
 	},
 	{
 		"name": "Shock I",
@@ -775,30 +841,6 @@
 		],
         "column": 14,
         "row": 3
-	},
-	{
-		"name": "Ambush I",
-		"uniques": [
-			"[+33]% Strength <vs [Armored] units>",
-			"[-100]% weight to this choice for AI decisions"
-		],
-		"unitTypes": [
-			
-		],
-        "column": 25,
-        "row": 1
-	},
-	{
-		"name": "Ambush II",
-		"prerequisites": ["Ambush I"],
-		"uniques": [
-			"[+33]% Strength <vs [Armored] units>"
-		],
-		"unitTypes": [
-			
-		],
-        "column": 25,
-        "row": 2
 	},
 	{
 		"name": "Scouting I",
