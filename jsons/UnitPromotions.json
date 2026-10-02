@@ -484,30 +484,6 @@
 		]
 	},
 	{
-		"name": "Ambush I",
-		"uniques": [
-			"[+33]% Strength <vs [Armored] units>",
-			"[-100]% weight to this choice for AI decisions"
-		],
-		"unitTypes": [
-			
-		],
-        "column": 25,
-        "row": 1
-	},
-	{
-		"name": "Ambush II",
-		"prerequisites": ["Ambush I"],
-		"uniques": [
-			"[+33]% Strength <vs [Armored] units>"
-		],
-		"unitTypes": [
-			
-		],
-        "column": 25,
-        "row": 2
-	},
-	{
 		"name": "Shock I",
 		"uniques": [
 			"[+15]% Strength <when fighting in [Open terrain] tiles>"
@@ -1635,6 +1611,21 @@
 			"Can Spread Religion <[1] additional time(s)>"
 		]
     },
+	{
+		"name": "Ambush I",
+		"uniques": [ ],
+		"unitTypes": [ ],
+        "column": 25,
+        "row": 1
+	},
+	{
+		"name": "Ambush II",
+		"prerequisites": ["Ambush I"],
+		"uniques": [ ],
+		"unitTypes": [ ],
+        "column": 25,
+        "row": 2
+	},
 	{
 		"name": "Ignore terrain cost",
 		"uniques": [
