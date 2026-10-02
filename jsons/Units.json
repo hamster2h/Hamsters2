@@ -2386,7 +2386,7 @@
 		"unitType": "Armored",
 		"movement": 5,
 		"strength": 100,
-		"rangedStrength": 140,
+		"rangedStrength": 120,
 		"range": 2,
 		"cost": 8000,
 		"requiredTech": "Terraforming",
