@@ -1663,12 +1663,5 @@
 			"Withdraws before melee combat <with [80]% chance>",
 			"Will not be displayed in Civilopedia"
 		]
-	},
-	{
-        "name": "Feared Elephant",
-        "uniques": [
-            "[-20]% Strength for enemy [Military] units in adjacent [All] tiles",
-			"Will not be displayed in Civilopedia"
-        ]
-    }
+	}
 ]
