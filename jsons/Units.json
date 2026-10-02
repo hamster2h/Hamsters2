@@ -926,29 +926,29 @@
 		"name": "Helicopter Gunship",
 		"unitType": "Helicopter",
 		"movement": 10,
-		"strength": 60,
-		"rangedStrength": 85,
+		"strength": 40,
+		"rangedStrength": 110,
 		"range": 3,
-		"cost": 5000,
+		"cost": 6000,
 		"requiredTech": "Computers",
 		"upgradesTo": "Stealth Helicopter",
 		"obsoleteTech": "Clean Energy",
 		"uniques": [
 			"Consumes [1] [Oil] <before discovering [Particle Physics]>",
 			"Consumes [1] [Aluminum]",
-			"[+200]% Strength <vs [Armored] units> <when attacking>"
+			"[+100]% Strength <when attacking>"
 		],
 		"promotions": [
 			"Hovering"
 		],
-		"attackSound": "machinegun"
+		"attackSound": "missile"
 	},
 	{
 		"name": "Stealth Helicopter",
 		"unitType": "Helicopter",
 		"movement": 12,
-		"strength": 70,
-		"rangedStrength": 100,
+		"strength": 50,
+		"rangedStrength": 140,
 		"range": 4,
 		"cost": 12000,
 		"requiredTech": "Clean Energy",
@@ -956,7 +956,8 @@
 			"Consumes [1] [Oil] <before discovering [Particle Physics]>",
 			"Consumes [1] [Aluminum]",
 			"Consumes [1] [Composites]",
-			"[+200]% Strength <vs [Armored] units> <when attacking>"
+			"Can carry [1] [AM Missiles] units",
+			"[+100]% Strength <when attacking>"
 		],
 		"promotions": [
 			"Hovering",
@@ -2290,9 +2291,9 @@
 		"cost": 1400,
 		"upgradesTo": "Tank",
 		"obsoleteTech": "Combustion",
-		"requiredResource": "Iron",
 		"uniques": [
 			"Consumes [1] [Oil]",
+			"Consumes [1] [Iron]",
 			"Only available <if [EP-Early Vehicles] is constructed>",
 			"[+33]% Strength <vs [Land] units>",
 			"[-1] Sight",
@@ -2314,9 +2315,9 @@
 		"requiredTech": "Combustion",
 		"upgradesTo": "Modern Armor",
 		"obsoleteTech": "Mobile Tactics",
-		"requiredResource": "Iron",
 		"uniques": [
 			"Consumes [1] [Oil]",
+			"Consumes [1] [Iron]",
 			"[+33]% Strength <vs [Land] units>",
 			"[+25]% Strength <vs [Armored] units> <when attacking>",
 			"Never appears as a Barbarian unit"
@@ -2340,8 +2341,8 @@
 		"requiredTech": "Combustion",
 		"upgradesTo": "Modern Armor",
 		"obsoleteTech": "Mobile Tactics",
-		"requiredResource": "Iron",
 		"uniques": [
+			"Consumes [1] [Iron]",
 			"[+33]% Strength <vs [Land] units>",
 			"[+25]% Strength <vs [Armored] units> <when attacking>",
 			"Can move immediately once bought",
@@ -2365,10 +2366,10 @@
 		"requiredTech": "Mobile Tactics",
 		"upgradesTo": "Hovertank",
 		"obsoleteTech": "Terraforming",
-		"requiredResource": "Iron",
 		"uniques": [
 			"Cyber",
 			"Consumes [1] [Oil] <before discovering [Particle Physics]>",
+			"Consumes [1] [Iron]",
 			"[+50]% Strength <vs [Land] units>",
 			"[+50]% Strength <vs [Armored] units> <when attacking>",
 			"Never appears as a Barbarian unit"
@@ -2385,14 +2386,15 @@
 		"unitType": "Armored",
 		"movement": 5,
 		"strength": 100,
-		"rangedStrength": 120,
+		"rangedStrength": 140,
 		"range": 2,
 		"cost": 8000,
 		"requiredTech": "Terraforming",
-		"requiredResource": "Composites",
+		"upgradesTo": "Giant Death Robot",
 		"uniques": [
 			"Cyber",
 			"Consumes [1] [Oil] <before discovering [Particle Physics]>",
+			"Consumes [1] [Composites]",
 			"[+50]% Strength <vs [Land] units>",
 			"[+50]% Strength <vs [Armored] units> <when attacking>",
 			"Never appears as a Barbarian unit"
@@ -2408,27 +2410,28 @@
 	{
 		"name": "Giant Death Robot",
 		"unitType": "Armored",
-		"movement": 4,
+		"movement": 6,
 		"strength": 120,
 		"rangedStrength": 160,
 		"range": 3,
 		"cost": 22000,
-		"requiredTech": "Nuclear Fusion",
+		"requiredTech": "World Alliance",
 		"uniques": [
 			"Cyber",
 			"Consumes [1] [Uranium] <before discovering [Particle Physics]>",
-			"Consumes [4] [Composites]",
+			"Consumes [2] [Composites]",
 			"Can move immediately once bought",
 			"[+50]% Strength <vs [Land] units>",
-			"[-75]% Strength <vs [Armored] units>",
+			"[+75]% Strength <vs [Armored] units> <when attacking>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
 			"Armor Plating I",
 			"Armor Plating II",
 			"Armor Plating III",
-			"Scan Visor",
-			"Gravity Generator"
+			"Blitz",
+			"Gravity Generator",
+			"Scan Visor"
 		],
 		"attackSound": "gdrAttack"
 	},
