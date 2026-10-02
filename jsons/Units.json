@@ -198,9 +198,6 @@
 			"[-90]% maintenance costs",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": [
-			"Skirmish"
-		],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -221,7 +218,6 @@
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
-			"Skirmish",
 			"Mobility I",
 			"Mobility II"
 		],
@@ -241,9 +237,6 @@
 			"[-50]% Strength <before discovering [Rifling]>",
 			"[-50]% maintenance costs",
 			"Never appears as a Barbarian unit"
-		],
-		"promotions": [
-			"Skirmish"
 		],
 		"attackSound": "shot"
 	},
@@ -265,7 +258,6 @@
 			"Can only be built <in cities with a [Factory]>"
 		],
 		"promotions": [
-			"Skirmish",
 			"Amphibious",
 			"Stealth"
 		],
