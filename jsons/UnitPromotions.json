@@ -544,6 +544,91 @@
         "row": 3
     },
 	{
+		"name": "Drill I",
+		"uniques": [
+			"[+15]% Strength <when fighting in [Rough terrain] tiles>"
+		],
+		"unitTypes": [
+			"Sword",
+			"Gunpowder",
+			"Mounted",
+			"Armored"
+		],
+        "column": 5,
+        "row": 1
+	},
+	{
+		"name": "Drill II",
+		"prerequisites": ["Drill I"],
+		"uniques": [
+			"[+15]% Strength <when fighting in [Rough terrain] tiles>"
+		],
+		"unitTypes": [
+			"Sword",
+			"Gunpowder",
+			"Mounted",
+			"Armored"
+		],
+        "column": 5,
+        "row": 2
+	},
+	{
+		"name": "Drill III",
+		"prerequisites": ["Drill II"],
+		"uniques": [
+			"[+15]% Strength <when fighting in [Rough terrain] tiles>"
+		],
+		"unitTypes": [
+			"Sword",
+			"Gunpowder",
+			"Mounted",
+			"Armored"
+		],
+        "column": 5,
+        "row": 3
+	},
+	{
+		"name": "Barrage I",
+		"uniques": [
+			"[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"
+		],
+		"unitTypes": [
+			"Siege",
+			"Archery",
+			"Ranged Gunpowder"
+		],
+        "column": 2,
+        "row": 1
+	},
+	{
+		"name": "Barrage II",
+		"prerequisites": ["Barrage I"],
+		"uniques": [
+			"[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"
+		],
+		"unitTypes": [
+			"Siege",
+			"Archery",
+			"Ranged Gunpowder"
+		],
+        "column": 2,
+        "row": 2
+	},
+	{
+		"name": "Barrage III",
+		"prerequisites": ["Barrage II"],
+		"uniques": [
+			"[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"
+		],
+		"unitTypes": [
+			"Siege",
+			"Archery",
+			"Ranged Gunpowder"
+		],
+        "column": 2,
+        "row": 3
+	},
+	{
 		"name": "Anti-Armor I",
 		"uniques": [
 			"[+25]% Strength <vs [Armored] units> <when attacking>"
