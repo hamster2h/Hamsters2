@@ -199,7 +199,6 @@
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
-			"Exploration",
 			"Skirmish"
 		],
 		"attackSound": "nonmetalhit"
@@ -222,7 +221,6 @@
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
-			"Exploration",
 			"Skirmish",
 			"Mobility I",
 			"Mobility II"
@@ -245,7 +243,6 @@
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
-			"Exploration",
 			"Skirmish"
 		],
 		"attackSound": "shot"
@@ -268,7 +265,6 @@
 			"Can only be built <in cities with a [Factory]>"
 		],
 		"promotions": [
-			"Exploration",
 			"Skirmish",
 			"Amphibious",
 			"Stealth"
