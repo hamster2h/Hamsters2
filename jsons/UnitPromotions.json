@@ -3,7 +3,8 @@
 		"name": "Heal Instantly",
 		"uniques": [
 			"[This Unit] heals [50] HP",
-			"Doing so will consume this opportunity to choose a Promotion"
+			"Doing so will consume this opportunity to choose a Promotion",
+			"Will not be displayed in Civilopedia"
 		]
 	},
 	{
