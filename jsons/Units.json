@@ -840,10 +840,10 @@
 			"No defensive terrain bonus",
 			"[+50]% Strength <vs [Ranged] units> <when attacking>",
 			"[-33]% Strength <vs cities> <when attacking>",
+			"No movement cost to pillage",
 			"[+1] Sight"
 		],
 		"promotions": [
-			"[Sipahi] ability",
 			"Formation I"
 		],
 		"attackSound": "horse"
@@ -2194,10 +2194,8 @@
 			"No defensive terrain bonus",
 			"[+25]% Strength <vs [Ranged] units> <when attacking>",
 			"[-33]% Strength <vs cities> <when attacking>",
-			"[+25]% Strength <in [Friendly Land] tiles>"
-		],
-		"promotions": [
-			"[Cossack] ability"
+			"[+25]% Strength <in [Friendly Land] tiles>",
+			"[+50]% Strength <vs [Wounded] units>"
 		],
 		"attackSound": "horse"
 	},
@@ -2218,11 +2216,9 @@
 			"No defensive terrain bonus",
 			"[+25]% Strength <vs [Ranged] units> <when attacking>",
 			"[-33]% Strength <vs cities> <when attacking>",
+			"[+100]% to Flank Attack bonuses",
 			"Ignores Zone of Control",
 			"[+1] Sight"
-		],
-		"promotions": [
-			"[Hussar] ability"
 		],
 		"attackSound": "horse"
 	},
