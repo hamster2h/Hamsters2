@@ -567,7 +567,7 @@
 			"Archery",
 			"Ranged Gunpowder"
 		],
-        "column": 1,
+        "column": 2,
         "row": 1
     },
 	{
@@ -580,9 +580,7 @@
 			"Siege",
 			"Archery",
 			"Ranged Gunpowder"
-		],
-        "column": 1,
-        "row": 2
+		]
     },
 	{
 		"name": "Accuracy III",
@@ -594,9 +592,7 @@
 			"Siege",
 			"Archery",
 			"Ranged Gunpowder"
-		],
-        "column": 1,
-        "row": 3
+		]
     },
 	{
 		"name": "Drill I",
