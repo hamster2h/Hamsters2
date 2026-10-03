@@ -114,19 +114,13 @@
 	},
 	{
 		"name": "Besiege",
-		"prerequisites": [
-			"Shock II",
-			"Drill II"
-		],
 		"uniques": [
-			"[+50]% Strength <vs cities>"
+			"[+25]% Strength <vs cities>"
 		],
 		"unitTypes": [
 			"Sword",
 			"Gunpowder"
-		],
-        "column": 6,
-        "row": 3
+		]
 	},
 	{
 		"name": "Woodsman",
