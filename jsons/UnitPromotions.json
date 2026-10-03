@@ -158,7 +158,8 @@
 			"Archery",
 			"Ranged Gunpowder",
 			"Armored"
-		]
+		],
+		"column": 7
     },
 	{
 		"name": "Operational Range",
