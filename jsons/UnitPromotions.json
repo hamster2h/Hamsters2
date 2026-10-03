@@ -300,7 +300,9 @@
 		"unitTypes": [
 			"Scout",
 			"Helicopter"
-		]
+		],
+        "column": 2,
+		"row": 1
 	},
 	{
 		"name": "Survivalism II",
