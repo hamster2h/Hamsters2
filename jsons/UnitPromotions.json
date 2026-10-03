@@ -685,7 +685,6 @@
 			"[+25]% Strength <vs [Armored] units> <when attacking>"
 		],
 		"unitTypes": [
-			"Sword",
 			"Gunpowder",
 			"Helicopter"
 		],
@@ -699,7 +698,6 @@
 			"[+25]% Strength <vs [Armored] units> <when attacking>"
 		],
 		"unitTypes": [
-			"Sword",
 			"Gunpowder",
 			"Helicopter"
 		],
