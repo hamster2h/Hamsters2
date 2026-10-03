@@ -34,9 +34,7 @@
 			"Melee Water",
 			"Ranged Water",
 			"Aircraft Carrier"
-		],
-        "column": 16,
-        "row": 4
+		]
 	},
 	{
 		"name": "Blitz",
@@ -53,9 +51,7 @@
 			"Gunpowder",
 			"Mounted",
 			"Armored"
-		],
-        "column": 6,
-        "row": 4
+		]
 	},
 	{
 		"name": "Logistics",
@@ -85,9 +81,7 @@
 			"Submarine",
 			"Bomber",
 			"Helicopter"
-		],
-        "column": 24,
-        "row": 5
+		]
 	},
 	{
 		"name": "March",
@@ -109,9 +103,7 @@
 			"Armored",
 			"Siege",
 			"Mounted"
-		],
-        "column": 10,
-        "row": 3
+		]
 	},
 	{
 		"name": "Besiege",
@@ -179,9 +171,7 @@
 			"Bomber",
 			"Missile",
 			"Big Missile"
-		],
-        "column": 21,
-        "row": 1
+		]
 	},
 	{
 		"name": "Extended Range",
@@ -214,18 +204,14 @@
 			"Submarine",
 			"Missile",
 			"Big Missile"
-		],
-        "column": 3,
-        "row": 3
+		]
 	},
 	{
 		"name": "Evasion",
 		"uniques": [
 			"Damage taken from interception reduced by [50]%",
 			"[+200]% weight to this choice for AI decisions"
-		],
-        "column": 30,
-        "row": 1
+		]
 	},
 	{
 		"name": "Indirect Fire",
@@ -242,9 +228,7 @@
 			"Archery",
 			"Siege",
 			"Ranged Water"
-		],
-        "column": 3,
-        "row": 4
+		]
 	},
 	{
 		"name": "Mobility",
@@ -278,9 +262,7 @@
 		"unitTypes": [
 			"Helicopter",
 			"Aircraft Carrier"
-		],
-        "column": 22,
-        "row": 1
+		]
 	},
 	{
 		"name": "Mobility II",
@@ -291,9 +273,7 @@
 		"unitTypes": [
 			"Helicopter",
 			"Aircraft Carrier"
-		],
-        "column": 22,
-        "row": 2
+		]
 	},
 	{
 		"name": "Sentry",
@@ -320,9 +300,7 @@
 		"unitTypes": [
 			"Scout",
 			"Helicopter"
-		],
-        "column": 1,
-        "row": 1
+		]
 	},
 	{
 		"name": "Survivalism II",
@@ -364,9 +342,7 @@
 		],
 		"unitTypes": [
 			"Melee Water"
-		],
-        "column": 12,
-        "row": 5
+		]
 	},
 	{
 		"name": "Hovering",
@@ -394,9 +370,7 @@
 		"unitTypes": [
 			"Fighter",
 			"Bomber"
-		],
-        "column": 21,
-        "row": 3
+		]
 	},
 	{
 		"name": "Rocket Launcher",
@@ -478,9 +452,7 @@
 			"Mounted",
 			"Armored",
 			"Helicopter"
-		],
-        "column": 6,
-        "row": 2
+		]
 	},
 	{
 		"name": "Ambush I",
@@ -494,9 +466,7 @@
 			"Mounted",
 			"Armored",
 			"Helicopter"
-		],
-		"column": 7,
-        "row": 1
+		]
 	},
 	{
 		"name": "Ambush II",
@@ -523,9 +493,7 @@
 			"Gunpowder",
 			"Mounted",
 			"Armored"
-		],
-        "column": 4,
-        "row": 1
+		]
 	},
 	{
 		"name": "Shock II",
@@ -538,9 +506,7 @@
 			"Gunpowder",
 			"Mounted",
 			"Armored"
-		],
-        "column": 4,
-        "row": 2
+		]
 	},
 	{
 		"name": "Shock III",
@@ -553,9 +519,7 @@
 			"Gunpowder",
 			"Mounted",
 			"Armored"
-		],
-        "column": 4,
-        "row": 3
+		]
 	},
 	{
 		"name": "Accuracy I",
@@ -566,9 +530,7 @@
 			"Siege",
 			"Archery",
 			"Ranged Gunpowder"
-		],
-        "column": 2,
-        "row": 1
+		]
     },
 	{
 		"name": "Accuracy II",
@@ -604,9 +566,7 @@
 			"Gunpowder",
 			"Mounted",
 			"Armored"
-		],
-        "column": 5,
-        "row": 1
+		]
 	},
 	{
 		"name": "Drill II",
@@ -619,9 +579,7 @@
 			"Gunpowder",
 			"Mounted",
 			"Armored"
-		],
-        "column": 5,
-        "row": 2
+		]
 	},
 	{
 		"name": "Drill III",
@@ -634,9 +592,7 @@
 			"Gunpowder",
 			"Mounted",
 			"Armored"
-		],
-        "column": 5,
-        "row": 3
+		]
 	},
 	{
 		"name": "Barrage I",
@@ -647,9 +603,7 @@
 			"Siege",
 			"Archery",
 			"Ranged Gunpowder"
-		],
-        "column": 2,
-        "row": 1
+		]
 	},
 	{
 		"name": "Barrage II",
@@ -661,9 +615,7 @@
 			"Siege",
 			"Archery",
 			"Ranged Gunpowder"
-		],
-        "column": 2,
-        "row": 2
+		]
 	},
 	{
 		"name": "Barrage III",
@@ -675,9 +627,7 @@
 			"Siege",
 			"Archery",
 			"Ranged Gunpowder"
-		],
-        "column": 2,
-        "row": 3
+		]
 	},
 	{
 		"name": "Cover I",
@@ -690,9 +640,7 @@
 			"Archery",
 			"Ranged Gunpowder",
 			"Siege"
-		],
-        "column": 24,
-        "row": 1
+		]
 	},
 	{
 		"name": "Cover II",
@@ -706,9 +654,7 @@
 			"Archery",
 			"Ranged Gunpowder",
 			"Siege"
-		],
-        "column": 24,
-        "row": 2
+		]
 	},
 	{
 		"name": "Formation I",
@@ -741,9 +687,7 @@
 		"unitTypes": [
 			"Gunpowder",
 			"Helicopter"
-		],
-        "column": 23,
-        "row": 1
+		]
 	},
 	{
 		"name": "Anti-Armor II",
@@ -754,9 +698,7 @@
 		"unitTypes": [
 			"Gunpowder",
 			"Helicopter"
-		],
-        "column": 23,
-        "row": 2
+		]
 	},
 	{
 		"name": "Armor Plating I",
@@ -798,9 +740,7 @@
 		],
 		"unitTypes": [
 			"Melee Water"
-		],
-        "column": 11,
-        "row": 1
+		]
 	},
 	{
 		"name": "Boarding Party II",
@@ -810,9 +750,7 @@
 		],
 		"unitTypes": [
 			"Melee Water"
-		],
-        "column": 11,
-        "row": 2
+		]
 	},
 	{
 		"name": "Boarding Party III",
@@ -822,9 +760,7 @@
 		],
 		"unitTypes": [
 			"Melee Water"
-		],
-        "column": 11,
-        "row": 3
+		]
 	},
 	{
 		"name": "Targeting I",
@@ -833,9 +769,7 @@
 		],
 		"unitTypes": [
 			"Ranged Water"
-		],
-        "column": 13,
-        "row": 1
+		]
 	},
 	{
 		"name": "Targeting II",
@@ -845,9 +779,7 @@
 		],
 		"unitTypes": [
 			"Ranged Water"
-		],
-        "column": 13,
-        "row": 2
+		]
 	},
 	{
 		"name": "Targeting III",
@@ -857,9 +789,7 @@
 		],
 		"unitTypes": [
 			"Ranged Water"
-		],
-        "column": 13,
-        "row": 3
+		]
 	},
 	{
 		"name": "Coastal Raider I",
@@ -870,9 +800,7 @@
 		"unitTypes": [
 			"Melee Water",
 			"Ranged Water"
-		],
-        "column": 12,
-        "row": 1
+		]
 	},
 	{
 		"name": "Coastal Raider II",
@@ -884,9 +812,7 @@
 		"unitTypes": [
 			"Melee Water",
 			"Ranged Water"
-		],
-        "column": 12,
-        "row": 2
+		]
 	},
 	{
 		"name": "Coastal Raider III",
@@ -898,9 +824,7 @@
 		"unitTypes": [
 			"Melee Water",
 			"Ranged Water"
-		],
-        "column": 12,
-        "row": 3
+		]
 	},
 	{
 		"name": "Wolfpack I",
@@ -909,9 +833,7 @@
 		],
 		"unitTypes": [
 			"Submarine"
-		],
-        "column": 14,
-        "row": 1
+		]
 	},
 	{
 		"name": "Wolfpack II",
@@ -921,9 +843,7 @@
 		],
 		"unitTypes": [
 			"Submarine"
-		],
-        "column": 14,
-        "row": 2
+		]
 	},
 	{
 		"name": "Wolfpack III",
@@ -933,9 +853,7 @@
 		],
 		"unitTypes": [
 			"Submarine"
-		],
-        "column": 14,
-        "row": 3
+		]
 	},
 	{
 		"name": "Scouting I",
@@ -945,9 +863,7 @@
 		"unitTypes": [
 			"Scout",
 			"Helicopter"
-		],
-        "column": 0,
-        "row": 1
+		]
 	},
 	{
 		"name": "Scouting II",
@@ -1015,9 +931,7 @@
 		],
 		"unitTypes": [
 			"Siege"
-		],
-        "column": 3,
-        "row": 1
+		]
 	},
 	{
 		"name": "Bombardment I",
@@ -1030,9 +944,7 @@
 			"Bomber",
 			"Missile",
 			"Big Missile"
-		],
-        "column": 26,
-        "row": 1
+		]
 	},
 	{
 		"name": "Bombardment II",
@@ -1046,9 +958,7 @@
 			"Bomber",
 			"Missile",
 			"Big Missile"
-		],
-        "column": 26,
-        "row": 2
+		]
 	},
 	{
 		"name": "Bombardment III",
@@ -1062,9 +972,7 @@
 			"Bomber",
 			"Missile",
 			"Big Missile"
-		],
-        "column": 26,
-        "row": 3
+		]
 	},
 	{
 		"name": "Siege I",
@@ -1076,9 +984,7 @@
 			"Bomber",
 			"Missile",
 			"Big Missile"
-		],
-        "column": 17,
-        "row": 1
+		]
 	},
 	{
 		"name": "Siege II",
@@ -1090,9 +996,7 @@
 			"Bomber",
 			"Missile",
 			"Big Missile"
-		],
-        "column": 17,
-        "row": 2
+		]
 	},
 	{
 		"name": "Siege III",
@@ -1104,9 +1008,7 @@
 			"Bomber",
 			"Missile",
 			"Big Missile"
-		],
-        "column": 17,
-        "row": 3
+		]
 	},
 	{
 		"name": "Flight Deck I",
@@ -1148,9 +1050,7 @@
 		],
 		"unitTypes": [
 			"Fighter"
-		],
-        "column": 18,
-        "row": 1
+		]
 	},
 	{
 		"name": "Interception II",
@@ -1160,9 +1060,7 @@
 		],
 		"unitTypes": [
 			"Fighter"
-		],
-        "column": 18,
-        "row": 2
+		]
 	},
 	{
 		"name": "Interception III",
@@ -1172,18 +1070,16 @@
 		],
 		"unitTypes": [
 			"Fighter"
-		],
-        "column": 18,
-        "row": 3
+		]
 	},
 	{
 		"name": "Dogfighting I",
 		"uniques": [
 			"[+33]% Strength when performing Air Sweep"
 		],
-		"unitTypes": ["Fighter"],
-        "column": 19,
-        "row": 1
+		"unitTypes": [
+			"Fighter"
+		]
 	},
 	{
 		"name": "Dogfighting II",
@@ -1193,9 +1089,7 @@
 		],
 		"unitTypes": [
 			"Fighter"
-		],
-        "column": 19,
-        "row": 2
+		]
 	},
 	{
 		"name": "Dogfighting III",
@@ -1205,9 +1099,7 @@
 		],
 		"unitTypes": [
 			"Fighter"
-		],
-        "column": 19,
-        "row": 3
+		]
 	},
 	{
 		"name": "Air Targeting I",
@@ -1220,9 +1112,7 @@
 			"Bomber",
 			"Missile",
 			"Big Missile"
-		],
-        "column": 20,
-        "row": 1
+		]
 	},
 	{
 		"name": "Air Targeting II",
@@ -1237,9 +1127,7 @@
 			"Bomber",
 			"Missile",
 			"Big Missile"
-		],
-        "column": 20,
-        "row": 2
+		]
 	},
 	{
 		"name": "Fighter Logistics I",
@@ -1253,9 +1141,7 @@
 		],
 		"unitTypes": [
 			"Fighter"
-		],
-        "column": 25,
-        "row": 3
+		]
 	},
 	{
 		"name": "Fighter Logistics II",
@@ -1268,9 +1154,7 @@
 		],
 		"unitTypes": [
 			"Fighter"
-		],
-        "column": 25,
-        "row": 4
+		]
 	},
 	{
 		"name": "Sortie",
@@ -1280,9 +1164,7 @@
 		],
 		"unitTypes": [
 			"Fighter"
-		],
-        "column": 21,
-        "row": 2
+		]
 	},
 	{
 		"name": "Home Sweet Home",
