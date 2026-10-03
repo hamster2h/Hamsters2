@@ -268,9 +268,7 @@
 			"Melee Water",
 			"Ranged Water",
 			"Submarine"
-		],
-        "column": 24,
-        "row": 3
+		]
 	},
 	{
 		"name": "Mobility I",
