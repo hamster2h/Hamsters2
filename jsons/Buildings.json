@@ -3625,6 +3625,7 @@
 		"cost": 2835,
 		//"requiredTech": "Artificial Intelligence",
 		"uniques": [
+			"Unbuildable",
 			"Will not be displayed in Civilopedia"
 		]
 	}
