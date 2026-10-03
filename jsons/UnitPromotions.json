@@ -323,7 +323,7 @@
 			"Scout",
 			"Helicopter"
 		],
-        "column": 9,
+        "column": 1,
         "row": 1
 	},
 	{
@@ -336,9 +336,7 @@
 		"unitTypes": [
 			"Scout",
 			"Helicopter"
-		],
-        "column": 9,
-        "row": 2
+		]
 	},
 	{
 		"name": "Survivalism III",
@@ -350,9 +348,7 @@
 		"unitTypes": [
 			"Scout",
 			"Helicopter"
-		],
-        "column": 9,
-        "row": 3
+		]
 	},
 	{
 		"name": "Amphibious",
@@ -956,7 +952,7 @@
 			"Scout",
 			"Helicopter"
 		],
-        "column": 8,
+        "column": 0,
         "row": 1
 	},
 	{
@@ -968,9 +964,7 @@
 		"unitTypes": [
 			"Scout",
 			"Helicopter"
-		],
-        "column": 8,
-        "row": 2
+		]
 	},
 	{
 		"name": "Scouting III",
@@ -983,9 +977,7 @@
 		"unitTypes": [
 			"Scout",
 			"Helicopter"
-		],
-        "column": 8,
-        "row": 3
+		]
 	},
 	{
 		"name": "Medic",
