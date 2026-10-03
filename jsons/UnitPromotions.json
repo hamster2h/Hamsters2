@@ -297,10 +297,12 @@
 		"unitTypes": [
 			"Sword",
 			"Gunpowder",
+			"Archery",
+			"Ranged Gunpowder",
 			"Mounted",
-			"Ranged Water",
 			"Armored",
-			"Melee Water"
+			"Melee Water",
+			"Ranged Water"
 		]
 	},
 	{
