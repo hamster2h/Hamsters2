@@ -91,8 +91,8 @@
 	{
 		"name": "March",
 		"prerequisites": [
-			"Accuracy II",
-			"Barrage II",
+			"Accuracy III",
+			"Barrage III",
 			"Shock III",
 			"Drill III"
 		],
@@ -119,7 +119,9 @@
 		],
 		"unitTypes": [
 			"Sword",
-			"Gunpowder"
+			"Gunpowder",
+			"Archery",
+			"Ranged Gunpowder"
 		]
 	},
 	{
@@ -222,8 +224,8 @@
 	{
 		"name": "Indirect Fire",
 		"prerequisites": [
-			"Accuracy III",
-			"Barrage III",
+			"Accuracy II",
+			"Barrage II",
 			"Bombardment II",
 			"Targeting II"
 		],
