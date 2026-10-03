@@ -251,6 +251,7 @@
 		"prerequisites": [
 			"Shock II",
 			"Drill II",
+			"Ambush II",
 			"Targeting I",
 			"Bombardment I",
 			"Boarding Party I",
@@ -498,7 +499,8 @@
 			"Mounted",
 			"Armored",
 			"Helicopter"
-		]
+		],
+		"column": 6
 	},
 	{
 		"name": "Ambush II",
