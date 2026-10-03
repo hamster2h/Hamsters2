@@ -447,7 +447,7 @@
 		"name": "Harbor",
 		"cost": 120,
 		"maintenance": 5,
-		"requiredTech": "Compass",
+		"requiredTech": "Optics",
 		"uniques": [
 			"Connects trade routes over water",
 			"Must be next to [Coast]",
@@ -461,13 +461,24 @@
 		"replaces": "Harbor",
 		"cost": 120,
 		"maintenance": 3,
-		"requiredTech": "Compass",
+		"requiredTech": "Optics",
 		"uniques": [
 			"Connects trade routes over water",
 			"Must be next to [Coast]",
 			"[+1 Food] from [Ocean] tiles [in this city]",
 			"[+1 Production, +3 Gold] from [Water resource] tiles [in this city]",
 			"New [Water] units start with [15] XP [in this city]"
+		]
+	},
+	{
+		"name": "Seaport",
+		"maintenance": 2,
+		"requiredBuilding": "Harbor",
+		"requiredTech": "Navigation",
+		"uniques": [
+			"[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
+			"Must be next to [Coast]",
+			"[+15]% Production when constructing [Water] units [in this city]"
 		]
 	},
 	{
