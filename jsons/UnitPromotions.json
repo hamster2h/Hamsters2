@@ -233,6 +233,24 @@
 		]
 	},
 	{
+		"name": "Volley",
+		"uniques": [
+			"[+25]% Strength <vs [non-[City]]>"
+		],
+		"unitTypes": [
+			"Siege"
+		]
+	},
+	{
+		"name": "Quick Study",
+		"uniques": [
+			"[+50]% XP gained from combat"
+		],
+		"unitTypes": [
+			"Siege"
+		]
+	},
+	{
 		"name": "Mobility",
 		"prerequisites": [
 			"Shock II",
@@ -914,19 +932,6 @@
 		]
 	},
 	{
-		"name": "Volley",
-		"prerequisites": [
-			"Accuracy I",
-			"Barrage I"
-		],
-		"uniques": [
-			"[+25]% Strength <vs [non-[City]]>"
-		],
-		"unitTypes": [
-			"Siege"
-		]
-	},
-	{
 		"name": "Bombardment I",
 		"uniques": [
 			"[+33]% Strength <vs [Land] units>"
@@ -1407,12 +1412,6 @@
 		"name": "Great Generals II",
 		"uniques": [
 			"[Great General] is earned [100]% faster"
-		]
-	},
-	{
-		"name": "Quick Study",
-		"uniques": [
-			"[+50]% XP gained from combat"
 		]
 	},
 	{
