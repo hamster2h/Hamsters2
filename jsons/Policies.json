@@ -55,7 +55,8 @@
             {
                 "name": "Monarchy",
                 "uniques": [
-                    "[+1 Gold, +1 Happiness] per [2] population [in capital]"
+                    "[+1 Gold, +1 Happiness] per [2] population [in capital]",
+					"[+10]% [Faith] [in cities following our religion]"
                 ],
                 "requires": ["Legalism"],
                 "row": 2,
@@ -247,8 +248,7 @@
         },
         "uniques": [
 			"Gain a free [Shrine] [in all cities]",
-            "[+100]% Production when constructing [Temple] buildings [in all cities]",
-            "[-100]% weight to this choice for AI decisions <when religion is disabled>"
+            "[+100]% Production when constructing [Temple] buildings [in all cities]"
         ],
         "policies": [
             {
