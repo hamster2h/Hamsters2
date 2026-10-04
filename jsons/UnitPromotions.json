@@ -531,7 +531,9 @@
 			"Gunpowder",
 			"Mounted",
 			"Armored"
-		]
+		],
+		"column": 3,
+		"row": 1
 	},
 	{
 		"name": "Shock II",
@@ -568,7 +570,9 @@
 			"Siege",
 			"Archery",
 			"Ranged Gunpowder"
-		]
+		],
+		"column": 4,
+		"row": 1
     },
 	{
 		"name": "Accuracy II",
@@ -604,7 +608,9 @@
 			"Gunpowder",
 			"Mounted",
 			"Armored"
-		]
+		],
+		"column": 4,
+		"row": 1
 	},
 	{
 		"name": "Drill II",
@@ -641,7 +647,9 @@
 			"Siege",
 			"Archery",
 			"Ranged Gunpowder"
-		]
+		],
+		"column": 5,
+		"row": 1
 	},
 	{
 		"name": "Barrage II",
