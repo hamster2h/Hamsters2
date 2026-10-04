@@ -750,27 +750,6 @@
 		]
 	},
 	{
-		"name": "Fort",
-		"terrainsCanBeBuiltOn": [
-			"Plains",
-			"Grassland",
-			"Desert",
-			"Tundra",
-			"Snow",
-			"Hill",
-			"Forest",
-			"Jungle"
-		],
-		"turnsToBuild": 6,
-		"techRequired": "Engineering",
-		"uniques": [
-			"Can be built outside your borders",
-			"Gain control over [all] tiles in a [1]-tile radius",
-			"Gives a defensive bonus of [50]%"
-		],
-		"shortcutKey": "O"
-	},
-	{
 		"name": "Citadel",
 		"terrainsCanBeBuiltOn": [
 			"Land"
@@ -790,6 +769,27 @@
 			"Tile provides yield without assigned population",
 			"Will not be replaced by automated units"
 		]
+	},
+	{
+		"name": "Fort",
+		"terrainsCanBeBuiltOn": [
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Tundra",
+			"Snow",
+			"Hill",
+			"Forest",
+			"Jungle"
+		],
+		"turnsToBuild": 12,
+		"techRequired": "Engineering",
+		"uniques": [
+			"Can be built outside your borders",
+			"Gain control over [all] tiles in a [1]-tile radius",
+			"Gives a defensive bonus of [50]%"
+		],
+		"shortcutKey": "O"
 	},
 	{
 		"name": "Space Platform",
