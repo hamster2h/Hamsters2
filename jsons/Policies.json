@@ -27,8 +27,7 @@
             {
                 "name": "Legalism",
                 "uniques": [
-					"Provides the cheapest [Culture] building in your first [4] cities for free",
-					"[+4 Production, +2 Gold] [in all cities]"
+					"[+4 Production, +2 Gold, +2 Culture] [in all cities]"
                 ],
                 "row": 1,
                 "column": 3
