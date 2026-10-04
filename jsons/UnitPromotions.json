@@ -147,13 +147,6 @@
     },
 	{
 		"name": "Operational Range",
-		"prerequisites": [
-			"Interception I",
-			"Dogfighting I",
-			"Siege I",
-			"Bombardment I",
-			"Air Targeting I"
-		],
 		"uniques": [
 			"[+2] Range",
 			"[+2] Air Interception Range <for [Fighter] units>",
@@ -200,10 +193,30 @@
 		]
 	},
 	{
+		"name": "Air Repair",
+		"uniques": [
+			"Unit will heal every turn, even if it performs an action"
+		],
+		"unitTypes": [
+			"Fighter",
+			"Bomber"
+		]
+	},
+	{
 		"name": "Evasion",
 		"uniques": [
 			"Damage taken from interception reduced by [50]%",
 			"[+200]% weight to this choice for AI decisions"
+		]
+	},
+	{
+		"name": "Heat Sensor",
+		"uniques": [
+			"[+100]% Strength <vs [Stealth Bomber] units>",
+			"[+100]% Strength <vs [Aurora Bomber] units>",
+			"[+100]% Strength <vs [Stealth Fighter] units>",
+			"[+100]% Strength <vs [Hypersonic Fighter] units>",
+			"[+100]% Strength <vs [Raven Fighter] units>"
 		]
 	},
 	{
@@ -312,37 +325,10 @@
 		]
 	},
 	{
-		"name": "Air Repair",
-		"prerequisites": [
-			"Interception II",
-			"Dogfighting II",
-			"Siege II",
-			"Bombardment II",
-			"Air Targeting II"
-		],
-		"uniques": [
-			"Unit will heal every turn, even if it performs an action"
-		],
-		"unitTypes": [
-			"Fighter",
-			"Bomber"
-		]
-	},
-	{
 		"name": "Rocket Launcher",
 		"uniques": [
 			"[+35]% Strength <vs [Cyber] units>",
 			"[+75]% Strength <vs cities>"
-		]
-	},
-	{
-		"name": "Heat Sensor",
-		"uniques": [
-			"[+100]% Strength <vs [Stealth Bomber] units>",
-			"[+100]% Strength <vs [Aurora Bomber] units>",
-			"[+100]% Strength <vs [Stealth Fighter] units>",
-			"[+100]% Strength <vs [Hypersonic Fighter] units>",
-			"[+100]% Strength <vs [Raven Fighter] units>"
 		]
 	},
 	{
