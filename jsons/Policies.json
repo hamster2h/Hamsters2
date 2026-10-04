@@ -1228,7 +1228,7 @@
 					"name": "Mind Control",
 					"uniques": [
 						"New [Gunpowder] units start with [15] XP [in all cities]",
-						"Nullifies [Happiness] [in all cities with a garrison]"
+						"[+4 Happiness] [in all cities with a garrison]"
 					],
 					"requires": [
 						"Cloning"
