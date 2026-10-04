@@ -36,8 +36,9 @@
             {
                 "name": "Oligarchy",
                 "uniques": [
+					"[+50]% Strength for cities <with a garrison> <when attacking>",
 					"[+100]% Production when constructing [Walls] buildings [in all cities]",
-                    "[+50]% Strength for cities <with a garrison> <when attacking>"
+					"[+1 Happiness] from every [Walls]"
                 ],
                 "row": 1,
                 "column": 5
@@ -215,11 +216,7 @@
                 "uniques": [
 					"New [Military] units start with [15] XP [in all cities]",
 					"[-25]% Production when constructing [Military] units [in all cities]",
-                    "[-25]% Gold cost of upgrading <for [Military] units>",
-                    "[+1 Happiness] from every [Walls]",
-                    "[+1 Happiness] from every [Castle]",
-                    "[+1 Happiness] from every [Arsenal]",
-                    "[+1 Happiness] from every [Military Base]"
+                    "[-25]% Gold cost of upgrading <for [Military] units>"
                 ],
                 "requires": ["Military Caste"],
                 "row": 3,
