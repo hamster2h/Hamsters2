@@ -983,7 +983,9 @@
 			"Bomber",
 			"Missile",
 			"Big Missile"
-		]
+		],
+		"column": 14,
+		"row": 1
 	},
 	{
 		"name": "Siege II",
@@ -1051,7 +1053,9 @@
 		],
 		"unitTypes": [
 			"Fighter"
-		]
+		],
+		"column": 15,
+		"row": 1
 	},
 	{
 		"name": "Interception II",
@@ -1080,7 +1084,9 @@
 		],
 		"unitTypes": [
 			"Fighter"
-		]
+		],
+		"column": 16,
+		"row": 1
 	},
 	{
 		"name": "Dogfighting II",
@@ -1113,7 +1119,9 @@
 			"Bomber",
 			"Missile",
 			"Big Missile"
-		]
+		],
+		"column": 17,
+		"row": 1
 	},
 	{
 		"name": "Air Targeting II",
