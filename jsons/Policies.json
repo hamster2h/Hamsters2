@@ -27,7 +27,8 @@
             {
                 "name": "Legalism",
                 "uniques": [
-					"[+4 Production, +2 Gold, +2 Culture] [in all cities]"
+					"[+4 Production, +2 Gold, +2 Culture] [in all cities]",
+					"Enables conversion of city production to [Culture]"
                 ],
                 "row": 1,
                 "column": 3
@@ -54,8 +55,7 @@
             {
                 "name": "Monarchy",
                 "uniques": [
-                    "[+1 Gold, +1 Happiness] per [2] population [in capital]",
-					"Enables conversion of city production to [Culture]"
+                    "[+1 Gold, +1 Happiness] per [2] population [in capital]"
                 ],
                 "requires": ["Legalism"],
                 "row": 2,
