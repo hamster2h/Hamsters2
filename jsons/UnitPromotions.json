@@ -1050,7 +1050,7 @@
 		"unitTypes": [
 			"Fighter"
 		],
-		"column": 15,
+		"column": 16,
 		"row": 1
 	},
 	{
@@ -1081,7 +1081,7 @@
 		"unitTypes": [
 			"Fighter"
 		],
-		"column": 16,
+		"column": 17,
 		"row": 1
 	},
 	{
@@ -1116,7 +1116,7 @@
 			"Missile",
 			"Big Missile"
 		],
-		"column": 17,
+		"column": 15,
 		"row": 1
 	},
 	{
