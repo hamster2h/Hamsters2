@@ -966,7 +966,9 @@
 			"Bomber",
 			"Missile",
 			"Big Missile"
-		]
+		],
+		"column": 13,
+		"row": 1
 	},
 	{
 		"name": "Bombardment II",
