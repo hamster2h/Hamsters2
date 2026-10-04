@@ -310,6 +310,7 @@
 		"terrainsCanBeBuiltOn": [
 			"Coast"
 		],
+		"food": 1,
 		"techRequired": "Sailing",
 		"uniques": [
 			"Can only be built to improve a resource",
