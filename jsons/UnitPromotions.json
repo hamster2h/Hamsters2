@@ -20,13 +20,6 @@
 	},
 	{
 		"name" : "Supply",
-		"prerequisites": [
-			"Bombardment III",
-			"Targeting III",
-			"Boarding Party III",
-			"Coastal Raider III",
-			"Flight Deck III"
-		],
 		"uniques": [
 			"May heal outside of friendly territory"
 		],
@@ -237,10 +230,6 @@
 			"Drill II",
 			"Ambush II",
 			"Anti-Armor II",
-			"Targeting I",
-			"Bombardment I",
-			"Boarding Party I",
-			"Coastal Raider I",
 			"Wolfpack I"
 		],
 		"uniques": [
