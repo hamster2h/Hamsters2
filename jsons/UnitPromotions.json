@@ -262,7 +262,9 @@
 		"unitTypes": [
 			"Helicopter",
 			"Aircraft Carrier"
-		]
+		],
+		"column": 8,
+		"row": 1
 	},
 	{
 		"name": "Mobility II",
