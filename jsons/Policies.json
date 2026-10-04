@@ -55,8 +55,7 @@
             {
                 "name": "Monarchy",
                 "uniques": [
-                    "[+1 Gold, +1 Happiness] per [2] population [in capital]",
-					"Can build [Fort] improvements at a [+50]% rate"
+                    "[+1 Gold, +1 Happiness] per [2] population [in capital]"
                 ],
                 "requires": ["Legalism"],
                 "row": 2,
