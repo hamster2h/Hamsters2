@@ -167,7 +167,6 @@
 			"Targeting II",
 			"Bombardment II",
 			"Siege II",
-			"Operational Range",
 			"Air Targeting II",
 			"Wolfpack II",
 			"Shock II",
@@ -177,8 +176,7 @@
 			"Ambush II"
 		],
 		"uniques": [
-			"[+1] Range",
-			"[+1] Air Interception Range <for [AM Missiles] units>"
+			"[+1] Range"
 		],
 		"unitTypes": [
 			"Archery",
@@ -187,9 +185,7 @@
 			"Helicopter",
 			"Siege",
 			"Ranged Water",
-			"Submarine",
-			"Missile",
-			"Big Missile"
+			"Submarine"
 		]
 	},
 	{
