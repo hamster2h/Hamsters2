@@ -292,43 +292,6 @@
 		]
 	},
 	{
-		"name": "Survivalism I",
-		"uniques": [
-			"[+5] HP when healing <in [Foreign Land] tiles>",
-			"[+20]% Strength <when defending>"
-		],
-		"unitTypes": [
-			"Scout",
-			"Helicopter"
-		],
-        "column": 2,
-		"row": 1
-	},
-	{
-		"name": "Survivalism II",
-		"prerequisites": ["Survivalism I"],
-		"uniques": [
-			"[+5] HP when healing <in [Foreign Land] tiles>",
-			"[+20]% Strength <when defending>"
-		],
-		"unitTypes": [
-			"Scout",
-			"Helicopter"
-		]
-	},
-	{
-		"name": "Survivalism III",
-		"prerequisites": ["Survivalism II"],
-		"uniques": [
-			"Unit will heal every turn, even if it performs an action",
-			"[+20]% Strength <when defending>"
-		],
-		"unitTypes": [
-			"Scout",
-			"Helicopter"
-		]
-	},
-	{
 		"name": "Amphibious",
 		"uniques": [
 			"[1] Movement point cost to disembark",
@@ -453,6 +416,79 @@
 		"unitTypes": [
 			"Mounted",
 			"Armored",
+			"Helicopter"
+		]
+	},
+	{
+		"name": "Scouting I",
+		"uniques": [
+			"[+1] Sight"
+		],
+		"unitTypes": [
+			"Scout",
+			"Helicopter"
+		],
+		"column": 1,
+		"row": 1
+	},
+	{
+		"name": "Scouting II",
+		"prerequisites": ["Scouting I"],
+		"uniques": [
+			"[+1] Sight"
+		],
+		"unitTypes": [
+			"Scout",
+			"Helicopter"
+		]
+	},
+	{
+		"name": "Scouting III",
+		"prerequisites": ["Scouting II"],
+		"uniques": [
+			"[+1] Sight",
+			"[+1] Movement",
+			"May enter foreign tiles without open borders"
+		],
+		"unitTypes": [
+			"Scout",
+			"Helicopter"
+		]
+	},
+	{
+		"name": "Survivalism I",
+		"uniques": [
+			"[+5] HP when healing <in [Foreign Land] tiles>",
+			"[+20]% Strength <when defending>"
+		],
+		"unitTypes": [
+			"Scout",
+			"Helicopter"
+		],
+        "column": 2,
+		"row": 1
+	},
+	{
+		"name": "Survivalism II",
+		"prerequisites": ["Survivalism I"],
+		"uniques": [
+			"[+5] HP when healing <in [Foreign Land] tiles>",
+			"[+20]% Strength <when defending>"
+		],
+		"unitTypes": [
+			"Scout",
+			"Helicopter"
+		]
+	},
+	{
+		"name": "Survivalism III",
+		"prerequisites": ["Survivalism II"],
+		"uniques": [
+			"Unit will heal every turn, even if it performs an action",
+			"[+20]% Strength <when defending>"
+		],
+		"unitTypes": [
+			"Scout",
 			"Helicopter"
 		]
 	},
@@ -855,40 +891,6 @@
 		],
 		"unitTypes": [
 			"Submarine"
-		]
-	},
-	{
-		"name": "Scouting I",
-		"uniques": [
-			"[+1] Sight"
-		],
-		"unitTypes": [
-			"Scout",
-			"Helicopter"
-		]
-	},
-	{
-		"name": "Scouting II",
-		"prerequisites": ["Scouting I"],
-		"uniques": [
-			"[+1] Sight"
-		],
-		"unitTypes": [
-			"Scout",
-			"Helicopter"
-		]
-	},
-	{
-		"name": "Scouting III",
-		"prerequisites": ["Scouting II"],
-		"uniques": [
-			"[+1] Sight",
-			"[+1] Movement",
-			"May enter foreign tiles without open borders"
-		],
-		"unitTypes": [
-			"Scout",
-			"Helicopter"
 		]
 	},
 	{
