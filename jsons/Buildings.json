@@ -2139,7 +2139,7 @@
 		"name": "Seaport",
 		"gold": 2,
 		"food": 4,
-		"maintenance": 8,
+		"maintenance": 4,
 		"requiredBuilding": "Harbor",
 		"requiredTech": "Navigation",
 		"uniques": [
