@@ -28,7 +28,7 @@
                 "name": "Legalism",
                 "uniques": [
 					"Provides the cheapest [Culture] building in your first [4] cities for free",
-					"Each city founded increases culture cost of policies [15]% less than normal"
+					"[+4 Production] [in all cities]"
                 ],
                 "row": 1,
                 "column": 3
