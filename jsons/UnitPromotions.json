@@ -519,7 +519,9 @@
 			"Mounted",
 			"Armored",
 			"Helicopter"
-		]
+		],
+		"column": 7,
+		"row": 1
 	},
 	{
 		"name": "Shock I",
