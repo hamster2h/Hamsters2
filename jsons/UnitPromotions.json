@@ -819,7 +819,9 @@
 		],
 		"unitTypes": [
 			"Ranged Water"
-		]
+		],
+		"column": 12,
+		"row": 1
 	},
 	{
 		"name": "Targeting II",
@@ -850,7 +852,9 @@
 		"unitTypes": [
 			"Melee Water",
 			"Ranged Water"
-		]
+		],
+		"column": 11,
+		"row": 1
 	},
 	{
 		"name": "Coastal Raider II",
@@ -883,7 +887,9 @@
 		],
 		"unitTypes": [
 			"Submarine"
-		]
+		],
+		"column": 10,
+		"row": 1
 	},
 	{
 		"name": "Wolfpack II",
@@ -1033,7 +1039,9 @@
 		],
 		"unitTypes": [
 			"Aircraft Carrier"
-		]
+		],
+		"column": 9,
+		"row": 1
 	},
 	{
 		"name": "Flight Deck II",
