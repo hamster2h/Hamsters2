@@ -272,8 +272,8 @@
                 "uniques": [
 					"[+2 Faith] from every [Shrine]",
 					"[+2 Faith] from every [Temple]",
-					"[+10]% [Production] from every [Grand Temple]",
-					"[+25]% Strength <for [All] units>"
+					"[+10]% [Gold] from every [Grand Temple]",
+					"All newly-trained [Military] units [in all cities] receive the [Besiege] promotion"
 				],
                 "requires": ["Organized Religion"],
                 "row": 2,
