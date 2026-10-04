@@ -504,7 +504,9 @@
 			"Mounted",
 			"Armored",
 			"Helicopter"
-		]
+		],
+		"column": 7,
+		"row": 1
 	},
 	{
 		"name": "Ambush II",
@@ -519,9 +521,7 @@
 			"Mounted",
 			"Armored",
 			"Helicopter"
-		],
-		"column": 7,
-		"row": 1
+		]
 	},
 	{
 		"name": "Shock I",
