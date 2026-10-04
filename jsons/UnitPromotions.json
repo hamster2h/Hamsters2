@@ -609,7 +609,7 @@
 			"Mounted",
 			"Armored"
 		],
-		"column": 4,
+		"column": 5,
 		"row": 1
 	},
 	{
@@ -648,7 +648,7 @@
 			"Archery",
 			"Ranged Gunpowder"
 		],
-		"column": 5,
+		"column": 6,
 		"row": 1
 	},
 	{
