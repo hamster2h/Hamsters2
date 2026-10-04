@@ -170,7 +170,7 @@
         "name": "Sacred Waters",
         "type": "Pantheon",
         "uniques": [
-            "[+2 Happiness, +1 Faith] from [River] tiles [in cities following this religion]"
+            "[+1 Happiness, +1 Faith] from [River] tiles [in cities following this religion]"
         ]
     },
     {
