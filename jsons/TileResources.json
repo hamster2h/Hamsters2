@@ -247,7 +247,7 @@
 		"food": 1,
 		"improvement": "Fishing Boats",
 		"improvementStats": {
-			"food": 2
+			"food": 1
 		},
 		"uniques": [
 			"Generated on every [7] tiles <in [{Featureless} {Coast}] tiles>"
@@ -306,7 +306,7 @@
 		"improvement": "Fishing Boats",
 		"improvementStats": {
 			"food": 1,
-			"gold": 2
+			"gold": 1
 		},
 		"uniques": [
 			"Generated with weight [30] <in [Tundra] Regions>",
