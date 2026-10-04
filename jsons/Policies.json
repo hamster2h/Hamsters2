@@ -270,9 +270,8 @@
             {
                 "name": "Theocracy",
                 "uniques": [
-					"[+2 Faith] from every [Shrine]",
-					"[+2 Faith] from every [Temple]",
 					"[+10]% [Gold] from every [Grand Temple]",
+					"[+1 Faith] from all [Faith] buildings",
 					"All newly-trained [Military] units [in all cities] receive the [Besiege] promotion"
 				],
                 "requires": ["Organized Religion"],
