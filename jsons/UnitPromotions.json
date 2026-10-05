@@ -265,8 +265,6 @@
 		"unitTypes": [
 			"Mounted",
 			"Armored",
-			"Melee Water",
-			"Ranged Water",
 			"Submarine"
 		]
 	},
