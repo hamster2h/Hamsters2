@@ -1562,7 +1562,7 @@
 		"uniques": [
 			"Only available <if [GP-Great War] is constructed>",
 			"Only available <after discovering [Flight]>",
-			"[+25]% Strength <vs [Land] units>"
+			"[+50]% Strength <vs [Land] units>"
 		],
 		"attackSound": "bombing"
 	},
@@ -1579,7 +1579,7 @@
 		"obsoleteTech": "Computers",
 		"requiredResource": "Oil",
 		"uniques": [
-			"[+50]% Strength <vs [Land] units>"
+			"[+100]% Strength <vs [Land] units>"
 		],
 		"attackSound": "bombing"
 	},
@@ -1598,7 +1598,7 @@
 		"obsoleteTech": "Computers",
 		"requiredResource": "Oil",
 		"uniques": [
-			"[+75]% Strength <vs [Land] units>"
+			"[+100]% Strength <vs [Land] units>"
 		],
 		"promotions": [
 			"Evasion",
@@ -1621,7 +1621,7 @@
 		"uniques": [
 			"Cyber",
 			"Consumes [1] [Aluminum]",
-			"[+100]% Strength <vs [Land] units>"
+			"[+200]% Strength <vs [Land] units>"
 		],
 		"attackSound": "bombing"
 	},
@@ -1638,7 +1638,7 @@
 			"Cyber",
 			"Consumes [1] [Oil] <before discovering [Particle Physics]>",
 			"Consumes [2] [Aluminum]",
-			"[+200]% Strength <vs [Land] units>",
+			"[+400]% Strength <vs [Land] units>",
 			"Cannot be carried by [Carrier] units"
 		],
 		"promotions": [
