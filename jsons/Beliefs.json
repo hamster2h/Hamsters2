@@ -4,7 +4,7 @@
         "type": "Pantheon",
         "uniques": [
             "[+3 Culture, +1 Gold] from every [Shrine]",
-            "[+1 Faith] from every [Temple]"
+            "[+2 Faith] from every [Temple]"
         ]
     },
     {
@@ -43,7 +43,7 @@
         "uniques": [
 			"[+1 Production] from [Lumber mill] tiles [in cities following this religion]",
 			"[+1 Production] from [Brazilwood Camp] tiles [in cities following this religion]",
-			"[+4 Production] [in cities following this religion] <in cities with at least [3] [Population]>"
+			"[+4 Production] [in cities following this religion]"
         ]
     },
     {
@@ -51,7 +51,7 @@
         "type": "Pantheon",
         "uniques": [
             "[+1 Happiness] from [All] tiles without [Improvement] [in cities following this religion]",
-			"[-1 Production] from all [Production] buildings"
+			"[-2 Production] from all [Production] buildings"
         ]
     },
     {
@@ -118,7 +118,7 @@
         "type": "Pantheon",
         "uniques": [
 			"Free Technology <upon constructing [World Wonder] [in cities following this religion]>",
-			"[-50]% Production when constructing [All] wonders [in all cities]"
+			"[-25]% Production when constructing [All] wonders [in all cities]"
         ]
     },
     {
@@ -177,7 +177,7 @@
         "name": "Stone Circles",
         "type": "Pantheon",
         "uniques": [
-            "[+3 Faith, +1 Gold] from [Quarry] tiles [in cities following this religion]",
+            "[+3 Faith, +1 Production] from [Quarry] tiles [in cities following this religion]",
             "[+1 Faith] from every [Shrine]",
             "[+1 Faith] from every [Temple]"
         ]
@@ -187,7 +187,8 @@
         "name": "Asceticism",
         "type": "Follower",
         "uniques": [
-            "[+1 Happiness] from every [Shrine] <in cities with at least [3] [Followers of this Religion]>"
+            "[+1 Happiness] from every [Shrine] <in cities with at least [3] [Followers of this Religion]>",
+			"[+1 Happiness] from every [Temple] <in cities with at least [3] [Followers of this Religion]>"
         ]
     },
     {
@@ -201,6 +202,7 @@
         "name": "Choral Music",
         "type": "Follower",
         "uniques": [
+			"[+2 Culture] from every [Shrine] <in cities with at least [5] [Followers of this Religion]>",
             "[+2 Culture] from every [Temple] <in cities with at least [5] [Followers of this Religion]>"
         ]
     },
@@ -208,7 +210,8 @@
         "name": "Divine inspiration",
         "type": "Follower",
         "uniques": [
-            "[+2 Science] from every [Wonder]"
+			"[+5]% [Science] [in cities following this religion]",
+			"[+1 Science, +2 Faith] from every [Wonder]"
         ]
     },
     {
@@ -223,13 +226,14 @@
         "name": "Guruship",
         "type": "Follower",
         "uniques": [
-            "[+4 Production] [in cities following this religion] <in cities with at least [1] [Specialists]>"
+            "[+6 Production] [in cities following this religion] <in cities with at least [1] [Specialists]>"
         ]
     },
     {
         "name": "Holy Warriors",
         "type": "Follower",
         "uniques": [
+			"[+4 Faith] [in cities following this religion]",
             "May buy [{pre-[Industrial era]} {Military} {Land}] units with [Faith] for [1] times their normal Production cost <in [in cities following this religion] cities>"
         ]
     },
@@ -237,6 +241,7 @@
         "name": "Liturgical Drama",
         "type": "Follower",
         "uniques": [
+			"[+2 Culture] [in cities following this religion]",
             "[+3 Faith] from every [Amphitheater] <in cities with at least [3] [Followers of this Religion]>"
         ]
     },
@@ -302,28 +307,28 @@
         "name": "Ceremonial Burial",
         "type": "Founder",
         "uniques": [
-            "[+1 Happiness] for each global city following this religion"
+            "[+1 Happiness, +1 Faith] for each global city following this religion"
         ]
     },
     {
         "name": "Church Property",
         "type": "Founder",
         "uniques": [
-            "[+2 Gold] for each global city following this religion"
+            "[+4 Gold] for each global city following this religion"
         ]
     },
     {
         "name": "Initiation Rites",
         "type": "Founder",
         "uniques": [
-            "[+200 Gold] when a city adopts this religion for the first time <(modified by game speed)>"
+            "[+400 Gold] when a city adopts this religion for the first time <(modified by game speed)>"
         ]
     },
     {
         "name": "Interfaith Dialogue",
         "type": "Founder",
         "uniques": [
-            "When spreading religion to a city, gain [10] times the amount of followers of other religions as [Science]"
+            "When spreading religion to a city, gain [20] times the amount of followers of other religions as [Science]"
         ]
     },
     {
@@ -346,21 +351,21 @@
         "name": "Pilgrimage",
         "type": "Founder",
         "uniques": [
-            "[+3 Faith] for each global city following this religion"
+            "[+3 Faith, +1 Gold] for each global city following this religion"
         ]
     },
     {
         "name": "Tithe",
         "type": "Founder",
         "uniques": [
-            "[+1 Gold] from every [4] global followers [in all cities]"
+            "[+1 Gold] from every [2] global followers [in all cities]"
         ]
     },
     {
         "name": "World Church",
         "type": "Founder",
         "uniques": [
-            "[+1 Culture] from every [4] global followers [in foreign cities]"
+            "[+1 Culture] from every [2] global followers [in foreign cities]"
         ]
     },
 
@@ -370,14 +375,14 @@
         "name": "Defender of the Faith",
         "type": "Enhancer",
         "uniques": [
-            "[+20]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
+            "[+25]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
         ]
     },
     {
         "name": "Holy Order",
         "type": "Enhancer",
         "uniques": [
-            "[Faith] cost of purchasing [Missionary] units [-30]%",
+            "[Faith] cost of purchasing [Missionary] units [-50]%",
             "[Faith] cost of purchasing [Inquisitor] units [-75]%"
         ]
     },
@@ -385,21 +390,21 @@
         "name": "Itinerant Preachers",
         "type": "Enhancer",
         "uniques": [
-            "Religion naturally spreads to cities [+3] tiles away"
+            "Religion naturally spreads to cities [+5] tiles away"
         ]
     },
     {
         "name": "Just War",
         "type": "Enhancer",
         "uniques": [
-            "[+20]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>"
+            "[+25]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>"
         ]
     },
     {
         "name": "Messiah",
         "type": "Enhancer",
         "uniques": [
-            "[+25]% Spread Religion Strength <for [Great Prophet] units>",
+            "[+50]% Spread Religion Strength <for [Great Prophet] units>",
             "[-25]% Faith cost of generating Great Prophet equivalents"
         ]
     },
@@ -407,7 +412,7 @@
         "name": "Missionary Zeal",
         "type": "Enhancer",
         "uniques": [
-            "[+50]% Spread Religion Strength <for [Missionary] units>"
+            "[+100]% Spread Religion Strength <for [Missionary] units>"
         ]
     },
     {
@@ -431,7 +436,7 @@
         "name": "Reliquary",
         "type": "Enhancer",
         "uniques": [
-            "Gain [100] [Faith] <upon expending a [Great Person] unit> <(modified by game speed)>"
+            "Gain [200] [Faith] <upon expending a [Great Person] unit> <(modified by game speed)>"
         ]
     }
 ]
