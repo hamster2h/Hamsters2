@@ -1004,7 +1004,7 @@
 		"cost": 350,
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
-		"obsoleteTech": "Combustion",
+		"obsoleteTech": "Steam Power",
 		"uniques": [
 			"[+1] Sight",
 			"Withdraws before melee combat <with [40]% chance>",
@@ -1024,7 +1024,7 @@
 		"cost": 350,
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
-		"obsoleteTech": "Combustion",
+		"obsoleteTech": "Steam Power",
 		"uniques": [
 			"[+1] Sight",
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
@@ -1043,7 +1043,7 @@
 		"cost": 300,
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
-		"obsoleteTech": "Combustion",
+		"obsoleteTech": "Steam Power",
 		"uniques": [
 			"Cannot enter ocean tiles"
 		],
@@ -1096,7 +1096,7 @@
 		"cost": 360,
 		"requiredTech": "Navigation",
 		"upgradesTo": "Ironclad",
-		"obsoleteTech": "Electronics",
+		"obsoleteTech": "Steam Power",
 		"requiredResource": "Iron",
 		"attackSound": "shipCannonVolley"
 	},
@@ -1112,7 +1112,7 @@
 		"cost": 390,
 		"requiredTech": "Navigation",
 		"upgradesTo": "Ironclad",
-		"obsoleteTech": "Electronics",
+		"obsoleteTech": "Steam Power",
 		"requiredResource": "Iron",
 		"uniques": [
 			"[+2] Sight"
@@ -1129,7 +1129,7 @@
 		"cost": 500,
 		"requiredTech": "Steam Power",
 		"upgradesTo": "Destroyer",
-		"obsoleteTech": "Radar",
+		"obsoleteTech": "Combustion",
 		"requiredResource": "Iron",
 		"uniques": [
 			"Consumes [1] [Coal]",
@@ -1179,7 +1179,7 @@
 		"range": 5,
 		"interceptRange": 1,
 		"cost": 8000,
-		"requiredTech": "Electronics",
+		"requiredTech": "Combustion",
 		"upgradesTo": "Missile Cruiser",
 		"uniques": [
 			"Consumes [1] [Oil] <before discovering [Particle Physics]>",
@@ -1239,8 +1239,8 @@
 		"strength": 25,
 		"cost": 300,
 		"requiredTech": "Navigation",
-		"upgradesTo": "Destroyer",
-		"obsoleteTech": "Combustion",
+		"upgradesTo": "Ironclad",
+		"obsoleteTech": "Steam Power",
 		"uniques": [
 			"May capture killed [Water] units",
 			"[+50]% Strength <when attacking>"
@@ -1260,8 +1260,8 @@
 		"rangedStrength": 22,
 		"cost": 300,
 		"requiredTech": "Navigation",
-		"upgradesTo": "Destroyer",
-		"obsoleteTech": "Combustion",
+		"upgradesTo": "Ironclad",
+		"obsoleteTech": "Steam Power",
 		"uniques": [
 			"May capture killed [Water] units",
 			"Double movement in [Ocean]"
