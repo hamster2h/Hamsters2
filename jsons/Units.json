@@ -1129,7 +1129,7 @@
 		"cost": 500,
 		"requiredTech": "Steam Power",
 		"upgradesTo": "Destroyer",
-		"obsoleteTech": "Combustion",
+		"obsoleteTech": "Radar",
 		"requiredResource": "Iron",
 		"uniques": [
 			"Consumes [1] [Coal]",
