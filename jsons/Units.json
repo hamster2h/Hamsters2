@@ -892,7 +892,7 @@
 		"movement": 2,
 		"strength": 40,
 		"cost": 1300,
-		"requiredTech": "Combined Arms",
+		"requiredTech": "Combustion",
 		"upgradesTo": "Helicopter Gunship",
 		"uniques": [
 			"[+200]% Strength <vs [Armored] units> <when attacking>",
@@ -1134,12 +1134,10 @@
 		"cost": 500,
 		"requiredTech": "Steam Power",
 		"upgradesTo": "Destroyer",
-		"obsoleteTech": "Combustion",
+		"obsoleteTech": "Electronics",
 		"requiredResource": "Iron",
 		"uniques": [
 			"Consumes [1] [Coal]",
-			"[+33]% Strength <vs cities>",
-			"Double movement in [Coast]",
 			"Can upgrade to [Battleship]",
 			"Never appears as a Barbarian unit"
 		],
@@ -1157,7 +1155,7 @@
 		"range": 4,
 		"interceptRange": 1,
 		"cost": 4500,
-		"requiredTech": "Combustion",
+		"requiredTech": "Electronics",
 		"upgradesTo": "Missile Cruiser",
 		"obsoleteTech": "Robotics",
 		"uniques": [
@@ -1184,7 +1182,7 @@
 		"range": 5,
 		"interceptRange": 1,
 		"cost": 8000,
-		"requiredTech": "Combustion",
+		"requiredTech": "Electronics",
 		"upgradesTo": "Missile Cruiser",
 		"uniques": [
 			"Consumes [1] [Oil] <before discovering [Particle Physics]>",
