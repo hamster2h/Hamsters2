@@ -951,8 +951,8 @@
 		"strength": 10,
 		"cost": 70,
 		"requiredTech": "Sailing",
-		"upgradesTo": "Caravel",
-		"obsoleteTech": "Astronomy",
+		"upgradesTo": "Galleass",
+		"obsoleteTech": "Compass",
 		"uniques": [
 			"Cannot enter ocean tiles",
 			"Never appears as a Barbarian unit"
@@ -968,8 +968,8 @@
 		"strength": 15,
 		"cost": 50,
 		"requiredTech": "Sailing",
-		"upgradesTo": "Caravel",
-		"obsoleteTech": "Astronomy",
+		"upgradesTo": "Galleass",
+		"obsoleteTech": "Compass",
 		"uniques": [
 			"Cannot enter ocean tiles"
 		],
@@ -987,10 +987,49 @@
 		"cost": 80,
 		"requiredTech": "Sailing",
 		"upgradesTo": "Galleass",
-		"obsoleteTech": "Astronomy",
+		"obsoleteTech": "Compass",
 		"uniques": [
 			"Cannot enter ocean tiles",
 			"[+50]% Strength <vs [Water] units>"
+		],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Galleass",
+		"unitType": "Ranged Water",
+		"movement": 3,
+		"strength": 16,
+		"rangedStrength": 17,
+		"range": 2,
+		"cost": 220,
+		"requiredTech": "Compass",
+		"upgradesTo": "Frigate",
+		"obsoleteTech": "Navigation",
+		"uniques": [
+			"Cannot enter ocean tiles",
+			"Can upgrade to [Caravel]"
+		],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Skeid",
+		"uniqueTo": "Norway",
+		"replaces": "Galleass",
+		"unitType": "Ranged Water",
+		"movement": 3,
+		"strength": 16,
+		"rangedStrength": 17,
+		"range": 2,
+		"cost": 220,
+		"requiredTech": "Compass",
+		"upgradesTo": "Frigate",
+		"obsoleteTech": "Navigation",
+		"uniques": [
+			"Can upgrade to [Caravel]"
+		],
+		"promotions": [
+			"Targeting I",
+			"Targeting II"
 		],
 		"attackSound": "arrow"
 	},
@@ -1051,40 +1090,6 @@
 			"Armor Plating I"
 		],
 		"attackSound": "cannon"
-	},
-	{
-		"name": "Galleass",
-		"unitType": "Ranged Water",
-		"movement": 3,
-		"strength": 16,
-		"rangedStrength": 17,
-		"range": 2,
-		"cost": 220,
-		"requiredTech": "Compass",
-		"upgradesTo": "Frigate",
-		"obsoleteTech": "Navigation",
-		"uniques": [
-			"Cannot enter ocean tiles"
-		],
-		"attackSound": "arrow"
-	},
-	{
-		"name": "Skeid",
-		"uniqueTo": "Norway",
-		"replaces": "Galleass",
-		"unitType": "Ranged Water",
-		"movement": 3,
-		"strength": 16,
-		"rangedStrength": 17,
-		"range": 2,
-		"cost": 220,
-		"requiredTech": "Compass",
-		"upgradesTo": "Frigate",
-		"obsoleteTech": "Navigation",
-		"uniques": [
-			"[+33]% Strength <vs [Water] units>"
-		],
-		"attackSound": "arrow"
 	},
 	{
 		"name": "Frigate",
