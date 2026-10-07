@@ -782,7 +782,6 @@
 			"Forest",
 			"Jungle"
 		],
-		"production": 1,
 		"turnsToBuild": 12,
 		"techRequired": "Engineering",
 		"uniques": [
