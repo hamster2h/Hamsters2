@@ -144,7 +144,7 @@
         "movementType": "Water",
         "uniques": [
 			"Cyber",
-			"[+25% Strength <when defending>",
+			"[+25% Strength] <when defending>",
 			"May enter foreign tiles without open borders",
 			"Can only be built <in cities with a [Shipyard]>"
 		]
