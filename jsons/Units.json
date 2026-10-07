@@ -1053,56 +1053,6 @@
 		"attackSound": "cannon"
 	},
 	{
-		"name": "Ironclad",
-		"unitType": "Ranged Water",
-		"movement": 5,
-		"strength": 45,
-		"rangedStrength": 45,
-		"range": 3,
-		"cost": 500,
-		"requiredTech": "Steam Power",
-		"upgradesTo": "Destroyer",
-		"obsoleteTech": "Combustion",
-		"requiredResource": "Iron",
-		"uniques": [
-			"Consumes [1] [Coal]",
-			"[+33]% Strength <vs cities>",
-			"Double movement in [Coast]",
-			"Never appears as a Barbarian unit"
-		],
-		"promotions": [
-			"Armor Plating I"
-		],
-		"attackSound": "shipguns"
-	},
-	{
-		"name": "Destroyer",
-		"unitType": "Ranged Water",
-		"movement": 5,
-		"strength": 85,
-		"rangedStrength": 85,
-		"range": 4,
-		"interceptRange": 1,
-		"cost": 4500,
-		"requiredTech": "Combustion",
-		"upgradesTo": "Missile Cruiser",
-		"obsoleteTech": "Robotics",
-		"uniques": [
-			"Consumes [1] [Oil] <before discovering [Particle Physics]>",
-			"Consumes [1] [Iron]",
-			"[40]% chance to intercept air attacks <after discovering [Ballistics]>",
-			"Withdraws before melee combat <with [60]% chance>",
-			"Can see invisible [Submarine] units",
-			"[+100]% Strength <vs [Submarine] units>"
-		],
-		"promotions": [
-			"Armor Plating I",
-			"Armor Plating II",
-			"Indirect Fire"
-		],
-		"attackSound": "shipguns"
-	},
-	{
 		"name": "Galleass",
 		"unitType": "Ranged Water",
 		"movement": 3,
@@ -1145,7 +1095,7 @@
 		"range": 3,
 		"cost": 360,
 		"requiredTech": "Navigation",
-		"upgradesTo": "Battleship",
+		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Electronics",
 		"requiredResource": "Iron",
 		"attackSound": "shipCannonVolley"
@@ -1161,13 +1111,64 @@
 		"range": 3,
 		"cost": 390,
 		"requiredTech": "Navigation",
-		"upgradesTo": "Battleship",
+		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Electronics",
 		"requiredResource": "Iron",
 		"uniques": [
 			"[+2] Sight"
 		],
 		"attackSound": "shipCannonVolley"
+	},
+	{
+		"name": "Ironclad",
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"strength": 45,
+		"rangedStrength": 45,
+		"range": 3,
+		"cost": 500,
+		"requiredTech": "Steam Power",
+		"upgradesTo": "Destroyer",
+		"obsoleteTech": "Combustion",
+		"requiredResource": "Iron",
+		"uniques": [
+			"Consumes [1] [Coal]",
+			"[+33]% Strength <vs cities>",
+			"Double movement in [Coast]",
+			"Can upgrade to [Battleship]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Armor Plating I"
+		],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Destroyer",
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"strength": 85,
+		"rangedStrength": 85,
+		"range": 4,
+		"interceptRange": 1,
+		"cost": 4500,
+		"requiredTech": "Combustion",
+		"upgradesTo": "Missile Cruiser",
+		"obsoleteTech": "Robotics",
+		"uniques": [
+			"Consumes [1] [Oil] <before discovering [Particle Physics]>",
+			"Consumes [1] [Iron]",
+			"[40]% chance to intercept air attacks <after discovering [Ballistics]>",
+			"Withdraws before melee combat <with [60]% chance>",
+			"Can see invisible [Submarine] units",
+			"[+100]% Strength <vs [Submarine] units>"
+		],
+		"promotions": [
+			"Armor Plating I",
+			"Armor Plating II",
+			"Indirect Fire"
+		],
+		"attackSound": "shipguns"
 	},
 	{
 		"name": "Battleship",
