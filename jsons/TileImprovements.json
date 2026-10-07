@@ -824,7 +824,7 @@
 		],
 		"culture": 2,
 		"happiness": 1,
-		"turnsToBuild": 4,
+		"turnsToBuild": 8,
 		"uniques": [
 			"Can only be built on [Coastal] tiles",
 			"[+2 Culture, +1 Gold] for each adjacent [Moai]",
