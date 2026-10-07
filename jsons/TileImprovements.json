@@ -791,7 +791,7 @@
 			"Can be built outside your borders",
 			"Gain control over [all] tiles in a [1]-tile radius",
 			"Gives a defensive bonus of [50]%",
-			"Costs [600] [Gold] <(modified by game speed)>"
+			"Costs [400] [Gold] <(modified by game speed)>"
 		],
 		"shortcutKey": "O"
 	},
