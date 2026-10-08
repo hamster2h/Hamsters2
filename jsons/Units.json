@@ -2742,7 +2742,8 @@
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
 		"promotions": [
-			"[Norwegian Ski Infantry] ability"
+			"Altitude Training I",
+			"Altitude Training II"
 		],
 		"attackSound": "shot"
 	},
