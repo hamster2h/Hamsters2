@@ -118,7 +118,7 @@
 	{
 		"name": "Desert",
 		"type": "Land",
-		"movementCost": 1,
+		"movementCost": 2,
 		"RGB": [230, 172, 0],
 		"uniques": [
 			"Occurs at temperature between [-0.1] and [0.9] and humidity between [0] and [0.2]",
@@ -158,7 +158,7 @@
 		"type": "Land",
 		"food": 1,
 		"production": 2,
-		"movementCost": 2,
+		"movementCost": 3,
 		"impassable": true,
 		"defenceBonus": 0.5,
 		"RGB": [102, 102, 102],
