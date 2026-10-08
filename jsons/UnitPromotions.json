@@ -132,8 +132,8 @@
 		"name": "Altitude Training I",
 		"uniques": [
 			"Can pass through impassable tiles",
-			"Double movement in [Hill]",
 			"Double movement in [Mountain]",
+			"Double movement in [Hill]",
 			"Double movement in [Snow]",
 			"Double movement in [Tundra]"
         ],
@@ -150,8 +150,8 @@
 		"name": "Altitude Training II",
 		"prerequisites": ["Altitude Training I"],
 		"uniques": [
+			"[+50]% Strength <when fighting in [Mountain] tiles>",
 			"[+25]% Strength <when fighting in [Hill] tiles>",
-            "[+50]% Strength <when fighting in [Mountain] tiles>",
 			"[+25]% Strength <when fighting in [Snow] tiles>",
             "[+25]% Strength <when fighting in [Tundra] tiles>"
         ],
