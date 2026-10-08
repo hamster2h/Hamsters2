@@ -151,7 +151,7 @@
 		"prerequisites": ["Altitude Training I"],
 		"uniques": [
 			"[+25]% Strength <when fighting in [Hill] tiles>",
-            "[+25]% Strength <when fighting in [Mountain] tiles>",
+            "[+50]% Strength <when fighting in [Mountain] tiles>",
 			"[+25]% Strength <when fighting in [Snow] tiles>",
             "[+25]% Strength <when fighting in [Tundra] tiles>"
         ],
