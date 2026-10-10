@@ -1359,7 +1359,7 @@
 		"rangedStrength": 100,
 		"range": 3,
 		"interceptRange": 3,
-		"cost": 8000,
+		"cost": 6000,
 		"requiredTech": "Artificial Intelligence",
 		"uniques": [
 			"[+900]% maintenance costs",
