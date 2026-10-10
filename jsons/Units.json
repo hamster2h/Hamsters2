@@ -1664,11 +1664,11 @@
 		"movement": 1,
 		"strength": 150,
 		"rangedStrength": 150,
-		"range": 10,
+		"range": 8,
 		"cost": 24000,
 		"requiredTech": "Nuclear Fission",
 		"upgradesTo": "Aurora Bomber",
-		"obsoleteTech": "Advanced Ballistics",
+		"obsoleteTech": "World Alliance",
 		"requiredResource": "Oil",
 		"uniques": [
 			"Consumes [1] [Uranium]",
