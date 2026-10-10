@@ -1462,7 +1462,7 @@
 		"strength": 150,
 		"rangedStrength": 150,
 		"range": 10,
-		"cost": 9000,
+		"cost": 36000,
 		"requiredTech": "Stealth",
 		"requiredResource": "Uranium",
 		"uniques": [
@@ -1471,7 +1471,9 @@
 			"Nuclear weapon of Strength [1]",
 			"Blast radius [1]",
 			"[+2] Range <after discovering [Lasers]>",
-			"Cannot be intercepted"
+			"Cannot be intercepted",
+			"Unbuildable",
+			"Can be purchased with [Gold] [in all cities]"
 		],
 		"attackSound": "nuke"
 	},
@@ -1482,7 +1484,7 @@
 		"strength": 250,
 		"rangedStrength": 250,
 		"range": 14,
-		"cost": 12000,
+		"cost": 48000,
 		"requiredTech": "Advanced Ballistics",
 		"requiredResource": "Uranium",
 		"uniques": [
@@ -1490,7 +1492,9 @@
 			"Only available <if [Nuclear Testing Site] is constructed>",
 			"Nuclear weapon of Strength [2]",
 			"Blast radius [2]",
-			"[+8] Range <after discovering [Spaceflight]>"
+			"[+8] Range <after discovering [Spaceflight]>",
+			"Unbuildable",
+			"Can be purchased with [Gold] [in all cities]"
 		],
 		"attackSound": "nuke"
 	},
@@ -1501,7 +1505,7 @@
 		"strength": 500,
 		"rangedStrength": 500,
 		"range": 22,
-		"cost": 28000,
+		"cost": 112000,
 		"requiredTech": "Spaceflight",
 		"uniques": [
 			"Space",
@@ -1509,6 +1513,8 @@
 			"Nuclear weapon of Strength [3]",
 			"Blast radius [1]",
 			"Can transform to [SSKE Rain]",
+			"Unbuildable",
+			"Can be purchased with [Gold] [in all cities]",
 			"Can only be built <in cities with a [Spaceship Factory]>"
 		],
 		"attackSound": "nuke"
@@ -1520,7 +1526,7 @@
 		"strength": 500,
 		"rangedStrength": 500,
 		"range": 22,
-		"cost": 28000,
+		"cost": 112000,
 		"requiredTech": "Spaceflight",
 		"uniques": [
 			"Space",
@@ -1528,6 +1534,8 @@
 			"Nuclear weapon of Strength [1]",
 			"Blast radius [4]",
 			"Can transform to [SSKE Strike]",
+			"Unbuildable",
+			"Can be purchased with [Gold] [in all cities]",
 			"Can only be built <in cities with a [Spaceship Factory]>"
 		],
 		"attackSound": "nuke"
@@ -1657,7 +1665,7 @@
 		"strength": 150,
 		"rangedStrength": 150,
 		"range": 10,
-		"cost": 6000,
+		"cost": 24000,
 		"requiredTech": "Nuclear Fission",
 		"upgradesTo": "Nuclear Missile",
 		"obsoleteTech": "Advanced Ballistics",
@@ -1667,7 +1675,9 @@
 			"Only available <if [Nuclear Testing Site] is constructed>",
 			"Nuclear weapon of Strength [1]",
 			"Blast radius [1]",
-			"Self-destructs when attacking"
+			"Self-destructs when attacking",
+			"Unbuildable",
+			"Can be purchased with [Gold] [in all cities]"
 		],
 		"attackSound": "nuke"
 	},
@@ -1678,7 +1688,7 @@
 		"strength": 160,
 		"rangedStrength": 160,
 		"range": 20,
-		"cost": 40000,
+		"cost": 160000,
 		"requiredTech": "World Alliance",
 		"uniques": [
 			"Cyber",
@@ -1687,7 +1697,9 @@
 			"Consumes [4] [Composites]",
 			"Nuclear weapon of Strength [2]",
 			"Blast radius [3]",
-			"[1] additional attacks per turn"
+			"[1] additional attacks per turn",
+			"Unbuildable",
+			"Can be purchased with [Gold] [in all cities]"
 		],
 		"promotions": [
 			"Evasion"
