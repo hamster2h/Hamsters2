@@ -66,8 +66,7 @@
             {
                 "name": "Tradition Complete",
                 "uniques": [
-					"[+15]% [Production] [in all cities]",
-					"[+10]% [Culture] [in all cities]",
+					"[+25]% [Culture] [in all cities]",
 					"[+1 Food] from [Snow] tiles [in all cities]",
 					"[+1 Production] from [Tundra] tiles [in all cities]",
 					"[+100]% Strength for cities <with a garrison>",
