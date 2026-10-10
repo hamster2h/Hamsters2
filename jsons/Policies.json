@@ -57,7 +57,7 @@
                 "name": "Monarchy",
                 "uniques": [
                     "[+2 Gold, +1 Happiness] per [4] population [in capital]",
-					"[+10]% [Faith] [in cities following our religion]"
+					"[+25]% [Faith] [in cities following our religion]"
                 ],
                 "requires": ["Legalism"],
                 "row": 2,
@@ -68,7 +68,7 @@
                 "uniques": [
 					"[+1 Food] from [Snow] tiles [in all cities]",
 					"[+1 Production] from [Tundra] tiles [in all cities]",
-					"[+15]% [Culture] [in all cities]",
+					"[+25]% [Culture] [in all cities]",
 					"[+100]% Strength for cities <with a garrison>",
                     "Get the leader title of [Lord [leaderName]]"
                 ]
@@ -449,10 +449,10 @@
                 "name": "Mercantilism",
                 "uniques": [
                     "[Gold] cost of purchasing items in cities [-25]%",
-                    "[+2 Gold] from every [Mint]",
-                    "[+1 Food, +1 Production] from every [Market]",
-                    "[+5]% [Science] from every [Bank]",
-                    "[+2]% [Gold] from every [Stock Exchange]"
+                    "[+4 Gold] from every [Mint]",
+                    "[+2 Food, +2 Production] from every [Market]",
+                    "[+10]% [Science] from every [Bank]",
+                    "[+5]% [Gold] from every [Stock Exchange]"
                 ],
                 "requires": ["Trade Unions"],
                 "row": 2,
