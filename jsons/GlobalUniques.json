@@ -37,10 +37,7 @@
 		"Science gained from research agreements [+36]% <during the [Atomic era]>",
 		"Science gained from research agreements [+25]% <during the [Information era]>",
 		"Science gained from research agreements [+16]% <during the [Future era]>",
-
-		"All newly-trained [Missile Cruiser] units [in all cities] receive the [S-VLS] promotion <if [GP-National Defense] is not constructed>",
-		"All newly-trained [Missile Cruiser] units [in all cities] receive the [L-VLS] promotion <if [GP-National Defense] is constructed>"
-        
+		
         //"[+1 Gold] per every [500] [Gold] <after discovering [Banking]>",
         //"[+1 Gold] per every [1000] [Gold] <after discovering [Economics]>",
         
