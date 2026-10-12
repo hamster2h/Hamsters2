@@ -3144,7 +3144,8 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Information Perk]",
-			"[+1] Sight <for [Cyber] units>",
+			"[+1] Sight <for [Armored] units>",
+			"[+1] Sight <for [Helicopter] units>",
 			"[+25]% XP gained from combat <for [Cyber] units>",
 			"[+10]% Strength <for [Cyber] units>",
 			"Only available <starting from the [Information era]>",
