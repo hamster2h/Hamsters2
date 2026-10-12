@@ -7,7 +7,7 @@
         "name": "Sword",
         "movementType": "Land",
         "uniques": [
-            "[+33]% Strength <vs [Air] units> <when adjacent to a [Anti-Air] unit>",
+            "[+33]% Strength <vs [Aircraft] units> <when adjacent to a [Anti-Air] unit>",
             "[+33]% Strength <vs [Cyber] units> <when adjacent to a [Hacker] unit>",
             "May capture killed [Cyber] units <with [25]% chance> <when adjacent to a [Hacker] unit>"
         ]
@@ -16,7 +16,7 @@
         "name": "Gunpowder",
         "movementType": "Land",
         "uniques": [
-            "[+33]% Strength <vs [Air] units> <when adjacent to a [Anti-Air] unit>",
+            "[+33]% Strength <vs [Aircraft] units> <when adjacent to a [Anti-Air] unit>",
             "[+33]% Strength <vs [Cyber] units> <when adjacent to a [Hacker] unit>",
             "May capture killed [Cyber] units <with [25]% chance> <when adjacent to a [Hacker] unit>"
         ]
@@ -25,7 +25,7 @@
         "name": "Archery",
         "movementType": "Land",
         "uniques": [
-            "[+33]% Strength <vs [Air] units> <when adjacent to a [Anti-Air] unit>",
+            "[+33]% Strength <vs [Aircraft] units> <when adjacent to a [Anti-Air] unit>",
             "[+33]% Strength <vs [Cyber] units> <when adjacent to a [Hacker] unit>"
         ]
     },
@@ -33,7 +33,7 @@
         "name": "Ranged Gunpowder",
         "movementType": "Land",
         "uniques": [
-            "[+33]% Strength <vs [Air] units> <when adjacent to a [Anti-Air] unit>",
+            "[+33]% Strength <vs [Aircraft] units> <when adjacent to a [Anti-Air] unit>",
             "[+33]% Strength <vs [Cyber] units> <when adjacent to a [Hacker] unit>"
         ]
     },
@@ -41,7 +41,7 @@
         "name": "Scout",
         "movementType": "Land",
         "uniques": [
-            "[+33]% Strength <vs [Air] units> <when adjacent to a [Anti-Air] unit>",
+            "[+33]% Strength <vs [Aircraft] units> <when adjacent to a [Anti-Air] unit>",
             "[+33]% Strength <vs [Cyber] units> <when adjacent to a [Hacker] unit>",
             "May capture killed [Cyber] units <with [25]% chance> <when adjacent to a [Hacker] unit>",
 			"[This Unit] gains [1] XP <with [25]% chance> <upon discovering a [All] tile>",
@@ -57,7 +57,7 @@
         "name": "Mounted",
         "movementType": "Land",
         "uniques": [
-            "[+33]% Strength <vs [Air] units> <when adjacent to a [Anti-Air] unit>",
+            "[+33]% Strength <vs [Aircraft] units> <when adjacent to a [Anti-Air] unit>",
             "[+33]% Strength <vs [Cyber] units> <when adjacent to a [Hacker] unit>",
             "May capture killed [Cyber] units <with [25]% chance> <when adjacent to a [Hacker] unit>"
         ]
@@ -66,7 +66,7 @@
         "name": "Armored",
         "movementType": "Land",
         "uniques": [
-            "[+33]% Strength <vs [Air] units> <when adjacent to a [Anti-Air] unit>",
+            "[+33]% Strength <vs [Aircraft] units> <when adjacent to a [Anti-Air] unit>",
             "[+33]% Strength <vs [Cyber] units> <when adjacent to a [Hacker] unit>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
@@ -79,7 +79,7 @@
         "movementType": "Land",
         "uniques": [
 			"Cyber",
-			"[+33]% Strength <vs [Air] units> <when adjacent to a [Anti-Air] unit>",
+			"[+33]% Strength <vs [Aircraft] units> <when adjacent to a [Anti-Air] unit>",
 			"[+33]% Strength <vs [Cyber] units> <when adjacent to a [Hacker] unit>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
@@ -94,7 +94,7 @@
         "name": "Siege",
         "movementType": "Land",
         "uniques": [
-            "[+33]% Strength <vs [Air] units> <when adjacent to a [Anti-Air] unit>",
+            "[+33]% Strength <vs [Aircraft] units> <when adjacent to a [Anti-Air] unit>",
 			"[+33]% Strength <vs [Cyber] units> <when adjacent to a [Hacker] unit>",
             "[+1] Range <when adjacent to a [Intel] unit>",
             "[+2] Range <when adjacent to a [Intel2] unit>"
@@ -108,7 +108,7 @@
         "name": "Melee Water",
         "movementType": "Water",
         "uniques": [
-			"[+33]% Strength <vs [Air] units> <when adjacent to a [Anti-Air] unit>",
+			"[+33]% Strength <vs [Aircraft] units> <when adjacent to a [Anti-Air] unit>",
 			"[+33]% Strength <vs [Cyber] units> <when adjacent to a [Hacker] unit>",
 			"May enter foreign tiles without open borders",
 			"Can only be built <in cities with a [Shipyard]>"
@@ -118,7 +118,7 @@
         "name": "Ranged Water",
         "movementType": "Water",
         "uniques": [
-			"[+33]% Strength <vs [Air] units> <when adjacent to a [Anti-Air] unit>",
+			"[+33]% Strength <vs [Aircraft] units> <when adjacent to a [Anti-Air] unit>",
 			"[+33]% Strength <vs [Cyber] units> <when adjacent to a [Hacker] unit>",
             "[+1] Range <when adjacent to a [Intel] unit>",
             "[+2] Range <when adjacent to a [Intel2] unit>",
@@ -133,7 +133,7 @@
         "movementType": "Water",
         "uniques": [
 			"Cyber",
-			"[+33]% Strength <vs [Air] units> <when adjacent to a [Anti-Air] unit>",
+			"[+33]% Strength <vs [Aircraft] units> <when adjacent to a [Anti-Air] unit>",
 			"[+33]% Strength <vs [Cyber] units> <when adjacent to a [Hacker] unit>",
             "Can enter ice tiles",
             "Ignores Zone of Control",
@@ -151,7 +151,7 @@
         "movementType": "Water",
         "uniques": [
 			"Cyber",
-			"[+33]% Strength <vs [Air] units> <when adjacent to a [Anti-Air] unit>",
+			"[+33]% Strength <vs [Aircraft] units> <when adjacent to a [Anti-Air] unit>",
 			"[+33]% Strength <vs [Cyber] units> <when adjacent to a [Hacker] unit>",
 			"[+50]% Strength <when defending>",
 			"May enter foreign tiles without open borders",
@@ -204,7 +204,7 @@
         "name": "Support",
         "movementType": "Land",
 		"uniques": [
-			"[+33]% Strength <vs [Air] units> <when adjacent to a [Anti-Air] unit>",
+			"[+33]% Strength <vs [Aircraft] units> <when adjacent to a [Anti-Air] unit>",
             "[+33]% Strength <vs [Cyber] units> <when adjacent to a [Hacker] unit>",
             "Cannot intercept [Missile] units",
 			"Cannot intercept [Big Missile] units"
