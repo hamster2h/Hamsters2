@@ -85,7 +85,7 @@
 			"No defensive terrain bonus",
 			"Ignores Zone of Control",
 			"Can pass through impassable tiles",
-			"Can see invisible [Submarine] units",
+			"Can see invisible [Water] units",
 			"Never appears as a Barbarian unit",
 			"Can only be built <in cities with a [Factory]>"
         ]
