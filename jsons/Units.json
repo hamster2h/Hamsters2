@@ -1430,7 +1430,7 @@
 		"strength": 80,
 		"rangedStrength": 80,
 		"range": 16,
-		"cost": 2000,
+		"cost": 2250,
 		"requiredTech": "Stealth",
 		"requiredResource": "SM Composites",
 		"uniques": [
@@ -1448,7 +1448,7 @@
 		"strength": 85,
 		"rangedStrength": 85,
 		"range": 18,
-		"cost": 2250,
+		"cost": 2500,
 		"requiredTech": "Stealth",
 		"requiredResource": "SM Composites",
 		"uniques": [
