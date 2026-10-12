@@ -1157,6 +1157,8 @@
 		"interceptRange": 1,
 		"cost": 4500,
 		"requiredTech": "Electronics",
+		"upgradesTo": "Missile Cruiser",
+		"obsoleteTech": "Robotics",
 		"uniques": [
 			"Anti-Air",
 			"Consumes [1] [Oil] <before discovering [Particle Physics]>",
@@ -1184,6 +1186,7 @@
 		"interceptRange": 1,
 		"cost": 8000,
 		"requiredTech": "Electronics",
+		"upgradesTo": "Missile Cruiser",
 		"uniques": [
 			"Anti-Air",
 			"Consumes [1] [Oil] <before discovering [Particle Physics]>",
@@ -1233,7 +1236,8 @@
 		],
 		"promotions": [
 			"Armor Plating I",
-			"Indirect Fire"
+			"Indirect Fire",
+			"S-VLS"
 		],
 		"attackSound": "shipguns"
 	},
