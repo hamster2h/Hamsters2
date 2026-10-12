@@ -1677,6 +1677,7 @@
 		"requiredTech": "Nuclear Fission",
 		"upgradesTo": "Aurora Bomber",
 		"uniques": [
+			"Cyber",
 			"Consumes [1] [Oil] <before discovering [Particle Physics]>",
 			"Consumes [1] [Uranium]",
 			"Only available <if [Nuclear Testing Site] is constructed>",
