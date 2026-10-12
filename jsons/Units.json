@@ -1289,6 +1289,7 @@
 		"cost": 3300,
 		"requiredTech": "Refrigeration",
 		"uniques": [
+			"Cyber",
 			"Consumes [1] [Oil] <before discovering [Particle Physics]>",
 			"[+1000]% Strength <when attacking>",
 			"Can carry [6] [Missile] units",
@@ -1306,6 +1307,7 @@
 		"cost": 8000,
 		"requiredTech": "Telecommunications",
 		"uniques": [
+			"Cyber",
 			"Consumes [1] [Uranium] <before discovering [Particle Physics]>",
 			"[+800]% Strength <when attacking>",
 			"Can move after attacking",
@@ -1321,6 +1323,7 @@
 		"cost": 5000,
 		"requiredTech": "Electronics",
 		"uniques": [
+			"Cyber",
 			"Consumes [1] [Oil] <before discovering [Particle Physics]>",
 			"Consumes [2] [Iron]",
 			"Can carry [4] [Aircraft] units",
@@ -1341,6 +1344,7 @@
 		"cost": 7000,
 		"requiredTech": "Nuclear Fission",
 		"uniques": [
+			"Cyber",
 			"Consumes [1] [Uranium] <before discovering [Particle Physics]>",
 			"Consumes [4] [Iron]",
 			"Can carry [8] [Aircraft] units",
