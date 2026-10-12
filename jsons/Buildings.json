@@ -2301,7 +2301,8 @@
 	{
 		"name": "Concentration Camp",
 		"cost": 800,
-		"maintenance": 15,
+		"happiness": 2,
+		"maintenance": 5,
 		"percentStatBonus": {
 			"science": 10,
 			"production": 25,
@@ -2309,9 +2310,8 @@
 			"gold": 25
 		},
 		"uniques": [
-			"Only available <after adopting [Fascism]>",
-			"[-1 Happiness] per [10] population [in this city]",
-			"[-1] population [in this city] <upon turn end> <every [10] turns>"
+			"Only available <after adopting [Fascism]> <in cities with at least [10] [Population]>",
+			"[-2] population [in this city]"
 		]
 	},
 	{
