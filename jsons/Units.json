@@ -248,6 +248,7 @@
 		"cost": 6000,
 		"requiredTech": "Enhancing",
 		"uniques": [
+			"Cyber",
 			"Can see invisible [Wounded] units",
 			"Ignores Zone of Control",
 			"Can move after attacking",
@@ -2998,6 +2999,7 @@
 		"requiredTech": "Lasers",
 		"upgradesTo": "Spectre",
 		"uniques": [
+			"Cyber",
 			"May Paradrop to [Land] tiles up to [16] tiles away <in [{Friendly} {Land}] tiles>",
 			"Can pass through impassable tiles",
 			"May enter foreign tiles without open borders",
@@ -3021,6 +3023,7 @@
 		"requiredTech": "Nuclear Fusion",
 		"requiredResource": "Composites",
 		"uniques": [
+			"Cyber",
 			"May Paradrop to [All] tiles up to [18] tiles away",
 			"Can pass through impassable tiles",
 			"May enter foreign tiles without open borders",
@@ -3051,6 +3054,7 @@
 		"requiredTech": "Nuclear Fusion",
 		"requiredResource": "Composites",
 		"uniques": [
+			"Cyber",
 			"Hacker",
 			"May Paradrop to [All] tiles up to [18] tiles away",
 			"Can pass through impassable tiles",
@@ -3523,6 +3527,7 @@
 		"cost": 4500,
 		"requiredTech": "Mobile Tactics",
 		"uniques": [
+			"Cyber",
 			"[+45]% Strength <vs [Wounded] units>"
 		],
 		"attackSound": "tankshot"
@@ -3553,6 +3558,7 @@
 		"cost": 1500,
 		"requiredTech": "The Internet",
 		"uniques": [
+			"Cyber",
 			"Can only attack [Cyber] units",
 			"[50]% chance to intercept air attacks",
 			"May capture killed [Cyber] units <with [33]% chance>",
@@ -3572,6 +3578,7 @@
 		"cost": 7200,
 		"requiredTech": "Enhancing",
 		"uniques": [
+			"Cyber",
 			"Heals [50] damage if it kills a unit",
 			"May capture killed [Military] units <with [99]% chance>"
 		],
@@ -3588,6 +3595,7 @@
 		"cost": 7200,
 		"requiredTech": "Enhancing",
 		"uniques": [
+			"Cyber",
 			"Only available <if [Monolith Portal] is constructed>",
 			"Can only be built <in cities with a [Factory]>",
 			"Heals [25] damage if it kills a unit",
