@@ -2527,13 +2527,11 @@
 	},
 	{
 		"name": "Energy Reactor",
-		"cost": 1000,
-		"happiness": -4,
 		"maintenance": 12,
+		"requiredTech": "Particle Physics",
 		"uniques": [
-			"Only available <if [SP-Future Power] is constructed>",
-			"Provides [20] [Power]",
-			"Provides [20] [Power] <if [Electrical Corporation] is constructed>"
+			"Provides [40] [Power]",
+			"Provides [40] [Power] <if [Electrical Corporation] is constructed>"
 		]
 	},
 	{
