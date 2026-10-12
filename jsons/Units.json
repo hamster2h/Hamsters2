@@ -1435,7 +1435,7 @@
 		"requiredResource": "SM Composites",
 		"uniques": [
 			"[-100]% maintenance costs",
-			"[+400]% Strength <vs [Water] units>",
+			"[+400]% Strength <vs [Anti-Air] units>",
 			"[+4] Range <after discovering [Spaceflight]>",
 			"Cannot be intercepted"
 		],
@@ -1453,7 +1453,7 @@
 		"requiredResource": "SM Composites",
 		"uniques": [
 			"[-100]% maintenance costs",
-			"[+400]% Strength <vs [Water] units>",
+			"[+400]% Strength <vs [Anti-Air] units>",
 			"[+4] Range <after discovering [Spaceflight]>",
 			"Cannot be intercepted"
 		],
