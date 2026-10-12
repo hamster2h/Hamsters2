@@ -272,7 +272,8 @@
 		"uniques": [
 			"Can carry [4] [Missile] units",
 			"Can carry [6] [Big Missile] units",
-			"Can carry [4] extra [Big Missile] units <after adopting [Order]>"
+			"Can carry [4] extra [Big Missile] units <after adopting [Order]>",
+			"[This Unit] loses the [S-VLS] promotion"
 		]
 	},
 	{
