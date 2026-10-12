@@ -373,8 +373,9 @@
 	{
 		"name": "Rocket Launcher",
 		"uniques": [
-			"[+35]% Strength <vs [Cyber] units>",
-			"[+75]% Strength <vs cities>"
+			"[+25]% Strength <vs [Armored] units>",
+			"[+25]% Strength <vs [Helicopter] units>",
+			"[+10]% Strength <vs cities>"
 		]
 	},
 	{
