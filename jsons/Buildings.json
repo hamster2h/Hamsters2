@@ -3548,7 +3548,7 @@
 			"[+25]% Production when constructing [Support] units [in all cities]",
 			"[Gold] cost of purchasing [Support] units [-10]%",
 			"[+33]% Strength <for [Support] units>",
-			"Comment [Missile Cruisers start with L-VLS instead of S-VLS]",
+			"All newly-trained [Missile Cruiser] units [in all cities] receive the [L-VLS] promotion",
 			"Only available <starting from the [Information era]>",
 			"Consumes [1] [General Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
