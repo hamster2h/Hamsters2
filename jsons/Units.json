@@ -1218,8 +1218,6 @@
 			"Consumes [1] [Oil] <before discovering [Particle Physics]>",
 			"Consumes [2] [Aluminum]",
 			"[+2] Sight",
-			"Can carry [8] [Missile] units",
-			"Can carry [4] extra [Missile] units <after adopting [Order]>",
 			"[95]% chance to intercept air attacks",
 			"[3] extra interceptions may be made per turn",
 			"[+100]% Strength <vs [Aircraft] units>",
@@ -1231,7 +1229,8 @@
 		],
 		"promotions": [
 			"Armor Plating I",
-			"Indirect Fire"
+			"Indirect Fire",
+			"VLS"
 		],
 		"attackSound": "shipguns"
 	},
