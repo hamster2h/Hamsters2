@@ -3609,6 +3609,7 @@
 		"cost": 8000,
 		"requiredTech": "Automation",
 		"uniques": [
+			"Cyber",
 			"Hacker",
 			"Comment [+33% Strength for some adjacent Units vs Cyber Units]",
 			"Comment [25% chance for some adjacent units to capture killed Cyber Units]",
@@ -3626,6 +3627,7 @@
 		"cost": 8000,
 		"requiredTech": "Nanotechnology",
 		"uniques": [
+			"Cyber",
 			"Hacker",
 			"Only available <if [Monolith Portal] is constructed>",
 			"Can only be built <in cities with a [Factory]>",
