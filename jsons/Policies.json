@@ -47,7 +47,7 @@
                 "name": "Landed Elite",
                 "uniques": [
 					"[+25]% [Food] from every [Palace]",
-					"[+2 Food] from every [Palace]"
+					"[+10]% [Production] from every [Palace]"
                 ],
                 "requires": ["Legalism"],
                 "row": 2,
