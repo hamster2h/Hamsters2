@@ -2518,11 +2518,11 @@
 		"name": "Nuclear Plant",
 		"happiness": -6,
 		"maintenance": 20,
-		"requiredResource": "Uranium",
 		"requiredTech": "Nuclear Fission",
 		"uniques": [
-			"Provides [7] [Power]",
-			"Provides [7] [Power] <if [Electrical Corporation] is constructed>"
+			"Consumes [1] [Uranium] <before discovering [Particle Physics]>",
+			"Provides [9] [Power]",
+			"Provides [9] [Power] <if [Electrical Corporation] is constructed>"
 		]
 	},
 	{
@@ -2742,11 +2742,11 @@
 		"name": "Energy Barrier",
 		"cost": 3000,
 		"cityStrength": 24,
-		"cityHealth": 150,
+		"cityHealth": 600,
 		"maintenance": 12,
+		"requiredTech": "Particle Physics",
 		"uniques": [
-			"Consumes [12] [Power]",
-			"Only available <if [SP-Future Power] is constructed>",
+			"Consumes [20] [Power]",
 			"Population loss from nuclear attacks [-25]% [in this city]",
 			"All newly-trained [Military] units [in this city] receive the [Energy Shield] promotion",
 			"Destroyed when the city is captured"
@@ -2862,10 +2862,6 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Atomic Perk]",
-			"[+25]% Production when constructing [Atomic Bomb] units [in all cities]",
-			"[+25]% Production when constructing [Tactical Nuke] units [in all cities]",
-			"[+25]% Production when constructing [Nuclear Missile] units [in all cities]",
-			"[+25]% Production when constructing [Aurora Bomber] units [in all cities]",
 			"[+10]% Production when constructing [Nuclear Submarine] units [in all cities] <before discovering [Particle Physics]>",
 			"[+10]% Production when constructing [Nuclear Carrier] units [in all cities] <before discovering [Particle Physics]>",
 			"[+10]% Production when constructing [Giant Death Robot] units [in all cities] <before discovering [Particle Physics]>",
@@ -2925,8 +2921,8 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Future Perk]",
-			"Comment [Enables construction of [Energy Reactor] and [Energy Barrier]]",
-			"Only available <starting from the [Future era]>",
+			"[+25]% [Gold] from every [Energy Reactor]",
+			"Only available <starting from the [Beyond the Future]>",
 			"Consumes [2] [Scientist Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
