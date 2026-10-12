@@ -51,7 +51,7 @@
         "type": "Pantheon",
         "uniques": [
             "[+1 Happiness] from [All] tiles without [Improvement] [in cities following this religion]",
-			"[-2 Production] from all [Production] buildings"
+			"[-1 Production] from all [Production] buildings"
         ]
     },
     {
@@ -170,7 +170,8 @@
         "name": "Sacred Waters",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Happiness, +1 Faith] from [River] tiles [in cities following this religion]"
+            "[+1 Happiness] from [River] tiles [in cities following this religion]",
+			"[-1 Science] from all [Science] buildings"
         ]
     },
     {
