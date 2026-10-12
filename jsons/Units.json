@@ -1284,7 +1284,7 @@
 		"requiredTech": "Refrigeration",
 		"uniques": [
 			"Consumes [1] [Oil] <before discovering [Particle Physics]>",
-			"[+900]% Strength <when attacking>",
+			"[+1000]% Strength <when attacking>",
 			"Can carry [6] [Missile] units",
 			"[-1] Sight"
 		],
@@ -1301,7 +1301,7 @@
 		"requiredTech": "Telecommunications",
 		"uniques": [
 			"Consumes [1] [Uranium] <before discovering [Particle Physics]>",
-			"[+700]% Strength <when attacking>",
+			"[+800]% Strength <when attacking>",
 			"Can move after attacking",
 			"Can carry [10] [Big Missile] units"
 		],
