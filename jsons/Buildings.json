@@ -2548,8 +2548,7 @@
 		},
 		"uniques": [
 			"Consumes [2] [Power]",
-			"Provides [1] [Aluminum]",
-			"Provides [1] [Coal]"
+			"Provides [1] [Aluminum]"
 		]
 	},
 	{
@@ -2657,8 +2656,7 @@
 		},
 		"uniques": [
 			"Consumes [1] [Power]",
-			"Only available <if [EP-Genetic Engineering] is constructed>",
-			"Destroyed when the city is captured"
+			"Only available <if [EP-Genetic Engineering] is constructed>"
 		]
 	},
 	{
@@ -2672,8 +2670,7 @@
 		"requiredBuilding": "Factory",
 		"uniques": [
 			"Consumes [4] [Power]",
-			"Provides [2] [Composites]",
-			"Destroyed when the city is captured"
+			"Provides [2] [Composites]"
 		]
 	},
 	{
@@ -2684,7 +2681,6 @@
 		"uniques": [
 			"Consumes [4] [Power]",
 			"Provides [8] [Composites]",
-			"Destroyed when the city is captured",
 			"Only available <if [EP-Cyber Engineering] is constructed>"
 		]
 	},
@@ -2692,26 +2688,24 @@
 		"name": "SM Composite Factory",
 		"cost": 4000,
 		"production": 2,
-		"maintenance": 8,
+		"maintenance": 15,
 		"requiredTech": "Stealth",
 		"uniques": [
 			"Consumes [12] [Power]",
 			"Consumes [4] [Coal]",
-			"Provides [2] [SM Composites]",
-			"Destroyed when the city is captured"
+			"Provides [2] [SM Composites]"
 		]
 	},
 	{
 		"name": "SM Composite Factory 2",
 		"cost": 4000,
 		"production": 2,
-		"maintenance": 8,
+		"maintenance": 15,
 		"requiredTech": "Stealth",
 		"uniques": [
 			"Consumes [12] [Power]",
 			"Consumes [2] [Oil]",
-			"Provides [2] [SM Composites]",
-			"Destroyed when the city is captured"
+			"Provides [2] [SM Composites]"
 		]
 	},
 	{
