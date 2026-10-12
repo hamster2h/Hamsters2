@@ -141,6 +141,7 @@
             "May enter foreign tiles without open borders",
             "Can see invisible [Submarine] units",
             "Can only attack [Water] tiles",
+			"Can only attack [non-[Hovering]] units",
 			"Can instantly construct a [Remove Ice] improvement <after discovering [Steam Power]>",
 			"Never appears as a Barbarian unit",
 			"Can only be built <in cities with a [Shipyard]>"
