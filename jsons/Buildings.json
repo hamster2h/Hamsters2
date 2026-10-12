@@ -2310,7 +2310,7 @@
 			"gold": 25
 		},
 		"uniques": [
-			"Only available <after adopting [Fascism]> <in cities with at least [10] [Population]>",
+			"Only available <in cities with at least [10] [Population]> <after adopting [Fascism]>",
 			"[-2] population [in this city]"
 		]
 	},
