@@ -1229,8 +1229,7 @@
 		],
 		"promotions": [
 			"Armor Plating I",
-			"Indirect Fire",
-			"VLS"
+			"Indirect Fire"
 		],
 		"attackSound": "shipguns"
 	},
