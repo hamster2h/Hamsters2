@@ -2562,24 +2562,6 @@
 		]
 	},
 	{
-		"name": "Entrepeneur Venue",
-		"cost": 750,
-		"gold": 4,
-		"percentStatBonus": {
-			"gold": 5
-		},
-		"specialistSlots": {
-			"Merchant": 1
-		},
-		"requiredBuilding": "Stock Exchange",
-		"requiredTech": "Urbanization",
-		"uniques": [
-			"Consumes [1] [Power]",
-			"Unsellable",
-			"Destroyed when the city is captured"
-		]
-	},
-	{
 		"name": "Spaceship Factory",
 		"production": 4,
 		"gold": 10,
@@ -3609,6 +3591,21 @@
 			"Only available <starting from the [Future era]>",
 			"Consumes [2] [General Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
+		]
+	},
+	{
+		"name": "Entrepeneur Venue",
+		"gold": 4,
+		"percentStatBonus": {
+			"gold": 10
+		},
+		"specialistSlots": {
+			"Merchant": 1
+		},
+		"uniques": [
+			"Destroyed when the city is captured",
+			"Unbuildable",
+			"Unsellable"
 		]
 	},
 	{
