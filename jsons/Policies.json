@@ -245,7 +245,7 @@
             "Scientific": 0
         },
         "uniques": [
-			"Gain a free [Shrine] [in all cities]",
+			"[+1 Culture, +2 Faith] [in all cities]",
             "[+100]% Production when constructing [Temple] buildings [in all cities]"
         ],
         "policies": [
