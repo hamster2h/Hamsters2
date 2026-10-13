@@ -65,6 +65,7 @@
 		"cost": 720,
 		"requiredTech": "Infrastructure",
 		"uniques": [
+			"Can move immediately once bought",
 			"Can instantly construct a [Power Plant] improvement <by consuming this unit>",
 			"Can instantly construct a [Water Tower] improvement <by consuming this unit>",
 			"Can instantly construct a [Industrial Complex] improvement <by consuming this unit>",
@@ -80,6 +81,7 @@
 		"uniques": [
 			"Cannot enter ocean tiles <before discovering [Astronomy]>",
 			"Can enter ice tiles",
+			"Can move immediately once bought",
 			"May create improvements on water resources",
 			"Can instantly construct a [Offshore Wind Farm] improvement <by consuming this unit> <after discovering [Terraforming]>"
 		]
@@ -91,6 +93,7 @@
 		"movement": 2,
 		"cost": 1200,
 		"uniques": [
+			"Can move immediately once bought",
 			"Can instantly construct a [Concert Venue] improvement <by consuming this unit>"
 		]
 	},
@@ -101,6 +104,7 @@
 		"movement": 2,
 		"cost": 2500,
 		"uniques": [
+			"Can move immediately once bought",
 			"Can instantly construct a [Industry] improvement <by consuming this unit>",
 			"Can only be built <in cities with a [Factory]>"
 		],
@@ -117,6 +121,7 @@
 		"cost": 1500,
 		"requiredTech": "Combustion",
 		"uniques": [
+			"Can move immediately once bought",
 			"Can instantly construct a [Supply Route] improvement <by consuming this unit>",
 			"Can only be built <in cities with a [Factory]>"
 		],
@@ -133,6 +138,7 @@
 		"movement": 2,
 		"requiredTech": "Archaeology",
 		"uniques": [
+			"Can move immediately once bought",
 			"Can instantly construct a [Excavation Site] improvement <by consuming this unit>"
 		]
 	},
