@@ -47,8 +47,8 @@
 		"specialistSlots": {
 			"Artist": 2
 		},
-		"requiredBuilding": "Amphitheater",
 		"requiredTech": "Acoustics",
+		"requiredBuilding": "Amphitheater",
 		"uniques": [
 			"Destroyed when the city is captured"
 		]
@@ -59,8 +59,8 @@
 		"cost": 100,
 		"faith": 2,
 		"maintenance": 2,
-		"requiredBuilding": "Shrine",
 		"requiredTech": "Philosophy",
+		"requiredBuilding": "Shrine",
 		"uniques": [
 			"[+1 Food] from [Snow] tiles [in this city]",
 			"Free Great Person <upon turn start> <every [80] turns>"
@@ -87,8 +87,8 @@
 		"faith": 2,
 		"happiness": 2,
 		"maintenance": 0,
-		"requiredBuilding": "Shrine",
 		"requiredTech": "Philosophy",
+		"requiredBuilding": "Shrine",
 		"uniques": [
 			"[+100]% Gold given to enemy if city is captured <in this city>",
 			"Destroyed when the city is captured"
@@ -120,8 +120,8 @@
 		"specialistSlots": {
 			"Scientist": 1
 		},
-		"requiredBuilding": "Library",
 		"requiredTech": "Education",
+		"requiredBuilding": "Library",
 		"uniques": [
 			"[+1 Science] from [Jungle] tiles [in this city]",
 			"[+1 Science] from [Forest] tiles [in this city]"
@@ -178,10 +178,10 @@
 	{
 		"name": "Pyramid",
 		"uniqueTo": "The Maya",
+		"cost": 60,
 		"faith": 1,
 		"science": 1,
 		"culture": 4,
-		"cost": 60,
 		"maintenance": 1,
 		"requiredTech": "Pottery"
 	},
@@ -203,8 +203,8 @@
 		"culture": 3,
 		"happiness": 2,
 		"maintenance": 2,
-		"requiredBuilding": "Amphitheater",
 		"requiredTech": "Acoustics",
+		"requiredBuilding": "Amphitheater",
 		"uniques": [
 			"Destroyed when the city is captured"
 		]
@@ -219,8 +219,8 @@
 		"specialistSlots": {
 			"Artist": 1
 		},
-		"requiredBuilding": "Amphitheater",
 		"requiredTech": "Acoustics",
+		"requiredBuilding": "Amphitheater",
 		"uniques": [
 			"Destroyed when the city is captured"
 		]
@@ -242,8 +242,8 @@
 		"specialistSlots": {
 			"Prophet": 1
 		},
-		"requiredBuilding": "Shrine",
 		"requiredTech": "Philosophy",
+		"requiredBuilding": "Shrine",
 		"uniques": [
 			"Only available <when religion is enabled>",
 			"Destroyed when the city is captured"
@@ -259,8 +259,8 @@
 		"specialistSlots": {
 			"Prophet": 2
 		},
-		"requiredBuilding": "Shrine",
-		"requiredTech": "Philosophy"
+		"requiredTech": "Philosophy",
+		"requiredBuilding": "Shrine"
 	},
 	{
 		"name": "Ziggurat",
@@ -274,8 +274,8 @@
 		"specialistSlots": {
 			"Prophet": 1
 		},
-		"requiredBuilding": "Shrine",
 		"requiredTech": "Philosophy",
+		"requiredBuilding": "Shrine",
 		"uniques":[
 			"Gain [20] [Faith] <upon discovering [Classical era] technology> <(modified by game speed)>",
 			"Gain [21] [Faith] <upon discovering [Medieval era] technology> <(modified by game speed)>",
@@ -323,8 +323,8 @@
         "name": "Police Station",
         "cost": 300,
         "maintenance": 1,
+		"requiredTech": "Electricity",
 		"requiredBuilding": "Constabulary",
-        "requiredTech": "Electricity",
         "uniques": [
 			"Only available <when espionage is enabled>",
 			"[-20]% enemy spy effectiveness [in this city]"
@@ -338,10 +338,10 @@
 		"faith": 8,
 		"culture": 2,
 		"maintenance": 1,
+		"requiredTech": "Theology",
 		"uniques": [
 			"[+25]% Great Person generation [in this city]"
-		],
-		"requiredTech": "Theology"
+		]
 	},
 	{
 		"name": "Baray",
@@ -349,12 +349,12 @@
 		"replaces": "Garden",
 		"cost": 120,
 		"maintenance": 1,
+		"requiredTech": "Drama and Poetry",
 		"uniques": [
 			"[10]% Food is carried over after population increases [in this city]",
 			"[+2 Food, +2 Faith] <after discovering [Drama and Poetry]>",
 			"[+25]% Great Person generation [in this city]"
-		],
-		"requiredTech": "Drama and Poetry"
+		]
 	},
 	{
 		"name": "Bazaar",
@@ -383,8 +383,8 @@
 		"specialistSlots": {
 			"Merchant": 1
 		},
-		"requiredBuilding": "Market",
 		"requiredTech": "Banking",
+		"requiredBuilding": "Market",
 		"uniques": [
 			"[+25]% Production when constructing [Military] units [in this city]"
 		]
@@ -401,8 +401,8 @@
 		"specialistSlots": {
 			"Merchant": 2
 		},
-		"requiredBuilding": "Market",
 		"requiredTech": "Banking",
+		"requiredBuilding": "Market",
 		"uniques": [
 			"[+25]% Production when constructing [Military] units [in this city]",
 			"[+1 Gold, +1 Culture] from each Trade Route"
@@ -420,8 +420,8 @@
 		"specialistSlots": {
 			"Merchant": 2
 		},
-		"requiredBuilding": "Market",
 		"requiredTech": "Banking",
+		"requiredBuilding": "Market",
 		"uniques": [
 			"[+25]% Production when constructing [Military] units [in this city]"
 		]
@@ -438,8 +438,8 @@
         "specialistSlots": {
 			"Merchant": 1
 		},
-		"requiredBuilding": "Market",
 		"requiredTech": "Guilds",
+		"requiredBuilding": "Market",
         "uniques": [
 			"[+25]% Production when constructing [Military] units [in this city]",
 			"[+25]% Production when constructing [Production] buildings [in this city]",
@@ -500,8 +500,8 @@
 	{
 		"name": "Armory",
 		"maintenance": 2,
-		"requiredBuilding": "Barracks",
 		"requiredTech": "Steel",
+		"requiredBuilding": "Barracks",
 		"uniques": [
 			"New [Military] units start with [15] XP [in this city]",
 			"[+25]% Production when constructing [Military] units [in this city]",
@@ -514,8 +514,8 @@
 		"specialistSlots": {
 			"General": 1
 		},
-		"requiredBuilding": "Armory",
 		"requiredTech": "Military Science",
+		"requiredBuilding": "Armory",
 		"uniques": [
 			"New [Military] units start with [15] XP [in this city]",
 			"[+25]% Production when constructing [Military] units [in this city]",
@@ -551,8 +551,8 @@
 		"specialistSlots": {
 			"General": 1
 		},
-		"requiredBuilding": "Walls",
 		"requiredTech": "Chivalry",
+		"requiredBuilding": "Walls",
 		"uniques": [
 			"Destroyed when the city is captured"
 		]
@@ -568,8 +568,8 @@
 		"specialistSlots": {
 			"General": 1
 		},
-		"requiredBuilding": "Walls",
 		"requiredTech": "Chivalry",
+		"requiredBuilding": "Walls",
 		"uniques": [
 			"[+1 Gold] [in this city] <after discovering [Flight]>",
 			"Destroyed when the city is captured"
@@ -580,8 +580,8 @@
 		"cost": 300,
 		"cityStrength": 9,
 		"cityHealth": 30,
-		"requiredBuilding": "Castle",
 		"requiredTech": "Metallurgy",
+		"requiredBuilding": "Castle",
 		"uniques": [
 			"Destroyed when the city is captured"
 		]
@@ -590,8 +590,8 @@
 		"name": "Military Base",
 		"cityStrength": 12,
 		"cityHealth": 30,
-		"requiredBuilding": "Arsenal",
 		"requiredTech": "Replaceable Parts",
+		"requiredBuilding": "Arsenal",
 		"uniques": [
 			"Destroyed when the city is captured"
 		]
@@ -778,8 +778,8 @@
 		"isNationalWonder": false,
 		"cost": 475,
 		"culture": 2,
-		"requiredBuilding": "Barracks",
 		"requiredTech": "Drama and Poetry",
+		"requiredBuilding": "Barracks",
 		"uniques": [
 			"[+1 Science] per [2] population [in this city]",
 			"[+1 Production] per [2] population [in this city]",
@@ -797,8 +797,8 @@
 		"specialistSlots": {
 			"General": 1
 		},
-		"requiredBuilding": "Stable",
         "requiredTech": "Iron Working",
+		"requiredBuilding": "Stable",
         "uniques": [
             "All newly-trained [Mounted] units [in all cities] receive the [Shock I] promotion",
 			"Provides [2] [Horses]"
@@ -831,8 +831,8 @@
 			"science": 25,
 			"culture": 10
 		},
-		"requiredBuilding": "University",
 		"requiredTech": "Education",
+		"requiredBuilding": "University",
 		"uniques": [
 			"[+1 Gold] per [2] population [in this city]",
 			"All newly-trained [Gunpowder] units [in this city] receive the [Stealth] promotion",
@@ -1819,8 +1819,8 @@
         "percentStatBonus": {
 			"production": 5
 		},
-        "requiredBuilding": "Workshop",
-        "requiredTech": "Industrialization"
+        "requiredTech": "Industrialization",
+		"requiredBuilding": "Workshop"
     },
     {
         "name": "Gas Works",
@@ -1834,8 +1834,8 @@
         "specialistSlots": {
 			"Engineer": 1
 		},
-        "requiredBuilding": "Workshop",
-        "requiredTech": "Industrialization"
+		"requiredTech": "Industrialization",
+        "requiredBuilding": "Workshop"
     },
 	{
         "name": "Incinerator",
@@ -1846,8 +1846,8 @@
         "percentStatBonus": {
 			"production": 10
 		},
-        "requiredBuilding": "Workshop",
-        "requiredTech": "Combustion"
+        "requiredTech": "Combustion",
+		"requiredBuilding": "Workshop"
     },
     {
         "name": "Manufacturing Plant",
@@ -1872,10 +1872,10 @@
         "percentStatBonus": {
 			"production": 5
 		},
+		"requiredTech": "Gunpowder",
         "uniques": [
 			"[+15]% Production when constructing [Land] units [in this city]"
-		],
-        "requiredTech": "Gunpowder"
+		]
     },
 	{
 		"name": "Factory",
@@ -1888,8 +1888,8 @@
 		"specialistSlots": {
 			"Engineer": 2
 		},
-		"requiredBuilding": "Workshop",
 		"requiredTech": "Industrialization",
+		"requiredBuilding": "Workshop",
 		"uniques": [
 			"[+10]% [Production] [in this city] <with [Power]>"
 		]
@@ -1898,14 +1898,14 @@
 		"name": "Granary",
 		"food": 2,
 		"maintenance": 1,
+		"requiredTech": "Pottery",
 		"uniques": [
 			"[+1 Food] from [Farm] tiles [in this city]",
 			"[+1 Food] from [Terrace farm] tiles [in this city]",
 			"[+1 Food] from [Polder] tiles [in this city]",
 			"[+1 Food] from [Bananas] tiles [in this city]",
 			"[+1 Food] from [Deer] tiles [in this city]"
-		],
-		"requiredTech": "Pottery"
+		]
 	},
     {
         "name": "Bakery",
@@ -1913,32 +1913,31 @@
         "food": 2,
         "happiness": 2,
         "gold": 2,
-        "maintenance": 0,
         "specialistSlots": {
 			"Merchant": 1
 		},
-        "requiredBuilding": "Granary",
-        "requiredTech": "Masonry"
+		"requiredTech": "Masonry",
+        "requiredBuilding": "Granary"
     },
 	{
         "name": "Greenhouse",
         "cost": 100,
         "food": 2,
 		"maintenance": 2,
+		"requiredTech": "Construction",
         "uniques": [
 			"[+1 Food] from [Mountain] tiles [in this city]",
 			"[+1 Food] from [Desert] tiles [in this city]",
 			"[+1 Food] from [Tundra] tiles [in this city]",
 			"[+1 Food] from [Snow] tiles [in this city]"
-		],
-        "requiredTech": "Construction"
+		]
     },
 	{
 		"name": "Medical Lab",
-		"maintenance": 3,
 		"cost": 500,
-		"requiredBuilding": "Hospital",
+		"maintenance": 3,
 		"requiredTech": "Pharmaceuticals",
+		"requiredBuilding": "Hospital",
 		"uniques": [
 			"[+1 Food] from every specialist [in this city]",
 			"[10]% Food is carried over after population increases [in this city]",
@@ -1949,13 +1948,13 @@
         "name": "Mushroom Farm",
         "cost": 200,
 		"maintenance": 2,
+		"requiredTech": "Mining",
         "uniques": [
 			"[+1 Food] from [Mountain] tiles [in this city]",
 			"[+1 Food] from [Hill] tiles [in this city] <after discovering [Engineering]>",
 			"[+1 Food] from [Forest] tiles [in this city] <after discovering [Civil Service]>",
 			"[+1 Food] from [Jungle] tiles [in this city] <after discovering [Education]>"
-		],
-        "requiredTech": "Mining"
+		]
     },
     {
         "name": "Slaughterhouse",
@@ -1974,20 +1973,20 @@
         "name": "Smokery",
         "cost": 100,
         "maintenance": 2,
-        "uniques": [
-			"[+1 Food] from [Sheep] tiles [in this city]",
-			"[+1 Food] from [Cattle] tiles [in this city]",
-			"[+1 Food] from [Deer] tiles [in this city]",
-			"[+1 Food] from [Horses] tiles [in this city]"
-		],
-        "requiredBuilding": "Slaughterhouse",
         "requiredNearbyImprovedResources": [
 			"Sheep",
 			"Deer",
 			"Cattle",
 			"Horses"
 		],
-        "requiredTech": "Animal Husbandry"
+        "requiredTech": "Animal Husbandry",
+		"requiredBuilding": "Slaughterhouse",
+		"uniques": [
+			"[+1 Food] from [Sheep] tiles [in this city]",
+			"[+1 Food] from [Cattle] tiles [in this city]",
+			"[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Horses] tiles [in this city]"
+		]
     },
     {
         "name": "Icehouse",
@@ -2028,15 +2027,15 @@
         "cost": 400,
 		"production": 2,
         "happiness": 1,
+		"maintenance": 2,
 		"percentStatBonus": {
 			"food": 5
 		},
-        "maintenance": 2,
+        "requiredTech": "Industrialization",
+		"requiredBuilding": "Workshop",
 		"uniques": [
 			"[+1 Gold, +1 Food] from [Sugar] tiles [in this city]"
-		],
-        "requiredBuilding": "Workshop",
-        "requiredTech": "Industrialization"
+		]
     },
 	{
         "name": "Apothecary",
@@ -2096,8 +2095,8 @@
         "name": "Brine Processing Plant",
         "cost": 150,
 		"maintenance": 4,
-		"requiredBuilding": "Desalination Plant",
         "requiredTech": "Bronze Working",
+		"requiredBuilding": "Desalination Plant",
         "uniques": [
 			"Must be next to [Coast]",
 			"[+1 Production] from [Coast] tiles [in this city]",
@@ -2142,8 +2141,8 @@
 		"gold": 2,
 		"food": 4,
 		"maintenance": 4,
-		"requiredBuilding": "Harbor",
 		"requiredTech": "Navigation",
+		"requiredBuilding": "Harbor",
 		"uniques": [
 			"Must be next to [Coast]",
 			"[+1 Production, +1 Gold] from [Coast] tiles [in this city]",
@@ -2173,11 +2172,11 @@
         "specialistSlots": {
 			"Scientist": 1
 		},
+        "requiredTech": "Biology",
+		"requiredBuilding": "Small Park",
         "uniques": [
 			"[+1 Science] from [Forest] tiles [in this city]"
-		],
-        "requiredBuilding": "Small Park",
-        "requiredTech": "Biology"
+		]
     },
 	{
         "name": "Fruiticetium",
@@ -2188,11 +2187,11 @@
         "specialistSlots": {
 			"Scientist": 1
 		},
+		"requiredTech": "Biology",
+		"requiredBuilding": "Small Park",
         "uniques": [
 			"[+2 Happiness] from [Citrus] tiles [in this city]"
-		],
-        "requiredBuilding": "Small Park",
-        "requiredTech": "Biology"
+		]
     },
     {
         "name": "Fungarium",
@@ -2209,14 +2208,14 @@
         "cost": 150,
         "science": 2,
         "maintenance": 2,
-        "uniques": [
-			"[+1 Science] from [Forest] tiles [in this city]",
-			"[+1 Science] from [Jungle] tiles [in this city]"
-		],
         "specialistSlots": {
 			"Scientist": 1
 		},
-        "requiredTech": "Printing Press"
+        "requiredTech": "Printing Press",
+		"uniques": [
+			"[+1 Science] from [Forest] tiles [in this city]",
+			"[+1 Science] from [Jungle] tiles [in this city]"
+		]
     },
 	{
         "name": "Planetarium",
@@ -2264,42 +2263,42 @@
         "cost": 100,
         "happiness": 2,
         "maintenance": 3,
+		"requiredTech": "Sailing",
         "uniques": [
 			"Must be next to [Coast]"
-		],
-        "requiredTech": "Sailing"
+		]
     },
     {
         "name": "Spa Resort",
         "cost": 200,
         "happiness": 2,
         "maintenance": 3,
+		"requiredTech": "Engineering",
         "uniques": [
 			"Must be next to [Coast]",
 			"Must be next to [Mountain]"
-		],
-        "requiredTech": "Engineering"
+		]
     },
     {
         "name": "Golf Resort",
         "cost": 300,
         "happiness": 2,
         "maintenance": 4,
+		"requiredTech": "Architecture",
         "uniques": [
 			"Must be next to [Plains]",
 			"Must be next to [Grassland]"
-		],
-        "requiredTech": "Architecture"
+		]
     },
     {
         "name": "Mountain Resort",
         "cost": 400,
         "happiness": 4,
         "maintenance": 2,
+		"requiredTech": "Railroads",
         "uniques": [
 			"Must be next to [Mountain]"
-		],
-        "requiredTech": "Railroads"
+		]
     },
 	{
 		"name": "Concentration Camp",
@@ -2324,8 +2323,8 @@
 		"percentStatBonus": {
 			"science": 50
 		},
-		"requiredBuilding": "Library",
 		"requiredTech": "Astronomy",
+		"requiredBuilding": "Library",
 		"uniques": [
 			"Must have an owned [{non-[Natural Wonder]} {Mountain}] within [6] tiles"
 		]
@@ -2333,11 +2332,11 @@
 	{
 		"name": "Public School",
 		"maintenance": 4,
+		"requiredTech": "Scientific Theory",
 		"requiredBuilding": "University",
 		"uniques": [
 			"[+1 Science] per [2] population [in this city]"
-		],
-		"requiredTech": "Scientific Theory"
+		]
 	},
 	{
 		"name": "Research Lab",
@@ -2349,8 +2348,8 @@
 		"specialistSlots": {
 			"Scientist": 1
 		},
-		"requiredBuilding": "Public School",
 		"requiredTech": "Plastics",
+		"requiredBuilding": "Public School",
 		"uniques": [
 			"Consumes [1] [Power]"
 		]
@@ -2368,8 +2367,8 @@
 		"specialistSlots": {
 			"Scientist": 8
 		},
-		"requiredBuilding": "University",
 		"requiredTech": "Scientific Theory",
+		"requiredBuilding": "University",
 		"uniques": [
 			"Only available <after adopting [Rationalism Complete]>",
 			"[+1 Science] per [2] population [in this city]",
@@ -2389,8 +2388,8 @@
 		"name": "Hospital",
 		"food": 3,
 		"maintenance": 10,
-		"requiredBuilding": "Aqueduct",
 		"requiredTech": "Biology",
+		"requiredBuilding": "Aqueduct",
 		"uniques": [
 			"[+5]% [Food] [in this city] <with [Power]>"
 		]
@@ -2404,8 +2403,8 @@
 		"specialistSlots": {
 			"Merchant": 2
 		},
-		"requiredBuilding": "Bank",
 		"requiredTech": "Electricity",
+		"requiredBuilding": "Bank",
 		"uniques": [
 			"[+10]% [Gold] [in this city] <with [Power]>"
 		]
@@ -2417,8 +2416,8 @@
 		"specialistSlots": {
 			"Artist": 2
 		},
-		"requiredBuilding": "Opera House",
 		"requiredTech": "Archaeology",
+		"requiredBuilding": "Opera House",
 		"uniques": [
 			"Destroyed when the city is captured"
 		]
@@ -2448,8 +2447,8 @@
 		"percentStatBonus": {
 			"culture": 25
 		},
-		"requiredBuilding": "Museum",
 		"requiredTech": "Radio",
+		"requiredBuilding": "Museum",
 		"uniques": [
 			"Consumes [1] [Power]",
 			"Destroyed when the city is captured"
@@ -2466,8 +2465,8 @@
 		"percentStatBonus": {
 			"culture": 10
 		},
-		"requiredBuilding": "Broadcast Tower",
 		"requiredTech": "Globalization",
+		"requiredBuilding": "Broadcast Tower",
 		"uniques": [
 			"Consumes [2] [Power]",
 			"Destroyed when the city is captured"
@@ -2485,8 +2484,8 @@
 	{
 		"name": "Hydro Plant",
 		"cost": 360,
-		"requiredTech": "Electricity",
 		"maintenance": 3,
+		"requiredTech": "Electricity",
 		"uniques": [
 			"Must be on [River]",
 			"Provides [3] [Power]",
@@ -2496,8 +2495,8 @@
 	},
 	{
 		"name": "Electrical Grid",
-		"requiredTech": "Infrastructure",
 		"cost": 500,
+		"requiredTech": "Infrastructure",
 		"uniques": [
 			"Provides [4] [Power]",
 			"Provides [1] [Power] <if [Electrical Corporation] is constructed>",
@@ -2507,29 +2506,33 @@
 	},
 	{
 		"name": "Coal Plant",
-		"requiredResource": "Coal",
-		"cost": 360,
+		"cost": 720,
 		"happiness": -10,
 		"maintenance": 4,
 		"requiredTech": "Electricity",
 		"uniques": [
-			"Provides [5] [Power]",
-			"Provides [5] [Power] <if [Electrical Corporation] is constructed>"
+			"Consumes [2] [Coal] <before discovering [Particle Physics]>",
+			"Provides [7] [Power]",
+			"Provides [7] [Power] <if [Electrical Corporation] is constructed>",
+			"[+10 Happiness] [in this city] <after discovering [Particle Physics]>"
 		]
 	},
 	{
 		"name": "Nuclear Plant",
+		"cost": 3120,
 		"happiness": -6,
 		"maintenance": 20,
 		"requiredTech": "Nuclear Fission",
 		"uniques": [
-			"Consumes [1] [Uranium] <before discovering [Particle Physics]>",
-			"Provides [9] [Power]",
-			"Provides [9] [Power] <if [Electrical Corporation] is constructed>"
+			"Consumes [2] [Uranium] <before discovering [Particle Physics]>",
+			"Provides [18] [Power]",
+			"Provides [18] [Power] <if [Electrical Corporation] is constructed>",
+			"[+6 Happiness] [in this city] <after discovering [Particle Physics]>"
 		]
 	},
 	{
 		"name": "Energy Reactor",
+		"cost": 11000,
 		"maintenance": 12,
 		"requiredTech": "Particle Physics",
 		"uniques": [
@@ -2539,13 +2542,13 @@
 	},
 	{
 		"name": "Recycling Center",
-		"requiredTech": "Ecology",
 		"production": 2,
 		"happiness": -6,
 		"maintenance": 2,
 		"percentStatBonus": {
 			"production": 5,
 		},
+		"requiredTech": "Ecology",
 		"uniques": [
 			"Consumes [2] [Power]",
 			"Provides [1] [Aluminum]"
@@ -2563,26 +2566,25 @@
 	},
 	{
 		"name": "Spaceship Factory",
+		"cost": 1500,
 		"production": 4,
 		"gold": 10,
 		"specialistSlots": {
 			"Spacefarer": 1
 		},
-		"cost": 1500,
 		"requiredTech": "Robotics",
 		"requiredBuilding": "Factory",
 		"uniques": [
 			"Consumes [4] [Power]",
 			"Space",
 			"[+33]% Production when constructing [Space] units [in this city]",
-			"[+33]% Production when constructing [Space] buildings [in this city]",
-			"Unsellable"
+			"[+33]% Production when constructing [Space] buildings [in this city]"
 		]
 	},
 	{
 		"name": "Stadium",
-		"happiness": 4,
 		"cost": 500,
+		"happiness": 4,
 		"maintenance": 6,
 		"requiredTech": "Refrigeration",
 		"uniques": [
@@ -2592,10 +2594,10 @@
 	},
 	{
 		"name": "Virtual Space",
+		"cost": 850,
 		"happiness": 2,
 		"maintenance": 4,
 		"requiredTech": "Artificial Intelligence",
-		"cost": 850,
 		"uniques": [
 			"Consumes [4] [Power]",
 			"[+1 Happiness] per [8] population [in this city]",
@@ -2604,15 +2606,15 @@
 	},
 	{
 		"name": "Private Grid",
-		"requiredTech": "The Internet",
+		"maintenance": 5,
 		"percentStatBonus": {
 			"science": 10
 		},
 		"specialistSlots": {
 			"Scientist": 1
 		},
+		"requiredTech": "The Internet",
 		"requiredBuilding": "Research Lab",
-		"maintenance": 5,
 		"uniques": [
 			"Consumes [2] [Power]",
 			"Unsellable"
@@ -2620,13 +2622,13 @@
 	},
 	{
 		"name": "Defense Complex",
+		"cost": 850,
 		"cityStrength": 24,
 		"cityHealth": 50,
-		"cost": 850,
-		"requiredBuilding": "Military Base",
 		"requiredTech": "Combined Arms",
-		"requiredResource": "Power",
+		"requiredBuilding": "Military Base",
 		"uniques": [
+			"Consumes [1] [Power]",
 			"Destroyed when the city is captured"
 		]
 	},
@@ -2644,14 +2646,14 @@
 	{
 		"name": "Nano-Factory",
 		"production": 2,
+		"maintenance": 6,
 		"percentStatBonus": {
 			"production": 25
 		},
-		"maintenance": 6,
 		"requiredTech": "Nanotechnology",
 		"requiredBuilding": "Factory",
 		"uniques": [
-			"Consumes [4] [Power]",
+			"Consumes [8] [Power]",
 			"Provides [2] [Composites]"
 		]
 	},
@@ -2661,7 +2663,7 @@
 		"production": 2,
 		"maintenance": 6,
 		"uniques": [
-			"Consumes [4] [Power]",
+			"Consumes [16] [Power]",
 			"Provides [8] [Composites]",
 			"Only available <if [EP-Cyber Engineering] is constructed>"
 		]
@@ -2673,20 +2675,7 @@
 		"maintenance": 15,
 		"requiredTech": "Stealth",
 		"uniques": [
-			"Consumes [12] [Power]",
-			"Consumes [6] [Coal]",
-			"Provides [1] [SM Composites]"
-		]
-	},
-	{
-		"name": "SM Composite Factory 2",
-		"cost": 4000,
-		"production": 2,
-		"maintenance": 15,
-		"requiredTech": "Stealth",
-		"uniques": [
-			"Consumes [12] [Power]",
-			"Consumes [8] [Oil]",
+			"Consumes [36] [Power]",
 			"Provides [1] [SM Composites]"
 		]
 	},
@@ -2743,8 +2732,8 @@
 		},
 		"requiredTech": "Lasers",
 		"uniques": [
-			"Consumes [8] [Power]",
 			"Space",
+			"Consumes [16] [Power]",
 			"[-10]% growth [in this city]",
 			"Never destroyed when the city is captured"
 		]
@@ -2762,16 +2751,16 @@
 		"requiredTech": "Spaceflight",
 		"requiredBuilding": "Space Station",
 		"uniques": [
-			"Consumes [12] [Power]",
 			"Space",
+			"Consumes [24] [Power]",
 			"[-25]% growth [in this city]",
 			"Never destroyed when the city is captured"
 		]
 	},
 	{
 		"name": "SP-Innovation",
-		"cost": 1,
 		"isNationalWonder": true,
+		"cost": 1,
 		"uniques": [
 			"Comment [Industrial Perk]",
 			"[+2 Science] from [Mine] tiles [in all cities]",
