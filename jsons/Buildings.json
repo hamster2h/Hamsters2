@@ -447,6 +447,21 @@
 		]
     },
 	{
+		"name": "Stock Exchange",
+		"gold": 4,
+		"percentStatBonus": {
+			"gold": 10
+		},
+		"specialistSlots": {
+			"Merchant": 2
+		},
+		"requiredTech": "Electricity",
+		"requiredBuilding": "Bank",
+		"uniques": [
+			"[+15]% [Gold] [in this city] <with [Power]>"
+		]
+	},
+	{
 		"name": "Barracks",
 		"maintenance": 1,
 		"requiredTech": "Bronze Working",
@@ -2392,21 +2407,6 @@
 		"requiredBuilding": "Aqueduct",
 		"uniques": [
 			"[+5]% [Food] [in this city] <with [Power]>"
-		]
-	},
-	{
-		"name": "Stock Exchange",
-		"gold": 4,
-		"percentStatBonus": {
-			"gold": 5
-		},
-		"specialistSlots": {
-			"Merchant": 2
-		},
-		"requiredTech": "Electricity",
-		"requiredBuilding": "Bank",
-		"uniques": [
-			"[+10]% [Gold] [in this city] <with [Power]>"
 		]
 	},
 	{
