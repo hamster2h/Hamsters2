@@ -476,6 +476,7 @@
 		"gold": 2,
 		"happiness": 2,
 		"uniques": [
+			"Cannot be built on [Mountain] tiles",
 			"Removes removable features when built",
 			"[+1 Gold, +1 Culture] <within [2] tiles of a [Water Tower]>",
 			"[+1 Gold, +1 Culture] <within [2] tiles of a [Water Tower]> <after adopting [Safety Checks]>",
@@ -510,6 +511,7 @@
 		"production": 3,
 		"uniques": [
 			"[+4 Happiness, +2 Gold] <in [Luxury resource] tiles>",
+			"Cannot be built on [Mountain] tiles",
 			"Removes removable features when built",
 			"[+2 Production, +1 Food, +1 Gold] <after discovering [Urbanization]>",
 			"[+2 Production, +1 Food, +1 Gold] <after discovering [Globalization]>",
@@ -547,6 +549,7 @@
 		"uniques": [
 			"Provides [6] [Power]",
 			"Comment [Infrastructure]",
+			"Cannot be built on [Mountain] tiles",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+100 Gold]",
 			"Will not be replaced by automated units"
@@ -562,6 +565,7 @@
 		"uniques": [
 			"[+4 Food, +4 Gold] <in [Strategic resource] tiles>",
 			"[+4 Food, +4 Gold] <in [Bonus resource] tiles>",
+			"Cannot be built on [Mountain] tiles",
 			"Removes removable features when built",
 			"[+1 Food, +1 Gold] <within [2] tiles of a [Water Tower]>",
 			"[+1 Food, +1 Gold] <within [2] tiles of a [Water Tower]> <after adopting [Safety Checks]>",
@@ -583,6 +587,7 @@
 		"food": 6,
 		"uniques": [
 			"Comment [Infrastructure]",
+			"Cannot be built on [Mountain] tiles",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+100 Gold]",
 			"Will not be replaced by automated units"
@@ -597,6 +602,7 @@
 		"production": 6,
 		"uniques": [
 			"Comment [Infrastructure]",
+			"Cannot be built on [Mountain] tiles",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+100 Gold]",
 			"Will not be replaced by automated units"
@@ -613,6 +619,7 @@
 		],
 		"uniques": [
 			"Comment [Infrastructure]",
+			"Cannot be built on [Mountain] tiles",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+100 Gold]",
 			"Will not be replaced by automated units"
@@ -627,6 +634,8 @@
 		"science": 6,
 		"uniques": [
 			"Great Improvement",
+			"Cannot be built on [Mountain] tiles",
+			"Removes removable features when built",
 			"Provides [1] [Scientist Perk] <starting from the [Industrial era]>",
 			"[+3 Science] <after discovering [Astronomy]>",
 			"[+3 Science] <after discovering [Scientific Theory]>",
@@ -638,7 +647,6 @@
 			"[+2 Science] <within [2] tiles of a [Residential]> <after adopting [Safety Checks]>",
 			"[+2 Science] <within [2] tiles of a [Citadel]>",
 			"[+2 Science] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
-			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+20 Gold]",
 			"Tile provides yield without assigned population",
 			"Will not be replaced by automated units"
@@ -652,6 +660,8 @@
 		"culture": 6,
 		"uniques": [
 			"Great Improvement",
+			"Cannot be built on [Mountain] tiles",
+			"Removes removable features when built",
 			"Provides [1] [Artist Perk] <starting from the [Industrial era]>",
 			"[+3 Culture] <after discovering [Acoustics]>",
 			"[+3 Culture] <after discovering [Archaeology]>",
@@ -663,7 +673,6 @@
 			"[+1 Gold, +1 Culture] <within [2] tiles of a [Residential]> <after adopting [Safety Checks]>",
 			"[+1 Gold, +1 Culture] <within [2] tiles of a [Citadel]>",
 			"[+1 Gold, +1 Culture] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
-			"Removes removable features when built",
 			"Can be built just outside your borders",
 			"Gain control over [all] tiles in a [1]-tile radius",
 			"Pillaging this improvement yields approximately [+20 Gold]",
@@ -679,6 +688,8 @@
 		"production": 4,
 		"uniques": [
 			"Great Improvement",
+			"Cannot be built on [Mountain] tiles",
+			"Removes removable features when built",
 			"Provides [1] [Engineer Perk] <starting from the [Industrial era]>",
 			"[+2 Production] <after discovering [Chemistry]>",
 			"[+2 Production] <after discovering [Industrialization]>",
@@ -694,7 +705,6 @@
 			"[+2 Production] <within [2] tiles of a [Citadel]>",
 			"[+2 Production] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
 			"[+2 Production] <within [2] tiles of a [Citadel]> <if [Engineering Corporation] is constructed>",
-			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+20 Gold]",
 			"Tile provides yield without assigned population",
 			"Will not be replaced by automated units"
@@ -708,6 +718,8 @@
 		"gold": 6,
 		"uniques": [
 			"Great Improvement",
+			"Cannot be built on [Mountain] tiles",
+			"Removes removable features when built",
 			"Provides [1] [Merchant Perk] <starting from the [Industrial era]>",
 			"[+3 Gold] <after discovering [Economics]>",
 			"[+3 Gold] <after discovering [Steam Power]>",
@@ -719,7 +731,6 @@
 			"[+2 Gold] <within [2] tiles of a [Residential]> <after adopting [Safety Checks]>",
 			"[+2 Gold] <within [2] tiles of a [Citadel]>",
 			"[+2 Gold] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
-			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+20 Gold]",
 			"Tile provides yield without assigned population",
 			"Will not be replaced by automated units"
@@ -733,6 +744,8 @@
 		"faith": 6,
 		"uniques": [
 			"Great Improvement",
+			"Cannot be built on [Mountain] tiles",
+			"Removes removable features when built",
 			"Provides [1] [Prophet Perk] <starting from the [Industrial era]>",
 			"[+3 Faith] <after discovering [Theology]>",
 			"[+3 Faith] <after discovering [Printing Press]>",
@@ -744,7 +757,6 @@
 			"[+1 Gold, +1 Faith] <within [2] tiles of a [Residential]> <after adopting [Safety Checks]>",
 			"[+1 Gold, +1 Faith] <within [2] tiles of a [Citadel]>",
 			"[+1 Gold, +1 Faith] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
-			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+20 Gold]",
 			"Tile provides yield without assigned population",
 			"Will not be replaced by automated units"
@@ -758,10 +770,11 @@
 		"production": 3,
 		"uniques": [
 			"Great Improvement",
+			"Cannot be built on [Mountain] tiles",
+			"Removes removable features when built",
 			"Provides [1] [General Perk] <starting from the [Industrial era]>",
 			"[+1 Happiness, +1 Production] <after discovering [Metal Casting]>",
 			"[+2 Gold] <after discovering [Banking]>",
-			"Removes removable features when built",
 			"Can be built outside your borders",
 			"Gain control over [all] tiles in a [2]-tile radius",
 			"Gives a defensive bonus of [100]%",
@@ -786,6 +799,7 @@
 		"turnsToBuild": 12,
 		"techRequired": "Engineering",
 		"uniques": [
+			"Cannot be built on [Mountain] tiles",
 			"[+1 Production] from [Snow] tiles <after discovering [Metal Casting]>",
 			"Can be built outside your borders",
 			"Gain control over [all] tiles in a [1]-tile radius",
@@ -802,6 +816,8 @@
 		"culture": 6,
 		"uniques": [
 			"Great Improvement",
+			"Cannot be built on [Mountain] tiles",
+			"Removes removable features when built",
 			"Provides [1] [Scientist Perk] <starting from the [Industrial era]>",
 			"Provides [1] [Artist Perk] <starting from the [Industrial era]>",
 			"[+2 Science] <within [2] tiles of a [Water Tower]>",
@@ -812,7 +828,6 @@
 			"[+1 Culture, +1 Science] <within [2] tiles of a [Residential]> <after adopting [Safety Checks]>",
 			"[+1 Production, +1 Science] <within [2] tiles of a [Citadel]>",
 			"[+1 Production, +1 Science] <within [2] tiles of a [Citadel]> <after adopting [Coalition Complete]>",
-			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+40 Gold]",
 			"Tile provides yield without assigned population",
 			"Will not be replaced by automated units"
@@ -829,6 +844,7 @@
 		"turnsToBuild": 8,
 		"uniques": [
 			"Can only be built on [Coastal] tiles",
+			"Cannot be built on [Mountain] tiles",
 			"[+2 Culture, +1 Gold] for each adjacent [Moai]",
 			"[+1 Gold] <after discovering [Navigation]>",
 			"[+2 Gold] <within [2] tiles of a [Water Tower]>",
