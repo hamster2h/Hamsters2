@@ -2386,7 +2386,11 @@
 		"requiredBuilding": "University",
 		"uniques": [
 			"Only available <after adopting [Rationalism Complete]>",
-			"[+1 Science] per [2] population [in this city]",
+			"[+1 Science] per [1] population [in this city]",
+			"[+25]% [Science] [in this city] <during the [Modern era]>",
+			"[+50]% [Science] [in this city] <during the [Atomic era]>",
+			"[+75]% [Science] [in this city] <during the [Information era]>",
+			"[+100]% [Science] [in this city] <starting from the [Future era]>",
 			"[+25]% [Production] [in this city] <during the [Modern era]>",
 			"[+50]% [Production] [in this city] <during the [Atomic era]>",
 			"[+75]% [Production] [in this city] <starting from the [Information era]>",
