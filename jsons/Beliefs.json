@@ -230,6 +230,14 @@
             "[+6 Production] [in cities following this religion] <in cities with at least [1] [Specialists]>"
         ]
     },
+	{
+        "name": "Genocide Survivors",
+        "type": "Follower",
+        "uniques": [
+			"[-1 Gold] per [4] population [in cities following this religion]",
+			"[+1 Gold] per [4] population [in all cities]"
+        ]
+    },
     {
         "name": "Holy Warriors",
         "type": "Follower",
