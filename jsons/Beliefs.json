@@ -211,6 +211,7 @@
         "name": "Devil's Bath Boys",
         "type": "Follower",
         "uniques": [
+			"May buy [Cathedral] buildings with [Faith] [in cities following this religion]",
 			"[-1 Happiness, -1 Gold] per [4] population [in cities following this religion]",
 			"[+1000]% weight to this choice for AI decisions"
         ]
@@ -330,9 +331,7 @@
         "name": "Hell's Chosen",
         "type": "Founder",
         "uniques": [
-			"[+1 Happiness, +1 Gold] from every [2] global followers [in foreign cities]",
-			"[+1 Happiness] from every [2] global followers [in enemy cities]",
-			"[+100]% weight to this choice for AI decisions"
+			"[+1 Happiness, +1 Gold] from every [4] global followers [in foreign cities]"
         ]
     },
     {
