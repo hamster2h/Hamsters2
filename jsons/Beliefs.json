@@ -328,7 +328,7 @@
     },
 	{
         "name": "Hell's Chosen",
-        "type": "Follower",
+        "type": "Founder",
         "uniques": [
 			"[+1 Happiness, +1 Gold] from every [1] global followers [in foreign cities]",
 			"[+1 Happiness] from every [1] global followers [in enemy cities]",
