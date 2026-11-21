@@ -326,6 +326,14 @@
             "[+4 Gold] for each global city following this religion"
         ]
     },
+	{
+        "name": "Hell's Chosen",
+        "type": "Follower",
+        "uniques": [
+			"[+1 Happiness, +1 Gold] from every [1] global followers [in foreign cities]",
+			"[+100]% weight to this choice for AI decisions"
+        ]
+    },
     {
         "name": "Initiation Rites",
         "type": "Founder",
