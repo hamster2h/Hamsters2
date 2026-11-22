@@ -211,7 +211,7 @@
         "name": "Devil's Bath Boys",
         "type": "Follower",
         "uniques": [
-			"[-1 Happiness, -1 Gold] per [4] population [in cities following this religion]"
+			"[-1 Happiness, -1 Science, -1 Culture] per [4] population [in cities following this religion]"
         ]
     },
     {
