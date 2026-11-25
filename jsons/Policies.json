@@ -560,7 +560,7 @@
                 "name": "Rationalism Complete",
                 "uniques": [
 					"Gain an extra spy",
-					"Comment [Enables construction of Research City]",
+					"Comment [Enables construction of Research Cities]",
                     "May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500])",
                     "Get the leader title of [[leaderName] the Wise]"
                 ]
@@ -687,7 +687,7 @@
             {
                 "name": "Fascism",
                 "uniques": [
-					"Comment [Enables construction of Concentration Camp]",
+					"Comment [Enables construction of Concentration Camps]",
                     "[+100]% [Strategic] resource production",
                     "[+2] Movement <for [Great General] units>"
                 ],
