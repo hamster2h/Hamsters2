@@ -3173,7 +3173,9 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Industrial Perk]",
-			"[+25]% [Production] [in all cities] <in cities with less than [12] [Population]>",
+			"[+50]% growth [in all cities] <in cities with less than [12] [Population]>",
+			"[+15 Production, +4 Happiness] [in all cities] <in cities with less than [12] [Population]>",
+			"[+6 Production, +1 Happiness] [in all cities]",
 			"[Gold] cost of purchasing [Settler] units [-25]%",
 			"[-25]% Gold cost of acquiring tiles [in all cities]",
 			"Only available <during the [Industrial era]>",
@@ -3218,8 +3220,10 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Modern Perk]",
-			"Gain [40] Influence with a [Military] gift to a City-State",
+			"[+4 Production, +1 Science] from every [Industrial Complex]",
+			"[+2 Production, +2 Gold, +2 Science] from every [Industry]",
 			"[Gold] cost of purchasing [Military] units [-10]%",
+			"Gain [40] Influence with a [Military] gift to a City-State",
 			"Only available <starting from the [Modern era]>",
 			"Consumes [1] [Merchant Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
