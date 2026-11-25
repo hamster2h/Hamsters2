@@ -3066,7 +3066,7 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Modern Perk]",
-			"Comment [Enables construction of Triplanes and Landships]",
+			"Comment [Enables construction of Landships and Triplanes]",
 			"[+10]% Strength <for [Armored] units>",
 			"[+10]% Strength <for [Air] units>",
 			"Only available <starting from the [Modern era]>",
@@ -3106,8 +3106,8 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Atomic Perk]",
-			"[+10]% growth [in all cities]",
-			"[+4 Production] [in all cities]",
+			"[+15]% growth [in all cities]",
+			"[+6 Production] [in all cities]",
 			"Only available <starting from the [Atomic era]>",
 			"Consumes [1] [Engineer Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
@@ -3148,7 +3148,7 @@
 		"uniques": [
 			"Comment [Future Perk]",
 			"Comment [Enables construction of [Bio Facility]]",
-			"[+5]% [Gold] [in all cities]",
+			"[+25]% [Food] [in all cities]",
 			"Only available <starting from the [Future era]>",
 			"Consumes [2] [Engineer Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
@@ -3191,9 +3191,8 @@
 			"Comment [Industrial Perk]",
 			"[+1 Gold] from [Road] tiles [in all cities]",
 			"[+2 Gold] from [Railroad] tiles [in all cities]",
-			"[+1] Movement <for [Civilian] units>",
 			"Only available <starting from the [Industrial era]>",
-			"Consumes [2] [Merchant Perk]",
+			"Consumes [1] [Merchant Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		],
 		"greatPersonPoints": {
@@ -3221,11 +3220,11 @@
 		"uniques": [
 			"Comment [Modern Perk]",
 			"[+4 Production, +1 Science] from every [Industrial Complex]",
-			"[+2 Production, +2 Gold, +2 Science] from every [Industry]",
+			"[+2 Production, +2 Gold, +4 Science] from every [Industry]",
 			"[Gold] cost of purchasing [Military] units [-10]%",
 			"Gain [40] Influence with a [Military] gift to a City-State",
 			"Only available <starting from the [Modern era]>",
-			"Consumes [1] [Merchant Perk]",
+			"Consumes [2] [Merchant Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
 	},
@@ -3237,7 +3236,7 @@
 			"Comment [Modern Perk]",
 			"[+2 Gold] from every [Colosseum]",
 			"[+2 Gold] from every [Theatre]",
-			"[+2 Gold] from every [Stadium]",
+			"[+4 Gold] from every [Stadium]",
 			"Only available <starting from the [Modern era]>",
 			"Consumes [1] [Merchant Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
