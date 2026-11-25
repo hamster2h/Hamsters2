@@ -3189,10 +3189,10 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Industrial Perk]",
-			"[+1 Gold] from [Road] tiles [in all cities]",
-			"[+2 Gold] from [Railroad] tiles [in all cities]",
+			"[+1 Gold, +1 Science] from [Road] tiles [in all cities]",
+			"[+2 Gold, +2 Science] from [Railroad] tiles [in all cities]",
 			"Only available <starting from the [Industrial era]>",
-			"Consumes [1] [Merchant Perk]",
+			"Consumes [2] [Merchant Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		],
 		"greatPersonPoints": {
