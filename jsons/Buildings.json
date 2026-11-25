@@ -3205,8 +3205,7 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Industrial Perk]",
-			"[+10]% Strength <for [{Military} {Water}] units>",
-			"[+25]% Strength <for [{Military} {Water}] units> <when defending>",
+			"All newly-trained [{Military} {Water}] units [in all cities] receive the [Heavy Ship] promotion",
 			"[+25]% Production when constructing [{Military} {Water}] units [in all cities]",
 			"Only available <starting from the [Industrial era]>",
 			"Consumes [2] [Merchant Perk]",
