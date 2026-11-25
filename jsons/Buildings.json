@@ -2933,7 +2933,7 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Modern Perk]",
-			"Comment [Enables construction of History Museum]",
+			"Comment [Enables construction of History Museums]",
 			"Provides [1] [Fossil]",
 			"Only available <starting from the [Modern era]>",
 			"Consumes [1] [Artist Perk]",
@@ -3147,7 +3147,7 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Future Perk]",
-			"Comment [Enables construction of [Bio Facility]]",
+			"Comment [Enables construction of [Bio Facilities]]",
 			"[+25]% [Food] [in all cities]",
 			"Only available <starting from the [Future era]>",
 			"Consumes [2] [Engineer Perk]",
@@ -3160,7 +3160,7 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Future Perk]",
-			"Comment [Enables construction of [Composite Factory]]",
+			"Comment [Enables construction of [Composite Factories]]",
 			"[+10]% [Production] [in all cities]",
 			"Only available <starting from the [Future era]>",
 			"Consumes [1] [Engineer Perk]",
@@ -3248,7 +3248,7 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Atomic Perk]",
-			"Comment [Enables construction of [Branch Office]]",
+			"Comment [Enables construction of [Branch Offices]]",
 			"[+25]% Production when constructing [Corporate] units [in all cities]",
 			"[Gold] cost of purchasing [Corporate] units [-10]%",
 			"Only available <starting from the [Atomic era]>",
@@ -3302,7 +3302,7 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Future Perk]",
-			"Comment [Enables construction of [Adaptive Base]]",
+			"Comment [Enables construction of [Adaptive Bases]]",
 			"[+2 Food, -1 Gold] from every [Coast]",
 			"[+2 Food, -1 Gold] from every [Ocean]",
 			"Only available <starting from the [Future era]>",
