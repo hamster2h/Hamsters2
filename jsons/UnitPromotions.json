@@ -261,22 +261,6 @@
 		]
 	},
 	{
-		"name": "S-VLS",
-		"uniques": [
-			"Can carry [8] [Missile] units",
-			"Can carry [4] extra [Missile] units <after adopting [Order]>"
-		]
-	},
-	{
-		"name": "L-VLS",
-		"uniques": [
-			"Can carry [4] [Missile] units",
-			"Can carry [6] [Big Missile] units",
-			"Can carry [4] extra [Big Missile] units <after adopting [Order]>",
-			"[This Unit] loses the [S-VLS] promotion"
-		]
-	},
-	{
 		"name": "Quick Study",
 		"uniques": [
 			"[+50]% XP gained from combat"
@@ -1448,17 +1432,41 @@
 		]
 	},
 	{
-        "name": "Devout",
-        "uniques": [
-			"Can Spread Religion <[1] additional time(s)>"
+		"name": "S-VLS",
+		"uniques": [
+			"Can carry [8] [Missile] units",
+			"Can carry [4] extra [Missile] units <after adopting [Order]>"
 		]
-    },
+	},
+	{
+		"name": "L-VLS",
+		"uniques": [
+			"Can carry [4] [Missile] units",
+			"Can carry [6] [Big Missile] units",
+			"Can carry [4] extra [Big Missile] units <after adopting [Order]>",
+			"[This Unit] loses the [S-VLS] promotion"
+		]
+	},
+	{
+		"name": "Heavy Ship",
+		"uniques": [
+			"[+10]% Strength",
+			"[+25]% Strength <when defending>",
+			"[-1] Movement"
+		]
+	},
 	{
 		"name": "Ignore terrain cost",
 		"uniques": [
 			"Ignores terrain cost"
 		]
 	},
+	{
+        "name": "Devout",
+        "uniques": [
+			"Can Spread Religion <[1] additional time(s)>"
+		]
+    },
 	{
 		"name": "Support Unit",
 		"uniques": [
