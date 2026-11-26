@@ -1456,6 +1456,12 @@
 		]
 	},
 	{
+		"name": "Tactical Bomber",
+		"uniques": [
+			"[+25]% Strength <vs [Land] units>"
+		]
+	},
+	{
 		"name": "Ignore terrain cost",
 		"uniques": [
 			"Ignores terrain cost"
