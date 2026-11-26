@@ -339,6 +339,13 @@ BuildingIcons/GP-Conscription
   orig: 200, 200
   offset: 0, 0
   index: -1
+BuildingIcons/GP-Tactical Bombers
+  rotate: false
+  xy: 212, 1428
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 BuildingIcons/GP-Energy Weapons
   rotate: false
   xy: 212, 1428
