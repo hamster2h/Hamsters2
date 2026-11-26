@@ -3511,14 +3511,26 @@
 		]
 	},
 	{
-		"name": "GP-Navy First",
+		"name": "GP-Tactical Bombers",
 		"isNationalWonder": true,
 		"cost": 1,
 		"uniques": [
 			"Comment [Modern Perk]",
+			"All newly-trained [Bomber] units [in all cities] receive the [Tactical Bomber] promotion",
+			"Only available <starting from the [Modern era]>",
+			"Consumes [1] [General Perk]",
+			"[-2 Culture] [in this city] <after adopting [Constitution]>"
+		]
+	},
+	{
+		"name": "GP-Navy First",
+		"isNationalWonder": true,
+		"cost": 1,
+		"uniques": [
+			"Comment [Atomic Perk]",
 			"[+25]% Strength <for [{Military} {Water}] units>",
 			"[+25]% Production when constructing [{Military} {Water}] units [in all cities]",
-			"Only available <starting from the [Modern era]>",
+			"Only available <starting from the [Atomic era]>",
 			"Consumes [1] [General Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
@@ -3528,15 +3540,14 @@
 		"isNationalWonder": true,
 		"cost": 1,
 		"uniques": [
-			"Comment [Modern Perk]",
+			"Comment [Atomic Perk]",
 			"[+25]% Strength <for [{Military} {Air}] units>",
 			"[+25]% Production when constructing [{Military} {Air}] units [in all cities]",
-			"Only available <starting from the [Modern era]>",
+			"Only available <starting from the [Atomic era]>",
 			"Consumes [1] [General Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
 	},
-	//missing 2+ atomic general perks,
 	{
 		"name": "GP-National Defense",
 		"isNationalWonder": true,
