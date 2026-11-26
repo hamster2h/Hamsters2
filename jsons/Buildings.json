@@ -2644,7 +2644,8 @@
 		},
 		"uniques": [
 			"Consumes [1] [Power]",
-			"Only available <if [EP-Genetic Engineering] is constructed>"
+			"Only available <if [EP-Genetic Engineering] is constructed>",
+			"[+2 Food] from [All] tiles [in this city]"
 		]
 	},
 	{
@@ -3148,7 +3149,7 @@
 		"uniques": [
 			"Comment [Future Perk]",
 			"Comment [Enables construction of [Bio Facilities]]",
-			"[+25]% [Food] [in all cities]",
+			"[+10]% [Gold] [in all cities]",
 			"Only available <starting from the [Future era]>",
 			"Consumes [2] [Engineer Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
@@ -3162,8 +3163,9 @@
 			"Comment [Future Perk]",
 			"Comment [Enables construction of [Composite Factories]]",
 			"[+25]% [Production] [in all cities]",
+			"[+10]% [Gold] [in all cities]",
 			"Only available <starting from the [Future era]>",
-			"Consumes [1] [Engineer Perk]",
+			"Consumes [2] [Engineer Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
 	},
