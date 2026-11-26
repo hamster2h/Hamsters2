@@ -1458,7 +1458,8 @@
 	{
 		"name": "Tactical Bomber",
 		"uniques": [
-			"[+25]% Strength <vs [Land] units>"
+			"[-2] Range",
+			"[+50]% Strength <vs [Land] units>"
 		]
 	},
 	{
