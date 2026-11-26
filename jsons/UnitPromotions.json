@@ -1459,6 +1459,8 @@
 		"name": "Tactical Bomber",
 		"uniques": [
 			"[-2] Range",
+			"[+2] Range <for [Atomic Bomb] units>",
+			"[+2] Range <for [Aurora Bomber] units>",
 			"[+50]% Strength <vs [Land] units>"
 		]
 	},
