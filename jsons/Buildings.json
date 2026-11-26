@@ -3455,6 +3455,21 @@
 		]
 	},
 	{
+		"name": "GP-Conscription",
+		"isNationalWonder": true,
+		"cost": 1,
+		"uniques": [
+			"Comment [Industrial Perk]",
+			"[+100]% Production when constructing [Rifleman] units [in all cities]",
+			"[+100]% Production when constructing [Infantry] units [in all cities]",
+			"[+2 Production] from every [General]",
+			"[+8 Gold] from [Citadel] tiles [in all cities]",
+			"Only available <starting from the [Industrial era]>",
+			"Consumes [1] [General Perk]",
+			"[-2 Culture] [in this city] <after adopting [Constitution]>"
+		]
+	},
+	{
 		"name": "GP-Modernization",
 		"isNationalWonder": true,
 		"cost": 1,
@@ -3473,8 +3488,8 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Industrial Perk]",
-			"[+10]% Strength <for [All] units>",
-			"[+25]% Strength <for [All] units> <vs cities>",
+			"[+25]% Strength <for [All] units>",
+			"[+10]% Strength <for [All] units> <vs cities>",
 			"Only available <starting from the [Industrial era]>",
 			"Consumes [1] [General Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
@@ -3488,7 +3503,8 @@
 			"Comment [Modern Perk]",
 			"Comment [Enables construction of Great War Infantry and Great War Bombers]",
 			"[+1 Production, +1 Science] from every [General]",
-			"[+10]% Strength <for [All] units>",
+			"[+25]% Strength <for [All] units>",
+			"[+100]% Strength for cities",
 			"Only available <starting from the [Modern era]>",
 			"Consumes [1] [General Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
@@ -3508,31 +3524,19 @@
 		]
 	},
 	{
-		"name": "GP-Conscription",
-		"isNationalWonder": true,
-		"cost": 1,
-		"uniques": [
-			"Comment [Atomic Perk]",
-			"[+2 Production] from every [General]",
-			"[+8 Gold] from [Citadel] tiles [in all cities]",
-			"Only available <starting from the [Atomic era]>",
-			"Consumes [1] [General Perk]",
-			"[-2 Culture] [in this city] <after adopting [Constitution]>"
-		]
-	},
-	{
 		"name": "GP-Finest Hour",
 		"isNationalWonder": true,
 		"cost": 1,
 		"uniques": [
-			"Comment [Atomic Perk]",
+			"Comment [Modern Perk]",
 			"[+25]% Strength <for [{Military} {Air}] units>",
 			"[+25]% Production when constructing [{Military} {Air}] units [in all cities]",
-			"Only available <starting from the [Atomic era]>",
+			"Only available <starting from the [Modern era]>",
 			"Consumes [1] [General Perk]",
 			"[-2 Culture] [in this city] <after adopting [Constitution]>"
 		]
 	},
+	//missing 2+ atomic general perks,
 	{
 		"name": "GP-National Defense",
 		"isNationalWonder": true,
