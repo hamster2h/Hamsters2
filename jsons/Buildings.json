@@ -2839,6 +2839,8 @@
 			"[+10]% Production when constructing [Nuclear Carrier] units [in all cities] <before discovering [Particle Physics]>",
 			"[+10]% Production when constructing [Giant Death Robot] units [in all cities] <before discovering [Particle Physics]>",
 			"[+25]% Production when constructing [Nuclear Plant] buildings [in all cities] <before discovering [Particle Physics]>",
+			"[Gold] cost of purchasing [Atomic Bomb] units [-10]%",
+			"[Gold] cost of purchasing [Aurora Bomber] units [-10]%",
 			"[Gold] cost of purchasing [Missile] units [-10]%",
 			"[Gold] cost of purchasing [Big Missile] units [-10]%",
 			"Only available <starting from the [Atomic era]>",
