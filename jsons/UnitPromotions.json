@@ -993,6 +993,19 @@
 		]
 	},
 	{
+		"name": "Strategic Bombing",
+		"prerequisites": [
+			"Bombardment III"
+		],
+		"uniques": [
+			"Destroys tile improvements when attacking",
+			"[+25]% Strength <vs [Land] units>"
+		],
+		"unitTypes": [
+			"Bomber"
+		]
+	},
+	{
 		"name": "Siege I",
 		"uniques": [
 			"[+33]% Strength <vs cities>",
