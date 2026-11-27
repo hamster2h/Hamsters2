@@ -49,7 +49,6 @@
 			"Can see invisible [Ngao Kongo] units",
 			"Can pass through impassable tiles",
 			"Ignores terrain cost",
-			"Unable to capture cities",
 			"Withdraws before melee combat <with [33]% chance>"
         ]
     },
