@@ -2675,13 +2675,13 @@
 	},
 	{
 		"name": "SM Composite Factory",
-		"cost": 4000,
+		"cost": 8000,
 		"production": 2,
 		"maintenance": 15,
 		"requiredTech": "Stealth",
 		"uniques": [
 			"Consumes [36] [Power]",
-			"Provides [1] [SM Composites]"
+			"Provides [4] [SM Composites]"
 		]
 	},
 	{
