@@ -163,7 +163,7 @@
         "uniques": [
 			"[+2 Culture] from [Forest] tiles [in cities following this religion]",
 			"[+2 Culture] from [Jungle] tiles [in cities following this religion]",
-			"All newly-trained [Land] units [in cities following this religion] receive the [Mobility] promotion"
+			"All newly-trained [Worker] units [in cities following this religion] receive the [Mobility] promotion"
         ]
     },
     {
